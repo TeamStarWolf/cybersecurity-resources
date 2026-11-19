@@ -120,7 +120,7 @@ A bookmark collection weighted toward vulnerability management and threat intell
 - [Oracle Critical Patch Updates](https://www.oracle.com/security-alerts/)
 - [SAP Security Notes](https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html)
 - [IBM PSIRT / Security Bulletins](https://www.ibm.com/trust/security-psirt)
-- [Adobe Security Bulletins](https://helpx.adobe.com/security/security-bulletin.html)
+- [Adobe Security Bulletins](https://www.adobe.com/trust/security/bulletins-and-advisories.html)
 - [Atlassian Security Advisories](https://www.atlassian.com/trust/security/advisories)
 - [GitLab Advisory Database](https://advisories.gitlab.com/)
 - [Jenkins Security Advisories](https://www.jenkins.io/security/advisories/)
