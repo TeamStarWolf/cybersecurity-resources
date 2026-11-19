@@ -1,13 +1,13 @@
 # Cybersecurity Resources
 
-A curated, vulnerability-management- and threat-intelligence-first collection of security bookmarks.
+A bookmark collection weighted toward vulnerability management and threat intelligence. This page lists the same links as `bookmarks.html`, folder by folder; the [README](README.md) explains how to import them.
 
 
 ## ⭐ Daily Driver
 
-- [NVD — National Vulnerability Database](https://nvd.nist.gov/)
-- [CISA KEV — Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- [FIRST EPSS — Exploit Prediction Scoring](https://www.first.org/epss/)
+- [NVD: National Vulnerability Database](https://nvd.nist.gov/)
+- [CISA KEV: Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+- [FIRST EPSS: Exploit Prediction Scoring System](https://www.first.org/epss/)
 - [VulnCheck](https://vulncheck.com/)
 - [MITRE ATT&CK](https://attack.mitre.org/)
 - [VirusTotal](https://www.virustotal.com/)
@@ -27,7 +27,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 - [CVE.org (MITRE)](https://www.cve.org/)
 - [CVE Details](https://www.cvedetails.com/)
 - [OpenCVE](https://www.opencve.io/)
-- [OSV — Open Source Vulnerabilities](https://osv.dev/)
+- [OSV: Open Source Vulnerabilities](https://osv.dev/)
 - [GitHub Advisory Database](https://github.com/advisories)
 - [VulnCheck](https://vulncheck.com/)
 - [Vulners](https://vulners.com/)
@@ -42,7 +42,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 
 - [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 - [FIRST EPSS](https://www.first.org/epss/)
-- [EPSS Data & Stats](https://www.first.org/epss/data_stats)
+- [EPSS Data](https://www.first.org/epss/data)
 - [CVSS v4.0 Calculator](https://www.first.org/cvss/calculator/4.0)
 - [CVSS v3.1 Calculator](https://www.first.org/cvss/calculator/3.1)
 - [CISA SSVC](https://www.cisa.gov/ssvc)
@@ -55,7 +55,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 - [Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates)
 - [PoC-in-GitHub (nomi-sec)](https://github.com/nomi-sec/PoC-in-GitHub)
 - [Trickest CVE → PoC](https://github.com/trickest/cve)
-- [Packet Storm](https://packetstormsecurity.com/)
+- [Packet Storm](https://packetstorm.news/)
 - [Sploitus](https://sploitus.com/)
 - [VulnCheck XDB (exploits)](https://vulncheck.com/xdb)
 
@@ -77,9 +77,9 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 
 ### Weakness Taxonomies
 
-- [CWE — Common Weakness Enumeration](https://cwe.mitre.org/)
+- [CWE: Common Weakness Enumeration](https://cwe.mitre.org/)
 - [CWE Top 25](https://cwe.mitre.org/top25/)
-- [CAPEC — Attack Patterns](https://capec.mitre.org/)
+- [CAPEC: Attack Patterns](https://capec.mitre.org/)
 
 ## 🏢 Vendor Advisories & PSIRTs
 
@@ -87,9 +87,9 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 ### Microsoft & Cloud
 
 - [Microsoft MSRC Update Guide](https://msrc.microsoft.com/update-guide/)
-- [MSRC Security Update Blog](https://msrc.microsoft.com/blog/)
+- [MSRC Security Update Blog](https://www.microsoft.com/en-us/msrc/blog)
 - [AWS Security Bulletins](https://aws.amazon.com/security/security-bulletins/)
-- [Google Cloud Security Bulletins](https://cloud.google.com/support/bulletins)
+- [Google Cloud Security Bulletins](https://docs.cloud.google.com/support/bulletins)
 
 ### OS & Linux Distros
 
@@ -109,7 +109,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 - [Fortinet FortiGuard PSIRT](https://www.fortiguard.com/psirt)
 - [F5 Security Advisories](https://my.f5.com/manage/s/tech-documents)
 - [Citrix Security Bulletins](https://support.citrix.com/securitybulletins)
-- [Ivanti Security Advisories](https://hub.ivanti.com/s/security-advisories)
+- [Ivanti Security Advisories](https://www.ivanti.com/blog/topics/security-advisory)
 - [SonicWall PSIRT](https://psirt.global.sonicwall.com/vuln-list)
 - [VMware (Broadcom) Security Advisories](https://www.broadcom.com/support/vmware-security-advisories)
 - [Juniper Support Portal (SIRT)](https://supportportal.juniper.net/)
@@ -129,7 +129,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 
 - [CISA Cybersecurity Advisories (incl. ICS)](https://www.cisa.gov/news-events/cybersecurity-advisories)
 - [CISA Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems)
-- [Siemens ProductCERT](https://www.siemens.com/global/en/products/services/cert.html)
+- [Siemens ProductCERT](https://productcert.siemens.com/)
 - [Schneider Electric Security Notifications](https://www.se.com/ww/en/work/support/cybersecurity/security-notifications.jsp)
 
 ### Aggregators & CERT
@@ -149,13 +149,13 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 - [abuse.ch Feodo Tracker](https://feodotracker.abuse.ch/)
 - [abuse.ch YARAify](https://yaraify.abuse.ch/)
 - [VirusTotal](https://www.virustotal.com/)
-- [AlienVault OTX](https://otx.alienvault.com/)
+- [LevelBlue OTX (AlienVault)](https://otx.alienvault.com/)
 - [AbuseIPDB](https://www.abuseipdb.com/)
 - [Pulsedive](https://pulsedive.com/)
 - [GreyNoise](https://viz.greynoise.io/)
 - [Shodan](https://www.shodan.io/)
 - [Censys Search](https://search.censys.io/)
-- [Onyphe](https://www.onyphe.io/)
+- [Onyphe](https://www.onyphe.com/)
 - [crt.sh (certificate search)](https://crt.sh/)
 
 ### APT & Adversary Tracking
@@ -165,8 +165,8 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 - [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/)
 - [ETDA/ThaiCERT APT Groups](https://apt.etda.or.th/cgi-bin/aptgroups.cgi)
 - [MISP Galaxy](https://www.misp-galaxy.org/)
-- [ORKL — Threat Report Library](https://orkl.eu/)
-- [CrowdStrike Adversary Universe](https://adversary.crowdstrike.com/)
+- [ORKL: Threat Report Library](https://orkl.eu/)
+- [CrowdStrike Adversary Universe](https://www.crowdstrike.com/en-us/adversaries/)
 - [Microsoft Threat Actor Naming](https://learn.microsoft.com/en-us/unified-secops-platform/microsoft-threat-actor-naming)
 
 ### CTI Vendor Research Blogs
@@ -183,12 +183,12 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 - [Kaspersky Securelist](https://securelist.com/)
 - [Volexity](https://www.volexity.com/blog/)
 - [The DFIR Report](https://thedfirreport.com/)
-- [Sekoia Blog](https://blog.sekoia.io/)
+- [Sekoia Blog](https://www.sekoia.com/blog)
 
 ### Threat Reports & Landscape
 
 - [Verizon DBIR](https://www.verizon.com/business/resources/reports/dbir/)
-- [Mandiant M-Trends](https://www.mandiant.com/m-trends)
+- [M-Trends (Mandiant)](https://cloud.google.com/security/resources/m-trends)
 - [CrowdStrike Global Threat Report](https://www.crowdstrike.com/global-threat-report/)
 - [ENISA Threat Landscape](https://www.enisa.europa.eu/topics/cyber-threats)
 - [IBM X-Force Threat Intelligence](https://www.ibm.com/reports/threat-intelligence)
@@ -196,7 +196,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 ### CTI Platforms
 
 - [MISP](https://www.misp-project.org/)
-- [OpenCTI](https://www.opencti.io/)
+- [OpenCTI](https://filigran.io/products/opencti)
 - [Yeti](https://yeti-platform.io/)
 - [IntelOwl](https://github.com/intelowlproject/IntelOwl)
 - [OASIS STIX/TAXII](https://oasis-open.github.io/cti-documentation/)
@@ -227,7 +227,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 - [ATLAS (AI)](https://atlas.mitre.org/)
 - [Engage](https://engage.mitre.org/)
 - [EMB3D](https://emb3d.mitre.org/)
-- [CAR — Cyber Analytics Repo](https://car.mitre.org/)
+- [CAR: Cyber Analytics Repository](https://car.mitre.org/)
 - [Center for Threat-Informed Defense](https://ctid.mitre.org/)
 - [CTID Mappings Explorer](https://center-for-threat-informed-defense.github.io/mappings-explorer/)
 
@@ -238,7 +238,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 - [SP 800-53 Rev 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
 - [NVD](https://nvd.nist.gov/)
 - [OSCAL](https://pages.nist.gov/OSCAL/)
-- [CPRT (Control/Ref Toolkit)](https://csrc.nist.gov/projects/cprt)
+- [CPRT (Cybersecurity and Privacy Reference Tool)](https://csrc.nist.gov/projects/cprt)
 
 ### CIS
 
@@ -248,7 +248,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 ### OWASP & AppSec
 
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-- [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)
+- [OWASP ASVS](https://asvs.owasp.org/)
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 - [OWASP MASTG (Mobile)](https://mas.owasp.org/)
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
@@ -271,7 +271,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 ### Web App
 
 - [Burp Suite](https://portswigger.net/burp)
-- [OWASP ZAP](https://www.zaproxy.org/)
+- [ZAP (Zed Attack Proxy)](https://www.zaproxy.org/)
 - [Caido](https://caido.io/)
 - [ffuf](https://github.com/ffuf/ffuf)
 - [sqlmap](https://sqlmap.org/)
@@ -302,9 +302,9 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 
 ### Cheatsheets & Payloads
 
-- [HackTricks](https://book.hacktricks.xyz/)
+- [HackTricks](https://hacktricks.wiki/)
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
-- [GTFOBins](https://gtfobins.github.io/)
+- [GTFOBins](https://gtfobins.org/)
 - [LOLBAS](https://lolbas-project.github.io/)
 - [LOLDrivers](https://www.loldrivers.io/)
 - [WADComs](https://wadcoms.github.io/)
@@ -348,7 +348,7 @@ A curated, vulnerability-management- and threat-intelligence-first collection of
 
 ### Reverse Engineering
 
-- [Ghidra](https://ghidra-sre.org/)
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
 - [IDA Free](https://hex-rays.com/ida-free/)
 - [Binary Ninja](https://binary.ninja/)
 - [Cutter (rizin)](https://github.com/rizinorg/cutter)
