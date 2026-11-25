@@ -411,7 +411,7 @@
   url: "https://docs.ansible.com/projects/lint/"
   publisher: "Red Hat"
   section: configuration-management
-  kind: tool
+  kind: documentation
   cost: free
   description: "Documentation for Ansible Lint, a command-line linter for playbooks, roles, and collections that flags practices likely to cause bugs or hard-to-maintain code."
   checked:
@@ -424,7 +424,7 @@
 - id: puppet-documentation
   name: "Puppet Documentation"
   url: "https://help.puppet.com/"
-  publisher: "Puppet"
+  publisher: "Puppet, Inc., a Perforce company"
   section: configuration-management
   kind: documentation
   cost: free
@@ -434,7 +434,7 @@
     status: 200
     final: "https://help.puppet.com/"
     how: script
-  notes: "Publisher from the footer copyright, Puppet, Inc."
+  notes: "Publisher as the footer copyright gives it."
 
 - id: chef-documentation
   name: "Chef Documentation"
@@ -464,12 +464,12 @@
     status: 200
     final: "https://docs.saltproject.io/en/latest/contents.html"
     how: script
-  notes: "Publisher from the footer copyright."
+  notes: "Publisher is the project's own name, from the site's header; the footer copyright names no one. The About Salt Project page, one click away, says the project is an open source ecosystem that Broadcom supports."
 
 - id: packer-documentation
   name: "Packer Documentation"
   url: "https://developer.hashicorp.com/packer/docs"
-  publisher: "HashiCorp"
+  publisher: "HashiCorp, an IBM company"
   section: configuration-management
   kind: documentation
   cost: free
@@ -479,6 +479,7 @@
     status: 200
     final: "https://developer.hashicorp.com/packer/docs"
     how: script
+  notes: "Publisher from https://www.hashicorp.com/en/about, read on 2026-11-25, which calls the company HashiCorp, an IBM company; the documentation page itself names only HashiCorp."
 
 - id: rundeck-documentation
   name: "Rundeck Runbook Automation Documentation"

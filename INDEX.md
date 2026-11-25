@@ -41,7 +41,7 @@
 | [Android Enterprise Help](https://support.google.com/work/android/) | Google | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Vendor documentation | Free |
 | [Android Security and Update Bulletins](https://source.android.com/docs/security/bulletin) | Google (Android Open Source Project) | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Ansible community documentation](https://docs.ansible.com/) | Ansible community (Red Hat) | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
-| [Ansible Lint Documentation](https://docs.ansible.com/projects/lint/) | Red Hat | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Tool | Free |
+| [Ansible Lint Documentation](https://docs.ansible.com/projects/lint/) | Red Hat | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
 | [Antisyphon Training](https://www.antisyphontraining.com/) | Antisyphon Training | [Labs and training](domains/labs-and-training.md#courses) | Training or lab | Freemium |
 | [ANY.RUN](https://any.run/) | ANY.RUN | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Freemium |
 | [Apache Caldera](https://github.com/apache/caldera) | Apache Software Foundation | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#adversary-emulation-and-control-testing) | Tool | Free |
@@ -73,7 +73,7 @@
 | [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Al Sweigart | [Automation and scripting](domains/automation-and-scripting.md#python) | Training or lab | Free |
 | [AutoPkg](https://github.com/autopkg/autopkg) | AutoPkg | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Tool | Free |
 | [Autopsy](https://www.autopsy.com/) | Sleuth Kit Labs | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
-| [Awesome Prometheus Alerts](https://samber.github.io/awesome-prometheus-alerts/) | Samuel Berthe (samber) | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#alerting-and-practice) | Reference | Free |
+| [Awesome Prometheus Alerts](https://samber.github.io/awesome-prometheus-alerts/) | Samuel Berthe (samber) | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#alerting-and-practice) | Dataset or feed | Free |
 | [AWS Architecture Center](https://aws.amazon.com/architecture/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Reference | Free |
 | [AWS Backup Documentation](https://docs.aws.amazon.com/aws-backup/) | Amazon Web Services | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#platform-and-vendor-backup) | Vendor documentation | Free |
 | [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Vendor documentation | Free |
@@ -266,7 +266,7 @@
 | [Drupal security advisories](https://www.drupal.org/security) | Drupal | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [Duo Documentation](https://duo.com/docs) | Cisco | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
 | [Duplicacy](https://duplicacy.com/) | Acrosync LLC | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Freemium |
-| [Duplicati](https://duplicati.com/) | Duplicati | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Freemium |
+| [Duplicati](https://duplicati.com/) | Duplicati, Inc. | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Freemium |
 
 ## E
 
@@ -601,7 +601,7 @@
 | [OAuth 2.0](https://oauth.net/2/) | Aaron Parecki | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
 | [Observability in Google Cloud](https://docs.cloud.google.com/stackdriver/docs) | Google | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#cloud-and-vendor-platforms) | Vendor documentation | Free |
 | [Office updates](https://learn.microsoft.com/en-us/officeupdates/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
-| [The official Checkmk User Guide](https://docs.checkmk.com/latest/en/) | Checkmk | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#metrics-and-monitoring-systems) | Vendor documentation | Free |
+| [The official Checkmk User Guide](https://docs.checkmk.com/latest/en/) | Checkmk GmbH | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#metrics-and-monitoring-systems) | Vendor documentation | Free |
 | [Official CPE Dictionary](https://nvd.nist.gov/products/cpe) | NIST | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Dataset or feed | Free |
 | [Offline backups in an online world](https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world) | NCSC, a part of GCHQ | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#planning-and-standards) | Reference | Free |
 | [Okta Developer](https://developer.okta.com/) | Okta | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
@@ -653,7 +653,7 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [Package-URL (purl) specification](https://github.com/package-url/purl-spec) | Package-URL | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
-| [Packer Documentation](https://developer.hashicorp.com/packer/docs) | HashiCorp | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
+| [Packer Documentation](https://developer.hashicorp.com/packer/docs) | HashiCorp, an IBM company | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
 | [Packet Pushers](https://packetpushers.net/) | Packet Pushers Interactive, LLC | [Networking and connectivity](domains/networking-and-connectivity.md#learning-and-community) | News | Free |
 | [Packet Storm Security](https://packetstorm.news/) | Packet Storm Security, LLC | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Freemium |
 | [Pacu](https://github.com/RhinoSecurityLabs/pacu) | Rhino Security Labs | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#cloud-attack-techniques-and-practice) | Tool | Free |
@@ -699,7 +699,7 @@
 | [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) | PowerShell Team (Microsoft) | [Automation and scripting](domains/automation-and-scripting.md#powershell) | Tool | Free |
 | [Pulsedive](https://pulsedive.com/) | Pulsedive LLC | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 | [Pulumi Docs](https://www.pulumi.com/docs/) | Pulumi Corp | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Vendor documentation | Free |
-| [Puppet Documentation](https://help.puppet.com/) | Puppet | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
+| [Puppet Documentation](https://help.puppet.com/) | Puppet, Inc., a Perforce company | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
 | [pwn.college](https://pwn.college/) | Arizona State University | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Free with account |
 | [pwntools](https://github.com/Gallopsled/pwntools) | Gallopsled | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Tool | Free |
 | [PyPA Advisory Database](https://github.com/pypa/advisory-database) | Python Packaging Authority | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
@@ -858,7 +858,7 @@
 | [Tenable Blog](https://www.tenable.com/blog) | Tenable | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Tenable CVEs](https://www.tenable.com/cve) | Tenable | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [Tenable Nessus](https://www.tenable.com/products/nessus) | Tenable | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Paid |
-| [Terraform Documentation](https://developer.hashicorp.com/terraform/docs) | HashiCorp | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Vendor documentation | Free |
+| [Terraform Documentation](https://developer.hashicorp.com/terraform/docs) | HashiCorp, an IBM company | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Vendor documentation | Free |
 | [Test your IPv6](https://test-ipv6.com/) | APNIC Labs | [Networking and connectivity](domains/networking-and-connectivity.md#lookup-and-diagnostic-tools) | Online service | Free |
 | [theHarvester](https://github.com/laramies/theHarvester) | Christian Martorella (laramies) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [Threat Actor Groups Tracked by Unit 42](https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/) | Palo Alto Networks | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
@@ -892,7 +892,7 @@
 | [UnpacMe](https://www.unpac.me/) | OpenAnalysis Inc | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Freemium |
 | [Update history for Microsoft 365 Apps (listed by date)](https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma) | Louis Lam (louislam) | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#metrics-and-monitoring-systems) | Tool | Free |
-| [UrBackup](https://www.urbackup.org/) | Martin Raiber | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Free |
+| [UrBackup](https://www.urbackup.org/) | Martin Raiber | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Freemium |
 | [URLhaus](https://urlhaus.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
 | [urlscan.io](https://urlscan.io/) | urlscan GmbH | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 | [The USE Method](https://www.brendangregg.com/usemethod.html) | Brendan Gregg | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#alerting-and-practice) | Reference | Free |

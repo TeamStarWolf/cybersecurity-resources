@@ -138,7 +138,7 @@
 - id: duplicati
   name: "Duplicati"
   url: "https://duplicati.com/"
-  publisher: "Duplicati"
+  publisher: "Duplicati, Inc."
   section: backup-tools
   kind: tool
   cost: freemium
@@ -148,7 +148,7 @@
     status: 200
     final: "https://duplicati.com/"
     how: script
-  notes: "Cost from https://duplicati.com/pricing, read on 2026-11-25: a console plan at no charge for a small number of machines, and paid plans priced per machine per month. Publisher is the product's own name; the page names no company."
+  notes: "Cost from https://duplicati.com/pricing, read on 2026-11-25: a console plan at no charge for a small number of machines, and paid plans priced per machine per month. Publisher from the terms of service at https://duplicati.com/legal/terms-of-service, which say the site and services are controlled by Duplicati, Inc."
 
 - id: bacula
   name: "Bacula"
@@ -187,7 +187,7 @@
   section: backup-tools
   kind: tool
   cost: free
-  description: "Home of rsync, an open source utility for fast incremental file transfer: downloads, documentation, examples, an FAQ, and release news."
+  description: "The rsync project's site for its file transfer utility: release announcements, source downloads with signatures, the man pages, examples, an FAQ, and bug tracking."
   checked:
     date: "2026-11-25"
     status: 200
@@ -216,14 +216,14 @@
   publisher: "Martin Raiber"
   section: backup-tools
   kind: tool
-  cost: free
-  description: "Client/server backup system, open source, that takes both file and image backups of Windows and Linux machines; with downloads, documentation, and release news."
+  cost: freemium
+  description: "Client/server backup system, open source, that takes file and image backups of Windows and Linux machines; commercial add-ons such as change block tracking are sold."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.urbackup.org/"
     how: script
-  notes: "Publisher from the footer copyright. The site's menu has a Commercial section, which the entry does not cover."
+  notes: "Cost from https://www.urbackup.org/commercial.html, read on 2026-11-25: commercial additions to the client, among them change block tracking on Windows and a client for Hyper-V, each licensed and sold, and a cloud server and appliance. The software itself is open source. Publisher from the footer copyright."
 
 - id: kopia
   name: "Kopia"
@@ -492,7 +492,7 @@
   maintenance:
     state: dormant
     since: "2024-10-03"
-  description: "Netflix's tool that shuts down production containers and virtual machines at random, so that engineers build services able to survive such failures."
+  description: "Netflix's resiliency tool that ends production instances at random; this version requires apps managed with Spinnaker, and names AWS, GCE, and Kubernetes as tested backends."
   checked:
     date: "2026-11-25"
     status: 200
@@ -507,7 +507,7 @@
   section: disaster-recovery-and-resilience
   kind: tool
   cost: free
-  description: "Platform for chaos engineering, open source and hosted by the CNCF: teams run controlled chaos tests to find weaknesses in infrastructure; aimed at Kubernetes users."
+  description: "Site of the CNCF-hosted Litmus chaos engineering project: a quick start, ChaosHub, experiments, probes, observability, and litmus-lite, which runs chaos tests from one binary."
   checked:
     date: "2026-11-25"
     status: 200

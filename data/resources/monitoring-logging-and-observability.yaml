@@ -79,7 +79,7 @@
 - id: checkmk-documentation
   name: "The official Checkmk User Guide"
   url: "https://docs.checkmk.com/latest/en/"
-  publisher: "Checkmk"
+  publisher: "Checkmk GmbH"
   section: metrics-and-monitoring-systems
   kind: documentation
   cost: free
@@ -89,7 +89,7 @@
     status: 200
     final: "https://docs.checkmk.com/latest/en/"
     how: script
-  notes: "Publisher is the product's own name; the page names no company."
+  notes: "Publisher from the imprint that the guide's footer links, https://checkmk.com/imprint, which names Checkmk GmbH as responsible for the web content."
 
 - id: librenms-documentation
   name: "LibreNMS Docs"
@@ -128,7 +128,7 @@
   section: metrics-and-monitoring-systems
   kind: documentation
   cost: free
-  description: "InfluxData's documentation for Telegraf, an agent built from plugins that collects, processes, and writes metrics and events, compiled as a single binary."
+  description: "InfluxData's documentation for its Telegraf agent: the pipeline of input, processor, aggregator, and output plugins that metrics pass through, key capabilities, and getting started."
   checked:
     date: "2026-11-25"
     status: 200
@@ -202,7 +202,7 @@
   section: logs-and-log-pipelines
   kind: documentation
   cost: free
-  description: "Documentation for OpenSearch, an open source suite for search, analytics, and observability: OpenSearch and its Dashboards, Data Prepper, clients, the benchmark tool, and Migration Assistant."
+  description: "The OpenSearch project's documentation hub: OpenSearch and its Dashboards, vector search, machine learning, and supporting tools such as Data Prepper, the clients, and Benchmark."
   checked:
     date: "2026-11-25"
     status: 200
@@ -321,7 +321,7 @@
   section: logs-and-log-pipelines
   kind: documentation
   cost: free
-  description: "Elastic's reference for Logstash, its open source engine for collecting data from many sources, normalizing it, and sending it to chosen destinations."
+  description: "Elastic's reference for Logstash, its data collection engine: plugins for input, filtering, and output, codecs, and notes on output to Elastic Cloud Serverless."
   checked:
     date: "2026-11-25"
     status: 200
@@ -351,7 +351,7 @@
   section: tracing-and-open-standards
   kind: documentation
   cost: free
-  description: "Documentation for OpenTelemetry, an open source, vendor-neutral framework for instrumenting software and collecting and exporting traces, metrics, and logs."
+  description: "The OpenTelemetry project's documentation for its telemetry tooling: what it is, getting started by role, concepts, language APIs and SDKs, zero-code instrumentation, and the Collector."
   checked:
     date: "2026-11-25"
     status: 200
@@ -381,7 +381,7 @@
   section: tracing-and-open-standards
   kind: documentation
   cost: free
-  description: "Grafana Labs' documentation for Tempo, a backend for distributed tracing: searching traces, generating metrics from spans, and linking traces with logs and metrics."
+  description: "Grafana Labs' documentation for Tempo, its tracing backend: learning about tracing, setup, metrics from traces, the TraceQL query language, and integration with Loki and Prometheus."
   checked:
     date: "2026-11-25"
     status: 200
@@ -483,7 +483,7 @@
   section: alerting-and-practice
   kind: documentation
   cost: free
-  description: "Prometheus documentation for Alertmanager, which deduplicates, groups, and routes alerts to receivers such as email, and handles silencing and inhibition."
+  description: "Prometheus documentation page for Alertmanager, the component that receives alerts and sends notifications: grouping, inhibition, silences, its architecture, client behavior, and high availability."
   checked:
     date: "2026-11-25"
     status: 200
@@ -495,7 +495,7 @@
   url: "https://samber.github.io/awesome-prometheus-alerts/"
   publisher: "Samuel Berthe (samber)"
   section: alerting-and-practice
-  kind: reference
+  kind: dataset
   cost: free
   description: "Collection of Prometheus alerting rules to copy, grouped by service and category, from host and hardware to databases and Kubernetes; rules are CC BY 4.0."
   checked:
@@ -572,10 +572,10 @@
   section: alerting-and-practice
   kind: service
   cost: freemium
-  description: "Cron job monitoring: each job requests its own ping address when it runs, and a late ping raises an alert; free for a few jobs."
+  description: "Cron job monitoring: each job requests its own ping address when it runs, and a late ping alerts you; free for up to 20 jobs."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://healthchecks.io/"
     how: script
-  notes: "Cost from https://healthchecks.io/pricing/, read on 2026-11-25: a Hobbyist plan at no charge with a limit on jobs, and paid plans above it. Every plan needs an account. Publisher from the footer copyright."
+  notes: "Cost from https://healthchecks.io/pricing/, read on 2026-11-25: a Hobbyist plan at no charge for 20 jobs, and paid plans above it. Every plan needs an account. The home page says the same: monitor up to 20 cron jobs for free. Publisher from the footer copyright."

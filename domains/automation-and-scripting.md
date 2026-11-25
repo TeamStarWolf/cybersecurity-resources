@@ -69,11 +69,11 @@ How do I describe a machine's state once and apply it everywhere?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Ansible community documentation](https://docs.ansible.com/) | Ansible community (Red Hat) | The Ansible community's documentation hub: getting started, guides for users, developers, and maintainers, and ecosystem projects such as Ansible Core and Ansible Builder. | Vendor documentation | Free |
-| [Ansible Lint Documentation](https://docs.ansible.com/projects/lint/) | Red Hat | Documentation for Ansible Lint, a command-line linter for playbooks, roles, and collections that flags practices likely to cause bugs or hard-to-maintain code. | Tool | Free |
-| [Puppet Documentation](https://help.puppet.com/) | Puppet | Puppet's documentation home: Puppet Enterprise by version, Puppet Core, Bolt, PDK, and PuppetDB, with a link to the Puppet Forge module library. | Vendor documentation | Free |
+| [Ansible Lint Documentation](https://docs.ansible.com/projects/lint/) | Red Hat | Documentation for Ansible Lint, a command-line linter for playbooks, roles, and collections that flags practices likely to cause bugs or hard-to-maintain code. | Vendor documentation | Free |
+| [Puppet Documentation](https://help.puppet.com/) | Puppet, Inc., a Perforce company | Puppet's documentation home: Puppet Enterprise by version, Puppet Core, Bolt, PDK, and PuppetDB, with a link to the Puppet Forge module library. | Vendor documentation | Free |
 | [Chef Documentation](https://docs.chef.io/) | Progress Software (Chef) | Progress Chef's documentation, browsable by product: Chef 360 Platform, Automate, Infra Client, InSpec, Habitat, Workstation, and Supermarket. | Vendor documentation | Free |
 | [Salt Table of Contents](https://docs.saltproject.io/en/latest/contents.html) | Salt Project | Table of contents of the Salt Project documentation: installation and configuration, configuration management, remote execution, and events and the reactor. | Vendor documentation | Free |
-| [Packer Documentation](https://developer.hashicorp.com/packer/docs) | HashiCorp | HashiCorp's documentation for Packer: templates that define the images to build, the CLI, and plugins such as builders, provisioners, and post-processors. | Vendor documentation | Free |
+| [Packer Documentation](https://developer.hashicorp.com/packer/docs) | HashiCorp, an IBM company | HashiCorp's documentation for Packer: templates that define the images to build, the CLI, and plugins such as builders, provisioners, and post-processors. | Vendor documentation | Free |
 | [Rundeck Runbook Automation Documentation](https://docs.rundeck.com/docs/) | PagerDuty | Documentation for the open source Rundeck project and the Runbook Automation product: fundamentals, distributed automation, integrations and plugins, administration, and security. | Vendor documentation | Free |
 
 ## Version control and pipelines
