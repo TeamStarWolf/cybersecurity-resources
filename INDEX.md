@@ -241,7 +241,7 @@
 | [Citrix Support (security bulletins)](https://support.citrix.com/support-home/home) | Citrix | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Clair](https://github.com/quay/clair) | Quay | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [ClearlyDefined](https://clearlydefined.io/) | Open Source Initiative | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Dataset or feed | Free |
-| [Clonezilla](https://clonezilla.org/) | Clonezilla | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
+| [Clonezilla](https://clonezilla.org/) \* | Clonezilla | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [Cloud Adoption Framework for Microsoft](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Standard | Free |
 | [Cloud Architecture Center](https://docs.cloud.google.com/architecture) | Google | [Cloud platform administration](domains/cloud-platform-administration.md#google-cloud) | Reference | Free |
 | [Cloud DNS documentation](https://docs.cloud.google.com/dns/docs) | Google Cloud | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |

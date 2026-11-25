@@ -196,3 +196,7 @@ entries:
     only: ci
     reason: "Returns 403 to GitHub-hosted runners on two runs in a row; answers 200 from a desktop network."
     opened: "2026-11-25"
+  - url: "https://clonezilla.org/"
+    match: exact
+    reason: "Answers 403 with a bot-verification page to automated clients and to the browser used for checking, since 2026-11-25."
+    opened: "2026-11-25"
