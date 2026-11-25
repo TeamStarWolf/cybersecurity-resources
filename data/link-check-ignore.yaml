@@ -67,3 +67,7 @@
 - url: "https://sploitus.com/"
   reason: "Slow front end: requests from automated clients often time out or return 502; loads in a browser."
   opened: "2026-11-25"
+- url: "https://www.exploit-db.com/"
+  reason: "Returns 502 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
+  opened: "2026-11-25"
+  only: ci
