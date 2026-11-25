@@ -71,7 +71,7 @@
   reason: "Returns 502 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
   opened: "2026-11-25"
   only: ci
-- url: "https://support.brave.app/"
-  reason: "The Brave help page cited in the README returns 403 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
+- url: "https://support.brave.app/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data"
+  reason: "The Brave help article cited in the README. support.brave.com answers 301 to this address, and brave.com links to the same host. It returns 403 to GitHub-hosted runners on some runs and 200 from a desktop network."
   opened: "2026-11-25"
   only: ci
