@@ -83,13 +83,16 @@
   section: network-reachability-and-speed
   kind: service
   cost: free
+  maintenance:
+    state: dormant
+    since: "2022-12-21"
   description: "IP calculator: give an address and one or two netmasks, in CIDR or dotted form, for results including network, broadcast, and host range, bits shown."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://jodies.de/ipcalc"
     how: script
-  notes: "Publisher from the foot of the page, which reads 2000-2022 Krischan Jodies. The page has no terms, privacy, or about page."
+  notes: "Publisher from the foot of the page, which reads 2000-2022 Krischan Jodies. The page has no terms, privacy, or about page. It links its source at github.com/kjokjo/ipcalc, whose last commit on the default branch is dated 2022-12-21, from GitHub's API on 2026-11-25."
 
 - id: ntp-pool
   name: "NTP Pool Project"
@@ -319,7 +322,7 @@
 - id: howsmyssl
   name: "How's My SSL?"
   url: "https://www.howsmyssl.com/"
-  publisher: "How's My SSL?"
+  publisher: "Jeff Hodges (jmhodges)"
   section: web-and-tls-testers
   kind: service
   cost: free
@@ -329,7 +332,7 @@
     status: 200
     final: "https://www.howsmyssl.com/"
     how: script
-  notes: "Publisher is the site's own name. The About page, read on 2026-11-25, names no person or organization; the page has no author tag and links no terms or privacy page."
+  notes: "Publisher: the page and its About page name no person or organization in their text; the About page links the source at github.com/jmhodges/howsmyssl, a personal account, and the display name is from GitHub's API on 2026-11-25. The page has no author tag and links no terms or privacy page."
 
 - id: keycdn-tools
   name: "KeyCDN Tools"
@@ -383,7 +386,7 @@
   section: web-and-tls-testers
   kind: reference
   cost: free
-  description: "Ivan Ristić's book on the OpenSSL command line and on testing TLS with it; free to read online, with PDF and EPUB behind a sign-in."
+  description: "Ivan Ristić's book on the OpenSSL command line and on testing TLS with it, free to read online without registration."
   checked:
     date: "2026-11-25"
     status: 200
@@ -848,13 +851,16 @@
   section: quick-references-and-practice
   kind: reference
   cost: free
+  maintenance:
+    state: dormant
+    since: "2023-07-12"
   description: "One-page guide to command-line fluency, in sections including one-liners, system debugging, everyday use, and processing files and data, with translations."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/jlevy/the-art-of-command-line"
     how: script
-  notes: "Publisher: the repository is under the personal account jlevy; the display name is from GitHub's API on 2026-11-25. The repository's last push was on 2024-06-25, from the GitHub API on 2026-11-25."
+  notes: "Publisher: the repository is under the personal account jlevy; the display name is from GitHub's API on 2026-11-25. The last commit on the default branch is dated 2023-07-12, from the same API on 2026-11-25; the repository's push date is later and does not count."
 
 - id: sadservers
   name: "SadServers"

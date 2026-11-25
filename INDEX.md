@@ -468,7 +468,7 @@
 | [How DNS Works](https://dnsimple.com/comics/how-dns-works/) | DNSimple | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-standards-and-references) | Reference | Free |
 | [How Microsoft names threat actors](https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming) | Microsoft | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [How OpenID Connect Works](https://openid.net/developers/how-connect-works/) | OpenID Foundation | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
-| [How's My SSL?](https://www.howsmyssl.com/) | How's My SSL? | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
+| [How's My SSL?](https://www.howsmyssl.com/) | Jeff Hodges (jmhodges) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [HP Security Bulletins](https://support.hp.com/us-en/security-bulletins) | HP | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 | [HPE Networking Documentation](https://networkingdocs.hpe.com/documentation/) | Hewlett Packard Enterprise | [Networking and connectivity](domains/networking-and-connectivity.md#vendor-documentation) | Vendor documentation | Free |
 | [HPE Security Bulletin Library](https://support.hpe.com/km/security-bulletin) | Hewlett Packard Enterprise | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
