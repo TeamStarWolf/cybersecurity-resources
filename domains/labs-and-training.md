@@ -24,8 +24,8 @@ Where do I practice attacking?
 | [TryHackMe](https://tryhackme.com/) | TryHackMe | Browser-based cybersecurity training with hands-on labs for all skill levels; free rooms plus premium plans. | Training or lab | Freemium |
 | [PortSwigger Web Security Academy](https://portswigger.net/web-security) | PortSwigger | Free online web security training with interactive labs, from the makers of Burp Suite; create an account to start. | Training or lab | Free with account |
 | [PentesterLab](https://pentesterlab.com/) | PentesterLab | Web hacking and security code review training built on real CVEs and vulnerable code; some exercises are free, the rest need PRO. | Training or lab | Freemium |
-| [pwn.college](https://pwn.college/) | Arizona State University | Free education platform for practicing core cybersecurity skills hands-on, maintained at Arizona State University. | Training or lab | Free |
-| [VulnHub](https://www.vulnhub.com/) | VulnHub | Vulnerable-by-design virtual machines to download and attack for hands-on practice. | Training or lab | Free |
+| [pwn.college](https://pwn.college/) | Arizona State University | Free education platform for practicing core cybersecurity skills hands-on, maintained at Arizona State University. | Training or lab | Free with account |
+| [VulnHub](https://www.vulnhub.com/) | VulnHub | Vulnerable-by-design virtual machines to download and attack for hands-on practice. *Last updated in July 2022.* | Training or lab | Free |
 | [OverTheWire Wargames](https://overthewire.org/wargames/) | OverTheWire community | Wargames from the OverTheWire community for learning and practicing security concepts as games. | Training or lab | Free |
 
 ## Defensive practice labs
@@ -34,10 +34,10 @@ Where do I practice defending and investigating?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [CyberDefenders](https://cyberdefenders.org/) | CyberDefenders | Blue team training for SOC analysts and DFIR, built on cyber range labs. | Training or lab | Paid |
+| [CyberDefenders](https://cyberdefenders.org/) | CyberDefenders | Blue team training for SOC analysts and DFIR, built on cyber range labs; joining is free, with community and premium labs. | Training or lab | Freemium |
 | [Blue Team Labs Online](https://blueteamlabs.online/) | Centri | Gamified platform for defenders to practice incident response, digital forensics, security operations, reverse engineering, and threat hunting; free and paid tiers. | Training or lab | Freemium |
 | [LetsDefend](https://letsdefend.io/) | LetsDefend | Blue team training inside a simulated SOC, with free and paid courses; the site says Hack The Box is acquiring LetsDefend. | Training or lab | Freemium |
-| [RangeForce](https://www.rangeforce.com/) | RangeForce | Cloud-based cyber range and solo labs for defensive teams; the site says RangeForce has joined Cyberbit. | Training or lab | Freemium |
+| [RangeForce](https://www.rangeforce.com/) | RangeForce (Cyberbit) | Cloud-based cyber range and solo labs for defensive teams; the site says RangeForce has joined Cyberbit. | Training or lab | Freemium |
 
 ## Courses
 
@@ -46,7 +46,7 @@ Where do I take a taught course?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Antisyphon Training](https://www.antisyphontraining.com/) | Antisyphon Training | Live and on-demand security courses, including Pay What You Can classes that start at $0. | Training or lab | Freemium |
-| [SANS DFIR courses](https://www.sans.org/cyber-security-courses?focus-area=digital-forensics-incident-response) | SANS Institute | SANS course catalog filtered to digital forensics and incident response. | Training or lab | Paid |
+| [SANS DFIR courses](https://www.sans.org/cyber-security-courses?refinementList%5Bfacets.focusArea%5D%5B0%5D=Digital%20Forensics%20and%20Incident%20Response) | SANS Institute | SANS course catalog filtered to digital forensics and incident response. | Training or lab | Paid |
 
 ## Capture the flag
 
@@ -54,7 +54,7 @@ Where do I compete?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [picoCTF (CyLab Security Academy)](https://picoctf.org/) (formerly picoCTF) | Carnegie Mellon University | Carnegie Mellon's free cybersecurity learning platform; picoCTF has joined CyLab Security Academy, and picoCTF accounts still work. | Training or lab | Free |
+| [CyLab Security Academy](https://cylabacademy.org/) (formerly picoCTF) | Carnegie Mellon University | Carnegie Mellon's free cybersecurity learning platform, which took over from picoCTF: challenges to work through alone, in class, or in competition. | Training or lab | Free with account |
 | [CTFtime](https://ctftime.org/) | CTFtime team | Calendar of capture-the-flag events, with team ratings, an archive of past CTFs, and writeups. | Community | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

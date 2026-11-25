@@ -105,7 +105,7 @@
 - id: atomic-red-team
   name: "Atomic Red Team"
   url: "https://github.com/redcanaryco/atomic-red-team"
-  publisher: "Red Canary"
+  publisher: "Red Canary, a Zscaler company"
   section: adversary-emulation
   kind: dataset
   cost: free

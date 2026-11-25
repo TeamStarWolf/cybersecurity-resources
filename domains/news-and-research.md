@@ -17,13 +17,13 @@ What happened today?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [BleepingComputer](https://www.bleepingcomputer.com/) | BleepingComputer | News site whose feed covers breaches, ransomware and extortion groups, and vendor security disclosures. | News | Free |
+| [BleepingComputer](https://www.bleepingcomputer.com/) \* | BleepingComputer | News site whose feed covers breaches, ransomware and extortion groups, and vendor security disclosures. | News | Free |
 | [The Record](https://therecord.media/) | Recorded Future News | Cybersecurity news from Recorded Future News, covering incidents, policy, and cybercrime. | News | Free |
 | [The Hacker News](https://thehackernews.com/) | The Hacker News | Cybersecurity news site covering malware, vulnerabilities, data breaches, and espionage campaigns. | News | Free |
 | [Dark Reading](https://www.darkreading.com/) | Informa TechTarget | Security news and analysis for practitioners and security leaders, with a CISO section. | News | Free |
 | [SecurityWeek](https://www.securityweek.com/) | Wired Business Media | Cybersecurity news, insights, and analysis for enterprise security professionals. | News | Free |
 | [Help Net Security](https://www.helpnetsecurity.com/) | Help Net Security | Cybersecurity news with a focus on enterprise security, plus daily and weekly newsletters. | News | Free |
-| [DataBreaches.net](https://databreaches.net/) | DataBreaches.net | Site that reports on data breaches and follows up on incident disclosures. | News | Free |
+| [DataBreaches.net](https://databreaches.net/) \* | DataBreaches.net | Site that reports on data breaches and follows up on incident disclosures. | News | Free |
 
 ## Analysis, newsletters, and podcasts
 
@@ -37,4 +37,4 @@ Who explains what it means?
 | [tl;dr sec](https://tldrsec.com/) | tl;dr sec | Free weekly newsletter that summarizes security tools, talks, and research. | News | Free |
 | [SANS Internet Storm Center](https://isc.sans.edu/) | SANS | Daily diaries from volunteer handlers on current attacks and scanning activity, with an API for its data. | News | Free |
 
-Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).
+Of the 12 addresses on this page, 10 were opened and read on 2026-11-25. The 2 marked \* refused every client used for checking, a script and a browser, so each of those entries was written from another page of the same publisher: its feed, its documentation, its vendor site, or its repository. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

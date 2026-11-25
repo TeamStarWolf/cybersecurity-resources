@@ -22,13 +22,16 @@
   section: assessment-tools
   kind: tool
   cost: free
+  maintenance:
+    state: dormant
+    since: "2024-05"
   description: "Open source multi-cloud auditing tool that gathers configuration data through provider APIs and highlights risk areas."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/nccgroup/ScoutSuite"
     how: script
-  notes: "Last push 2025-09-23."
+  notes: "Last commit on the default branch and latest release: 2024-05-10."
 
 - id: kube-bench
   name: "kube-bench"
@@ -51,13 +54,15 @@
   section: assessment-tools
   kind: tool
   cost: free
-  description: "Hunts for security weaknesses in Kubernetes clusters; no longer under active development, and its README recommends Trivy."
+  maintenance:
+    state: unmaintained
+  description: "Hunts for security weaknesses in Kubernetes clusters; its README now recommends Trivy for this work."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/aquasecurity/kube-hunter"
     how: script
-  notes: "The README opens with a notice that kube-hunter is not under active development anymore. Last push 2024-03-19."
+  notes: "The README opens with a notice that kube-hunter is not under active development anymore. Last commit on the default branch: 2024-03-19."
 
 - id: falco
   name: "Falco"
@@ -176,11 +181,11 @@
 - id: wiz-blog
   name: "Wiz Blog"
   url: "https://www.wiz.io/blog"
-  publisher: "Wiz"
+  publisher: "Wiz (part of Google Cloud)"
   section: provider-security
   kind: research
   cost: free
-  description: "Wiz's blog on cloud security: guides, announcements, and articles about the Wiz platform."
+  description: "Wiz's blog on cloud security, with categories for research, AI, security, data security, and product news."
   checked:
     date: "2026-11-25"
     status: 200
