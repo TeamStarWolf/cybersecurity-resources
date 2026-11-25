@@ -130,7 +130,7 @@ Brave has the same import under its main menu: **Bookmarks**, then **Import Book
 1. Open the menu, select **Bookmarks**, then **Manage bookmarks**.
 2. In the Library window, select **Import and Backup**, then **Import Bookmarks from HTML**, and pick `bookmarks.html`.
 
-The Chrome, Brave, and Edge steps follow each vendor's help page as it read in November 2026: [Chrome](https://support.google.com/chrome/answer/96816), [Brave](https://support.brave.com/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data), [Edge](https://support.microsoft.com/en-us/edge/import-your-favorites-and-passwords-in-microsoft-edge). Menu names change between browser versions. To import the full catalog, pick `bookmarks-full.html` in the same dialog.
+The Chrome, Brave, and Edge steps follow each vendor's help page as it read in November 2026: [Chrome](https://support.google.com/chrome/answer/96816), [Brave](https://support.brave.app/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data), [Edge](https://support.microsoft.com/en-us/edge/import-your-favorites-and-passwords-in-microsoft-edge). Menu names change between browser versions. To import the full catalog, pick `bookmarks-full.html` in the same dialog.
 
 ## How entries are chosen
 

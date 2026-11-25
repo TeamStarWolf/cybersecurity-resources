@@ -256,6 +256,9 @@ def check_ignore(records: list[dict], compact: dict, ignore: list[dict]) -> list
     addresses = {r["url"] for r in records if isinstance(r.get("url"), str)}
     for _, _, links in catalog.compact_lists(compact):
         addresses |= {catalog.compact_address(l, by_id) for l in links if l.get("id") in by_id}
+    readme = catalog.ROOT / "README.md"
+    if readme.exists():
+        addresses |= set(re.findall(r"\]\((https?://[^)\s]+)\)", readme.read_text(encoding="utf-8")))
     for item in ignore:
         if not item.get("url") or not item.get("reason") or not DATE_RE.match(str(item.get("opened", ""))):
             errs.append(f"link-check ignore list: each entry needs url, reason and opened ({item.get('url')})")

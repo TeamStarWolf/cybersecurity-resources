@@ -64,3 +64,6 @@
   reason: "Returns 403 to GitHub-hosted runners; a desktop network receives a page shell with status 200."
   opened: "2026-11-25"
   only: ci
+- url: "https://sploitus.com/"
+  reason: "Slow front end: requests from automated clients often time out or return 502; loads in a browser."
+  opened: "2026-11-25"
