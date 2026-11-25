@@ -714,7 +714,7 @@
     date: "2026-11-25"
     status: 200
     final: "https://blog.google/security/"
-    how: script
+    how: browser
   notes: "security.googleblog.com and the former Threat Analysis Group address both redirect here."
 
 - id: mozilla-security-blog
@@ -1071,7 +1071,7 @@
     date: "2026-11-25"
     status: 200
     final: "https://www.netskope.com/the-lens/threat-research"
-    how: script
+    how: browser
 
 - id: binarly-blog
   name: "Binarly Blog"
