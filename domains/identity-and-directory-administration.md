@@ -19,18 +19,18 @@ How do I run Microsoft's directories?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Microsoft Entra documentation](https://learn.microsoft.com/en-us/entra/) | Microsoft | Documentation for the Microsoft Entra family of identity and network access products. | Vendor documentation | Free |
-| [Microsoft Entra releases and announcements](https://learn.microsoft.com/en-us/entra/fundamentals/whats-new) | Microsoft | Release notes for Microsoft Entra: new features, known issues, bug fixes, deprecations, and upcoming changes. | Reference | Free |
-| [Microsoft Entra built-in roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference) | Microsoft | What each Microsoft Entra built-in role can do, with role descriptions, permissions, and template IDs. | Reference | Free |
-| [Microsoft Entra Connect and Connect Health](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect) | Microsoft | The tools that synchronize an on-premises directory with Microsoft Entra ID and monitor that link. | Vendor documentation | Free |
-| [Microsoft Entra authentication documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/) | Microsoft | How to deploy and manage self-service password reset, multifactor authentication, the banned password list, and smart lockout. | Vendor documentation | Free |
-| [Microsoft Entra Conditional Access documentation](https://learn.microsoft.com/en-us/entra/identity/conditional-access/) | Microsoft | How to configure and test Conditional Access policies in Microsoft Entra. | Vendor documentation | Free |
-| [Microsoft identity platform documentation](https://learn.microsoft.com/en-us/entra/identity-platform/) | Microsoft | How to sign in users and protect apps and web APIs with Microsoft Entra, OAuth 2.0, and OpenID Connect. | Vendor documentation | Free |
-| [Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) | Microsoft | Overview of Active Directory Domain Services, the directory service that makes network resource data available to authorized users and administrators. | Vendor documentation | Free |
-| [Windows Server Identity and Access documentation](https://learn.microsoft.com/en-us/windows-server/identity/identity-and-access) | Microsoft | Documentation for the Windows Server identity and access technologies used on-premises and in hybrid deployments. | Vendor documentation | Free |
+| [Microsoft Entra documentation](https://learn.microsoft.com/en-us/entra/) | Microsoft | Microsoft's documentation hub for Entra: Entra ID, ID Protection, ID Governance, External ID, Verified ID, and the Internet Access and Private Access services. | Vendor documentation | Free |
+| [Microsoft Entra releases and announcements](https://learn.microsoft.com/en-us/entra/fundamentals/whats-new) | Microsoft | Month-by-month list of Microsoft Entra feature announcements, marked as general availability or preview, with an archive of older months. | Reference | Free |
+| [Microsoft Entra built-in roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference) | Microsoft | Reference list of every built-in Entra role, giving each role's description, permissions, and template ID. | Reference | Free |
+| [Microsoft Entra Connect and Connect Health](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect) | Microsoft | Explains Entra Connect, its Connect Health monitoring, and hybrid identity options: password hash synchronization, pass-through authentication, federation, and the suggested move to Cloud Sync. | Vendor documentation | Free |
+| [Microsoft Entra authentication documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/) | Microsoft | Microsoft's documentation for Entra authentication: passkeys, certificate-based sign-in, Windows Hello for Business, multifactor authentication, and password reset. | Vendor documentation | Free |
+| [Microsoft Entra Conditional Access documentation](https://learn.microsoft.com/en-us/entra/identity/conditional-access/) | Microsoft | Microsoft's documentation for Conditional Access: conditions and locations, deployment planning, common policy templates, and troubleshooting with the What If tool. | Vendor documentation | Free |
+| [Microsoft identity platform documentation](https://learn.microsoft.com/en-us/entra/identity-platform/) | Microsoft | Developer documentation for building Entra sign-in into apps: app registration, authentication flows, the MSAL libraries, and protecting web APIs. | Vendor documentation | Free |
+| [Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) | Microsoft | Short introduction to AD DS that links onward to its data store, schema, global catalog, replication, and domain controller roles. | Vendor documentation | Free |
+| [Windows Server Identity and Access documentation](https://learn.microsoft.com/en-us/windows-server/identity/identity-and-access) | Microsoft | Hub for Windows Server identity documentation: Active Directory Domain Services, Certificate Services, Federation Services, and Windows LAPS. | Vendor documentation | Free |
 | [Active Directory troubleshooting](https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview) | Microsoft | Microsoft's index of troubleshooting articles for Active Directory. | Vendor documentation | Free |
-| [dcdiag](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dcdiag) | Microsoft | Reference for DCDiag, which diagnoses domain controller health and runs network connectivity tests. | Reference | Free |
-| [Windows LAPS overview](https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview) | Microsoft | Overview of Windows Local Administrator Password Solution: key scenarios and setup and management options. | Vendor documentation | Free |
+| [dcdiag](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dcdiag) | Microsoft | Command reference for dcdiag: its syntax, the tests it can run against a domain controller, DNS options, and examples. | Reference | Free |
+| [Windows LAPS overview](https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview) | Microsoft | Introduces Windows LAPS for managing local administrator passwords: supported platforms, use with Microsoft Entra ID, policy settings, and migration from legacy Microsoft LAPS. | Vendor documentation | Free |
 
 ## Other directories and identity providers
 
@@ -39,19 +39,19 @@ What about the other identity systems?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Okta Documentation](https://help.okta.com/) | Okta | Okta's product documentation for Identity Engine, Classic Engine, Access Gateway, and its other products. | Vendor documentation | Free |
-| [Okta Developer](https://developer.okta.com/) | Okta | Okta's developer site for adding authentication and user management to an application. | Vendor documentation | Free |
-| [Okta Status](https://status.okta.com/) | Okta | Current status of the Okta service, with recent and historical incidents. | Status page | Free |
+| [Okta Developer](https://developer.okta.com/) | Okta | Okta's site for developers who are building sign-in and user handling into their own applications. | Vendor documentation | Free |
+| [Okta Status](https://status.okta.com/) | Okta | Live health page for the Okta service, with a record of past incidents. | Status page | Free |
 | [Ping Identity documentation](https://docs.pingidentity.com/) | Ping Identity | Ping Identity's documentation, use cases, and release notes for PingOne and its other products. | Vendor documentation | Free |
-| [Cloud Identity documentation](https://docs.cloud.google.com/identity/docs) | Google Cloud | Documentation for Google's Cloud Identity, its identity, access, app, and endpoint management platform. | Vendor documentation | Free |
-| [AWS IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) | Amazon Web Services | The user guide for AWS Identity and Access Management, starting with its features and basic concepts. | Vendor documentation | Free |
-| [AWS IAM Identity Center User Guide](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html) | Amazon Web Services | The user guide for IAM Identity Center, which connects workforce users to AWS applications and accounts. | Vendor documentation | Free |
-| [Duo Documentation](https://duo.com/docs) | Cisco Duo | How-to and setup guides for integrating Duo with devices and applications. | Vendor documentation | Free |
-| [Keycloak](https://www.keycloak.org/) | Keycloak | Open source identity and access management server that adds single sign-on and authentication to applications. | Tool | Free |
+| [Cloud Identity documentation](https://docs.cloud.google.com/identity/docs) | Google Cloud | Google's documentation for Cloud Identity: domain verification, setup, and the Groups and Devices APIs. | Vendor documentation | Free |
+| [AWS IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) | Amazon Web Services | Amazon's guide to IAM, opening with what the service is and how access requests are authorized, then covering users, groups, roles, and policies. | Vendor documentation | Free |
+| [AWS IAM Identity Center User Guide](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html) | Amazon Web Services | Amazon's guide to IAM Identity Center, its service for giving a workforce single sign-on across AWS accounts and applications from one identity source. | Vendor documentation | Free |
+| [Duo Documentation](https://duo.com/docs) | Cisco | How-to and setup guides for integrating Duo with devices and applications. | Vendor documentation | Free |
+| [Keycloak](https://www.keycloak.org/) | Keycloak, a CNCF project | Open source server for identity management: single sign-on, identity brokering, social login, user federation with LDAP or Active Directory, and authorization services. | Tool | Free |
 | [FreeIPA](https://www.freeipa.org/) | FreeIPA | Open source identity, policy, and audit system for managing Linux users and hosts. | Tool | Free |
-| [OpenLDAP](https://www.openldap.org/) | OpenLDAP Project | Home of the community-developed OpenLDAP software, with its documentation. | Tool | Free |
-| [389 Directory Server](https://www.port389.org/) | 389 Directory Server | Open source LDAP server for Linux. | Tool | Free |
-| [Authelia](https://www.authelia.com/) | Authelia | Free and open source identity and access management platform and OpenID Certified OpenID Connect 1.0 provider. | Tool | Free |
-| [authentik](https://goauthentik.io/) | authentik | Self-hosted, open source identity provider for bringing authentication into one platform. | Tool | Freemium |
+| [OpenLDAP](https://www.openldap.org/) | OpenLDAP Foundation | Home of the community-developed OpenLDAP software, with its documentation. | Tool | Free |
+| [389 Directory Server](https://www.port389.org/) | Red Hat | LDAP directory server for Linux, developed in the open, with documentation, release notes, and mailing lists on this site. | Tool | Free |
+| [Authelia](https://www.authelia.com/) | Authelia | Open source server for authentication and authorization that is certified as an OpenID Connect provider. | Tool | Free |
+| [authentik](https://goauthentik.io/) | Authentik Security | Identity provider that you host yourself, with an open source core and paid enterprise plans. | Tool | Freemium |
 
 ## Protocols and standards
 
@@ -60,14 +60,14 @@ How do OAuth, OpenID Connect, SAML, SCIM, LDAP, Kerberos, and passkeys work?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [How OpenID Connect Works](https://openid.net/developers/how-connect-works/) | OpenID Foundation | The OpenID Foundation's explanation of OpenID Connect, the authentication protocol built on OAuth 2.0. | Standard | Free |
-| [OAuth 2.0](https://oauth.net/2/) | oauth.net | Guide to OAuth 2.0, the protocol for authorization. | Standard | Free |
-| [RFC 6749: The OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/info/rfc6749/) | RFC Editor | The specification of the OAuth 2.0 authorization framework. | Standard | Free |
-| [Security Assertion Markup Language (SAML) v2.0](https://www.oasis-open.org/standard/saml/) | OASIS | The OASIS standard for XML-encoded assertions about authentication, attributes, and authorization, approved in March 2005. | Standard | Free |
-| [SCIM: System for Cross-domain Identity Management](https://scim.cloud/) | scim.cloud | Open standard for automating the exchange of user identity information between systems, published as RFC 7642, 7643, and 7644. | Standard | Free |
+| [OAuth 2.0](https://oauth.net/2/) | Aaron Parecki | Guide to OAuth 2.0, the protocol for authorization. | Standard | Free |
+| [RFC 6749: The OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/info/rfc6749/) | RFC Editor | Defines how an application obtains limited access to a web service for a user through tokens issued by an authorization server. | Standard | Free |
+| [Security Assertion Markup Language (SAML) v2.0](https://www.oasis-open.org/standard/saml/) | OASIS | OASIS's page for the SAML 2.0 standard, approved in March 2005, with the specification documents as HTML and a zip file. | Standard | Free |
+| [SCIM: System for Cross-domain Identity Management](https://scim.cloud/) | scim.cloud | Home of the SCIM standard for exchanging user identity data: user and group schema, REST protocol, the RFCs that define version 2.0, and known implementations. | Standard | Free |
 | [FIDO Passkeys](https://fidoalliance.org/passkeys/) | FIDO Alliance | The FIDO Alliance's explanation of passkeys, the FIDO credential that signs a user in with the device's own unlock method. | Standard | Free |
-| [RFC 4511: LDAP: The Protocol](https://www.rfc-editor.org/info/rfc4511/) | RFC Editor | The specification of the Lightweight Directory Access Protocol: its protocol elements, semantics, and encodings. | Standard | Free |
-| [RFC 4120: The Kerberos Network Authentication Service (V5)](https://www.rfc-editor.org/info/rfc4120/) | RFC Editor | The overview and specification of version 5 of the Kerberos protocol. | Standard | Free |
-| [LDAP.com](https://ldap.com/) | LDAP.com | Reference site on LDAP, the standards-based way of interacting with directory servers. | Reference | Free |
+| [RFC 4511: LDAP: The Protocol](https://www.rfc-editor.org/info/rfc4511/) | RFC Editor | Defines the LDAP protocol itself: the operations a client can ask of a directory server and how each message is encoded. | Standard | Free |
+| [RFC 4120: The Kerberos Network Authentication Service (V5)](https://www.rfc-editor.org/info/rfc4120/) | RFC Editor | Defines version 5 of Kerberos, the network authentication service; it obsoletes RFC 1510 and is updated by several later RFCs. | Standard | Free |
+| [LDAP.com](https://ldap.com/) | Neil Wilson | Reference site on LDAP, with sections for learning the protocol, using it, and looking up reference material. | Reference | Free |
 
 ## Token and protocol tools
 
@@ -75,8 +75,8 @@ What do I debug a sign-in with?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [jwt.ms](https://jwt.ms/) | jwt.ms | Paste a JSON Web Token to see its decoded claims with notes on each; the page says the token never leaves the browser. | Online service | Free |
-| [jwt.io](https://www.jwt.io/) | jwt.io | Debugger for decoding, verifying, and generating JSON Web Tokens. | Online service | Free |
-| [OneLogin SAML online tools](https://developers.onelogin.com/docs/saml/online-tools/) | OneLogin | Client-side SAML developer tools that run in the browser. | Online service | Free |
+| [jwt.ms](https://jwt.ms/) | Microsoft | Paste a JSON Web Token to see its decoded claims with notes on each; the page says the token never leaves the browser. | Online service | Free |
+| [jwt.io](https://www.jwt.io/) | Okta | Debugger for decoding, verifying, and generating JSON Web Tokens. | Online service | Free |
+| [OneLogin SAML online tools](https://developers.onelogin.com/docs/saml/online-tools/) | OneLogin | Browser tools for SAML work: decode and validate requests and responses, build metadata, format certificates, and generate a self-signed certificate. | Online service | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

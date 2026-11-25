@@ -2,7 +2,7 @@
 
 # Index, A to Z
 
-> Every resource in the catalog by name: 612 entries. Each name links to the resource; the domain links to its place in the catalog.
+> Every resource in the catalog by name: 615 entries. Each name links to the resource; the domain links to its place in the catalog.
 
 [0-9](#0-9) · [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
@@ -11,16 +11,16 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [0day "In the Wild"](https://projectzero.google/0day.html) | Google Project Zero | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
-| [389 Directory Server](https://www.port389.org/) | 389 Directory Server | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
-| [404 Media](https://www.404media.co/) | 404 Media | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [389 Directory Server](https://www.port389.org/) | Red Hat | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
+| [404 Media](https://www.404media.co/) | 404 Media | [News and research](domains/news-and-research.md#news-sites) | News | Freemium |
 
 ## A
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [ABB cyber security alerts and notifications](https://www.abb.com/global/en/company/about/cybersecurity/alerts-and-notifications) | ABB | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
-| [abuse.ch Hunting](https://hunting.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
-| [AbuseIPDB](https://www.abuseipdb.com/) | AbuseIPDB | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Not confirmed |
+| [abuse.ch Hunting](https://hunting.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free with account |
+| [AbuseIPDB](https://www.abuseipdb.com/) \* | AbuseIPDB LLC | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 | [Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Active Directory troubleshooting](https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Adobe Security Bulletins and Advisories](https://www.adobe.com/trust/security/bulletins-and-advisories.html) | Adobe | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
@@ -47,15 +47,15 @@
 | [APT groups and threat actors (Google Cloud)](https://cloud.google.com/security/resources/insights/apt-groups) | Google Cloud | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Arch Linux Security Tracker](https://security.archlinux.org/) | Arch Linux | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Arista Security Advisories](https://www.arista.com/en/support/advisories-notices) | Arista Networks | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
-| [Ars Technica: Security](https://arstechnica.com/security/) | Ars Technica | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [Ars Technica: Security](https://arstechnica.com/security/) | Condé Nast | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Atlassian Security Advisories & Bulletins](https://www.atlassian.com/trust/security/advisories) | Atlassian | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
-| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Red Canary | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#adversary-emulation-and-control-testing) | Dataset or feed | Free |
+| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Red Canary, a Zscaler company | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#adversary-emulation-and-control-testing) | Dataset or feed | Free |
 | [ATT&CK Campaigns](https://attack.mitre.org/campaigns/) | MITRE | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [ATT&CK Groups](https://attack.mitre.org/groups/) | MITRE | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [ATT&CK Software](https://attack.mitre.org/software/) | MITRE | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) | Center for Threat-Informed Defense | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#center-for-threat-informed-defense-projects) | Standard | Free |
 | [Authelia](https://www.authelia.com/) | Authelia | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
-| [authentik](https://goauthentik.io/) | authentik | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Freemium |
+| [authentik](https://goauthentik.io/) | Authentik Security | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Freemium |
 | [AutoPkg](https://github.com/autopkg/autopkg) | AutoPkg | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Tool | Free |
 | [Autopsy](https://www.autopsy.com/) | Sleuth Kit Labs | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
 | [AWS Cloud Security](https://aws.amazon.com/security/) | Amazon Web Services | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#provider-security-pages-and-research) | Vendor documentation | Free |
@@ -72,8 +72,8 @@
 | [Binarly Blog](https://www.binarly.io/blog) | Binarly | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Binary Ninja](https://binary.ninja/) | Vector 35 | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Tool | Freemium |
 | [BIND 9 Software Vulnerability Matrix](https://kb.isc.org/docs/aa-00913) | Internet Systems Consortium (ISC) | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
-| [Bishop Fox Blog](https://bishopfox.com/blog) | Bishop Fox | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [BleepingComputer](https://www.bleepingcomputer.com/) | BleepingComputer | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [Bishop Fox Offensive Security Blog](https://bishopfox.com/blog) | Bishop Fox | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [BleepingComputer](https://www.bleepingcomputer.com/) \* | BleepingComputer | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [BloodHound Community Edition](https://github.com/SpecterOps/BloodHound) | SpecterOps | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
 | [Blue Team Labs Online](https://blueteamlabs.online/) | Centri | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
 | [BOD 26-04: Prioritizing Security Updates Based on Risk](https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk) | CISA | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Standard | Free |
@@ -86,30 +86,31 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [Caido](https://www.caido.io/) | Caido | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Freemium |
-| [Call4Cloud](https://call4cloud.nl/) | Call4Cloud | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | News | Free |
+| [Call4Cloud](https://call4cloud.nl/) | Rudy Ooms | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | News | Free |
 | [Canadian Centre for Cyber Security](https://www.cyber.gc.ca/en) | Communications Security Establishment Canada | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
 | [Canadian Centre for Cyber Security alerts and advisories](https://www.cyber.gc.ca/en/alerts-advisories) | Communications Security Establishment Canada | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [Censys Platform](https://platform.censys.io/) | Censys | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Center for Threat-Informed Defense](https://ctid.mitre.org/) | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#center-for-threat-informed-defense-projects) | Organization | Free |
 | [The CERT Guide to Coordinated Vulnerability Disclosure](https://certcc.github.io/CERT-Guide-to-CVD/) | CERT/CC | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Reference | Free |
-| [CERT Polska](https://cert.pl/en/) | CERT Polska | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Research blog | Free |
+| [CERT Polska](https://cert.pl/en/) | CERT Polska, part of NASK | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Research blog | Free |
 | [CERT-EU Security Advisories](https://cert.europa.eu/publications/security-advisories/) | CERT-EU | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
-| [CERT-FR](https://cert.cyber.gouv.fr/) | CERT-FR | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
+| [CERT-FR](https://cert.cyber.gouv.fr/) | ANSSI | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [CERT/CC Vulnerability Notes Database](https://www.kb.cert.org/vuls/) | CERT/CC (Carnegie Mellon University SEI) | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
 | [CERT@VDE advisories](https://certvde.com/en/advisories/) | CERT@VDE | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Chainsaw](https://github.com/WithSecureOpenSource/chainsaw) | WithSecure | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
-| [Check Point advisories archive](https://advisories.checkpoint.com/advisories/) | Check Point | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
+| [Check Point Advisories Archive (IPS protections)](https://advisories.checkpoint.com/advisories/) | Check Point Software Technologies | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Check Point Research](https://research.checkpoint.com/) | Check Point | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [Check Point Security Advisories](https://support.checkpoint.com/security-advisories) | Check Point Software Technologies | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Check Point Support Center](https://support.checkpoint.com/) | Check Point | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Vendor documentation | Free |
 | [Chocolatey](https://chocolatey.org/) | Chocolatey Software | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Freemium |
 | [Chrome Enterprise and Education Help](https://support.google.com/chrome/a/) | Google | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Vendor documentation | Free |
 | [Chrome Releases](https://chromereleases.googleblog.com/) | Google | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [CIS Advisories](https://www.cisecurity.org/advisory) | Center for Internet Security | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
-| [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) | Center for Internet Security | [GRC and security program](domains/grc-and-security-program.md#frameworks-controls-and-benchmarks) | Standard | Free |
+| [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) | Center for Internet Security | [GRC and security program](domains/grc-and-security-program.md#frameworks-controls-and-benchmarks) | Standard | Free with account |
 | [CIS Critical Security Controls](https://www.cisecurity.org/controls) | Center for Internet Security | [GRC and security program](domains/grc-and-security-program.md#frameworks-controls-and-benchmarks) | Standard | Free |
 | [CISA Coordinated Vulnerability Disclosure (CVD) Program](https://www.cisa.gov/resources-tools/programs/coordinated-vulnerability-disclosure-cvd-program) | CISA | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Reference | Free |
 | [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) | CISA | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Standard | Free |
-| [CISA Cyber Hygiene Services](https://www.cisa.gov/cyber-hygiene-services) | CISA | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Online service | Free |
+| [CISA Cyber Hygiene Services](https://www.cisa.gov/cyber-hygiene-services) | CISA | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Online service | Free with account |
 | [CISA Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) | CISA | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
 | [CISA ICS Advisories](https://www.cisa.gov/news-events/ics-advisories) | CISA | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
 | [CISA Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems) | CISA | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Reference | Free |
@@ -121,9 +122,9 @@
 | [Cisco Security Advisories](https://sec.cloudapps.cisco.com/security/center/publicationListing.x) | Cisco | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Cisco Talos Blog](https://blog.talosintelligence.com/) | Cisco Talos | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Cisco Talos Vulnerability Reports](https://talosintelligence.com/vulnerability_reports) | Cisco Talos | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Advisory source | Free |
-| [The Citizen Lab](https://citizenlab.ca/) | University of Toronto | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [The Citizen Lab](https://citizenlab.ca/) | The Citizen Lab, University of Toronto | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Citrix Support (security bulletins)](https://support.citrix.com/support-home/home) | Citrix | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
-| [Clair](https://github.com/quay/clair) | quay | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
+| [Clair](https://github.com/quay/clair) | Quay | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [Clonezilla](https://clonezilla.org/) | Clonezilla | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [Cloud Identity documentation](https://docs.cloud.google.com/identity/docs) | Google Cloud | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
 | [Cloudflare Blog: Security](https://blog.cloudflare.com/tag/security/) | Cloudflare | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
@@ -144,11 +145,11 @@
 | [crt.sh](https://crt.sh/) | Sectigo | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Free |
 | [CSA Singapore Alerts & Advisories](https://www.csa.gov.sg/alerts-and-advisories) | Cyber Security Agency of Singapore | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [CSIRTs Network](https://csirtsnetwork.eu/) | CSIRTs Network | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Organization | Free |
-| [CSO Online](https://www.csoonline.com/) | CSO | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [CSO Online](https://www.csoonline.com/) | Foundry (FoundryCo, Inc.) | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [CTFtime](https://ctftime.org/) | CTFtime team | [Labs and training](domains/labs-and-training.md#capture-the-flag) | Community | Free |
 | [curl CVEs](https://curl.se/docs/security.html) | curl | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [Cutter](https://github.com/rizinorg/cutter) | Rizin | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Tool | Free |
-| [CVE Crowd](https://cvecrowd.com/) | cvecrowd.com | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Online service | Free |
+| [CVE Crowd](https://cvecrowd.com/) | cvecrowd.com | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Online service | Freemium |
 | [CVE List (cvelistV5)](https://github.com/CVEProject/cvelistV5) | CVE Program | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [CVE Program](https://www.cve.org/) | CVE Program | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [CVE Program List of Partners](https://www.cve.org/PartnerInformation/ListofPartners) | CVE Program | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Reference | Free |
@@ -159,20 +160,21 @@
 | [cyber.gov.au (Australian Cyber Security Centre)](https://www.cyber.gov.au/) | Australian Signals Directorate | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
 | [cyber.gov.au alerts and advisories](https://www.cyber.gov.au/alerts-and-advisories) | Australian Signals Directorate | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [CyberChef](https://gchq.github.io/CyberChef/) | GCHQ | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Online service | Free |
-| [CyberDefenders](https://cyberdefenders.org/) | CyberDefenders | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Paid |
+| [CyberDefenders](https://cyberdefenders.org/) | CyberDefenders | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
 | [CyberInsider](https://cyberinsider.com/) | CyberInsider | [News and research](domains/news-and-research.md#news-sites) | News | Free |
-| [CyberScoop](https://cyberscoop.com/) | CyberScoop | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [CyberScoop](https://cyberscoop.com/) | Scoop News Group | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Cybersecurity and Privacy Reference Tool (CPRT)](https://csrc.nist.gov/projects/cprt) | NIST | [GRC and security program](domains/grc-and-security-program.md#nist-publications-and-tools) | Online service | Free |
 | [Cybersecurity Dive](https://www.cybersecuritydive.com/) | Informa TechTarget | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [CycloneDX](https://cyclonedx.org/) | OWASP Foundation | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
+| [CyLab Security Academy](https://cylabacademy.org/) | Carnegie Mellon University | [Labs and training](domains/labs-and-training.md#capture-the-flag) | Training or lab | Free with account |
 
 ## D
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [Dark Reading](https://www.darkreading.com/) | Informa TechTarget | [News and research](domains/news-and-research.md#news-sites) | News | Free |
-| [Darknet Diaries](https://darknetdiaries.com/) | Darknet Diaries | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
-| [DataBreaches.net](https://databreaches.net/) | DataBreaches.net | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [Darknet Diaries](https://darknetdiaries.com/) | Jack Rhysider | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Freemium |
+| [DataBreaches.net](https://databreaches.net/) \* | DataBreaches.net | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Datadog Security Labs](https://securitylabs.datadoghq.com/) | Datadog | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [dcdiag](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dcdiag) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Reference | Free |
 | [Debian Security Bug Tracker](https://security-tracker.debian.org/tracker/) | Debian | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Dataset or feed | Free |
@@ -182,17 +184,17 @@
 | [Dell Security Advisories, Notices and Resources](https://www.dell.com/support/security/en-us/) | Dell Technologies | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 | [Dependency-Track](https://dependencytrack.org/) | OWASP Foundation | [Vulnerability management](domains/vulnerability-management.md#triage-and-remediation-tracking) | Tool | Free |
 | [Detection.FYI](https://detection.fyi/) | detection.fyi | [Detection and response](domains/detection-and-response.md#rules-and-analytics) | Online service | Free |
-| [DetectionLab](https://github.com/clong/DetectionLab) | clong | [Detection and response](domains/detection-and-response.md#test-data-and-lab-builds) | Tool | Free |
-| [The DFIR Report](https://thedfirreport.com/) | The DFIR Report | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [DetectionLab](https://github.com/clong/DetectionLab) | Chris Long (clong) | [Detection and response](domains/detection-and-response.md#test-data-and-lab-builds) | Tool | Free |
+| [The DFIR Report](https://thedfirreport.com/) | The DFIR Report | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Freemium |
 | [disclose.io](https://disclose.io/) | disclose.io | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Reference | Free |
-| [DNSDumpster](https://dnsdumpster.com/) | DNSDumpster | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Free |
+| [DNSDumpster](https://dnsdumpster.com/) | Hacker Target | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Docker security announcements](https://docs.docker.com/security/security-announcements/) | Docker | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
-| [DomainTools Blog](https://www.domaintools.com/blog) | DomainTools | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [DomainTools Investigations](https://dti.domaintools.com/) | DomainTools | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Download Windows 11](https://www.microsoft.com/en-us/software-download/windows11) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free |
 | [Dragos OT Cybersecurity Year in Review](https://www.dragos.com/ot-cybersecurity-year-in-review/) | Dragos | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [Dragos Threat Groups](https://www.dragos.com/threat-groups/) | Dragos | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Drupal security advisories](https://www.drupal.org/security) | Drupal | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
-| [Duo Documentation](https://duo.com/docs) | Cisco Duo | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
+| [Duo Documentation](https://duo.com/docs) | Cisco | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
 
 ## E
 
@@ -203,7 +205,7 @@
 | [Elastic Security Labs](https://www.elastic.co/security-labs) | Elastic | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [endoflife.date](https://endoflife.date/) | endoflife.date project | [Vulnerability management](domains/vulnerability-management.md#lifecycle-and-end-of-life) | Reference | Free |
 | [ENISA](https://www.enisa.europa.eu/) | European Union Agency for Cybersecurity (ENISA) | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
-| [ENISA Cyber Threats](https://www.enisa.europa.eu/topics/cyber-threats) | European Union Agency for Cybersecurity (ENISA) | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
+| [ENISA Cyber Threats](https://www.enisa.europa.eu/topics/cyber-threats) | European Union Agency for Cybersecurity (ENISA) | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Reference | Free |
 | [EPSS data](https://www.first.org/epss/data) | FIRST | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Dataset or feed | Free |
 | [Eric Zimmerman's Tools](https://ericzimmerman.github.io/) | Eric Zimmerman | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
 | [European Cybercrime Centre (EC3)](https://www.europol.europa.eu/about-europol/european-cybercrime-centre-ec3) | Europol | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Organization | Free |
@@ -251,13 +253,13 @@
 | [Google security blog](https://blog.google/security/) | Google | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Google Workspace Help](https://knowledge.workspace.google.com/) | Google | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Vendor documentation | Free |
 | [Grafana Labs Security Advisories](https://grafana.com/security/security-advisories/) | Grafana Labs | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
-| [Graham Cluley](https://grahamcluley.com/) | Graham Cluley | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
-| [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free |
+| [Graham Cluley: Writing](https://grahamcluley.com/writing/) | Graham Cluley (Cluley Associates Limited) | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
+| [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free with account |
 | [Greenbone Community Edition (OpenVAS)](https://greenbone.github.io/docs/latest/) | Greenbone | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [GreyNoise Blog](https://www.greynoise.io/blog) | GreyNoise | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [GreyNoise Visualizer](https://viz.greynoise.io/) | GreyNoise | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Group Policy overview for Windows Server](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Vendor documentation | Free |
-| [Group Policy Search](https://gpsearch.azurewebsites.net/) | Group Policy Search | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free |
+| [Group Policy Search](https://gpsearch.azurewebsites.net/) | Stephanus A. Schulte (Microsoft) | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free |
 | [Group-IB Blog](https://www.group-ib.com/blog/) | Group-IB | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Grype](https://github.com/anchore/grype) | Anchore | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [GTFOBins](https://gtfobins.org/) | GTFOBins | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Reference | Free |
@@ -269,11 +271,12 @@
 | [Hack The Box](https://www.hackthebox.com/) | Hack The Box | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Freemium |
 | [The Hacker News](https://thehackernews.com/) | The Hacker News | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Hacking The Cloud](https://hackingthe.cloud/) | Hacking The Cloud (volunteer contributors) | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#cloud-attack-techniques-and-practice) | Reference | Free |
-| [Hackread](https://hackread.com/) | Hackread | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [Hackread](https://hackread.com/) | Gray Dot Media Group | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [HackTricks](https://hacktricks.wiki/) | HackTricks | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Reference | Free |
 | [HashiCorp security updates](https://discuss.hashicorp.com/c/security/52) | HashiCorp | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
-| [Havoc](https://github.com/HavocFramework/Havoc) | HavocFramework | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
+| [Havoc](https://github.com/HavocFramework/Havoc) | Havoc Framework | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
 | [Help Net Security](https://www.helpnetsecurity.com/) | Help Net Security | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [HHS Threat Intelligence](https://tech.hhs.gov/cyber/threat-intelligence) | U.S. Department of Health and Human Services | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
 | [Hitachi Energy Cybersecurity Alerts and Notifications](https://www.hitachienergy.com/us/en/products-and-solutions/cybersecurity/alerts-and-notifications) | Hitachi Energy | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Homebrew](https://brew.sh/) | Homebrew | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [How Microsoft names threat actors](https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming) | Microsoft | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
@@ -289,21 +292,21 @@
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
-| [IBM security vulnerability management (PSIRT)](https://www.ibm.com/trust/security-vulnerability-management) | IBM | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
-| [IBM X-Force Threat Intelligence Index](https://www.ibm.com/reports/threat-intelligence) | IBM | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
+| [IBM security vulnerability management (PSIRT)](https://www.ibm.com/trust/security-vulnerability-management) | IBM | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Vendor documentation | Free |
+| [IBM X-Force Threat Intelligence Index](https://www.ibm.com/reports/threat-intelligence) | IBM | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free with account |
 | [IC3 Annual Reports](https://www.ic3.gov/AnnualReport/Reports) | FBI | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
-| [IDA Free](https://hex-rays.com/ida-free) | Hex-Rays | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Tool | Free |
+| [IDA Free](https://hex-rays.com/ida-free) | Hex-Rays | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Tool | Free with account |
 | [Impacket](https://github.com/fortra/impacket) | Fortra | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
 | [INCIBE-CERT](https://www.incibe.es/en/incibe-cert) | INCIBE | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [Infosec Exchange](https://infosec.exchange/) | Infosec Exchange | [News and research](domains/news-and-research.md#communities) | Community | Free |
-| [Infosecurity Magazine](https://www.infosecurity-magazine.com/) | Infosecurity Magazine | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [Infosecurity Magazine](https://www.infosecurity-magazine.com/) | Reed Exhibitions | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [InsightVM](https://www.rapid7.com/products/insightvm/) | Rapid7 | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Paid |
 | [Intel Product Security Center](https://www.intel.com/content/www/us/en/security-center/default.html) | Intel | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
-| [IntelOwl](https://github.com/intelowlproject/IntelOwl) | IntelOwl Project | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Tool | Free |
+| [IntelOwl](https://github.com/intelowlproject/IntelOwl) | Certego | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Tool | Free |
 | [Internet Crime Complaint Center (IC3)](https://www.ic3.gov/) | FBI | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Organization | Free |
 | [Internet Organised Crime Threat Assessment (IOCTA)](https://www.europol.europa.eu/publications-events/main-reports/iocta-report) | Europol | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [IPinfo](https://ipinfo.io/) | IPinfo | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
-| [IPVoid](https://www.ipvoid.com/) | IPVoid | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
+| [IPVoid](https://www.ipvoid.com/) | NoVirusThanks Company Srl | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
 | [Ivanti security advisory blog](https://www.ivanti.com/blog/topics/security-advisory) | Ivanti | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 
 ## J
@@ -312,25 +315,25 @@
 |---|---|---|---|---|
 | [Jamf Learning Hub](https://learn.jamf.com/) | Jamf | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Vendor documentation | Free |
 | [Jamf Nation](https://community.jamf.com/) | Jamf | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Community | Free |
-| [Japan Vulnerability Notes (JVN)](https://jvn.jp/en/) | Japan Vulnerability Notes | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
+| [Japan Vulnerability Notes (JVN)](https://jvn.jp/en/) | JPCERT/CC and IPA | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [Jenkins Security Advisories](https://www.jenkins.io/security/advisories/) | Jenkins project | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
 | [JetBrains fixed security issues](https://www.jetbrains.com/privacy-security/issues-fixed/) | JetBrains | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
-| [Joe Sandbox Cloud](https://www.joesandbox.com/) | Joe Security | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Freemium |
+| [Joe Sandbox Cloud](https://www.joesandbox.com/) \* | Joe Security | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Freemium |
 | [Joomla Security Announcements](https://developer.joomla.org/security-centre.html) | Joomla | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [JPCERT Coordination Center](https://www.jpcert.or.jp/english/) | JPCERT/CC | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [Juniper Support Portal](https://supportportal.juniper.net/s/) | Juniper Networks | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Vendor documentation | Free with account |
-| [jwt.io](https://www.jwt.io/) | jwt.io | [Identity and directory services administration](domains/identity-and-directory-administration.md#token-and-protocol-tools) | Online service | Free |
-| [jwt.ms](https://jwt.ms/) | jwt.ms | [Identity and directory services administration](domains/identity-and-directory-administration.md#token-and-protocol-tools) | Online service | Free |
+| [jwt.io](https://www.jwt.io/) | Okta | [Identity and directory services administration](domains/identity-and-directory-administration.md#token-and-protocol-tools) | Online service | Free |
+| [jwt.ms](https://jwt.ms/) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#token-and-protocol-tools) | Online service | Free |
 
 ## K
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [KAPE (Kroll Artifact Parser and Extractor)](https://www.kroll.com/en/publications/cyber/kroll-artifact-parser-extractor-kape) | Kroll | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Freemium |
-| [Kerbrute](https://github.com/ropnop/kerbrute) | ropnop | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
+| [Kerbrute](https://github.com/ropnop/kerbrute) | Ronnie Flathers (ropnop) | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
 | [KEV mappings (Mappings Explorer)](https://ctid.mitre.org/mappings/external/kev/) | Center for Threat-Informed Defense | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Reference | Free |
 | [kev-data](https://github.com/cisagov/kev-data) | CISA | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Dataset or feed | Free |
-| [Keycloak](https://www.keycloak.org/) | Keycloak | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
+| [Keycloak](https://www.keycloak.org/) | Keycloak, a CNCF project | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
 | [Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | CISA | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Dataset or feed | Free |
 | [Krebs on Security](https://krebsonsecurity.com/) | Krebs on Security | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [kube-bench](https://github.com/aquasecurity/kube-bench) | Aqua Security | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#audit-posture-and-runtime-tools) | Tool | Free |
@@ -341,10 +344,10 @@
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
-| [LDAP.com](https://ldap.com/) | LDAP.com | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Reference | Free |
+| [LDAP.com](https://ldap.com/) | Neil Wilson | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Reference | Free |
 | [LeakIX](https://leakix.net/) | LeakIX | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Legacy GitLab Advisory Database](https://advisories.gitlab.com/) | GitLab | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
-| [Lenovo Product Security Advisories and Announcements](https://support.lenovo.com/us/en/product_security/home) | Lenovo | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
+| [Lenovo Product Security Advisories and Announcements](https://support.lenovo.com/product_security/home) | Lenovo | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 | [LetsDefend](https://letsdefend.io/) | LetsDefend | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
 | [LevelBlue Open Threat Exchange (OTX)](https://otx.alienvault.com/) | LevelBlue | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free with account |
 | [Linux kernel CVEs](https://docs.kernel.org/process/cve.html) | The Linux kernel community | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Reference | Free |
@@ -356,14 +359,14 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [M-Trends](https://cloud.google.com/security/resources/m-trends) | Google Cloud (Mandiant) | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free with account |
-| [M365 Maps](https://m365maps.com/) | M365 Maps | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
+| [M365 Maps](https://m365maps.com/) | Aaron Dinnage | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
 | [Mac Admins Foundation](https://www.macadmins.org/) | Mac Admins Foundation | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Community | Free |
 | [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) | Fraunhofer FKIE | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Maltego](https://www.maltego.com/) | Maltego Technologies | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Freemium |
-| [MalwareBazaar](https://bazaar.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free |
+| [MalwareBazaar](https://bazaar.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
 | [Manage Windows client](https://learn.microsoft.com/en-us/windows/client-management/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Mappings Explorer](https://ctid.mitre.org/mappings/) | Center for Threat-Informed Defense | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#center-for-threat-informed-defense-projects) | Reference | Free |
-| [masscan](https://github.com/robertdavidgraham/masscan) | Robert David Graham | [Offensive security](domains/offensive-security.md#network-scanning) | Tool | Free |
+| [masscan](https://github.com/robertdavidgraham/masscan) | Robert David Graham (robertdavidgraham) | [Offensive security](domains/offensive-security.md#network-scanning) | Tool | Free |
 | [Mend Vulnerability Database](https://www.mend.io/vulnerability-database/) | Mend.io | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [Metasploit Framework](https://github.com/rapid7/metasploit-framework) | Rapid7 | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
 | [Metasploit Modules (Rapid7 database)](https://www.rapid7.com/db/modules/) | Rapid7 | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
@@ -384,7 +387,7 @@
 | [Microsoft Entra Connect and Connect Health](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Microsoft Entra documentation](https://learn.microsoft.com/en-us/entra/) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Microsoft Entra releases and announcements](https://learn.microsoft.com/en-us/entra/fundamentals/whats-new) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Reference | Free |
-| [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free |
+| [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free with account |
 | [Microsoft Graph documentation](https://learn.microsoft.com/en-us/graph/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
 | [Microsoft identity platform documentation](https://learn.microsoft.com/en-us/entra/identity-platform/) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Microsoft Intune documentation](https://learn.microsoft.com/en-us/intune/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
@@ -406,24 +409,24 @@
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | [Detection and response](domains/detection-and-response.md#rules-and-analytics) | Reference | Free |
 | [MITRE D3FEND](https://d3fend.mitre.org/) | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#knowledge-bases) | Reference | Free |
 | [MITRE EMB3D](https://emb3d.mitre.org/) | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#knowledge-bases) | Reference | Free |
-| [MITRE Engage](https://engage.mitre.org/) | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#knowledge-bases) | Reference | Free |
+| [MITRE Engage](https://engage.mitre.org/) \* | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#knowledge-bases) | Reference | Free |
 | [Mitsubishi Electric Vulnerability Information](https://www.mitsubishielectric.com/psirt/vulnerability/index.html) | Mitsubishi Electric | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Moxa Security Advisories](https://www.moxa.com/en/support/product-support/security-advisory) | Moxa | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Mozilla Foundation Security Advisories](https://www.mozilla.org/en-US/security/advisories/) | Mozilla | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Mozilla Security Blog](https://blog.mozilla.org/security/) | Mozilla | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [MS-ISAC](https://www.cisecurity.org/ms-isac) | Center for Internet Security | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Organization | Free |
+| [MS-ISAC](https://www.cisecurity.org/ms-isac) | Center for Internet Security | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Organization | Paid |
 | [MSEndpointMgr](https://msendpointmgr.com/) | MSEndpointMgr | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | Community | Free |
 | [MSPortals.io](https://msportals.io/) | MSPortals.io | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
-| [MSRC Blog](https://www.microsoft.com/en-us/msrc/blog) | Microsoft | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Advisory source | Free |
+| [MSRC Blog](https://www.microsoft.com/en-us/msrc/blog) | Microsoft | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Research blog | Free |
 | [Munki](https://github.com/munki/munki) | Munki | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Tool | Free |
 | [MxToolbox Blacklist Check](https://mxtoolbox.com/blacklists.aspx) | MxToolbox | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
-| [Mythic](https://github.com/its-a-feature/Mythic) | its-a-feature | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
+| [Mythic](https://github.com/its-a-feature/Mythic) | Cody Thomas (its-a-feature) | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
 
 ## N
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
-| [N2K CyberWire](https://thecyberwire.com/) | N2K Networks | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
+| [N2K CyberWire](https://thecyberwire.com/) | N2K Networks | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Freemium |
 | [naabu](https://github.com/projectdiscovery/naabu) | ProjectDiscovery | [Offensive security](domains/offensive-security.md#network-scanning) | Tool | Free |
 | [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/) | NCSC, a part of GCHQ | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
 | [National Cyber Security Centre (New Zealand)](https://www.ncsc.govt.nz/) | National Cyber Security Centre, New Zealand | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
@@ -435,7 +438,7 @@
 | [NetExec](https://github.com/Pennyw0rth/NetExec) | Pennyw0rth | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
 | [Netlas](https://netlas.io/) | Netlas | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Netskope Threat Research](https://www.netskope.com/the-lens/threat-research) | Netskope | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [nginx security advisories](https://nginx.org/en/security_advisories.html) | nginx | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
+| [nginx security advisories](https://nginx.org/en/security_advisories.html) | F5 | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [Nikto](https://github.com/sullo/nikto) | sullo | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Free |
 | [NIST Computer Security Resource Center (CSRC)](https://csrc.nist.gov/) | NIST | [GRC and security program](domains/grc-and-security-program.md#nist-publications-and-tools) | Reference | Free |
 | [NIST CSWP 41: Likely Exploited Vulnerabilities](https://csrc.nist.gov/pubs/cswp/41/likely-exploited-vulnerabilities-a-proposed-metric/final) | NIST | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Reference | Free |
@@ -443,21 +446,22 @@
 | [NIST SP 800-40 Rev. 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final) | NIST | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Standard | Free |
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | [GRC and security program](domains/grc-and-security-program.md#frameworks-controls-and-benchmarks) | Standard | Free |
 | [Nmap](https://nmap.org/) | Nmap Project | [Offensive security](domains/offensive-security.md#network-scanning) | Tool | Free |
-| [The No More Ransom Project](https://www.nomoreransom.org/) | No More Ransom | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Online service | Free |
+| [The No More Ransom Project](https://www.nomoreransom.org/) | Europol, the Dutch police, Kaspersky, and McAfee | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Online service | Free |
 | [Node.js vulnerability announcements](https://nodejs.org/en/blog/vulnerability) | Node.js | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
-| [NSA Cybersecurity Advisories & Guidance](https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/) | National Security Agency | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
+| [NSA Cybersecurity Advisories & Guidance](https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/) | National Security Agency | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
 | [Nuclei](https://github.com/projectdiscovery/nuclei) | ProjectDiscovery | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates) | ProjectDiscovery | [Vulnerability management](domains/vulnerability-management.md#scanners) | Dataset or feed | Free |
-| [Nudge](https://github.com/macadmins/nudge) | macadmins | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Tool | Free |
-| [NVD Vulnerability APIs](https://nvd.nist.gov/developers/vulnerabilities) | NIST | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Reference | Free |
+| [Nudge](https://github.com/macadmins/nudge) | Mac Admins Open Source | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Tool | Free |
+| [NVD Vulnerability APIs](https://nvd.nist.gov/developers/vulnerabilities) | NIST | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Vendor documentation | Free |
 | [NVIDIA Product Security](https://www.nvidia.com/en-us/product-security/) | NVIDIA | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
+| [NVIDIA security bulletins (product-security repository)](https://github.com/NVIDIA/product-security) | NVIDIA | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 
 ## O
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
-| [OAuth 2.0](https://oauth.net/2/) | oauth.net | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
-| [Office 365 for IT Pros](https://office365itpros.com/) | Office 365 for IT Pros | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | News | Free |
+| [OAuth 2.0](https://oauth.net/2/) | Aaron Parecki | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
+| [Office 365 for IT Pros](https://office365itpros.com/) | Redmond & Associates | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | News | Free |
 | [Office release notes](https://learn.microsoft.com/en-us/officeupdates/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [Official CPE Dictionary](https://nvd.nist.gov/products/cpe) | NIST | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Dataset or feed | Free |
 | [Okta Developer](https://developer.okta.com/) | Okta | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
@@ -469,20 +473,20 @@
 | [OpenBSD Errata and Patches](https://www.openbsd.org/errata.html) | OpenBSD | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [OpenCTI](https://filigran.io/products/opencti) | Filigran | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Tool | Freemium |
 | [OpenCVE](https://www.opencve.io/) | Amber Security | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Online service | Freemium |
-| [OpenLDAP](https://www.openldap.org/) | OpenLDAP Project | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
-| [OpenSCAP](https://www.open-scap.org/) | OpenSCAP | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
+| [OpenLDAP](https://www.openldap.org/) | OpenLDAP Foundation | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
+| [OpenSCAP](https://www.open-scap.org/) | Red Hat | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [OpenSSH Security](https://www.openssh.org/security.html) | OpenSSH | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [OpenSSL vulnerabilities](https://openssl-library.org/news/vulnerabilities/) | OpenSSL | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
-| [OpenVAS](https://www.openvas.org/) | Greenbone | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
+| [OPENVAS (Open Vulnerability Assessment Scanner)](https://www.openvas.org/) | Greenbone | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Freemium |
 | [OpenVEX Specification](https://github.com/openvex/spec) | OpenVEX | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
 | [OpenVPN Security Advisories](https://openvpn.net/security-advisories/) | OpenVPN | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
-| [Oracle Critical Patch Updates, Security Alerts and Bulletins](https://www.oracle.com/security-alerts/) | Oracle | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
-| [Oracle Linux Security](https://linux.oracle.com/security/) | Oracle | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
+| [Oracle Critical Patch Updates, Critical Security Patch Updates, Security Alerts and Bulletins](https://www.oracle.com/security-alerts/) | Oracle | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
+| [Oracle Linux Security](https://linux.oracle.com/security/) | Oracle | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Vendor documentation | Free |
 | [ORKL](https://orkl.eu/) | ORKL | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
 | [OSCAL](https://pages.nist.gov/OSCAL/) | NIST | [GRC and security program](domains/grc-and-security-program.md#nist-publications-and-tools) | Standard | Free |
 | [osquery](https://osquery.io/) | osquery | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Tool | Free |
 | [oss-security mailing list](https://www.openwall.com/lists/oss-security/) | Openwall | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Community | Free |
-| [OSV](https://osv.dev/) | OSV project | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
+| [OSV](https://osv.dev/) | Google | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [OSV-Scanner](https://github.com/google/osv-scanner) | Google | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [Out of Office Hours](https://oofhours.com/) | Michael Niehaus | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | News | Free |
 | [OverTheWire Wargames](https://overthewire.org/wargames/) | OverTheWire community | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Free |
@@ -500,15 +504,14 @@
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
-| [Package-URL (purl) specification](https://github.com/package-url/purl-spec) | package-url | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
-| [Packet Storm Security](https://packetstorm.news/) | Packet Storm Security, LLC | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
+| [Package-URL (purl) specification](https://github.com/package-url/purl-spec) | Package-URL | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
+| [Packet Storm Security](https://packetstorm.news/) | Packet Storm Security, LLC | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Freemium |
 | [Pacu](https://github.com/RhinoSecurityLabs/pacu) | Rhino Security Labs | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#cloud-attack-techniques-and-practice) | Tool | Free |
 | [Palo Alto Networks Security Advisories](https://security.paloaltonetworks.com/) | Palo Alto Networks | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
-| [Patchstack Vulnerability Database](https://patchstack.com/database/) | Patchstack | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
-| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | swisskyrepo | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Reference | Free |
+| [Patchstack Open Source Vulnerability Database](https://patchstack.com/database/) | Patchstack | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
+| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | Swissky (swisskyrepo) | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Reference | Free |
 | [PentesterLab](https://pentesterlab.com/) | PentesterLab | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Freemium |
 | [PhishTank](https://phishtank.org/) | Cisco Talos | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
-| [picoCTF (CyLab Security Academy)](https://picoctf.org/) | Carnegie Mellon University | [Labs and training](domains/labs-and-training.md#capture-the-flag) | Training or lab | Free |
 | [Ping Identity documentation](https://docs.pingidentity.com/) | Ping Identity | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
 | [PingCastle](https://www.pingcastle.com/) | Netwrix | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Freemium |
 | [Plaso (log2timeline)](https://github.com/log2timeline/plaso) | log2timeline | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
@@ -516,18 +519,18 @@
 | [Policy CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
 | [PortSwigger Research](https://portswigger.net/research) | PortSwigger | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [PortSwigger Web Security Academy](https://portswigger.net/web-security) | PortSwigger | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Free with account |
-| [PoshC2](https://github.com/nettitude/PoshC2) | Nettitude | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
+| [PoshC2](https://github.com/nettitude/PoshC2) | LRQA Cyber | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
 | [PostgreSQL Security Information](https://www.postgresql.org/support/security/) | PostgreSQL Global Development Group | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
-| [Practical 365](https://practical365.com/) | Practical 365 | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | News | Free |
+| [Practical 365](https://practical365.com/) | Quest Software | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | News | Free |
 | [Proofpoint Threat Insight](https://www.proofpoint.com/us/blog/threat-insight) | Proofpoint | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Prowler](https://github.com/prowler-cloud/prowler) | Prowler | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#audit-posture-and-runtime-tools) | Tool | Free |
 | [PSAppDeployToolkit](https://psappdeploytoolkit.com/) | PSAppDeployToolkit | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [PSIRT Services Framework 1.1](https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1) | FIRST | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Standard | Free |
 | [Pulsedive](https://pulsedive.com/) | Pulsedive LLC | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
-| [pwn.college](https://pwn.college/) | Arizona State University | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Free |
+| [pwn.college](https://pwn.college/) | Arizona State University | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Free with account |
 | [pwntools](https://github.com/Gallopsled/pwntools) | Gallopsled | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Tool | Free |
 | [PyPA Advisory Database](https://github.com/pypa/advisory-database) | Python Packaging Authority | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
-| [Python Security](https://www.python.org/dev/security/) | Python Software Foundation | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
+| [Python Security](https://www.python.org/dev/security/) | Python Software Foundation | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Vendor documentation | Free |
 
 ## Q
 
@@ -535,25 +538,25 @@
 |---|---|---|---|---|
 | [QNAP Security Advisories](https://www.qnap.com/en/security-advisories) | QNAP | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Qualcomm Security Bulletins](https://docs.qualcomm.com/product/publicresources/securitybulletin/) | Qualcomm | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
-| [Qualys Blog](https://blog.qualys.com/) | Qualys | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [Qualys Security Blog](https://blog.qualys.com/) | Qualys | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Qualys VMDR](https://www.qualys.com/apps/vulnerability-management-detection-response) | Qualys | [Vulnerability management](domains/vulnerability-management.md#scanners) | Online service | Paid |
 
 ## R
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
-| [RangeForce](https://www.rangeforce.com/) | RangeForce | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
+| [RangeForce](https://www.rangeforce.com/) | RangeForce (Cyberbit) | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
 | [RansomLook](https://www.ransomlook.io/) | RansomLook | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
-| [Ransomware.live](https://www.ransomware.live/) | Ransomware.live | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
+| [Ransomware.live](https://www.ransomware.live/) | Julien Mousqueton | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
 | [Rapid7 Blog](https://www.rapid7.com/blog/) | Rapid7 | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Rapid7 Vulnerability & Exploit Database](https://www.rapid7.com/db/) | Rapid7 | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
-| [recon-ng](https://github.com/lanmaster53/recon-ng) | lanmaster53 | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
+| [recon-ng](https://github.com/lanmaster53/recon-ng) | Tim Tomes (lanmaster53) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [The Record](https://therecord.media/) | Recorded Future News | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Recorded Future Blog](https://www.recordedfuture.com/blog) | Recorded Future | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [Red Canary Threat Detection Report](https://redcanary.com/threat-detection-report/) | Red Canary | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
+| [Red Canary Threat Detection Report](https://redcanary.com/threat-detection-report/) | Red Canary, a Zscaler company | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [Red Hat CVE Database](https://access.redhat.com/security/security-updates/cve) | Red Hat | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Dataset or feed | Free |
 | [Red Hat Security Advisories](https://access.redhat.com/security/security-updates/) | Red Hat | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
-| [The Register: Security](https://www.theregister.com/security/) | The Register | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [The Register: Security](https://www.theregister.com/security/) | Situation Publishing | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Responder](https://github.com/lgandx/Responder) | lgandx | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
 | [Reverse Shell Generator](https://www.revshells.com/) | revshells.com | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Online service | Free |
 | [RFC 4120: The Kerberos Network Authentication Service (V5)](https://www.rfc-editor.org/info/rfc4120/) | RFC Editor | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
@@ -563,8 +566,8 @@
 | [Rockwell Automation Security Advisories](https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html) | Rockwell Automation | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Rocky Linux Errata](https://errata.rockylinux.org/) | Rocky Linux | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Rubeus](https://github.com/GhostPack/Rubeus) | GhostPack | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
-| [Rufus](https://rufus.ie/) | Rufus | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
-| [RustSec Advisory Database](https://rustsec.org/) | RustSec | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
+| [Rufus](https://rufus.ie/) | Pete Batard (Akeo Consulting) | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
+| [RustSec Advisory Database](https://rustsec.org/) | Rust Secure Code Working Group | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 
 ## S
 
@@ -572,7 +575,7 @@
 |---|---|---|---|---|
 | [Samba Security Updates and Information](https://www.samba.org/samba/history/security.html) | Samba | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [Samsung Mobile Security Updates](https://security.samsungmobile.com/securityUpdate.smsb) | Samsung | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
-| [SANS DFIR courses](https://www.sans.org/cyber-security-courses?focus-area=digital-forensics-incident-response) | SANS Institute | [Labs and training](domains/labs-and-training.md#courses) | Training or lab | Paid |
+| [SANS DFIR courses](https://www.sans.org/cyber-security-courses?refinementList%5Bfacets.focusArea%5D%5B0%5D=Digital%20Forensics%20and%20Incident%20Response) | SANS Institute | [Labs and training](domains/labs-and-training.md#courses) | Training or lab | Paid |
 | [SANS Internet Storm Center](https://isc.sans.edu/) | SANS | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [SANS NewsBites](https://www.sans.org/newsletters/newsbites/) | SANS Institute | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [SAP Security Notes & News](https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html) | SAP | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
@@ -603,12 +606,12 @@
 | [SOFA](https://sofa.macadmins.io/) | Mac Admins Open Source | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Dataset or feed | Free |
 | [SolarWinds Security Advisories](https://www.solarwinds.com/trust-center/security-advisories) | SolarWinds | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
 | [SonicWall PSIRT vulnerability list](https://psirt.global.sonicwall.com/vuln-list) | SonicWall | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
-| [Sophos Blog: Threat Research](https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research/) | Sophos | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [Sophos Blog: Threat Research](https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research) | Sophos | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Sophos Security Advisories](https://www.sophos.com/en-us/security-advisories) | Sophos | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Spamhaus](https://www.spamhaus.org/) | The Spamhaus Project | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 | [SPDX](https://spdx.dev/) | Linux Foundation | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
 | [SpecterOps Blog](https://specterops.io/blog/) | SpecterOps | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [SpiderFoot](https://github.com/smicallef/spiderfoot) | smicallef | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
+| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Steve Micallef (smicallef) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [Sploitus](https://sploitus.com/) | Sploitus | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Online service | Free |
 | [Splunk Security Advisories](https://advisory.splunk.com/) | Splunk | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
 | [sqlmap](https://sqlmap.org/) | sqlmap project | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Free |
@@ -637,17 +640,17 @@
 | [Tenable Blog](https://www.tenable.com/blog) | Tenable | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Tenable CVEs](https://www.tenable.com/cve) | Tenable | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [Tenable Nessus](https://www.tenable.com/products/nessus) | Tenable | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Paid |
-| [theHarvester](https://github.com/laramies/theHarvester) | laramies | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
+| [theHarvester](https://github.com/laramies/theHarvester) | Christian Martorella (laramies) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [Threat Actor Groups Tracked by Unit 42](https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/) | Palo Alto Networks | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Threat Group Cards: A Threat Actor Encyclopedia](https://apt.etda.or.th/cgi-bin/aptgroups.cgi) | Electronic Transactions Development Agency (ETDA), Thailand | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
-| [ThreatFox](https://threatfox.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free |
+| [ThreatFox](https://threatfox.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
 | [Timesketch](https://github.com/google/timesketch) | Google | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
 | [tl;dr sec](https://tldrsec.com/) | tl;dr sec | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [Traffic Light Protocol (TLP)](https://www.first.org/tlp/) | FIRST | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Standard | Free |
 | [The Trail of Bits Blog](https://blog.trailofbits.com/) | Trail of Bits | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Trend Micro Research, News, and Perspectives](https://www.trendmicro.com/en_us/research.html) | Trend Micro | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [Trend Micro Vulnerability Response](https://success.trendmicro.com/en-US/vulnerability-response/) | Trend Micro | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
-| [Triage](https://tria.ge/) | Triage | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Free with account |
+| [TrendAI Product Vulnerability Response](https://success.trendmicro.com/en-US/vulnerability-response/) | Trend Micro | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
+| [Triage](https://tria.ge/) | Recorded Future | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Freemium |
 | [trickest/cve](https://github.com/trickest/cve) | Trickest | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
 | [Trivy](https://github.com/aquasecurity/trivy) | Aqua Security | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [Troy Hunt](https://www.troyhunt.com/) | Troy Hunt | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
@@ -664,31 +667,31 @@
 | [Unit 42 Global Incident Response Report](https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report) | Palo Alto Networks | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [UnpacMe](https://www.unpac.me/) | OpenAnalysis Inc | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Freemium |
 | [Update history for Microsoft 365 Apps](https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
-| [URLhaus](https://urlhaus.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free |
+| [URLhaus](https://urlhaus.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
 | [urlscan.io](https://urlscan.io/) | urlscan GmbH | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 
 ## V
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
-| [Velociraptor](https://github.com/Velocidex/velociraptor) | Velocidex | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
-| [Ventoy](https://www.ventoy.net/) | Ventoy | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
+| [Velociraptor](https://github.com/Velocidex/velociraptor) | Rapid7 (Velocidex) | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
+| [Ventoy](https://www.ventoy.net/) | longpanda | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [Verizon Data Breach Investigations Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/) | Verizon | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
-| [ViewDNS.info](https://viewdns.info/) | ViewDNS.info | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Free |
-| [VirusTotal](https://www.virustotal.com/) | VirusTotal | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
+| [ViewDNS.info](https://viewdns.info/) | ViewDNS.info | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
+| [VirusTotal](https://www.virustotal.com/) | VirusTotal | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 | [VMware Security Advisories](https://www.broadcom.com/support/vmware-security-advisories) | Broadcom | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Volatility 3](https://github.com/volatilityfoundation/volatility3) | Volatility Foundation | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
 | [Volexity Blog](https://www.volexity.com/blog/) | Volexity | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [VulDB](https://vuldb.com/) | VulDB | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Not confirmed |
+| [VulDB](https://vuldb.com/) \* | VulDB | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Not confirmed |
 | [VulnCheck](https://www.vulncheck.com/) | VulnCheck | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Online service | Freemium |
 | [VulnCheck Exploit Database (XDB)](https://www.vulncheck.com/xdb) | VulnCheck | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
 | [VulnCheck KEV](https://www.vulncheck.com/kev) | VulnCheck | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Dataset or feed | Free with account |
 | [VulnCheck NVD++](https://www.vulncheck.com/nvd2) | VulnCheck | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free with account |
-| [Vulnerability-Lookup](https://vulnerability.circl.lu/) | Vulnerability-Lookup | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Online service | Free |
+| [Vulnerability-Lookup](https://vulnerability.circl.lu/) | CIRCL (Computer Incident Response Center Luxembourg) | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Online service | Free |
 | [Vulners](https://vulners.com/) | Vulners, Inc. | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Online service | Freemium |
 | [VulnHub](https://www.vulnhub.com/) | VulnHub | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Free |
 | [vulnx](https://github.com/projectdiscovery/vulnx) | ProjectDiscovery | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Tool | Free |
-| [Vuls](https://github.com/future-architect/vuls) | Future Architect | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
+| [Vuls](https://github.com/future-architect/vuls) | Future Corp | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 
 ## W
 
@@ -719,11 +722,11 @@
 | [Windows Server Update Services (WSUS) overview](https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [WinGet (Windows Package Manager)](https://learn.microsoft.com/en-us/windows/package-manager/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [winget-pkgs](https://github.com/microsoft/winget-pkgs) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Dataset or feed | Free |
-| [WIRED: Security](https://www.wired.com/category/security/) | WIRED | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [WIRED: Security](https://www.wired.com/category/security/) | Condé Nast | [News and research](domains/news-and-research.md#news-sites) | News | Freemium |
 | [Wireshark](https://www.wireshark.org/) | Wireshark Foundation | [Network security](domains/network-security.md#traffic-capture-and-analysis) | Tool | Free |
 | [Wireshark Security Advisories](https://www.wireshark.org/security/) | Wireshark Foundation | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
-| [Wiz Blog](https://www.wiz.io/blog) | Wiz | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#provider-security-pages-and-research) | Research blog | Free |
-| [Wordfence Intelligence Vulnerability Database](https://www.wordfence.com/threat-intel/vulnerabilities/) | Wordfence | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
+| [Wiz Blog](https://www.wiz.io/blog) | Wiz (part of Google Cloud) | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#provider-security-pages-and-research) | Research blog | Free |
+| [Wordfence Intelligence Vulnerability Database](https://www.wordfence.com/threat-intel/vulnerabilities/) | Wordfence | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free with account |
 | [WordPress News: Security](https://wordpress.org/news/category/security/) | WordPress | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 
 ## X
@@ -738,7 +741,7 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [YARA](https://virustotal.github.io/yara/) | VirusTotal | [Detection and response](domains/detection-and-response.md#rules-and-analytics) | Tool | Free |
-| [YARAify](https://yaraify.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
+| [YARAify](https://yaraify.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free with account |
 | [Yeti](https://yeti-platform.io/) | Yeti project | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Tool | Free |
 
 ## Z
@@ -749,6 +752,8 @@
 | [ZAP (Zed Attack Proxy)](https://www.zaproxy.org/) | ZAP Dev Team (ZAP by Checkmarx) | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Free |
 | [Zeek](https://zeek.org/) | The Zeek Project | [Network security](domains/network-security.md#traffic-capture-and-analysis) | Tool | Free |
 | [Zero Day Initiative published advisories](https://www.zerodayinitiative.com/advisories/published/) | TrendAI Zero Day Initiative | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Advisory source | Free |
-| [ZoomEye](https://www.zoomeye.ai/) | ZoomEye | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
+| [ZoomEye](https://www.zoomeye.ai/) | KnownSec Hong Kong | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Zscaler Blog: Security Research](https://www.zscaler.com/blogs?type=security-research) | Zscaler | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Zyxel Security Advisories](https://www.zyxel.com/global/en/support/security-advisories) | Zyxel Networks | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
+
+\* The address refused every client used for checking, so the entry was written from another page of the same publisher. The [README](README.md#how-entries-are-chosen) explains when that is allowed.

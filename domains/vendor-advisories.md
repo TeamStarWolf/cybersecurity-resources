@@ -4,16 +4,16 @@
 
 > The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product.
 
-Part of the [domain list](README.md). 101 resources in 7 sections. Databases that aggregate advisories sit in Vulnerability management; advisories from governments and coordination centers sit in Government and CERT alerts.
+Part of the [domain list](README.md). 103 resources in 7 sections. Databases that aggregate advisories sit in Vulnerability management; advisories from governments and coordination centers sit in Government and CERT alerts.
 
 | Section | The question it answers | Resources |
 |---|---|---|
 | [Microsoft and cloud providers](#microsoft-and-cloud-providers) | What did Microsoft or my cloud provider just fix? | 5 |
 | [Operating systems and browsers](#operating-systems-and-browsers) | What do I patch on endpoints and servers? | 23 |
-| [Network, security, and edge device vendors](#network-security-and-edge-device-vendors) | What do I patch at the edge? | 20 |
+| [Network, security, and edge device vendors](#network-security-and-edge-device-vendors) | What do I patch at the edge? | 21 |
 | [Enterprise applications and IT operations software](#enterprise-applications-and-it-operations-software) | What do I patch in the business and operations software? | 15 |
 | [Open source infrastructure software](#open-source-infrastructure-software) | What do I patch in the open source stack? | 20 |
-| [Hardware, firmware, and chips](#hardware-firmware-and-chips) | What affects the hardware under everything else? | 9 |
+| [Hardware, firmware, and chips](#hardware-firmware-and-chips) | What affects the hardware under everything else? | 10 |
 | [ICS and OT](#ics-and-ot) | What affects the control systems? | 9 |
 
 ## Microsoft and cloud providers
@@ -23,7 +23,7 @@ What did Microsoft or my cloud provider just fix?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Microsoft Security Update Guide](https://msrc.microsoft.com/update-guide/) | Microsoft | Microsoft's database of security updates: filter by product family, severity, impact, and release date to see vulnerabilities, deployments, and advisories. | Advisory source | Free |
-| [MSRC Blog](https://www.microsoft.com/en-us/msrc/blog) | Microsoft | Blog of the Microsoft Security Response Center, covering security response topics and guidance on prioritizing updates. | Advisory source | Free |
+| [MSRC Blog](https://www.microsoft.com/en-us/msrc/blog) | Microsoft | Blog of the Microsoft Security Response Center: security program updates, policy changes, technical research, and perspectives. | Research blog | Free |
 | [AWS Security Bulletins](https://aws.amazon.com/security/security-bulletins/) | Amazon Web Services | AWS security bulletins, with an RSS feed that holds the last 30 days of posts. | Advisory source | Free |
 | [Google Cloud security bulletins](https://docs.cloud.google.com/support/bulletins) | Google Cloud | Security bulletins for Google Cloud products, published in the Cloud Customer Care documentation. | Advisory source | Free |
 | [Microsoft Edge security release notes](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security) | Microsoft | Release notes for the security updates to Microsoft Edge. | Advisory source | Free |
@@ -43,7 +43,7 @@ What do I patch on endpoints and servers?
 | [SUSE Update Advisories](https://www.suse.com/support/update/) | SUSE | Table of SUSE update advisories with category, severity, ID, and release date. | Advisory source | Free |
 | [Amazon Linux Security Center (ALAS)](https://alas.aws.amazon.com/) | Amazon Web Services | Security advisories for Amazon Linux, listed for each release with severity, package, and CVE, and an RSS feed. | Advisory source | Free |
 | [Mozilla Foundation Security Advisories](https://www.mozilla.org/en-US/security/advisories/) | Mozilla | Mozilla's security advisories for its products, each rated by impact from critical downward. | Advisory source | Free |
-| [Oracle Linux Security](https://linux.oracle.com/security/) | Oracle | Oracle Linux's security page, which gathers the distribution's security resources in one place. | Advisory source | Free |
+| [Oracle Linux Security](https://linux.oracle.com/security/) | Oracle | Oracle Linux's security hub: links to its CVE summaries, errata, OVAL definitions, and Ksplice; the errata list asked for a login when checked. | Vendor documentation | Free |
 | [AlmaLinux Product Errata](https://errata.almalinux.org/) | AlmaLinux | AlmaLinux advisories with summary, version, severity, and publish date, filterable by version and severity. | Advisory source | Free |
 | [Rocky Linux Errata](https://errata.rockylinux.org/) | Rocky Linux | Rocky Linux errata, filterable by type (security, bug fix, enhancement), product version, and date. | Advisory source | Free |
 | [Arch Linux Security Tracker](https://security.archlinux.org/) | Arch Linux | Arch Linux's tracker of vulnerable packages, with affected and fixed versions, severity, status, and advisories. | Advisory source | Free |
@@ -67,23 +67,24 @@ What do I patch at the edge?
 | [Cisco Security Advisories](https://sec.cloudapps.cisco.com/security/center/publicationListing.x) | Cisco | Cisco's security advisory listing, with quick and advanced search by product. | Advisory source | Free |
 | [Palo Alto Networks Security Advisories](https://security.paloaltonetworks.com/) | Palo Alto Networks | Security advisories and remediations for vulnerabilities in Palo Alto Networks products and services. | Advisory source | Free |
 | [FortiGuard PSIRT Advisories](https://www.fortiguard.com/psirt) | Fortinet | Advisories for issues resolved in Fortinet products, browsable by product, severity, component, and date. | Advisory source | Free |
-| [F5 security advisories (MyF5)](https://my.f5.com/manage/s/new-updated-articles#f-f5_document_type=Security%20Advisory) | F5 | MyF5's list of new and updated articles filtered to security advisories; each K article covers one vulnerability in an F5 product. | Advisory source | Free |
+| [F5 security advisories (MyF5)](https://my.f5.com/manage/s/new-updated-articles#f-f5_document_type=Security%20Advisory) | F5 | MyF5's list of new and updated articles filtered to security advisories, covering F5 products and the third-party components in them. | Advisory source | Free |
 | [Citrix Support (security bulletins)](https://support.citrix.com/support-home/home) | Citrix | Citrix support home page, which lists the latest security bulletins for Citrix, NetScaler, and XenServer products. | Advisory source | Free |
 | [Ivanti security advisory blog](https://www.ivanti.com/blog/topics/security-advisory) | Ivanti | Ivanti blog posts tagged Security Advisory, including a monthly security update that names the products with disclosed vulnerabilities. | Advisory source | Free |
 | [SonicWall PSIRT vulnerability list](https://psirt.global.sonicwall.com/vuln-list) | SonicWall | SonicWall PSIRT's vulnerability list, filterable by impact and product line, with an RSS feed. | Advisory source | Free |
 | [VMware Security Advisories](https://www.broadcom.com/support/vmware-security-advisories) | Broadcom | VMware Security Advisories on Broadcom's site, which document remediation for reported vulnerabilities, grouped by product area. | Advisory source | Free |
 | [Juniper Support Portal](https://supportportal.juniper.net/s/) | Juniper Networks | Juniper's support portal for case management and product support; it asks for a login to show secure content. | Vendor documentation | Free with account |
 | [Check Point Support Center](https://support.checkpoint.com/) | Check Point | Check Point's support site: knowledge base, documentation, training, and support requests for its products. | Vendor documentation | Free |
-| [Check Point advisories archive](https://advisories.checkpoint.com/advisories/) | Check Point | Check Point's archive of security advisories, browsable by year. | Advisory source | Free |
+| [Check Point Advisories Archive (IPS protections)](https://advisories.checkpoint.com/advisories/) | Check Point Software Technologies | Check Point's archive of IPS protection advisories, each covering a vulnerability in another vendor's product that its gateways detect; browsable by year. | Advisory source | Free |
 | [Arista Security Advisories](https://www.arista.com/en/support/advisories-notices) | Arista Networks | Security advisories from Arista's PSIRT, with RSS, CSAF, and email subscriptions. | Advisory source | Free |
 | [Zyxel Security Advisories](https://www.zyxel.com/global/en/support/security-advisories) | Zyxel Networks | Zyxel's security advisories, listed by CVE ID, alongside its PSIRT policy and vulnerability reporting route. | Advisory source | Free |
 | [Sophos Security Advisories](https://www.sophos.com/en-us/security-advisories) | Sophos | Sophos security advisories, searchable by CVE and filterable by impact and product family, with an RSS feed. | Advisory source | Free |
 | [WatchGuard Security Advisories](https://psirt.watchguard.com/) | WatchGuard | Published WatchGuard CVEs and advisories, with severity, product, and affected versions. | Advisory source | Free |
-| [Trend Micro Vulnerability Response](https://success.trendmicro.com/en-US/vulnerability-response/) | Trend Micro | Trend Micro's vulnerability response page, listing current claims by product version and date, with how to report a vulnerability. | Advisory source | Free |
+| [TrendAI Product Vulnerability Response](https://success.trendmicro.com/en-US/vulnerability-response/) | Trend Micro | Product vulnerability response page of Trend Micro's TrendAI Business Support portal, listing current claims by product version and date, with how to report a vulnerability. | Advisory source | Free |
 | [Synology Product Security Advisory](https://www.synology.com/en-us/security/advisory) | Synology | Synology's product security advisories, with an RSS feed. | Advisory source | Free |
 | [QNAP Security Advisories](https://www.qnap.com/en/security-advisories) | QNAP | Current security advisories issued by QNAP, with instructions for reporting a vulnerability. | Advisory source | Free |
 | [OpenVPN Security Advisories](https://openvpn.net/security-advisories/) | OpenVPN | OpenVPN security advisories, each stating which OpenVPN products are affected. | Advisory source | Free |
 | [Tailscale Security Bulletins](https://tailscale.com/security-bulletins) | Tailscale | Security notifications affecting the Tailscale client and service. | Advisory source | Free |
+| [Check Point Security Advisories](https://support.checkpoint.com/security-advisories) | Check Point Software Technologies | Check Point's advisories for vulnerabilities in its own products, filterable by severity, CVSS score, product, and date, with CSV export. | Advisory source | Free |
 
 ## Enterprise applications and IT operations software
 
@@ -91,9 +92,9 @@ What do I patch in the business and operations software?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Oracle Critical Patch Updates, Security Alerts and Bulletins](https://www.oracle.com/security-alerts/) | Oracle | Oracle's index of Critical Patch Update advisories, security alerts, and bulletins, updated as each one is released. | Advisory source | Free |
+| [Oracle Critical Patch Updates, Critical Security Patch Updates, Security Alerts and Bulletins](https://www.oracle.com/security-alerts/) | Oracle | Oracle's index of Critical Patch Update and Critical Security Patch Update advisories, security alerts, and bulletins, updated as each one is released. | Advisory source | Free |
 | [SAP Security Notes & News](https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html) | SAP | SAP Support Portal page for reviewing SAP Security Notes, planning for Security Patch Days, and reading security news. | Advisory source | Free |
-| [IBM security vulnerability management (PSIRT)](https://www.ibm.com/trust/security-vulnerability-management) | IBM | IBM's page on how it handles security vulnerabilities in its products, including the PSIRT process for reporting them. | Advisory source | Free |
+| [IBM security vulnerability management (PSIRT)](https://www.ibm.com/trust/security-vulnerability-management) | IBM | IBM's page on how it handles security vulnerabilities in its products: the PSIRT reporting process and the route to IBM Security Bulletins. | Vendor documentation | Free |
 | [Adobe Security Bulletins and Advisories](https://www.adobe.com/trust/security/bulletins-and-advisories.html) | Adobe | Adobe's security bulletins and advisories for its products; bulletins published before January 2026 are on HelpX. | Advisory source | Free |
 | [Atlassian Security Advisories & Bulletins](https://www.atlassian.com/trust/security/advisories) | Atlassian | Security advisories and bulletins for Atlassian products, published in the Atlassian Trust Center. | Advisory source | Free |
 | [Jenkins Security Advisories](https://www.jenkins.io/security/advisories/) | Jenkins project | Security advisories for Jenkins and its plugins, with the project's advisory schedule. | Advisory source | Free |
@@ -116,13 +117,13 @@ What do I patch in the open source stack?
 | [Apache HTTP Server 2.4 vulnerabilities](https://httpd.apache.org/security/vulnerabilities_24.html) | The Apache HTTP Server Project | The project's list of security vulnerabilities fixed in Apache HTTP Server 2.4. | Advisory source | Free |
 | [Apache Tomcat security](https://tomcat.apache.org/security.html) | Apache Tomcat | Apache Tomcat's security page: how to report a problem, and the security updates for each supported version. | Advisory source | Free |
 | [Apache Software Foundation Security Team](https://www.apache.org/security/) | Apache Software Foundation | The ASF Security Team, which coordinates vulnerability handling and is the CVE Numbering Authority for all Apache projects. | Organization | Free |
-| [nginx security advisories](https://nginx.org/en/security_advisories.html) | nginx | Security advisories for nginx, with how to report a security issue. | Advisory source | Free |
+| [nginx security advisories](https://nginx.org/en/security_advisories.html) | F5 | Security advisories for nginx, with how to report a security issue. | Advisory source | Free |
 | [OpenSSL vulnerabilities](https://openssl-library.org/news/vulnerabilities/) | OpenSSL | Vulnerabilities fixed in OpenSSL, with a filter for each release series. | Advisory source | Free |
-| [OpenSSH Security](https://www.openssh.org/security.html) | OpenSSH | OpenSSH's security advisories and its contact for reporting a security issue. | Advisory source | Free |
+| [OpenSSH Security](https://www.openssh.org/security.html) | OpenSSH | OpenSSH's security advisories and its contact for reporting a security issue; the newest entry is from April 2025, so read the release notes too. | Advisory source | Free |
 | [Node.js vulnerability announcements](https://nodejs.org/en/blog/vulnerability) | Node.js | Node.js blog posts in the Vulnerabilities category, where security releases are announced. | Advisory source | Free |
-| [Python Security](https://www.python.org/dev/security/) | Python Software Foundation | How to report a security issue in Python and where the project publishes its security advisories. | Advisory source | Free |
+| [Python Security](https://www.python.org/dev/security/) | Python Software Foundation | How to report a security issue in Python and where the project publishes its security advisories. | Vendor documentation | Free |
 | [Kubernetes Official CVE Feed](https://kubernetes.io/docs/reference/issues-security/official-cve-feed/) | Kubernetes | Community-maintained list of the official CVEs announced by the Kubernetes Security Response Committee, also published as a feed. | Dataset or feed | Free |
-| [Docker security announcements](https://docs.docker.com/security/security-announcements/) | Docker | Security announcements for Docker products, including CVE fixes for Docker Desktop and Docker Official Images. | Advisory source | Free |
+| [Docker security announcements](https://docs.docker.com/security/security-announcements/) | Docker | Security announcements for Docker products, including CVE fixes for Docker Desktop, Docker Sandboxes, and Docker Official Images. | Advisory source | Free |
 | [PostgreSQL Security Information](https://www.postgresql.org/support/security/) | PostgreSQL Global Development Group | What counts as a PostgreSQL security vulnerability, how to report one, and how fixes are released. | Advisory source | Free |
 | [Xen Security Advisories](https://xenbits.xen.org/xsa/) | Xen Project | Xen Security Advisories, publicly released or pre-released, also available as a JSON document. | Advisory source | Free |
 | [Samba Security Updates and Information](https://www.samba.org/samba/history/security.html) | Samba | Samba's security releases, with the release notes for each. | Advisory source | Free |
@@ -142,13 +143,14 @@ What affects the hardware under everything else?
 |---|---|---|---|---|
 | [Intel Product Security Center](https://www.intel.com/content/www/us/en/security-center/default.html) | Intel | Intel's security advisories, bulletins, CSAF advisories, and security guidance for its products. | Advisory source | Free |
 | [AMD Product Security](https://www.amd.com/en/resources/product-security.html) | AMD | AMD's product security page: security bulletins and briefs, its disclosure policy, and the contact for its PSIRT. | Advisory source | Free |
-| [NVIDIA Product Security](https://www.nvidia.com/en-us/product-security/) | NVIDIA | NVIDIA's published security bulletins, with its PSIRT policies and how to report a vulnerability. | Advisory source | Free |
+| [NVIDIA Product Security](https://www.nvidia.com/en-us/product-security/) | NVIDIA | NVIDIA's product security page: PSIRT policies, how to report a vulnerability, and bulletins through September 2026; newer bulletins are published on GitHub. | Advisory source | Free |
 | [Dell Security Advisories, Notices and Resources](https://www.dell.com/support/security/en-us/) | Dell Technologies | Dell's security advisories, notices, and resources for its consumer and enterprise products. | Advisory source | Free |
 | [HP Security Bulletins](https://support.hp.com/us-en/security-bulletins) | HP | HP's security bulletins, with how to report a potential vulnerability in an HP product. | Advisory source | Free |
 | [HPE Security Bulletin Library](https://support.hpe.com/km/security-bulletin) | Hewlett Packard Enterprise | Searchable library of security bulletins for HPE products, with an RSS feed. | Advisory source | Free |
-| [Lenovo Product Security Advisories and Announcements](https://support.lenovo.com/us/en/product_security/home) | Lenovo | Security advisories and announcements from Lenovo's PSIRT, with an RSS feed. | Advisory source | Free |
+| [Lenovo Product Security Advisories and Announcements](https://support.lenovo.com/product_security/home) | Lenovo | Security advisories and announcements from Lenovo's PSIRT, with an RSS feed. | Advisory source | Free |
 | [Supermicro Security Center](https://www.supermicro.com/en/support/security_center) | Supermicro | Supermicro's source for product security updates, alerts, and advisories. | Advisory source | Free |
 | [Qualcomm Security Bulletins](https://docs.qualcomm.com/product/publicresources/securitybulletin/) | Qualcomm | Qualcomm's monthly security bulletins, written to help device makers incorporate the security updates for its code. | Advisory source | Free |
+| [NVIDIA security bulletins (product-security repository)](https://github.com/NVIDIA/product-security) | NVIDIA | Repository where NVIDIA's PSIRT publishes security bulletins in Markdown, CSAF, and CVE record formats, its stated home for new bulletins since October 1, 2026. | Advisory source | Free |
 
 ## ICS and OT
 
@@ -165,10 +167,9 @@ What affects the control systems?
 | [CERT@VDE advisories](https://certvde.com/en/advisories/) | CERT@VDE | Advisories published by CERT@VDE, each with an identifier, date, and affected product, and filters to narrow the list. | Advisory source | Free |
 | [Hitachi Energy Cybersecurity Alerts and Notifications](https://www.hitachienergy.com/us/en/products-and-solutions/cybersecurity/alerts-and-notifications) | Hitachi Energy | Hitachi Energy's list of cybersecurity advisories and notifications, with its vulnerability handling policy and a subscription. | Advisory source | Free |
 | [Bosch PSIRT Security Advisories](https://psirt.bosch.com/security-advisories/) | Bosch | Public security advisories from Bosch and its brands, with CVE IDs, CVSS scores, and affected products. | Advisory source | Free |
-| [CISA Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) | CISA | CISA's alerts, cybersecurity advisories, ICS advisories, and analysis reports in one searchable list. | Advisory source | Free |
 | [CISA Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems) | CISA | CISA's ICS and OT topic page, with tools, guidance, and current information for asset owners and defenders. | Reference | Free |
 | [CISA ICS Advisories](https://www.cisa.gov/news-events/ics-advisories) | CISA | CISA's ICS advisories, ICS medical advisories, and ICS alerts, searchable by type and release year. | Advisory source | Free |
 
-Listed here from another domain: CISA Cybersecurity Alerts & Advisories ([Government and CERT alerts](government-and-cert-alerts.md#united-states)), CISA Industrial Control Systems ([Government and CERT alerts](government-and-cert-alerts.md#united-states)), CISA ICS Advisories ([Government and CERT alerts](government-and-cert-alerts.md#united-states)).
+Listed here from another domain: CISA Industrial Control Systems ([Government and CERT alerts](government-and-cert-alerts.md#united-states)), CISA ICS Advisories ([Government and CERT alerts](government-and-cert-alerts.md#united-states)).
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

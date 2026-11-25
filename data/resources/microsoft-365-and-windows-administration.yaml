@@ -8,7 +8,7 @@
   section: documentation-hubs
   kind: documentation
   cost: free
-  description: "The starting page for Microsoft 365 documentation: solutions, scenarios, and resources for running it in an organization."
+  description: "Top-level index of Microsoft 365 documentation: the admin center, individual products, Microsoft 365 Apps, device management, and hybrid and migration guidance."
   checked:
     date: "2026-11-25"
     status: 200
@@ -22,7 +22,7 @@
   section: documentation-hubs
   kind: documentation
   cost: free
-  description: "Product documentation and resources for Microsoft 365 for enterprise, written for IT professionals."
+  description: "Microsoft's hub for deploying and running Microsoft 365 in a large organization: identity, network connectivity, Microsoft 365 Apps, Intune, and security."
   checked:
     date: "2026-11-25"
     status: 200
@@ -36,7 +36,7 @@
   section: documentation-hubs
   kind: documentation
   cost: free
-  description: "Windows technical documentation for IT professionals, application developers, and hardware developers."
+  description: "Top-level index of Microsoft's Windows documentation, branching to client and server content for IT staff and to application and hardware development."
   checked:
     date: "2026-11-25"
     status: 200
@@ -64,7 +64,7 @@
   section: documentation-hubs
   kind: documentation
   cost: free
-  description: "Documentation for the administrators and IT professionals who manage Exchange."
+  description: "Microsoft's documentation hub for Exchange Server, Exchange Online, and hybrid deployments, with the Exchange PowerShell reference."
   checked:
     date: "2026-11-25"
     status: 200
@@ -78,7 +78,7 @@
   section: documentation-hubs
   kind: documentation
   cost: free
-  description: "SharePoint documentation for IT professionals and administrators."
+  description: "Microsoft's documentation hub for SharePoint in Microsoft 365 and SharePoint Server: migration, hybrid setups, PowerShell reference, and troubleshooting."
   checked:
     date: "2026-11-25"
     status: 200
@@ -106,7 +106,7 @@
   section: documentation-hubs
   kind: documentation
   cost: free
-  description: "Documentation for Microsoft Purview's data governance, data security, and compliance capabilities."
+  description: "Microsoft's documentation hub for Purview, split into its governance, security, and compliance solutions, with setup guides for each."
   checked:
     date: "2026-11-25"
     status: 200
@@ -120,7 +120,7 @@
   section: documentation-hubs
   kind: documentation
   cost: free
-  description: "Admin guidance for planning, deploying, securing, and managing Microsoft Copilot, including Copilot Chat and agents."
+  description: "Microsoft's documentation hub for Copilot: what it is, licensing and usage-based billing, security and privacy controls, agents, and plugin development."
   checked:
     date: "2026-11-25"
     status: 200
@@ -162,7 +162,7 @@
   section: documentation-hubs
   kind: documentation
   cost: free
-  description: "Microsoft Support's help and how-to articles for Windows: installation, updates, drivers, networking, and security."
+  description: "Microsoft Support's Windows section for end users and help desks: installation, updates, drivers, networking, storage, privacy, and repair."
   checked:
     date: "2026-11-25"
     status: 200
@@ -176,7 +176,7 @@
   section: release-health-and-roadmap
   kind: reference
   cost: free
-  description: "Official information on Windows updates and servicing milestones, with known issues and safeguards; check it before approving an update."
+  description: "Microsoft's dashboard of known issues and announcements for each supported Windows and Windows Server version; check it before approving an update."
   checked:
     date: "2026-11-25"
     status: 200
@@ -247,7 +247,7 @@
   section: release-health-and-roadmap
   kind: documentation
   cost: free
-  description: "How to use the Message center in the Microsoft 365 admin center to track new and changed features and announcements."
+  description: "How the Message center announces planned Microsoft 365 changes to administrators, and how to filter, translate, and share its posts."
   checked:
     date: "2026-11-25"
     status: 200
@@ -261,7 +261,7 @@
   section: release-health-and-roadmap
   kind: reference
   cost: free
-  description: "Features and updates for Microsoft 365 Apps, Office for Mac, Office Server products, and perpetual versions of Office."
+  description: "Hub for Office release notes, update histories, and security updates across the Windows, Mac, server, and perpetual-license editions."
   checked:
     date: "2026-11-25"
     status: 200
@@ -275,7 +275,7 @@
   section: release-health-and-roadmap
   kind: reference
   cost: free
-  description: "Every Microsoft 365 Apps release listed by date, with links to the release notes."
+  description: "Table of every Microsoft 365 Apps build by release date and update channel, each linked to its release notes."
   checked:
     date: "2026-11-25"
     status: 200
@@ -289,7 +289,7 @@
   section: release-health-and-roadmap
   kind: reference
   cost: free
-  description: "New features and capabilities in the latest Windows client release, written for IT professionals."
+  description: "Per-version summaries of what changed in Windows 11, Windows 10, and Enterprise LTSC, with planning guidance and the list of deprecated features."
   checked:
     date: "2026-11-25"
     status: 200
@@ -303,7 +303,7 @@
   section: release-health-and-roadmap
   kind: reference
   cost: free
-  description: "Flight schedules and status for Windows Insider Program builds."
+  description: "Dated list of the Windows Insider preview builds released for each Windows 11 version."
   checked:
     date: "2026-11-25"
     status: 200
@@ -345,7 +345,7 @@
   section: tools-and-references
   kind: reference
   cost: free
-  description: "Reference for the Policy configuration service provider, the MDM policies that Windows supports."
+  description: "Reference for the MDM policy tree on Windows: device and user scope, the node structure, and links to every policy area."
   checked:
     date: "2026-11-25"
     status: 200
@@ -359,7 +359,7 @@
   section: tools-and-references
   kind: documentation
   cost: free
-  description: "What Group Policy does and how it works with Active Directory Domain Services."
+  description: "Introduces Group Policy objects, client-side extensions, and organizational units, and explains how policy reaches domain-joined computers."
   checked:
     date: "2026-11-25"
     status: 200
@@ -369,7 +369,7 @@
 - id: group-policy-search
   name: "Group Policy Search"
   url: "https://gpsearch.azurewebsites.net/"
-  publisher: "Group Policy Search"
+  publisher: "Stephanus A. Schulte (Microsoft)"
   section: tools-and-references
   kind: service
   cost: free
@@ -379,6 +379,7 @@
     status: 200
     final: "https://gpsearch.azurewebsites.net/"
     how: script
+  notes: "The page says the site is maintained by Stephanus A. Schulte at Microsoft Germany; the footer copyright is Microsoft Corporation."
 
 - id: microsoft-update-catalog
   name: "Microsoft Update Catalog"
@@ -414,13 +415,14 @@
   publisher: "Microsoft"
   section: tools-and-references
   kind: service
-  cost: free
-  description: "Developer tool for trying Microsoft Graph API requests in the browser."
+  cost: free-with-account
+  description: "Browser tool for trying Microsoft Graph requests: a sample account works without signing in, and signing in runs them against your own tenant."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://developer.microsoft.com/en-us/graph/graph-explorer"
     how: script
+  notes: "The page says to try the APIs on the default sample tenant. Its sign-in control reads: you are currently using a sample account, sign in to access your own data."
 
 - id: download-windows-11
   name: "Download Windows 11"
@@ -442,28 +444,29 @@
   publisher: "Microsoft"
   section: tools-and-references
   kind: service
-  cost: free
-  description: "Evaluation versions of Microsoft products to download or try on Azure, useful for building a lab."
+  cost: free-with-account
+  description: "Time-limited evaluation versions of Microsoft products, such as Windows Server, to download after registering; useful for building a lab."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.microsoft.com/en-us/evalcenter/"
     how: script
-  notes: "Whether a download asks for registration was not checked."
+  notes: "The Windows Server 2025 evaluation page says to register, then download and install, and that the evaluation edition expires in 180 days."
 
 - id: m365-maps
   name: "M365 Maps"
   url: "https://m365maps.com/"
-  publisher: "M365 Maps"
+  publisher: "Aaron Dinnage"
   section: tools-and-references
   kind: reference
   cost: free
-  description: "Microsoft 365 licensing diagrams, feature comparisons, a feature matrix, and a glossary of licensing terms."
+  description: "Diagrams showing which features each Microsoft 365, Entra, Intune, Defender, and Purview license plan includes."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://m365maps.com/"
     how: script
+  notes: "The page is signed By Aaron Dinnage."
 
 - id: msportals-io
   name: "MSPortals.io"
@@ -472,12 +475,13 @@
   section: tools-and-references
   kind: reference
   cost: free
-  description: "Community-run directory of Microsoft's administration portals in one place."
+  description: "Directory of direct links to Microsoft's admin portals and their inner pages, grouped by product: Microsoft 365, Azure, Entra, Intune, Defender, and Purview."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://msportals.io/"
     how: script
+  notes: "The page names no operator; it links to a GitHub repository for corrections."
 
 - id: microsoft-community-hub
   name: "Microsoft Community Hub"
@@ -496,21 +500,22 @@
 - id: practical-365
   name: "Practical 365"
   url: "https://practical365.com/"
-  publisher: "Practical 365"
+  publisher: "Quest Software"
   section: community-and-blogs
   kind: news
   cost: free
-  description: "News, tips, and tutorials on Microsoft 365 administration."
+  description: "Articles and a podcast by Microsoft 365 practitioners on Exchange Online, Teams, Entra ID, Purview, and Graph PowerShell."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://practical365.com/"
     how: script
+  notes: "Publisher from the footer copyright."
 
 - id: office-365-for-it-pros
   name: "Office 365 for IT Pros"
   url: "https://office365itpros.com/"
-  publisher: "Office 365 for IT Pros"
+  publisher: "Redmond & Associates"
   section: community-and-blogs
   kind: news
   cost: free
@@ -520,4 +525,4 @@
     status: 200
     final: "https://office365itpros.com/"
     how: script
-  notes: "The blog is free to read; the eBook is sold by subscription."
+  notes: "The blog is free to read; the eBook is sold by subscription. Publisher from the footer copyright. The eBook is a separate paid product, so the blog entry stays Free."

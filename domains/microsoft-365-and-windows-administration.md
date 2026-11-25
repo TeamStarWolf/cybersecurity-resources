@@ -19,18 +19,18 @@ Where is the official documentation?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Microsoft 365 documentation](https://learn.microsoft.com/en-us/microsoft-365/) | Microsoft | The starting page for Microsoft 365 documentation: solutions, scenarios, and resources for running it in an organization. | Vendor documentation | Free |
-| [Microsoft 365 for enterprise documentation](https://learn.microsoft.com/en-us/microsoft-365/enterprise/) | Microsoft | Product documentation and resources for Microsoft 365 for enterprise, written for IT professionals. | Vendor documentation | Free |
-| [Windows documentation](https://learn.microsoft.com/en-us/windows/) | Microsoft | Windows technical documentation for IT professionals, application developers, and hardware developers. | Vendor documentation | Free |
+| [Microsoft 365 documentation](https://learn.microsoft.com/en-us/microsoft-365/) | Microsoft | Top-level index of Microsoft 365 documentation: the admin center, individual products, Microsoft 365 Apps, device management, and hybrid and migration guidance. | Vendor documentation | Free |
+| [Microsoft 365 for enterprise documentation](https://learn.microsoft.com/en-us/microsoft-365/enterprise/) | Microsoft | Microsoft's hub for deploying and running Microsoft 365 in a large organization: identity, network connectivity, Microsoft 365 Apps, Intune, and security. | Vendor documentation | Free |
+| [Windows documentation](https://learn.microsoft.com/en-us/windows/) | Microsoft | Top-level index of Microsoft's Windows documentation, branching to client and server content for IT staff and to application and hardware development. | Vendor documentation | Free |
 | [Windows Server documentation](https://learn.microsoft.com/en-us/windows-server/) | Microsoft | Documentation for Windows Server, from installation and roles to administration. | Vendor documentation | Free |
-| [Exchange documentation](https://learn.microsoft.com/en-us/exchange/) | Microsoft | Documentation for the administrators and IT professionals who manage Exchange. | Vendor documentation | Free |
-| [SharePoint documentation](https://learn.microsoft.com/en-us/sharepoint/) | Microsoft | SharePoint documentation for IT professionals and administrators. | Vendor documentation | Free |
+| [Exchange documentation](https://learn.microsoft.com/en-us/exchange/) | Microsoft | Microsoft's documentation hub for Exchange Server, Exchange Online, and hybrid deployments, with the Exchange PowerShell reference. | Vendor documentation | Free |
+| [SharePoint documentation](https://learn.microsoft.com/en-us/sharepoint/) | Microsoft | Microsoft's documentation hub for SharePoint in Microsoft 365 and SharePoint Server: migration, hybrid setups, PowerShell reference, and troubleshooting. | Vendor documentation | Free |
 | [Microsoft Teams admin documentation](https://learn.microsoft.com/en-us/microsoftteams/) | Microsoft | Documentation for Teams administrators on rolling out and managing Microsoft Teams. | Vendor documentation | Free |
-| [Microsoft Purview documentation](https://learn.microsoft.com/en-us/purview/) | Microsoft | Documentation for Microsoft Purview's data governance, data security, and compliance capabilities. | Vendor documentation | Free |
-| [Microsoft Copilot hub](https://learn.microsoft.com/en-us/copilot/) | Microsoft | Admin guidance for planning, deploying, securing, and managing Microsoft Copilot, including Copilot Chat and agents. | Vendor documentation | Free |
+| [Microsoft Purview documentation](https://learn.microsoft.com/en-us/purview/) | Microsoft | Microsoft's documentation hub for Purview, split into its governance, security, and compliance solutions, with setup guides for each. | Vendor documentation | Free |
+| [Microsoft Copilot hub](https://learn.microsoft.com/en-us/copilot/) | Microsoft | Microsoft's documentation hub for Copilot: what it is, licensing and usage-based billing, security and privacy controls, agents, and plugin development. | Vendor documentation | Free |
 | [Microsoft Graph documentation](https://learn.microsoft.com/en-us/graph/) | Microsoft | Documentation for Microsoft Graph, the API for the data in Microsoft 365. | Vendor documentation | Free |
 | [Microsoft troubleshooting documentation](https://learn.microsoft.com/en-us/troubleshoot/) | Microsoft | Troubleshooting articles and workarounds for Microsoft's commercial products, organized by product. | Vendor documentation | Free |
-| [Windows help and learning](https://support.microsoft.com/en-us/windows) | Microsoft | Microsoft Support's help and how-to articles for Windows: installation, updates, drivers, networking, and security. | Vendor documentation | Free |
+| [Windows help and learning](https://support.microsoft.com/en-us/windows) | Microsoft | Microsoft Support's Windows section for end users and help desks: installation, updates, drivers, networking, storage, privacy, and repair. | Vendor documentation | Free |
 
 ## Release health, updates, and roadmap
 
@@ -38,16 +38,16 @@ What changed, what is coming, and what is broken right now?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Windows release health](https://learn.microsoft.com/en-us/windows/release-health/) | Microsoft | Official information on Windows updates and servicing milestones, with known issues and safeguards; check it before approving an update. | Reference | Free |
+| [Windows release health](https://learn.microsoft.com/en-us/windows/release-health/) | Microsoft | Microsoft's dashboard of known issues and announcements for each supported Windows and Windows Server version; check it before approving an update. | Reference | Free |
 | [Windows 11 release information](https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information) | Microsoft | Release information for each Windows 11 version. | Reference | Free |
 | [Windows Server release information](https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info) | Microsoft | Release information for Windows Server versions. | Reference | Free |
 | [Microsoft service health status](https://status.cloud.microsoft/) | Microsoft | Public status page for Microsoft 365, Azure, Power Platform, and consumer services, with links to the detailed admin health pages. | Status page | Free |
 | [Microsoft Copilot Roadmap (Microsoft 365)](https://www.microsoft.com/en-us/microsoft-365/roadmap) | Microsoft | Microsoft's list of updates planned for Microsoft 365 subscribers, with the status of each feature. | Reference | Free |
-| [Microsoft 365 Message center overview](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center) | Microsoft | How to use the Message center in the Microsoft 365 admin center to track new and changed features and announcements. | Vendor documentation | Free |
-| [Office release notes](https://learn.microsoft.com/en-us/officeupdates/) | Microsoft | Features and updates for Microsoft 365 Apps, Office for Mac, Office Server products, and perpetual versions of Office. | Reference | Free |
-| [Update history for Microsoft 365 Apps](https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date) | Microsoft | Every Microsoft 365 Apps release listed by date, with links to the release notes. | Reference | Free |
-| [What's new in Windows](https://learn.microsoft.com/en-us/windows/whats-new/) | Microsoft | New features and capabilities in the latest Windows client release, written for IT professionals. | Reference | Free |
-| [Windows Insider Flight Hub](https://learn.microsoft.com/en-us/windows-insider/flight-hub/) | Microsoft | Flight schedules and status for Windows Insider Program builds. | Reference | Free |
+| [Microsoft 365 Message center overview](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center) | Microsoft | How the Message center announces planned Microsoft 365 changes to administrators, and how to filter, translate, and share its posts. | Vendor documentation | Free |
+| [Office release notes](https://learn.microsoft.com/en-us/officeupdates/) | Microsoft | Hub for Office release notes, update histories, and security updates across the Windows, Mac, server, and perpetual-license editions. | Reference | Free |
+| [Update history for Microsoft 365 Apps](https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date) | Microsoft | Table of every Microsoft 365 Apps build by release date and update channel, each linked to its release notes. | Reference | Free |
+| [What's new in Windows](https://learn.microsoft.com/en-us/windows/whats-new/) | Microsoft | Per-version summaries of what changed in Windows 11, Windows 10, and Enterprise LTSC, with planning guidance and the list of deprecated features. | Reference | Free |
+| [Windows Insider Flight Hub](https://learn.microsoft.com/en-us/windows-insider/flight-hub/) | Microsoft | Dated list of the Windows Insider preview builds released for each Windows 11 version. | Reference | Free |
 
 ## Admin tools and references
 
@@ -57,16 +57,16 @@ What do I look up or run?
 |---|---|---|---|---|
 | [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) | Microsoft | Microsoft's Sysinternals utilities for Windows, with downloads, documentation, and learning resources. | Tool | Free |
 | [Windows commands reference](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | Reference for the Windows command-line commands. | Reference | Free |
-| [Policy CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider) | Microsoft | Reference for the Policy configuration service provider, the MDM policies that Windows supports. | Reference | Free |
-| [Group Policy overview for Windows Server](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview) | Microsoft | What Group Policy does and how it works with Active Directory Domain Services. | Vendor documentation | Free |
-| [Group Policy Search](https://gpsearch.azurewebsites.net/) | Group Policy Search | Search Group Policy settings by purpose or category and see the registry details behind each one. | Online service | Free |
+| [Policy CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider) | Microsoft | Reference for the MDM policy tree on Windows: device and user scope, the node structure, and links to every policy area. | Reference | Free |
+| [Group Policy overview for Windows Server](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview) | Microsoft | Introduces Group Policy objects, client-side extensions, and organizational units, and explains how policy reaches domain-joined computers. | Vendor documentation | Free |
+| [Group Policy Search](https://gpsearch.azurewebsites.net/) | Stephanus A. Schulte (Microsoft) | Search Group Policy settings by purpose or category and see the registry details behind each one. | Online service | Free |
 | [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/) | Microsoft | Search Microsoft's catalog of updates and download them individually. | Online service | Free |
 | [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges) | Microsoft | The endpoints that Microsoft 365 needs to reach, for building firewall and proxy rules. | Reference | Free |
-| [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) | Microsoft | Developer tool for trying Microsoft Graph API requests in the browser. | Online service | Free |
+| [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) | Microsoft | Browser tool for trying Microsoft Graph requests: a sample account works without signing in, and signing in runs them against your own tenant. | Online service | Free with account |
 | [Download Windows 11](https://www.microsoft.com/en-us/software-download/windows11) | Microsoft | Microsoft's download page for the current Windows 11 release, with three ways to install or create installation media. | Online service | Free |
-| [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) | Microsoft | Evaluation versions of Microsoft products to download or try on Azure, useful for building a lab. | Online service | Free |
-| [M365 Maps](https://m365maps.com/) | M365 Maps | Microsoft 365 licensing diagrams, feature comparisons, a feature matrix, and a glossary of licensing terms. | Reference | Free |
-| [MSPortals.io](https://msportals.io/) | MSPortals.io | Community-run directory of Microsoft's administration portals in one place. | Reference | Free |
+| [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) | Microsoft | Time-limited evaluation versions of Microsoft products, such as Windows Server, to download after registering; useful for building a lab. | Online service | Free with account |
+| [M365 Maps](https://m365maps.com/) | Aaron Dinnage | Diagrams showing which features each Microsoft 365, Entra, Intune, Defender, and Purview license plan includes. | Reference | Free |
+| [MSPortals.io](https://msportals.io/) | MSPortals.io | Directory of direct links to Microsoft's admin portals and their inner pages, grouped by product: Microsoft 365, Azure, Entra, Intune, Defender, and Purview. | Reference | Free |
 
 ## Community and blogs
 
@@ -75,7 +75,7 @@ Who explains it well?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Microsoft Community Hub](https://techcommunity.microsoft.com/) | Microsoft | Microsoft's community site for learning about its products and asking questions. | Community | Free |
-| [Practical 365](https://practical365.com/) | Practical 365 | News, tips, and tutorials on Microsoft 365 administration. | News | Free |
-| [Office 365 for IT Pros](https://office365itpros.com/) | Office 365 for IT Pros | Blog from the authors of an eBook on Microsoft 365 that is updated monthly. | News | Free |
+| [Practical 365](https://practical365.com/) | Quest Software | Articles and a podcast by Microsoft 365 practitioners on Exchange Online, Teams, Entra ID, Purview, and Graph PowerShell. | News | Free |
+| [Office 365 for IT Pros](https://office365itpros.com/) | Redmond & Associates | Blog from the authors of an eBook on Microsoft 365 that is updated monthly. | News | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

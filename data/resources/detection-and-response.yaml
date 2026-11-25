@@ -8,7 +8,7 @@
   section: rules-and-analytics
   kind: dataset
   cost: free
-  description: "Main repository of Sigma, the generic signature format for SIEM systems, with more than 3,000 detection rules."
+  description: "Main repository of Sigma, the generic signature format for SIEM systems, with its library of detection rules."
   checked:
     date: "2026-11-25"
     status: 200
@@ -81,12 +81,15 @@
   also_in: [dfir-and-malware-analysis/reverse-engineering]
   kind: tool
   cost: free
-  description: "Tool for identifying and classifying malware samples from rules that describe textual or binary patterns."
+  maintenance:
+    state: maintenance-mode
+  description: "Tool for identifying and classifying malware samples from rules that describe textual or binary patterns; its successor is YARA-X."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://virustotal.github.io/yara/"
     how: script
+  notes: "The repository README says the project is in maintenance mode and links to YARA-X (https://virustotal.github.io/yara-x/)."
 
 - id: wazuh
   name: "Wazuh"
@@ -106,17 +109,20 @@
 - id: detectionlab
   name: "DetectionLab"
   url: "https://github.com/clong/DetectionLab"
-  publisher: "clong"
+  publisher: "Chris Long (clong)"
   section: lab-data
   kind: tool
   cost: free
-  description: "Scripts that build a Windows domain lab with security tooling and logging preinstalled; not actively maintained since January 2023."
+  maintenance:
+    state: unmaintained
+    since: "2023-01-01"
+  description: "Scripts that build a Windows domain lab with security tooling and logging preinstalled."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/clong/DetectionLab"
     how: script
-  notes: "The README states that as of 2023-01-01 DetectionLab is no longer being actively maintained. Last push 2024-07-06."
+  notes: "The README states that as of 2023-01-01 DetectionLab is no longer being actively maintained. Last commit on the default branch: 2023-03-27."
 
 - id: evtx-attack-samples
   name: "EVTX-ATTACK-SAMPLES"
@@ -125,10 +131,13 @@
   section: lab-data
   kind: dataset
   cost: free
+  maintenance:
+    state: dormant
+    since: "2023-01"
   description: "Windows event log samples for specific attack and post-exploitation techniques, for testing detections and practicing hunting."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES"
     how: script
-  notes: "Frozen reference set: last push 2023-01-24."
+  notes: "Frozen reference set. Last commit on the default branch: 2023-01-24."

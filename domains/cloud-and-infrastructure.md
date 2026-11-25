@@ -21,11 +21,11 @@ Is this account or cluster configured safely?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Prowler](https://github.com/prowler-cloud/prowler) | Prowler | Open source tool that automates security and compliance checks across cloud environments, with a CLI and a local server. | Tool | Free |
-| [Scout Suite](https://github.com/nccgroup/ScoutSuite) | NCC Group | Open source multi-cloud auditing tool that gathers configuration data through provider APIs and highlights risk areas. | Tool | Free |
+| [Scout Suite](https://github.com/nccgroup/ScoutSuite) | NCC Group | Open source multi-cloud auditing tool that gathers configuration data through provider APIs and highlights risk areas. *Last updated in May 2024.* | Tool | Free |
 | [kube-bench](https://github.com/aquasecurity/kube-bench) | Aqua Security | Checks whether Kubernetes is deployed according to the security practices in the CIS Kubernetes Benchmark. | Tool | Free |
-| [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Aqua Security | Hunts for security weaknesses in Kubernetes clusters; no longer under active development, and its README recommends Trivy. | Tool | Free |
+| [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Aqua Security | Hunts for security weaknesses in Kubernetes clusters; its README now recommends Trivy for this work. *No longer actively maintained.* | Tool | Free |
 | [Falco](https://github.com/falcosecurity/falco) | The Falco Project | Cloud native runtime security tool for Linux that watches kernel events such as syscalls and alerts on abnormal behavior. | Tool | Free |
-| [Trivy](https://github.com/aquasecurity/trivy) | Aqua Security | Scanner that finds vulnerabilities, misconfigurations, secrets, and SBOM contents in container images, Kubernetes clusters, code repositories, and cloud accounts. | Tool | Free |
+| [Trivy](https://github.com/aquasecurity/trivy) | Aqua Security | Scanner that finds vulnerabilities, misconfigurations, secrets, and SBOM contents in container images, filesystems, Git repositories, virtual machine images, and Kubernetes. | Tool | Free |
 
 Listed here from another domain: Trivy ([Vulnerability management](vulnerability-management.md#scanners)).
 
@@ -49,6 +49,6 @@ What does the provider say about security?
 | [AWS Cloud Security](https://aws.amazon.com/security/) | Amazon Web Services | AWS's security page: security services, compliance, data protection, the security blog, and bulletins. | Vendor documentation | Free |
 | [Azure security documentation](https://learn.microsoft.com/en-us/azure/security/) | Microsoft | Microsoft Learn's documentation hub for Azure security. | Vendor documentation | Free |
 | [Google Cloud security](https://cloud.google.com/security) | Google Cloud | Google Cloud's security page: its security operations, threat intelligence, and cloud security products. | Vendor documentation | Free |
-| [Wiz Blog](https://www.wiz.io/blog) | Wiz | Wiz's blog on cloud security: guides, announcements, and articles about the Wiz platform. | Research blog | Free |
+| [Wiz Blog](https://www.wiz.io/blog) | Wiz (part of Google Cloud) | Wiz's blog on cloud security, with categories for research, AI, security, data security, and product news. | Research blog | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

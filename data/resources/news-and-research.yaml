@@ -205,7 +205,7 @@
 - id: ars-technica-security
   name: "Ars Technica: Security"
   url: "https://arstechnica.com/security/"
-  publisher: "Ars Technica"
+  publisher: "Condé Nast"
   section: news
   kind: news
   cost: free
@@ -215,11 +215,12 @@
     status: 200
     final: "https://arstechnica.com/security/"
     how: script
+  notes: "Publisher from the footer copyright. Articles are free to read; the subscription page sells Ars Pro, which removes ads and tracking."
 
 - id: cso-online
   name: "CSO Online"
   url: "https://www.csoonline.com/"
-  publisher: "CSO"
+  publisher: "Foundry (FoundryCo, Inc.)"
   section: news
   kind: news
   cost: free
@@ -229,6 +230,7 @@
     status: 200
     final: "https://www.csoonline.com/"
     how: script
+  notes: "Publisher from the footer copyright, FoundryCo, Inc.."
 
 - id: cyberinsider
   name: "CyberInsider"
@@ -247,7 +249,7 @@
 - id: cyberscoop
   name: "CyberScoop"
   url: "https://cyberscoop.com/"
-  publisher: "CyberScoop"
+  publisher: "Scoop News Group"
   section: news
   kind: news
   cost: free
@@ -257,6 +259,7 @@
     status: 200
     final: "https://cyberscoop.com/"
     how: script
+  notes: "The page header carries the Scoop News Group logo, and scoopnewsgroup.com lists CyberScoop among its publications. No sentence on the page states ownership."
 
 - id: cybersecurity-dive
   name: "Cybersecurity Dive"
@@ -276,7 +279,7 @@
 - id: hackread
   name: "Hackread"
   url: "https://hackread.com/"
-  publisher: "Hackread"
+  publisher: "Gray Dot Media Group"
   section: news
   kind: news
   cost: free
@@ -286,11 +289,12 @@
     status: 200
     final: "https://hackread.com/"
     how: script
+  notes: "Publisher from the footer, which calls the site a Gray Dot Media Group Ltd site."
 
 - id: infosecurity-magazine
   name: "Infosecurity Magazine"
   url: "https://www.infosecurity-magazine.com/"
-  publisher: "Infosecurity Magazine"
+  publisher: "Reed Exhibitions"
   section: news
   kind: news
   cost: free
@@ -300,11 +304,12 @@
     status: 200
     final: "https://www.infosecurity-magazine.com/"
     how: script
+  notes: "Publisher from the footer copyright, Reed Exhibitions Ltd."
 
 - id: the-register-security
   name: "The Register: Security"
   url: "https://www.theregister.com/security/"
-  publisher: "The Register"
+  publisher: "Situation Publishing"
   section: news
   kind: news
   cost: free
@@ -314,6 +319,7 @@
     status: 200
     final: "https://www.theregister.com/security/"
     how: script
+  notes: "The footer links to Situation Publishing, whose own site names The Register as one of its four newsrooms."
 
 - id: security-affairs
   name: "Security Affairs"
@@ -346,16 +352,17 @@
 - id: wired-security
   name: "WIRED: Security"
   url: "https://www.wired.com/category/security/"
-  publisher: "WIRED"
+  publisher: "Condé Nast"
   section: news
   kind: news
-  cost: free
+  cost: freemium
   description: "WIRED's coverage of cybersecurity, hacks, privacy, and national security."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.wired.com/category/security/"
     how: script
+  notes: "WIRED's FAQ says subscriptions give unlimited digital access to the website, so reading without one is limited. The size of the free allowance was not tested. Publisher from the footer copyright."
 
 - id: 404-media
   name: "404 Media"
@@ -363,27 +370,29 @@
   publisher: "404 Media"
   section: news
   kind: news
-  cost: free
+  cost: freemium
   description: "Independent media company founded by technology journalists, whose reporting includes a hacking beat."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.404media.co/"
     how: script
+  notes: "The FAQ describes paid tiers at 10 dollars a month or 100 dollars a year and paid sections of the site. Which articles are gated was not tested."
 
 - id: graham-cluley
-  name: "Graham Cluley"
-  url: "https://grahamcluley.com/"
-  publisher: "Graham Cluley"
+  name: "Graham Cluley: Writing"
+  url: "https://grahamcluley.com/writing/"
+  publisher: "Graham Cluley (Cluley Associates Limited)"
   section: analysis-and-commentary
   kind: news
   cost: free
-  description: "Site of cybersecurity speaker Graham Cluley, host of the Smashing Security podcast."
+  description: "Articles and podcast episodes from cybersecurity speaker Graham Cluley, host of the Smashing Security podcast."
   checked:
     date: "2026-11-25"
     status: 200
-    final: "https://grahamcluley.com/"
+    final: "https://grahamcluley.com/writing/"
     how: script
+  notes: "The home page is now a speaker booking page with no articles; the writing is listed here. Publisher from the footer copyright."
 
 - id: troy-hunt
   name: "Troy Hunt"
@@ -402,16 +411,17 @@
 - id: darknet-diaries
   name: "Darknet Diaries"
   url: "https://darknetdiaries.com/"
-  publisher: "Darknet Diaries"
+  publisher: "Jack Rhysider"
   section: analysis-and-commentary
   kind: news
-  cost: free
+  cost: freemium
   description: "Podcast of true stories from the dark side of the internet."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://darknetdiaries.com/"
     how: script
+  notes: "Regular episodes are free. Darknet Diaries Plus sells bonus episodes, early access, and ad-free listening, so paid plans add content. Publisher from the About page, which says the show is created by Jack Rhysider."
 
 - id: sans-newsbites
   name: "SANS NewsBites"
@@ -433,13 +443,14 @@
   publisher: "N2K Networks"
   section: analysis-and-commentary
   kind: news
-  cost: free
+  cost: freemium
   description: "Concise cybersecurity news briefings and podcasts."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://thecyberwire.com/"
     how: script
+  notes: "The site menu marks some briefings and podcasts as N2K Pro, for subscribers. The Daily Briefing and CyberWire Daily are open. The N2K Pro pricing page was not opened."
 
 - id: security-now
   name: "Security Now"
@@ -454,6 +465,7 @@
     status: 200
     final: "https://twit.tv/shows/security-now"
     how: script
+  notes: "Episodes are free with advertising. The show page offers this podcast ad-free for 5 dollars a month and Club TWiT for 10 dollars a month. The paid option for this show removes ads and adds no episodes, so the entry stays Free."
 
 - id: infosec-exchange
   name: "Infosec Exchange"

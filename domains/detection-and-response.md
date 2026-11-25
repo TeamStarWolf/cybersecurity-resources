@@ -20,12 +20,12 @@ Is there already a detection for this?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Sigma rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | Main repository of Sigma, the generic signature format for SIEM systems, with more than 3,000 detection rules. | Dataset or feed | Free |
+| [Sigma rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | Main repository of Sigma, the generic signature format for SIEM systems, with its library of detection rules. | Dataset or feed | Free |
 | [Detection.FYI](https://detection.fyi/) | detection.fyi | Browsable site of detection rules, each shown with its ATT&CK tags and description. | Online service | Free |
 | [Uncoder IO](https://uncoder.io/) | SOC Prime | SOC Prime's detection rule translator for Sigma and Roota; it is now part of the Prime Architect product, with trial access by request. | Online service | Paid |
 | [Elastic detection rules](https://github.com/elastic/detection-rules) | Elastic | Repository where Elastic develops, tests, and releases the rules used by Elastic Security's detection engine. | Dataset or feed | Free |
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | Knowledge base of detection analytics based on the ATT&CK model, with pseudocode and some direct implementations. | Reference | Free |
-| [YARA](https://virustotal.github.io/yara/) | VirusTotal | Tool for identifying and classifying malware samples from rules that describe textual or binary patterns. | Tool | Free |
+| [YARA](https://virustotal.github.io/yara/) | VirusTotal | Tool for identifying and classifying malware samples from rules that describe textual or binary patterns; its successor is YARA-X. *In maintenance mode.* | Tool | Free |
 
 ## Detection platforms
 
@@ -35,7 +35,7 @@ What do I run the detections on?
 |---|---|---|---|---|
 | [Wazuh](https://wazuh.com/) | Wazuh, Inc. | Free and open source security platform that combines XDR and SIEM functions for endpoints and cloud workloads. | Tool | Free |
 | [Falco](https://github.com/falcosecurity/falco) | The Falco Project | Cloud native runtime security tool for Linux that watches kernel events such as syscalls and alerts on abnormal behavior. | Tool | Free |
-| [osquery](https://osquery.io/) | osquery | Endpoint visibility tool that lets you ask questions about Linux, Windows, and macOS systems with SQL-style queries. | Tool | Free |
+| [osquery](https://osquery.io/) | osquery | Exposes an operating system as SQL tables, so that you can query processes, users, and configuration on macOS, Windows, and Linux. | Tool | Free |
 | [Zeek](https://zeek.org/) | The Zeek Project | Open source, scriptable network monitor, originally developed under the name Bro. | Tool | Free |
 
 Listed here from another domain: Falco ([Cloud and infrastructure](cloud-and-infrastructure.md#audit-posture-and-runtime-tools)), osquery ([Endpoint and device management](endpoint-and-device-management.md#android-chromeos-and-cross-platform)), Zeek ([Network security](network-security.md#traffic-capture-and-analysis)).
@@ -46,7 +46,7 @@ What can I test a detection against?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [DetectionLab](https://github.com/clong/DetectionLab) | clong | Scripts that build a Windows domain lab with security tooling and logging preinstalled; not actively maintained since January 2023. | Tool | Free |
-| [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | sbousseaden | Windows event log samples for specific attack and post-exploitation techniques, for testing detections and practicing hunting. | Dataset or feed | Free |
+| [DetectionLab](https://github.com/clong/DetectionLab) | Chris Long (clong) | Scripts that build a Windows domain lab with security tooling and logging preinstalled. *No longer actively maintained, as of January 1, 2023.* | Tool | Free |
+| [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | sbousseaden | Windows event log samples for specific attack and post-exploitation techniques, for testing detections and practicing hunting. *Last updated in January 2023.* | Dataset or feed | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

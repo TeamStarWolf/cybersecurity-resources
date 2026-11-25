@@ -8,7 +8,7 @@
   section: windows-management-and-deployment
   kind: documentation
   cost: free
-  description: "Guides, tutorials, and references for Microsoft Intune."
+  description: "Microsoft's Intune documentation hub: enrolling and configuring devices, managing apps, keeping devices updated, securing data, and troubleshooting."
   checked:
     date: "2026-11-25"
     status: 200
@@ -50,7 +50,7 @@
   section: windows-management-and-deployment
   kind: documentation
   cost: free
-  description: "The official product documentation for Configuration Manager."
+  description: "Microsoft's documentation for Configuration Manager: site infrastructure, co-management with Intune, app management, OS deployment, software updates, and compliance."
   checked:
     date: "2026-11-25"
     status: 200
@@ -78,7 +78,7 @@
   section: windows-management-and-deployment
   kind: documentation
   cost: free
-  description: "Documentation for Windows Autopatch, the cloud service that automates updates for Windows, Microsoft 365 Apps, Edge, and Teams."
+  description: "Documentation for Windows Autopatch, Microsoft's managed update service for Windows, Microsoft 365 Apps, Edge, and Teams, with an overview and FAQ."
   checked:
     date: "2026-11-25"
     status: 200
@@ -106,7 +106,7 @@
   section: windows-management-and-deployment
   kind: documentation
   cost: free
-  description: "The administrative tools, tasks, and practices for managing Windows clients across an organization."
+  description: "Documentation for managing Windows clients through MDM: enrollment, settings and updates, the configuration service provider reference, and troubleshooting."
   checked:
     date: "2026-11-25"
     status: 200
@@ -120,7 +120,7 @@
   section: windows-management-and-deployment
   kind: documentation
   cost: free
-  description: "The official product documentation for Windows 365."
+  description: "Microsoft's documentation hub for Windows 365, with entry points for the Enterprise and Business editions, Windows 365 Link, and related Intune content."
   checked:
     date: "2026-11-25"
     status: 200
@@ -134,7 +134,7 @@
   section: windows-management-and-deployment
   kind: documentation
   cost: free
-  description: "Documentation for Azure Virtual Desktop, which delivers virtual desktops and applications remotely."
+  description: "Microsoft's documentation for Azure Virtual Desktop: prerequisites, deploying host pools and session hosts, publishing RemoteApp applications, and connecting with Windows App."
   checked:
     date: "2026-11-25"
     status: 200
@@ -148,7 +148,7 @@
   section: windows-management-and-deployment
   kind: tool
   cost: free
-  description: "Tool that wraps a Win32 application so that it can be uploaded to Intune."
+  description: "Microsoft's packaging utility, IntuneWinAppUtil, which converts a Windows desktop installer into the .intunewin format that Intune deploys as a Win32 app."
   checked:
     date: "2026-11-25"
     status: 200
@@ -162,7 +162,7 @@
   section: apple-device-management
   kind: documentation
   cost: free
-  description: "Apple's guide to deploying and managing its hardware, software, apps, and services at scale in an organization."
+  description: "Apple's deployment guide for administrators: enrollment methods, deployment models, supervision, declarative device management, and management payloads."
   checked:
     date: "2026-11-25"
     status: 200
@@ -190,7 +190,7 @@
   section: apple-device-management
   kind: reference
   cost: free
-  description: "The latest operating system releases and betas from Apple, with build numbers, downloads, and release notes."
+  description: "Apple's running list of operating system, Xcode, and developer tool releases and betas, each with its build number and release notes."
   checked:
     date: "2026-11-25"
     status: 200
@@ -204,7 +204,7 @@
   section: apple-device-management
   kind: documentation
   cost: free
-  description: "Documentation for Jamf Pro, Jamf Protect, Jamf Connect, Jamf School, and Jamf's other products."
+  description: "Jamf's documentation site, covering each of its products, including Jamf Pro, Jamf Connect, Jamf Protect, and Jamf School."
   checked:
     date: "2026-11-25"
     status: 200
@@ -246,7 +246,7 @@
   section: apple-device-management
   kind: tool
   cost: free
-  description: "Managed software installation for macOS."
+  description: "Open source tools, started at Walt Disney Animation Studios, that let Mac administrators install and remove software on clients from a web server repository."
   checked:
     date: "2026-11-25"
     status: 200
@@ -260,7 +260,7 @@
   section: apple-device-management
   kind: tool
   cost: free
-  description: "Automates packaging and software distribution on macOS."
+  description: "Open source tool that Mac administrators use to automate fetching software and building installer packages, driven by shared recipes."
   checked:
     date: "2026-11-25"
     status: 200
@@ -270,7 +270,7 @@
 - id: nudge
   name: "Nudge"
   url: "https://github.com/macadmins/nudge"
-  publisher: "macadmins"
+  publisher: "Mac Admins Open Source"
   section: apple-device-management
   kind: tool
   cost: free
@@ -280,6 +280,7 @@
     status: 200
     final: "https://github.com/macadmins/nudge"
     how: script
+  notes: "Publisher is the display name of the GitHub organization that owns the repository."
 
 - id: sofa
   name: "SOFA"
@@ -288,7 +289,7 @@
   section: apple-device-management
   kind: dataset
   cost: free
-  description: "Simple Organized Feed for Apple Software Updates, from Mac Admins Open Source."
+  description: "Tracks Apple's operating system releases and their security fixes, and publishes the data as JSON feeds for scripts; a Mac Admins Open Source project."
   checked:
     date: "2026-11-25"
     status: 200
@@ -360,7 +361,7 @@
   also_in: [detection-and-response/platforms]
   kind: tool
   cost: free
-  description: "Endpoint visibility tool that lets you ask questions about Linux, Windows, and macOS systems with SQL-style queries."
+  description: "Exposes an operating system as SQL tables, so that you can query processes, users, and configuration on macOS, Windows, and Linux."
   checked:
     date: "2026-11-25"
     status: 200
@@ -374,7 +375,7 @@
   section: packaging-imaging-and-software-deployment
   kind: tool
   cost: free
-  description: "Microsoft's package manager for Windows: a command-line tool and services for installing, managing, and configuring applications."
+  description: "Documentation for Microsoft's Windows package manager: the winget command, configuration files, package submission, and Group Policy controls for enterprises."
   checked:
     date: "2026-11-25"
     status: 200
@@ -388,7 +389,7 @@
   section: packaging-imaging-and-software-deployment
   kind: dataset
   cost: free
-  description: "The community repository of package manifests for the Windows Package Manager."
+  description: "Microsoft's public repository of the manifests behind winget's default source, with guides for authoring and testing a manifest."
   checked:
     date: "2026-11-25"
     status: 200
@@ -402,7 +403,7 @@
   section: packaging-imaging-and-software-deployment
   kind: tool
   cost: freemium
-  description: "Package manager for Windows that wraps installers, executables, and scripts into packages; open source and business editions."
+  description: "Windows package manager that turns installers and scripts into packages; the open source edition is free, and Chocolatey for Business is paid."
   checked:
     date: "2026-11-25"
     status: 200
@@ -416,7 +417,7 @@
   section: packaging-imaging-and-software-deployment
   kind: tool
   cost: free
-  description: "A command-line installer for Windows."
+  description: "Installs Windows programs from a PowerShell prompt without elevation prompts or installer wizards, and resolves their dependencies."
   checked:
     date: "2026-11-25"
     status: 200
@@ -458,7 +459,7 @@
   section: packaging-imaging-and-software-deployment
   kind: tool
   cost: free
-  description: "Free and open source software for disk imaging and cloning, in live and server editions."
+  description: "Program for imaging and cloning disks and partitions, in a live edition for one machine and server editions for deploying many at once."
   checked:
     date: "2026-11-25"
     status: 200
@@ -472,7 +473,7 @@
   section: packaging-imaging-and-software-deployment
   kind: tool
   cost: free
-  description: "Free, open source network computer cloning and management solution."
+  description: "Open source project for capturing and deploying Windows, Mac, and Linux images to computers over a network, and managing them remotely."
   checked:
     date: "2026-11-25"
     status: 200
@@ -482,35 +483,37 @@
 - id: rufus
   name: "Rufus"
   url: "https://rufus.ie/"
-  publisher: "Rufus"
+  publisher: "Pete Batard (Akeo Consulting)"
   section: packaging-imaging-and-software-deployment
   kind: tool
   cost: free
-  description: "Small application that creates bootable USB drives for installing or running Windows, Linux, or DOS."
+  description: "Utility that writes an operating system image to a USB drive so that a computer can boot from it."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://rufus.ie/"
     how: script
+  notes: "The page says the executable is signed by Akeo Consulting, and earlier versions by Pete Batard."
 
 - id: ventoy
   name: "Ventoy"
   url: "https://www.ventoy.net/"
-  publisher: "Ventoy"
+  publisher: "longpanda"
   section: packaging-imaging-and-software-deployment
   kind: tool
   cost: free
-  description: "Open source tool that makes a USB drive boot ISO, WIM, IMG, VHD, and EFI files copied onto it."
+  description: "Prepares a USB drive once, after which you copy disk images onto it and choose one from a boot menu; open source."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.ventoy.net/en/index.html"
     how: browser
+  notes: "Publisher from the footer copyright."
 
 - id: call4cloud
   name: "Call4Cloud"
   url: "https://call4cloud.nl/"
-  publisher: "Call4Cloud"
+  publisher: "Rudy Ooms"
   section: community-and-blogs
   kind: news
   cost: free
@@ -520,6 +523,7 @@
     status: 200
     final: "https://call4cloud.nl/"
     how: script
+  notes: "Publisher from the About page."
 
 - id: out-of-office-hours
   name: "Out of Office Hours"

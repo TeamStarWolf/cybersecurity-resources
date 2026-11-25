@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 612 resources in 17 domains, each opened and read before it was described. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired or could not be read at the last check.
+The catalog holds 615 resources in 17 domains. 609 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 4 records that are not shown, because the address is retired or could not be read at the last check.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -55,8 +55,8 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 | Domain | What it covers | Resources |
 |---|---|---|
 | [Vulnerability management](domains/vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | 94 |
-| [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 101 |
-| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 37 |
+| [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 103 |
+| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 38 |
 | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md) | Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools. | 20 |
 | [Labs and training](domains/labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | 16 |
 | [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 31 |
@@ -100,14 +100,19 @@ Every domain page is a set of tables, one for each question a practitioner asks.
 
 | Cost | What it means |
 |---|---|
-| Free | No payment and no account needed for the main use. |
-| Free with account | No payment, but you must sign up or fill in a form. |
-| Freemium | A free tier or edition exists, and paid plans add more. |
+| Free | No payment, account, API key, or sign-up form for anything the entry's description names. |
+| Free with account | No payment, but something the description names needs an account, an API key, or a sign-up form. |
+| Freemium | A free tier or edition exists, with or without an account, and paid plans add more. |
 | Paid | Paid only. A time-limited trial does not change this. |
 | Not confirmed | The pricing page could not be opened when the entry was checked. |
 <!-- kinds:end -->
 
-Cost comes from the resource's own pricing or sign-up page. A former name appears in parentheses after the current one.
+Cost comes from the resource's own pricing or sign-up page, and it covers everything the description names. If any of that needs an account, an API key, or a sign-up form, the entry is not marked Free. A former name appears in parentheses after the current one.
+
+Two marks say where an entry stands:
+
+- A sentence in italics after the description appears when the resource is no longer developed. It says one of four things: archived; in maintenance mode; no longer actively maintained, when the maintainers say so themselves; or the date of the last update, when that is more than about two years back. The date is the last change on the main branch of a repository, or the newest item a site lists.
+- A \* after the name means the address refused every client used for checking, so the entry was written from another page of the same publisher. The last line of each domain page counts those rows.
 
 ## The compact bookmark set
 
@@ -142,30 +147,37 @@ Brave has the same import under its main menu: **Bookmarks**, then **Import Book
 1. Open the menu, select **Bookmarks**, then **Manage bookmarks**.
 2. In the Library window, select **Import and Backup**, then **Import Bookmarks from HTML**, and pick `bookmarks.html`.
 
-The Chrome, Brave, and Edge steps follow each vendor's help page as it read in November 2026: [Chrome](https://support.google.com/chrome/answer/96816), [Brave](https://support.brave.app/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data), [Edge](https://support.microsoft.com/en-us/edge/import-your-favorites-and-passwords-in-microsoft-edge). Menu names change between browser versions. To import the full catalog, pick `bookmarks-full.html` in the same dialog.
+The steps follow each vendor's help page as it read in November 2026: [Chrome](https://support.google.com/chrome/answer/96816), [Brave](https://support.brave.app/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data), [Edge](https://support.microsoft.com/en-us/edge/import-your-favorites-and-passwords-in-microsoft-edge), [Firefox](https://support.mozilla.org/en-US/kb/import-bookmarks-html-file). Menu names change between browser versions. To import the full catalog, pick `bookmarks-full.html` in the same dialog.
 
 ## How entries are chosen
 
 An entry goes in only if all of these hold:
 
-1. Its address was opened, and the page that loaded was the resource it names: not a parked domain, a login wall with nothing behind it, a notice that the page has moved, or a different product.
+1. Its address was opened, and the page that loaded was the resource it names: not a parked domain, a login wall with nothing behind it, a notice that the page has moved, or a different product. The paragraph after this list gives the one exception.
 2. It is the primary or official location: the project's own site or repository, not a mirror or an article about it.
-3. It is alive. A tool or repository shows activity within about two years, or says that it is complete. A frozen classic that is still the reference stays, and its entry says so.
+3. It is alive, or it is still the reference and its entry says where it stands. For a tool or repository, alive means a change on its main branch within about two years. One that is archived, in maintenance mode, declared unmaintained by its maintainers, or older than that stays only when practitioners still use it, and its row then says which of those applies.
 4. A practitioner would use it, and one sentence can say who opens it and for what task.
 5. It does not duplicate an entry under another name.
 6. It is safe to link. Collections of unvetted exploit code carry a warning in their description.
 
 The name, the operator, and the description come from the page as it read on the day it was checked, in this catalog's own words. When a product is renamed or changes hands, the entry takes the current name and keeps the former one.
 
-An address that cannot be read is not described from memory. The record stays in the data with the reason, and it appears on a domain page only when the site's own feed, documentation, or repository could be read instead. An address that has gone is marked retired in the data, with the date and what replaced it.
+An address that cannot be read is not described from memory. When a site refuses every client used for checking, a script and a browser, the record stays in the data with the reason. It appears on a domain page only when another page of the same publisher could be read instead: its feed, its documentation, its vendor site, or its repository. That row is marked \*, and the record's notes name the page that was read. An address that has gone is marked retired in the data, with the date and what replaced it.
 
 ## How it stays right
 
 - **One source.** Every page here is generated from the files under `data/` by `scripts/build.py`. [How the data works](docs/DATA.md) describes the record and the taxonomy.
-- **Checks on every pull request.** `scripts/validate.py` checks the record rules, duplicates, address rules, and the limits of the compact set, and runs planted failures to prove each rule rejects what it should. `scripts/build.py --check` fails if any generated file differs from what the data produces. A link check requests the addresses.
-- **A weekly link check** requests every address in the catalog.
-- **The compact set is locked.** `LINKS.md` is read by another TeamStarWolf project, so its shape is fixed and its SHA-256 is recorded in `data/compact.lock`. A change to the compact set has to update the lock in the same pull request.
+- **Checks on every pull request.** `scripts/validate.py` checks the record rules, duplicates, the address and text rules, and the limits of the compact set, and runs planted failures to prove each rule rejects what it should. `scripts/build.py --check` fails if any generated file differs from what the data produces. A link check requests the addresses on the generated pages, apart from those on the ignore list described below.
+- **A weekly link check** requests the same addresses, with the same exception.
+- **The compact set is locked.** `LINKS.md` is read by another TeamStarWolf project, so its shape is fixed and its SHA-256 is recorded in `data/compact.lock`. A change to the compact set has to update the lock in the same pull request. The address rule is at least as strict as that project's own, so an address accepted here cannot break its build.
+- **A right-page list for a person to read.** A page can answer and still be the wrong page. `scripts/check_links.py --pages` lists the records whose page title or first heading no longer matches the name, or whose page says it found nothing. It does not fail a run; a maintainer reads the list.
 - **The original links are accounted for.** `data/original-292.tsv` records the links this collection began with, and the validator checks that each one still maps to a record.
+
+The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
+
+<!-- link-check:start (written by scripts/build.py; do not edit) -->
+The ignore list holds 35 entries, 10 of which apply to the CI check alone. Together they cover 38 of the 648 addresses the catalog publishes (5.9%). The validator fails if that share passes 10%.
+<!-- link-check:end -->
 
 Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.
 

@@ -20,17 +20,17 @@ How do I deploy, manage, and update Windows devices?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Microsoft Intune documentation](https://learn.microsoft.com/en-us/intune/) | Microsoft | Guides, tutorials, and references for Microsoft Intune. | Vendor documentation | Free |
+| [Microsoft Intune documentation](https://learn.microsoft.com/en-us/intune/) | Microsoft | Microsoft's Intune documentation hub: enrolling and configuring devices, managing apps, keeping devices updated, securing data, and troubleshooting. | Vendor documentation | Free |
 | [What's new in Microsoft Intune](https://learn.microsoft.com/en-us/intune/whats-new/) | Microsoft | Microsoft's running list of what is new in Intune. | Reference | Free |
 | [Windows Autopilot documentation](https://learn.microsoft.com/en-us/autopilot/) | Microsoft | Documentation for Windows Autopilot and Autopilot device preparation, the technologies for setting up and pre-configuring new devices. | Vendor documentation | Free |
-| [Microsoft Configuration Manager documentation](https://learn.microsoft.com/en-us/intune/configmgr/) | Microsoft | The official product documentation for Configuration Manager. | Vendor documentation | Free |
+| [Microsoft Configuration Manager documentation](https://learn.microsoft.com/en-us/intune/configmgr/) | Microsoft | Microsoft's documentation for Configuration Manager: site infrastructure, co-management with Intune, app management, OS deployment, software updates, and compliance. | Vendor documentation | Free |
 | [Windows Server Update Services (WSUS) overview](https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) | Microsoft | Overview of the WSUS server role, its features, and its support for the Unified Update Platform. | Vendor documentation | Free |
-| [Windows Autopatch documentation](https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/) | Microsoft | Documentation for Windows Autopatch, the cloud service that automates updates for Windows, Microsoft 365 Apps, Edge, and Teams. | Vendor documentation | Free |
+| [Windows Autopatch documentation](https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/) | Microsoft | Documentation for Windows Autopatch, Microsoft's managed update service for Windows, Microsoft 365 Apps, Edge, and Teams, with an overview and FAQ. | Vendor documentation | Free |
 | [Windows deployment documentation](https://learn.microsoft.com/en-us/windows/deployment/) | Microsoft | How to plan, prepare, and carry out the deployment and updating of Windows devices. | Vendor documentation | Free |
-| [Manage Windows client](https://learn.microsoft.com/en-us/windows/client-management/) | Microsoft | The administrative tools, tasks, and practices for managing Windows clients across an organization. | Vendor documentation | Free |
-| [Windows 365 documentation](https://learn.microsoft.com/en-us/windows-365/) | Microsoft | The official product documentation for Windows 365. | Vendor documentation | Free |
-| [Azure Virtual Desktop documentation](https://learn.microsoft.com/en-us/azure/virtual-desktop/) | Microsoft | Documentation for Azure Virtual Desktop, which delivers virtual desktops and applications remotely. | Vendor documentation | Free |
-| [Microsoft Win32 Content Prep Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) | Microsoft | Tool that wraps a Win32 application so that it can be uploaded to Intune. | Tool | Free |
+| [Manage Windows client](https://learn.microsoft.com/en-us/windows/client-management/) | Microsoft | Documentation for managing Windows clients through MDM: enrollment, settings and updates, the configuration service provider reference, and troubleshooting. | Vendor documentation | Free |
+| [Windows 365 documentation](https://learn.microsoft.com/en-us/windows-365/) | Microsoft | Microsoft's documentation hub for Windows 365, with entry points for the Enterprise and Business editions, Windows 365 Link, and related Intune content. | Vendor documentation | Free |
+| [Azure Virtual Desktop documentation](https://learn.microsoft.com/en-us/azure/virtual-desktop/) | Microsoft | Microsoft's documentation for Azure Virtual Desktop: prerequisites, deploying host pools and session hosts, publishing RemoteApp applications, and connecting with Windows App. | Vendor documentation | Free |
+| [Microsoft Win32 Content Prep Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) | Microsoft | Microsoft's packaging utility, IntuneWinAppUtil, which converts a Windows desktop installer into the .intunewin format that Intune deploys as a Win32 app. | Tool | Free |
 
 ## Apple device management
 
@@ -38,16 +38,16 @@ How do I manage Macs, iPhones, and iPads?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Apple Platform Deployment](https://support.apple.com/guide/deployment/welcome/web) | Apple | Apple's guide to deploying and managing its hardware, software, apps, and services at scale in an organization. | Vendor documentation | Free |
+| [Apple Platform Deployment](https://support.apple.com/guide/deployment/welcome/web) | Apple | Apple's deployment guide for administrators: enrollment methods, deployment models, supervision, declarative device management, and management payloads. | Vendor documentation | Free |
 | [Apple Device Management documentation](https://developer.apple.com/documentation/devicemanagement) | Apple | Apple's developer documentation for managing an organization's devices remotely. | Vendor documentation | Free |
-| [Apple Developer Releases](https://developer.apple.com/news/releases/) | Apple | The latest operating system releases and betas from Apple, with build numbers, downloads, and release notes. | Reference | Free |
-| [Jamf Learning Hub](https://learn.jamf.com/) | Jamf | Documentation for Jamf Pro, Jamf Protect, Jamf Connect, Jamf School, and Jamf's other products. | Vendor documentation | Free |
+| [Apple Developer Releases](https://developer.apple.com/news/releases/) | Apple | Apple's running list of operating system, Xcode, and developer tool releases and betas, each with its build number and release notes. | Reference | Free |
+| [Jamf Learning Hub](https://learn.jamf.com/) | Jamf | Jamf's documentation site, covering each of its products, including Jamf Pro, Jamf Connect, Jamf Protect, and Jamf School. | Vendor documentation | Free |
 | [Jamf Nation](https://community.jamf.com/) | Jamf | Jamf's community forum for Apple administrators. | Community | Free |
 | [Mac Admins Foundation](https://www.macadmins.org/) | Mac Admins Foundation | Nonprofit that supports the Mac administrators community. | Community | Free |
-| [Munki](https://github.com/munki/munki) | Munki | Managed software installation for macOS. | Tool | Free |
-| [AutoPkg](https://github.com/autopkg/autopkg) | AutoPkg | Automates packaging and software distribution on macOS. | Tool | Free |
-| [Nudge](https://github.com/macadmins/nudge) | macadmins | Tool for encouraging users to install macOS security updates. | Tool | Free |
-| [SOFA](https://sofa.macadmins.io/) | Mac Admins Open Source | Simple Organized Feed for Apple Software Updates, from Mac Admins Open Source. | Dataset or feed | Free |
+| [Munki](https://github.com/munki/munki) | Munki | Open source tools, started at Walt Disney Animation Studios, that let Mac administrators install and remove software on clients from a web server repository. | Tool | Free |
+| [AutoPkg](https://github.com/autopkg/autopkg) | AutoPkg | Open source tool that Mac administrators use to automate fetching software and building installer packages, driven by shared recipes. | Tool | Free |
+| [Nudge](https://github.com/macadmins/nudge) | Mac Admins Open Source | Tool for encouraging users to install macOS security updates. | Tool | Free |
+| [SOFA](https://sofa.macadmins.io/) | Mac Admins Open Source | Tracks Apple's operating system releases and their security fixes, and publishes the data as JSON feeds for scripts; a Mac Admins Open Source project. | Dataset or feed | Free |
 
 ## Android, ChromeOS, and cross-platform
 
@@ -59,7 +59,7 @@ What about the other platforms?
 | [Android Enterprise Help](https://support.google.com/work/android/) | Google | The official help center for Android Enterprise. | Vendor documentation | Free |
 | [Google Workspace Help](https://knowledge.workspace.google.com/) | Google | Google's help site for finding answers and resolving issues with Google Workspace. | Vendor documentation | Free |
 | [Chrome Enterprise and Education Help](https://support.google.com/chrome/a/) | Google | The official help center for managing Chrome in enterprises and schools. | Vendor documentation | Free |
-| [osquery](https://osquery.io/) | osquery | Endpoint visibility tool that lets you ask questions about Linux, Windows, and macOS systems with SQL-style queries. | Tool | Free |
+| [osquery](https://osquery.io/) | osquery | Exposes an operating system as SQL tables, so that you can query processes, users, and configuration on macOS, Windows, and Linux. | Tool | Free |
 
 ## Packaging, imaging, and software deployment
 
@@ -67,16 +67,16 @@ How do I get software and images onto devices?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [WinGet (Windows Package Manager)](https://learn.microsoft.com/en-us/windows/package-manager/) | Microsoft | Microsoft's package manager for Windows: a command-line tool and services for installing, managing, and configuring applications. | Tool | Free |
-| [winget-pkgs](https://github.com/microsoft/winget-pkgs) | Microsoft | The community repository of package manifests for the Windows Package Manager. | Dataset or feed | Free |
-| [Chocolatey](https://chocolatey.org/) | Chocolatey Software | Package manager for Windows that wraps installers, executables, and scripts into packages; open source and business editions. | Tool | Freemium |
-| [Scoop](https://scoop.sh/) | Scoop | A command-line installer for Windows. | Tool | Free |
+| [WinGet (Windows Package Manager)](https://learn.microsoft.com/en-us/windows/package-manager/) | Microsoft | Documentation for Microsoft's Windows package manager: the winget command, configuration files, package submission, and Group Policy controls for enterprises. | Tool | Free |
+| [winget-pkgs](https://github.com/microsoft/winget-pkgs) | Microsoft | Microsoft's public repository of the manifests behind winget's default source, with guides for authoring and testing a manifest. | Dataset or feed | Free |
+| [Chocolatey](https://chocolatey.org/) | Chocolatey Software | Windows package manager that turns installers and scripts into packages; the open source edition is free, and Chocolatey for Business is paid. | Tool | Freemium |
+| [Scoop](https://scoop.sh/) | Scoop | Installs Windows programs from a PowerShell prompt without elevation prompts or installer wizards, and resolves their dependencies. | Tool | Free |
 | [Homebrew](https://brew.sh/) | Homebrew | Package manager that installs software from the command line. | Tool | Free |
 | [PSAppDeployToolkit](https://psappdeploytoolkit.com/) | PSAppDeployToolkit | Toolkit for enterprise application deployment, with its own branded user dialogs. | Tool | Free |
-| [Clonezilla](https://clonezilla.org/) | Clonezilla | Free and open source software for disk imaging and cloning, in live and server editions. | Tool | Free |
-| [FOG Project](https://fogproject.org/) | FOG Project | Free, open source network computer cloning and management solution. | Tool | Free |
-| [Rufus](https://rufus.ie/) | Rufus | Small application that creates bootable USB drives for installing or running Windows, Linux, or DOS. | Tool | Free |
-| [Ventoy](https://www.ventoy.net/) | Ventoy | Open source tool that makes a USB drive boot ISO, WIM, IMG, VHD, and EFI files copied onto it. | Tool | Free |
+| [Clonezilla](https://clonezilla.org/) | Clonezilla | Program for imaging and cloning disks and partitions, in a live edition for one machine and server editions for deploying many at once. | Tool | Free |
+| [FOG Project](https://fogproject.org/) | FOG Project | Open source project for capturing and deploying Windows, Mac, and Linux images to computers over a network, and managing them remotely. | Tool | Free |
+| [Rufus](https://rufus.ie/) | Pete Batard (Akeo Consulting) | Utility that writes an operating system image to a USB drive so that a computer can boot from it. | Tool | Free |
+| [Ventoy](https://www.ventoy.net/) | longpanda | Prepares a USB drive once, after which you copy disk images onto it and choose one from a boot menu; open source. | Tool | Free |
 
 ## Community and blogs
 
@@ -84,7 +84,7 @@ Who explains it well?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Call4Cloud](https://call4cloud.nl/) | Call4Cloud | Blog on Windows Autopilot and Intune. | News | Free |
+| [Call4Cloud](https://call4cloud.nl/) | Rudy Ooms | Blog on Windows Autopilot and Intune. | News | Free |
 | [Out of Office Hours](https://oofhours.com/) | Michael Niehaus | Michael Niehaus's blog on Windows Autopilot and Windows deployment. | News | Free |
 | [MSEndpointMgr](https://msendpointmgr.com/) | MSEndpointMgr | Community site on Configuration Manager, Intune, Windows, and PowerShell. | Community | Free |
 | [HTMD Community](https://www.anoopcnair.com/) | HTMD Community | Blog on Configuration Manager, Intune, and Windows device management. | News | Free |
