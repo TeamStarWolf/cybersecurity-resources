@@ -108,7 +108,12 @@ domains:
     covers: "Security baselines and hardening guidance for Windows, Linux, macOS, and mobile devices."
     boundary: "Managing fleets of devices sits in Endpoint and device management; framework-level control catalogs sit in GRC and security program."
     library_hub: platform-hardening
-    sections: []
+    sections:
+      - {id: baselines-and-benchmarks, title: "Baselines and benchmarks", question: "Which published baseline should this system meet?"}
+      - {id: windows-hardening, title: "Windows hardening", question: "How do I harden Windows clients and servers?"}
+      - {id: linux-and-container-hardening, title: "Linux and container hardening", question: "How do I harden a Linux host and the containers on it?"}
+      - {id: macos-and-mobile-hardening, title: "macOS and mobile hardening", question: "How do I harden Macs, iPhones, and Android devices?"}
+      - {id: audit-and-assessment-tools, title: "Audit and assessment tools", question: "How do I measure a host against a baseline?"}
   - id: application-and-supply-chain
     group: security
     title: "Application and supply chain security"
@@ -124,7 +129,13 @@ domains:
     covers: "Identity and access security, Active Directory defense, passwords, zero trust, cryptography, and protecting data."
     boundary: "Administering a directory or identity provider sits in Identity and directory services administration; Active Directory attack tools sit in Offensive security."
     library_hub: identity-and-data-protection
-    sections: []
+    sections:
+      - {id: authentication-standards-and-guidance, title: "Authentication standards and guidance", question: "What do the standards say about proving who someone is?"}
+      - {id: active-directory-and-entra-defense, title: "Active Directory and Entra defense", question: "How do I find and close the paths to domain admin?"}
+      - {id: zero-trust-and-privileged-access, title: "Zero trust and privileged access", question: "How do I limit what a stolen account can reach?"}
+      - {id: passwords-and-secrets, title: "Passwords and secrets", question: "How should passwords, passkeys, and secrets be chosen and stored?"}
+      - {id: cryptography-and-pki, title: "Cryptography and PKI", question: "Which algorithms, key sizes, and certificate practices are sound?"}
+      - {id: data-protection-and-privacy, title: "Data protection and privacy", question: "How do I classify, encrypt, and dispose of data?"}
   - id: ai-and-emerging-tech
     group: security
     title: "AI and emerging tech"

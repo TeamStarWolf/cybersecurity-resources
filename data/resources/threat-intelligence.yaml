@@ -202,7 +202,7 @@
   url: "https://crt.sh/"
   publisher: "Sectigo"
   section: internet-scan-data
-  also_in: [offensive-security/recon-and-osint]
+  also_in: [offensive-security/recon-and-osint, identity-and-data-protection/cryptography-and-pki]
   kind: service
   cost: free
   description: "Searches Certificate Transparency logs: look up a domain or organization to list the certificates logged for it; run by Sectigo."

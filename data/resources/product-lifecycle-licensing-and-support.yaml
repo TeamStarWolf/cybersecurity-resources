@@ -804,3 +804,93 @@
     final: "https://cloud.google.com/support"
     how: script
   notes: "Cost from the page, read on 2026-11-25: every customer gets Basic Support, and Standard Support is priced at a minimum spend of $29 or 3% of monthly charges."
+
+- id: red-hat-product-life-cycles
+  name: "Red Hat Product Life Cycles"
+  url: "https://access.redhat.com/product-life-cycles"
+  publisher: "Red Hat"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Product timelines for the Red Hat products you select, linking life cycle details and support policies, with the data downloadable as CSV or JSON."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://access.redhat.com/product-life-cycles"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned the site's menus and footer but not the timelines. Name from the page title, Product Life Cycles | Red Hat Customer Portal. The page opened without sign-in, showing Red Hat Enterprise Linux and OpenShift Container Platform; the timelines are drawn as a chart."
+
+- id: chrome-release-schedule
+  name: "Chromium Dash: Schedule"
+  url: "https://chromiumdash.appspot.com/schedule"
+  publisher: "Google"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Per-milestone dates for Chrome and ChromeOS: branch point, beta promotion, early stable and stable cuts and releases, and ChromeOS feature freeze, all marked approximate."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://chromiumdash.appspot.com/schedule"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. The page title is Chromium Dash and its heading Schedule. Publisher from the site's home page, whose Privacy and Terms links go to Google's policy pages. The schedule loaded without sign-in; the panel beside each of the four milestones shown reported a data loading error."
+
+- id: juniper-end-of-life
+  name: "End of Life Products & Milestones"
+  url: "https://support.juniper.net/support/eol/"
+  publisher: "Juniper Networks"
+  section: hardware-and-network-vendors
+  kind: reference
+  cost: free
+  description: "Juniper's end-of-life dates and milestones by product series, in one view for products and SKUs and another for software releases; only announced dates appear."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.juniper.net/support/eol/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned only a survey prompt. Publisher from the footer's copyright line, Juniper Networks, Inc. Dates on the page are written month first."
+
+- id: f5-software-support-policy
+  name: "K5903: BIG-IP software support policy"
+  url: "https://my.f5.com/manage/s/article/K5903"
+  publisher: "F5"
+  section: hardware-and-network-vendors
+  kind: reference
+  cost: free
+  description: "Explains how long BIG-IP major and long-term stability releases are supported, with tables of ship, end-of-software-development, and end-of-technical-support dates by version."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://my.f5.com/manage/s/article/K5903"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned only a loading error line. The article opened without sign-in and is marked Updated Aug 6, 2026. Publisher from the footer's copyright line, F5, Inc."
+
+- id: clearlydefined
+  name: "ClearlyDefined"
+  url: "https://clearlydefined.io/"
+  publisher: "Open Source Initiative"
+  section: licensing-references
+  kind: dataset
+  cost: free
+  description: "Search open source components by name to list their versions with declared license, a score, and release date."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://clearlydefined.io/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the footer, which calls ClearlyDefined an OSI project maintained by a community and links opensource.org. Searching needed no sign-in (tried with one package name); contributing a correction asks for a login."
+
+- id: hp-warranty-check
+  name: "Official HP Warranty Check"
+  url: "https://support.hp.com/us-en/check-warranty"
+  publisher: "HP"
+  section: support-plans-and-portals
+  kind: service
+  cost: free
+  description: "Form that reports the warranty or service status of one HP product or several from serial number and country or region of purchase."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.hp.com/us-en/check-warranty"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the footer's copyright line, HP Development Company, L.P. The form was read, not submitted. It asks for no sign-in; beside it the page offers one for adding products to a dashboard."

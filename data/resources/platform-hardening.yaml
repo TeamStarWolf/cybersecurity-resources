@@ -1,0 +1,653 @@
+# Resources in the domain "platform-hardening". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: ncsc-device-security-guidance
+  name: "Device security guidance"
+  url: "https://www.ncsc.gov.uk/collection/device-security-guidance"
+  publisher: "NCSC, a part of GCHQ"
+  section: baselines-and-benchmarks
+  kind: reference
+  cost: free
+  description: "NCSC collection for organizations securing phones, tablets, laptops, and desktops, with guides for general readers and for IT administrators, pages by platform, and case studies."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ncsc.gov.uk/collection/device-security-guidance"
+    how: script
+  notes: "Publisher from https://www.ncsc.gov.uk/section/about-ncsc/what-we-do, read on 2026-11-25, in the form the catalog's other NCSC entries use."
+
+- id: windows-security-baselines
+  name: "Security baselines guide"
+  url: "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Microsoft's guide to Windows security baselines, including what a baseline is, principles behind the settings, and where to get them, by download or through Intune."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines"
+    how: script
+
+- id: security-compliance-toolkit
+  name: "Microsoft Security Compliance Toolkit - How to use"
+  url: "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Microsoft's page on the Security Compliance Toolkit, with sections on its tools: Policy Analyzer, LGPO, Set Object Security, and GPO to Policy Rules."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10"
+    how: script
+
+- id: windows-security-documentation
+  name: "Windows Security documentation"
+  url: "https://learn.microsoft.com/en-us/windows/security/"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Microsoft's hub for Windows security documentation, with entry points for hardware security, operating system security, identity protection, application security, cloud services, security foundation, and privacy."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/security/"
+    how: script
+  notes: "https://learn.microsoft.com/en-us/windows/security/book/ redirects here."
+
+- id: attack-surface-reduction-rules
+  name: "Attack surface reduction (ASR) rules reference"
+  url: "https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-reference"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Reference to Defender's attack surface reduction rules: operating system and deployment method support, alerts and notifications, then details of standard protection rules and the others."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-reference"
+    how: script
+
+- id: app-control-for-business
+  name: "Application Control for Windows"
+  url: "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Entry point to Microsoft's App Control for Business and AppLocker documentation, including policy design, policy configuration, deployment, and troubleshooting of App Control events."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/"
+    how: script
+
+- id: recommended-driver-block-rules
+  name: "Microsoft recommended driver block rules"
+  url: "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Microsoft's vulnerable driver blocklist: when Windows enforces it, blocking the listed drivers with App Control, download and apply steps, and the blocklist as XML."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules"
+    how: script
+
+- id: bitlocker
+  name: "BitLocker device encryption"
+  url: "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Microsoft's overview of BitLocker, including BitLocker To Go, its use of the TPM, system and licensing requirements, and how device encryption differs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/"
+    how: script
+
+- id: credential-guard
+  name: "Credential Guard"
+  url: "https://learn.microsoft.com/en-us/windows/security/identity-protection/credential-guard/"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Microsoft's overview of Credential Guard, which isolates credentials with virtualization-based security: where it is on by default, and hardware, licensing, and application requirements."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/security/identity-protection/credential-guard/"
+    how: script
+
+- id: exploit-protection
+  name: "Protect devices from exploits"
+  url: "https://learn.microsoft.com/en-us/defender-endpoint/exploit-protection"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Microsoft's page on Windows exploit protection: supported versions, its events in the Defender portal, advanced hunting, and Event Viewer, and a comparison of mitigations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/defender-endpoint/exploit-protection"
+    how: script
+
+- id: windows-audit-policy-recommendations
+  name: "System audit policy recommendations"
+  url: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations"
+  publisher: "Microsoft"
+  section: windows-hardening
+  kind: documentation
+  cost: free
+  description: "Microsoft's audit policy recommendations for Windows workstations and servers, including recommended settings by operating system, events to monitor, and what to watch in Active Directory."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations"
+    how: script
+
+- id: hardeningkitty
+  name: "HardeningKitty"
+  url: "https://github.com/scipag/HardeningKitty"
+  publisher: "scip AG"
+  section: windows-hardening
+  kind: tool
+  cost: free
+  description: "PowerShell tool that checks a Windows configuration against finding lists and can harden it, with modes including Audit, Config, Backup, and HailMary."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/scipag/HardeningKitty"
+    how: script
+  notes: "Publisher: the repository is under the organization scipag, and its README says the stable version is signed with the code signing certificate of scip AG and comes from the Windows Hardening Project by Michael Schneider. MIT license. The last commit on the default branch is dated 2026-07-21, from GitHub's API on 2026-11-25."
+
+- id: harden-windows-security
+  name: "Harden Windows Security"
+  url: "https://github.com/HotCakeX/Harden-Windows-Security"
+  publisher: "Violet Hansen (HotCakeX)"
+  section: windows-hardening
+  kind: tool
+  cost: free
+  description: "Home of the Harden System Security and AppControl Manager apps for Windows, which apply hardening through Microsoft's supported methods and manage App Control policies."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/HotCakeX/Harden-Windows-Security"
+    how: script
+  notes: "Publisher: the repository is under the personal account HotCakeX; the display name is from GitHub's API on 2026-11-25. MIT license. The last commit on the default branch is dated 2026-11-25, from the same API."
+
+- id: ubuntu-security-guide
+  name: "Ubuntu Security Guide (USG)"
+  url: "https://documentation.ubuntu.com/security/compliance/usg/"
+  publisher: "Canonical"
+  section: linux-and-container-hardening
+  kind: documentation
+  cost: freemium
+  description: "Canonical's documentation for USG, which audits and hardens Ubuntu against CIS Benchmark and DISA STIG profiles; it installs through the Ubuntu Pro client."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://documentation.ubuntu.com/security/compliance/usg/"
+    how: script
+  notes: "Cost: the page is free to read, but its installation steps are to install the Pro client and attach a subscription, so the tool the sentence names needs Ubuntu Pro, which Canonical's Ubuntu Pro page says is free for personal use on up to 5 machines and otherwise paid. Publisher from the footer copyright, Canonical Ltd, in the form the catalog's other Canonical entries use."
+
+- id: suse-security-and-hardening-guide
+  name: "SUSE Linux Enterprise Server 15 SP7 Security and Hardening Guide"
+  url: "https://documentation.suse.com/sles/15-SP7/html/SLES-all/book-security.html"
+  publisher: "SUSE"
+  section: linux-and-container-hardening
+  kind: documentation
+  cost: free
+  description: "SUSE's guide for SLES 15 SP7, in parts including authentication, local security, network security, regulations and compliance, and confining privileges with AppArmor."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://documentation.suse.com/sles/15-SP7/html/SLES-all/book-security.html"
+    how: script
+  notes: "Publisher from the footer copyright and the page's publisher tag. The address is for 15 SP7; other service packs have their own guide."
+
+- id: arch-wiki-security
+  name: "Security - ArchWiki"
+  url: "https://wiki.archlinux.org/title/Security"
+  publisher: "Arch Linux"
+  section: linux-and-container-hardening
+  kind: reference
+  cost: free
+  description: "ArchWiki's recommendations for hardening Arch Linux, in sections including passwords, storage, user setup, mandatory access control, kernel hardening, sandboxing applications, and network and firewalls."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://wiki.archlinux.org/title/Security"
+    how: script
+  notes: "Publisher in the form the catalog's other ArchWiki entry uses."
+
+- id: kspp-recommended-settings
+  name: "Kernel Self-Protection Project: Recommended Settings"
+  url: "https://kspp.github.io/Recommended_Settings"
+  publisher: "Kernel Self-Protection Project"
+  section: linux-and-container-hardening
+  kind: reference
+  cost: free
+  description: "The Kernel Self-Protection Project's list of hardening settings for a Linux kernel: build CONFIG options by architecture, kernel command line options, and sysctls."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://kspp.github.io/Recommended_Settings"
+    how: script
+  notes: "Publisher: the page's site name is Linux Kernel Self-Protection Project and it is served from the organization KSPP on GitHub, whose display name is Kernel Self-Protection Project, from GitHub's API on 2026-11-25. The last commit on the site's default branch is dated 2026-05-14, from the same API."
+
+- id: kernel-hardening-checker
+  name: "kernel-hardening-checker"
+  formerly: "kconfig-hardened-check"
+  url: "https://github.com/a13xp0p0v/kernel-hardening-checker"
+  publisher: "Alexander Popov (a13xp0p0v)"
+  section: linux-and-container-hardening
+  kind: tool
+  cost: free
+  description: "Tool that checks a Linux kernel's Kconfig options, command line arguments, and sysctl parameters against hardening recommendations; it can also generate a Kconfig fragment."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/a13xp0p0v/kernel-hardening-checker"
+    how: script
+  notes: "Publisher: the repository is under the personal account a13xp0p0v; the display name is from GitHub's API on 2026-11-25. GPL-3.0. The README gives the former name. The last commit on the default branch is dated 2026-09-19, from the same API."
+
+- id: selinux-notebook
+  name: "The SELinux Notebook"
+  url: "https://github.com/SELinuxProject/selinux-notebook"
+  publisher: "SELinux Project"
+  section: linux-and-container-hardening
+  kind: reference
+  cost: free
+  description: "Book about SELinux, open source and kept as Markdown in a repository: read it on GitHub, or build EPUB, PDF, or HTML copies from source."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/SELinuxProject/selinux-notebook"
+    how: script
+  notes: "Publisher: the repository is under the organization SELinuxProject, display name SELinux Project, from GitHub's API on 2026-11-25; the README says the book was created by Richard Haines and donated to the SELinux community. The last commit on the default branch is dated 2026-10-21, from the same API."
+
+- id: apparmor
+  name: "AppArmor Documentation"
+  url: "https://apparmor.net/"
+  publisher: "AppArmor"
+  section: linux-and-container-hardening
+  kind: documentation
+  cost: free
+  description: "AppArmor's official documentation: getting started, writing and managing profiles, troubleshooting and monitoring, and background pages including a comparison with SELinux, with notes on recent releases."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://apparmor.net/"
+    how: script
+  notes: "Publisher is the project's own name. The page and its About page, both requested on 2026-11-25, carry no credit, copyright line, or owner tag; the footer reads Made with Zensical, and the source link goes to apparmor/apparmor on GitLab."
+
+- id: mozilla-openssh-guidelines
+  name: "OpenSSH guidelines"
+  url: "https://infosec.mozilla.org/guidelines/openssh"
+  publisher: "Mozilla"
+  section: linux-and-container-hardening
+  kind: reference
+  cost: free
+  description: "Mozilla's configuration guidelines for OpenSSH servers and clients, including modern and intermediate settings, multi-factor authentication, cipher and algorithm choices, key generation, and key protection."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://infosec.mozilla.org/guidelines/openssh"
+    how: script
+  notes: "The page's own title is OpenSSH; it is one of the guidelines on infosec.mozilla.org, which says Mozilla's Security Assurance and Security Operations teams maintain it. Publisher in the form the catalog's other Mozilla entries use. The site's repository, mozilla/infosec.mozilla.org, had its last default-branch commit on 2026-06-11, from GitHub's API on 2026-11-25."
+
+- id: ssh-audit-hardening-guides
+  name: "SSH Hardening Guides"
+  url: "https://www.ssh-audit.com/hardening_guides.html"
+  publisher: "Positron Security"
+  section: linux-and-container-hardening
+  kind: reference
+  cost: free
+  description: "Step-by-step SSH hardening commands for named operating system releases, in server, client, community-developed, and legacy groups, from the makers of ssh-audit."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ssh-audit.com/hardening_guides.html"
+    how: script
+  notes: "Publisher in the form the catalog's ssh-audit entry uses, from the footer copyright of the site's home page; this page has no footer text of its own."
+
+- id: fail2ban
+  name: "Fail2Ban"
+  url: "https://github.com/fail2ban/fail2ban"
+  publisher: "Fail2Ban"
+  section: linux-and-container-hardening
+  kind: tool
+  cost: free
+  description: "Log-watching daemon that blocks addresses with too many failed logins; the repository gives installation and configuration steps, contact channels, and the license."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/fail2ban/fail2ban"
+    how: script
+  notes: "Publisher: the repository is under the organization fail2ban, display name Fail2Ban, from GitHub's API on 2026-11-25. The README states the GNU GPL, version 2 or later. The last commit on the default branch is dated 2026-11-23, from the same API."
+
+- id: aide
+  name: "AIDE - Advanced Intrusion Detection Environment"
+  url: "https://aide.github.io/"
+  publisher: "AIDE"
+  section: linux-and-container-hardening
+  kind: tool
+  cost: free
+  description: "Host integrity checker that records file attributes and message digests in a database and reports later changes; the site lists features, packages, and help channels."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://aide.github.io/"
+    how: script
+  notes: "Publisher is the project's own name; the page names people, not an organization: its Who's behind AIDE? section says Hannes von Haugwitz took over the project in October 2010. The source is under the organization aide on GitHub. GPL-2.0 per the repository's license field. The last commit on the default branch is dated 2026-10-18, from GitHub's API on 2026-11-25."
+
+- id: usbguard
+  name: "USBGuard"
+  url: "https://usbguard.github.io/"
+  publisher: "USBGuard"
+  section: linux-and-container-hardening
+  kind: tool
+  cost: free
+  description: "Allows or blocks USB devices on Linux by rule, through kernel device authorization: a daemon, rule language, command-line and GUI interfaces, and C++ API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://usbguard.github.io/"
+    how: script
+  notes: "Publisher is the project's own name. The page carries no credit, copyright line, or owner tag. Its source links point to github.com/dkopecek/usbguard, which GitHub redirects to the organization USBGuard. GPL-2.0 per the repository's license field. The last commit on the default branch is dated 2026-09-07, from GitHub's API on 2026-11-25."
+
+- id: docker-engine-security
+  name: "Docker Engine security"
+  url: "https://docs.docker.com/engine/security/"
+  publisher: "Docker Inc"
+  section: linux-and-container-hardening
+  kind: documentation
+  cost: free
+  description: "Docker's review of Engine security: kernel namespaces, control groups, the daemon's attack surface, Linux capabilities, content trust signature verification, and other kernel security features."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.docker.com/engine/security/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: docker-bench-security
+  name: "Docker Bench for Security"
+  url: "https://github.com/docker/docker-bench-security"
+  publisher: "Docker"
+  section: linux-and-container-hardening
+  kind: tool
+  cost: free
+  description: "Script that tests a Docker host and its containers against the CIS Docker Benchmark; runs from the host or as a container."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/docker/docker-bench-security"
+    how: script
+  notes: "Publisher: the repository is under the organization docker, display name Docker, from GitHub's API on 2026-11-25. Apache-2.0. The README names the benchmark version the tests follow. The last commit on the default branch is dated 2026-06-04, from the same API."
+
+- id: kubernetes-security-checklist
+  name: "Kubernetes Security Checklist"
+  url: "https://kubernetes.io/docs/concepts/security/security-checklist/"
+  publisher: "Kubernetes"
+  section: linux-and-container-hardening
+  kind: documentation
+  cost: free
+  description: "Kubernetes' baseline security checklist, covering network security, authentication and authorization, secrets, images, pod security and placement, admission controllers, and logs and auditing."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://kubernetes.io/docs/concepts/security/security-checklist/"
+    how: script
+  notes: "Publisher in the form the catalog's other Kubernetes documentation entries use; the footer carries copyright lines for The Kubernetes Authors and for Kubernetes a Series of LF Projects, LLC."
+
+- id: macos-security-compliance-project
+  name: "macOS Security Compliance Project"
+  url: "https://pages.nist.gov/macos_security/"
+  publisher: "NIST"
+  section: macos-and-mobile-hardening
+  kind: dataset
+  cost: free
+  description: "Home of mSCP, open source security guidance for Apple operating systems: how-to guides for generating configuration profiles, compliance scripts, baselines, and guidance documents."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pages.nist.gov/macos_security/"
+    how: script
+  notes: "Publisher: the site is served from pages.nist.gov and its repository is under the organization usnistgov, display name National Institute of Standards and Technology, from GitHub's API on 2026-11-25; written in the form the catalog's other NIST entries use. The last commit on the default branch is dated 2026-11-25, from the same API."
+
+- id: apple-platform-security
+  name: "Apple Platform Security"
+  url: "https://support.apple.com/guide/security/welcome/web"
+  publisher: "Apple"
+  section: macos-and-mobile-hardening
+  kind: documentation
+  cost: free
+  description: "Apple's guide to the security of its devices, with chapters including hardware security, app security, system security, services security, and encryption and Data Protection."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.apple.com/guide/security/welcome/web"
+    how: script
+
+- id: macos-security-and-privacy-guide
+  name: "macOS Security and Privacy Guide"
+  url: "https://github.com/drduh/macOS-Security-and-Privacy-Guide"
+  publisher: "drduh"
+  section: macos-and-mobile-hardening
+  kind: reference
+  cost: free
+  description: "Community guide to hardening Apple silicon Macs running macOS, in sections including threat model, FileVault, Lockdown Mode, firewall, DNS, browsers, and malware."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/drduh/macOS-Security-and-Privacy-Guide"
+    how: script
+  notes: "Publisher: the repository is under the personal account drduh, which has no display name, from GitHub's API on 2026-11-25. MIT license. The last commit on the default branch is dated 2026-11-20, from the same API."
+
+- id: objective-see-tools
+  name: "Objective-See's Tools"
+  url: "https://objective-see.org/tools.html"
+  publisher: "Objective-See Foundation"
+  section: macos-and-mobile-hardening
+  kind: tool
+  cost: free
+  description: "Free, open source macOS security tools, including the LuLu firewall, BlockBlock and KnockKnock for persistence, ReiKey for keyboard event taps, and Netiquette for network connections."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://objective-see.org/tools.html"
+    how: script
+  notes: "Publisher from https://objective-see.org/about.html, read on 2026-11-25, which describes the Objective-See Foundation as a non-profit foundation focused on macOS security. The tools page says the tools are free and open source and links their repositories."
+
+- id: apple-lockdown-mode
+  name: "About Lockdown Mode"
+  url: "https://support.apple.com/en-us/105120"
+  publisher: "Apple"
+  section: macos-and-mobile-hardening
+  kind: documentation
+  cost: free
+  description: "Apple's article on Lockdown Mode, including who it is for, what it restricts, enabling it on iPhone, iPad, or Mac, and excluding apps or websites."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.apple.com/en-us/105120"
+    how: script
+  notes: "Publisher from the footer copyright, Apple Inc., in the form the catalog's other Apple entries use."
+
+- id: android-security-features
+  name: "Android security features"
+  url: "https://source.android.com/docs/security/features"
+  publisher: "Google (Android Open Source Project)"
+  section: macos-and-mobile-hardening
+  kind: documentation
+  cost: free
+  description: "Android Open Source Project summary of platform security features, including Verified Boot, the Trusty TEE, SELinux, Keystore, encryption, biometrics, authentication, app signing, and application sandbox."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://source.android.com/docs/security/features"
+    how: script
+  notes: "Publisher in the form the catalog's other source.android.com entry uses."
+
+- id: grapheneos
+  name: "GrapheneOS features overview"
+  url: "https://grapheneos.org/features"
+  publisher: "GrapheneOS"
+  section: macos-and-mobile-hardening
+  kind: documentation
+  cost: free
+  description: "GrapheneOS's feature list for its hardened Android-based phone OS, including exploit mitigations, sandboxed Google Play, network and sensor permission toggles, and Storage Scopes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://grapheneos.org/features"
+    how: script
+  notes: "Publisher is the project's own name: the footer reads GrapheneOS, the page calls it a non-profit project, and https://grapheneos.org/faq, read on 2026-11-25, says the name and logo are trademarks of the GrapheneOS project."
+
+- id: lynis
+  name: "Lynis"
+  url: "https://cisofy.com/lynis/"
+  publisher: "CISOfy"
+  section: audit-and-assessment-tools
+  kind: tool
+  cost: freemium
+  description: "Tool that audits a Linux, macOS, or Unix host and suggests hardening steps, with sections including tests, plugins, and supported standards; Lynis Enterprise is paid."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cisofy.com/lynis/"
+    how: script
+  notes: "Cost from https://cisofy.com/pricing/, read on 2026-11-25, which says Lynis is free and open source software and prices Lynis Enterprise per system per month. Publisher from the page title and https://cisofy.com/about/."
+
+- id: complianceascode
+  name: "ComplianceAsCode content"
+  url: "https://github.com/ComplianceAsCode/content"
+  publisher: "ComplianceAsCode"
+  section: audit-and-assessment-tools
+  kind: dataset
+  cost: free
+  description: "Builds security policy content as SCAP, Ansible, and Bash; README sections include scan targets, installing from packages, release ZIPs, or source, and scanning with oscap."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/ComplianceAsCode/content"
+    how: script
+  notes: "Publisher: the repository is under the organization ComplianceAsCode, which has no display name, from GitHub's API on 2026-11-25. The last commit on the default branch is dated 2026-11-25, from the same API."
+
+- id: dev-sec-hardening-framework
+  name: "DevSec Hardening Framework"
+  url: "https://dev-sec.io/"
+  publisher: "DevSec Hardening Framework Team"
+  section: audit-and-assessment-tools
+  kind: dataset
+  cost: free
+  description: "Open source hardening baselines for servers and services, including Linux, SSH, Docker, MySQL, PostgreSQL, Apache, and Nginx, published for Ansible, Chef, and Puppet."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dev-sec.io/"
+    how: script
+  notes: "Publisher from the site's legal notice, https://dev-sec.io/legal, read on 2026-11-25. The project's repositories are under the organization dev-sec on GitHub; one of them, ansible-collection-hardening, had its last default-branch commit on 2026-11-24, from GitHub's API on 2026-11-25."
+
+- id: goss
+  name: "Goss"
+  url: "https://github.com/goss-org/goss"
+  publisher: "goss-org"
+  section: audit-and-assessment-tools
+  kind: tool
+  cost: free
+  description: "YAML-based validator for a server's configuration that can generate tests from current system state and serve results as a health endpoint, with dgoss for containers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/goss-org/goss"
+    how: script
+  notes: "Publisher: the repository is under the organization goss-org, which has no display name, from GitHub's API on 2026-11-25. Apache-2.0. The last commit on the default branch is dated 2026-11-01, from the same API."
+
+- id: neo23x0-auditd
+  name: "Best Practice Auditd Configuration"
+  url: "https://github.com/Neo23x0/auditd"
+  publisher: "Florian Roth (Neo23x0)"
+  section: audit-and-assessment-tools
+  kind: dataset
+  cost: free
+  description: "A commented auditd rule set meant as a baseline for major Linux distributions, with notes on its coverage, validation, sources, and related projects."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/Neo23x0/auditd"
+    how: script
+  notes: "Publisher: the repository is under the personal account Neo23x0; the display name is from GitHub's API on 2026-11-25. Apache-2.0. The last commit on the default branch is dated 2026-05-04, from the same API."
+
+- id: nist-sp-800-190
+  name: "NIST SP 800-190"
+  url: "https://csrc.nist.gov/pubs/sp/800/190/final"
+  publisher: "NIST"
+  section: baselines-and-benchmarks
+  kind: standard
+  cost: free
+  description: "Explains container technology, risks to images, registries, orchestrators, containers, and host operating systems, countermeasures for those risks, threat scenarios, and security across the life cycle."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://csrc.nist.gov/pubs/sp/800/190/final"
+    how: script
+  notes: "The page's heading is Application Container Security Guide; published September 2017. The sentence is written from the contents list of the PDF the page links (NIST.SP.800-190.pdf), read on 2026-11-25."
+
+- id: nist-sp-800-124
+  name: "NIST SP 800-124 Rev. 2"
+  url: "https://csrc.nist.gov/pubs/sp/800/124/r2/final"
+  publisher: "NIST"
+  section: baselines-and-benchmarks
+  kind: standard
+  cost: free
+  description: "Covers threats to enterprise mobile devices and their management systems, device-side and enterprise security technologies, mitigations, and a deployment life cycle from requirements to disposal."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://csrc.nist.gov/pubs/sp/800/124/r2/final"
+    how: script
+  notes: "The page's heading is Guidelines for Managing the Security of Mobile Devices in the Enterprise; published May 2023. The sentence is written from the contents list of the PDF the page links (NIST.SP.800-124r2.pdf), read on 2026-11-25."
+
+- id: disa-stigs
+  name: "Security Technical Implementation Guides (STIGs)"
+  url: "https://www.cyber.mil/stigs/"
+  publisher: "Defense Information Systems Agency (DISA)"
+  section: baselines-and-benchmarks
+  kind: standard
+  cost: free
+  description: "Home of the DoD's Security Requirements Guides and STIGs, with a document library that includes SCAP benchmarks, automation content, Group Policy Objects, and library compilations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cyber.mil/stigs/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25: a script gets an empty page. Publisher from the footer, which says the DoD Cyber Exchange is operated by DISA. The document library, one click away in the page's menu, listed its entries without sign-in; the page also offers a DoD CAC login for full access. public.cyber.mil/stigs redirects here."
+
+- id: nist-national-checklist-program
+  name: "National Checklist Program Checklist Repository"
+  url: "https://ncp.nist.gov/repository"
+  publisher: "NIST"
+  section: baselines-and-benchmarks
+  kind: dataset
+  cost: free
+  description: "Searchable repository of security configuration checklists, filtered by type, issuing authority, target product, content type, and tool compatibility, with download links."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ncp.nist.gov/repository"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25: the page is built by script. The page says the program is defined by NIST SP 800-70. Result rows carry a Resources column of downloads, such as SCAP content and Group Policy Objects."

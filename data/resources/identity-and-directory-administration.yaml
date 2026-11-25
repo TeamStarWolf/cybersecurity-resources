@@ -162,6 +162,7 @@
   url: "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview"
   publisher: "Microsoft"
   section: active-directory-and-entra
+  also_in: [platform-hardening/windows-hardening]
   kind: documentation
   cost: free
   description: "Introduces Windows LAPS for managing local administrator passwords: supported platforms, use with Microsoft Entra ID, policy settings, and migration from legacy Microsoft LAPS."
@@ -176,6 +177,7 @@
   url: "https://openid.net/developers/how-connect-works/"
   publisher: "OpenID Foundation"
   section: protocols-and-standards
+  also_in: [identity-and-data-protection/authentication-standards-and-guidance]
   kind: standard
   cost: free
   description: "The OpenID Foundation's explanation of OpenID Connect, the authentication protocol built on OAuth 2.0."
@@ -190,6 +192,7 @@
   url: "https://oauth.net/2/"
   publisher: "Aaron Parecki"
   section: protocols-and-standards
+  also_in: [identity-and-data-protection/authentication-standards-and-guidance]
   kind: standard
   cost: free
   description: "Guide to OAuth 2.0, the protocol for authorization."
@@ -249,6 +252,7 @@
   url: "https://fidoalliance.org/passkeys/"
   publisher: "FIDO Alliance"
   section: protocols-and-standards
+  also_in: [identity-and-data-protection/authentication-standards-and-guidance]
   kind: standard
   cost: free
   description: "The FIDO Alliance's explanation of passkeys, the FIDO credential that signs a user in with the device's own unlock method."
