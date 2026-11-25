@@ -4,12 +4,12 @@
 
 > Operating AWS, Azure, and Google Cloud: documentation hubs, architecture centers, pricing calculators, and status pages.
 
-Part of the [domain list](README.md). 41 resources in 4 sections. Assessing and attacking cloud environments sits in Cloud and infrastructure.
+Part of the [domain list](README.md). 40 resources in 4 sections. Assessing and attacking cloud environments sits in Cloud and infrastructure.
 
 | Section | The question it answers | Resources |
 |---|---|---|
 | [Amazon Web Services](#amazon-web-services) | How do I operate AWS? | 11 |
-| [Microsoft Azure](#microsoft-azure) | How do I operate Azure? | 13 |
+| [Microsoft Azure](#microsoft-azure) | How do I operate Azure? | 12 |
 | [Google Cloud](#google-cloud) | How do I operate Google Cloud? | 9 |
 | [Multi-cloud and infrastructure as code](#multi-cloud-and-infrastructure-as-code) | How do I manage cloud resources as code and compare providers? | 8 |
 
@@ -42,12 +42,11 @@ How do I operate Azure?
 | [Cloud Adoption Framework for Microsoft](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/) | Microsoft | Microsoft's guidance for decision makers on adopting Azure across an organization, with the key adoption scenarios. | Standard | Free |
 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | Microsoft | Microsoft's design framework for Azure workloads: pillars, workload-specific guidance, service guides, and review tools. | Standard | Free |
 | [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) | Microsoft | Estimate the upfront and monthly cost of Azure products by adding products one at a time or starting from an estimate template. | Online service | Free |
-| [Azure status](https://azure.status.microsoft/en-us/status) | Microsoft | Microsoft's status page for widespread Azure incidents, by region, with a history of past ones. | Status page | Free |
-| [Azure Updates](https://azure.microsoft.com/en-us/updates/) | Microsoft | Microsoft's list of Azure service updates in one place, with a link to its Cloud Platform roadmap. | Reference | Free |
+| [Azure status](https://azure.status.microsoft/en-us/status) | Microsoft | Microsoft's status page for widespread Azure incidents, by region, with a link to its status history. | Status page | Free |
+| [Azure Updates](https://azure.microsoft.com/en-us/updates/) | Microsoft | Microsoft's list of updates to Azure products and features, each marked in development, in preview, or launched, with filters by product and a notification subscription. | Reference | Free |
 | [Azure Command-Line Interface (CLI) documentation](https://learn.microsoft.com/en-us/cli/azure/) | Microsoft | Documentation for Azure CLI, which manages Azure resources from a terminal on any platform: installation, authentication, and the command reference. | Vendor documentation | Free |
 | [Bicep documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/) | Microsoft | Documentation for writing Bicep files and deploying Azure resources from them, with quickstarts, how-to guides, and reference. | Vendor documentation | Free |
-| [Azure Charts](https://azurecharts.com/) | Aleksei Polkovnikov | Charts of what is changing in Azure, such as heat maps of service updates by period, with CSV export and an RSS feed. | Reference | Free |
-| [Azure subscription and service limits, quotas, and constraints](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits) | Microsoft | Microsoft's tables of the limits and quotas that apply to Azure subscriptions, resource groups, and individual services, with how to raise them. | Reference | Free |
+| [Azure subscription and service limits, quotas, and constraints](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits) | Microsoft | Microsoft's tables of the most common limits and quotas for Azure subscriptions, resource groups, and individual services, with how to raise them. | Reference | Free |
 | [Azure PowerShell documentation](https://learn.microsoft.com/en-us/powershell/azure/) | Microsoft | Documentation for the Azure PowerShell modules: installation, authentication, and the cmdlet reference. | Vendor documentation | Free |
 | [Azure Kubernetes Service (AKS) documentation](https://learn.microsoft.com/en-us/azure/aks/) | Microsoft | Microsoft's documentation for running Kubernetes clusters on Azure with AKS: quickstarts, tutorials, concepts, and architecture guidance. | Vendor documentation | Free |
 
@@ -78,7 +77,7 @@ How do I manage cloud resources as code and compare providers?
 | [Pulumi Docs](https://www.pulumi.com/docs/) | Pulumi Corp | Pulumi's documentation for writing infrastructure as code in languages such as TypeScript, Python, Go, C#, and Java, or in YAML or HCL. | Vendor documentation | Free |
 | [CNCF Landscape](https://landscape.cncf.io/) | Cloud Native Computing Foundation (The Linux Foundation) | The CNCF's map of cloud native projects and products, grouped by category, with further views for members and for certified partners and providers. | Reference | Free |
 | [FinOps Framework](https://www.finops.org/framework/) | FinOps Foundation, a Linux Foundation project | The FinOps Foundation's operating model for managing technology spending: domains and capabilities, personas, phases, maturity, and principles. | Standard | Free |
-| [Amazon EC2 Instance Comparison (Vantage)](https://instances.vantage.sh/) | Vantage | Free table for comparing EC2 instances by features and price in a chosen region, plus tabs for other AWS services, Azure, and GCP. | Reference | Free |
+| [Amazon EC2 Instance Comparison (Vantage)](https://instances.vantage.sh/) | Vantage | Table for comparing EC2 instances by specification and price in a chosen region, plus tabs for other AWS services, Azure, and GCP. | Reference | Free |
 | [Azure for AWS professionals](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/) | Microsoft | Microsoft's guide for people who know AWS: the way accounts and resources are organized on Azure, and how its services compare with AWS's by category. | Reference | Free |
 | [cloud-init documentation](https://docs.cloud-init.io/en/latest/) | Canonical | Documentation for cloud-init, which initializes cloud instances across distributions and platforms. | Vendor documentation | Free |
 

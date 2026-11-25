@@ -29,7 +29,7 @@
     status: 200
     final: "https://networkingdocs.hpe.com/documentation/"
     how: browser
-  notes: "A plain HTTP client gets only a script shell; opened in a browser. Juniper's documentation address, https://www.juniper.net/documentation/, redirected here on 2026-11-25."
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. Juniper's documentation address, https://www.juniper.net/documentation/, redirected here on 2026-11-25. The page's summary line is what names Juniper Networking and Aruba Networking products."
 
 - id: arista-product-documentation
   name: "Arista Product Documentation Library"
@@ -96,13 +96,13 @@
   section: vendor-documentation
   kind: documentation
   cost: free
-  description: "MikroTik's manual for RouterOS, the operating system on its wireless devices, switches, and routers, with a CLI reference and release notes."
+  description: "MikroTik's manual for RouterOS, the operating system on its wireless devices, switches, and routers, with a CLI reference and a dated changelog for the manual."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://manual.mikrotik.com/docs/introduction/"
     how: script
-  notes: "The earlier documentation site, https://help.mikrotik.com/docs/, says it is frozen and points here."
+  notes: "The earlier documentation site, https://help.mikrotik.com/docs/, says it is frozen and points here. The page's section headed Release notes and documentation updates holds Docs Changes, a dated log of changes to the manual, and Product news; RouterOS release notes are not linked from it."
 
 - id: pfsense-documentation
   name: "pfSense Documentation"
@@ -361,7 +361,7 @@
   section: registries-and-numbering
   kind: organization
   cost: free
-  description: "The nonprofit registry that administers IP addresses and AS numbers for its members: requests, transfers, Whois, and routing security services."
+  description: "The nonprofit, member-based registry that administers IP addresses and AS numbers: requests, transfers, Whois, and routing security services."
   checked:
     date: "2026-11-25"
     status: 200
@@ -403,13 +403,13 @@
   section: registries-and-numbering
   kind: organization
   cost: free
-  description: "The Internet address registry for Latin America and the Caribbean: resource requests, Whois, IPv6 deployment, policy development, and events."
+  description: "The Internet address registry for Latin America and the Caribbean: resource requests, Whois, IPv6 deployment, events, tools, and R+D reports."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.lacnic.net/en"
     how: browser
-  notes: "The page needs a browser. The first clause translates the page's summary line, which is in Spanish; the sections come from the English page."
+  notes: "The page needs a browser. The first clause translates the page's summary line, which is in Spanish. The six items named are tiles on the English page that loaded on every visit on 2026-11-25; the rest of the page loaded once and stayed on a loading message, or showed a 502 for its announcements, on later visits."
 
 - id: afrinic
   name: "AFRINIC"
@@ -616,6 +616,7 @@
     status: 200
     final: "https://packetpushers.net/"
     how: script
+  notes: "On 2026-11-25 the site carried a banner reading Meter Acquires Packet Pushers, and its post of November 2, 2026, Packet Pushers By Meter Goes Sponsor-Free In 2027, says Packet Pushers is an independent subsidiary of Meter. The footer copyright still names Packet Pushers Interactive, LLC, which is the publisher given here."
 
 - id: ipspace-blog
   name: "ipSpace.net blog"
@@ -658,6 +659,7 @@
     status: 200
     final: "https://blog.apnic.net/"
     how: script
+  notes: "The subject, network engineering and the Internet, comes from the page's summary line; the page body is the list of posts."
 
 - id: ripe-labs
   name: "RIPE Labs"

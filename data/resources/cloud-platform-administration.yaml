@@ -235,7 +235,7 @@
   section: azure
   kind: status
   cost: free
-  description: "Microsoft's status page for widespread Azure incidents, by region, with a history of past ones."
+  description: "Microsoft's status page for widespread Azure incidents, by region, with a link to its status history."
   checked:
     date: "2026-11-25"
     status: 200
@@ -250,12 +250,13 @@
   section: azure
   kind: reference
   cost: free
-  description: "Microsoft's list of Azure service updates in one place, with a link to its Cloud Platform roadmap."
+  description: "Microsoft's list of updates to Azure products and features, each marked in development, in preview, or launched, with filters by product and a notification subscription."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://azure.microsoft.com/en-us/updates/"
-    how: script
+    how: browser
+  notes: "A plain HTTP client gets the page's summary line and menus but not the list of updates; read in a browser. The summary line mentions a Cloud Platform roadmap that the page body does not show."
 
 - id: azure-cli-documentation
   name: "Azure Command-Line Interface (CLI) documentation"
@@ -291,14 +292,14 @@
   publisher: "Aleksei Polkovnikov"
   section: azure
   kind: reference
-  cost: free
-  description: "Charts of what is changing in Azure, such as heat maps of service updates by period, with CSV export and an RSS feed."
+  cost: free-with-account
+  status: unverified
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://azurecharts.com/"
-    how: script
-  notes: "The page says it was created by Aleksei Polkovnikov, a Microsoft Cloud Solution Architect. It is not on a Microsoft domain."
+    how: browser
+  notes: "Held out on 2026-11-25: the home page says access is currently limited to approved users and organizations, and its Heat Maps, Signals, and Overview links lead to a sign-in page, which was not used. Nothing a reader without approval can use was found beyond the home page. The home page says the site was created by Aleksei Polkovnikov, a Microsoft Cloud Solution Architect; it is not on a Microsoft domain. The home page states no price; the cost recorded here says only that an approved sign-in is needed, and is not confirmed."
 
 - id: azure-subscription-limits
   name: "Azure subscription and service limits, quotas, and constraints"
@@ -307,7 +308,7 @@
   section: azure
   kind: reference
   cost: free
-  description: "Microsoft's tables of the limits and quotas that apply to Azure subscriptions, resource groups, and individual services, with how to raise them."
+  description: "Microsoft's tables of the most common limits and quotas for Azure subscriptions, resource groups, and individual services, with how to raise them."
   checked:
     date: "2026-11-25"
     status: 200
@@ -551,13 +552,13 @@
   section: multi-cloud-and-infrastructure-as-code
   kind: reference
   cost: free
-  description: "Free table for comparing EC2 instances by features and price in a chosen region, plus tabs for other AWS services, Azure, and GCP."
+  description: "Table for comparing EC2 instances by specification and price in a chosen region, plus tabs for other AWS services, Azure, and GCP."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://instances.vantage.sh/"
     how: script
-  notes: "The page's title is Amazon EC2 Instance Comparison and it says it is presented by Vantage."
+  notes: "The page's title is Amazon EC2 Instance Comparison and it says it is presented by Vantage. The page's summary line calls the tool free; the table loaded without signing in on 2026-11-25."
 
 - id: azure-for-aws-professionals
   name: "Azure for AWS professionals"

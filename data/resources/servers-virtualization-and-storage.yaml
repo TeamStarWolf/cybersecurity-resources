@@ -273,6 +273,7 @@
     status: 200
     final: "https://libvirt.org/docs.html"
     how: script
+  notes: "The description of libvirt as a virtualization API comes from the page's keywords line; the page body lists the documentation sections."
 
 - id: xcp-ng-documentation
   name: "XCP-ng documentation"
@@ -295,7 +296,7 @@
   section: virtualization
   kind: reference
   cost: free
-  description: "Nutanix's long-form explanation of how its platform is built and works, covering compute, storage, and networking under AHV and vSphere."
+  description: "Nutanix's long-form explanation of how its platform is built and works, covering compute, storage, and networking under AHV, vSphere, and Hyper-V."
   checked:
     date: "2026-11-25"
     status: 200
@@ -344,6 +345,7 @@
     status: 200
     final: "https://docs.docker.com/"
     how: script
+  notes: "The words manuals and guides come from the page's summary line; the page body shows install paths by platform and sections by topic."
 
 - id: podman-documentation
   name: "Podman documentation"

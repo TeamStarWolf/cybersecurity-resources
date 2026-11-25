@@ -54,7 +54,7 @@ How do I run hypervisors and check what they support?
 | [Proxmox VE Documentation Index](https://pve.proxmox.com/pve-docs/) | Proxmox Server Solutions GmbH | Index of the Proxmox VE documentation: the administration guide, manual pages for the command-line tools and daemons, configuration options, and the API viewer. | Vendor documentation | Free |
 | [libvirt documentation](https://libvirt.org/docs.html) | libvirt | Documentation for the libvirt virtualization API and its tools: deployment and operation, application development, and project development. | Vendor documentation | Free |
 | [XCP-ng documentation](https://docs.xcp-ng.org/) | XCP-ng Project | Documentation for the XCP-ng virtualization platform: installation, management and backup, storage, networking, troubleshooting, and migrating from VMware. | Vendor documentation | Free |
-| [The Nutanix Cloud Bible](https://www.nutanixbible.com/) | Nutanix | Nutanix's long-form explanation of how its platform is built and works, covering compute, storage, and networking under AHV and vSphere. | Reference | Free |
+| [The Nutanix Cloud Bible](https://www.nutanixbible.com/) | Nutanix | Nutanix's long-form explanation of how its platform is built and works, covering compute, storage, and networking under AHV, vSphere, and Hyper-V. | Reference | Free |
 | [QEMU documentation](https://www.qemu.org/docs/master/) | The QEMU Project Developers | QEMU's manual: system emulation, supported build platforms, and lists of deprecated and removed features. | Vendor documentation | Free |
 
 ## Containers and Kubernetes

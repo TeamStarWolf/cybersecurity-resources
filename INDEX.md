@@ -2,7 +2,7 @@
 
 # Index, A to Z
 
-> Every resource in the catalog by name: 736 entries. Each name links to the resource; the domain links to its place in the catalog.
+> Every resource in the catalog by name: 735 entries. Each name links to the resource; the domain links to its place in the catalog.
 
 [0-9](#0-9) · [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
@@ -81,7 +81,6 @@
 | [AWS Security Bulletins](https://aws.amazon.com/security/security-bulletins/) | Amazon Web Services | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Advisory source | Free |
 | [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Standard | Free |
 | [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Reference | Free |
-| [Azure Charts](https://azurecharts.com/) | Aleksei Polkovnikov | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Reference | Free |
 | [Azure Command-Line Interface (CLI) documentation](https://learn.microsoft.com/en-us/cli/azure/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Vendor documentation | Free |
 | [Azure documentation](https://learn.microsoft.com/en-us/azure/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Vendor documentation | Free |
 | [Azure for AWS professionals](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Reference | Free |
