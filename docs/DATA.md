@@ -85,3 +85,5 @@ Some sites refuse automated clients. When an address cannot be opened:
 - If nothing can be read, the record gets `status: unverified` and no description. It stays in the data and off the domain pages until someone can open it.
 
 Either way, the address goes on `data/link-check-ignore.yaml` with the reason.
+
+A third case is an address that answers a person and `scripts/check_links.py` but refuses requests from GitHub's runners. It goes on the same list with `only: ci`, which excludes it from the CI link check and nothing else.

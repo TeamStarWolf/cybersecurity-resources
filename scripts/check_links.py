@@ -72,7 +72,8 @@ def addresses() -> list[str]:
 
 
 def is_ignored(url: str, ignore: list[dict]) -> bool:
-    return any(url.startswith(item["url"]) for item in ignore)
+    """On the ignore list for this checker. Entries marked "only: ci" are skipped by the CI check alone."""
+    return any(url.startswith(item["url"]) for item in ignore if item.get("only") != "ci")
 
 
 def run(urls: list[str], ignore: list[dict], workers: int = 8) -> tuple[list[dict], list[dict], list[dict]]:
@@ -116,7 +117,7 @@ def main(argv: list[str]) -> int:
         print(f"ignored  {r['error']}  {r['url']}")
     for r in failed:
         print(f"FAILED   {r['error']}  {r['url']}")
-    answered = [i["url"] for i in ignore if not any(r["url"].startswith(i["url"]) for r in ignored)]
+    answered = [i["url"] for i in ignore if i.get("only") != "ci" and not any(r["url"].startswith(i["url"]) for r in ignored)]
     for u in answered:
         print(f"note: {u} is on the ignore list but answered this time")
     print(f"check_links: {len(urls)} addresses requested; {len(ok)} answered 2xx; "

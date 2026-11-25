@@ -2,6 +2,8 @@
 # An address belongs here only if it fails for an automated client while the resource itself is fine.
 # scripts/build.py writes .lycheeignore from this list; scripts/check_links.py reads it directly.
 # "url" is matched as a prefix.
+# An entry marked "only: ci" is skipped by the CI link check alone: the address refuses requests from
+# GitHub-hosted runners but answers a desktop network, so scripts/check_links.py still requires it to answer.
 
 - url: "https://www.bleepingcomputer.com/"
   reason: "Cloudflare check returns 403 to automated clients; the site's feed at /feed/ answers 200."
@@ -19,7 +21,7 @@
   reason: "Cloudflare check returns 403 to automated clients; the vendor site www.joesecurity.org answers 200."
   opened: "2026-11-25"
 - url: "https://databreaches.net/"
-  reason: "Bot check returns 403 to automated clients; the site's feed at /feed/ answers 200."
+  reason: "Bot check returns 403 to automated clients on most requests; the site's feed at /feed/ answers 200."
   opened: "2026-11-25"
 - url: "https://engage.mitre.org/"
   reason: "Bot check returns 403 to automated clients; the project repository github.com/mitre/engage answers 200."
@@ -39,3 +41,26 @@
 - url: "https://crt.sh/"
   reason: "Intermittent 502 from the site's front end; loads on retry."
   opened: "2026-11-25"
+- url: "https://www.shodan.io/"
+  reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+  opened: "2026-11-25"
+  only: ci
+- url: "https://www.ic3.gov/"
+  reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+  opened: "2026-11-25"
+  only: ci
+- url: "https://www.cobaltstrike.com/"
+  reason: "Cloudflare check returns 403 to automated clients on some requests and 200 on others; loads in a browser."
+  opened: "2026-11-25"
+- url: "https://platform.censys.io/"
+  reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+  opened: "2026-11-25"
+  only: ci
+- url: "https://search.censys.io/"
+  reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+  opened: "2026-11-25"
+  only: ci
+- url: "https://www.reddit.com/r/"
+  reason: "Returns 403 to GitHub-hosted runners; a desktop network receives a page shell with status 200."
+  opened: "2026-11-25"
+  only: ci

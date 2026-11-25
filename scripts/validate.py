@@ -260,6 +260,8 @@ def check_ignore(records: list[dict], compact: dict, ignore: list[dict]) -> list
         if not item.get("url") or not item.get("reason") or not DATE_RE.match(str(item.get("opened", ""))):
             errs.append(f"link-check ignore list: each entry needs url, reason and opened ({item.get('url')})")
             continue
+        if item.get("only") not in (None, "ci"):
+            errs.append(f"link-check ignore list: {item['url']}: 'only' may be omitted or set to ci")
         if not any(a.startswith(item["url"]) for a in addresses):
             errs.append(f"link-check ignore list: {item['url']} matches no address in the catalog; remove it")
     return errs
