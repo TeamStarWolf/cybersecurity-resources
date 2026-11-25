@@ -632,7 +632,7 @@
     status: 200
     final: "https://httpie.io/"
     how: script
-  notes: "Publisher from the footer copyright. The page has no pricing page."
+  notes: "Publisher from the footer copyright. The site has no pricing page; https://httpie.io/desktop, read on 2026-11-25, says the desktop and web app can be used offline and without an account."
 
 - id: chrome-devtools-network
   name: "Chrome DevTools: Inspect network activity"

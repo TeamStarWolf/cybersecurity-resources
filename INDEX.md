@@ -104,7 +104,7 @@
 | [AWS Pricing Calculator](https://calculator.aws/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Online service | Free |
 | [AWS re:Post](https://repost.aws/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Community | Free |
 | [AWS Security Bulletins](https://aws.amazon.com/security/security-bulletins/) | Amazon Web Services | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Advisory source | Free |
-| [AWS Support plans](https://aws.amazon.com/premiumsupport/plans/) | Amazon Web Services | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Online service | Freemium |
+| [AWS Support plans](https://aws.amazon.com/premiumsupport/plans/) | Amazon Web Services | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Freemium |
 | [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Standard | Free |
 | [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Reference | Free |
 | [Azure Backup service documentation](https://learn.microsoft.com/en-us/azure/backup/) | Microsoft | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#platform-and-vendor-backup) | Vendor documentation | Free |
@@ -124,7 +124,7 @@
 | [Azure SQL documentation](https://learn.microsoft.com/en-us/azure/azure-sql/) | Microsoft | [Databases and data platforms](domains/databases-and-data-platforms.md#cloud-database-services) | Vendor documentation | Free |
 | [Azure status](https://azure.status.microsoft/en-us/status) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Status page | Free |
 | [Azure subscription and service limits, quotas, and constraints](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Reference | Free |
-| [Azure support plans](https://azure.microsoft.com/en-us/support/plans) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Online service | Freemium |
+| [Azure support plans](https://azure.microsoft.com/en-us/support/plans) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Freemium |
 | [Azure Updates](https://azure.microsoft.com/en-us/updates/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Reference | Free |
 | [Azure Virtual Desktop documentation](https://learn.microsoft.com/en-us/azure/virtual-desktop/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Standard | Free |
@@ -414,7 +414,7 @@
 | [Go Vulnerability Database](https://pkg.go.dev/vuln/) | Go project | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [GoAccess](https://goaccess.io/) | Gerardo O. (allinurl) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Tool | Free |
 | [Google Admin Toolbox](https://toolbox.googleapps.com/apps/main/) | Google | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#lookup-and-test-tools) | Online service | Free |
-| [Google Cloud Customer Care](https://cloud.google.com/support) | Google Cloud | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Online service | Freemium |
+| [Google Cloud Customer Care](https://cloud.google.com/support) | Google Cloud | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Freemium |
 | [Google Cloud Documentation](https://docs.cloud.google.com/docs) | Google | [Cloud platform administration](domains/cloud-platform-administration.md#google-cloud) | Vendor documentation | Free |
 | [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator) | Google | [Cloud platform administration](domains/cloud-platform-administration.md#google-cloud) | Online service | Free |
 | [Google Cloud release notes](https://docs.cloud.google.com/release-notes) | Google | [Cloud platform administration](domains/cloud-platform-administration.md#google-cloud) | Reference | Free |
@@ -1101,7 +1101,7 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [Ubuntu CVE reports](https://ubuntu.com/security/cves) | Canonical | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Dataset or feed | Free |
-| [Ubuntu Pro](https://ubuntu.com/pro) | Canonical | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Online service | Freemium |
+| [Ubuntu Pro](https://ubuntu.com/pro) | Canonical | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Freemium |
 | [Ubuntu release cycle](https://ubuntu.com/about/release-cycle) | Canonical | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [Ubuntu Security Notices](https://ubuntu.com/security/notices) | Canonical | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Ubuntu Server documentation](https://ubuntu.com/server/docs/) | Canonical | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |

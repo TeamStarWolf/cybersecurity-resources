@@ -171,7 +171,7 @@
   section: operating-systems-and-platforms
   kind: documentation
   cost: free
-  description: "AWS user guide page on Kubernetes versions in EKS, including versions on standard and extended support, a release calendar, and two FAQs."
+  description: "AWS user guide page on Kubernetes versions in EKS, including versions on standard and extended support, a release calendar, and FAQs."
   checked:
     date: "2026-11-25"
     status: 200
@@ -602,7 +602,7 @@
   section: licensing-references
   kind: reference
   cost: free
-  description: "GitHub's guide to picking an open source license: advice for three common situations, naming MIT and GPLv3, and where to look when none fits."
+  description: "GitHub's guide to picking an open source license: advice for common situations, naming MIT and GPLv3, and where to look when none fits."
   checked:
     date: "2026-11-25"
     status: 200
@@ -720,7 +720,7 @@
   url: "https://ubuntu.com/pro"
   publisher: "Canonical"
   section: support-plans-and-portals
-  kind: service
+  kind: documentation
   cost: freemium
   description: "Canonical's subscription extending security maintenance of Ubuntu LTS releases, with features including Livepatch and compliance tools; personal use on five machines or fewer is free."
   checked:
@@ -765,9 +765,9 @@
   url: "https://azure.microsoft.com/en-us/support/plans"
   publisher: "Microsoft"
   section: support-plans-and-portals
-  kind: service
+  kind: documentation
   cost: freemium
-  description: "Microsoft's comparison of Azure support plans: Basic is included for every Azure customer, and the paid plans start with Developer at $29 a month."
+  description: "Microsoft's comparison of Azure support plans: Basic is included for every Azure customer, and the paid plans are Unified Enterprise, Professional Direct, Standard, and Developer."
   checked:
     date: "2026-11-25"
     status: 200
@@ -780,7 +780,7 @@
   url: "https://aws.amazon.com/premiumsupport/plans/"
   publisher: "Amazon Web Services"
   section: support-plans-and-portals
-  kind: service
+  kind: documentation
   cost: freemium
   description: "AWS's comparison of its Support plans: Basic Support comes with every account, and the paid plans are Unified Operations, Enterprise Support, and Business Support+."
   checked:
@@ -795,7 +795,7 @@
   url: "https://cloud.google.com/support"
   publisher: "Google Cloud"
   section: support-plans-and-portals
-  kind: service
+  kind: documentation
   cost: freemium
   description: "Google Cloud's support portfolio: Basic Support for every customer, paid Standard, Enhanced, and Premium Support, and value-add services."
   checked:
