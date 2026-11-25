@@ -1,0 +1,143 @@
+# Resources in the domain "detection-and-response". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: sigma
+  name: "Sigma rules"
+  url: "https://github.com/SigmaHQ/sigma"
+  publisher: "SigmaHQ"
+  section: rules-and-analytics
+  kind: dataset
+  cost: free
+  description: "Main repository of Sigma, the generic signature format for SIEM systems, with more than 3,000 detection rules."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/SigmaHQ/sigma"
+    how: script
+
+- id: detection-fyi
+  name: "Detection.FYI"
+  url: "https://detection.fyi/"
+  publisher: "detection.fyi"
+  section: rules-and-analytics
+  kind: service
+  cost: free
+  description: "Browsable site of detection rules, each shown with its ATT&CK tags and description."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://detection.fyi/"
+    how: script
+
+- id: uncoder-io
+  name: "Uncoder IO"
+  url: "https://uncoder.io/"
+  publisher: "SOC Prime"
+  section: rules-and-analytics
+  kind: service
+  cost: paid
+  description: "SOC Prime's detection rule translator for Sigma and Roota; it is now part of the Prime Architect product, with trial access by request."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://uncoder.io/"
+    how: browser
+  notes: "On 2026-11-25 the page said Uncoder is now part of the Prime Architect and available to Enterprise teams, with a contact form for a trial account."
+
+- id: elastic-detection-rules
+  name: "Elastic detection rules"
+  url: "https://github.com/elastic/detection-rules"
+  publisher: "Elastic"
+  section: rules-and-analytics
+  kind: dataset
+  cost: free
+  description: "Repository where Elastic develops, tests, and releases the rules used by Elastic Security's detection engine."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/elastic/detection-rules"
+    how: script
+
+- id: mitre-car
+  name: "MITRE Cyber Analytics Repository (CAR)"
+  url: "https://car.mitre.org/"
+  publisher: "MITRE"
+  section: rules-and-analytics
+  also_in: [threat-informed-defense/knowledge-bases]
+  kind: reference
+  cost: free
+  description: "Knowledge base of detection analytics based on the ATT&CK model, with pseudocode and some direct implementations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://car.mitre.org/"
+    how: script
+
+- id: yara
+  name: "YARA"
+  url: "https://virustotal.github.io/yara/"
+  publisher: "VirusTotal"
+  section: rules-and-analytics
+  also_in: [dfir-and-malware-analysis/reverse-engineering]
+  kind: tool
+  cost: free
+  maintenance:
+    state: maintenance-mode
+  description: "Tool for identifying and classifying malware samples from rules that describe textual or binary patterns; its successor is YARA-X."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://virustotal.github.io/yara/"
+    how: script
+  notes: "The repository README says the project is in maintenance mode and links to YARA-X (https://virustotal.github.io/yara-x/)."
+
+- id: wazuh
+  name: "Wazuh"
+  url: "https://wazuh.com/"
+  publisher: "Wazuh, Inc."
+  section: platforms
+  kind: tool
+  cost: free
+  description: "Free and open source security platform that combines XDR and SIEM functions for endpoints and cloud workloads."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://wazuh.com/"
+    how: script
+  notes: "The software has no license cost; Wazuh also sells a hosted cloud service with a free trial."
+
+- id: detectionlab
+  name: "DetectionLab"
+  url: "https://github.com/clong/DetectionLab"
+  publisher: "Chris Long (clong)"
+  section: lab-data
+  kind: tool
+  cost: free
+  maintenance:
+    state: unmaintained
+    since: "2023-01-01"
+  description: "Scripts that build a Windows domain lab with security tooling and logging preinstalled."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/clong/DetectionLab"
+    how: script
+  notes: "The README states that as of 2023-01-01 DetectionLab is no longer being actively maintained. Last commit on the default branch: 2023-03-27."
+
+- id: evtx-attack-samples
+  name: "EVTX-ATTACK-SAMPLES"
+  url: "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES"
+  publisher: "sbousseaden"
+  section: lab-data
+  kind: dataset
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2023-01"
+  description: "Windows event log samples for specific attack and post-exploitation techniques, for testing detections and practicing hunting."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES"
+    how: script
+  notes: "Frozen reference set. Last commit on the default branch: 2023-01-24."

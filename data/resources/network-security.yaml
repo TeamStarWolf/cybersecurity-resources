@@ -1,0 +1,31 @@
+# Resources in the domain "network-security". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: wireshark
+  name: "Wireshark"
+  url: "https://www.wireshark.org/"
+  publisher: "Wireshark Foundation"
+  section: traffic-analysis
+  kind: tool
+  cost: free
+  description: "Free and open source network protocol analyzer for inspecting network traffic in depth."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.wireshark.org/"
+    how: script
+
+- id: zeek
+  name: "Zeek"
+  url: "https://zeek.org/"
+  publisher: "The Zeek Project"
+  section: traffic-analysis
+  also_in: [detection-and-response/platforms]
+  kind: tool
+  cost: free
+  description: "Open source, scriptable network monitor, originally developed under the name Bro."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://zeek.org/"
+    how: script

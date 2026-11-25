@@ -1,0 +1,433 @@
+# Resources in the domain "vendor-advisories". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: msrc-security-update-guide
+  name: "Microsoft Security Update Guide"
+  url: "https://msrc.microsoft.com/update-guide/"
+  publisher: "Microsoft"
+  section: microsoft-and-cloud
+  kind: advisories
+  cost: free
+  description: "Microsoft's database of security updates: filter by product family, severity, impact, and release date to see vulnerabilities, deployments, and advisories."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://msrc.microsoft.com/update-guide/"
+    how: browser
+
+- id: msrc-blog
+  name: "MSRC Blog"
+  url: "https://www.microsoft.com/en-us/msrc/blog"
+  publisher: "Microsoft"
+  section: microsoft-and-cloud
+  kind: research
+  cost: free
+  description: "Blog of the Microsoft Security Response Center: security program updates, policy changes, technical research, and perspectives."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.microsoft.com/en-us/msrc/blog"
+    how: script
+
+- id: aws-security-bulletins
+  name: "AWS Security Bulletins"
+  url: "https://aws.amazon.com/security/security-bulletins/"
+  publisher: "Amazon Web Services"
+  section: microsoft-and-cloud
+  kind: advisories
+  cost: free
+  description: "AWS security bulletins, with an RSS feed that holds the last 30 days of posts."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://aws.amazon.com/security/security-bulletins/"
+    how: script
+
+- id: google-cloud-security-bulletins
+  name: "Google Cloud security bulletins"
+  url: "https://docs.cloud.google.com/support/bulletins"
+  publisher: "Google Cloud"
+  section: microsoft-and-cloud
+  kind: advisories
+  cost: free
+  description: "Security bulletins for Google Cloud products, published in the Cloud Customer Care documentation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/support/bulletins"
+    how: script
+
+- id: apple-security-releases
+  name: "Apple security releases"
+  url: "https://support.apple.com/en-us/100100"
+  publisher: "Apple"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Apple's list of security updates for its software, the starting point for the details of each release."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.apple.com/en-us/100100"
+    how: script
+
+- id: android-security-bulletins
+  name: "Android Security and Update Bulletins"
+  url: "https://source.android.com/docs/security/bulletin"
+  publisher: "Google (Android Open Source Project)"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Android security bulletins and update bulletins, published by the Android Open Source Project."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://source.android.com/docs/security/bulletin"
+    how: script
+
+- id: chrome-releases
+  name: "Chrome Releases"
+  url: "https://chromereleases.googleblog.com/"
+  publisher: "Google"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "The Chrome team's release blog: stable, early stable, and beta updates for desktop and Android."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://chromereleases.googleblog.com/"
+    how: script
+
+- id: ubuntu-security-notices
+  name: "Ubuntu Security Notices"
+  url: "https://ubuntu.com/security/notices"
+  publisher: "Canonical"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Ubuntu Security Notices, issued when a security issue is fixed in an official Ubuntu package."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ubuntu.com/security/notices"
+    how: script
+
+- id: red-hat-security-advisories
+  name: "Red Hat Security Advisories"
+  url: "https://access.redhat.com/security/security-updates/"
+  publisher: "Red Hat"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Search and filter Red Hat security errata (RHSA) by date, product, version, architecture, and severity."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://access.redhat.com/security/security-updates/"
+    how: browser
+
+- id: debian-security-information
+  name: "Debian Security Information"
+  url: "https://www.debian.org/security/"
+  publisher: "Debian"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Debian's security page, with recent Debian Security Advisories and advice on keeping a Debian system secure."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.debian.org/security/"
+    how: script
+
+- id: suse-update-advisories
+  name: "SUSE Update Advisories"
+  url: "https://www.suse.com/support/update/"
+  publisher: "SUSE"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Table of SUSE update advisories with category, severity, ID, and release date."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.suse.com/support/update/"
+    how: script
+
+- id: amazon-linux-security-center
+  name: "Amazon Linux Security Center (ALAS)"
+  url: "https://alas.aws.amazon.com/"
+  publisher: "Amazon Web Services"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Security advisories for Amazon Linux, listed for each release with severity, package, and CVE, and an RSS feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://alas.aws.amazon.com/"
+    how: script
+
+- id: cisco-security-advisories
+  name: "Cisco Security Advisories"
+  url: "https://sec.cloudapps.cisco.com/security/center/publicationListing.x"
+  publisher: "Cisco"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Cisco's security advisory listing, with quick and advanced search by product."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://sec.cloudapps.cisco.com/security/center/publicationListing.x"
+    how: script
+
+- id: palo-alto-networks-security-advisories
+  name: "Palo Alto Networks Security Advisories"
+  url: "https://security.paloaltonetworks.com/"
+  publisher: "Palo Alto Networks"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Security advisories and remediations for vulnerabilities in Palo Alto Networks products and services."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://security.paloaltonetworks.com/"
+    how: script
+
+- id: fortiguard-psirt-advisories
+  name: "FortiGuard PSIRT Advisories"
+  url: "https://www.fortiguard.com/psirt"
+  publisher: "Fortinet"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Advisories for issues resolved in Fortinet products, browsable by product, severity, component, and date."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.fortiguard.com/psirt"
+    how: script
+
+- id: f5-security-advisories
+  name: "F5 security advisories (MyF5)"
+  url: "https://my.f5.com/manage/s/new-updated-articles#f-f5_document_type=Security%20Advisory"
+  previously: ["https://my.f5.com/manage/s/tech-documents"]
+  publisher: "F5"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "MyF5's list of new and updated articles filtered to security advisories, covering F5 products and the third-party components in them."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://my.f5.com/manage/s/new-updated-articles#f-f5_document_type=Security%20Advisory"
+    how: browser
+  notes: "The former address, https://my.f5.com/manage/s/tech-documents, is MyF5's Manuals and Release Notes search, not the advisory list. The page is rendered by script; the list shows articles from the last seven days by default."
+
+- id: citrix-security-bulletins
+  name: "Citrix Support (security bulletins)"
+  url: "https://support.citrix.com/support-home/home"
+  previously: ["https://support.citrix.com/securitybulletins"]
+  publisher: "Citrix"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Citrix support home page, which lists the latest security bulletins for Citrix, NetScaler, and XenServer products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.citrix.com/support-home/home"
+    how: browser
+  notes: "The former address, https://support.citrix.com/securitybulletins, redirects to the support home page. Its View All control opens a separate bulletin list whose articles did not finish loading when checked. The page is rendered by script."
+
+- id: ivanti-security-advisories
+  name: "Ivanti security advisory blog"
+  url: "https://www.ivanti.com/blog/topics/security-advisory"
+  publisher: "Ivanti"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Ivanti blog posts tagged Security Advisory, including a monthly security update that names the products with disclosed vulnerabilities."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ivanti.com/blog/topics/security-advisory"
+    how: browser
+  notes: "The post list is loaded by script; a plain HTTP client sees an empty list."
+
+- id: sonicwall-psirt
+  name: "SonicWall PSIRT vulnerability list"
+  url: "https://psirt.global.sonicwall.com/vuln-list"
+  publisher: "SonicWall"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "SonicWall PSIRT's vulnerability list, filterable by impact and product line, with an RSS feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://psirt.global.sonicwall.com/vuln-list"
+    how: browser
+
+- id: vmware-security-advisories
+  name: "VMware Security Advisories"
+  url: "https://www.broadcom.com/support/vmware-security-advisories"
+  publisher: "Broadcom"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "VMware Security Advisories on Broadcom's site, which document remediation for reported vulnerabilities, grouped by product area."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.broadcom.com/support/vmware-security-advisories"
+    how: browser
+
+- id: juniper-support-portal
+  name: "Juniper Support Portal"
+  url: "https://supportportal.juniper.net/s/"
+  previously: ["https://supportportal.juniper.net/"]
+  publisher: "Juniper Networks"
+  section: network-and-security-vendors
+  kind: documentation
+  cost: free-with-account
+  description: "Juniper's support portal for case management and product support; it asks for a login to show secure content."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://supportportal.juniper.net/s/"
+    how: browser
+  notes: "Listed in the compact set as the route to Juniper security advisories. The public home page did not show advisories without a search or a login on 2026-11-25."
+
+- id: check-point-support-center
+  name: "Check Point Support Center"
+  url: "https://support.checkpoint.com/"
+  publisher: "Check Point"
+  section: network-and-security-vendors
+  kind: documentation
+  cost: free
+  description: "Check Point's support site: knowledge base, documentation, training, and support requests for its products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.checkpoint.com/"
+    how: browser
+
+- id: oracle-security-alerts
+  name: "Oracle Critical Patch Updates, Critical Security Patch Updates, Security Alerts and Bulletins"
+  url: "https://www.oracle.com/security-alerts/"
+  publisher: "Oracle"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Oracle's index of Critical Patch Update and Critical Security Patch Update advisories, security alerts, and bulletins, updated as each one is released."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.oracle.com/security-alerts/"
+    how: script
+
+- id: sap-security-notes
+  name: "SAP Security Notes & News"
+  url: "https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html"
+  publisher: "SAP"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "SAP Support Portal page for reviewing SAP Security Notes, planning for Security Patch Days, and reading security news."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html"
+    how: browser
+
+- id: ibm-security-vulnerability-management
+  name: "IBM security vulnerability management (PSIRT)"
+  url: "https://www.ibm.com/trust/security-vulnerability-management"
+  previously: ["https://www.ibm.com/trust/security-psirt"]
+  publisher: "IBM"
+  section: enterprise-applications
+  kind: documentation
+  cost: free
+  description: "IBM's page on how it handles security vulnerabilities in its products: the PSIRT reporting process and the route to IBM Security Bulletins."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ibm.com/trust/security-vulnerability-management"
+    how: script
+
+- id: adobe-security-bulletins
+  name: "Adobe Security Bulletins and Advisories"
+  url: "https://www.adobe.com/trust/security/bulletins-and-advisories.html"
+  publisher: "Adobe"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Adobe's security bulletins and advisories for its products; bulletins published before January 2026 are on HelpX."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.adobe.com/trust/security/bulletins-and-advisories.html"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: atlassian-security-advisories
+  name: "Atlassian Security Advisories & Bulletins"
+  url: "https://www.atlassian.com/trust/security/advisories"
+  publisher: "Atlassian"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Security advisories and bulletins for Atlassian products, published in the Atlassian Trust Center."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.atlassian.com/trust/security/advisories"
+    how: script
+
+- id: jenkins-security-advisories
+  name: "Jenkins Security Advisories"
+  url: "https://www.jenkins.io/security/advisories/"
+  publisher: "Jenkins project"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Security advisories for Jenkins and its plugins, with the project's advisory schedule."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.jenkins.io/security/advisories/"
+    how: script
+
+- id: siemens-productcert
+  name: "Siemens ProductCERT"
+  url: "https://productcert.siemens.com/"
+  publisher: "Siemens"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "Siemens ProductCERT's security advisories for Siemens products, with a subscription option."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://productcert.siemens.com/"
+    how: script
+
+- id: schneider-electric-security-notifications
+  name: "Schneider Electric security notifications"
+  url: "https://www.se.com/ww/en/work/support/cybersecurity/security-notifications/"
+  previously: ["https://www.se.com/ww/en/work/support/cybersecurity/security-notifications.jsp"]
+  publisher: "Schneider Electric"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "Schneider Electric's security notifications, listed with CVE, affected products and versions, and PDF and CSAF downloads."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.se.com/ww/en/work/support/cybersecurity/security-notifications/"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."

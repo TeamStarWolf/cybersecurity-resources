@@ -1,0 +1,4 @@
+# SHA-256 of the two compact-set files as the data must produce them.
+# Another TeamStarWolf system reads LINKS.md. Change these values only when the compact set is changed on purpose.
+d4af8488b71be2776a3446d484eb258d5f33a7ec903b82214457fa7fff5a39a3  LINKS.md
+01b061f7093a72e72ec284180680a26f02e1628cac6a2fad5d914bc43c47844d  bookmarks.html

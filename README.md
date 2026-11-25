@@ -1,15 +1,116 @@
 # Cybersecurity Resources
 
-A bookmark collection weighted toward vulnerability management and threat intelligence: 292 bookmarks in a folder tree that you can import into a browser. Some links sit in more than one folder, so the tree holds 265 distinct addresses.
+A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
-It covers CVE and vulnerability databases, exploit prediction and prioritization (KEV, EPSS, CVSS, SSVC), vendor advisories and PSIRTs, threat intelligence feeds and CTI research, government and CERT alerts, frameworks and standards (MITRE, NIST, CIS, OWASP), offensive and DFIR tooling, cloud and container security, detection engineering, labs, and news.
+<!-- counts:start (written by scripts/build.py; do not edit) -->
+The catalog holds 261 resources in 14 domains. 255 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 4 records that are not shown, because the address is retired or could not be read at the last check.
+<!-- counts:end -->
 
-For references, how-to guides, and learning paths on the same topics, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
+Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
 
-## Contents
+[Domains](domains/README.md) · [Index, A to Z](INDEX.md) · [Compact bookmark set](LINKS.md) · [How the data works](docs/DATA.md)
 
-- `bookmarks.html`: the folder tree, in the bookmark file format that browsers import.
-- `LINKS.md`: the same links as a Markdown list, for reading on GitHub.
+## Start here
+
+<!-- start-here:start (written by scripts/build.py; do not edit) -->
+| I want to... | Go to |
+|---|---|
+| Look up a CVE or check for a public exploit | [Vulnerability management: Vulnerability databases](domains/vulnerability-management.md#vulnerability-databases) |
+| Decide which vulnerabilities to fix first | [Vulnerability management: Prioritization and scoring](domains/vulnerability-management.md#prioritization-and-scoring) |
+| Find a vendor's security advisories | [Vendor advisories and PSIRTs](domains/vendor-advisories.md) |
+| Read what CISA and other national centers have published | [Government and CERT alerts](domains/government-and-cert-alerts.md) |
+| Check whether an address, domain, URL, or file is known to be bad | [Threat intelligence and adversaries: Indicator lookup and sharing](domains/threat-intelligence.md#indicator-lookup-and-sharing) |
+| Identify a threat group or malware family | [Threat intelligence and adversaries: Adversary and malware tracking](domains/threat-intelligence.md#adversary-and-malware-tracking) |
+| Find or write a detection | [Detection and response: Rules and analytics](domains/detection-and-response.md#rules-and-analytics) |
+| Analyze a suspicious file or investigate a host | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md) |
+| Run an authorized penetration test | [Offensive security](domains/offensive-security.md) |
+| Assess a cloud account or a Kubernetes cluster | [Cloud and infrastructure: Audit, posture, and runtime tools](domains/cloud-and-infrastructure.md#audit-posture-and-runtime-tools) |
+| Find the framework or control catalog an audit asks for | [GRC and security program](domains/grc-and-security-program.md) |
+| Practice in a lab or take a course | [Labs and training](domains/labs-and-training.md) |
+| Keep up with security news | [News and research](domains/news-and-research.md) |
+<!-- start-here:end -->
+
+## What's inside
+
+<!-- domains:start (written by scripts/build.py; do not edit) -->
+**Security domains.** These follow the domain pages of the TeamStarWolf library, in the same order.
+
+| Domain | What it covers | Resources |
+|---|---|---|
+| [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md) | ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses. | 9 |
+| [Detection and response](domains/detection-and-response.md) | Detection rules and analytics, the platforms that run them, and the data and labs used to build and test detections. | 9 |
+| [Threat intelligence and adversaries](domains/threat-intelligence.md) | Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms. | 44 |
+| [Offensive security](domains/offensive-security.md) | Tools and references for authorized penetration testing and red teaming: reconnaissance, web testing, Active Directory, command and control, and payload references. | 39 |
+| [Network security](domains/network-security.md) | Capturing, inspecting, and monitoring network traffic, and the references for securing networks and their protocols. | 2 |
+| [Cloud and infrastructure](domains/cloud-and-infrastructure.md) | Assessing and attacking cloud accounts, containers, and Kubernetes, and the providers' own security pages. | 13 |
+| [Application and supply chain security](domains/application-and-supply-chain.md) | Standards, testing guides, and tools for building and verifying secure software and its supply chain. | 7 |
+| [GRC and security program](domains/grc-and-security-program.md) | Frameworks, control catalogs, benchmarks, and the publications a security program is measured against. | 7 |
+
+**Vulnerability, advisory, and practice domains.** The areas this collection started from.
+
+| Domain | What it covers | Resources |
+|---|---|---|
+| [Vulnerability management](domains/vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | 42 |
+| [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 30 |
+| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 11 |
+| [DFIR and malware analysis](domains/dfir-and-malware-analysis.md) | Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools. | 20 |
+| [Labs and training](domains/labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | 16 |
+| [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 12 |
+
+The [domain list](domains/README.md) also defines 18 domains that hold no resources yet: Platform hardening; Identity and data protection; AI and emerging tech; ICS, OT, and hardware; Identity and directory services administration; Microsoft 365 and Windows administration; Endpoint and device management; Networking and connectivity; Servers, virtualization, and storage; Cloud platform administration; Automation and scripting; Monitoring, logging, and observability; Backup, recovery, and resilience; IT service management and operations; Email, DNS, and collaboration; Databases and data platforms; Product lifecycle, licensing, and support; The troubleshooting toolbox.
+<!-- domains:end -->
+
+## How to read an entry
+
+Every domain page is a set of tables, one for each question a practitioner asks. A row looks like this:
+
+| Resource | Run by | What it is and when to use it | Kind | Cost |
+|---|---|---|---|---|
+| The resource's own name, linked | Who operates it | One sentence, written from the page itself | One of the kinds below | One of the costs below |
+
+<!-- kinds:start (written by scripts/build.py; do not edit) -->
+| Kind | What it means |
+|---|---|
+| Reference | A knowledge base, catalog, or guide that you look things up in. |
+| Standard | A published standard, framework, benchmark, scoring system, or specification. |
+| Tool | Software that you download and run yourself. |
+| Online service | A hosted lookup, scanner, sandbox, calculator, or search that you use in a browser or through an API. |
+| Dataset or feed | Data, rules, samples, or templates that you search, download, or subscribe to. |
+| Advisory source | Security advisories and bulletins from a vendor, agency, or coordination center. |
+| Vendor documentation | A vendor's own documentation, support, or product security pages. |
+| Training or lab | Courses, practice labs, challenges, and ranges. |
+| Community | A forum, calendar, or other place where practitioners gather. |
+| News | News sites, newsletters, podcasts, and commentary. |
+| Research blog | A research team's blog of technical findings. |
+| Report | A recurring published report, such as an annual threat report. |
+| Organization | The home page of an agency, center, or project body, where its guidance and alerts start. |
+| Status page | A provider's live service health page. |
+
+| Cost | What it means |
+|---|---|
+| Free | No payment, account, API key, or sign-up form for anything the entry's description names. |
+| Free with account | No payment, but something the description names needs an account, an API key, or a sign-up form. |
+| Freemium | A free tier or edition exists, with or without an account, and paid plans add more. |
+| Paid | Paid only. A time-limited trial does not change this. |
+| Not confirmed | The pricing page could not be opened when the entry was checked. |
+<!-- kinds:end -->
+
+Cost comes from the resource's own pricing or sign-up page, and it covers everything the description names. If any of that needs an account, an API key, or a sign-up form, the entry is not marked Free. A former name appears in parentheses after the current one.
+
+Two marks say where an entry stands:
+
+- A sentence in italics after the description appears when the resource is no longer developed. It says one of four things: archived; in maintenance mode; no longer actively maintained, when the maintainers say so themselves; or the date of the last update, when that is more than about two years back. The date is the last change on the main branch of a repository, or the newest item a site lists.
+- A \* after the name means the address refused every client used for checking, so the entry was written from another page of the same publisher. The last line of each domain page counts those rows.
+
+## The compact bookmark set
+
+Three files carry the bookmarks:
+
+- `bookmarks.html`: the compact set as a folder tree, in the bookmark file format that browsers import.
+- [`LINKS.md`](LINKS.md): the same compact set as a Markdown list, for reading on GitHub.
+- `bookmarks-full.html`: every resource in the catalog as a folder tree by domain and section, in the same import format.
+
+The compact set is the short list to keep on a bookmarks bar. The full catalog is on the [domain pages](domains/README.md).
 
 ## Import
 
@@ -34,25 +135,41 @@ Brave has the same import under its main menu: **Bookmarks**, then **Import Book
 1. Open the menu, select **Bookmarks**, then **Manage bookmarks**.
 2. In the Library window, select **Import and Backup**, then **Import Bookmarks from HTML**, and pick `bookmarks.html`.
 
-The Chrome, Brave, and Edge steps follow each vendor's help page as it read in November 2026: [Chrome](https://support.google.com/chrome/answer/96816), [Brave](https://support.brave.com/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data), [Edge](https://support.microsoft.com/en-us/edge/import-your-favorites-and-passwords-in-microsoft-edge). Menu names change between browser versions.
+The steps follow each vendor's help page as it read in November 2026: [Chrome](https://support.google.com/chrome/answer/96816), [Brave](https://support.brave.app/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data), [Edge](https://support.microsoft.com/en-us/edge/import-your-favorites-and-passwords-in-microsoft-edge), [Firefox](https://support.mozilla.org/en-US/kb/import-bookmarks-html-file). Menu names change between browser versions. To import the full catalog, pick `bookmarks-full.html` in the same dialog.
 
-## Structure
+## How entries are chosen
 
-The top-level folders, in order:
+An entry goes in only if all of these hold:
 
-- **⭐ Daily Driver**
-- **🔎 Vulnerability Management**
-- **🏢 Vendor Advisories & PSIRTs**
-- **🧠 Threat Intelligence**
-- **🚨 Gov / CERT / Alerts**
-- **🧰 Frameworks & Standards**
-- **🛠️ Offensive & Tooling**
-- **🔬 DFIR & Malware Analysis**
-- **☁️ Cloud & Container**
-- **🧪 Detection Engineering & Blue Team**
-- **🎓 Labs & Training**
-- **📰 News & Research**
+1. Its address was opened, and the page that loaded was the resource it names: not a parked domain, a login wall with nothing behind it, a notice that the page has moved, or a different product. The paragraph after this list gives the one exception.
+2. It is the primary or official location: the project's own site or repository, not a mirror or an article about it.
+3. It is alive, or it is still the reference and its entry says where it stands. For a tool or repository, alive means a change on its main branch within about two years. One that is archived, in maintenance mode, declared unmaintained by its maintainers, or older than that stays only when practitioners still use it, and its row then says which of those applies.
+4. A practitioner would use it, and one sentence can say who opens it and for what task.
+5. It does not duplicate an entry under another name.
+6. It is safe to link. Collections of unvetted exploit code carry a warning in their description.
+
+The name, the operator, and the description come from the page as it read on the day it was checked, in this catalog's own words. When a product is renamed or changes hands, the entry takes the current name and keeps the former one.
+
+An address that cannot be read is not described from memory. When a site refuses every client used for checking, a script and a browser, the record stays in the data with the reason. It appears on a domain page only when another page of the same publisher could be read instead: its feed, its documentation, its vendor site, or its repository. That row is marked \*, and the record's notes name the page that was read. An address that has gone is marked retired in the data, with the date and what replaced it.
+
+## How it stays right
+
+- **One source.** Every page here is generated from the files under `data/` by `scripts/build.py`. [How the data works](docs/DATA.md) describes the record and the taxonomy.
+- **Checks on every pull request.** `scripts/validate.py` checks the record rules, duplicates, the address and text rules, and the limits of the compact set, and runs planted failures to prove each rule rejects what it should. `scripts/build.py --check` fails if any generated file differs from what the data produces. A link check requests the addresses on the generated pages, apart from those on the ignore list described below.
+- **A weekly link check** requests the same addresses, with the same exception.
+- **The compact set is locked.** `LINKS.md` is read by another TeamStarWolf project, so its shape is fixed and its SHA-256 is recorded in `data/compact.lock`. A change to the compact set has to update the lock in the same pull request. The address rule is at least as strict as that project's own, so an address accepted here cannot break its build.
+- **The original links are accounted for.** `data/original-292.tsv` records the links this collection began with, and the validator checks that each one still maps to a record.
+
+The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
+
+<!-- link-check:start (written by scripts/build.py; do not edit) -->
+The ignore list holds 21 entries, 7 of which apply to the CI check alone. Together they cover 22 of the 294 addresses the catalog publishes (7.5%). The validator fails if that share passes 10%.
+<!-- link-check:end -->
+
+Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.
 
 ## License
 
 Released into the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). No attribution is required. The links point to third-party sites that belong to their operators; a link here is not an endorsement. Offensive tools are listed for authorized testing, education, and defensive research.
+
+TeamStarWolf: [Library](https://github.com/TeamStarWolf/TeamStarWolf) · [Intelligence Hub](https://github.com/TeamStarWolf/intelligence-hub) · [ATT&CK-Navi](https://github.com/TeamStarWolf/ATTACK-Navi)

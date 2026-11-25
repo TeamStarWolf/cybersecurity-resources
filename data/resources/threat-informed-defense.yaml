@@ -1,0 +1,134 @@
+# Resources in the domain "threat-informed-defense". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: mitre-attack
+  name: "MITRE ATT&CK"
+  url: "https://attack.mitre.org/"
+  publisher: "MITRE"
+  section: knowledge-bases
+  kind: reference
+  cost: free
+  description: "Knowledge base of adversary tactics and techniques based on real-world observations; the shared reference for mapping detections, intelligence, and tests."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://attack.mitre.org/"
+    how: script
+
+- id: mitre-d3fend
+  name: "MITRE D3FEND"
+  url: "https://d3fend.mitre.org/"
+  publisher: "MITRE"
+  section: knowledge-bases
+  kind: reference
+  cost: free
+  description: "Knowledge graph of defensive countermeasure techniques and their relationships to the adversary techniques they address."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://d3fend.mitre.org/"
+    how: script
+
+- id: mitre-atlas
+  name: "MITRE ATLAS"
+  url: "https://atlas.mitre.org/"
+  publisher: "MITRE"
+  section: knowledge-bases
+  kind: reference
+  cost: free
+  description: "Knowledge base of adversary tactics and techniques involving AI systems, with mitigations and case studies."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://atlas.mitre.org/"
+    how: browser
+
+- id: mitre-engage
+  name: "MITRE Engage"
+  url: "https://engage.mitre.org/"
+  publisher: "MITRE"
+  section: knowledge-bases
+  kind: reference
+  cost: free
+  description: "MITRE's framework for conducting denial, deception, and adversary engagement activities."
+  checked:
+    date: "2026-11-25"
+    status: 403
+    final: "https://engage.mitre.org/"
+    how: blocked
+  notes: "The site answered 403 with a bot check to every client on 2026-11-25. Description written from the project's own repository (https://github.com/mitre/engage), which names this address as its home page."
+
+- id: mitre-emb3d
+  name: "MITRE EMB3D"
+  url: "https://emb3d.mitre.org/"
+  publisher: "MITRE"
+  section: knowledge-bases
+  kind: reference
+  cost: free
+  description: "Threat model for embedded devices: a knowledge base of device threats and the security mechanisms that mitigate them."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://emb3d.mitre.org/"
+    how: script
+
+- id: center-for-threat-informed-defense
+  name: "Center for Threat-Informed Defense"
+  url: "https://ctid.mitre.org/"
+  publisher: "MITRE"
+  section: ctid-projects
+  kind: organization
+  cost: free
+  description: "Research and development consortium operated by MITRE; start here to find its published projects on threat-informed defense."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ctid.mitre.org/"
+    how: script
+
+- id: mappings-explorer
+  name: "Mappings Explorer"
+  url: "https://ctid.mitre.org/mappings/"
+  previously: ["https://center-for-threat-informed-defense.github.io/mappings-explorer/"]
+  publisher: "Center for Threat-Informed Defense"
+  section: ctid-projects
+  kind: reference
+  cost: free
+  description: "Shows how security controls and capabilities, including NIST 800-53, CIS Controls, and cloud platform features, map to ATT&CK techniques."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ctid.mitre.org/mappings/"
+    how: script
+  notes: "The former github.io address shows a moved notice and forwards to https://ctid.mitre.org/mappings/."
+
+- id: atomic-red-team
+  name: "Atomic Red Team"
+  url: "https://github.com/redcanaryco/atomic-red-team"
+  publisher: "Red Canary, a Zscaler company"
+  section: adversary-emulation
+  kind: dataset
+  cost: free
+  description: "Library of small, portable detection tests mapped to ATT&CK techniques; run one to check whether a detection fires."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/redcanaryco/atomic-red-team"
+    how: script
+
+- id: caldera
+  name: "Apache Caldera"
+  formerly: "MITRE Caldera"
+  url: "https://github.com/apache/caldera"
+  previously: ["https://github.com/mitre/caldera"]
+  publisher: "Apache Software Foundation"
+  section: adversary-emulation
+  kind: tool
+  cost: free
+  description: "Adversary emulation platform built on ATT&CK that automates security assessments and assists red teams; started at MITRE."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/apache/caldera"
+    how: script
+  notes: "github.com/mitre/caldera redirects to github.com/apache/caldera. The project site is https://caldera.apache.org/ and release archives carry an incubating label."
