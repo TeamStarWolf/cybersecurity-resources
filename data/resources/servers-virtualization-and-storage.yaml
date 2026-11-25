@@ -1,0 +1,507 @@
+# Resources in the domain "servers-virtualization-and-storage". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: hyper-v-documentation
+  name: "Hyper-V virtualization in Windows Server and Windows"
+  url: "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview"
+  publisher: "Microsoft"
+  section: windows-server
+  kind: documentation
+  cost: free
+  description: "Microsoft's overview of Hyper-V, its hypervisor: benefits, technical capabilities, storage and availability options, security and isolation, and a getting-started section."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview"
+    how: script
+
+- id: failover-clustering-documentation
+  name: "Failover Clustering in Windows Server and Azure Local"
+  url: "https://learn.microsoft.com/en-us/windows-server/failover-clustering/failover-clustering-overview"
+  publisher: "Microsoft"
+  section: windows-server
+  kind: documentation
+  cost: free
+  description: "Overview of failover clustering, with active and passive configurations, what the feature provides, and links to further resources."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/failover-clustering/failover-clustering-overview"
+    how: script
+
+- id: storage-spaces-direct-documentation
+  name: "Storage Spaces Direct overview"
+  url: "https://learn.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview"
+  publisher: "Microsoft"
+  section: windows-server
+  kind: documentation
+  cost: free
+  description: "Microsoft's overview of the feature that clusters servers' internal drives into software-defined storage: its workings, benefits, suitable uses, and the hyperconverged and converged deployment options."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview"
+    how: script
+
+- id: windows-admin-center
+  name: "Windows Admin Center overview"
+  url: "https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/overview"
+  publisher: "Microsoft"
+  section: windows-server
+  kind: documentation
+  cost: free
+  description: "Overview of Windows Admin Center, the browser-based product for managing Windows Server: its Administration and Virtualization modes, scenarios, the download, and a documentation map."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/overview"
+    how: script
+
+- id: windows-server-troubleshooting
+  name: "Windows Server troubleshooting"
+  url: "https://learn.microsoft.com/en-us/troubleshoot/windows-server/welcome-windows-server"
+  publisher: "Microsoft"
+  section: windows-server
+  kind: documentation
+  cost: free
+  description: "Microsoft's library of troubleshooting articles for Windows Server, grouped by area such as identity, networking, storage, and performance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/troubleshoot/windows-server/welcome-windows-server"
+    how: script
+
+- id: rhel-documentation
+  name: "Red Hat Enterprise Linux (Red Hat Documentation)"
+  url: "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/"
+  publisher: "Red Hat"
+  section: linux-servers
+  kind: documentation
+  cost: free
+  description: "Red Hat's documentation for the current RHEL version: release notes, then guides for installing, upgrading, hardening, networking, storage, and automating configuration at scale."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser. The address leads to the current version, 10 on 2026-11-25. The page's title is Red Hat Enterprise Linux; the words in parentheses are the site's name."
+
+- id: ubuntu-server-documentation
+  name: "Ubuntu Server documentation"
+  url: "https://ubuntu.com/server/docs/"
+  publisher: "Canonical"
+  section: linux-servers
+  kind: documentation
+  cost: free
+  description: "Canonical's guides for Ubuntu Server: installation, networking, security, storage, virtualization and containers, and running web and mail services."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ubuntu.com/server/docs/"
+    how: script
+  notes: "Publisher from the footer of https://ubuntu.com/server, one click away; the documentation page's own footer names no organization."
+
+- id: debian-administrators-handbook
+  name: "The Debian Administrator's Handbook"
+  url: "https://debian-handbook.info/"
+  publisher: "Raphaël Hertzog and Roland Mas"
+  section: linux-servers
+  kind: reference
+  cost: free
+  description: "Book by two Debian developers that teaches what a Debian GNU/Linux administrator needs to know; free to read online under a free license."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://debian-handbook.info/"
+    how: script
+  notes: "The page names the two authors and says the book is freely available; it names no publishing organization for the site."
+
+- id: suse-documentation
+  name: "SUSE Documentation"
+  url: "https://documentation.suse.com/"
+  publisher: "SUSE"
+  section: linux-servers
+  kind: documentation
+  cost: free
+  description: "SUSE's documentation for its Linux, cloud native, and edge products, with best practices, technical references, and release notes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://documentation.suse.com/"
+    how: script
+
+- id: rocky-linux-documentation
+  name: "Rocky Linux Documentation"
+  url: "https://docs.rockylinux.org/"
+  publisher: "Rocky Enterprise Software Foundation"
+  section: linux-servers
+  kind: documentation
+  cost: free
+  description: "Rocky Linux's documentation site, contributor-written: guides on building the distribution and on topics the community cares about, in multiple languages."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.rockylinux.org/"
+    how: script
+
+- id: almalinux-wiki
+  name: "AlmaLinux Wiki"
+  url: "https://wiki.almalinux.org/"
+  publisher: "AlmaLinux OS Foundation"
+  section: linux-servers
+  kind: documentation
+  cost: free
+  description: "Documentation wiki for AlmaLinux OS, a community-governed enterprise Linux distribution that keeps binary compatibility with RHEL."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://wiki.almalinux.org/"
+    how: script
+
+- id: arch-wiki
+  name: "ArchWiki"
+  url: "https://wiki.archlinux.org/title/Main_page"
+  publisher: "Arch Linux"
+  section: linux-servers
+  kind: reference
+  cost: free
+  description: "The documentation wiki for Arch Linux, with a table of contents by article category."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://wiki.archlinux.org/title/Main_page"
+    how: script
+
+- id: linux-kernel-documentation
+  name: "The Linux Kernel documentation"
+  url: "https://docs.kernel.org/"
+  publisher: "The kernel development community"
+  section: linux-servers
+  kind: documentation
+  cost: free
+  description: "The kernel's own documentation: the development process, internal API manuals, and user-oriented guides."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.kernel.org/"
+    how: script
+
+- id: linux-man-pages
+  name: "Linux man pages online"
+  url: "https://man7.org/linux/man-pages/"
+  publisher: "Michael Kerrisk"
+  section: linux-servers
+  kind: reference
+  cost: free
+  description: "HTML versions of the Linux man-pages project's manual pages, plus a selection from other free software projects, listed by section, alphabetically, or by project."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://man7.org/linux/man-pages/"
+    how: script
+  notes: "Publisher from the copyright line on the page."
+
+- id: systemd
+  name: "systemd"
+  url: "https://systemd.io/"
+  publisher: "systemd"
+  section: linux-servers
+  kind: documentation
+  cost: free
+  description: "Project site for systemd, which starts and manages a Linux system as PID 1, linking its manual pages and guides for administrators and developers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://systemd.io/"
+    how: script
+  notes: "The page's heading is System and Service Manager; the footer copyright reads systemd."
+
+- id: broadcom-techdocs
+  name: "Broadcom TechDocs"
+  url: "https://techdocs.broadcom.com/"
+  publisher: "Broadcom"
+  section: virtualization
+  kind: documentation
+  cost: free
+  description: "Broadcom's technical documentation portal, with categories for VMware Cloud Infrastructure Software, VMware Tanzu, mainframe software, and Symantec security software."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://techdocs.broadcom.com/"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. The page's title is TechDocs."
+
+- id: broadcom-compatibility-guide
+  name: "VMware by Broadcom Compatibility Guide"
+  url: "https://compatibilityguide.broadcom.com/"
+  publisher: "Broadcom"
+  section: virtualization
+  kind: reference
+  cost: free
+  description: "Search which servers, I/O devices, CPUs, guest operating systems, and storage are listed as compatible with VMware vSphere and Cloud Foundation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://compatibilityguide.broadcom.com/"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. The server list loaded without signing in on 2026-11-25; the page also has Register and Login links."
+
+- id: proxmox-ve-documentation
+  name: "Proxmox VE Documentation Index"
+  url: "https://pve.proxmox.com/pve-docs/"
+  publisher: "Proxmox Server Solutions GmbH"
+  section: virtualization
+  kind: documentation
+  cost: free
+  description: "Index of the Proxmox VE documentation: the administration guide, manual pages for the command-line tools and daemons, configuration options, and the API viewer."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pve.proxmox.com/pve-docs/"
+    how: script
+
+- id: libvirt-documentation
+  name: "libvirt documentation"
+  url: "https://libvirt.org/docs.html"
+  publisher: "libvirt"
+  section: virtualization
+  kind: documentation
+  cost: free
+  description: "Documentation for the libvirt virtualization API and its tools: deployment and operation, application development, and project development."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://libvirt.org/docs.html"
+    how: script
+  notes: "The description of libvirt as a virtualization API comes from the page's keywords line; the page body lists the documentation sections."
+
+- id: xcp-ng-documentation
+  name: "XCP-ng documentation"
+  url: "https://docs.xcp-ng.org/"
+  publisher: "XCP-ng Project"
+  section: virtualization
+  kind: documentation
+  cost: free
+  description: "Documentation for the XCP-ng virtualization platform: installation, management and backup, storage, networking, troubleshooting, and migrating from VMware."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.xcp-ng.org/"
+    how: script
+
+- id: nutanix-bible
+  name: "The Nutanix Cloud Bible"
+  url: "https://www.nutanixbible.com/"
+  publisher: "Nutanix"
+  section: virtualization
+  kind: reference
+  cost: free
+  description: "Nutanix's long-form explanation of how its platform is built and works, covering compute, storage, and networking under AHV, vSphere, and Hyper-V."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.nutanixbible.com/"
+    how: script
+
+- id: qemu-documentation
+  name: "QEMU documentation"
+  url: "https://www.qemu.org/docs/master/"
+  publisher: "The QEMU Project Developers"
+  section: virtualization
+  kind: documentation
+  cost: free
+  description: "QEMU's manual: system emulation, supported build platforms, and lists of deprecated and removed features."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.qemu.org/docs/master/"
+    how: script
+
+- id: kubernetes-documentation
+  name: "Kubernetes Documentation"
+  url: "https://kubernetes.io/docs/home/"
+  publisher: "Kubernetes, a CNCF project"
+  section: containers-and-kubernetes
+  kind: documentation
+  cost: free
+  description: "The Kubernetes project's documentation: concepts, tutorials, cluster setup, task guides, and reference material."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://kubernetes.io/docs/home/"
+    how: script
+  notes: "The page says the project is hosted by the Cloud Native Computing Foundation."
+
+- id: docker-docs
+  name: "Docker Docs"
+  url: "https://docs.docker.com/"
+  publisher: "Docker Inc"
+  section: containers-and-kubernetes
+  kind: documentation
+  cost: free
+  description: "Docker's manuals and guides for Docker Desktop, Docker Engine, and its other products, with installation by platform."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.docker.com/"
+    how: script
+  notes: "The words manuals and guides come from the page's summary line; the page body shows install paths by platform and sections by topic."
+
+- id: podman-documentation
+  name: "Podman documentation"
+  url: "https://docs.podman.io/en/latest/"
+  publisher: "Podman"
+  section: containers-and-kubernetes
+  kind: documentation
+  cost: free
+  description: "Documentation for Podman, a daemonless tool for running, building, and sharing OCI containers on Linux."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.podman.io/en/latest/"
+    how: script
+  notes: "The page names no organization; its footer copyright reads only 'team'."
+
+- id: openshift-documentation
+  name: "OpenShift Container Platform (Red Hat Documentation)"
+  url: "https://docs.redhat.com/en/documentation/openshift_container_platform/"
+  publisher: "Red Hat"
+  section: containers-and-kubernetes
+  kind: documentation
+  cost: free
+  description: "Red Hat's documentation for OpenShift by version: release notes, installation, updating, networking, security, virtualization, and observability."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.redhat.com/en/documentation/openshift_container_platform/5.0"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser. The address leads to the current version, 5.0 on 2026-11-25, and the page has a version selector. The words in parentheses are the site's name."
+
+- id: k3s-documentation
+  name: "K3s"
+  url: "https://docs.k3s.io/"
+  publisher: "K3s Project Authors"
+  section: containers-and-kubernetes
+  kind: documentation
+  cost: free
+  description: "Documentation for K3s, a Kubernetes distribution packaged as one small binary for edge, home lab, CI, and ARM machines."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.k3s.io/"
+    how: script
+
+- id: helm-documentation
+  name: "Helm documentation"
+  url: "https://helm.sh/docs/"
+  publisher: "Helm, a CNCF project"
+  section: containers-and-kubernetes
+  kind: documentation
+  cost: free
+  description: "Documentation for Helm, the Kubernetes package manager: how-to guides, the chart template guide, best practices, and command reference."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://helm.sh/docs/"
+    how: script
+  notes: "The footer says Helm is a Cloud Native Computing Foundation graduated project; its copyright line names the Helm Authors."
+
+- id: netapp-documentation
+  name: "NetApp product documentation"
+  url: "https://docs.netapp.com/"
+  publisher: "NetApp"
+  section: storage-and-hardware
+  kind: documentation
+  cost: free
+  description: "NetApp's documentation for ONTAP, its storage hardware, StorageGRID, and its other products, browsable by product category."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.netapp.com/"
+    how: script
+
+- id: truenas-documentation
+  name: "TrueNAS Documentation Hub"
+  url: "https://www.truenas.com/docs/"
+  publisher: "iXsystems (TrueNAS)"
+  section: storage-and-hardware
+  kind: documentation
+  cost: free
+  description: "Documentation for TrueNAS by version, with separate sections for the API, apps, and TrueNAS Connect."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.truenas.com/docs/"
+    how: script
+  notes: "Publisher from the footer copyright, iXsystems, Inc. dba TrueNAS."
+
+- id: ceph-documentation
+  name: "Ceph Documentation"
+  url: "https://docs.ceph.com/en/latest/"
+  publisher: "Ceph"
+  section: storage-and-hardware
+  kind: documentation
+  cost: free
+  description: "Documentation for Ceph, which provides file, block, and object storage in a single system, from installation to architecture and APIs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.ceph.com/en/latest/"
+    how: script
+  notes: "The address shows the documentation for the development version, as the page itself says."
+
+- id: openzfs-documentation
+  name: "OpenZFS Documentation"
+  url: "https://openzfs.github.io/openzfs-docs/"
+  publisher: "OpenZFS"
+  section: storage-and-hardware
+  kind: documentation
+  cost: free
+  description: "The OpenZFS project's documentation, written for both people who run it and people who develop it."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://openzfs.github.io/openzfs-docs/"
+    how: script
+
+- id: snia-dictionary
+  name: "SNIA Online Dictionary"
+  url: "https://www.snia.org/resources/online-dictionary"
+  publisher: "SNIA"
+  section: storage-and-hardware
+  kind: reference
+  cost: free
+  description: "SNIA's dictionary of storage and data terms: browse alphabetically, search, filter by context, or download it as a PDF."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.snia.org/resources/online-dictionary"
+    how: script
+
+- id: backblaze-drive-stats
+  name: "Backblaze Drive Stats"
+  url: "https://www.backblaze.com/cloud-storage/resources/hard-drive-test-data"
+  publisher: "Backblaze"
+  section: storage-and-hardware
+  kind: dataset
+  cost: free
+  description: "Backblaze's failure data for the drives in its data centers, published since 2013: quarterly reports and the dataset to download."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.backblaze.com/cloud-storage/resources/hard-drive-test-data"
+    how: script
+
+- id: dmtf-redfish
+  name: "Redfish"
+  url: "https://www.dmtf.org/standards/redfish"
+  publisher: "DMTF"
+  section: storage-and-hardware
+  kind: standard
+  cost: free
+  description: "DMTF's management standard for converged and hybrid IT infrastructure, with its specifications and a developer hub."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.dmtf.org/standards/redfish"
+    how: script

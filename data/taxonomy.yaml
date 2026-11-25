@@ -255,19 +255,33 @@ domains:
     title: "Networking and connectivity"
     covers: "Designing, running, and troubleshooting networks: vendor documentation, protocol references, registries, and lookup tools."
     boundary: "Traffic inspection for security sits in Network security; DNS for mail and collaboration sits in Email, DNS, and collaboration."
-    sections: []
+    sections:
+      - {id: vendor-documentation, title: "Vendor documentation", question: "Where is the manual for this switch, router, or firewall?"}
+      - {id: protocols-and-standards, title: "Protocols and standards", question: "What does the protocol actually say?"}
+      - {id: registries-and-numbering, title: "Registries and numbering", question: "Who holds this address block, AS number, or port?"}
+      - {id: lookup-and-diagnostic-tools, title: "Lookup and diagnostic tools", question: "How do I see what the network is doing?"}
+      - {id: learning-and-community, title: "Learning and community", question: "Who explains it well?"}
   - id: servers-virtualization-and-storage
     group: enterprise-it
     title: "Servers, virtualization, and storage"
     covers: "Server operating systems, hypervisors, containers on premises, and storage platforms: documentation, compatibility guides, and sizing references."
     boundary: "Public cloud platforms sit in Cloud platform administration."
-    sections: []
+    sections:
+      - {id: windows-server, title: "Windows Server", question: "How do I run Windows Server roles?"}
+      - {id: linux-servers, title: "Linux servers", question: "Where is the documentation for this distribution?"}
+      - {id: virtualization, title: "Virtualization", question: "How do I run hypervisors and check what they support?"}
+      - {id: containers-and-kubernetes, title: "Containers and Kubernetes", question: "How do I run containers on my own hardware?"}
+      - {id: storage-and-hardware, title: "Storage and hardware", question: "How do I store the data and manage the hardware?"}
   - id: cloud-platform-administration
     group: enterprise-it
     title: "Cloud platform administration"
     covers: "Operating AWS, Azure, and Google Cloud: documentation hubs, architecture centers, pricing calculators, and status pages."
     boundary: "Assessing and attacking cloud environments sits in Cloud and infrastructure."
-    sections: []
+    sections:
+      - {id: aws, title: "Amazon Web Services", question: "How do I operate AWS?"}
+      - {id: azure, title: "Microsoft Azure", question: "How do I operate Azure?"}
+      - {id: google-cloud, title: "Google Cloud", question: "How do I operate Google Cloud?"}
+      - {id: multi-cloud-and-infrastructure-as-code, title: "Multi-cloud and infrastructure as code", question: "How do I manage cloud resources as code and compare providers?"}
   - id: automation-and-scripting
     group: enterprise-it
     title: "Automation and scripting"

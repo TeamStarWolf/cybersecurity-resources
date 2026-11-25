@@ -164,3 +164,15 @@ entries:
     only: ci
     reason: "Returns 403 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
     opened: "2026-11-25"
+  - url: "https://www.cisco.com/c/en/us/support/index.html"
+    match: exact
+    reason: "Returns 403 to automated clients; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/"
+    match: exact
+    reason: "Returns 403 to automated clients; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://docs.redhat.com/en/documentation/openshift_container_platform/"
+    match: exact
+    reason: "Returns 403 to automated clients; loads in a browser."
+    opened: "2026-11-25"
