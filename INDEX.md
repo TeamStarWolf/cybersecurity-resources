@@ -24,7 +24,7 @@
 | [Active Directory documentation (troubleshooting)](https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Adobe Security Bulletins and Advisories](https://www.adobe.com/trust/security/bulletins-and-advisories.html) | Adobe | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
-| [AFRINIC](https://afrinic.net/) | African Network Information Centre (AFRINIC) | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Free |
+| [AFRINIC](https://afrinic.net/) | African Network Information Centre (AFRINIC) | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Freemium |
 | [Akamai Security Research](https://www.akamai.com/blog/security-research) | Akamai | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [AlmaLinux Product Errata](https://errata.almalinux.org/) | AlmaLinux | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [AlmaLinux Wiki](https://wiki.almalinux.org/) | AlmaLinux OS Foundation | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |
@@ -33,7 +33,7 @@
 | [Amazon Elastic Kubernetes Service Documentation](https://docs.aws.amazon.com/eks/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Vendor documentation | Free |
 | [Amazon Linux Security Center (ALAS)](https://alas.aws.amazon.com/) | Amazon Web Services | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [AMD Product Security](https://www.amd.com/en/resources/product-security.html) | AMD | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
-| [American Registry for Internet Numbers (ARIN)](https://www.arin.net/) | American Registry for Internet Numbers | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Free |
+| [American Registry for Internet Numbers (ARIN)](https://www.arin.net/) | American Registry for Internet Numbers | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Freemium |
 | [Android Enterprise](https://www.android.com/enterprise/) | Google | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Vendor documentation | Free |
 | [Android Enterprise Help](https://support.google.com/work/android/) | Google | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Vendor documentation | Free |
 | [Android Security and Update Bulletins](https://source.android.com/docs/security/bulletin) | Google (Android Open Source Project) | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
@@ -43,7 +43,7 @@
 | [Apache HTTP Server 2.4 vulnerabilities](https://httpd.apache.org/security/vulnerabilities_24.html) | The Apache HTTP Server Project | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [Apache Software Foundation Security Team](https://www.apache.org/security/) | Apache Software Foundation | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Organization | Free |
 | [Apache Tomcat security](https://tomcat.apache.org/security.html) | Apache Tomcat | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
-| [APNIC](https://www.apnic.net/) | APNIC | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Free |
+| [APNIC](https://www.apnic.net/) | APNIC | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Freemium |
 | [APNIC Blog](https://blog.apnic.net/) | APNIC | [Networking and connectivity](domains/networking-and-connectivity.md#learning-and-community) | News | Free |
 | [Apple Developer Releases](https://developer.apple.com/news/releases/) | Apple | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Reference | Free |
 | [Apple Device Management documentation](https://developer.apple.com/documentation/devicemanagement) | Apple | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Vendor documentation | Free |
@@ -411,7 +411,7 @@
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
-| [LACNIC](https://www.lacnic.net/en) | LACNIC | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Free |
+| [LACNIC](https://www.lacnic.net/en) | LACNIC | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Freemium |
 | [LDAP.com](https://ldap.com/) | Neil Wilson | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Reference | Free |
 | [LeakIX](https://leakix.net/) | LeakIX | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Legacy GitLab Advisory Database](https://advisories.gitlab.com/) | GitLab | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
@@ -661,7 +661,7 @@
 | [RFC Editor](https://www.rfc-editor.org/) | IETF | [Networking and connectivity](domains/networking-and-connectivity.md#protocols-and-standards) | Reference | Free |
 | [RIPE Atlas](https://atlas.ripe.net/) | RIPE NCC | [Networking and connectivity](domains/networking-and-connectivity.md#lookup-and-diagnostic-tools) | Online service | Free with account |
 | [RIPE Labs](https://labs.ripe.net/) | RIPE NCC | [Networking and connectivity](domains/networking-and-connectivity.md#learning-and-community) | News | Free |
-| [RIPE NCC](https://www.ripe.net/) | RIPE NCC | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Free |
+| [RIPE NCC](https://www.ripe.net/) | RIPE NCC | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Freemium |
 | [RIPEstat](https://stat.ripe.net/) | RIPE NCC | [Networking and connectivity](domains/networking-and-connectivity.md#lookup-and-diagnostic-tools) | Online service | Free |
 | [Risky Business](https://risky.biz/) | Risky Business Media | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [Rockwell Automation Security Advisories](https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html) | Rockwell Automation | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |

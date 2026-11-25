@@ -360,13 +360,14 @@
   publisher: "American Registry for Internet Numbers"
   section: registries-and-numbering
   kind: organization
-  cost: free
-  description: "The nonprofit, member-based registry that administers IP addresses and AS numbers: requests, transfers, Whois, and routing security services."
+  cost: freemium
+  description: "The nonprofit, member-based registry that administers IP addresses and AS numbers; its Whois is open to all, while number resources and transfers carry fees."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.arin.net/"
     how: script
+  notes: "Cost: Whois is free (its RDAP service answered a lookup with no account on 2026-11-25). The fee schedule at https://www.arin.net/resources/fees/fee_schedule/ says an organization that receives number resources pays an annual Registration Services Plan fee, and it lists transfer fees."
 
 - id: ripe-ncc
   name: "RIPE NCC"
@@ -374,13 +375,14 @@
   publisher: "RIPE NCC"
   section: registries-and-numbering
   kind: organization
-  cost: free
-  description: "The Internet number registry for Europe, Central Asia, and the Middle East: it registers IP addresses and AS numbers and is the RIPE community's secretariat."
+  cost: freemium
+  description: "Registry of IP addresses and AS numbers for Europe, Central Asia, and the Middle East, serving fee-paying members; it is also the RIPE community's secretariat."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.ripe.net/"
     how: script
+  notes: "Cost: the site and the RIPE Database are free to query (its RDAP service answered a lookup with no account on 2026-11-25). The page Become a RIPE NCC Member, at https://www.ripe.net/membership/member-support/become-a-member/, says a member pays a one-time sign-up fee and an annual membership fee."
 
 - id: apnic
   name: "APNIC"
@@ -388,13 +390,14 @@
   publisher: "APNIC"
   section: registries-and-numbering
   kind: organization
-  cost: free
-  description: "The Regional Internet Registry for the Asia Pacific: getting and transferring IP addresses, moving to IPv6, and ways to take part."
+  cost: freemium
+  description: "The Regional Internet Registry for the Asia Pacific: getting IP addresses as a fee-paying member, transfers, moving to IPv6, and ways to take part."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.apnic.net/"
     how: script
+  notes: "Cost: the site and Whois are free (its RDAP service answered a lookup with no account on 2026-11-25). The page How much does it cost?, at https://www.apnic.net/get-ip/apnic-membership/how-much-does-it-cost/, says an approved applicant is invoiced a sign-up fee and an annual membership fee based on its address holdings."
 
 - id: lacnic
   name: "LACNIC"
@@ -402,14 +405,14 @@
   publisher: "LACNIC"
   section: registries-and-numbering
   kind: organization
-  cost: free
-  description: "The Internet address registry for Latin America and the Caribbean: resource requests, Whois, IPv6 deployment, events, tools, and R+D reports."
+  cost: freemium
+  description: "The Internet address registry for Latin America and the Caribbean: Whois, IPv6 deployment, tools, R+D reports, and fee-based resource requests."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.lacnic.net/en"
     how: browser
-  notes: "The page needs a browser. The first clause translates the page's summary line, which is in Spanish. The six items named are tiles on the English page that loaded on every visit on 2026-11-25; the rest of the page loaded once and stayed on a loading message, or showed a 502 for its announcements, on later visits."
+  notes: "The page needs a browser. The first clause translates the page's summary line, which is in Spanish. The five items named are tiles on the English page that loaded on every visit on 2026-11-25; a sixth tile is Events. The rest of the page, which on a full load also shows a Community banner for policy development, loaded on some visits and on others stayed on a loading message or showed a 502 for its announcements. Cost: Whois is free (its RDAP service answered a lookup with no account on 2026-11-25). The page Membership Fees and Categories, at https://www.lacnic.net/en/membership/categories-and-fees, read in a browser, says that to obtain IP addresses a requester pays an initial assignment fee, and it lists annual fees by category."
 
 - id: afrinic
   name: "AFRINIC"
@@ -417,13 +420,14 @@
   publisher: "African Network Information Centre (AFRINIC)"
   section: registries-and-numbering
   kind: organization
-  cost: free
-  description: "The registry that allocates and manages IPv4, IPv6, and AS number resources in Africa, with its news and Whois."
+  cost: freemium
+  description: "The registry that allocates and manages IPv4, IPv6, and AS number resources in Africa for fee-paying members, with its news and Whois."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://afrinic.net/"
     how: script
+  notes: "Cost: the site and Whois are free (its RDAP service answered a lookup with no account on 2026-11-25). The page Fees & Payment, at https://afrinic.net/fees-payment, says an approved applicant pays an allocation or assignment fee and an annual membership fee."
 
 - id: peeringdb
   name: "PeeringDB"
