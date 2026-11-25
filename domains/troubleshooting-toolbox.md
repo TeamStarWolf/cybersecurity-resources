@@ -22,7 +22,7 @@ Can the rest of the world reach it, and how good is the path?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Globalping](https://globalping.io/) | jsDelivr | Web form for running ping, traceroute, DNS, MTR, or HTTP from probes in places you pick; integrations include CLI and API; free within hourly limits. | Online service | Freemium |
+| [Globalping](https://globalping.io/) | Globalping Limited | Web form for running ping, traceroute, DNS, MTR, or HTTP from probes in places you pick; integrations include CLI and API; free within hourly limits. | Online service | Freemium |
 | [M-Lab Speed Test](https://speed.measurementlab.net/) | Measurement Lab | Measurement Lab's speed test, which measures download, upload, latency, and retransmission with NDT; you agree first that results, IP address included, are published. | Online service | Free |
 | [Cloudflare Speed Test](https://speed.cloudflare.com/) | Cloudflare | Cloudflare's connection test: download, upload, latency, jitter, and packet loss, with scores for streaming, gaming, and video calls. | Online service | Free |
 | [Hurricane Electric Looking Glass](https://lg.he.net/) | Hurricane Electric | Hurricane Electric's looking glass: choose a router and run a BGP route lookup, BGP summary, ping, or traceroute against an address or hostname. | Online service | Free |

@@ -405,7 +405,7 @@
 | [GitHub Actions documentation](https://docs.github.com/en/actions) | GitHub | [Automation and scripting](domains/automation-and-scripting.md#version-control-and-pipelines) | Vendor documentation | Free |
 | [GitHub Advisory Database](https://github.com/advisories) | GitHub | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [GKE release schedule](https://docs.cloud.google.com/kubernetes-engine/docs/release-schedule) | Google Cloud | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Vendor documentation | Free |
-| [Globalping](https://globalping.io/) | jsDelivr | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Freemium |
+| [Globalping](https://globalping.io/) | Globalping Limited | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Freemium |
 | [GLPI](https://www.glpi-project.org/en/) | Teclib' | [IT service management and operations](domains/it-service-management-and-operations.md#service-desk-and-ticketing) | Tool | Freemium |
 | [GNU Bash manual](https://www.gnu.org/software/bash/manual/) | GNU Project (Free Software Foundation) | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Vendor documentation | Free |
 | [GNU coreutils manual](https://www.gnu.org/software/coreutils/manual/) | GNU Project (Free Software Foundation) | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Vendor documentation | Free |

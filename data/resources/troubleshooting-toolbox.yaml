@@ -4,7 +4,7 @@
 - id: globalping
   name: "Globalping"
   url: "https://globalping.io/"
-  publisher: "jsDelivr"
+  publisher: "Globalping Limited"
   section: network-reachability-and-speed
   kind: service
   cost: freemium
@@ -14,7 +14,7 @@
     status: 200
     final: "https://globalping.io/"
     how: script
-  notes: "Cost from https://globalping.io/credits, read on 2026-11-25: 250 free tests an hour for an unregistered user, 500 for a registered one, and credits for more tests, which sponsors receive for donations. Publisher from the page header, which reads by jsDelivr; the source is under the jsDelivr organization on GitHub."
+  notes: "Cost from https://globalping.io/credits, read on 2026-11-25: 250 free tests an hour for an unregistered user, 500 for a registered one, and credits for more tests, which sponsors receive for donations. Publisher from the Terms of Use at https://globalping.io/terms, which a script gets as an empty page; read in the built-in browser on 2026-11-25, they are with Globalping Limited, trading as Globalping, a company registered in England and Wales. The page header reads by jsDelivr, and the source is under the jsDelivr organization on GitHub."
 
 - id: m-lab-speed-test
   name: "M-Lab Speed Test"
@@ -602,7 +602,7 @@
     status: 200
     final: "https://httpbin.org/"
     how: script
-  notes: "Publisher is the site's own name. The page names no operator, has no author tag, and links no terms, privacy, or about page."
+  notes: "Publisher is the site's own name. The page names no operator, has no author tag, and links no terms, privacy, about, or source page; the same was true of the page as the built-in browser showed it on 2026-11-25."
 
 - id: webhook-site
   name: "Webhook.site"
