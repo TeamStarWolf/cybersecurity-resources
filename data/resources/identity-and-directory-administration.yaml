@@ -326,6 +326,7 @@
   url: "https://www.jwt.io/"
   publisher: "Okta"
   section: token-and-protocol-tools
+  also_in: [troubleshooting-toolbox/decoders-encoders-and-converters]
   kind: service
   cost: free
   description: "Debugger for decoding, verifying, and generating JSON Web Tokens."
@@ -341,6 +342,7 @@
   url: "https://developers.onelogin.com/docs/saml/online-tools/"
   publisher: "OneLogin"
   section: token-and-protocol-tools
+  also_in: [troubleshooting-toolbox/decoders-encoders-and-converters]
   kind: service
   cost: free
   description: "Browser tools for SAML work: decode and validate requests and responses, build metadata, format certificates, and generate a self-signed certificate."

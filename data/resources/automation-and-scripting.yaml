@@ -187,6 +187,7 @@
   url: "https://explainshell.com/"
   publisher: "Idan Kamara (idank)"
   section: shell-and-command-line
+  also_in: [troubleshooting-toolbox/quick-references-and-practice]
   kind: service
   cost: free
   description: "Type a command line and see each argument explained from its help text, with a choice of which distribution's manpages to use."
@@ -247,6 +248,7 @@
   url: "https://regex101.com/"
   publisher: "Firas Dib (firasdib)"
   section: shell-and-command-line
+  also_in: [troubleshooting-toolbox/decoders-encoders-and-converters]
   kind: service
   cost: freemium
   description: "Online regular expression tester: write a pattern, run it against text, and inspect matches and capture groups; a paid Pro plan adds further tools."
@@ -262,6 +264,7 @@
   url: "https://crontab.guru/"
   publisher: "Cronitor"
   section: shell-and-command-line
+  also_in: [troubleshooting-toolbox/decoders-encoders-and-converters]
   kind: service
   cost: free
   description: "Type a cron schedule expression and read it back in words, with its next run time; by Cronitor, which advertises its monitoring service there."

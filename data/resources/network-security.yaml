@@ -6,6 +6,7 @@
   url: "https://www.wireshark.org/"
   publisher: "Wireshark Foundation"
   section: traffic-analysis
+  also_in: [troubleshooting-toolbox/packet-capture-and-http-debugging]
   kind: tool
   cost: free
   description: "Captures packets and decodes them protocol by protocol for close inspection; installers for Windows and macOS, with source for other systems."

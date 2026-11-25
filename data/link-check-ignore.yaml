@@ -181,6 +181,11 @@ entries:
     only: ci
     reason: "Returns 403 to GitHub-hosted runners on two runs in a row; answers 200 from a desktop network."
     opened: "2026-11-25"
+  - url: "https://www.iso.org/standard/68531.html"
+    match: exact
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners on two runs in a row; answers 200 from a desktop network."
+    opened: "2026-11-25"
   - url: "https://www.iso.org/standard/70636.html"
     match: exact
     only: ci

@@ -2,7 +2,7 @@
 
 # Index, A to Z
 
-> Every resource in the catalog by name: 975 entries. Each name links to the resource; the domain links to its place in the catalog.
+> Every resource in the catalog by name: 1088 entries. Each name links to the resource; the domain links to its place in the catalog.
 
 [0-9](#0-9) · [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
@@ -10,7 +10,9 @@
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
+| [.NET Support Policy](https://dotnet.microsoft.com/en-us/platform/support/policy) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [0day "In the Wild"](https://projectzero.google/0day.html) | Google Project Zero | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
+| [1.1.1.1 DNS resolver help](https://one.one.one.one/help/) | Cloudflare | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#dns-ip-and-registration-lookups) | Online service | Free |
 | [389 Directory Server](https://www.port389.org/) | Red Hat | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
 | [404 Media](https://www.404media.co/) | 404 Media | [News and research](domains/news-and-research.md#news-sites) | News | Freemium |
 
@@ -29,12 +31,14 @@
 | [Akamai Security Research](https://www.akamai.com/blog/security-research) | Akamai | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) | Prometheus, a CNCF project | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#alerting-and-practice) | Vendor documentation | Free |
 | [AlmaLinux Product Errata](https://errata.almalinux.org/) | AlmaLinux | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
+| [AlmaLinux Release Notes](https://wiki.almalinux.org/release-notes/) | AlmaLinux OS Foundation | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [AlmaLinux Wiki](https://wiki.almalinux.org/) | AlmaLinux OS Foundation | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |
 | [Alpine Security Tracker](https://security.alpinelinux.org/) | Alpine Linux | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Amazon CloudWatch Documentation](https://docs.aws.amazon.com/cloudwatch/) | Amazon Web Services | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#cloud-and-vendor-platforms) | Vendor documentation | Free |
 | [Amazon DynamoDB Documentation](https://docs.aws.amazon.com/dynamodb/) | Amazon Web Services | [Databases and data platforms](domains/databases-and-data-platforms.md#cloud-database-services) | Vendor documentation | Free |
 | [Amazon EC2 Instance Comparison (Vantage)](https://instances.vantage.sh/) | Vantage | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Reference | Free |
 | [Amazon Elastic Kubernetes Service Documentation](https://docs.aws.amazon.com/eks/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Vendor documentation | Free |
+| [Amazon Linux 2023 release cadence](https://docs.aws.amazon.com/linux/al2023/ug/release-cadence.html) | Amazon Web Services | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Vendor documentation | Free |
 | [Amazon Linux Security Center (ALAS)](https://alas.aws.amazon.com/) | Amazon Web Services | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Amazon RDS and Aurora Documentation](https://docs.aws.amazon.com/rds/) | Amazon Web Services | [Databases and data platforms](domains/databases-and-data-platforms.md#cloud-database-services) | Vendor documentation | Free |
 | [Amazon Route 53 Documentation](https://docs.aws.amazon.com/route53/) | Amazon Web Services | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |
@@ -45,6 +49,7 @@
 | [Android Security and Update Bulletins](https://source.android.com/docs/security/bulletin) | Google (Android Open Source Project) | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Ansible community documentation](https://docs.ansible.com/) | Ansible community (Red Hat) | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
 | [Ansible Lint Documentation](https://docs.ansible.com/projects/lint/) | Red Hat | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
+| [Ansible: Releases and maintenance](https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html) | Ansible community (Red Hat) | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Vendor documentation | Free |
 | [Antisyphon Training](https://www.antisyphontraining.com/) | Antisyphon Training | [Labs and training](domains/labs-and-training.md#courses) | Training or lab | Freemium |
 | [ANY.RUN](https://any.run/) | ANY.RUN | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Freemium |
 | [Apache Airflow Documentation](https://airflow.apache.org/docs/) | Apache Software Foundation | [Databases and data platforms](domains/databases-and-data-platforms.md#non-relational-streaming-and-data-platforms) | Vendor documentation | Free |
@@ -69,6 +74,7 @@
 | [Arista Product Documentation Library](https://www.arista.com/en/support/product-documentation) | Arista Networks | [Networking and connectivity](domains/networking-and-connectivity.md#vendor-documentation) | Vendor documentation | Free |
 | [Arista Security Advisories](https://www.arista.com/en/support/advisories-notices) | Arista Networks | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Ars Technica: Security](https://arstechnica.com/security/) | Condé Nast | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) | Joshua Levy (jlevy) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#quick-references-and-practice) | Reference | Free |
 | [Atlassian Incident Management Handbook](https://www.atlassian.com/incident-management/handbook) | Atlassian | [IT service management and operations](domains/it-service-management-and-operations.md#incident-and-change-practice) | Reference | Free |
 | [Atlassian Security Advisories & Bulletins](https://www.atlassian.com/trust/security/advisories) | Atlassian | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
 | [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Red Canary, a Zscaler company | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#adversary-emulation-and-control-testing) | Dataset or feed | Free |
@@ -97,6 +103,7 @@
 | [AWS Pricing Calculator](https://calculator.aws/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Online service | Free |
 | [AWS re:Post](https://repost.aws/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Community | Free |
 | [AWS Security Bulletins](https://aws.amazon.com/security/security-bulletins/) | Amazon Web Services | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Advisory source | Free |
+| [AWS Support plans](https://aws.amazon.com/premiumsupport/plans/) | Amazon Web Services | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Freemium |
 | [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) | Amazon Web Services | [Cloud platform administration](domains/cloud-platform-administration.md#amazon-web-services) | Standard | Free |
 | [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Reference | Free |
 | [Azure Backup service documentation](https://learn.microsoft.com/en-us/azure/backup/) | Microsoft | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#platform-and-vendor-backup) | Vendor documentation | Free |
@@ -116,6 +123,7 @@
 | [Azure SQL documentation](https://learn.microsoft.com/en-us/azure/azure-sql/) | Microsoft | [Databases and data platforms](domains/databases-and-data-platforms.md#cloud-database-services) | Vendor documentation | Free |
 | [Azure status](https://azure.status.microsoft/en-us/status) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Status page | Free |
 | [Azure subscription and service limits, quotas, and constraints](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Reference | Free |
+| [Azure support plans](https://azure.microsoft.com/en-us/support/plans) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Freemium |
 | [Azure Updates](https://azure.microsoft.com/en-us/updates/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Reference | Free |
 | [Azure Virtual Desktop documentation](https://learn.microsoft.com/en-us/azure/virtual-desktop/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Standard | Free |
@@ -128,8 +136,10 @@
 | [Backup and DR documentation (Google Cloud)](https://docs.cloud.google.com/backup-disaster-recovery/docs) | Google | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#platform-and-vendor-backup) | Vendor documentation | Free |
 | [Backup and restore plan to protect against ransomware](https://learn.microsoft.com/en-us/azure/security/fundamentals/backup-plan-to-protect-against-ransomware) | Microsoft | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#planning-and-standards) | Vendor documentation | Free |
 | [Bacula](https://www.bacula.org/) | Bacula | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Free |
+| [badssl.com](https://badssl.com/) | The Chromium Project | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [Bareos](https://www.bareos.com/) | Bareos GmbH & Co. KG | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Freemium |
 | [Barman](https://pgbarman.org/) | EnterpriseDB | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Free |
+| [Base64 Decode and Encode](https://www.base64decode.org/) | HAZOTA Europe Kft | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#decoders-encoders-and-converters) | Online service | Free |
 | [BGP.Tools](https://bgp.tools/) | Port 179 Ltd | [Networking and connectivity](domains/networking-and-connectivity.md#lookup-and-diagnostic-tools) | Online service | Freemium |
 | [Bicep documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Vendor documentation | Free |
 | [BigQuery documentation](https://docs.cloud.google.com/bigquery/docs) | Google Cloud | [Databases and data platforms](domains/databases-and-data-platforms.md#cloud-database-services) | Vendor documentation | Free |
@@ -141,6 +151,7 @@
 | [Bishop Fox Offensive Security Blog](https://bishopfox.com/blog) | Bishop Fox | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [BleepingComputer](https://www.bleepingcomputer.com/) \* | BleepingComputer | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [BloodHound Community Edition](https://github.com/SpecterOps/BloodHound) | SpecterOps | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
+| [Blue Oak Council License List](https://blueoakcouncil.org/list) | Blue Oak Council, Inc. | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Reference | Free |
 | [Blue Team Labs Online](https://blueteamlabs.online/) | Centri | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
 | [BOD 26-04: Prioritizing Security Updates Based on Risk](https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk) | CISA | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Standard | Free |
 | [BookStack](https://www.bookstackapp.com/) | Dan Brown | [IT service management and operations](domains/it-service-management-and-operations.md#knowledge-and-documentation) | Tool | Free |
@@ -175,10 +186,15 @@
 | [Check Point Research](https://research.checkpoint.com/) | Check Point | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Check Point Security Advisories](https://support.checkpoint.com/security-advisories) | Check Point Software Technologies | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Check Point Support Center](https://support.checkpoint.com/) | Check Point | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Vendor documentation | Free |
+| [Check Point Support Life Cycle Policy](https://www.checkpoint.com/support-services/support-life-cycle-policy/) | Check Point Software Technologies | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#hardware-and-network-vendors) | Reference | Free |
 | [Chef Documentation](https://docs.chef.io/) | Progress Software (Chef) | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
 | [Chocolatey](https://chocolatey.org/) | Chocolatey Software | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Freemium |
+| [Choose a License](https://choosealicense.com/) | GitHub | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Reference | Free |
+| [Chrome DevTools: Inspect network activity](https://developer.chrome.com/docs/devtools/network) | Google | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Vendor documentation | Free |
 | [Chrome Enterprise and Education Help](https://support.google.com/chrome/a/) | Google | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Vendor documentation | Free |
 | [Chrome Releases](https://chromereleases.googleblog.com/) | Google | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
+| [ChromeOS Auto Update policy](https://support.google.com/chrome/a/answer/6220366) | Google | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
+| [CIDR.xyz](https://cidr.xyz/) | Magic Monad LLC | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Free |
 | [CIS Advisories](https://www.cisecurity.org/advisory) | Center for Internet Security | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
 | [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) | Center for Internet Security | [GRC and security program](domains/grc-and-security-program.md#frameworks-controls-and-benchmarks) | Standard | Free with account |
 | [CIS Critical Security Controls](https://www.cisecurity.org/controls) | Center for Internet Security | [GRC and security program](domains/grc-and-security-program.md#frameworks-controls-and-benchmarks) | Standard | Free |
@@ -211,6 +227,7 @@
 | [Cloudflare Blog: Security](https://blog.cloudflare.com/tag/security/) | Cloudflare | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Cloudflare DNS docs](https://developers.cloudflare.com/dns/) | Cloudflare | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |
 | [Cloudflare Radar](https://radar.cloudflare.com/) | Cloudflare | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Free |
+| [Cloudflare Speed Test](https://speed.cloudflare.com/) | Cloudflare | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Free |
 | [CloudFox](https://github.com/BishopFox/cloudfox) | Bishop Fox | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#cloud-attack-techniques-and-practice) | Tool | Free |
 | [CNCF Landscape](https://landscape.cncf.io/) | Cloud Native Computing Foundation (The Linux Foundation) | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Reference | Free |
 | [Cobalt Strike](https://www.cobaltstrike.com/) | Fortra | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Paid |
@@ -225,6 +242,7 @@
 | [CoreDNS Manual](https://coredns.io/manual/toc/) | The CoreDNS Authors | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |
 | [Cortex](https://github.com/TheHive-Project/Cortex) | TheHive Project | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Tool | Free |
 | [CrackStation](https://crackstation.net/) | Defuse Security | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Online service | Free |
+| [Creative Commons License Chooser](https://creativecommons.org/chooser/) | Creative Commons | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Online service | Free |
 | [crontab guru](https://crontab.guru/) | Cronitor | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Online service | Free |
 | [CrowdStrike adversary profiles](https://www.crowdstrike.com/en-us/adversaries/) | CrowdStrike | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [CrowdStrike Blog](https://www.crowdstrike.com/en-us/blog/) | CrowdStrike | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
@@ -233,9 +251,11 @@
 | [CSA Singapore Alerts & Advisories](https://www.csa.gov.sg/alerts-and-advisories) | Cyber Security Agency of Singapore | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [CSIRTs Network](https://csirtsnetwork.eu/) | CSIRTs Network | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Organization | Free |
 | [CSO Online](https://www.csoonline.com/) | Foundry (FoundryCo, Inc.) | [News and research](domains/news-and-research.md#news-sites) | News | Free |
+| [CSP Evaluator](https://csp-evaluator.withgoogle.com/) | Google | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [CTFtime](https://ctftime.org/) | CTFtime team | [Labs and training](domains/labs-and-training.md#capture-the-flag) | Community | Free |
 | [curl CVEs](https://curl.se/docs/security.html) | curl | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [curl documentation overview](https://curl.se/docs/) | curl | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Vendor documentation | Free |
+| [curlconverter](https://curlconverter.com/) | Nick Carneiro | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#decoders-encoders-and-converters) | Online service | Free |
 | [Cutter](https://github.com/rizinorg/cutter) | Rizin | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Tool | Free |
 | [CVE Crowd](https://cvecrowd.com/) | cvecrowd.com | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Online service | Freemium |
 | [CVE List (cvelistV5)](https://github.com/CVEProject/cvelistV5) | CVE Program | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
@@ -271,6 +291,7 @@
 | [DBeaver Community](https://dbeaver.io/) | DBeaver Corp | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Freemium |
 | [dcdiag](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dcdiag) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Reference | Free |
 | [The Debian Administrator's Handbook](https://debian-handbook.info/) | Raphaël Hertzog and Roland Mas | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Reference | Free |
+| [Debian Releases](https://www.debian.org/releases/) | Debian | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [Debian Security Bug Tracker](https://security-tracker.debian.org/tracker/) | Debian | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Dataset or feed | Free |
 | [Debian Security Information](https://www.debian.org/security/) | Debian | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Decompiler Explorer](https://dogbolt.org/) | Decompiler Explorer | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Online service | Free |
@@ -279,13 +300,17 @@
 | [Dependency-Track](https://dependencytrack.org/) | OWASP Foundation | [Vulnerability management](domains/vulnerability-management.md#triage-and-remediation-tracking) | Tool | Free |
 | [Detection.FYI](https://detection.fyi/) | detection.fyi | [Detection and response](domains/detection-and-response.md#rules-and-analytics) | Online service | Free |
 | [DetectionLab](https://github.com/clong/DetectionLab) | Chris Long (clong) | [Detection and response](domains/detection-and-response.md#test-data-and-lab-builds) | Tool | Free |
+| [DevToys](https://devtoys.app/) | Etienne Baudoux and Benjamin Titeux | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#decoders-encoders-and-converters) | Tool | Free |
 | [The DFIR Report](https://thedfirreport.com/) | The DFIR Report | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Freemium |
+| [Diffchecker](https://www.diffchecker.com/) | Checker Software Inc. | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#decoders-encoders-and-converters) | Online service | Freemium |
+| [Dig web interface](https://www.digwebinterface.com/) | Martin Holk Rasmussen | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#dns-ip-and-registration-lookups) | Online service | Free |
 | [Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html) | Amazon Web Services | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#disaster-recovery-and-resilience) | Reference | Free |
 | [Disaster recovery planning guide (Google Cloud)](https://docs.cloud.google.com/architecture/dr-scenarios-planning-guide) | Google | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#disaster-recovery-and-resilience) | Reference | Free |
 | [disclose.io](https://disclose.io/) | disclose.io | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Reference | Free |
 | [Diátaxis](https://diataxis.fr/) | Daniele Procida | [IT service management and operations](domains/it-service-management-and-operations.md#knowledge-and-documentation) | Reference | Free |
 | [DMARC.org](https://dmarc.org/) | DMARC.org | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#email-standards-and-authentication) | Reference | Free |
 | [dmarcian DMARC tools](https://dmarcian.com/dmarc-tools/) | dmarcian, Inc. | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#lookup-and-test-tools) | Online service | Free |
+| [DNS Checker](https://dnschecker.org/) | Softrix Technologies | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#dns-ip-and-registration-lookups) | Online service | Free |
 | [DNS in Windows and Windows Server](https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview) | Microsoft | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |
 | [DNSDumpster](https://dnsdumpster.com/) | Hacker Target | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) | Simon Kelley | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Tool | Free |
@@ -309,12 +334,14 @@
 |---|---|---|---|---|
 | [Elastic detection rules](https://github.com/elastic/detection-rules) | Elastic | [Detection and response](domains/detection-and-response.md#rules-and-analytics) | Dataset or feed | Free |
 | [Elastic Docs](https://www.elastic.co/docs) | Elastic | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
+| [Elastic Product End of Life Dates](https://www.elastic.co/support/eol) | Elastic | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [Elastic Security Announcements](https://discuss.elastic.co/c/announcements/security-announcements/31) | Elastic | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
 | [Elastic Security Labs](https://www.elastic.co/security-labs) | Elastic | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Email sender guidelines (Gmail)](https://support.google.com/mail/answer/81126) | Google | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#email-standards-and-authentication) | Reference | Free |
 | [endoflife.date](https://endoflife.date/) | endoflife.date project | [Vulnerability management](domains/vulnerability-management.md#lifecycle-and-end-of-life) | Reference | Free |
 | [ENISA](https://www.enisa.europa.eu/) | European Union Agency for Cybersecurity (ENISA) | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
 | [ENISA Cyber Threats](https://www.enisa.europa.eu/topics/cyber-threats) | European Union Agency for Cybersecurity (ENISA) | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Reference | Free |
+| [Epoch Converter](https://www.epochconverter.com/) | Misja.com | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#decoders-encoders-and-converters) | Online service | Free |
 | [EPSS data](https://www.first.org/epss/data) | FIRST | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Dataset or feed | Free |
 | [Eric Zimmerman's Tools](https://ericzimmerman.github.io/) | Eric Zimmerman | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
 | [European Cybercrime Centre (EC3)](https://www.europol.europa.eu/about-europol/european-cybercrime-centre-ec3) | Europol | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Organization | Free |
@@ -323,6 +350,7 @@
 | [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | sbousseaden | [Detection and response](domains/detection-and-response.md#test-data-and-lab-builds) | Dataset or feed | Free |
 | [Exchange documentation](https://learn.microsoft.com/en-us/exchange/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
 | [Exchange Server documentation](https://learn.microsoft.com/en-us/exchange/exchange-server) | Microsoft | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#mail-servers-and-delivery) | Vendor documentation | Free |
+| [Exchange Server supportability matrix](https://learn.microsoft.com/en-us/exchange/plan-and-deploy/supportability-matrix) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [Exim documentation](https://www.exim.org/docs.html) | The Exim Maintainers | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#mail-servers-and-delivery) | Vendor documentation | Free |
 | [explain.dalibo.com](https://explain.dalibo.com/) | Dalibo | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Online service | Free |
 | [explain.depesz.com](https://explain.depesz.com/) | Hubert Lubaczewski (depesz) and Łukasz Lewandowski (metys) | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Online service | Free |
@@ -342,8 +370,10 @@
 | [FBI Cyber](https://www.fbi.gov/investigate/cyber) | FBI | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Organization | Free |
 | [Feodo Tracker](https://feodotracker.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free |
 | [ffuf](https://github.com/ffuf/ffuf) | ffuf | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Free |
+| [Fiddler](https://www.telerik.com/fiddler) | Progress Software Corporation | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Tool | Freemium |
 | [FIDO Passkeys](https://fidoalliance.org/passkeys/) | FIDO Alliance | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
 | [FinOps Framework](https://www.finops.org/framework/) | FinOps Foundation, a Linux Foundation project | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Standard | Free |
+| [Firefox Network Monitor](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/) | Mozilla | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Vendor documentation | Free |
 | [FIRST](https://www.first.org/) | FIRST | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Organization | Free |
 | [FitSM](https://www.fitsm.eu/) | FitSM e.V. | [IT service management and operations](domains/it-service-management-and-operations.md#frameworks-and-standards) | Standard | Free |
 | [flAWS](http://flaws.cloud/) | Scott Piper | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#cloud-attack-techniques-and-practice) | Training or lab | Free |
@@ -355,6 +385,7 @@
 | [FortiGuard PSIRT Advisories](https://www.fortiguard.com/psirt) | Fortinet | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Fortinet Document Library](https://docs.fortinet.com/) | Fortinet | [Networking and connectivity](domains/networking-and-connectivity.md#vendor-documentation) | Vendor documentation | Free |
 | [FreeBSD Security Advisories](https://www.freebsd.org/security/advisories/) | The FreeBSD Project | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
+| [FreeBSD Security Information](https://www.freebsd.org/security/) | The FreeBSD Project | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [FreeIPA](https://www.freeipa.org/) | FreeIPA | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
 | [FRRouting User Guide](https://docs.frrouting.org/en/latest/) | FRRouting | [Networking and connectivity](domains/networking-and-connectivity.md#vendor-documentation) | Vendor documentation | Free |
 | [Full Disclosure mailing list](https://seclists.org/fulldisclosure/) | SecLists.org | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Community | Free |
@@ -367,15 +398,22 @@
 | [GCVE](https://gcve.eu/) | GCVE initiative | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
 | [Gentoo Linux Security Advisories (GLSA)](https://security.gentoo.org/glsa/) | Gentoo | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/) | GitLab | [Automation and scripting](domains/automation-and-scripting.md#version-control-and-pipelines) | Vendor documentation | Free |
+| [Get support for Microsoft 365 for business](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-support) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Free |
 | [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | National Security Agency | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#reverse-engineering) | Tool | Free |
 | [Git Reference](https://git-scm.com/docs) | Git, a Software Freedom Conservancy member project | [Automation and scripting](domains/automation-and-scripting.md#version-control-and-pipelines) | Vendor documentation | Free |
 | [GitHub Actions documentation](https://docs.github.com/en/actions) | GitHub | [Automation and scripting](domains/automation-and-scripting.md#version-control-and-pipelines) | Vendor documentation | Free |
 | [GitHub Advisory Database](https://github.com/advisories) | GitHub | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
+| [GKE release schedule](https://docs.cloud.google.com/kubernetes-engine/docs/release-schedule) | Google Cloud | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Vendor documentation | Free |
+| [Globalping](https://globalping.io/) | Globalping Limited | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Freemium |
 | [GLPI](https://www.glpi-project.org/en/) | Teclib' | [IT service management and operations](domains/it-service-management-and-operations.md#service-desk-and-ticketing) | Tool | Freemium |
 | [GNU Bash manual](https://www.gnu.org/software/bash/manual/) | GNU Project (Free Software Foundation) | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Vendor documentation | Free |
 | [GNU coreutils manual](https://www.gnu.org/software/coreutils/manual/) | GNU Project (Free Software Foundation) | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Vendor documentation | Free |
+| [GNU ddrescue](https://www.gnu.org/software/ddrescue/) | GNU Project (Free Software Foundation) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
+| [Go Release History](https://go.dev/doc/devel/release) | Go project | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [Go Vulnerability Database](https://pkg.go.dev/vuln/) | Go project | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
+| [GoAccess](https://goaccess.io/) | Gerardo O. (allinurl) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Tool | Free |
 | [Google Admin Toolbox](https://toolbox.googleapps.com/apps/main/) | Google | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#lookup-and-test-tools) | Online service | Free |
+| [Google Cloud Customer Care](https://cloud.google.com/support) | Google Cloud | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Freemium |
 | [Google Cloud Documentation](https://docs.cloud.google.com/docs) | Google | [Cloud platform administration](domains/cloud-platform-administration.md#google-cloud) | Vendor documentation | Free |
 | [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator) | Google | [Cloud platform administration](domains/cloud-platform-administration.md#google-cloud) | Online service | Free |
 | [Google Cloud release notes](https://docs.cloud.google.com/release-notes) | Google | [Cloud platform administration](domains/cloud-platform-administration.md#google-cloud) | Reference | Free |
@@ -392,6 +430,7 @@
 | [Google Workspace Admin Help](https://knowledge.workspace.google.com/admin) | Google | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#collaboration-platforms) | Vendor documentation | Free |
 | [Google Workspace Help](https://knowledge.workspace.google.com/) | Google | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Vendor documentation | Free |
 | [Google Workspace Status Dashboard](https://www.google.com/appsstatus/dashboard/) | Google | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#collaboration-platforms) | Status page | Free |
+| [GParted](https://gparted.org/) | GParted | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
 | [Grafana Labs Security Advisories](https://grafana.com/security/security-advisories/) | Grafana Labs | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
 | [Grafana Loki documentation](https://grafana.com/docs/loki/latest/) | Grafana Labs | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
 | [Grafana OSS and Enterprise documentation](https://grafana.com/docs/grafana/latest/) | Grafana Labs | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#metrics-and-monitoring-systems) | Vendor documentation | Free |
@@ -428,12 +467,19 @@
 | [How DNS Works](https://dnsimple.com/comics/how-dns-works/) | DNSimple | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-standards-and-references) | Reference | Free |
 | [How Microsoft names threat actors](https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming) | Microsoft | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [How OpenID Connect Works](https://openid.net/developers/how-connect-works/) | OpenID Foundation | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
+| [How's My SSL?](https://www.howsmyssl.com/) | Darkish Green | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [HP Security Bulletins](https://support.hp.com/us-en/security-bulletins) | HP | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 | [HPE Networking Documentation](https://networkingdocs.hpe.com/documentation/) | Hewlett Packard Enterprise | [Networking and connectivity](domains/networking-and-connectivity.md#vendor-documentation) | Vendor documentation | Free |
 | [HPE Security Bulletin Library](https://support.hpe.com/km/security-bulletin) | Hewlett Packard Enterprise | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
+| [HSTS Preload List Submission](https://hstspreload.org/) | The Chromium Project | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [HTB Academy](https://academy.hackthebox.com/) | Hack The Box | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Freemium |
 | [HTMD Community](https://www.anoopcnair.com/) | Anoop C Nair | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | News | Free |
+| [htop](https://htop.dev/) | htop | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
+| [HTTP Observatory](https://developer.mozilla.org/en-US/observatory) | Mozilla | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
+| [httpbin.org](https://httpbin.org/) | Postman | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Online service | Free |
+| [HTTPie](https://httpie.io/) | HTTPie, Inc. | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Tool | Free |
 | [Hurricane Electric BGP Toolkit](https://bgp.he.net/) | Hurricane Electric | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Free |
+| [Hurricane Electric Looking Glass](https://lg.he.net/) | Hurricane Electric | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Free |
 | [Hybrid Analysis](https://hybrid-analysis.com/) | CrowdStrike | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Free |
 | [Hyper-V virtualization in Windows Server and Windows](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview) | Microsoft | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#windows-server) | Vendor documentation | Free |
 
@@ -462,12 +508,14 @@
 | [Internet Crime Complaint Center (IC3)](https://www.ic3.gov/) | FBI | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Organization | Free |
 | [Internet Organised Crime Threat Assessment (IOCTA)](https://www.europol.europa.eu/publications-events/main-reports/iocta-report) | Europol | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [Internet.nl](https://internet.nl/) | Dutch Internet Standards Platform | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#lookup-and-test-tools) | Online service | Free |
+| [ipcalc (IP Calculator)](https://jodies.de/ipcalc) | Krischan Jodies | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Free |
 | [iperf3](https://github.com/esnet/iperf) | ESnet (Energy Sciences Network) | [Networking and connectivity](domains/networking-and-connectivity.md#lookup-and-diagnostic-tools) | Tool | Free |
 | [IPinfo](https://ipinfo.io/) | IPinfo | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 | [ipSpace.net blog](https://blog.ipspace.net/) | ipSpace.net AG | [Networking and connectivity](domains/networking-and-connectivity.md#learning-and-community) | News | Free |
 | [IPv4 Special-Purpose Address Space](https://www.iana.org/assignments/iana-ipv4-special-registry) | IANA (Public Technical Identifiers, an affiliate of ICANN) | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Reference | Free |
 | [IPVoid](https://www.ipvoid.com/) | NoVirusThanks Company Srl | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
 | [ISO 22301:2019](https://www.iso.org/standard/22301) | ISO | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#planning-and-standards) | Standard | Paid |
+| [ISO/IEC 19770-1:2017](https://www.iso.org/standard/68531.html) | ISO | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Standard | Paid |
 | [ISO/IEC 20000-1:2018](https://www.iso.org/standard/70636.html) | ISO | [IT service management and operations](domains/it-service-management-and-operations.md#frameworks-and-standards) | Standard | Paid |
 | [IT Disaster Recovery Plan (Ready.gov)](https://www.ready.gov/business/emergency-plans/recovery-plan) | U.S. Department of Homeland Security (Ready.gov) | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#planning-and-standards) | Reference | Free |
 | [IT4IT Reference Architecture](https://www.opengroup.org/it4it) | The Open Group | [IT service management and operations](domains/it-service-management-and-operations.md#frameworks-and-standards) | Standard | Freemium |
@@ -492,6 +540,7 @@
 | [JPCERT Coordination Center](https://www.jpcert.or.jp/english/) | JPCERT/CC | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [jq](https://jqlang.org/) | jq | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Tool | Free |
 | [JSON Schema](https://json-schema.org/) | JSON Schema | [Automation and scripting](domains/automation-and-scripting.md#apis-and-workflow-automation) | Standard | Free |
+| [JSONLint](https://jsonlint.com/) | Todd Garland | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#decoders-encoders-and-converters) | Online service | Freemium |
 | [Juniper Support Portal](https://supportportal.juniper.net/s/) | Juniper Networks | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Vendor documentation | Free with account |
 | [jwt.io](https://www.jwt.io/) | Okta | [Identity and directory services administration](domains/identity-and-directory-administration.md#token-and-protocol-tools) | Online service | Free |
 | [jwt.ms](https://jwt.ms/) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#token-and-protocol-tools) | Online service | Free |
@@ -505,7 +554,9 @@
 | [Kerbrute](https://github.com/ropnop/kerbrute) | Ronnie Flathers (ropnop) | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
 | [KEV mappings (Mappings Explorer)](https://ctid.mitre.org/mappings/external/kev/) | Center for Threat-Informed Defense | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Reference | Free |
 | [kev-data](https://github.com/cisagov/kev-data) | CISA | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Dataset or feed | Free |
+| [KeyCDN Tools](https://tools.keycdn.com/) | proinity LLC | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [Keycloak](https://www.keycloak.org/) | Keycloak, a CNCF project | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Tool | Free |
+| [KMS client activation and product keys](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Vendor documentation | Free |
 | [Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | CISA | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Dataset or feed | Free |
 | [Kopia](https://kopia.io/) | Kopia Project | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Free |
 | [Krebs on Security](https://krebsonsecurity.com/) | Krebs on Security | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
@@ -513,6 +564,8 @@
 | [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Aqua Security | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#audit-posture-and-runtime-tools) | Tool | Free |
 | [Kubernetes Documentation](https://kubernetes.io/docs/home/) | Kubernetes, a CNCF project | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#containers-and-kubernetes) | Vendor documentation | Free |
 | [Kubernetes Official CVE Feed](https://kubernetes.io/docs/reference/issues-security/official-cve-feed/) | Kubernetes | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Dataset or feed | Free |
+| [Kubernetes Releases](https://kubernetes.io/releases/) | Kubernetes | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
+| [Kubernetes version lifecycle on Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html) | Amazon Web Services | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Vendor documentation | Free |
 
 ## L
 
@@ -525,14 +578,17 @@
 | [Learn and Test DMARC](https://www.learndmarc.com/) | URIports.com | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#lookup-and-test-tools) | Online service | Free |
 | [Legacy GitLab Advisory Database](https://advisories.gitlab.com/) | GitLab | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [Lenovo Product Security Advisories and Announcements](https://support.lenovo.com/product_security/home) | Lenovo | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
+| [Let's Debug](https://letsdebug.net/) | Let's Debug | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [LetsDefend](https://letsdefend.io/) | LetsDefend | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
 | [LevelBlue Open Threat Exchange (OTX)](https://otx.alienvault.com/) | LevelBlue | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free with account |
 | [LibreNMS Docs](https://docs.librenms.org/) | LibreNMS | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#metrics-and-monitoring-systems) | Vendor documentation | Free |
 | [libvirt documentation](https://libvirt.org/docs.html) | libvirt | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#virtualization) | Vendor documentation | Free |
+| [The Linux Kernel Archives: Releases](https://www.kernel.org/category/releases.html) | The Linux Kernel Organization | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [Linux kernel CVEs](https://docs.kernel.org/process/cve.html) | The Linux kernel community | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Reference | Free |
 | [The Linux Kernel documentation](https://docs.kernel.org/) | The kernel development community | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |
 | [Linux man pages online](https://man7.org/linux/man-pages/) | Michael Kerrisk | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Reference | Free |
 | [LitmusChaos](https://litmuschaos.io/) | LitmusChaos, a CNCF project | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#disaster-recovery-and-resilience) | Tool | Free |
+| [lnav (The Logfile Navigator)](https://lnav.org/) | Tim Stack (tstack) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Tool | Free |
 | [Logstash](https://www.elastic.co/docs/reference/logstash) | Elastic | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
 | [LOLBAS](https://lolbas-project.github.io/) | LOLBAS Project | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Reference | Free |
 | [LOLDrivers](https://www.loldrivers.io/) | MagicSword | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Dataset or feed | Free |
@@ -541,6 +597,7 @@
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
+| [M-Lab Speed Test](https://speed.measurementlab.net/) | Measurement Lab | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Free |
 | [M-Trends](https://cloud.google.com/security/resources/m-trends) | Google Cloud (Mandiant) | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free with account |
 | [M365 Maps](https://m365maps.com/) | Aaron Dinnage | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
 | [M3AAWG Best Practices](https://www.m3aawg.org/published-documents) | Messaging, Malware and Mobile Anti-Abuse Working Group (M3AAWG) | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#email-standards-and-authentication) | Reference | Free |
@@ -555,13 +612,18 @@
 | [Mappings Explorer](https://ctid.mitre.org/mappings/) | Center for Threat-Informed Defense | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#center-for-threat-informed-defense-projects) | Reference | Free |
 | [MariaDB Documentation](https://mariadb.com/docs/) | MariaDB | [Databases and data platforms](domains/databases-and-data-platforms.md#relational-databases) | Vendor documentation | Free |
 | [masscan](https://github.com/robertdavidgraham/masscan) | Robert David Graham (robertdavidgraham) | [Offensive security](domains/offensive-security.md#network-scanning) | Tool | Free |
+| [MDN: HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) | Mozilla | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#quick-references-and-practice) | Reference | Free |
 | [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) | Wikimedia Foundation | [IT service management and operations](domains/it-service-management-and-operations.md#knowledge-and-documentation) | Tool | Free |
+| [Memtest86+](https://www.memtest.org/) | Samuel Demeulemeester | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
 | [Mend Vulnerability Database](https://www.mend.io/vulnerability-database/) | Mend.io | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
+| [Mess with DNS](https://messwithdns.net/) | Wizard Zines | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#quick-references-and-practice) | Training or lab | Free |
 | [Metasploit Framework](https://github.com/rapid7/metasploit-framework) | Rapid7 | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
 | [Metasploit Modules (Rapid7 database)](https://www.rapid7.com/db/modules/) | Rapid7 | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
+| [Microsoft 365 and Office 365 service descriptions](https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-service-descriptions-technet-library) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Vendor documentation | Free |
 | [Microsoft 365 documentation](https://learn.microsoft.com/en-us/microsoft-365/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
 | [Microsoft 365 for enterprise documentation and resources](https://learn.microsoft.com/en-us/microsoft-365/enterprise/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
 | [Microsoft 365 for IT Pros](https://office365itpros.com/) | Redmond & Associates | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | News | Free |
+| [Microsoft 365 guidance for security & compliance](https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Vendor documentation | Free |
 | [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
 | [Microsoft Community Hub](https://techcommunity.microsoft.com/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | Community | Free |
 | [Microsoft Configuration Manager documentation](https://learn.microsoft.com/en-us/intune/configmgr/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
@@ -582,8 +644,11 @@
 | [Microsoft identity platform documentation](https://learn.microsoft.com/en-us/entra/identity-platform/) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Microsoft Intune documentation](https://learn.microsoft.com/en-us/intune/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Microsoft Lifecycle Policy](https://learn.microsoft.com/en-us/lifecycle/) | Microsoft | [Vulnerability management](domains/vulnerability-management.md#lifecycle-and-end-of-life) | Vendor documentation | Free |
+| [Microsoft Lifecycle: product and services search](https://learn.microsoft.com/en-us/lifecycle/products/) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [Microsoft Power Automate documentation](https://learn.microsoft.com/en-us/power-automate/) | Microsoft | [Automation and scripting](domains/automation-and-scripting.md#apis-and-workflow-automation) | Vendor documentation | Free |
+| [Microsoft Product Terms](https://www.microsoft.com/licensing/terms/) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Reference | Free |
 | [Microsoft Purview](https://learn.microsoft.com/en-us/purview/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
+| [Microsoft Q&A](https://learn.microsoft.com/en-us/answers/) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Community | Free |
 | [Microsoft Security Update Guide](https://msrc.microsoft.com/update-guide/) | Microsoft | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Advisory source | Free |
 | [Microsoft service health status](https://status.cloud.microsoft/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Status page | Free |
 | [Microsoft Teams admin documentation](https://learn.microsoft.com/en-us/microsoftteams/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
@@ -596,6 +661,7 @@
 | [MISP](https://www.misp-project.org/) | MISP Project | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Tool | Free |
 | [MISP Default Feeds](https://www.misp-project.org/feeds/) | MISP Project | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free |
 | [MISP Galaxy](https://www.misp-galaxy.org/) | MISP Project | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
+| [mitmproxy](https://www.mitmproxy.org/) | Mitmproxy Project | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Tool | Free |
 | [MITRE ATLAS](https://atlas.mitre.org/) | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#knowledge-bases) | Reference | Free |
 | [MITRE ATT&CK](https://attack.mitre.org/) | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#knowledge-bases) | Reference | Free |
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | [Detection and response](domains/detection-and-response.md#rules-and-analytics) | Reference | Free |
@@ -604,6 +670,7 @@
 | [MITRE Engage](https://engage.mitre.org/) \* | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#knowledge-bases) | Reference | Free |
 | [Mitsubishi Electric Vulnerability Information](https://www.mitsubishielectric.com/psirt/vulnerability/index.html) | Mitsubishi Electric | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [MongoDB Docs](https://www.mongodb.com/docs/) | MongoDB, Inc. | [Databases and data platforms](domains/databases-and-data-platforms.md#non-relational-streaming-and-data-platforms) | Vendor documentation | Free |
+| [MongoDB Software Lifecycle Schedules](https://www.mongodb.com/legal/support-policy/lifecycles) | MongoDB, Inc. | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [Moxa Security Advisories](https://www.moxa.com/en/support/product-support/security-advisory) | Moxa | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Mozilla Foundation Security Advisories](https://www.mozilla.org/en-US/security/advisories/) | Mozilla | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Mozilla Security Blog](https://blog.mozilla.org/security/) | Mozilla | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
@@ -614,6 +681,7 @@
 | [mtr](https://github.com/traviscross/mtr) | Travis Cross (traviscross) | [Networking and connectivity](domains/networking-and-connectivity.md#lookup-and-diagnostic-tools) | Tool | Free |
 | [Munki](https://github.com/munki/munki) | Munki | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Tool | Free |
 | [MxToolbox Blacklist Check](https://mxtoolbox.com/blacklists.aspx) | MxToolbox | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
+| [MxToolbox SuperTool](https://mxtoolbox.com/SuperTool.aspx) | MxToolbox | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#dns-ip-and-registration-lookups) | Online service | Free |
 | [MySQLTuner](https://github.com/major/MySQLTuner-perl) | Major Hayden (major) | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Free |
 | [Mythic](https://github.com/its-a-feature/Mythic) | Cody Thomas (its-a-feature) | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
 
@@ -627,7 +695,9 @@
 | [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/) | NCSC, a part of GCHQ | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
 | [National Cyber Security Centre (New Zealand)](https://www.ncsc.govt.nz/) | National Cyber Security Centre, New Zealand | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
 | [National Vulnerability Database (NVD)](https://nvd.nist.gov/) | NIST | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
+| [Ncat](https://nmap.org/ncat/) | Nmap Project | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Tool | Free |
 | [NCC Group Research](https://www.nccgroup.com/research/) | NCC Group | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [ncdu](https://dev.yorhel.nl/ncdu) | Yorhel | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
 | [NCSC reports and advisories](https://www.ncsc.gov.uk/section/keep-up-to-date/reports-advisories) | NCSC, a part of GCHQ | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [NCSC vulnerability management guidance](https://www.ncsc.gov.uk/collection/vulnerability-management) | NCSC, a part of GCHQ | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Reference | Free |
 | [NCSC-NL](https://www.ncsc.nl/en) | National Cyber Security Centre, Netherlands | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
@@ -650,8 +720,11 @@
 | [Nmap](https://nmap.org/) | Nmap Project | [Offensive security](domains/offensive-security.md#network-scanning) | Tool | Free |
 | [The No More Ransom Project](https://www.nomoreransom.org/) | Europol, the Dutch police, Kaspersky, and McAfee | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Online service | Free |
 | [Node exporter](https://github.com/prometheus/node_exporter) | Prometheus, a CNCF project | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#metrics-and-monitoring-systems) | Tool | Free |
+| [Node.js Releases](https://nodejs.org/en/about/previous-releases) | OpenJS Foundation | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [Node.js vulnerability announcements](https://nodejs.org/en/blog/vulnerability) | Node.js | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [NSA Cybersecurity Advisories & Guidance](https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/) | National Security Agency | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
+| [NsLookup.io DNS lookup](https://www.nslookup.io/) | NsLookup.io | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#dns-ip-and-registration-lookups) | Online service | Free |
+| [NTP Pool Project](https://www.ntppool.org/en/) | NTP Pool Project (Develooper LLC) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Free |
 | [Nuclei](https://github.com/projectdiscovery/nuclei) | ProjectDiscovery | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates) | ProjectDiscovery | [Vulnerability management](domains/vulnerability-management.md#scanners) | Dataset or feed | Free |
 | [Nudge](https://github.com/macadmins/nudge) | Mac Admins Open Source | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Tool | Free |
@@ -666,7 +739,9 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [OAuth 2.0](https://oauth.net/2/) | Aaron Parecki | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
+| [OAuth 2.0 Debugger](https://oauthdebugger.com/) | Nate Barbettini | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#decoders-encoders-and-converters) | Online service | Free |
 | [Observability in Google Cloud](https://docs.cloud.google.com/stackdriver/docs) | Google | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#cloud-and-vendor-platforms) | Vendor documentation | Free |
+| [Obtaining service for your Apple product after an expired warranty](https://support.apple.com/en-us/102772) | Apple | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#hardware-and-network-vendors) | Reference | Free |
 | [OCS Inventory](https://ocsinventory-ng.org/?lang=en) | FactorFX | [IT service management and operations](domains/it-service-management-and-operations.md#asset-and-configuration-management) | Tool | Freemium |
 | [Office updates](https://learn.microsoft.com/en-us/officeupdates/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [The official Checkmk User Guide](https://docs.checkmk.com/latest/en/) | Checkmk GmbH | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#metrics-and-monitoring-systems) | Vendor documentation | Free |
@@ -687,7 +762,10 @@
 | [OpenSearch Documentation](https://docs.opensearch.org/latest/index.html) | OpenSearch, a Linux Foundation project | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
 | [OpenShift Container Platform (Red Hat Documentation)](https://docs.redhat.com/en/documentation/openshift_container_platform/) | Red Hat | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#containers-and-kubernetes) | Vendor documentation | Free |
 | [OpenSSH Security](https://www.openssh.org/security.html) | OpenSSH | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
+| [OpenSSL Cookbook](https://www.feistyduck.com/library/openssl-cookbook/) | Feisty Duck Limited | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Reference | Free |
+| [OpenSSL Release Strategy](https://openssl-library.org/policies/releasestrat/) | OpenSSL | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [OpenSSL vulnerabilities](https://openssl-library.org/news/vulnerabilities/) | OpenSSL | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
+| [openssl-s_client manual page](https://docs.openssl.org/master/man1/openssl-s_client/) | OpenSSL | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Vendor documentation | Free |
 | [OpenTelemetry Documentation](https://opentelemetry.io/docs/) | OpenTelemetry Authors | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#tracing-and-open-standards) | Vendor documentation | Free |
 | [OpenTofu Documentation](https://opentofu.org/docs/) | OpenTofu, a Linux Foundation project | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Vendor documentation | Free |
 | [OPENVAS (Open Vulnerability Assessment Scanner)](https://www.openvas.org/) | Greenbone | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Freemium |
@@ -698,6 +776,8 @@
 | [Ops School](https://www.opsschool.org/) | Ops School | [IT service management and operations](domains/it-service-management-and-operations.md#incident-and-change-practice) | Training or lab | Free |
 | [Oracle AI Database Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/) | Oracle | [Databases and data platforms](domains/databases-and-data-platforms.md#relational-databases) | Vendor documentation | Free |
 | [Oracle Critical Patch Updates, Critical Security Patch Updates, Security Alerts and Bulletins](https://www.oracle.com/security-alerts/) | Oracle | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
+| [Oracle Java SE Support Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html) | Oracle | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
+| [Oracle Lifetime Support Policy](https://www.oracle.com/support/lifetime-support/) | Oracle | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [Oracle Linux Security](https://linux.oracle.com/security/) | Oracle | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Vendor documentation | Free |
 | [ORKL](https://orkl.eu/) | ORKL | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
 | [OSCAL](https://pages.nist.gov/OSCAL/) | NIST | [GRC and security program](domains/grc-and-security-program.md#nist-publications-and-tools) | Standard | Free |
@@ -728,6 +808,7 @@
 | [Packet Pushers](https://packetpushers.net/) | Packet Pushers Interactive, LLC | [Networking and connectivity](domains/networking-and-connectivity.md#learning-and-community) | News | Free |
 | [Packet Storm Security](https://packetstorm.news/) | Packet Storm Security, LLC | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Freemium |
 | [Pacu](https://github.com/RhinoSecurityLabs/pacu) | Rhino Security Labs | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#cloud-attack-techniques-and-practice) | Tool | Free |
+| [Palo Alto Networks End-of-Life Summary](https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary) | Palo Alto Networks | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#hardware-and-network-vendors) | Reference | Free |
 | [Palo Alto Networks Security Advisories](https://security.paloaltonetworks.com/) | Palo Alto Networks | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Palo Alto Networks TechDocs](https://docs.paloaltonetworks.com/) | Palo Alto Networks | [Networking and connectivity](domains/networking-and-connectivity.md#vendor-documentation) | Vendor documentation | Free |
 | [Patchstack Open Source Vulnerability Database](https://patchstack.com/database/) | Patchstack | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
@@ -744,6 +825,7 @@
 | [PgBouncer](https://www.pgbouncer.org/) | PgBouncer Authors | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Free |
 | [PGTune](https://pgtune.leopard.in.ua/) | Oleksii Vasyliev (le0pard) | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Online service | Free |
 | [PhishTank](https://phishtank.org/) | Cisco Talos | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
+| [PHP: Supported Versions](https://www.php.net/supported-versions.php) | The PHP Group | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [Pi-hole documentation](https://docs.pi-hole.net/) | Pi-hole | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |
 | [PingCastle](https://www.pingcastle.com/) | Netwrix | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Freemium |
 | [Planet PostgreSQL](https://planet.postgresql.org/) | PostgreSQL Global Development Group | [Databases and data platforms](domains/databases-and-data-platforms.md#learning-and-community) | News | Free |
@@ -758,6 +840,7 @@
 | [PostgreSQL Documentation](https://www.postgresql.org/docs/) | PostgreSQL Global Development Group | [Databases and data platforms](domains/databases-and-data-platforms.md#relational-databases) | Vendor documentation | Free |
 | [PostgreSQL Exercises](https://pgexercises.com/) | Alisdair Owens | [Databases and data platforms](domains/databases-and-data-platforms.md#learning-and-community) | Training or lab | Free |
 | [PostgreSQL Security Information](https://www.postgresql.org/support/security/) | PostgreSQL Global Development Group | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
+| [PostgreSQL Versioning Policy](https://www.postgresql.org/support/versioning/) | PostgreSQL Global Development Group | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [PostgreSQL wiki](https://wiki.postgresql.org/wiki/Main_Page) | PostgreSQL Global Development Group | [Databases and data platforms](domains/databases-and-data-platforms.md#relational-databases) | Reference | Free |
 | [Postman Docs](https://learning.postman.com/) | Postman | [Automation and scripting](domains/automation-and-scripting.md#apis-and-workflow-automation) | Vendor documentation | Free |
 | [Postmortem Templates](https://github.com/dastergon/postmortem-templates) | Pavlos Ratis (dastergon) | [IT service management and operations](domains/it-service-management-and-operations.md#incident-and-change-practice) | Dataset or feed | Free |
@@ -767,6 +850,7 @@
 | [PowerShell Documentation](https://learn.microsoft.com/en-us/powershell/) | Microsoft | [Automation and scripting](domains/automation-and-scripting.md#powershell) | Vendor documentation | Free |
 | [PowerShell Gallery](https://www.powershellgallery.com/) | Microsoft | [Automation and scripting](domains/automation-and-scripting.md#powershell) | Online service | Free |
 | [PowerShell Practice and Style](https://poshcode.gitbook.io/powershell-practice-and-style) | PoshCode | [Automation and scripting](domains/automation-and-scripting.md#powershell) | Reference | Free |
+| [PowerShell Support Lifecycle](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [PowerShell Team blog](https://devblogs.microsoft.com/powershell/) | Microsoft | [Automation and scripting](domains/automation-and-scripting.md#powershell) | News | Free |
 | [Practical 365](https://practical365.com/) | Quest Software | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | News | Free |
 | [pre-commit](https://pre-commit.com/) | pre-commit | [Automation and scripting](domains/automation-and-scripting.md#version-control-and-pipelines) | Tool | Free |
@@ -801,6 +885,7 @@
 | [QNAP Security Advisories](https://www.qnap.com/en/security-advisories) | QNAP | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Qualcomm Security Bulletins](https://docs.qualcomm.com/product/publicresources/securitybulletin/) | Qualcomm | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 | [Qualys Security Blog](https://blog.qualys.com/) | Qualys | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [Qualys SSL Labs SSL Server Test](https://www.ssllabs.com/ssltest/) | Qualys | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [Qualys VMDR](https://www.qualys.com/apps/vulnerability-management-detection-response) | Qualys | [Vulnerability management](domains/vulnerability-management.md#scanners) | Online service | Paid |
 
 ## R
@@ -813,12 +898,14 @@
 | [Rapid7 Blog](https://www.rapid7.com/blog/) | Rapid7 | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Rapid7 Vulnerability & Exploit Database](https://www.rapid7.com/db/) | Rapid7 | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [Rclone](https://rclone.org/) | Nick Craig-Wood | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Free |
+| [RDAP.org lookup](https://client.rdap.org/) | Gavin Brown | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#dns-ip-and-registration-lookups) | Online service | Free |
 | [recon-ng](https://github.com/lanmaster53/recon-ng) | Tim Tomes (lanmaster53) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [The Record](https://therecord.media/) | Recorded Future News | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Recorded Future Blog](https://www.recordedfuture.com/blog) | Recorded Future | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Red Canary Threat Detection Report](https://redcanary.com/threat-detection-report/) | Red Canary, a Zscaler company | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [Red Hat CVE Database](https://access.redhat.com/security/security-updates/cve) | Red Hat | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Dataset or feed | Free |
 | [Red Hat Enterprise Linux (Red Hat Documentation)](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/) | Red Hat | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |
+| [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata) | Red Hat | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [Red Hat Security Advisories](https://access.redhat.com/security/security-updates/) | Red Hat | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Redfish](https://www.dmtf.org/standards/redfish) | DMTF | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#storage-and-hardware) | Standard | Free |
 | [Redis Docs](https://redis.io/docs/latest/) | Redis Inc. | [Databases and data platforms](domains/databases-and-data-platforms.md#non-relational-streaming-and-data-platforms) | Vendor documentation | Free |
@@ -828,6 +915,7 @@
 | [Request Tracker](https://requesttracker.com/request-tracker/) | Best Practical Solutions, LLC | [IT service management and operations](domains/it-service-management-and-operations.md#service-desk-and-ticketing) | Tool | Freemium |
 | [Responder](https://github.com/lgandx/Responder) | lgandx | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
 | [restic](https://restic.net/) | restic | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Free |
+| [REUSE](https://reuse.software/) | Free Software Foundation Europe | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Standard | Free |
 | [Reverse Shell Generator](https://www.revshells.com/) | revshells.com | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Online service | Free |
 | [RFC 1034: Domain names - concepts and facilities](https://www.rfc-editor.org/info/rfc1034/) | IETF | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-standards-and-references) | Standard | Free |
 | [RFC 1035: Domain names - implementation and specification](https://www.rfc-editor.org/info/rfc1035/) | IETF | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-standards-and-references) | Standard | Free |
@@ -865,6 +953,7 @@
 | [rsync](https://rsync.samba.org/) | rsync project | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Free |
 | [rsyslog documentation](https://docs.rsyslog.com/doc/) | rsyslog (Rainer Gerhards and others) | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
 | [Rubeus](https://github.com/GhostPack/Rubeus) | GhostPack | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
+| [Ruby Maintenance Branches](https://www.ruby-lang.org/en/downloads/branches/) | Ruby community | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [Rufus](https://rufus.ie/) | Pete Batard (Akeo Consulting) | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [Rundeck Runbook Automation Documentation](https://docs.rundeck.com/docs/) | PagerDuty | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
 | [RustSec Advisory Database](https://rustsec.org/) | Rust Secure Code Working Group | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
@@ -873,6 +962,7 @@
 
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
+| [SadServers](https://sadservers.com/) | SadServers Inc. | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#quick-references-and-practice) | Training or lab | Freemium |
 | [Salt Table of Contents](https://docs.saltproject.io/en/latest/contents.html) | Salt Project | [Automation and scripting](domains/automation-and-scripting.md#configuration-management) | Vendor documentation | Free |
 | [Samba Security Updates and Information](https://www.samba.org/samba/history/security.html) | Samba | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [Samsung Mobile Security Updates](https://security.samsungmobile.com/securityUpdate.smsb) | Samsung | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
@@ -889,6 +979,7 @@
 | [Security Affairs](https://securityaffairs.com/) | Security Affairs | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Security Assertion Markup Language (SAML) v2.0](https://www.oasis-open.org/standard/saml/) | OASIS | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
 | [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol) | NIST | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
+| [Security Headers](https://securityheaders.com/) | Snyk | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [Security Now](https://twit.tv/shows/security-now) | TWiT | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [SECURITY.COM Threat Intelligence](https://www.security.com/threat-intelligence) | Broadcom | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [security.txt](https://securitytxt.org/) | securitytxt.org | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Standard | Free |
@@ -916,16 +1007,19 @@
 | [Snyk Security Database](https://security.snyk.io/) | Snyk | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [SOFA](https://sofa.macadmins.io/) | Mac Admins Open Source | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Dataset or feed | Free |
 | [SolarWinds Security Advisories](https://www.solarwinds.com/trust-center/security-advisories) | SolarWinds | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
+| [SonicWall Product Life Cycle Tables](https://www.sonicwall.com/support/product-lifecycle-tables) | SonicWall | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#hardware-and-network-vendors) | Reference | Free |
 | [SonicWall PSIRT vulnerability list](https://psirt.global.sonicwall.com/vuln-list) | SonicWall | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Sophos Blog: Threat Research](https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research) | Sophos | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Sophos Security Advisories](https://www.sophos.com/en-us/security-advisories) | Sophos | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Spamhaus](https://www.spamhaus.org/) | The Spamhaus Project | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 | [SPDX](https://spdx.dev/) | Linux Foundation | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
+| [SPDX License List](https://spdx.org/licenses/) | Linux Foundation | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Reference | Free |
 | [SpecterOps Blog](https://specterops.io/blog/) | SpecterOps | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Spiceworks Cloud Help Desk](https://www.spiceworks.com/free-cloud-help-desk-software/) | Spiceworks (owned by Ziff Davis Inc) | [IT service management and operations](domains/it-service-management-and-operations.md#service-desk-and-ticketing) | Online service | Freemium |
 | [SpiderFoot](https://github.com/smicallef/spiderfoot) | Steve Micallef (smicallef) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [Sploitus](https://sploitus.com/) | Sploitus | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Online service | Free |
 | [Splunk Security Advisories](https://advisory.splunk.com/) | Splunk | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
+| [SQL Server end of support options](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Vendor documentation | Free |
 | [SQL Server First Responder Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit) | Brent Ozar Unlimited | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Free |
 | [SQL Server Maintenance Solution](https://ola.hallengren.com/) | Ola Hallengren | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Free |
 | [SQL Server Management Studio documentation](https://learn.microsoft.com/en-us/ssms/) | Microsoft | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Vendor documentation | Free |
@@ -935,26 +1029,34 @@
 | [SQLite Documentation](https://www.sqlite.org/docs.html) | Hwaci | [Databases and data platforms](domains/databases-and-data-platforms.md#relational-databases) | Vendor documentation | Free |
 | [sqlmap](https://sqlmap.org/) | sqlmap project | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Free |
 | [SS64 Command line reference](https://ss64.com/) | SS64.com | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Reference | Free |
+| [SSH Configuration Auditor](https://www.ssh-audit.com/) | Positron Security | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [SSLBL](https://sslbl.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free |
 | [SSVC Calculator](https://certcc.github.io/SSVC/ssvc-calc/) | CERT/CC | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Online service | Free |
 | [SSVC documentation](https://certcc.github.io/SSVC/) | CERT/CC | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Standard | Free |
 | [Stakeholder-Specific Vulnerability Categorization (SSVC)](https://www.cisa.gov/resources-tools/resources/stakeholder-specific-vulnerability-categorization-ssvc) | CISA | [Vulnerability management](domains/vulnerability-management.md#prioritization-and-scoring) | Standard | Free |
+| [Status of Python versions](https://devguide.python.org/versions/) | Python Software Foundation | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [STIX and TAXII documentation](https://oasis-open.github.io/cti-documentation/) | OASIS Cyber Threat Intelligence Technical Committee | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Standard | Free |
 | [Storage Spaces Direct overview](https://learn.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview) | Microsoft | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#windows-server) | Vendor documentation | Free |
+| [strace](https://strace.io/) | strace | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
 | [subfinder](https://github.com/projectdiscovery/subfinder) | ProjectDiscovery | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [Sudo Security Advisories](https://www.sudo.ws/security/advisories/) | Sudo | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [Supermicro Security Center](https://www.supermicro.com/en/support/security_center) | Supermicro | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
+| [Supported Kubernetes versions in AKS](https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions) | Microsoft | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Vendor documentation | Free |
 | [SUSE CVE Database](https://www.suse.com/security/cve/) | SUSE | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Dataset or feed | Free |
 | [SUSE Documentation](https://documentation.suse.com/) | SUSE | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |
+| [SUSE Product Support Lifecycle](https://www.suse.com/lifecycle/) | SUSE | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [SUSE Update Advisories](https://www.suse.com/support/update/) | SUSE | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Syft](https://github.com/anchore/syft) | Anchore | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [Synapse documentation](https://element-hq.github.io/synapse/latest/) | Element | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#collaboration-platforms) | Vendor documentation | Free |
 | [Synology Product Security Advisory](https://www.synology.com/en-us/security/advisory) | Synology | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
+| [Synology Product Support Status](https://www.synology.com/en-global/products/status) | Synology | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#hardware-and-network-vendors) | Reference | Free |
 | [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Tool | Free |
 | [syslog-ng documentation](https://syslog-ng.github.io/) | One Identity | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
+| [sysstat](https://sysstat.github.io/) | Sébastien Godard | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
 | [System Administrators' Code of Ethics](https://www.usenix.org/system-administrators-code-ethics) | USENIX | [IT service management and operations](domains/it-service-management-and-operations.md#incident-and-change-practice) | Reference | Free |
 | [systemd](https://systemd.io/) | systemd | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |
 | [systemd-journald.service](https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.service.html) | systemd | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
+| [SystemRescue](https://www.system-rescue.org/) | SystemRescue | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
 
 ## T
 
@@ -966,11 +1068,14 @@
 | [Team Cymru Blog](https://www.team-cymru.com/blog) | Team Cymru | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [TechCrunch: Security](https://techcrunch.com/category/security/) | TechCrunch | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Telegraf documentation](https://docs.influxdata.com/telegraf/v1/) | InfluxData | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#metrics-and-monitoring-systems) | Vendor documentation | Free |
+| [Temurin Support](https://adoptium.net/support/) | Eclipse Foundation | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#languages-databases-and-runtimes) | Reference | Free |
 | [Tenable Blog](https://www.tenable.com/blog) | Tenable | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Tenable CVEs](https://www.tenable.com/cve) | Tenable | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [Tenable Nessus](https://www.tenable.com/products/nessus) | Tenable | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Paid |
 | [Terraform Documentation](https://developer.hashicorp.com/terraform/docs) | HashiCorp, an IBM company | [Cloud platform administration](domains/cloud-platform-administration.md#multi-cloud-and-infrastructure-as-code) | Vendor documentation | Free |
 | [Test your IPv6](https://test-ipv6.com/) | APNIC Labs | [Networking and connectivity](domains/networking-and-connectivity.md#lookup-and-diagnostic-tools) | Online service | Free |
+| [TestDisk](https://www.cgsecurity.org/wiki/TestDisk) | Christophe Grenier (CGSecurity) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#rescue-and-system-diagnostics) | Tool | Free |
+| [testssl.sh](https://testssl.sh/) | Dr. Wetter IT-Consulting | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Tool | Free |
 | [theHarvester](https://github.com/laramies/theHarvester) | Christian Martorella (laramies) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [Threat Actor Groups Tracked by Unit 42](https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/) | Palo Alto Networks | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Threat Group Cards: A Threat Actor Encyclopedia](https://apt.etda.or.th/cgi-bin/aptgroups.cgi) | Electronic Transactions Development Agency (ETDA), Thailand | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
@@ -978,6 +1083,7 @@
 | [Timesketch](https://github.com/google/timesketch) | Google | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
 | [tl;dr sec](https://tldrsec.com/) | tl;dr sec | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [tldr pages](https://tldr.sh/) | tldr pages | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Reference | Free |
+| [TLDRLegal](https://www.tldrlegal.com/) | FOSSA, Inc. | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Reference | Free |
 | [Track new and changed features in the Microsoft 365 Message center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Vendor documentation | Free |
 | [Traffic Light Protocol (TLP)](https://www.first.org/tlp/) | FIRST | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Standard | Free |
 | [The Trail of Bits Blog](https://blog.trailofbits.com/) | Trail of Bits | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
@@ -995,6 +1101,8 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [Ubuntu CVE reports](https://ubuntu.com/security/cves) | Canonical | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Dataset or feed | Free |
+| [Ubuntu Pro](https://ubuntu.com/pro) | Canonical | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#support-plans-and-portals) | Vendor documentation | Freemium |
+| [Ubuntu release cycle](https://ubuntu.com/about/release-cycle) | Canonical | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#operating-systems-and-platforms) | Reference | Free |
 | [Ubuntu Security Notices](https://ubuntu.com/security/notices) | Canonical | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Ubuntu Server documentation](https://ubuntu.com/server/docs/) | Canonical | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |
 | [Unbound documentation](https://unbound.docs.nlnetlabs.nl/en/latest/) | NLnet Labs | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |
@@ -1015,6 +1123,7 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [Valkey Documentation](https://valkey.io/docs/) | Valkey contributors | [Databases and data platforms](domains/databases-and-data-platforms.md#non-relational-streaming-and-data-platforms) | Vendor documentation | Free |
+| [Various Licenses and Comments about Them](https://www.gnu.org/licenses/license-list.html) | GNU Project (Free Software Foundation) | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Reference | Free |
 | [The Vector documentation](https://vector.dev/docs/) | Datadog | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
 | [Veeam Help Center](https://helpcenter.veeam.com/) | Veeam Software | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#platform-and-vendor-backup) | Vendor documentation | Free |
 | [Velero](https://velero.io/) | Velero, a CNCF project | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#backup-tools) | Tool | Free |
@@ -1050,6 +1159,7 @@
 | [Wayback Machine](https://web.archive.org/) | Internet Archive | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Free |
 | [Wazuh](https://wazuh.com/) | Wazuh, Inc. | [Detection and response](domains/detection-and-response.md#detection-platforms) | Tool | Free |
 | [wbadmin](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wbadmin) | Microsoft | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#platform-and-vendor-backup) | Vendor documentation | Free |
+| [Webhook.site](https://webhook.site/) | Webhook ApS | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Online service | Freemium |
 | [WeLiveSecurity](https://www.welivesecurity.com/en/) | ESET | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [What's new in Microsoft Intune](https://learn.microsoft.com/en-us/intune/whats-new/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Reference | Free |
 | [What's new in Windows](https://learn.microsoft.com/en-us/windows/whats-new/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
@@ -1077,7 +1187,10 @@
 | [winget-pkgs](https://github.com/microsoft/winget-pkgs) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Dataset or feed | Free |
 | [WIRED: Security](https://www.wired.com/category/security/) | Condé Nast | [News and research](domains/news-and-research.md#news-sites) | News | Freemium |
 | [Wireshark](https://www.wireshark.org/) | Wireshark Foundation | [Network security](domains/network-security.md#traffic-capture-and-analysis) | Tool | Free |
+| [Wireshark Display Filter Reference](https://www.wireshark.org/docs/dfref/) | Wireshark Foundation | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Reference | Free |
 | [Wireshark Security Advisories](https://www.wireshark.org/security/) | Wireshark Foundation | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
+| [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/) | Wireshark Foundation | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Vendor documentation | Free |
+| [Wireshark Wiki: SampleCaptures](https://wiki.wireshark.org/SampleCaptures) | Wireshark Foundation | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Dataset or feed | Free |
 | [Wiz Blog](https://www.wiz.io/blog) | Wiz (part of Google Cloud) | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#provider-security-pages-and-research) | Research blog | Free |
 | [Wordfence Intelligence Vulnerability Database](https://www.wordfence.com/threat-intel/vulnerabilities/) | Wordfence | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free with account |
 | [WordPress News: Security](https://wordpress.org/news/category/security/) | WordPress | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
