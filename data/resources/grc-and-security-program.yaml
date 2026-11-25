@@ -22,7 +22,7 @@
   section: frameworks-and-controls
   kind: standard
   cost: free
-  description: "Security and privacy control catalog for information systems and organizations; the page links Release 5.2.0, issued in August 2025."
+  description: "NIST's control catalog for security and privacy; this page carries the Rev. 5 publication, Release 5.2.0, and analyses of what changed between revisions."
   checked:
     date: "2026-11-25"
     status: 200
@@ -36,7 +36,7 @@
   section: frameworks-and-controls
   kind: standard
   cost: free
-  description: "Prioritized set of security practices from the Center for Internet Security; the page presents version 8.1."
+  description: "Prioritized safeguards for defending an organization, published by CIS; the page presents version 8.1 and links its mappings to other frameworks."
   checked:
     date: "2026-11-25"
     status: 200
@@ -66,7 +66,7 @@
   section: nist-publications-and-tools
   kind: reference
   cost: free
-  description: "NIST's library of cybersecurity and information security projects, publications, news, and events."
+  description: "NIST's home for its computer security work: Special Publications, FIPS, drafts open for comment, project pages, and news."
   checked:
     date: "2026-11-25"
     status: 200
@@ -80,7 +80,7 @@
   section: nist-publications-and-tools
   kind: standard
   cost: free
-  description: "Open Security Controls Assessment Language: NIST-led machine-readable formats for control-related information, built to support automated assessment."
+  description: "NIST-led formats for expressing security control information so that software can read it and assessments can be automated."
   checked:
     date: "2026-11-25"
     status: 200
@@ -94,7 +94,7 @@
   section: nist-publications-and-tools
   kind: service
   cost: free
-  description: "Tool for browsing and downloading reference data from NIST cybersecurity and privacy standards, guidelines, and frameworks in XLSX and JSON."
+  description: "NIST's lookup tool that puts the contents of its cybersecurity and privacy publications in one browsable dataset, with XLSX and JSON downloads."
   checked:
     date: "2026-11-25"
     status: 200

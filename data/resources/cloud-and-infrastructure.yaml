@@ -8,7 +8,7 @@
   section: assessment-tools
   kind: tool
   cost: free
-  description: "Open source tool that automates security and compliance checks across cloud environments, with a CLI and a local server."
+  description: "Runs security and compliance checks against cloud accounts from a CLI or a self-hosted server, with a dashboard for the findings."
   checked:
     date: "2026-11-25"
     status: 200
@@ -40,7 +40,7 @@
   section: assessment-tools
   kind: tool
   cost: free
-  description: "Checks whether Kubernetes is deployed according to the security practices in the CIS Kubernetes Benchmark."
+  description: "Runs the checks of the CIS Kubernetes Benchmark against a cluster and reports which pass, with job files for EKS, AKS, and other managed services."
   checked:
     date: "2026-11-25"
     status: 200
@@ -56,7 +56,7 @@
   cost: free
   maintenance:
     state: unmaintained
-  description: "Hunts for security weaknesses in Kubernetes clusters; its README now recommends Trivy for this work."
+  description: "Probes a Kubernetes cluster from outside or from inside a pod for weaknesses; its README now recommends Trivy for this work."
   checked:
     date: "2026-11-25"
     status: 200
@@ -72,7 +72,7 @@
   also_in: [detection-and-response/platforms]
   kind: tool
   cost: free
-  description: "Cloud native runtime security tool for Linux that watches kernel events such as syscalls and alerts on abnormal behavior."
+  description: "CNCF graduated project, created by Sysdig, that watches Linux kernel events and raises alerts when they match its rules for abnormal behavior."
   checked:
     date: "2026-11-25"
     status: 200
@@ -86,7 +86,7 @@
   section: attack-techniques
   kind: tool
   cost: free
-  description: "AWS exploitation framework for testing the security of Amazon Web Services environments."
+  description: "Rhino Security Labs' modular framework for attacking an AWS account in an authorized test: privilege escalation, IAM backdoors, Lambda abuse, and more modules."
   checked:
     date: "2026-11-25"
     status: 200
@@ -100,7 +100,7 @@
   section: attack-techniques
   kind: tool
   cost: free
-  description: "Automates situational awareness for cloud penetration tests."
+  description: "Bishop Fox's command-line tool that enumerates an AWS, Azure, or GCP environment for a penetration tester and points to exploitable attack paths."
   checked:
     date: "2026-11-25"
     status: 200
@@ -114,7 +114,7 @@
   section: attack-techniques
   kind: reference
   cost: free
-  description: "Encyclopedia of the attacks, tactics, and techniques that offensive security professionals use in cloud environments."
+  description: "Volunteer-written reference on attacking cloud services, with the stated aim of helping defenders understand those techniques."
   checked:
     date: "2026-11-25"
     status: 200
@@ -128,7 +128,7 @@
   section: attack-techniques
   kind: training
   cost: free
-  description: "A challenge that teaches common AWS security mistakes through a series of levels."
+  description: "Scott Piper's hands-on AWS challenge: each level hides a common misconfiguration to find, with hints if you get stuck."
   checked:
     date: "2026-11-25"
     status: 200

@@ -8,7 +8,7 @@
   section: rules-and-analytics
   kind: dataset
   cost: free
-  description: "Main repository of Sigma, the generic signature format for SIEM systems, with its library of detection rules."
+  description: "The SigmaHQ rule repository: vendor-neutral detection rules grouped into generic, threat hunting, and emerging threat sets, with release packages."
   checked:
     date: "2026-11-25"
     status: 200
@@ -98,7 +98,7 @@
   section: platforms
   kind: tool
   cost: free
-  description: "Free and open source security platform that combines XDR and SIEM functions for endpoints and cloud workloads."
+  description: "Open source agent-and-server platform for endpoint and cloud workload monitoring: file integrity, configuration assessment, vulnerability detection, and log analysis, with a paid hosted option."
   checked:
     date: "2026-11-25"
     status: 200
@@ -116,7 +116,7 @@
   maintenance:
     state: unmaintained
     since: "2023-01-01"
-  description: "Scripts that build a Windows domain lab with security tooling and logging preinstalled."
+  description: "Vagrant, Packer, and Terraform code that stands up a Windows domain lab with Sysmon, osquery, and event forwarding already configured."
   checked:
     date: "2026-11-25"
     status: 200
@@ -134,7 +134,7 @@
   maintenance:
     state: dormant
     since: "2023-01"
-  description: "Windows event log samples for specific attack and post-exploitation techniques, for testing detections and practicing hunting."
+  description: "Recorded Windows event logs of attack techniques, filed by ATT&CK tactic, for replaying against detections or practicing hunts."
   checked:
     date: "2026-11-25"
     status: 200

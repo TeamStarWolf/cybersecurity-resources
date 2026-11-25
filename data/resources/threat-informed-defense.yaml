@@ -8,7 +8,7 @@
   section: knowledge-bases
   kind: reference
   cost: free
-  description: "Knowledge base of adversary tactics and techniques based on real-world observations; the shared reference for mapping detections, intelligence, and tests."
+  description: "MITRE's matrix of attacker tactics and techniques, with linked pages for groups, software, campaigns, mitigations, and data sources; the common reference for mapping detections."
   checked:
     date: "2026-11-25"
     status: 200
@@ -22,7 +22,7 @@
   section: knowledge-bases
   kind: reference
   cost: free
-  description: "Knowledge graph of defensive countermeasure techniques and their relationships to the adversary techniques they address."
+  description: "MITRE's graph of defensive techniques, such as asset inventory and network mapping, each tied to the ATT&CK techniques it counters."
   checked:
     date: "2026-11-25"
     status: 200
@@ -50,7 +50,7 @@
   section: knowledge-bases
   kind: reference
   cost: free
-  description: "MITRE's framework for conducting denial, deception, and adversary engagement activities."
+  description: "MITRE's framework for active defense: how defenders can deny, deceive, and engage an adversary."
   checked:
     date: "2026-11-25"
     status: 403
@@ -65,7 +65,7 @@
   section: knowledge-bases
   kind: reference
   cost: free
-  description: "Threat model for embedded devices: a knowledge base of device threats and the security mechanisms that mitigate them."
+  description: "MITRE's catalog of threats to embedded devices, organized by device properties and paired with mitigations, for vendors, asset owners, and security testers."
   checked:
     date: "2026-11-25"
     status: 200
@@ -79,7 +79,7 @@
   section: ctid-projects
   kind: organization
   cost: free
-  description: "Research and development consortium operated by MITRE; start here to find its published projects on threat-informed defense."
+  description: "MITRE-run nonprofit that does collaborative research with participant organizations; its site lists the projects, the impact report, and how to join."
   checked:
     date: "2026-11-25"
     status: 200
@@ -94,7 +94,7 @@
   section: ctid-projects
   kind: reference
   cost: free
-  description: "Shows how security controls and capabilities, including NIST 800-53, CIS Controls, and cloud platform features, map to ATT&CK techniques."
+  description: "Searchable mappings from ATT&CK techniques to frameworks and platforms, among them NIST 800-53, CIS Controls, CSA CCM, VERIS, Azure, and Microsoft 365."
   checked:
     date: "2026-11-25"
     status: 200

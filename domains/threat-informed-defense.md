@@ -20,11 +20,11 @@ Where is the shared map of how attacks and defenses work?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [MITRE ATT&CK](https://attack.mitre.org/) | MITRE | Knowledge base of adversary tactics and techniques based on real-world observations; the shared reference for mapping detections, intelligence, and tests. | Reference | Free |
-| [MITRE D3FEND](https://d3fend.mitre.org/) | MITRE | Knowledge graph of defensive countermeasure techniques and their relationships to the adversary techniques they address. | Reference | Free |
+| [MITRE ATT&CK](https://attack.mitre.org/) | MITRE | MITRE's matrix of attacker tactics and techniques, with linked pages for groups, software, campaigns, mitigations, and data sources; the common reference for mapping detections. | Reference | Free |
+| [MITRE D3FEND](https://d3fend.mitre.org/) | MITRE | MITRE's graph of defensive techniques, such as asset inventory and network mapping, each tied to the ATT&CK techniques it counters. | Reference | Free |
 | [MITRE ATLAS](https://atlas.mitre.org/) | MITRE | Knowledge base of adversary tactics and techniques involving AI systems, with mitigations and case studies. | Reference | Free |
-| [MITRE Engage](https://engage.mitre.org/) \* | MITRE | MITRE's framework for conducting denial, deception, and adversary engagement activities. | Reference | Free |
-| [MITRE EMB3D](https://emb3d.mitre.org/) | MITRE | Threat model for embedded devices: a knowledge base of device threats and the security mechanisms that mitigate them. | Reference | Free |
+| [MITRE Engage](https://engage.mitre.org/) \* | MITRE | MITRE's framework for active defense: how defenders can deny, deceive, and engage an adversary. | Reference | Free |
+| [MITRE EMB3D](https://emb3d.mitre.org/) | MITRE | MITRE's catalog of threats to embedded devices, organized by device properties and paired with mitigations, for vendors, asset owners, and security testers. | Reference | Free |
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | Knowledge base of detection analytics based on the ATT&CK model, with pseudocode and some direct implementations. | Reference | Free |
 | [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/) | MITRE | Community-developed list of software and hardware weakness types, with guidance on mapping a vulnerability to its root cause. | Reference | Free |
 | [Common Attack Pattern Enumeration and Classification (CAPEC)](https://capec.mitre.org/) | MITRE | Community catalog of attack patterns, for identifying and understanding how attacks are carried out. *Last updated in January 2023.* | Reference | Free |
@@ -37,8 +37,8 @@ What has been built on top of ATT&CK?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Center for Threat-Informed Defense](https://ctid.mitre.org/) | MITRE | Research and development consortium operated by MITRE; start here to find its published projects on threat-informed defense. | Organization | Free |
-| [Mappings Explorer](https://ctid.mitre.org/mappings/) | Center for Threat-Informed Defense | Shows how security controls and capabilities, including NIST 800-53, CIS Controls, and cloud platform features, map to ATT&CK techniques. | Reference | Free |
+| [Center for Threat-Informed Defense](https://ctid.mitre.org/) | MITRE | MITRE-run nonprofit that does collaborative research with participant organizations; its site lists the projects, the impact report, and how to join. | Organization | Free |
+| [Mappings Explorer](https://ctid.mitre.org/mappings/) | Center for Threat-Informed Defense | Searchable mappings from ATT&CK techniques to frameworks and platforms, among them NIST 800-53, CIS Controls, CSA CCM, VERIS, Azure, and Microsoft 365. | Reference | Free |
 | [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) | Center for Threat-Informed Defense | Language for describing how adversaries combine and sequence offensive techniques; the documentation covers version 4.0. | Standard | Free |
 | [KEV mappings (Mappings Explorer)](https://ctid.mitre.org/mappings/external/kev/) | Center for Threat-Informed Defense | Mappings Explorer's view of the Known Exploited Vulnerabilities catalog, tying its entries to ATT&CK behaviors; the newest mapped KEV version is from July 2025. | Reference | Free |
 

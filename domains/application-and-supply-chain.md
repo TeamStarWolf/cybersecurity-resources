@@ -19,12 +19,12 @@ What should the application be built and tested against?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [OWASP Top 10](https://owasp.org/projects/top-ten) | OWASP Foundation | Standard awareness document on the most critical web application security risks; the current release is the OWASP Top 10 2025. | Standard | Free |
-| [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | OWASP Foundation | Framework of security requirements for designing, developing, and testing web applications and services; the site offers version 5.0.0. | Standard | Free |
-| [OWASP Web Security Testing Guide](https://owasp.org/projects/web-security-testing-guide) | OWASP Foundation | OWASP's testing guide for web application developers and security professionals. | Reference | Free |
-| [OWASP Mobile Application Security](https://mas.owasp.org/) | OWASP Foundation | OWASP's mobile security project, with the MASVS verification standard and a list of weaknesses specific to mobile apps. | Standard | Free |
-| [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | OWASP Foundation | Concise guidance on specific application security topics, one cheat sheet per topic. | Reference | Free |
-| [OWASP SAMM](https://owaspsamm.org/) | OWASP Foundation | Software Assurance Maturity Model: a measurable way for an organization to analyze and improve its software security posture. | Standard | Free |
+| [OWASP Top 10](https://owasp.org/projects/top-ten) | OWASP Foundation | OWASP's ranked list of the ten risk categories that matter most in web applications, revised every few years; 2025 is the current edition. | Standard | Free |
+| [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | OWASP Foundation | OWASP's checklist of verifiable security requirements for web applications and services, downloadable as PDF, Word, or CSV; the current version is 5.0.0. | Standard | Free |
+| [OWASP Web Security Testing Guide](https://owasp.org/projects/web-security-testing-guide) | OWASP Foundation | OWASP's guide to testing the security of web applications; the project page links the guide's own site and its versioned releases. | Reference | Free |
+| [OWASP Mobile Application Security](https://mas.owasp.org/) | OWASP Foundation | OWASP's mobile security project: the MASVS standard, the MASWE weakness list, and the MASTG testing guide. | Standard | Free |
+| [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | OWASP Foundation | Short, practical write-ups from OWASP, one per topic, each summarizing how to handle a particular application security problem. | Reference | Free |
+| [OWASP SAMM](https://owaspsamm.org/) | OWASP Foundation | OWASP's maturity model for software security programs, with an assessment to score your organization and a benchmark to compare it with others. | Standard | Free |
 
 ## Design and review tools
 

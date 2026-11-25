@@ -20,11 +20,11 @@ Is this account or cluster configured safely?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Prowler](https://github.com/prowler-cloud/prowler) | Prowler | Open source tool that automates security and compliance checks across cloud environments, with a CLI and a local server. | Tool | Free |
+| [Prowler](https://github.com/prowler-cloud/prowler) | Prowler | Runs security and compliance checks against cloud accounts from a CLI or a self-hosted server, with a dashboard for the findings. | Tool | Free |
 | [Scout Suite](https://github.com/nccgroup/ScoutSuite) | NCC Group | Open source multi-cloud auditing tool that gathers configuration data through provider APIs and highlights risk areas. *Last updated in May 2024.* | Tool | Free |
-| [kube-bench](https://github.com/aquasecurity/kube-bench) | Aqua Security | Checks whether Kubernetes is deployed according to the security practices in the CIS Kubernetes Benchmark. | Tool | Free |
-| [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Aqua Security | Hunts for security weaknesses in Kubernetes clusters; its README now recommends Trivy for this work. *No longer actively maintained.* | Tool | Free |
-| [Falco](https://github.com/falcosecurity/falco) | The Falco Project | Cloud native runtime security tool for Linux that watches kernel events such as syscalls and alerts on abnormal behavior. | Tool | Free |
+| [kube-bench](https://github.com/aquasecurity/kube-bench) | Aqua Security | Runs the checks of the CIS Kubernetes Benchmark against a cluster and reports which pass, with job files for EKS, AKS, and other managed services. | Tool | Free |
+| [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Aqua Security | Probes a Kubernetes cluster from outside or from inside a pod for weaknesses; its README now recommends Trivy for this work. *No longer actively maintained.* | Tool | Free |
+| [Falco](https://github.com/falcosecurity/falco) | The Falco Project | CNCF graduated project, created by Sysdig, that watches Linux kernel events and raises alerts when they match its rules for abnormal behavior. | Tool | Free |
 | [Trivy](https://github.com/aquasecurity/trivy) | Aqua Security | Scanner that finds vulnerabilities, misconfigurations, secrets, and SBOM contents in container images, filesystems, Git repositories, virtual machine images, and Kubernetes. | Tool | Free |
 
 Listed here from another domain: Trivy ([Vulnerability management](vulnerability-management.md#scanners)).
@@ -35,10 +35,10 @@ How are cloud environments attacked?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Pacu](https://github.com/RhinoSecurityLabs/pacu) | Rhino Security Labs | AWS exploitation framework for testing the security of Amazon Web Services environments. | Tool | Free |
-| [CloudFox](https://github.com/BishopFox/cloudfox) | Bishop Fox | Automates situational awareness for cloud penetration tests. | Tool | Free |
-| [Hacking The Cloud](https://hackingthe.cloud/) | Hacking The Cloud (volunteer contributors) | Encyclopedia of the attacks, tactics, and techniques that offensive security professionals use in cloud environments. | Reference | Free |
-| [flAWS](http://flaws.cloud/) | Scott Piper | A challenge that teaches common AWS security mistakes through a series of levels. | Training or lab | Free |
+| [Pacu](https://github.com/RhinoSecurityLabs/pacu) | Rhino Security Labs | Rhino Security Labs' modular framework for attacking an AWS account in an authorized test: privilege escalation, IAM backdoors, Lambda abuse, and more modules. | Tool | Free |
+| [CloudFox](https://github.com/BishopFox/cloudfox) | Bishop Fox | Bishop Fox's command-line tool that enumerates an AWS, Azure, or GCP environment for a penetration tester and points to exploitable attack paths. | Tool | Free |
+| [Hacking The Cloud](https://hackingthe.cloud/) | Hacking The Cloud (volunteer contributors) | Volunteer-written reference on attacking cloud services, with the stated aim of helping defenders understand those techniques. | Reference | Free |
+| [flAWS](http://flaws.cloud/) | Scott Piper | Scott Piper's hands-on AWS challenge: each level hides a common misconfiguration to find, with hints if you get stuck. | Training or lab | Free |
 
 ## Provider security pages and research
 

@@ -8,7 +8,7 @@
   section: indicator-lookup
   kind: dataset
   cost: free-with-account
-  description: "Platform from abuse.ch and Spamhaus for sharing URLs used to distribute malware: search it, report URLs, or pull the data through its API."
+  description: "Shared database of URLs that serve malware, run by abuse.ch with Spamhaus: browse or search it, report new URLs, or pull the data by API."
   checked:
     date: "2026-11-25"
     status: 200
@@ -24,7 +24,7 @@
   also_in: [dfir-and-malware-analysis/sandboxes]
   kind: dataset
   cost: free-with-account
-  description: "Platform from abuse.ch and Spamhaus for sharing malware samples: search the database, upload a sample, set alerts, or query the API."
+  description: "Shared repository of malware samples, run by abuse.ch with Spamhaus: look up a sample, upload one, set alerts for new sightings, or use the API."
   checked:
     date: "2026-11-25"
     status: 200
@@ -39,7 +39,7 @@
   section: indicator-lookup
   kind: dataset
   cost: free-with-account
-  description: "Platform from abuse.ch and Spamhaus for sharing indicators of compromise tied to malware: search an indicator, or export and query the data."
+  description: "Shared database of indicators of compromise linked to malware families, run by abuse.ch with Spamhaus, with search, submission, and an API."
   checked:
     date: "2026-11-25"
     status: 200
@@ -69,7 +69,7 @@
   section: indicator-lookup
   kind: service
   cost: free-with-account
-  description: "Platform from abuse.ch and Spamhaus that scans a suspicious file against a large repository of YARA rules, with hunting alerts and an API."
+  description: "Scans a submitted file with YARA rules shared on the site, with search over past scans, hunting alerts, and an API; run by abuse.ch."
   checked:
     date: "2026-11-25"
     status: 200
@@ -158,7 +158,7 @@
   section: internet-scan-data
   kind: service
   cost: freemium
-  description: "Search engine for internet-connected devices and the services they expose, with monitoring, maps, and a developer API."
+  description: "Indexes the devices and services reachable from the internet so that you can search them, monitor your own exposure, and query the data by API."
   checked:
     date: "2026-11-25"
     status: 200
@@ -205,7 +205,7 @@
   also_in: [offensive-security/recon-and-osint]
   kind: service
   cost: free
-  description: "Certificate search: enter a domain name, organization name, or certificate fingerprint to list matching certificates."
+  description: "Searches Certificate Transparency logs: look up a domain or organization to list the certificates logged for it; run by Sectigo."
   checked:
     date: "2026-11-25"
     status: 200
@@ -320,7 +320,7 @@
   section: adversary-tracking
   kind: reference
   cost: free
-  description: "Microsoft's weather-themed naming taxonomy, with the full list of tracked actors, their previous names, and origin details."
+  description: "Explains Microsoft's weather-themed names for threat actors and tabulates each tracked actor with its origin and the other names it goes by."
   checked:
     date: "2026-11-25"
     status: 200
@@ -364,7 +364,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Microsoft Security Blog posts on threat intelligence, from the Microsoft Threat Intelligence community."
+  description: "The threat intelligence topic of the Microsoft Security Blog: campaign write-ups, actor activity, and detection guidance from Microsoft's researchers."
   checked:
     date: "2026-11-25"
     status: 200
@@ -465,7 +465,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Kaspersky's threat research site: threat intelligence reports, malware research, APT analysis, and statistics."
+  description: "Kaspersky's research site, home of its GReAT team: malware and crimeware reports, vulnerability write-ups, industrial threats, and incident response posts."
   checked:
     date: "2026-11-25"
     status: 200
@@ -479,7 +479,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Research from Volexity's threat intelligence and incident response teams, with posts on memory analysis and memory forensics."
+  description: "Volexity's write-ups of intrusions and exploitation campaigns it has investigated, alongside posts on memory forensics."
   checked:
     date: "2026-11-25"
     status: 200
@@ -580,7 +580,7 @@
   section: annual-reports
   kind: report
   cost: free-with-account
-  description: "IBM's annual X-Force Threat Intelligence Index, with the report and a companion webinar."
+  description: "IBM's yearly report on the attack trends its X-Force team observed; the page offers the report and a webinar."
   checked:
     date: "2026-11-25"
     status: 200
@@ -595,7 +595,7 @@
   section: platforms-and-standards
   kind: tool
   cost: free
-  description: "Open source threat intelligence platform for collecting, storing, correlating, and sharing indicators, with open standards for exchange."
+  description: "Platform that organizations run to collect, correlate, and exchange threat indicators with each other; open source, with published exchange formats."
   checked:
     date: "2026-11-25"
     status: 200
@@ -609,7 +609,7 @@
   section: platforms-and-standards
   kind: tool
   cost: freemium
-  description: "Open source threat intelligence platform that stores intelligence in a STIX 2.1 data model, with integrations for feeds and security tools."
+  description: "Filigran's platform for organizing threat intelligence as linked STIX objects, with connectors to feeds and security tools; open source, with a paid Enterprise Edition."
   checked:
     date: "2026-11-25"
     status: 200
@@ -667,7 +667,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Posts from Apple Security Research on its security engineering and research discoveries."
+  description: "Apple's own engineering write-ups on platform defenses, such as memory integrity and Private Cloud Compute, and on its bounty program."
   checked:
     date: "2026-11-25"
     status: 200
@@ -695,7 +695,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "F5 Labs research and analysis on threats to applications."
+  description: "F5's research group: articles on bot and application attacks, a weekly threat bulletin, and vulnerability trend reports."
   checked:
     date: "2026-11-25"
     status: 200
@@ -753,7 +753,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Qualys blog on threat detection, compliance, and vulnerability management, including guidance on newly disclosed flaws."
+  description: "Qualys's blog, where its research team explains newly disclosed flaws and how to find and patch them, mixed with product announcements."
   checked:
     date: "2026-11-25"
     status: 200
@@ -868,7 +868,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Security intelligence research and free tools from Elastic Security Labs."
+  description: "Elastic's research group: malware and intrusion analyses, detection engineering articles, and the tools it releases alongside them."
   checked:
     date: "2026-11-25"
     status: 200
@@ -882,7 +882,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Rapid7's blog on the latest vulnerabilities, exploits, and attacks."
+  description: "Rapid7's blog: vulnerability analyses from its research team, the Metasploit wrap-up, and company and product posts."
   checked:
     date: "2026-11-25"
     status: 200
@@ -952,7 +952,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "SpecterOps posts on attack path management, red team operations, detection engineering, and identity security."
+  description: "Research and tradecraft posts by the makers of BloodHound, mostly on identity attack paths, red team technique, and detection."
   checked:
     date: "2026-11-25"
     status: 200
@@ -966,7 +966,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Interdisciplinary research unit at the University of Toronto's Munk School that investigates digital threats to civil society."
+  description: "University of Toronto lab that publishes investigations into mercenary spyware, targeted surveillance, and influence operations against civil society."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1065,7 +1065,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Threat research updates from Netskope."
+  description: "Articles and sector reports from Netskope Threat Labs, for example on malware loaders, phishing kits, and web skimmers."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1079,7 +1079,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Binarly's research on firmware security, UEFI and BMC threats, and the supply chain."
+  description: "Binarly's research posts on flaws in boot and device firmware, such as U-Boot and UEFI, plus container and binary analysis and product news."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1093,7 +1093,7 @@
   section: indicator-lookup
   kind: service
   cost: freemium
-  description: "Website scanner for suspicious and malicious URLs: submit one, or search the scans the community has made public."
+  description: "Opens a submitted URL in a real browser and records what the page loads and does; past scans are searchable, with paid tiers for teams."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1135,7 +1135,7 @@
   section: indicator-lookup
   kind: dataset
   cost: free
-  description: "abuse.ch blacklist of SSL certificates used by botnet command-and-control servers; its JA3 fingerprint list has had no additions since August 2021."
+  description: "abuse.ch list of SSL certificate fingerprints seen on botnet command-and-control servers; its JA3 fingerprint list has had no additions since August 2021."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1222,7 +1222,7 @@
   section: indicator-lookup
   kind: service
   cost: free
-  description: "Free check of a mail server IP or domain against DNS-based email blacklists."
+  description: "Tells you whether a mail server's address appears on the DNS blacklists that receiving servers consult; free to use in a browser."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1310,7 +1310,7 @@
   section: internet-scan-data
   kind: service
   cost: freemium
-  description: "Internet-wide scan data with DNS, WHOIS, and attack surface discovery tools, through a web app and API."
+  description: "Searchable internet scan data with DNS, WHOIS, and certificate lookups, a tool for mapping an organization's attack surface, and an API."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1339,7 +1339,7 @@
   also_in: [offensive-security/recon-and-osint]
   kind: service
   cost: freemium
-  description: "Domain research tool that finds the hosts related to a domain; it works without sign-in, and a free account or paid plans raise the limits."
+  description: "Enter a domain and get the hosts and DNS records found for it; works without sign-in, with accounts and paid plans for higher limits."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1382,7 +1382,7 @@
   section: internet-scan-data
   kind: service
   cost: freemium
-  description: "DNS and IP tools, including reverse IP lookup, reverse WHOIS, and a propagation checker; the web tools are free and the API is paid."
+  description: "Collection of lookup tools: reverse IP and reverse WHOIS, IP history, DNS propagation, port scan, and more; free in the browser, with a paid API."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1558,7 +1558,7 @@
   section: annual-reports
   kind: report
   cost: free
-  description: "Red Canary's report on the top techniques, threats, and trends it observed."
+  description: "Annual report built from Red Canary's own detections, ranking the techniques and threats it saw most, with its methodology explained."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1601,7 +1601,7 @@
   section: platforms-and-standards
   kind: tool
   cost: free
-  description: "Observable analysis and active response engine."
+  description: "Lets analysts submit an observable once and have many analyzers examine it and trigger response actions; works with TheHive and MISP."
   checked:
     date: "2026-11-25"
     status: 200
