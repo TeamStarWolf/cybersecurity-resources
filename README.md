@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 497 resources in 14 domains, each opened and read before it was described. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired or could not be read at the last check.
+The catalog holds 612 resources in 17 domains, each opened and read before it was described. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired or could not be read at the last check.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -28,6 +28,10 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 | Find the framework or control catalog an audit asks for | [GRC and security program](domains/grc-and-security-program.md) |
 | Practice in a lab or take a course | [Labs and training](domains/labs-and-training.md) |
 | Keep up with security news | [News and research](domains/news-and-research.md) |
+| Administer Microsoft 365 or Windows | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md) |
+| Check whether a Windows update or a Microsoft service has a known problem | [Microsoft 365 and Windows administration: Release health, updates, and roadmap](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) |
+| Run a directory or debug a sign-in | [Identity and directory services administration](domains/identity-and-directory-administration.md) |
+| Deploy, manage, and patch devices | [Endpoint and device management](domains/endpoint-and-device-management.md) |
 <!-- start-here:end -->
 
 ## What's inside
@@ -57,7 +61,15 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 | [Labs and training](domains/labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | 16 |
 | [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 31 |
 
-The [domain list](domains/README.md) also defines 18 domains that hold no resources yet: Platform hardening; Identity and data protection; AI and emerging tech; ICS, OT, and hardware; Identity and directory services administration; Microsoft 365 and Windows administration; Endpoint and device management; Networking and connectivity; Servers, virtualization, and storage; Cloud platform administration; Automation and scripting; Monitoring, logging, and observability; Backup, recovery, and resilience; IT service management and operations; Email, DNS, and collaboration; Databases and data platforms; Product lifecycle, licensing, and support; The troubleshooting toolbox.
+**Enterprise IT domains.** The systems an IT department runs and the references needed to run them.
+
+| Domain | What it covers | Resources |
+|---|---|---|
+| [Identity and directory services administration](domains/identity-and-directory-administration.md) | Running Active Directory, Microsoft Entra ID, and other directories and identity providers: documentation, tools, and troubleshooting references. | 38 |
+| [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md) | Administering Microsoft 365 tenants, Windows clients, and Windows Server: admin centers, documentation, release health, and message centers. | 37 |
+| [Endpoint and device management](domains/endpoint-and-device-management.md) | Managing fleets of Windows, macOS, Linux, and mobile devices: management platforms, packaging, patching, and imaging. | 40 |
+
+The [domain list](domains/README.md) also defines 15 domains that hold no resources yet: Platform hardening; Identity and data protection; AI and emerging tech; ICS, OT, and hardware; Networking and connectivity; Servers, virtualization, and storage; Cloud platform administration; Automation and scripting; Monitoring, logging, and observability; Backup, recovery, and resilience; IT service management and operations; Email, DNS, and collaboration; Databases and data platforms; Product lifecycle, licensing, and support; The troubleshooting toolbox.
 <!-- domains:end -->
 
 ## How to read an entry

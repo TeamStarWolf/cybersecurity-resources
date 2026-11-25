@@ -4,7 +4,7 @@
 
 > The catalog, grouped by domain. Each domain page lists its resources by the question a practitioner asks, with one sentence on what each resource is, who runs it, what kind of thing it is, and what it costs.
 
-497 resources in 14 domains. A domain is listed without a link until it holds its first resource.
+612 resources in 17 domains. A domain is listed without a link until it holds its first resource.
 
 ## Security domains
 
@@ -44,9 +44,9 @@ The systems an IT department runs and the references needed to run them.
 
 | Domain | What it covers | Where its boundary is | Resources |
 |---|---|---|---|
-| Identity and directory services administration | Running Active Directory, Microsoft Entra ID, and other directories and identity providers: documentation, tools, and troubleshooting references. | Attacking and defending identity systems sits in Identity and data protection and Offensive security. | 0 |
-| Microsoft 365 and Windows administration | Administering Microsoft 365 tenants, Windows clients, and Windows Server: admin centers, documentation, release health, and message centers. | Scripting sits in Automation and scripting; device enrollment and policy sit in Endpoint and device management. | 0 |
-| Endpoint and device management | Managing fleets of Windows, macOS, Linux, and mobile devices: management platforms, packaging, patching, and imaging. | Security baselines for those devices sit in Platform hardening. | 0 |
+| [Identity and directory services administration](identity-and-directory-administration.md) | Running Active Directory, Microsoft Entra ID, and other directories and identity providers: documentation, tools, and troubleshooting references. | Attacking and defending identity systems sits in Identity and data protection and Offensive security. | 38 |
+| [Microsoft 365 and Windows administration](microsoft-365-and-windows-administration.md) | Administering Microsoft 365 tenants, Windows clients, and Windows Server: admin centers, documentation, release health, and message centers. | Scripting sits in Automation and scripting; device enrollment and policy sit in Endpoint and device management. | 37 |
+| [Endpoint and device management](endpoint-and-device-management.md) | Managing fleets of Windows, macOS, Linux, and mobile devices: management platforms, packaging, patching, and imaging. | Security baselines for those devices sit in Platform hardening. | 40 |
 | Networking and connectivity | Designing, running, and troubleshooting networks: vendor documentation, protocol references, registries, and lookup tools. | Traffic inspection for security sits in Network security; DNS for mail and collaboration sits in Email, DNS, and collaboration. | 0 |
 | Servers, virtualization, and storage | Server operating systems, hypervisors, containers on premises, and storage platforms: documentation, compatibility guides, and sizing references. | Public cloud platforms sit in Cloud platform administration. | 0 |
 | Cloud platform administration | Operating AWS, Azure, and Google Cloud: documentation hubs, architecture centers, pricing calculators, and status pages. | Assessing and attacking cloud environments sits in Cloud and infrastructure. | 0 |

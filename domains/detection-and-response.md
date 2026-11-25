@@ -35,9 +35,10 @@ What do I run the detections on?
 |---|---|---|---|---|
 | [Wazuh](https://wazuh.com/) | Wazuh, Inc. | Free and open source security platform that combines XDR and SIEM functions for endpoints and cloud workloads. | Tool | Free |
 | [Falco](https://github.com/falcosecurity/falco) | The Falco Project | Cloud native runtime security tool for Linux that watches kernel events such as syscalls and alerts on abnormal behavior. | Tool | Free |
+| [osquery](https://osquery.io/) | osquery | Endpoint visibility tool that lets you ask questions about Linux, Windows, and macOS systems with SQL-style queries. | Tool | Free |
 | [Zeek](https://zeek.org/) | The Zeek Project | Open source, scriptable network monitor, originally developed under the name Bro. | Tool | Free |
 
-Listed here from another domain: Falco ([Cloud and infrastructure](cloud-and-infrastructure.md#audit-posture-and-runtime-tools)), Zeek ([Network security](network-security.md#traffic-capture-and-analysis)).
+Listed here from another domain: Falco ([Cloud and infrastructure](cloud-and-infrastructure.md#audit-posture-and-runtime-tools)), osquery ([Endpoint and device management](endpoint-and-device-management.md#android-chromeos-and-cross-platform)), Zeek ([Network security](network-security.md#traffic-capture-and-analysis)).
 
 ## Test data and lab builds
 

@@ -1,0 +1,523 @@
+# Resources in the domain "microsoft-365-and-windows-administration". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: microsoft-365-documentation
+  name: "Microsoft 365 documentation"
+  url: "https://learn.microsoft.com/en-us/microsoft-365/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "The starting page for Microsoft 365 documentation: solutions, scenarios, and resources for running it in an organization."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide"
+    how: script
+
+- id: microsoft-365-enterprise-documentation
+  name: "Microsoft 365 for enterprise documentation"
+  url: "https://learn.microsoft.com/en-us/microsoft-365/enterprise/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Product documentation and resources for Microsoft 365 for enterprise, written for IT professionals."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/microsoft-365/enterprise/?view=o365-worldwide"
+    how: script
+
+- id: windows-documentation
+  name: "Windows documentation"
+  url: "https://learn.microsoft.com/en-us/windows/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Windows technical documentation for IT professionals, application developers, and hardware developers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/"
+    how: script
+
+- id: windows-server-documentation
+  name: "Windows Server documentation"
+  url: "https://learn.microsoft.com/en-us/windows-server/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Documentation for Windows Server, from installation and roles to administration."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/"
+    how: script
+
+- id: exchange-documentation
+  name: "Exchange documentation"
+  url: "https://learn.microsoft.com/en-us/exchange/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Documentation for the administrators and IT professionals who manage Exchange."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/exchange/"
+    how: script
+
+- id: sharepoint-documentation
+  name: "SharePoint documentation"
+  url: "https://learn.microsoft.com/en-us/sharepoint/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "SharePoint documentation for IT professionals and administrators."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/sharepoint/"
+    how: script
+
+- id: microsoft-teams-admin-documentation
+  name: "Microsoft Teams admin documentation"
+  url: "https://learn.microsoft.com/en-us/microsoftteams/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Documentation for Teams administrators on rolling out and managing Microsoft Teams."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/microsoftteams/"
+    how: script
+
+- id: microsoft-purview-documentation
+  name: "Microsoft Purview documentation"
+  url: "https://learn.microsoft.com/en-us/purview/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Documentation for Microsoft Purview's data governance, data security, and compliance capabilities."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/purview/"
+    how: script
+
+- id: microsoft-copilot-hub
+  name: "Microsoft Copilot hub"
+  url: "https://learn.microsoft.com/en-us/copilot/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Admin guidance for planning, deploying, securing, and managing Microsoft Copilot, including Copilot Chat and agents."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/copilot/"
+    how: script
+
+- id: microsoft-graph-documentation
+  name: "Microsoft Graph documentation"
+  url: "https://learn.microsoft.com/en-us/graph/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Documentation for Microsoft Graph, the API for the data in Microsoft 365."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/graph/"
+    how: script
+
+- id: microsoft-troubleshooting-documentation
+  name: "Microsoft troubleshooting documentation"
+  url: "https://learn.microsoft.com/en-us/troubleshoot/"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Troubleshooting articles and workarounds for Microsoft's commercial products, organized by product."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/troubleshoot/"
+    how: script
+
+- id: windows-help-and-learning
+  name: "Windows help and learning"
+  url: "https://support.microsoft.com/en-us/windows"
+  publisher: "Microsoft"
+  section: documentation-hubs
+  kind: documentation
+  cost: free
+  description: "Microsoft Support's help and how-to articles for Windows: installation, updates, drivers, networking, and security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.microsoft.com/en-us/windows/"
+    how: script
+
+- id: windows-release-health
+  name: "Windows release health"
+  url: "https://learn.microsoft.com/en-us/windows/release-health/"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: reference
+  cost: free
+  description: "Official information on Windows updates and servicing milestones, with known issues and safeguards; check it before approving an update."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/release-health/"
+    how: script
+
+- id: windows-11-release-information
+  name: "Windows 11 release information"
+  url: "https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: reference
+  cost: free
+  description: "Release information for each Windows 11 version."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information"
+    how: script
+
+- id: windows-server-release-information
+  name: "Windows Server release information"
+  url: "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: reference
+  cost: free
+  description: "Release information for Windows Server versions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info"
+    how: script
+
+- id: microsoft-service-health-status
+  name: "Microsoft service health status"
+  url: "https://status.cloud.microsoft/"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: status
+  cost: free
+  description: "Public status page for Microsoft 365, Azure, Power Platform, and consumer services, with links to the detailed admin health pages."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://status.cloud.microsoft/"
+    how: browser
+
+- id: microsoft-365-roadmap
+  name: "Microsoft Copilot Roadmap (Microsoft 365)"
+  url: "https://www.microsoft.com/en-us/microsoft-365/roadmap"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: reference
+  cost: free
+  description: "Microsoft's list of updates planned for Microsoft 365 subscribers, with the status of each feature."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.microsoft.com/en-us/microsoft-365/roadmap"
+    how: script
+  notes: "On 2026-11-25 the page at the Microsoft 365 roadmap address was titled Microsoft Copilot Roadmap."
+
+- id: microsoft-365-message-center
+  name: "Microsoft 365 Message center overview"
+  url: "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: documentation
+  cost: free
+  description: "How to use the Message center in the Microsoft 365 admin center to track new and changed features and announcements."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center?view=o365-worldwide"
+    how: script
+
+- id: office-release-notes
+  name: "Office release notes"
+  url: "https://learn.microsoft.com/en-us/officeupdates/"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: reference
+  cost: free
+  description: "Features and updates for Microsoft 365 Apps, Office for Mac, Office Server products, and perpetual versions of Office."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/officeupdates/"
+    how: script
+
+- id: microsoft-365-apps-update-history
+  name: "Update history for Microsoft 365 Apps"
+  url: "https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: reference
+  cost: free
+  description: "Every Microsoft 365 Apps release listed by date, with links to the release notes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date"
+    how: script
+
+- id: whats-new-in-windows
+  name: "What's new in Windows"
+  url: "https://learn.microsoft.com/en-us/windows/whats-new/"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: reference
+  cost: free
+  description: "New features and capabilities in the latest Windows client release, written for IT professionals."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/whats-new/"
+    how: script
+
+- id: windows-insider-flight-hub
+  name: "Windows Insider Flight Hub"
+  url: "https://learn.microsoft.com/en-us/windows-insider/flight-hub/"
+  publisher: "Microsoft"
+  section: release-health-and-roadmap
+  kind: reference
+  cost: free
+  description: "Flight schedules and status for Windows Insider Program builds."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-insider/flight-hub/"
+    how: script
+
+- id: sysinternals
+  name: "Sysinternals"
+  url: "https://learn.microsoft.com/en-us/sysinternals/"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: tool
+  cost: free
+  description: "Microsoft's Sysinternals utilities for Windows, with downloads, documentation, and learning resources."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/sysinternals/"
+    how: script
+
+- id: windows-commands
+  name: "Windows commands reference"
+  url: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: reference
+  cost: free
+  description: "Reference for the Windows command-line commands."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands"
+    how: script
+
+- id: policy-csp
+  name: "Policy CSP"
+  url: "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: reference
+  cost: free
+  description: "Reference for the Policy configuration service provider, the MDM policies that Windows supports."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider"
+    how: script
+
+- id: group-policy-overview
+  name: "Group Policy overview for Windows Server"
+  url: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: documentation
+  cost: free
+  description: "What Group Policy does and how it works with Active Directory Domain Services."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview"
+    how: script
+
+- id: group-policy-search
+  name: "Group Policy Search"
+  url: "https://gpsearch.azurewebsites.net/"
+  publisher: "Group Policy Search"
+  section: tools-and-references
+  kind: service
+  cost: free
+  description: "Search Group Policy settings by purpose or category and see the registry details behind each one."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://gpsearch.azurewebsites.net/"
+    how: script
+
+- id: microsoft-update-catalog
+  name: "Microsoft Update Catalog"
+  url: "https://www.catalog.update.microsoft.com/"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: service
+  cost: free
+  description: "Search Microsoft's catalog of updates and download them individually."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.catalog.update.microsoft.com/Home.aspx"
+    how: browser
+
+- id: microsoft-365-urls-and-ip-ranges
+  name: "Microsoft 365 URLs and IP address ranges"
+  url: "https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: reference
+  cost: free
+  description: "The endpoints that Microsoft 365 needs to reach, for building firewall and proxy rules."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide"
+    how: script
+
+- id: graph-explorer
+  name: "Graph Explorer"
+  url: "https://developer.microsoft.com/en-us/graph/graph-explorer"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: service
+  cost: free
+  description: "Developer tool for trying Microsoft Graph API requests in the browser."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.microsoft.com/en-us/graph/graph-explorer"
+    how: script
+
+- id: download-windows-11
+  name: "Download Windows 11"
+  url: "https://www.microsoft.com/en-us/software-download/windows11"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: service
+  cost: free
+  description: "Microsoft's download page for the current Windows 11 release, with three ways to install or create installation media."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.microsoft.com/en-us/software-download/windows11"
+    how: script
+
+- id: microsoft-evaluation-center
+  name: "Microsoft Evaluation Center"
+  url: "https://www.microsoft.com/en-us/evalcenter/"
+  publisher: "Microsoft"
+  section: tools-and-references
+  kind: service
+  cost: free
+  description: "Evaluation versions of Microsoft products to download or try on Azure, useful for building a lab."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.microsoft.com/en-us/evalcenter/"
+    how: script
+  notes: "Whether a download asks for registration was not checked."
+
+- id: m365-maps
+  name: "M365 Maps"
+  url: "https://m365maps.com/"
+  publisher: "M365 Maps"
+  section: tools-and-references
+  kind: reference
+  cost: free
+  description: "Microsoft 365 licensing diagrams, feature comparisons, a feature matrix, and a glossary of licensing terms."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://m365maps.com/"
+    how: script
+
+- id: msportals-io
+  name: "MSPortals.io"
+  url: "https://msportals.io/"
+  publisher: "MSPortals.io"
+  section: tools-and-references
+  kind: reference
+  cost: free
+  description: "Community-run directory of Microsoft's administration portals in one place."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://msportals.io/"
+    how: script
+
+- id: microsoft-community-hub
+  name: "Microsoft Community Hub"
+  url: "https://techcommunity.microsoft.com/"
+  publisher: "Microsoft"
+  section: community-and-blogs
+  kind: community
+  cost: free
+  description: "Microsoft's community site for learning about its products and asking questions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://techcommunity.microsoft.com/"
+    how: script
+
+- id: practical-365
+  name: "Practical 365"
+  url: "https://practical365.com/"
+  publisher: "Practical 365"
+  section: community-and-blogs
+  kind: news
+  cost: free
+  description: "News, tips, and tutorials on Microsoft 365 administration."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://practical365.com/"
+    how: script
+
+- id: office-365-for-it-pros
+  name: "Office 365 for IT Pros"
+  url: "https://office365itpros.com/"
+  publisher: "Office 365 for IT Pros"
+  section: community-and-blogs
+  kind: news
+  cost: free
+  description: "Blog from the authors of an eBook on Microsoft 365 that is updated monthly."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://office365itpros.com/"
+    how: script
+  notes: "The blog is free to read; the eBook is sold by subscription."

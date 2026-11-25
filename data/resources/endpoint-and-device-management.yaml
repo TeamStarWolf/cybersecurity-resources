@@ -1,0 +1,564 @@
+# Resources in the domain "endpoint-and-device-management". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: intune-documentation
+  name: "Microsoft Intune documentation"
+  url: "https://learn.microsoft.com/en-us/intune/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "Guides, tutorials, and references for Microsoft Intune."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/intune/"
+    how: script
+
+- id: intune-whats-new
+  name: "What's new in Microsoft Intune"
+  url: "https://learn.microsoft.com/en-us/intune/whats-new/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: reference
+  cost: free
+  description: "Microsoft's running list of what is new in Intune."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/intune/whats-new/"
+    how: script
+
+- id: windows-autopilot-documentation
+  name: "Windows Autopilot documentation"
+  url: "https://learn.microsoft.com/en-us/autopilot/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "Documentation for Windows Autopilot and Autopilot device preparation, the technologies for setting up and pre-configuring new devices."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/autopilot/"
+    how: script
+
+- id: configuration-manager-documentation
+  name: "Microsoft Configuration Manager documentation"
+  url: "https://learn.microsoft.com/en-us/intune/configmgr/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "The official product documentation for Configuration Manager."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/intune/configmgr/"
+    how: script
+
+- id: wsus-overview
+  name: "Windows Server Update Services (WSUS) overview"
+  url: "https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "Overview of the WSUS server role, its features, and its support for the Unified Update Platform."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus"
+    how: script
+
+- id: windows-autopatch-documentation
+  name: "Windows Autopatch documentation"
+  url: "https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "Documentation for Windows Autopatch, the cloud service that automates updates for Windows, Microsoft 365 Apps, Edge, and Teams."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/"
+    how: script
+
+- id: windows-deployment-documentation
+  name: "Windows deployment documentation"
+  url: "https://learn.microsoft.com/en-us/windows/deployment/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "How to plan, prepare, and carry out the deployment and updating of Windows devices."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/deployment/"
+    how: script
+
+- id: windows-client-management
+  name: "Manage Windows client"
+  url: "https://learn.microsoft.com/en-us/windows/client-management/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "The administrative tools, tasks, and practices for managing Windows clients across an organization."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/client-management/"
+    how: script
+
+- id: windows-365-documentation
+  name: "Windows 365 documentation"
+  url: "https://learn.microsoft.com/en-us/windows-365/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "The official product documentation for Windows 365."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-365/"
+    how: script
+
+- id: azure-virtual-desktop-documentation
+  name: "Azure Virtual Desktop documentation"
+  url: "https://learn.microsoft.com/en-us/azure/virtual-desktop/"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: documentation
+  cost: free
+  description: "Documentation for Azure Virtual Desktop, which delivers virtual desktops and applications remotely."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/virtual-desktop/"
+    how: script
+
+- id: win32-content-prep-tool
+  name: "Microsoft Win32 Content Prep Tool"
+  url: "https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool"
+  publisher: "Microsoft"
+  section: windows-management-and-deployment
+  kind: tool
+  cost: free
+  description: "Tool that wraps a Win32 application so that it can be uploaded to Intune."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool"
+    how: script
+
+- id: apple-platform-deployment
+  name: "Apple Platform Deployment"
+  url: "https://support.apple.com/guide/deployment/welcome/web"
+  publisher: "Apple"
+  section: apple-device-management
+  kind: documentation
+  cost: free
+  description: "Apple's guide to deploying and managing its hardware, software, apps, and services at scale in an organization."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.apple.com/guide/deployment/welcome/web"
+    how: script
+
+- id: apple-device-management-documentation
+  name: "Apple Device Management documentation"
+  url: "https://developer.apple.com/documentation/devicemanagement"
+  publisher: "Apple"
+  section: apple-device-management
+  kind: documentation
+  cost: free
+  description: "Apple's developer documentation for managing an organization's devices remotely."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.apple.com/documentation/devicemanagement"
+    how: script
+
+- id: apple-developer-releases
+  name: "Apple Developer Releases"
+  url: "https://developer.apple.com/news/releases/"
+  publisher: "Apple"
+  section: apple-device-management
+  kind: reference
+  cost: free
+  description: "The latest operating system releases and betas from Apple, with build numbers, downloads, and release notes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.apple.com/news/releases/"
+    how: script
+
+- id: jamf-learning-hub
+  name: "Jamf Learning Hub"
+  url: "https://learn.jamf.com/"
+  publisher: "Jamf"
+  section: apple-device-management
+  kind: documentation
+  cost: free
+  description: "Documentation for Jamf Pro, Jamf Protect, Jamf Connect, Jamf School, and Jamf's other products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.jamf.com/"
+    how: browser
+
+- id: jamf-nation
+  name: "Jamf Nation"
+  url: "https://community.jamf.com/"
+  publisher: "Jamf"
+  section: apple-device-management
+  kind: community
+  cost: free
+  description: "Jamf's community forum for Apple administrators."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://community.jamf.com/"
+    how: script
+
+- id: mac-admins-foundation
+  name: "Mac Admins Foundation"
+  url: "https://www.macadmins.org/"
+  publisher: "Mac Admins Foundation"
+  section: apple-device-management
+  kind: community
+  cost: free
+  description: "Nonprofit that supports the Mac administrators community."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.macadmins.org/"
+    how: script
+
+- id: munki
+  name: "Munki"
+  url: "https://github.com/munki/munki"
+  publisher: "Munki"
+  section: apple-device-management
+  kind: tool
+  cost: free
+  description: "Managed software installation for macOS."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/munki/munki"
+    how: script
+
+- id: autopkg
+  name: "AutoPkg"
+  url: "https://github.com/autopkg/autopkg"
+  publisher: "AutoPkg"
+  section: apple-device-management
+  kind: tool
+  cost: free
+  description: "Automates packaging and software distribution on macOS."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/autopkg/autopkg"
+    how: script
+
+- id: nudge
+  name: "Nudge"
+  url: "https://github.com/macadmins/nudge"
+  publisher: "macadmins"
+  section: apple-device-management
+  kind: tool
+  cost: free
+  description: "Tool for encouraging users to install macOS security updates."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/macadmins/nudge"
+    how: script
+
+- id: sofa
+  name: "SOFA"
+  url: "https://sofa.macadmins.io/"
+  publisher: "Mac Admins Open Source"
+  section: apple-device-management
+  kind: dataset
+  cost: free
+  description: "Simple Organized Feed for Apple Software Updates, from Mac Admins Open Source."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://sofa.macadmins.io/"
+    how: script
+
+- id: android-enterprise
+  name: "Android Enterprise"
+  url: "https://www.android.com/enterprise/"
+  publisher: "Google"
+  section: android-chromeos-and-cross-platform
+  kind: documentation
+  cost: free
+  description: "Google's overview of Android Enterprise, its program for managing and securing Android devices at work."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.android.com/enterprise/"
+    how: script
+
+- id: android-enterprise-help
+  name: "Android Enterprise Help"
+  url: "https://support.google.com/work/android/"
+  publisher: "Google"
+  section: android-chromeos-and-cross-platform
+  kind: documentation
+  cost: free
+  description: "The official help center for Android Enterprise."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.google.com/work/android/"
+    how: script
+
+- id: google-workspace-help
+  name: "Google Workspace Help"
+  url: "https://knowledge.workspace.google.com/"
+  publisher: "Google"
+  section: android-chromeos-and-cross-platform
+  kind: documentation
+  cost: free
+  description: "Google's help site for finding answers and resolving issues with Google Workspace."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://knowledge.workspace.google.com/"
+    how: script
+  notes: "support.google.com/a/ redirects to this site."
+
+- id: chrome-enterprise-help
+  name: "Chrome Enterprise and Education Help"
+  url: "https://support.google.com/chrome/a/"
+  publisher: "Google"
+  section: android-chromeos-and-cross-platform
+  kind: documentation
+  cost: free
+  description: "The official help center for managing Chrome in enterprises and schools."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.google.com/chrome/a/"
+    how: script
+
+- id: osquery
+  name: "osquery"
+  url: "https://osquery.io/"
+  publisher: "osquery"
+  section: android-chromeos-and-cross-platform
+  also_in: [detection-and-response/platforms]
+  kind: tool
+  cost: free
+  description: "Endpoint visibility tool that lets you ask questions about Linux, Windows, and macOS systems with SQL-style queries."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://osquery.io/"
+    how: browser
+
+- id: winget
+  name: "WinGet (Windows Package Manager)"
+  url: "https://learn.microsoft.com/en-us/windows/package-manager/"
+  publisher: "Microsoft"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: free
+  description: "Microsoft's package manager for Windows: a command-line tool and services for installing, managing, and configuring applications."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows/package-manager/"
+    how: script
+
+- id: winget-pkgs
+  name: "winget-pkgs"
+  url: "https://github.com/microsoft/winget-pkgs"
+  publisher: "Microsoft"
+  section: packaging-imaging-and-software-deployment
+  kind: dataset
+  cost: free
+  description: "The community repository of package manifests for the Windows Package Manager."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/microsoft/winget-pkgs"
+    how: script
+
+- id: chocolatey
+  name: "Chocolatey"
+  url: "https://chocolatey.org/"
+  publisher: "Chocolatey Software"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: freemium
+  description: "Package manager for Windows that wraps installers, executables, and scripts into packages; open source and business editions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://chocolatey.org/"
+    how: script
+
+- id: scoop
+  name: "Scoop"
+  url: "https://scoop.sh/"
+  publisher: "Scoop"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: free
+  description: "A command-line installer for Windows."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://scoop.sh/"
+    how: script
+
+- id: homebrew
+  name: "Homebrew"
+  url: "https://brew.sh/"
+  publisher: "Homebrew"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: free
+  description: "Package manager that installs software from the command line."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://brew.sh/"
+    how: script
+
+- id: psappdeploytoolkit
+  name: "PSAppDeployToolkit"
+  url: "https://psappdeploytoolkit.com/"
+  publisher: "PSAppDeployToolkit"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: free
+  description: "Toolkit for enterprise application deployment, with its own branded user dialogs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://psappdeploytoolkit.com/"
+    how: script
+
+- id: clonezilla
+  name: "Clonezilla"
+  url: "https://clonezilla.org/"
+  publisher: "Clonezilla"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: free
+  description: "Free and open source software for disk imaging and cloning, in live and server editions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://clonezilla.org/"
+    how: script
+
+- id: fog-project
+  name: "FOG Project"
+  url: "https://fogproject.org/"
+  publisher: "FOG Project"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: free
+  description: "Free, open source network computer cloning and management solution."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://fogproject.org/"
+    how: script
+
+- id: rufus
+  name: "Rufus"
+  url: "https://rufus.ie/"
+  publisher: "Rufus"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: free
+  description: "Small application that creates bootable USB drives for installing or running Windows, Linux, or DOS."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://rufus.ie/"
+    how: script
+
+- id: ventoy
+  name: "Ventoy"
+  url: "https://www.ventoy.net/"
+  publisher: "Ventoy"
+  section: packaging-imaging-and-software-deployment
+  kind: tool
+  cost: free
+  description: "Open source tool that makes a USB drive boot ISO, WIM, IMG, VHD, and EFI files copied onto it."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ventoy.net/en/index.html"
+    how: browser
+
+- id: call4cloud
+  name: "Call4Cloud"
+  url: "https://call4cloud.nl/"
+  publisher: "Call4Cloud"
+  section: community-and-blogs
+  kind: news
+  cost: free
+  description: "Blog on Windows Autopilot and Intune."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://call4cloud.nl/"
+    how: script
+
+- id: out-of-office-hours
+  name: "Out of Office Hours"
+  url: "https://oofhours.com/"
+  publisher: "Michael Niehaus"
+  section: community-and-blogs
+  kind: news
+  cost: free
+  description: "Michael Niehaus's blog on Windows Autopilot and Windows deployment."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://oofhours.com/"
+    how: script
+
+- id: msendpointmgr
+  name: "MSEndpointMgr"
+  url: "https://msendpointmgr.com/"
+  publisher: "MSEndpointMgr"
+  section: community-and-blogs
+  kind: community
+  cost: free
+  description: "Community site on Configuration Manager, Intune, Windows, and PowerShell."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://msendpointmgr.com/"
+    how: script
+
+- id: htmd-community
+  name: "HTMD Community"
+  url: "https://www.anoopcnair.com/"
+  publisher: "HTMD Community"
+  section: community-and-blogs
+  kind: news
+  cost: free
+  description: "Blog on Configuration Manager, Intune, and Windows device management."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.anoopcnair.com/"
+    how: script
