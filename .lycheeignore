@@ -35,3 +35,6 @@
 ^https://radar\.cloudflare\.com/$
 ^https://dashboard\.shadowserver\.org/$
 ^https://blog\.qualys\.com/$
+^https://www\.cisco\.com/c/en/us/support/index\.html$
+^https://docs\.redhat\.com/en/documentation/red_hat_enterprise_linux/$
+^https://docs\.redhat\.com/en/documentation/openshift_container_platform/$

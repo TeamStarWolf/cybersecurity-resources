@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 614 resources in 17 domains. 608 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired, could not be read at the last check, or is held out for safety.
+The catalog holds 736 resources in 20 domains. 730 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired, could not be read at the last check, or is held out for safety.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -68,8 +68,11 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 | [Identity and directory services administration](domains/identity-and-directory-administration.md) | Running Active Directory, Microsoft Entra ID, and other directories and identity providers: documentation, tools, and troubleshooting references. | 38 |
 | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md) | Administering Microsoft 365 tenants, Windows clients, and Windows Server: admin centers, documentation, release health, and message centers. | 37 |
 | [Endpoint and device management](domains/endpoint-and-device-management.md) | Managing fleets of Windows, macOS, Linux, and mobile devices: management platforms, packaging, patching, and imaging. | 39 |
+| [Networking and connectivity](domains/networking-and-connectivity.md) | Designing, running, and troubleshooting networks: vendor documentation, protocol references, registries, and lookup tools. | 46 |
+| [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md) | Server operating systems, hypervisors, containers on premises, and storage platforms: documentation, compatibility guides, and sizing references. | 35 |
+| [Cloud platform administration](domains/cloud-platform-administration.md) | Operating AWS, Azure, and Google Cloud: documentation hubs, architecture centers, pricing calculators, and status pages. | 41 |
 
-The [domain list](domains/README.md) also defines 15 domains that hold no resources yet: Platform hardening; Identity and data protection; AI and emerging tech; ICS, OT, and hardware; Networking and connectivity; Servers, virtualization, and storage; Cloud platform administration; Automation and scripting; Monitoring, logging, and observability; Backup, recovery, and resilience; IT service management and operations; Email, DNS, and collaboration; Databases and data platforms; Product lifecycle, licensing, and support; The troubleshooting toolbox.
+The [domain list](domains/README.md) also defines 12 domains that hold no resources yet: Platform hardening; Identity and data protection; AI and emerging tech; ICS, OT, and hardware; Automation and scripting; Monitoring, logging, and observability; Backup, recovery, and resilience; IT service management and operations; Email, DNS, and collaboration; Databases and data platforms; Product lifecycle, licensing, and support; The troubleshooting toolbox.
 <!-- domains:end -->
 
 ## How to read an entry
@@ -177,7 +180,7 @@ An address that cannot be read is not described from memory. When a site refuses
 The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
 
 <!-- link-check:start (written by scripts/build.py; do not edit) -->
-The ignore list holds 35 entries, 10 of which apply to the CI check alone. Together they cover 38 of the 647 addresses the catalog publishes (5.9%). The validator fails if that share passes 10%.
+The ignore list holds 38 entries, 10 of which apply to the CI check alone. Together they cover 41 of the 769 addresses the catalog publishes (5.3%). The validator fails if that share passes 10%.
 <!-- link-check:end -->
 
 Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.
