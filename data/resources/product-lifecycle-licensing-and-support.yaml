@@ -559,7 +559,7 @@
   section: licensing-references
   kind: documentation
   cost: free
-  description: "Microsoft's index for licensing tenant-level security services: links the service descriptions for Purview, Priva, Intune, Entra, and Defender, naming services they include."
+  description: "Microsoft's index for licensing tenant-level security services: links the service descriptions for Purview, Priva, Intune, Entra, and Defender, naming the services most include."
   checked:
     date: "2026-11-25"
     status: 200

@@ -203,7 +203,7 @@
   section: dns-ip-and-registration-lookups
   kind: service
   cost: free
-  description: "Cloudflare's diagnostic page for its 1.1.1.1 resolver: whether you reach it, by DNS over HTTPS, DNS over TLS, or WARP, and which data center answers."
+  description: "Cloudflare's diagnostic page for its 1.1.1.1 resolver, with checks including whether you use it over HTTPS, TLS, or WARP and which data center answers."
   checked:
     date: "2026-11-25"
     status: 200
