@@ -71,3 +71,7 @@
   reason: "Returns 502 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
   opened: "2026-11-25"
   only: ci
+- url: "https://support.brave.app/"
+  reason: "The Brave help page cited in the README returns 403 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
+  opened: "2026-11-25"
+  only: ci
