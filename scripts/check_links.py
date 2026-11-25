@@ -3,8 +3,10 @@
     python scripts/check_links.py                    check every address; exit 1 if any fails
     python scripts/check_links.py --report out.json  also save status, final address, title and heading per address
     python scripts/check_links.py --pages            list the records whose page may not be the resource they name
+    python scripts/check_links.py --wording          list the descriptions that repeat their page's own words;
+                                                     exit 1 if any does. Add --only domain-id,domain-id to limit it
     python scripts/check_links.py --self-test        confirm the checker rejects a dead address, honors the ignore
-                                                     list, and flags a wrong page
+                                                     list, flags a wrong page, and catches a copied description
 
 Addresses checked: every shown resource and every link of the compact set (including pinned addresses).
 An address on data/link-check-ignore.yaml is still requested and reported, but it cannot fail the run.
@@ -14,6 +16,13 @@ or return an empty result for a filter. --pages compares each shown record's nam
 first heading, and looks for words such as "page not found" or "no results" in the page. It prints a list
 for a person to read and never fails the run, because titles differ from names for honest reasons. It cannot
 see a page that keeps its name while changing what it offers, and it cannot read a page that needs a browser.
+
+A description has to be the catalog's own sentence. --wording takes what each page says about itself (its
+meta descriptions, its title, its first heading, and its opening paragraphs) and finds the longest run of
+consecutive words that the record's description shares with any of them. A run of five or more words is
+reported, unless it is the resource's own name. It needs the network, so it is run by hand before a pull
+request and by a weekly job, not on every push. It finds copied runs of words; it cannot find a sentence that
+follows its source with one word in five changed, and it cannot read a page that needs a browser.
 
 Standard library plus the curl command, which makes the requests.
 """
@@ -41,6 +50,15 @@ TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.I | re.S)
 HIDDEN_RE = re.compile(r"<(script|style|noscript|template)\b.*?</\1\s*>", re.I | re.S)
 TAG_RE = re.compile(r"<[^>]+>")
+META_RE = re.compile(r"<meta\b[^>]*>", re.I)
+META_KEY_RE = re.compile(r"""(?:name|property)\s*=\s*["']?(?:description|og:description|twitter:description)["'\s>]""", re.I)
+META_CONTENT_RE = re.compile(r"""content\s*=\s*(?:"([^"]*)"|'([^']*)')""", re.I | re.S)
+CHROME_RE = re.compile(r"<(nav|header|footer)\b.*?</\1\s*>", re.I | re.S)
+PARA_RE = re.compile(r"<(p|li)\b[^>]*>(.*?)</\1\s*>", re.I | re.S)
+WORD_RE = re.compile(r"[a-z0-9]+(?:'[a-z]+)?")
+# A description may not share this many consecutive words with its page's own summary.
+MIN_RUN = 5
+OPENING_PARAGRAPHS = 8
 WRITE_OUT = r"\n%{http_code}\t%{url_effective}"
 # Words a page uses when it answers 200 but has nothing at the address.
 NOT_THERE = ("page not found", "404 not found", "no terms match", "no results found", "no matching results",
@@ -54,16 +72,28 @@ def clean(fragment: str) -> str:
 
 
 def read_page(body: bytes) -> dict:
-    """The title, the first heading, and any not-found wording in the visible text of a page."""
+    """The title, the first heading, any not-found wording, and what the page says about itself."""
     text = body[:600_000].decode("utf-8", "replace")
     title = TITLE_RE.search(text)
     visible = HIDDEN_RE.sub(" ", text)
     heading = H1_RE.search(visible)
     plain = clean(visible).lower()
     says = next((phrase for phrase in NOT_THERE if phrase in plain), "")
+    sources = []
+    for tag in META_RE.findall(text):
+        content = META_CONTENT_RE.search(tag)
+        if META_KEY_RE.search(tag) and content:
+            sources.append(["meta", clean(content.group(1) or content.group(2) or "")[:800]])
+    if title:
+        sources.append(["title", clean(title.group(1))[:400]])
+    if heading:
+        sources.append(["heading", clean(heading.group(1))[:400]])
+    paragraphs = [clean(m.group(2)) for m in PARA_RE.finditer(CHROME_RE.sub(" ", visible))]
+    sources += [["opening", p[:800]] for p in paragraphs if len(p) >= 40][:OPENING_PARAGRAPHS]
     return {"title": clean(title.group(1))[:120] if title else "",
             "h1": clean(heading.group(1))[:120] if heading else "",
-            "says": says}
+            "says": says,
+            "sources": [s for s in sources if s[1]]}
 
 
 def request(url: str) -> dict:
@@ -72,7 +102,7 @@ def request(url: str) -> dict:
     curl makes the request: several sites in the catalog refuse the TLS fingerprint of Python's own client.
     It retries every kind of failure, because a reset connection is common when many requests run at once.
     """
-    empty = {"title": "", "h1": "", "says": ""}
+    empty = {"title": "", "h1": "", "says": "", "sources": []}
     if not url.startswith(("https://", "http://")):
         return {"url": url, "status": 0, "final": url, "error": "not an http(s) address", **empty}
     cmd = [CURL, "--silent", "--show-error", "--location", "--compressed", "--max-time", str(TIMEOUT),
@@ -159,6 +189,90 @@ def pages() -> int:
     return 0
 
 
+# ---- is the description the catalog's own sentence?
+def word_list(text: str) -> list[str]:
+    return WORD_RE.findall(text.lower())
+
+
+def common_runs(a: list[str], b: list[str], least: int) -> list[list[str]]:
+    """Every run of at least `least` consecutive words that two word lists share and that cannot be extended."""
+    runs = []
+    prev = [0] * (len(b) + 1)
+    for i in range(1, len(a) + 1):
+        cur = [0] * (len(b) + 1)
+        for j in range(1, len(b) + 1):
+            if a[i - 1] == b[j - 1]:
+                cur[j] = prev[j - 1] + 1
+                ends_here = i == len(a) or j == len(b) or a[i] != b[j]
+                if ends_here and cur[j] >= least:
+                    runs.append(a[i - cur[j]:i])
+        prev = cur
+    return runs
+
+
+def outside_names(run: list[str], names: list[list[str]]) -> int:
+    """The longest stretch of a shared run that is not the resource's own name, former name, or publisher."""
+    best, start = 0, 0
+    for name in names:
+        for i in range(len(run)):
+            for j in range(len(name)):
+                k = 0
+                while i + k < len(run) and j + k < len(name) and run[i + k] == name[j + k]:
+                    k += 1
+                if k > best:
+                    best, start = k, i
+    if best < 2:
+        return len(run)
+    return max(outside_names(run[:start], names), outside_names(run[start + best:], names))
+
+
+def wording_problem(rec: dict, page: dict) -> tuple[int, str, str] | None:
+    """The longest run of MIN_RUN or more consecutive words that a description shares with what the page says
+    about itself, as (length outside the resource's own name, the shared words, where), or None."""
+    mine = word_list(rec.get("description") or "")
+    names = [word_list(str(rec.get(key) or "")) for key in ("name", "formerly", "publisher")]
+    worst = None
+    for where, text in page.get("sources") or []:
+        for run in common_runs(mine, word_list(text), MIN_RUN):
+            length = outside_names(run, names)
+            if length >= MIN_RUN and (worst is None or length > worst[0]):
+                worst = (length, " ".join(run), where)
+    return worst
+
+
+def has_summary(page: dict) -> bool:
+    """A script read something to compare: a meta description or an opening paragraph, not only a title."""
+    return 200 <= page["status"] < 300 and any(where in ("meta", "opening") for where, _ in page.get("sources") or [])
+
+
+def wording(argv: list[str]) -> int:
+    only = set(argv[argv.index("--only") + 1].split(",")) if "--only" in argv else None
+    records = [r for r in catalog.load_resources() if catalog.is_active(r) and (only is None or r["domain"] in only)]
+    with concurrent.futures.ThreadPoolExecutor(8) as pool:
+        results = list(pool.map(lambda r: request(r["url"]), records))
+    rows, copied, unread = [], 0, []
+    for rec, page in zip(records, results):
+        readable = has_summary(page)
+        found = wording_problem(rec, page) if readable else None
+        rows.append({"id": rec["id"], "domain": rec["domain"], "readable": readable,
+                     "run": found[0] if found else 0, "words": found[1] if found else "", "where": found[2] if found else ""})
+        if not readable:
+            unread.append(f"{rec['domain']}/{rec['id']}")
+        elif found:
+            copied += 1
+            print(f"COPY  {rec['domain']}/{rec['id']}: {found[0]} words shared with the page's {found[2]}: \"{found[1]}\"")
+    if "--report" in argv:
+        with open(argv[argv.index("--report") + 1], "w", encoding="utf-8", newline="\n") as fh:
+            json.dump(rows, fh, ensure_ascii=False, indent=1)
+    if unread:
+        print("A script got no summary text from these pages; read each in a browser:")
+        for item in unread:
+            print(f"  {item}")
+    print(f"check_links --wording: {len(records)} shown records; {copied} share a run of {MIN_RUN} or more words "
+          f"with their page's own summary; {len(unread)} gave a script no text to compare and need a browser")
+    return 1 if copied else 0
+
+
 def self_test() -> int:
     # The .invalid top-level domain never resolves (RFC 6761), so every request here fails.
     dead = "https://dead.invalid/"
@@ -206,13 +320,44 @@ def self_test() -> int:
         if not passed:
             problems.append(f"right-page check got this wrong: {label}")
 
+    # Planted pages for the wording check. No network.
+    tagline = "a fast scanner for finding open ports on large networks"
+    copied = {"name": "Example Scanner", "publisher": "Example Project", "description": "A fast scanner for finding open ports on large networks."}
+    own = {"name": "Example Scanner", "publisher": "Example Project", "description": "Port scanner built for speed across big address ranges."}
+    titled = {"name": "The Example Protocol Version Two Specification", "publisher": "Example Body",
+              "description": "Defines the message formats of the Example Protocol Version Two Specification."}
+    in_meta = page(f'<meta name="description" content="Example Scanner is {tagline} and hosts."><title>Example Scanner</title>')
+    in_og = page(f"<meta content='Example Scanner: {tagline}.' property='og:description'><title>Example Scanner</title>")
+    in_opening = page(f"<title>Example Scanner</title><main><p>Example Scanner is {tagline}, written in C.</p></main>")
+    in_code = page(f'<title>Example Scanner</title><script>var d = "{tagline}";</script><p>Notes on how the project is built and released.</p>')
+    in_menu = page(f"<title>Example Scanner</title><nav><p>{tagline}</p></nav><p>Notes on how the project is built and released.</p>")
+    own_name = page('<meta name="description" content="The Example Protocol Version Two Specification is maintained by Example Body.">')
+    title_only = page("<title>Example Scanner</title><div id='app'></div>")
+    found = wording_problem(copied, in_meta)
+    planted = [
+        ("a description copied from the meta description", found is not None and found[0] == 10 and found[2] == "meta"),
+        ("a description copied from a social-card description", wording_problem(copied, in_og) is not None),
+        ("a description copied from the opening paragraph", (wording_problem(copied, in_opening) or (0, "", ""))[2] == "opening"),
+        ("the catalog's own sentence", wording_problem(own, in_meta) is None),
+        ("the same words inside a script are not page text", wording_problem(copied, in_code) is None),
+        ("the same words inside the site menu are not the opening", wording_problem(copied, in_menu) is None),
+        ("a run that is the resource's own name", wording_problem(titled, own_name) is None),
+        ("a page with only a title counts as unread", not has_summary(title_only) and has_summary(in_meta)),
+    ]
+    for label, passed in planted:
+        if not passed:
+            problems.append(f"wording check got this wrong: {label}")
+
     for p in problems:
         print("self-test:", p)
     print("self-test:", "failed" if problems else
           "5 planted addresses: the dead one failed, the prefix and exact entries were set aside, "
           "and neither a longer address than an exact entry nor a CI-only entry was excused; "
           "5 planted pages: the hub, the empty filter and the page with no heading were flagged, "
-          "the right page and wording inside a script were not")
+          "the right page and wording inside a script were not; "
+          "8 planted descriptions: copies of a meta description, a social-card description and an opening "
+          "paragraph were caught, and the catalog's own sentence, words in a script or a menu, and the "
+          "resource's own name were not")
     return 1 if problems else 0
 
 
@@ -221,13 +366,16 @@ def main(argv: list[str]) -> int:
         return self_test()
     if "--pages" in argv:
         return pages()
+    if "--wording" in argv:
+        return wording(argv)
     ignore = catalog.load_ignore()["entries"]
     urls = addresses()
     ok, ignored, failed = run(urls, ignore)
     if "--report" in argv:
         path = argv[argv.index("--report") + 1]
         with open(path, "w", encoding="utf-8", newline="\n") as fh:
-            json.dump(sorted(ok + ignored + failed, key=lambda r: r["url"]), fh, ensure_ascii=False, indent=1)
+            rows = [{k: v for k, v in r.items() if k != "sources"} for r in ok + ignored + failed]
+            json.dump(sorted(rows, key=lambda r: r["url"]), fh, ensure_ascii=False, indent=1)
     for r in ignored:
         print(f"ignored  {r['error']}  {r['url']}")
     for r in failed:

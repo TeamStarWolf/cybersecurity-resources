@@ -18,7 +18,7 @@ What is on the wire?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Wireshark](https://www.wireshark.org/) | Wireshark Foundation | Free and open source network protocol analyzer for inspecting network traffic in depth. | Tool | Free |
+| [Wireshark](https://www.wireshark.org/) | Wireshark Foundation | Captures packets and decodes them protocol by protocol for close inspection; installers for Windows and macOS, with source for other systems. | Tool | Free |
 | [Zeek](https://zeek.org/) | The Zeek Project | Open source, scriptable network monitor, originally developed under the name Bro. | Tool | Free |
 | [Nmap](https://nmap.org/) | Nmap Project | Free and open source security scanner for port scanning and network exploration. | Tool | Free |
 

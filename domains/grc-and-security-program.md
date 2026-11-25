@@ -20,8 +20,8 @@ What must the program comply with or measure against?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) | NIST | Home of the NIST Cybersecurity Framework, for understanding and improving how an organization manages cybersecurity risk. | Standard | Free |
-| [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | Security and privacy control catalog for information systems and organizations; the page links Release 5.2.0, issued in August 2025. | Standard | Free |
-| [CIS Critical Security Controls](https://www.cisecurity.org/controls) | Center for Internet Security | Prioritized set of security practices from the Center for Internet Security; the page presents version 8.1. | Standard | Free |
+| [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | NIST's control catalog for security and privacy; this page carries the Rev. 5 publication, Release 5.2.0, and analyses of what changed between revisions. | Standard | Free |
+| [CIS Critical Security Controls](https://www.cisecurity.org/controls) | Center for Internet Security | Prioritized safeguards for defending an organization, published by CIS; the page presents version 8.1 and links its mappings to other frameworks. | Standard | Free |
 | [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) | Center for Internet Security | Consensus configuration recommendations for many vendor product families, used as hardening baselines. | Standard | Free with account |
 | [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) | CISA | CISA's Cross-Sector Cybersecurity Performance Goals, now version 2.0: a baseline set of practices for critical infrastructure entities of any size. | Standard | Free |
 
@@ -33,9 +33,9 @@ Where do I find the NIST document or its data?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [NIST Computer Security Resource Center (CSRC)](https://csrc.nist.gov/) | NIST | NIST's library of cybersecurity and information security projects, publications, news, and events. | Reference | Free |
-| [OSCAL](https://pages.nist.gov/OSCAL/) | NIST | Open Security Controls Assessment Language: NIST-led machine-readable formats for control-related information, built to support automated assessment. | Standard | Free |
-| [Cybersecurity and Privacy Reference Tool (CPRT)](https://csrc.nist.gov/projects/cprt) | NIST | Tool for browsing and downloading reference data from NIST cybersecurity and privacy standards, guidelines, and frameworks in XLSX and JSON. | Online service | Free |
+| [NIST Computer Security Resource Center (CSRC)](https://csrc.nist.gov/) | NIST | NIST's home for its computer security work: Special Publications, FIPS, drafts open for comment, project pages, and news. | Reference | Free |
+| [OSCAL](https://pages.nist.gov/OSCAL/) | NIST | NIST-led formats for expressing security control information so that software can read it and assessments can be automated. | Standard | Free |
+| [Cybersecurity and Privacy Reference Tool (CPRT)](https://csrc.nist.gov/projects/cprt) | NIST | NIST's tool for reference data from some of its cybersecurity and privacy publications: datasets in one consistent format, downloadable as XLSX or JSON. | Online service | Free |
 | [National Vulnerability Database (NVD)](https://nvd.nist.gov/) | NIST | U.S. government repository of vulnerability data: software flaws, product names, impact metrics, and security checklists, searchable on the web or through its 2.0 APIs. | Dataset or feed | Free |
 
 Listed here from another domain: National Vulnerability Database (NVD) ([Vulnerability management](vulnerability-management.md#vulnerability-databases)).

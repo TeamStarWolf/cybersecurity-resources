@@ -20,10 +20,10 @@ Is there already a detection for this?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Sigma rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | Main repository of Sigma, the generic signature format for SIEM systems, with its library of detection rules. | Dataset or feed | Free |
+| [Sigma rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | The SigmaHQ rule repository: vendor-neutral detection rules, including generic, threat hunting, and emerging threat sets, with rule packages on its release page. | Dataset or feed | Free |
 | [Detection.FYI](https://detection.fyi/) | detection.fyi | Browsable site of detection rules, each shown with its ATT&CK tags and description. | Online service | Free |
 | [Uncoder IO](https://uncoder.io/) | SOC Prime | SOC Prime's detection rule translator for Sigma and Roota; it is now part of the Prime Architect product, with trial access by request. | Online service | Paid |
-| [Elastic detection rules](https://github.com/elastic/detection-rules) | Elastic | Repository where Elastic develops, tests, and releases the rules used by Elastic Security's detection engine. | Dataset or feed | Free |
+| [Elastic detection rules](https://github.com/elastic/detection-rules) | Elastic | Elastic's repository for developing, testing, and releasing the rules that its Elastic Security detection engine runs. | Dataset or feed | Free |
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | Knowledge base of detection analytics based on the ATT&CK model, with pseudocode and some direct implementations. | Reference | Free |
 | [YARA](https://virustotal.github.io/yara/) | VirusTotal | Tool for identifying and classifying malware samples from rules that describe textual or binary patterns; its successor is YARA-X. *In maintenance mode.* | Tool | Free |
 
@@ -33,8 +33,8 @@ What do I run the detections on?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Wazuh](https://wazuh.com/) | Wazuh, Inc. | Free and open source security platform that combines XDR and SIEM functions for endpoints and cloud workloads. | Tool | Free |
-| [Falco](https://github.com/falcosecurity/falco) | The Falco Project | Cloud native runtime security tool for Linux that watches kernel events such as syscalls and alerts on abnormal behavior. | Tool | Free |
+| [Wazuh](https://wazuh.com/) | Wazuh, Inc. | Open source agent-and-server platform for endpoint and cloud workload monitoring: file integrity, configuration assessment, vulnerability detection, and log analysis, with a paid hosted option. | Tool | Free |
+| [Falco](https://github.com/falcosecurity/falco) | The Falco Project | CNCF graduated project, created by Sysdig, that watches Linux kernel events and raises alerts when they match its rules for abnormal behavior. | Tool | Free |
 | [osquery](https://osquery.io/) | osquery, a Linux Foundation project | Exposes an operating system as SQL tables, so that you can query processes, users, and configuration on macOS, Windows, and Linux. | Tool | Free |
 | [Zeek](https://zeek.org/) | The Zeek Project | Open source, scriptable network monitor, originally developed under the name Bro. | Tool | Free |
 
@@ -46,7 +46,7 @@ What can I test a detection against?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [DetectionLab](https://github.com/clong/DetectionLab) | Chris Long (clong) | Scripts that build a Windows domain lab with security tooling and logging preinstalled. *No longer actively maintained, as of January 1, 2023.* | Tool | Free |
-| [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | sbousseaden | Windows event log samples for specific attack and post-exploitation techniques, for testing detections and practicing hunting. *Last updated in January 2023.* | Dataset or feed | Free |
+| [DetectionLab](https://github.com/clong/DetectionLab) | Chris Long (clong) | Vagrant, Packer, and Terraform code that stands up a Windows domain lab with Sysmon, osquery, and event forwarding already configured. *No longer actively maintained, as of January 1, 2023.* | Tool | Free |
+| [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | sbousseaden | Recorded Windows event logs of attack techniques, filed by ATT&CK tactic, for replaying against detections or practicing hunts. *Last updated in January 2023.* | Dataset or feed | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

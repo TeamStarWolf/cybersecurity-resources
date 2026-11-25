@@ -57,3 +57,48 @@ jobs:
           name: link-check-report
           path: lychee/out.md
           retention-days: 30
+
+  # A weekly report, not a gate. It compares each description with what its page says about itself and
+  # lists any that share a run of five or more words. Pages change and many refuse a runner, so the
+  # job records what it finds and never fails; a maintainer reads the report.
+  wording:
+    name: Descriptions in the catalog's own words (weekly report)
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+
+      - name: Install the pinned YAML reader
+        run: python -m pip install --require-hashes --no-deps -r requirements.txt
+
+      - name: Compare each description with its page's own summary
+        run: |
+          python scripts/check_links.py --wording --report wording.json > wording.txt || true
+          {
+            echo "### Descriptions and their pages' own words"
+            echo
+            tail -n 1 wording.txt
+            echo
+            echo '```'
+            grep '^COPY' wording.txt || echo "No description shares a run of five or more words with its page."
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the wording report
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: wording-report
+          path: |
+            wording.txt
+            wording.json
+          retention-days: 30

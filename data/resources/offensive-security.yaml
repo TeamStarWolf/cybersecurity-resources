@@ -22,7 +22,7 @@
   section: recon-and-osint
   kind: tool
   cost: free
-  description: "Maps attack surfaces and discovers external assets using open source information gathering and active reconnaissance."
+  description: "OWASP project that maps a target's attack surface and finds its external assets, combining public-source collection with active reconnaissance."
   checked:
     date: "2026-11-25"
     status: 200
@@ -68,7 +68,7 @@
   section: recon-and-osint
   kind: tool
   cost: free
-  description: "Open source intelligence gathering tool built to reduce the time spent harvesting information from open sources."
+  description: "Reconnaissance framework for collecting public information from the web; its look and feel follow the Metasploit Framework."
   checked:
     date: "2026-11-25"
     status: 200
@@ -139,7 +139,7 @@
   section: web-application-testing
   kind: tool
   cost: free
-  description: "Web fuzzer written in Go."
+  description: "Command-line fuzzer for web targets: content and virtual host discovery, and fuzzing of GET parameters and POST data."
   checked:
     date: "2026-11-25"
     status: 200
@@ -153,7 +153,7 @@
   section: web-application-testing
   kind: tool
   cost: free
-  description: "Open source tool that automates detecting and exploiting SQL injection flaws and taking over the database behind them."
+  description: "Detects and exploits SQL injection through to database takeover, with file and command access where the backend allows; GPLv2 or a commercial license."
   checked:
     date: "2026-11-25"
     status: 200
@@ -181,7 +181,7 @@
   section: active-directory-and-windows
   kind: tool
   cost: free
-  description: "Uses graph theory to reveal hidden and unintended relationships across identity and access management systems, fed by the SharpHound and AzureHound collectors."
+  description: "Graphs the privilege relationships in Active Directory, Azure, and other identity platforms so that attack paths stand out; this is the open source Community Edition."
   checked:
     date: "2026-11-25"
     status: 200
@@ -195,12 +195,13 @@
   section: active-directory-and-windows
   kind: tool
   cost: free
-  description: "C# data collector for BloodHound."
+  description: "The collector that gathers Active Directory data for BloodHound Community Edition, downloaded from the BloodHound interface or as a release binary."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/SpecterOps/SharpHound"
     how: script
+  notes: "Active Directory is named in the linked documentation (https://bloodhound.specterops.io/collect-data/ce-collection/sharphound), not in the README."
 
 - id: impacket
   name: "Impacket"
@@ -209,7 +210,7 @@
   section: active-directory-and-windows
   kind: tool
   cost: free
-  description: "Collection of Python classes for working with network protocols such as SMB and MSRPC, giving low-level programmatic access to packets."
+  description: "Python library and example scripts, maintained by Fortra, for speaking SMB, MSRPC, and other Windows protocols with NTLM or Kerberos authentication."
   checked:
     date: "2026-11-25"
     status: 200
@@ -238,7 +239,7 @@
   section: active-directory-and-windows
   kind: tool
   cost: free
-  description: "C# toolset for raw Kerberos interaction and abuses."
+  description: "GhostPack's Windows tool for Kerberos testing: request and renew tickets, abuse constrained delegation, forge golden and silver tickets, and extract or pass tickets."
   checked:
     date: "2026-11-25"
     status: 200
@@ -252,12 +253,13 @@
   section: active-directory-and-windows
   kind: tool
   cost: free
-  description: "Tool known for extracting plaintext passwords, hashes, PIN codes, and Kerberos tickets from memory, and for pass-the-hash and pass-the-ticket."
+  description: "Benjamin Delpy's Windows credential tool, with modules for LSASS secrets, Kerberos tickets, certificates and keys, the vault, and LSA dumps."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/gentilkiwi/mimikatz"
     how: script
+  notes: "LSASS is named on the wiki page for the sekurlsa module (https://github.com/gentilkiwi/mimikatz/wiki/module-~-sekurlsa); the README shows the module without naming the process."
 
 - id: responder
   name: "Responder"
@@ -266,7 +268,7 @@
   section: active-directory-and-windows
   kind: tool
   cost: free
-  description: "LLMNR, NBT-NS, and mDNS poisoner with built-in rogue authentication servers that support NTLMv1, NTLMv2, and basic HTTP authentication."
+  description: "Poisons name resolution on a local network and runs rogue servers that capture the authentication attempts of machines that fall for it."
   checked:
     date: "2026-11-25"
     status: 200
@@ -283,7 +285,7 @@
   maintenance:
     state: dormant
     since: "2020-11"
-  description: "Tool to brute force and enumerate valid Active Directory accounts through Kerberos pre-authentication."
+  description: "Checks which usernames exist in a domain and sprays or brute-forces passwords by sending Kerberos pre-authentication requests."
   checked:
     date: "2026-11-25"
     status: 200
@@ -298,12 +300,13 @@
   section: active-directory-and-windows
   kind: tool
   cost: freemium
-  description: "Active Directory and Entra ID security assessment tool; a free Community Edition and paid editions are offered."
+  description: "Scores an Active Directory or Entra ID environment against a maturity model and reports risk indicators; free to download, with paid editions."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.pingcastle.com/"
     how: script
+  notes: "The maturity grade from 1 to 5 is on the Methodology page (https://www.pingcastle.com/methodology/)."
 
 - id: metasploit-framework
   name: "Metasploit Framework"
@@ -312,12 +315,13 @@
   section: command-and-control
   kind: tool
   cost: free
-  description: "Open source framework of exploit, auxiliary, and payload modules, released under a BSD-style license, with nightly installers."
+  description: "Rapid7's exploitation framework: a console plus a library of exploit, auxiliary, and payload modules, installed from nightly packages or from source."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/rapid7/metasploit-framework"
     how: script
+  notes: "The module types are the folder names under modules in the repository; the README does not list them."
 
 - id: sliver
   name: "Sliver"
@@ -326,7 +330,7 @@
   section: command-and-control
   kind: tool
   cost: free
-  description: "Open source adversary emulation and red team framework whose implants support C2 over mutual TLS, WireGuard, HTTP(S), and DNS."
+  description: "Bishop Fox's command-and-control framework for red teams, with a server, operator clients, and implants that call back over mutual TLS, WireGuard, HTTP(S), or DNS."
   checked:
     date: "2026-11-25"
     status: 200
@@ -343,13 +347,13 @@
   maintenance:
     state: archived
     since: "2026-02-20"
-  description: "Post-exploitation command and control framework."
+  description: "Command-and-control framework with a team server and an operator client, used by red teams after initial access."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/HavocFramework/Havoc"
     how: script
-  notes: "GitHub shows the repository was archived by its owner on 2026-02-20. Last commit on the default branch: 2025-12-18."
+  notes: "GitHub shows the repository was archived by its owner on 2026-02-20. Last commit on the default branch: 2025-12-18. Who it is for is on the documentation's welcome page (https://havocframework.com/docs/welcome), which names penetration testers, red teams, and blue teams; the README does not say."
 
 - id: mythic
   name: "Mythic"
@@ -372,7 +376,7 @@
   section: command-and-control
   kind: tool
   cost: paid
-  description: "Commercial adversary simulation software with a post-exploitation agent and covert channels; pricing is by request."
+  description: "Fortra's commercial red team platform, with the Beacon agent, Malleable C2, and the Arsenal Kit among its features; pricing is by request."
   checked:
     date: "2026-11-25"
     status: 200
@@ -387,7 +391,7 @@
   section: command-and-control
   kind: tool
   cost: free
-  description: "Proxy-aware C2 framework that aids red teamers with post-exploitation and lateral movement."
+  description: "Command-and-control framework from LRQA Cyber that works through web proxies, installed on Kali or run in Docker."
   checked:
     date: "2026-11-25"
     status: 200
@@ -402,13 +406,13 @@
   section: cheat-sheets-and-payloads
   kind: reference
   cost: free
-  description: "Knowledge base of pentesting, red team, web, cloud, binary exploitation, and privilege escalation techniques."
+  description: "Wiki of attack techniques and testing checklists for penetration testers, from web and cloud targets to binaries and privilege escalation."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://hacktricks.wiki/"
     how: script
-  notes: "The site sends some automated clients to a paid-access notice on tollbit.hacktricks.wiki (HTTP 402). It answered 200 to the link checker on 2026-11-25."
+  notes: "The site sends some automated clients to a paid-access notice on tollbit.hacktricks.wiki (HTTP 402). It answered 200 to the link checker on 2026-11-25. The checklists are in the table of contents the home page loads (https://hacktricks.wiki/en/toc.html)."
 
 - id: payloadsallthethings
   name: "PayloadsAllTheThings"
@@ -417,12 +421,13 @@
   section: cheat-sheets-and-payloads
   kind: reference
   cost: free
-  description: "List of payloads and bypasses for web application security testing and CTFs."
+  description: "Repository with one folder per vulnerability class, such as command injection or CSRF, each holding test payloads and filter bypasses."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/swisskyrepo/PayloadsAllTheThings"
     how: script
+  notes: "The vulnerability classes are the folder names in the repository's root listing."
 
 - id: gtfobins
   name: "GTFOBins"
@@ -431,7 +436,7 @@
   section: cheat-sheets-and-payloads
   kind: reference
   cost: free
-  description: "Curated list of Unix-like executables that can be used to bypass local security restrictions on misconfigured systems."
+  description: "Lists what ordinary Unix programs can be made to do when misconfigured, such as spawn a shell, read files, or escalate through sudo and SUID."
   checked:
     date: "2026-11-25"
     status: 200
@@ -445,7 +450,7 @@
   section: cheat-sheets-and-payloads
   kind: reference
   cost: free
-  description: "Catalog of Living Off The Land Binaries, Scripts, and Libraries, with the project's criteria for what counts as one."
+  description: "Lists the Windows binaries, scripts, and libraries that attackers reuse, with what each can do, such as execute code, download files, or bypass allowlisting."
   checked:
     date: "2026-11-25"
     status: 200
@@ -459,12 +464,13 @@
   section: cheat-sheets-and-payloads
   kind: dataset
   cost: free
-  description: "Catalog of vulnerable and malicious Windows drivers, with sample hashes and detections."
+  description: "Catalog of Windows drivers classed as vulnerable or malicious, with sample hashes, HVCI load results where recorded, and detection rules and block policies."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.loldrivers.io/"
     how: script
+  notes: "The page says HVCI statuses apply to individual samples, and that some samples have no result recorded."
 
 - id: wadcoms
   name: "WADComs"
@@ -473,7 +479,7 @@
   section: cheat-sheets-and-payloads
   kind: reference
   cost: free
-  description: "Interactive cheat sheet of offensive security tools and their commands for Windows and Active Directory environments."
+  description: "Filterable list of commands for attacking Windows and Active Directory, narrowed by what you already hold, the service, and the attack type."
   checked:
     date: "2026-11-25"
     status: 200
@@ -502,7 +508,7 @@
   also_in: [dfir-and-malware-analysis/reverse-engineering]
   kind: service
   cost: free
-  description: "Web app for encryption, encoding, compression, and data analysis, built by chaining operations into a recipe."
+  description: "GCHQ's browser tool for transforming data: drag operations such as Base64 decoding or decryption into a recipe and apply it to your input."
   checked:
     date: "2026-11-25"
     status: 200
@@ -559,7 +565,7 @@
   section: network-scanning
   kind: tool
   cost: free
-  description: "Port scanner written in Go, designed to be combined with other tools for attack surface discovery."
+  description: "ProjectDiscovery's port scanner, with host discovery, CDN and WAF exclusion, and an option to hand open ports to Nmap for service detection."
   checked:
     date: "2026-11-25"
     status: 200

@@ -50,6 +50,20 @@ Every page in this repository is generated from the files under `data/`. To chan
 | `replaced_by` | For a retired record, the id of the record that took its place |
 | `notes` | What a maintainer needs to know: a login wall, the date of the last commit, what was read when the address itself was blocked. Notes stay in the data and are not shown on a page |
 
+### Own words
+
+A description is the catalog's own sentence. It may not share a run of five or more consecutive words with what the page says about itself: its meta description, its title, its first heading, or its opening paragraphs. A name is excepted: the resource's own, or a product's or document's name that the sentence has to mention.
+
+Write the sentence from what the page covers: its sections, its table of contents, what the tool does. Do not start from the page's summary line and change words. A review finding quotes the page as evidence; the description that follows from it still has to be yours.
+
+`python scripts/check_links.py --wording` measures this for every shown record and exits 1 if any description is over the threshold. `--only domain-id,domain-id` limits it to the domains you changed. It needs the network, so it is a required step before a pull request and a weekly report, not a check on every push.
+
+What the check does not do:
+
+- It excepts the record's own name, former name, and publisher, and no other name. If another product's name of five or more words trips it, reword around the name.
+- It cannot read a page that needs a browser. It lists those pages; open each one and compare by hand.
+- It finds copied runs of words. It does not find a sentence that follows its source with one word in five changed, so read the two side by side as well.
+
 ### Publisher
 
 The publisher is the organization that runs the resource today, as the page's footer or about page states it. A brand is not a publisher: a news site's footer usually names the company that owns it. When the footer or the about page names someone other than the brand, say in `notes` which page settled it. After an acquisition, that is the current owner in the form the page gives, such as "Wiz (part of Google Cloud)". Use the project's own name only when the page names no organization. For a repository under a personal account, give the person's display name with the account name in parentheses, such as "Ronnie Flathers (ropnop)", both read from the account's profile. The same holds for a site that names no operator but links its own source in a repository under a personal account; say in `notes` that the name comes from the repository.
@@ -122,10 +136,11 @@ Letters of any script are allowed. `notes` follow the same rules except the firs
    python scripts/check_links.py
    ```
 
-4. Run `python scripts/check_links.py --pages` and read every line it prints. An address that answers 200 is not proof that it is the right page: a site can move a list and leave a hub at the old address, or return an empty result for a filter. The check compares each record's name with the page's title and first heading and looks for not-found wording. It cannot read a page that needs a browser, and it cannot tell when a page keeps its name but changes what it offers, so open those by hand.
-5. Commit the data and the regenerated pages together.
+4. Run `python scripts/check_links.py --wording --only <the domains you changed>` and rewrite any description it lists. See Own words above.
+5. Run `python scripts/check_links.py --pages` and read every line it prints. An address that answers 200 is not proof that it is the right page: a site can move a list and leave a hub at the old address, or return an empty result for a filter. The check compares each record's name with the page's title and first heading and looks for not-found wording. It cannot read a page that needs a browser, and it cannot tell when a page keeps its name but changes what it offers, so open those by hand.
+6. Commit the data and the regenerated pages together.
 
-`scripts/validate.py --self-test` plants one fault at a time and confirms that each is rejected, printing one line per fault. It covers each data rule (a duplicate id, a duplicate address, a 30-word description, a list of 17 links in the compact set, and others), each kind of bad address in each place an address can enter (a record, an earlier address, a pin in the compact set), and each kind of bad text in each field that reaches a page. `scripts/check_links.py --self-test` confirms that the checker fails a dead address, applies the ignore list as written, and flags planted wrong pages.
+`scripts/validate.py --self-test` plants one fault at a time and confirms that each is rejected, printing one line per fault. It covers each data rule (a duplicate id, a duplicate address, a 30-word description, a list of 17 links in the compact set, and others), each kind of bad address in each place an address can enter (a record, an earlier address, a pin in the compact set), and each kind of bad text in each field that reaches a page. `scripts/check_links.py --self-test` confirms that the checker fails a dead address, applies the ignore list as written, flags planted wrong pages, and catches planted copied descriptions.
 
 ## The compact set
 

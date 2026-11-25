@@ -9,12 +9,13 @@
   section: standards-and-guides
   kind: standard
   cost: free
-  description: "Standard awareness document on the most critical web application security risks; the current release is the OWASP Top 10 2025."
+  description: "OWASP's ranked list of the ten risk categories that matter most in web applications, revised every few years; 2025 is the current edition."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://owasp.org/projects/top-ten"
     how: script
+  notes: "The ranking and the ten categories are on the linked introduction to the 2025 edition (https://owasp.org/Top10/2025/0x00_2025-Introduction/), not on the project page."
 
 - id: owasp-asvs
   name: "OWASP Application Security Verification Standard (ASVS)"
@@ -23,7 +24,7 @@
   section: standards-and-guides
   kind: standard
   cost: free
-  description: "Framework of security requirements for designing, developing, and testing web applications and services; the site offers version 5.0.0."
+  description: "OWASP's checklist of verifiable security requirements for web applications and services, downloadable as PDF, Word, or CSV; the current version is 5.0.0."
   checked:
     date: "2026-11-25"
     status: 200
@@ -38,7 +39,7 @@
   section: standards-and-guides
   kind: reference
   cost: free
-  description: "OWASP's testing guide for web application developers and security professionals."
+  description: "OWASP's guide to testing the security of web applications; the project page links the guide's own site and its versioned releases."
   checked:
     date: "2026-11-25"
     status: 200
@@ -52,7 +53,7 @@
   section: standards-and-guides
   kind: standard
   cost: free
-  description: "OWASP's mobile security project, with the MASVS verification standard and a list of weaknesses specific to mobile apps."
+  description: "OWASP's mobile security project: the MASVS standard, the MASWE weakness list, and the MASTG testing guide."
   checked:
     date: "2026-11-25"
     status: 200
@@ -66,7 +67,7 @@
   section: standards-and-guides
   kind: reference
   cost: free
-  description: "Concise guidance on specific application security topics, one cheat sheet per topic."
+  description: "Short, practical write-ups from OWASP, one per topic, each summarizing how to handle a particular application security problem."
   checked:
     date: "2026-11-25"
     status: 200
@@ -80,7 +81,7 @@
   section: standards-and-guides
   kind: standard
   cost: free
-  description: "Software Assurance Maturity Model: a measurable way for an organization to analyze and improve its software security posture."
+  description: "OWASP's maturity model for software security programs, with an assessment to score your organization and a benchmark to compare it with others."
   checked:
     date: "2026-11-25"
     status: 200
