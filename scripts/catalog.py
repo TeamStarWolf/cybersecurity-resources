@@ -43,6 +43,30 @@ def load_compact(data: Path = DATA) -> dict:
     return read_yaml(data / "compact.yaml")
 
 
+def load_ignore(data: Path = DATA) -> dict:
+    """The link-check ignore list: the largest share of the catalog it may cover, and its entries."""
+    loaded = read_yaml(data / "link-check-ignore.yaml")
+    if not isinstance(loaded, dict) or not isinstance(loaded.get("entries"), list):
+        raise SystemExit("data/link-check-ignore.yaml must be a mapping with max_share_percent and entries")
+    return loaded
+
+
+def ignore_matches(item: dict, address: str) -> bool:
+    """An entry names one address (match: exact) or every address that starts with it (match: prefix)."""
+    if item.get("match") == "exact":
+        return address == item["url"]
+    return address.startswith(item["url"])
+
+
+def published_addresses(records: list[dict], compact: dict) -> list[str]:
+    """Every address the catalog publishes, once each: shown resources, then the compact set with its pins."""
+    by_id = {r["id"]: r for r in records}
+    out = [r["url"] for r in records if is_active(r) and isinstance(r.get("url"), str)]
+    for _, _, links in compact_lists(compact):
+        out += [compact_address(link, by_id) for link in links if link.get("id") in by_id]
+    return list(dict.fromkeys(out))
+
+
 def is_active(rec: dict) -> bool:
     """Active records are rendered on the domain pages. Retired and unverified ones are kept in the data only."""
     return rec.get("status", "active") == "active"

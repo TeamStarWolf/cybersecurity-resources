@@ -21,7 +21,7 @@ What did Microsoft or my cloud provider just fix?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Microsoft Security Update Guide](https://msrc.microsoft.com/update-guide/) | Microsoft | Microsoft's database of security updates: filter by product family, severity, impact, and release date to see vulnerabilities, deployments, and advisories. | Advisory source | Free |
-| [MSRC Blog](https://www.microsoft.com/en-us/msrc/blog) | Microsoft | Blog of the Microsoft Security Response Center, covering security response topics and guidance on prioritizing updates. | Advisory source | Free |
+| [MSRC Blog](https://www.microsoft.com/en-us/msrc/blog) | Microsoft | Blog of the Microsoft Security Response Center: security program updates, policy changes, technical research, and perspectives. | Research blog | Free |
 | [AWS Security Bulletins](https://aws.amazon.com/security/security-bulletins/) | Amazon Web Services | AWS security bulletins, with an RSS feed that holds the last 30 days of posts. | Advisory source | Free |
 | [Google Cloud security bulletins](https://docs.cloud.google.com/support/bulletins) | Google Cloud | Security bulletins for Google Cloud products, published in the Cloud Customer Care documentation. | Advisory source | Free |
 
@@ -49,7 +49,7 @@ What do I patch at the edge?
 | [Cisco Security Advisories](https://sec.cloudapps.cisco.com/security/center/publicationListing.x) | Cisco | Cisco's security advisory listing, with quick and advanced search by product. | Advisory source | Free |
 | [Palo Alto Networks Security Advisories](https://security.paloaltonetworks.com/) | Palo Alto Networks | Security advisories and remediations for vulnerabilities in Palo Alto Networks products and services. | Advisory source | Free |
 | [FortiGuard PSIRT Advisories](https://www.fortiguard.com/psirt) | Fortinet | Advisories for issues resolved in Fortinet products, browsable by product, severity, component, and date. | Advisory source | Free |
-| [F5 security advisories (MyF5)](https://my.f5.com/manage/s/new-updated-articles#f-f5_document_type=Security%20Advisory) | F5 | MyF5's list of new and updated articles filtered to security advisories; each K article covers one vulnerability in an F5 product. | Advisory source | Free |
+| [F5 security advisories (MyF5)](https://my.f5.com/manage/s/new-updated-articles#f-f5_document_type=Security%20Advisory) | F5 | MyF5's list of new and updated articles filtered to security advisories, covering F5 products and the third-party components in them. | Advisory source | Free |
 | [Citrix Support (security bulletins)](https://support.citrix.com/support-home/home) | Citrix | Citrix support home page, which lists the latest security bulletins for Citrix, NetScaler, and XenServer products. | Advisory source | Free |
 | [Ivanti security advisory blog](https://www.ivanti.com/blog/topics/security-advisory) | Ivanti | Ivanti blog posts tagged Security Advisory, including a monthly security update that names the products with disclosed vulnerabilities. | Advisory source | Free |
 | [SonicWall PSIRT vulnerability list](https://psirt.global.sonicwall.com/vuln-list) | SonicWall | SonicWall PSIRT's vulnerability list, filterable by impact and product line, with an RSS feed. | Advisory source | Free |
@@ -63,9 +63,9 @@ What do I patch in the business applications?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Oracle Critical Patch Updates, Security Alerts and Bulletins](https://www.oracle.com/security-alerts/) | Oracle | Oracle's index of Critical Patch Update advisories, security alerts, and bulletins, updated as each one is released. | Advisory source | Free |
+| [Oracle Critical Patch Updates, Critical Security Patch Updates, Security Alerts and Bulletins](https://www.oracle.com/security-alerts/) | Oracle | Oracle's index of Critical Patch Update and Critical Security Patch Update advisories, security alerts, and bulletins, updated as each one is released. | Advisory source | Free |
 | [SAP Security Notes & News](https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html) | SAP | SAP Support Portal page for reviewing SAP Security Notes, planning for Security Patch Days, and reading security news. | Advisory source | Free |
-| [IBM security vulnerability management (PSIRT)](https://www.ibm.com/trust/security-vulnerability-management) | IBM | IBM's page on how it handles security vulnerabilities in its products, including the PSIRT process for reporting them. | Advisory source | Free |
+| [IBM security vulnerability management (PSIRT)](https://www.ibm.com/trust/security-vulnerability-management) | IBM | IBM's page on how it handles security vulnerabilities in its products: the PSIRT reporting process and the route to IBM Security Bulletins. | Vendor documentation | Free |
 | [Adobe Security Bulletins and Advisories](https://www.adobe.com/trust/security/bulletins-and-advisories.html) | Adobe | Adobe's security bulletins and advisories for its products; bulletins published before January 2026 are on HelpX. | Advisory source | Free |
 | [Atlassian Security Advisories & Bulletins](https://www.atlassian.com/trust/security/advisories) | Atlassian | Security advisories and bulletins for Atlassian products, published in the Atlassian Trust Center. | Advisory source | Free |
 | [Jenkins Security Advisories](https://www.jenkins.io/security/advisories/) | Jenkins project | Security advisories for Jenkins and its plugins, with the project's advisory schedule. | Advisory source | Free |
@@ -78,9 +78,8 @@ What affects the control systems?
 |---|---|---|---|---|
 | [Siemens ProductCERT](https://productcert.siemens.com/) | Siemens | Siemens ProductCERT's security advisories for Siemens products, with a subscription option. | Advisory source | Free |
 | [Schneider Electric security notifications](https://www.se.com/ww/en/work/support/cybersecurity/security-notifications/) | Schneider Electric | Schneider Electric's security notifications, listed with CVE, affected products and versions, and PDF and CSAF downloads. | Advisory source | Free |
-| [CISA Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) | CISA | CISA's alerts, cybersecurity advisories, ICS advisories, and analysis reports in one searchable list. | Advisory source | Free |
 | [CISA Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems) | CISA | CISA's ICS and OT topic page, with tools, guidance, and current information for asset owners and defenders. | Reference | Free |
 
-Listed here from another domain: CISA Cybersecurity Alerts & Advisories ([Government and CERT alerts](government-and-cert-alerts.md#united-states)), CISA Industrial Control Systems ([Government and CERT alerts](government-and-cert-alerts.md#united-states)).
+Listed here from another domain: CISA Industrial Control Systems ([Government and CERT alerts](government-and-cert-alerts.md#united-states)).
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

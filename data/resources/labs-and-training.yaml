@@ -78,13 +78,14 @@
   publisher: "Arizona State University"
   section: offensive-labs
   kind: training
-  cost: free
+  cost: free-with-account
   description: "Free education platform for practicing core cybersecurity skills hands-on, maintained at Arizona State University."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://pwn.college/"
     how: script
+  notes: "Lectures and challenge descriptions can be read without signing in. Challenge instances belong to an account: the Start Here module says to link an SSH key to your account to connect, and the site offers Register and Login."
 
 - id: vulnhub
   name: "VulnHub"
@@ -93,12 +94,16 @@
   section: offensive-labs
   kind: training
   cost: free
+  maintenance:
+    state: dormant
+    since: "2022-07"
   description: "Vulnerable-by-design virtual machines to download and attack for hands-on practice."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.vulnhub.com/"
     how: script
+  notes: "The newest machine listed on the home page is dated 11 July 2022. The site and its downloads still answer."
 
 - id: overthewire
   name: "OverTheWire Wargames"
@@ -120,14 +125,14 @@
   publisher: "CyberDefenders"
   section: defensive-labs
   kind: training
-  cost: paid
-  description: "Blue team training for SOC analysts and DFIR, built on cyber range labs."
+  cost: freemium
+  description: "Blue team training for SOC analysts and DFIR, built on cyber range labs; joining is free, with community and premium labs."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://cyberdefenders.org/"
     how: script
-  notes: "The pricing page lists paid plans. A free tier was not confirmed on 2026-11-25, although a testimonial on the home page calls the platform free."
+  notes: "The labs page offers Join for Free and filters labs into Community, Premium, and Trial; the pricing page lists the paid plans."
 
 - id: blue-team-labs-online
   name: "Blue Team Labs Online"
@@ -160,7 +165,7 @@
 - id: rangeforce
   name: "RangeForce"
   url: "https://www.rangeforce.com/"
-  publisher: "RangeForce"
+  publisher: "RangeForce (Cyberbit)"
   section: defensive-labs
   kind: training
   cost: freemium
@@ -188,7 +193,7 @@
 
 - id: sans-dfir-courses
   name: "SANS DFIR courses"
-  url: "https://www.sans.org/cyber-security-courses?focus-area=digital-forensics-incident-response"
+  url: "https://www.sans.org/cyber-security-courses?refinementList%5Bfacets.focusArea%5D%5B0%5D=Digital%20Forensics%20and%20Incident%20Response"
   previously: ["https://www.sans.org/cyber-security-courses/?focus-area=digital-forensics-incident-response"]
   publisher: "SANS Institute"
   section: courses
@@ -199,23 +204,26 @@
   checked:
     date: "2026-11-25"
     status: 200
-    final: "https://www.sans.org/cyber-security-courses?focus-area=digital-forensics-incident-response"
-    how: script
+    final: "https://www.sans.org/cyber-security-courses?refinementList%5Bfacets.focusArea%5D%5B0%5D=Digital%20Forensics%20and%20Incident%20Response"
+    how: browser
+  notes: "The site ignores the earlier focus-area parameter and shows the whole catalog. This filter address showed 17 courses on 2026-11-25."
 
 - id: picoctf
-  name: "picoCTF (CyLab Security Academy)"
+  name: "CyLab Security Academy"
   formerly: "picoCTF"
-  url: "https://picoctf.org/"
+  url: "https://cylabacademy.org/"
+  previously: ["https://picoctf.org/"]
   publisher: "Carnegie Mellon University"
   section: ctf
   kind: training
-  cost: free
-  description: "Carnegie Mellon's free cybersecurity learning platform; picoCTF has joined CyLab Security Academy, and picoCTF accounts still work."
+  cost: free-with-account
+  description: "Carnegie Mellon's free cybersecurity learning platform, which took over from picoCTF: challenges to work through alone, in class, or in competition."
   checked:
     date: "2026-11-25"
     status: 200
-    final: "https://picoctf.org/"
+    final: "https://cylabacademy.org/"
     how: script
+  notes: "picoctf.org is now a notice that points here. Accounts created on picoCTF before 8 May 2026 still sign in. The Learners page says to sign up free, and the Challenge Library at learn.cylabacademy.org opens a sign-in page."
 
 - id: ctftime
   name: "CTFtime"

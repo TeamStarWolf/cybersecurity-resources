@@ -4,11 +4,11 @@
 
 > Alerts, advisories, and guidance from national cyber security agencies and coordination centers.
 
-Part of the [domain list](README.md). 10 resources in 2 sections. Standards and frameworks from the same agencies sit in GRC and security program.
+Part of the [domain list](README.md). 11 resources in 2 sections. Standards and frameworks from the same agencies sit in GRC and security program.
 
 | Section | The question it answers | Resources |
 |---|---|---|
-| [United States](#united-states) | What have CISA and other US bodies published? | 6 |
+| [United States](#united-states) | What have CISA and other US bodies published? | 7 |
 | [National and regional centers](#national-and-regional-centers) | What do other national centers advise? | 4 |
 
 ## United States
@@ -17,12 +17,13 @@ What have CISA and other US bodies published?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [CISA Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) | CISA | CISA's alerts, cybersecurity advisories, ICS advisories, and analysis reports in one searchable list. | Advisory source | Free |
+| [CISA Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) | CISA | CISA's alerts, cybersecurity advisories, and analysis reports in one searchable list; ICS advisories have a list of their own. | Advisory source | Free |
 | [CISA Stop Ransomware](https://www.cisa.gov/stopransomware) | CISA | CISA's ransomware site: guidance on preparation and response, alerts, and a route to report an incident. | Reference | Free |
 | [CISA Secure by Design](https://www.cisa.gov/securebydesign) | CISA | CISA's Secure by Design pages, which make the case for building security into the design and manufacture of technology products. | Reference | Free |
 | [CISA Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems) | CISA | CISA's ICS and OT topic page, with tools, guidance, and current information for asset owners and defenders. | Reference | Free |
 | [CERT/CC Vulnerability Notes Database](https://www.kb.cert.org/vuls/) | CERT/CC (Carnegie Mellon University SEI) | CERT/CC's database of vulnerability notes from coordinated disclosure, with guidance on reporting a vulnerability. | Advisory source | Free |
 | [Internet Crime Complaint Center (IC3)](https://www.ic3.gov/) | FBI | The FBI's hub for reporting cyber-enabled crime, with industry alerts and annual reports. | Organization | Free |
+| [HHS Threat Intelligence](https://tech.hhs.gov/cyber/threat-intelligence) | U.S. Department of Health and Human Services | HHS's threat intelligence pages for the health and public health sector, with libraries of threat briefs and sector alerts. | Advisory source | Free |
 | [Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | CISA | CISA's list of vulnerabilities known to be exploited in the wild, searchable by vendor and product; use it to decide what to patch first. | Dataset or feed | Free |
 
 Listed here from another domain: Known Exploited Vulnerabilities Catalog ([Vulnerability management](vulnerability-management.md#prioritization-and-scoring)).

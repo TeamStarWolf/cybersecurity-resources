@@ -33,12 +33,49 @@ def plural(n: int, one: str, many: str | None = None) -> str:
     return f"{n} {one if n == 1 else (many or one + 's')}"
 
 
+MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+          "October", "November", "December"]
+# A row whose address refused every client carries this mark after its name (an escaped asterisk).
+BLOCKED_MARK = " \\*"
+
+
+def is_blocked(rec: dict) -> bool:
+    """The address refused every client, so the entry was written from another page of the same publisher."""
+    return rec["checked"]["how"] == "blocked"
+
+
+def date_text(since: str) -> str:
+    """'2023' stays '2023'; '2020-11' becomes 'November 2020'; '2026-02-20' becomes 'February 20, 2026'."""
+    parts = since.split("-")
+    if len(parts) == 1:
+        return parts[0]
+    month = MONTHS[int(parts[1]) - 1]
+    if len(parts) == 2:
+        return f"{month} {parts[0]}"
+    return f"{month} {int(parts[2])}, {parts[0]}"
+
+
+def maintenance_note(maint: dict) -> str:
+    """The sentence a row carries when the resource is no longer developed."""
+    since = maint.get("since")
+    when = date_text(since) if since else ""
+    at = ("on " if since and since.count("-") == 2 else "in ") + when
+    state = maint["state"]
+    if state == "archived":
+        return f"Archived {at}." if since else "Archived."
+    if state == "maintenance-mode":
+        return f"In maintenance mode since {when}." if since else "In maintenance mode."
+    if state == "unmaintained":
+        return f"No longer actively maintained, as of {when}." if since else "No longer actively maintained."
+    return f"Last updated {at}."
+
+
 class Catalog:
     def __init__(self, data: Path = catalog.DATA):
         self.tax = catalog.load_taxonomy(data)
         self.records = catalog.load_resources(data)
         self.compact = catalog.load_compact(data)
-        self.ignore = catalog.read_yaml(data / "link-check-ignore.yaml") or []
+        self.ignore = catalog.load_ignore(data)
         self.by_id = {r["id"]: r for r in self.records}
         self.kinds = {k["id"]: k for k in self.tax["kinds"]}
         self.costs = {c["id"]: c for c in self.tax["costs"]}
@@ -135,21 +172,34 @@ class Catalog:
 
     # ---- domain pages
     def checked_sentence(self, recs: list[dict]) -> str:
-        dates = sorted({r["checked"]["date"] for r in recs})
-        if not dates:
+        """What was done to the addresses on a page: how many were opened and read, and how many could not be."""
+        recs = list({r["id"]: r for r in recs}.values())
+        if not recs:
             return ""
-        if dates[0] == dates[-1]:
-            return f"Every address on this page was opened and read on {dates[0]}."
-        return f"Every address on this page was opened and read between {dates[0]} and {dates[-1]}."
+        dates = sorted({r["checked"]["date"] for r in recs})
+        when = f"on {dates[0]}" if dates[0] == dates[-1] else f"between {dates[0]} and {dates[-1]}"
+        blocked = sum(1 for r in recs if is_blocked(r))
+        if not blocked:
+            return f"Every address on this page was opened and read {when}."
+        opened = len(recs) - blocked
+        return (f"Of the {len(recs)} addresses on this page, {opened} {'was' if opened == 1 else 'were'} opened and read {when}. "
+                f"The {'one' if blocked == 1 else blocked} marked \\* refused every client used for checking, a script and a browser, so "
+                f"{'that entry was' if blocked == 1 else 'each of those entries was'} written from another page of the same publisher: "
+                "its feed, its documentation, its vendor site, or its repository.")
 
     def row(self, r: dict) -> str:
         name = f"[{md_cell(r['name'])}]({r['url']})"
+        if is_blocked(r):
+            name += BLOCKED_MARK
         if r.get("formerly"):
             name += f" (formerly {md_cell(r['formerly'])})"
+        description = md_cell(r["description"])
+        if r.get("maintenance"):
+            description += f" *{maintenance_note(r['maintenance'])}*"
         return "| " + " | ".join([
             name,
             md_cell(r["publisher"]),
-            md_cell(r["description"]),
+            description,
             self.kinds[r["kind"]]["label"],
             self.costs[r["cost"]]["label"],
         ]) + " |"
@@ -227,17 +277,28 @@ class Catalog:
             for r in rs:
                 dom = self.domains[r["domain"]]
                 where = f"[{dom['title']}](domains/{r['domain']}.md#{catalog.slug(self.section_title(r['domain'], r['section']))})"
-                lines.append(f"| [{md_cell(r['name'])}]({r['url']}) | {md_cell(r['publisher'])} | {where} | {self.kinds[r['kind']]['label']} | {self.costs[r['cost']]['label']} |")
+                mark = BLOCKED_MARK if is_blocked(r) else ""
+                lines.append(f"| [{md_cell(r['name'])}]({r['url']}){mark} | {md_cell(r['publisher'])} | {where} | {self.kinds[r['kind']]['label']} | {self.costs[r['cost']]['label']} |")
             lines.append("")
+        if any(is_blocked(r) for r in recs):
+            lines += ["\\* The address refused every client used for checking, so the entry was written from another page of the same publisher. "
+                      "The [README](README.md#how-entries-are-chosen) explains when that is allowed.", ""]
         return "\n".join(lines)
 
     # ---- README blocks
     def block_counts(self) -> str:
         compact_links = sum(len(links) for _, _, links in catalog.compact_lists(self.compact))
         held = len(self.records) - len(self.active)
-        text = (f"The catalog holds {plural(len(self.active), 'resource')} in {plural(len(self.populated()), 'domain')}, "
-                f"each opened and read before it was described. The compact bookmark set holds {compact_links} bookmarks "
-                f"in {plural(len(self.compact['folders']), 'folder')}.")
+        blocked = sum(1 for r in self.active if is_blocked(r))
+        text = f"The catalog holds {plural(len(self.active), 'resource')} in {plural(len(self.populated()), 'domain')}. "
+        if blocked:
+            opened = len(self.active) - blocked
+            text += (f"{opened} {'was' if opened == 1 else 'were'} opened and read before {'it was' if opened == 1 else 'they were'} described. "
+                     f"The other {blocked} refused every client used for checking, so "
+                     f"{'it was' if blocked == 1 else 'each was'} described from another page of the same publisher and is marked \\* on its domain page. ")
+        else:
+            text += "Each was opened and read before it was described. "
+        text += f"The compact bookmark set holds {compact_links} bookmarks in {plural(len(self.compact['folders']), 'folder')}."
         if held:
             text += (f" The data also keeps {plural(held, 'record')} that {'is' if held == 1 else 'are'} not shown, "
                      "because the address is retired or could not be read at the last check.")
@@ -278,9 +339,19 @@ class Catalog:
         lines += [f"| {c['label']} | {md_cell(c['means'])} |" for c in self.tax["costs"]]
         return "\n".join(lines)
 
+    def block_link_check(self) -> str:
+        addresses = catalog.published_addresses(self.records, self.compact)
+        entries = self.ignore["entries"]
+        covered = sum(1 for a in addresses if any(catalog.ignore_matches(e, a) for e in entries))
+        ci_only = sum(1 for e in entries if e.get("only") == "ci")
+        return (f"The ignore list holds {plural(len(entries), 'entry', 'entries')}, {ci_only} of which apply to the CI check alone. "
+                f"Together they cover {covered} of the {len(addresses)} addresses the catalog publishes ({covered * 100 / len(addresses):.1f}%). "
+                f"The validator fails if that share passes {self.ignore['max_share_percent']}%.")
+
     def readme(self, current: str) -> str:
         blocks = {
             "counts": self.block_counts(),
+            "link-check": self.block_link_check(),
             "start-here": self.block_start_here(),
             "domains": self.block_domains(),
             "kinds": self.block_kinds(),
@@ -296,8 +367,9 @@ class Catalog:
     def lycheeignore(self) -> str:
         lines = ["# Generated by scripts/build.py from data/link-check-ignore.yaml. Do not edit.",
                  "# One regular expression per line; each address is justified in the data file."]
-        for item in self.ignore:
-            lines.append("^" + re.escape(item["url"]))
+        for item in self.ignore["entries"]:
+            # An exact entry is anchored at both ends. A prefix entry ends with a slash and is anchored at the start.
+            lines.append("^" + re.escape(item["url"]) + ("$" if item["match"] == "exact" else ""))
         return "\n".join(lines) + "\n"
 
     # ---- everything

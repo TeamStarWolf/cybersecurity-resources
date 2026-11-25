@@ -4,45 +4,48 @@
 - id: urlhaus
   name: "URLhaus"
   url: "https://urlhaus.abuse.ch/"
-  publisher: "abuse.ch"
+  publisher: "abuse.ch and Spamhaus"
   section: indicator-lookup
   kind: dataset
-  cost: free
-  description: "abuse.ch platform for sharing URLs used to distribute malware: search it, report URLs, or pull the data through its APIs."
+  cost: free-with-account
+  description: "Platform from abuse.ch and Spamhaus for sharing URLs used to distribute malware: search it, report URLs, or pull the data through its API."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://urlhaus.abuse.ch/"
     how: script
+  notes: "Browsing and searching need no account. The API, dataset downloads, and submissions need a free abuse.ch Auth-Key; the API pages say commercial use may need a paid subscription."
 
 - id: malwarebazaar
   name: "MalwareBazaar"
   url: "https://bazaar.abuse.ch/"
-  publisher: "abuse.ch"
+  publisher: "abuse.ch and Spamhaus"
   section: indicator-lookup
   also_in: [dfir-and-malware-analysis/sandboxes]
   kind: dataset
-  cost: free
-  description: "abuse.ch platform for sharing malware samples: upload a sample, search the database, set alerts for new malware, or query the API."
+  cost: free-with-account
+  description: "Platform from abuse.ch and Spamhaus for sharing malware samples: search the database, upload a sample, set alerts, or query the API."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://bazaar.abuse.ch/"
     how: script
+  notes: "Browsing and searching need no account. The API, dataset downloads, and submissions need a free abuse.ch Auth-Key; the API pages say commercial use may need a paid subscription."
 
 - id: threatfox
   name: "ThreatFox"
   url: "https://threatfox.abuse.ch/"
-  publisher: "abuse.ch"
+  publisher: "abuse.ch and Spamhaus"
   section: indicator-lookup
   kind: dataset
-  cost: free
-  description: "abuse.ch platform for sharing indicators of compromise tied to malware: search an indicator or push and pull data through the APIs."
+  cost: free-with-account
+  description: "Platform from abuse.ch and Spamhaus for sharing indicators of compromise tied to malware: search an indicator, or export and query the data."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://threatfox.abuse.ch/"
     how: script
+  notes: "Browsing and searching need no account. The API, dataset downloads, and submissions need a free abuse.ch Auth-Key; the API pages say commercial use may need a paid subscription."
 
 - id: feodo-tracker
   name: "Feodo Tracker"
@@ -51,26 +54,28 @@
   section: indicator-lookup
   kind: dataset
   cost: free
-  description: "abuse.ch tracker of botnet command-and-control servers for Dridex, Emotet, TrickBot, QakBot, and BazarLoader, published as blocklists."
+  description: "abuse.ch tracker of botnet command-and-control servers for Dridex, Emotet, TrickBot, QakBot, and BazarLoader; its datasets are empty at present."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://feodotracker.abuse.ch/"
     how: script
+  notes: "On 2026-11-25 the site said its datasets are currently empty: after law enforcement takedowns there are no active command-and-control servers for these families."
 
 - id: yaraify
   name: "YARAify"
   url: "https://yaraify.abuse.ch/"
-  publisher: "abuse.ch"
+  publisher: "abuse.ch and Spamhaus"
   section: indicator-lookup
   kind: service
-  cost: free
-  description: "abuse.ch service that scans a suspicious file against a large repository of YARA rules, with hunting alerts and an API."
+  cost: free-with-account
+  description: "Platform from abuse.ch and Spamhaus that scans a suspicious file against a large repository of YARA rules, with hunting alerts and an API."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://yaraify.abuse.ch/"
     how: script
+  notes: "Scanning a file on the site needs no account. The API needs a free abuse.ch Auth-Key; the API page says commercial use may need a paid subscription."
 
 - id: virustotal
   name: "VirusTotal"
@@ -79,14 +84,14 @@
   section: indicator-lookup
   also_in: [dfir-and-malware-analysis/sandboxes]
   kind: service
-  cost: free
+  cost: freemium
   description: "File and URL analysis service: upload a file or search an indicator, knowing that submissions are shared with the security community."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.virustotal.com:443/gui/"
     how: browser
-  notes: "The address redirects to the web application at /gui/. Paid tiers were not checked in this pass."
+  notes: "The address redirects to the web application at /gui/. Cost from https://docs.virustotal.com/docs/how-it-works: free to end users for non-commercial use, with premium customers and a premium API."
 
 - id: otx
   name: "LevelBlue Open Threat Exchange (OTX)"
@@ -106,17 +111,17 @@
 - id: abuseipdb
   name: "AbuseIPDB"
   url: "https://www.abuseipdb.com/"
-  publisher: "AbuseIPDB"
+  publisher: "AbuseIPDB LLC"
   section: indicator-lookup
   kind: service
-  cost: unconfirmed
+  cost: freemium
   description: "Database of IP addresses reported for abuse, with an API to check an address, report one, or download a blocklist."
   checked:
     date: "2026-11-25"
     status: 403
     final: "https://www.abuseipdb.com/"
     how: blocked
-  notes: "The home page answered 403 with a Cloudflare check to every client on 2026-11-25. Description written from the service's own API documentation (https://docs.abuseipdb.com/), which answered 200. Pricing page not opened."
+  notes: "The home page answered 403 with a Cloudflare check to every client on 2026-11-25. Description written from the service's own API documentation (https://docs.abuseipdb.com/), and cost from its pricing page (https://www.abuseipdb.com/pricing), both of which answered 200."
 
 - id: pulsedive
   name: "Pulsedive"
@@ -416,7 +421,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Recorded Future's blog, including research from its Insikt Group."
+  description: "Recorded Future's blog; research from its Insikt Group is published in a separate research section."
   checked:
     date: "2026-11-25"
     status: 200
@@ -451,6 +456,7 @@
     status: 200
     final: "https://www.welivesecurity.com/en/"
     how: script
+  notes: "On 2026-11-25 the page header said the site is moving soon to the ESET Blog (https://www.eset.com/blog/en/)."
 
 - id: securelist
   name: "Securelist"
@@ -487,13 +493,14 @@
   section: research-blogs
   also_in: [dfir-and-malware-analysis/forensics-tools]
   kind: research
-  cost: free
+  cost: freemium
   description: "Detailed reports drawn from observed intrusions, written to help defenders harden systems and improve detection and response."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://thedfirreport.com/"
     how: script
+  notes: "The public intrusion reports are free; the site also sells private reports, threat intelligence, labs, and services."
 
 - id: sekoia-blog
   name: "Sekoia Blog"
@@ -551,16 +558,15 @@
     status: 200
     final: "https://www.crowdstrike.com/en-us/global-threat-report/"
     how: script
-  notes: "Whether the download needs a form was not checked in this pass."
 
 - id: enisa-cyber-threats
   name: "ENISA Cyber Threats"
   url: "https://www.enisa.europa.eu/topics/cyber-threats"
   publisher: "European Union Agency for Cybersecurity (ENISA)"
   section: annual-reports
-  kind: report
+  kind: reference
   cost: free
-  description: "ENISA's cyber threats topic page, the entry point to its threat landscape, situational awareness, and foresight work."
+  description: "ENISA's cyber threats topic page, the entry point to its annual Threat Landscape report and its situational awareness and foresight work."
   checked:
     date: "2026-11-25"
     status: 200
@@ -573,14 +579,14 @@
   publisher: "IBM"
   section: annual-reports
   kind: report
-  cost: free
+  cost: free-with-account
   description: "IBM's annual X-Force Threat Intelligence Index, with the report and a companion webinar."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.ibm.com/reports/threat-intelligence"
     how: script
-  notes: "Whether the download needs a form was not checked in this pass."
+  notes: "The report is reached through a form that asks for name, business email, and country."
 
 - id: misp
   name: "MISP"
@@ -628,7 +634,7 @@
 - id: intelowl
   name: "IntelOwl"
   url: "https://github.com/intelowlproject/IntelOwl"
-  publisher: "IntelOwl Project"
+  publisher: "Certego"
   section: platforms-and-standards
   kind: tool
   cost: free
@@ -638,6 +644,7 @@
     status: 200
     final: "https://github.com/intelowlproject/IntelOwl"
     how: script
+  notes: "The README says that since version 6.8.0 the management of the project is fully in Certego's hands."
 
 - id: stix-and-taxii
   name: "STIX and TAXII documentation"

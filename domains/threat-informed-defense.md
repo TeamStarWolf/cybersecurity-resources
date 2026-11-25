@@ -23,11 +23,11 @@ Where is the shared map of how attacks and defenses work?
 | [MITRE ATT&CK](https://attack.mitre.org/) | MITRE | Knowledge base of adversary tactics and techniques based on real-world observations; the shared reference for mapping detections, intelligence, and tests. | Reference | Free |
 | [MITRE D3FEND](https://d3fend.mitre.org/) | MITRE | Knowledge graph of defensive countermeasure techniques and their relationships to the adversary techniques they address. | Reference | Free |
 | [MITRE ATLAS](https://atlas.mitre.org/) | MITRE | Knowledge base of adversary tactics and techniques involving AI systems, with mitigations and case studies. | Reference | Free |
-| [MITRE Engage](https://engage.mitre.org/) | MITRE | MITRE's framework for conducting denial, deception, and adversary engagement activities. | Reference | Free |
+| [MITRE Engage](https://engage.mitre.org/) \* | MITRE | MITRE's framework for conducting denial, deception, and adversary engagement activities. | Reference | Free |
 | [MITRE EMB3D](https://emb3d.mitre.org/) | MITRE | Threat model for embedded devices: a knowledge base of device threats and the security mechanisms that mitigate them. | Reference | Free |
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | Knowledge base of detection analytics based on the ATT&CK model, with pseudocode and some direct implementations. | Reference | Free |
 | [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/) | MITRE | Community-developed list of software and hardware weakness types, with guidance on mapping a vulnerability to its root cause. | Reference | Free |
-| [Common Attack Pattern Enumeration and Classification (CAPEC)](https://capec.mitre.org/) | MITRE | Community catalog of attack patterns, for identifying and understanding how attacks are carried out. | Reference | Free |
+| [Common Attack Pattern Enumeration and Classification (CAPEC)](https://capec.mitre.org/) | MITRE | Community catalog of attack patterns, for identifying and understanding how attacks are carried out. *Last updated in January 2023.* | Reference | Free |
 
 Listed here from another domain: MITRE Cyber Analytics Repository (CAR) ([Detection and response](detection-and-response.md#rules-and-analytics)), Common Weakness Enumeration (CWE) ([Vulnerability management](vulnerability-management.md#weakness-and-attack-pattern-taxonomies)), Common Attack Pattern Enumeration and Classification (CAPEC) ([Vulnerability management](vulnerability-management.md#weakness-and-attack-pattern-taxonomies)).
 
@@ -46,7 +46,7 @@ How do I test whether a defense works?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Red Canary | Library of small, portable detection tests mapped to ATT&CK techniques; run one to check whether a detection fires. | Dataset or feed | Free |
+| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Red Canary, a Zscaler company | Library of small, portable detection tests mapped to ATT&CK techniques; run one to check whether a detection fires. | Dataset or feed | Free |
 | [Apache Caldera](https://github.com/apache/caldera) (formerly MITRE Caldera) | Apache Software Foundation | Adversary emulation platform built on ATT&CK that automates security assessments and assists red teams; started at MITRE. | Tool | Free |
 
-Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).
+Of the 12 addresses on this page, 11 were opened and read on 2026-11-25. The one marked \* refused every client used for checking, a script and a browser, so that entry was written from another page of the same publisher: its feed, its documentation, its vendor site, or its repository. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

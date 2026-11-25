@@ -196,7 +196,7 @@ folders:
       - {id: canadian-centre-for-cyber-security, label: "Canadian Centre for Cyber Security"}
       - {id: enisa, label: "ENISA"}
       - {id: ic3, label: "FBI IC3"}
-      - {id: hhs-hc3, label: "HHS HC3 (Healthcare)"}
+      - {id: hhs-hc3, label: "HHS HC3 (Healthcare)", url: "https://www.hhs.gov/hc3"}
   - title: "🧰 Frameworks & Standards"
     sections:
       - title: "MITRE"
@@ -365,7 +365,7 @@ folders:
       - {id: letsdefend, label: "LetsDefend"}
       - {id: rangeforce, label: "RangeForce"}
       - {id: antisyphon-training, label: "Antisyphon Training"}
-      - {id: picoctf, label: "picoCTF"}
+      - {id: picoctf, label: "picoCTF", url: "https://picoctf.org/"}
       - {id: ctftime, label: "CTFtime"}
   - title: "📰 News & Research"
     links:

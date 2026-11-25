@@ -25,7 +25,7 @@ Is there already a detection for this?
 | [Uncoder IO](https://uncoder.io/) | SOC Prime | SOC Prime's detection rule translator for Sigma and Roota; it is now part of the Prime Architect product, with trial access by request. | Online service | Paid |
 | [Elastic detection rules](https://github.com/elastic/detection-rules) | Elastic | Repository where Elastic develops, tests, and releases the rules used by Elastic Security's detection engine. | Dataset or feed | Free |
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | Knowledge base of detection analytics based on the ATT&CK model, with pseudocode and some direct implementations. | Reference | Free |
-| [YARA](https://virustotal.github.io/yara/) | VirusTotal | Tool for identifying and classifying malware samples from rules that describe textual or binary patterns. | Tool | Free |
+| [YARA](https://virustotal.github.io/yara/) | VirusTotal | Tool for identifying and classifying malware samples from rules that describe textual or binary patterns; its successor is YARA-X. *In maintenance mode.* | Tool | Free |
 
 ## Detection platforms
 
@@ -45,7 +45,7 @@ What can I test a detection against?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [DetectionLab](https://github.com/clong/DetectionLab) | clong | Scripts that build a Windows domain lab with security tooling and logging preinstalled; not actively maintained since January 2023. | Tool | Free |
-| [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | sbousseaden | Windows event log samples for specific attack and post-exploitation techniques, for testing detections and practicing hunting. | Dataset or feed | Free |
+| [DetectionLab](https://github.com/clong/DetectionLab) | Chris Long (clong) | Scripts that build a Windows domain lab with security tooling and logging preinstalled. *No longer actively maintained, as of January 1, 2023.* | Tool | Free |
+| [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) | sbousseaden | Windows event log samples for specific attack and post-exploitation techniques, for testing detections and practicing hunting. *Last updated in January 2023.* | Dataset or feed | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).
