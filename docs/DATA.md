@@ -44,7 +44,7 @@ Every page in this repository is generated from the files under `data/`. To chan
 | `kind` | One id from `kinds` in the taxonomy |
 | `cost` | One id from `costs` in the taxonomy, taken from the resource's own pricing or sign-up page. See Cost below |
 | `maintenance` | Only for a resource that is no longer developed: a `state` and, where known, the date `since`. See Maintenance below |
-| `description` | One sentence of at most 25 words: what it is and when you reach for it. Written from the page, in your own words, with no adjectives that sell |
+| `description` | One sentence of at most 25 words: what it is and when you reach for it. Written from the page, in your own words, with no adjectives that sell and no count the page will outgrow (rules, tools, lists). A version number, a date, or a limit of the tool can stay |
 | `checked` | `date` the address was opened; the HTTP `status` and `final` address that came back; `how` it was opened: `script`, `browser`, or `blocked` |
 | `status` | Omitted for a shown record. `retired` when the resource has gone; `unverified` when the address could not be read. Both need `notes`, and neither is shown on a domain page |
 | `replaced_by` | For a retired record, the id of the record that took its place |
@@ -52,11 +52,11 @@ Every page in this repository is generated from the files under `data/`. To chan
 
 ### Publisher
 
-The publisher is the organization that runs the resource today, as the page's footer or about page states it. After an acquisition, that is the current owner in the form the page gives, such as "Wiz (part of Google Cloud)". Use the project's own name only when the page names no organization. For a repository under a personal account, give the person's display name with the account name in parentheses, such as "Ronnie Flathers (ropnop)", both read from the account's profile.
+The publisher is the organization that runs the resource today, as the page's footer or about page states it. A brand is not a publisher: a news site's footer usually names the company that owns it. When the footer or the about page names someone other than the brand, say in `notes` which page settled it. After an acquisition, that is the current owner in the form the page gives, such as "Wiz (part of Google Cloud)". Use the project's own name only when the page names no organization. For a repository under a personal account, give the person's display name with the account name in parentheses, such as "Ronnie Flathers (ropnop)", both read from the account's profile.
 
 ### Cost
 
-Cost covers everything the description names, not only the first page.
+Cost covers everything the description names, not only the first page. Do not read it off the landing page: for a service, a news site, a podcast, or a report, open the pricing, subscription, membership, or FAQ page first, and say in `notes` which page settled it.
 
 | Cost | When to use it |
 |---|---|
@@ -67,6 +67,8 @@ Cost covers everything the description names, not only the first page.
 | `unconfirmed` | The pricing page could not be opened. Allowed only with `checked.how: blocked` |
 
 If a description says a service can be searched in a browser and queried through an API, and the API needs a free key, the cost is `free-with-account`. When that cannot be said in the sentence, put the detail in `notes`.
+
+A paid tier makes an entry `freemium` when it adds content or features to what the entry describes: bonus episodes, subscriber-only articles, a larger quota. A paid tier that only removes advertising, or a donation, does not; the entry stays `free` and `notes` says what is sold.
 
 ### Maintenance
 
@@ -120,9 +122,10 @@ Letters of any script are allowed. `notes` follow the same rules except the firs
    python scripts/check_links.py
    ```
 
-4. Commit the data and the regenerated pages together.
+4. Run `python scripts/check_links.py --pages` and read every line it prints. An address that answers 200 is not proof that it is the right page: a site can move a list and leave a hub at the old address, or return an empty result for a filter. The check compares each record's name with the page's title and first heading and looks for not-found wording. It cannot read a page that needs a browser, and it cannot tell when a page keeps its name but changes what it offers, so open those by hand.
+5. Commit the data and the regenerated pages together.
 
-`scripts/validate.py --self-test` plants one fault at a time and confirms that each is rejected, printing one line per fault. It covers each data rule (a duplicate id, a duplicate address, a 30-word description, a list of 17 links in the compact set, and others), each kind of bad address in each place an address can enter (a record, an earlier address, a pin in the compact set), and each kind of bad text in each field that reaches a page. `scripts/check_links.py --self-test` confirms that the checker fails a dead address and applies the ignore list as written.
+`scripts/validate.py --self-test` plants one fault at a time and confirms that each is rejected, printing one line per fault. It covers each data rule (a duplicate id, a duplicate address, a 30-word description, a list of 17 links in the compact set, and others), each kind of bad address in each place an address can enter (a record, an earlier address, a pin in the compact set), and each kind of bad text in each field that reaches a page. `scripts/check_links.py --self-test` confirms that the checker fails a dead address, applies the ignore list as written, and flags planted wrong pages.
 
 ## The compact set
 

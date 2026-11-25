@@ -27,7 +27,7 @@ What have CISA and other US bodies published?
 | [HHS Threat Intelligence](https://tech.hhs.gov/cyber/threat-intelligence) | U.S. Department of Health and Human Services | HHS's threat intelligence pages for the health and public health sector, with libraries of threat briefs and sector alerts. | Advisory source | Free |
 | [CISA ICS Advisories](https://www.cisa.gov/news-events/ics-advisories) | CISA | CISA's ICS advisories, ICS medical advisories, and ICS alerts, searchable by type and release year. | Advisory source | Free |
 | [CISA No-Cost Cybersecurity Services and Tools](https://www.cisa.gov/resources-tools/resources/no-cost-cybersecurity-services-and-tools) | CISA | CISA's list of its own no-cost cybersecurity services and of free tools from other organizations. | Reference | Free |
-| [CISA Cyber Hygiene Services](https://www.cisa.gov/cyber-hygiene-services) | CISA | CISA's no-cost services that help organizations reduce their exposure to threats, such as scanning of internet-facing systems; organizations enroll by email. | Online service | Free with account |
+| [CISA Cyber Hygiene Services](https://www.cisa.gov/cyber-hygiene-services) | CISA | CISA's no-cost services, such as scanning of internet-facing systems, for US governments and critical infrastructure organizations, which enroll to use them. | Online service | Free with account |
 | [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) | CISA | CISA's Cross-Sector Cybersecurity Performance Goals, now version 2.0: a baseline set of practices for critical infrastructure entities of any size. | Standard | Free |
 | [CISA Nation-State Threats](https://www.cisa.gov/topics/cyber-threats-and-advisories/nation-state-cyber-actors) | CISA | CISA's page for critical infrastructure owners on protecting against and responding to nation-state threats. | Reference | Free |
 | [NSA Cybersecurity Advisories & Guidance](https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/) | National Security Agency | The NSA's repository of advisories, info sheets, tech reports, and operational risk notices on evolving cybersecurity threats; some items have access requirements. | Advisory source | Free |
@@ -59,7 +59,7 @@ What do other national centers advise?
 | [CSA Singapore Alerts & Advisories](https://www.csa.gov.sg/alerts-and-advisories) | Cyber Security Agency of Singapore | Alerts and advisories from Singapore's Cyber Security Agency on emerging threats, vulnerabilities, and preventive measures. | Advisory source | Free |
 | [National Cyber Security Centre (New Zealand)](https://www.ncsc.govt.nz/) | National Cyber Security Centre, New Zealand | New Zealand's National Cyber Security Centre, with information and advice on responding to cyber security threats. | Organization | Free |
 | [INCIBE-CERT](https://www.incibe.es/en/incibe-cert) | INCIBE | English pages of Spain's INCIBE-CERT: security advisories and ICS advisories; its English blog was last updated in September 2025. | Advisory source | Free |
-| [CERT Polska](https://cert.pl/en/) | CERT Polska | English site of Poland's CERT, with news and technical analyses of the campaigns it investigates. | Research blog | Free |
+| [CERT Polska](https://cert.pl/en/) | CERT Polska, part of NASK | English site of Poland's CERT, with news and technical analyses of the campaigns it investigates. | Research blog | Free |
 
 ## Coordination bodies and law enforcement
 
@@ -70,7 +70,7 @@ Who coordinates across borders, and who handles the crime?
 | [FIRST](https://www.first.org/) | FIRST | The global Forum of Incident Response and Security Teams, home of CVSS, EPSS, TLP, and the PSIRT framework. | Organization | Free |
 | [CSIRTs Network](https://csirtsnetwork.eu/) | CSIRTs Network | The network of the CSIRTs appointed by EU member states, together with CERT-EU. | Organization | Free |
 | [European Cybercrime Centre (EC3)](https://www.europol.europa.eu/about-europol/european-cybercrime-centre-ec3) | Europol | Europol's cybercrime centre, established in 2013, which supports cybercrime operations across the EU. | Organization | Free |
-| [The No More Ransom Project](https://www.nomoreransom.org/) | No More Ransom | Help for ransomware victims to recover files without paying, including a check for available decryption tools. | Online service | Free |
+| [The No More Ransom Project](https://www.nomoreransom.org/) | Europol, the Dutch police, Kaspersky, and McAfee | Help for ransomware victims to recover files without paying, including a check for available decryption tools. | Online service | Free |
 | [FBI Cyber](https://www.fbi.gov/investigate/cyber) | FBI | The FBI's cyber investigations page, with its cyber strategy and cyber alerts. | Organization | Free |
 | [Computer Crime and Intellectual Property Section (CCIPS)](https://www.justice.gov/criminal/criminal-ccips) | U.S. Department of Justice | The Justice Department section that prosecutes computer crime, with its press releases and strategy documents. | Organization | Free |
 

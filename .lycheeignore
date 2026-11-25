@@ -9,7 +9,7 @@
 ^https://engage\.mitre\.org/$
 ^https://www\.adobe\.com/trust/security/bulletins\-and\-advisories\.html$
 ^https://www\.se\.com/ww/en/work/support/cybersecurity/
-^https://www\.cyber\.gov\.au/$
+^https://www\.cyber\.gov\.au/
 ^https://www\.hhs\.gov/hc3$
 ^https://crt\.sh/$
 ^https://www\.shodan\.io/$

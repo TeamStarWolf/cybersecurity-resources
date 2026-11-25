@@ -829,7 +829,7 @@
     status: 200
     final: "https://www.trendmicro.com/en_us/research.html"
     how: script
-  notes: "The page title and footer still say Trend Micro. Its menu presents TrendAI as the enterprise security business, and articles credit TrendAI Research."
+  notes: "The page title and footer still say Trend Micro. Its menu presents TrendAI as the enterprise security business, and articles credit TrendAI Research. On 2026-11-25 the newest item on this listing was dated September 25, 2026."
 
 - id: sophos-threat-research
   name: "Sophos Blog: Threat Research"
@@ -962,7 +962,7 @@
 - id: citizen-lab
   name: "The Citizen Lab"
   url: "https://citizenlab.ca/"
-  publisher: "University of Toronto"
+  publisher: "The Citizen Lab, University of Toronto"
   section: research-blogs
   kind: research
   cost: free
@@ -1042,7 +1042,7 @@
     status: 200
     final: "https://www.team-cymru.com/blog"
     how: script
-  notes: "The page says new research every week; the description does not repeat that claim."
+  notes: "The page says new research every week. The newest posts on 2026-11-25 were dated November 17, November 2, October 22, and October 14, about two a month, so the description does not repeat the claim."
 
 - id: datadog-security-labs
   name: "Datadog Security Labs"
@@ -1222,12 +1222,13 @@
   section: indicator-lookup
   kind: service
   cost: free
-  description: "Free check of a server IP or domain against more than 100 DNS blacklists."
+  description: "Free check of a mail server IP or domain against DNS-based email blacklists."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://mxtoolbox.com/blacklists.aspx"
     how: script
+  notes: "The page says it tests against over 100 blacklists; the count is left out of the description because it changes."
 
 - id: ipvoid
   name: "IPVoid"
@@ -1300,6 +1301,7 @@
     status: 200
     final: "https://www.zoomeye.ai/"
     how: script
+  notes: "Publisher from the About page."
 
 - id: netlas
   name: "Netlas"
@@ -1391,7 +1393,7 @@
 - id: ransomware-live
   name: "Ransomware.live"
   url: "https://www.ransomware.live/"
-  publisher: "Ransomware.live"
+  publisher: "Julien Mousqueton"
   section: adversary-tracking
   kind: dataset
   cost: free
@@ -1401,7 +1403,7 @@
     status: 200
     final: "https://www.ransomware.live/"
     how: script
-  notes: "The API page lists a free API that needs no authentication and is rate limited, and an API PRO that it also calls free and that needs an API key."
+  notes: "The API page lists a free API that needs no authentication and is rate limited, and an API PRO that it also calls free and that needs an API key. The About page names Julien Mousqueton as the author and calls the site a personal project."
 
 - id: ransomlook
   name: "RansomLook"
@@ -1519,7 +1521,7 @@
     status: 200
     final: "https://www.dragos.com/ot-cybersecurity-year-in-review"
     how: script
-  notes: "The page shows the report's key findings, timeline, and numbers online. The Download Report button was not followed, so whether the PDF needs a form was not confirmed."
+  notes: "The page shows the report's key findings, timeline, and numbers online. Its download section did not render in the browser used for checking, so the form was not seen."
 
 - id: europol-iocta
   name: "Internet Organised Crime Threat Assessment (IOCTA)"
@@ -1562,7 +1564,7 @@
     status: 200
     final: "https://redcanary.com/threat-detection-report/"
     how: script
-  notes: "redcanary.com/blog now redirects to Zscaler's blog; the report page still answers at this address."
+  notes: "redcanary.com/blog now redirects to Zscaler's blog; the report page still answers at this address. Publisher from the site logo, which reads Red Canary, A Zscaler Company."
 
 - id: unit-42-incident-response-report
   name: "Unit 42 Global Incident Response Report"

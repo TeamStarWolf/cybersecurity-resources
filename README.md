@@ -158,12 +158,13 @@ An address that cannot be read is not described from memory. When a site refuses
 - **Checks on every pull request.** `scripts/validate.py` checks the record rules, duplicates, the address and text rules, and the limits of the compact set, and runs planted failures to prove each rule rejects what it should. `scripts/build.py --check` fails if any generated file differs from what the data produces. A link check requests the addresses on the generated pages, apart from those on the ignore list described below.
 - **A weekly link check** requests the same addresses, with the same exception.
 - **The compact set is locked.** `LINKS.md` is read by another TeamStarWolf project, so its shape is fixed and its SHA-256 is recorded in `data/compact.lock`. A change to the compact set has to update the lock in the same pull request. The address rule is at least as strict as that project's own, so an address accepted here cannot break its build.
+- **A right-page list for a person to read.** A page can answer and still be the wrong page. `scripts/check_links.py --pages` lists the records whose page title or first heading no longer matches the name, or whose page says it found nothing. It does not fail a run; a maintainer reads the list.
 - **The original links are accounted for.** `data/original-292.tsv` records the links this collection began with, and the validator checks that each one still maps to a record.
 
 The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
 
 <!-- link-check:start (written by scripts/build.py; do not edit) -->
-The ignore list holds 35 entries, 10 of which apply to the CI check alone. Together they cover 36 of the 533 addresses the catalog publishes (6.8%). The validator fails if that share passes 10%.
+The ignore list holds 35 entries, 10 of which apply to the CI check alone. Together they cover 37 of the 533 addresses the catalog publishes (6.9%). The validator fails if that share passes 10%.
 <!-- link-check:end -->
 
 Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.

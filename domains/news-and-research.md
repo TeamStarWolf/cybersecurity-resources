@@ -49,9 +49,9 @@ Who explains what it means?
 | [Risky Business](https://risky.biz/) | Risky Business Media | Podcasts, newsletters, and video with news and commentary for cybersecurity and intelligence professionals. | News | Free |
 | [tl;dr sec](https://tldrsec.com/) | tl;dr sec | Free weekly newsletter that summarizes security tools, talks, and research. | News | Free |
 | [SANS Internet Storm Center](https://isc.sans.edu/) | SANS | Daily diaries from volunteer handlers on current attacks and scanning activity, with an API for its data. | News | Free |
-| [Graham Cluley: Writing](https://grahamcluley.com/writing/) | Graham Cluley | Articles and podcast episodes from cybersecurity speaker Graham Cluley, host of the Smashing Security podcast. | News | Free |
+| [Graham Cluley: Writing](https://grahamcluley.com/writing/) | Graham Cluley (Cluley Associates Limited) | Articles and podcast episodes from cybersecurity speaker Graham Cluley, host of the Smashing Security podcast. | News | Free |
 | [Troy Hunt](https://www.troyhunt.com/) | Troy Hunt | Blog of Troy Hunt, who runs Have I Been Pwned. | News | Free |
-| [Darknet Diaries](https://darknetdiaries.com/) | Darknet Diaries | Podcast of true stories from the dark side of the internet. | News | Free |
+| [Darknet Diaries](https://darknetdiaries.com/) | Jack Rhysider | Podcast of true stories from the dark side of the internet. | News | Freemium |
 | [SANS NewsBites](https://www.sans.org/newsletters/newsbites/) | SANS Institute | Semiweekly executive summary of the most important security news, with each item annotated by subject matter experts. | News | Free |
 | [N2K CyberWire](https://thecyberwire.com/) | N2K Networks | Concise cybersecurity news briefings and podcasts. | News | Freemium |
 | [Security Now](https://twit.tv/shows/security-now) | TWiT | Podcast in which Steve Gibson and Leo Laporte break down the latest cybercrime and hacking stories every Tuesday. | News | Free |

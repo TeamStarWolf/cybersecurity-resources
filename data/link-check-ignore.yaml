@@ -51,8 +51,8 @@ entries:
     reason: "Returns 403 to a plain HTTP client; loads in a browser. Covers the current security notifications page and the earlier address that the compact set still carries."
     opened: "2026-11-25"
   - url: "https://www.cyber.gov.au/"
-    match: exact
-    reason: "Resets the connection of a plain HTTP client; loads in a browser."
+    match: prefix
+    reason: "Resets the connection of a plain HTTP client or times out; loads in a browser. Covers the home page and the alerts and advisories page."
     opened: "2026-11-25"
   - url: "https://www.hhs.gov/hc3"
     match: exact

@@ -77,7 +77,7 @@
 | [Censys Platform](https://platform.censys.io/) | Censys | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Center for Threat-Informed Defense](https://ctid.mitre.org/) | MITRE | [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md#center-for-threat-informed-defense-projects) | Organization | Free |
 | [The CERT Guide to Coordinated Vulnerability Disclosure](https://certcc.github.io/CERT-Guide-to-CVD/) | CERT/CC | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Reference | Free |
-| [CERT Polska](https://cert.pl/en/) | CERT Polska | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Research blog | Free |
+| [CERT Polska](https://cert.pl/en/) | CERT Polska, part of NASK | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Research blog | Free |
 | [CERT-EU Security Advisories](https://cert.europa.eu/publications/security-advisories/) | CERT-EU | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [CERT-FR](https://cert.cyber.gouv.fr/) | ANSSI | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [CERT/CC Vulnerability Notes Database](https://www.kb.cert.org/vuls/) | CERT/CC (Carnegie Mellon University SEI) | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
@@ -105,7 +105,7 @@
 | [Cisco Security Advisories](https://sec.cloudapps.cisco.com/security/center/publicationListing.x) | Cisco | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Cisco Talos Blog](https://blog.talosintelligence.com/) | Cisco Talos | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Cisco Talos Vulnerability Reports](https://talosintelligence.com/vulnerability_reports) | Cisco Talos | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Advisory source | Free |
-| [The Citizen Lab](https://citizenlab.ca/) | University of Toronto | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
+| [The Citizen Lab](https://citizenlab.ca/) | The Citizen Lab, University of Toronto | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Citrix Support (security bulletins)](https://support.citrix.com/support-home/home) | Citrix | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Clair](https://github.com/quay/clair) | Quay | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [Cloudflare Blog: Security](https://blog.cloudflare.com/tag/security/) | Cloudflare | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
@@ -154,7 +154,7 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [Dark Reading](https://www.darkreading.com/) | Informa TechTarget | [News and research](domains/news-and-research.md#news-sites) | News | Free |
-| [Darknet Diaries](https://darknetdiaries.com/) | Darknet Diaries | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
+| [Darknet Diaries](https://darknetdiaries.com/) | Jack Rhysider | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Freemium |
 | [DataBreaches.net](https://databreaches.net/) \* | DataBreaches.net | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Datadog Security Labs](https://securitylabs.datadoghq.com/) | Datadog | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Debian Security Bug Tracker](https://security-tracker.debian.org/tracker/) | Debian | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Dataset or feed | Free |
@@ -226,7 +226,7 @@
 | [Google Safe Browsing site status](https://transparencyreport.google.com/safe-browsing/search) | Google | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
 | [Google security blog](https://blog.google/security/) | Google | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Grafana Labs Security Advisories](https://grafana.com/security/security-advisories/) | Grafana Labs | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
-| [Graham Cluley: Writing](https://grahamcluley.com/writing/) | Graham Cluley | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
+| [Graham Cluley: Writing](https://grahamcluley.com/writing/) | Graham Cluley (Cluley Associates Limited) | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [Greenbone Community Edition (OpenVAS)](https://greenbone.github.io/docs/latest/) | Greenbone | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [GreyNoise Blog](https://www.greynoise.io/blog) | GreyNoise | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [GreyNoise Visualizer](https://viz.greynoise.io/) | GreyNoise | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
@@ -377,7 +377,7 @@
 | [NIST SP 800-40 Rev. 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final) | NIST | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Standard | Free |
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | [GRC and security program](domains/grc-and-security-program.md#frameworks-controls-and-benchmarks) | Standard | Free |
 | [Nmap](https://nmap.org/) | Nmap Project | [Offensive security](domains/offensive-security.md#network-scanning) | Tool | Free |
-| [The No More Ransom Project](https://www.nomoreransom.org/) | No More Ransom | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Online service | Free |
+| [The No More Ransom Project](https://www.nomoreransom.org/) | Europol, the Dutch police, Kaspersky, and McAfee | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Online service | Free |
 | [Node.js vulnerability announcements](https://nodejs.org/en/blog/vulnerability) | Node.js | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [NSA Cybersecurity Advisories & Guidance](https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/) | National Security Agency | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
 | [Nuclei](https://github.com/projectdiscovery/nuclei) | ProjectDiscovery | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
@@ -463,7 +463,7 @@
 |---|---|---|---|---|
 | [RangeForce](https://www.rangeforce.com/) | RangeForce (Cyberbit) | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
 | [RansomLook](https://www.ransomlook.io/) | RansomLook | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
-| [Ransomware.live](https://www.ransomware.live/) | Ransomware.live | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
+| [Ransomware.live](https://www.ransomware.live/) | Julien Mousqueton | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
 | [Rapid7 Blog](https://www.rapid7.com/blog/) | Rapid7 | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Rapid7 Vulnerability & Exploit Database](https://www.rapid7.com/db/) | Rapid7 | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [recon-ng](https://github.com/lanmaster53/recon-ng) | Tim Tomes (lanmaster53) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |

@@ -51,7 +51,7 @@
   section: frameworks-and-controls
   kind: standard
   cost: free-with-account
-  description: "Consensus configuration recommendations for more than 25 vendor product families, used as hardening baselines."
+  description: "Consensus configuration recommendations for many vendor product families, used as hardening baselines."
   checked:
     date: "2026-11-25"
     status: 200

@@ -41,7 +41,7 @@ Is this address, domain, URL, or file known to be bad?
 | [Google Safe Browsing site status](https://transparencyreport.google.com/safe-browsing/search) | Google | Check whether Google Safe Browsing currently lists a site as unsafe. | Online service | Free |
 | [MISP Default Feeds](https://www.misp-project.org/feeds/) | MISP Project | The open source intelligence feeds that MISP ships with by default. | Dataset or feed | Free |
 | [IPinfo](https://ipinfo.io/) | IPinfo | IP address data such as geolocation and ASN, through a web lookup and an API with a free tier. | Online service | Freemium |
-| [MxToolbox Blacklist Check](https://mxtoolbox.com/blacklists.aspx) | MxToolbox | Free check of a server IP or domain against more than 100 DNS blacklists. | Online service | Free |
+| [MxToolbox Blacklist Check](https://mxtoolbox.com/blacklists.aspx) | MxToolbox | Free check of a mail server IP or domain against DNS-based email blacklists. | Online service | Free |
 | [IPVoid](https://www.ipvoid.com/) | NoVirusThanks Company Srl | Free IP, DNS, and URL tools, including an IP blacklist check, whois, and DNS propagation, with no sign-up. | Online service | Free |
 
 ## Internet scan and exposure data
@@ -83,7 +83,7 @@ Who is this group, and what do other vendors call it?
 | [ORKL](https://orkl.eu/) | ORKL | Searchable library of public cyber threat intelligence reports, indexed by threat actor and updated daily from monitored sources. | Dataset or feed | Free |
 | [CrowdStrike adversary profiles](https://www.crowdstrike.com/en-us/adversaries/) | CrowdStrike | CrowdStrike's profiles of the adversary groups it tracks, with origin, target industries, and target nations. | Reference | Free |
 | [How Microsoft names threat actors](https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming) | Microsoft | Microsoft's weather-themed naming taxonomy, with the full list of tracked actors, their previous names, and origin details. | Reference | Free |
-| [Ransomware.live](https://www.ransomware.live/) | Ransomware.live | Tracks ransomware groups' victim postings and activity, with an API. | Dataset or feed | Free |
+| [Ransomware.live](https://www.ransomware.live/) | Julien Mousqueton | Tracks ransomware groups' victim postings and activity, with an API. | Dataset or feed | Free |
 | [RansomLook](https://www.ransomlook.io/) | RansomLook | Open, searchable intelligence on ransomware groups, with live statistics, their posts, and an API. | Dataset or feed | Free |
 | [Threat Actor Groups Tracked by Unit 42](https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/) | Palo Alto Networks | Unit 42's list of the threat actor groups it tracks, with a summary and the industries each typically affects. | Reference | Free |
 | [APT groups and threat actors (Google Cloud)](https://cloud.google.com/security/resources/insights/apt-groups) | Google Cloud | Google Cloud's profiles of advanced persistent threat groups, organized by country. | Reference | Free |
@@ -130,7 +130,7 @@ Who publishes original threat research?
 | [NCC Group Research](https://www.nccgroup.com/research/) | NCC Group | NCC Group's public reports, technical advisories, and analyses. | Research blog | Free |
 | [Bishop Fox Offensive Security Blog](https://bishopfox.com/blog) | Bishop Fox | Offensive security research and insights from Bishop Fox's researchers and penetration testers. | Research blog | Free |
 | [SpecterOps Blog](https://specterops.io/blog/) | SpecterOps | SpecterOps posts on attack path management, red team operations, detection engineering, and identity security. | Research blog | Free |
-| [The Citizen Lab](https://citizenlab.ca/) | University of Toronto | Interdisciplinary research unit at the University of Toronto's Munk School that investigates digital threats to civil society. | Research blog | Free |
+| [The Citizen Lab](https://citizenlab.ca/) | The Citizen Lab, University of Toronto | Interdisciplinary research unit at the University of Toronto's Munk School that investigates digital threats to civil society. | Research blog | Free |
 | [SECURITY.COM Threat Intelligence](https://www.security.com/threat-intelligence) | Broadcom | Threat intelligence posts on Broadcom's security.com site. | Research blog | Free |
 | [Zscaler Blog: Security Research](https://www.zscaler.com/blogs?type=security-research) | Zscaler | Zscaler blog posts filtered to security research. | Research blog | Free |
 | [FortiGuard Labs Threat Research](https://www.fortinet.com/blog/threat-research) | Fortinet | Threat research posts from Fortinet's FortiGuard Labs. | Research blog | Free |

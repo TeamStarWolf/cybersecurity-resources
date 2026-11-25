@@ -215,6 +215,7 @@
     status: 200
     final: "https://arstechnica.com/security/"
     how: script
+  notes: "Publisher from the footer copyright. Articles are free to read; the subscription page sells Ars Pro, which removes ads and tracking."
 
 - id: cso-online
   name: "CSO Online"
@@ -229,6 +230,7 @@
     status: 200
     final: "https://www.csoonline.com/"
     how: script
+  notes: "Publisher from the footer copyright, FoundryCo, Inc.."
 
 - id: cyberinsider
   name: "CyberInsider"
@@ -287,6 +289,7 @@
     status: 200
     final: "https://hackread.com/"
     how: script
+  notes: "Publisher from the footer, which calls the site a Gray Dot Media Group Ltd site."
 
 - id: infosecurity-magazine
   name: "Infosecurity Magazine"
@@ -301,6 +304,7 @@
     status: 200
     final: "https://www.infosecurity-magazine.com/"
     how: script
+  notes: "Publisher from the footer copyright, Reed Exhibitions Ltd."
 
 - id: the-register-security
   name: "The Register: Security"
@@ -358,7 +362,7 @@
     status: 200
     final: "https://www.wired.com/category/security/"
     how: script
-  notes: "WIRED's FAQ says subscriptions give unlimited digital access to the website, so reading without one is limited. The size of the free allowance was not tested."
+  notes: "WIRED's FAQ says subscriptions give unlimited digital access to the website, so reading without one is limited. The size of the free allowance was not tested. Publisher from the footer copyright."
 
 - id: 404-media
   name: "404 Media"
@@ -378,7 +382,7 @@
 - id: graham-cluley
   name: "Graham Cluley: Writing"
   url: "https://grahamcluley.com/writing/"
-  publisher: "Graham Cluley"
+  publisher: "Graham Cluley (Cluley Associates Limited)"
   section: analysis-and-commentary
   kind: news
   cost: free
@@ -388,7 +392,7 @@
     status: 200
     final: "https://grahamcluley.com/writing/"
     how: script
-  notes: "The home page is now a speaker booking page with no articles; the writing is listed here."
+  notes: "The home page is now a speaker booking page with no articles; the writing is listed here. Publisher from the footer copyright."
 
 - id: troy-hunt
   name: "Troy Hunt"
@@ -407,16 +411,17 @@
 - id: darknet-diaries
   name: "Darknet Diaries"
   url: "https://darknetdiaries.com/"
-  publisher: "Darknet Diaries"
+  publisher: "Jack Rhysider"
   section: analysis-and-commentary
   kind: news
-  cost: free
+  cost: freemium
   description: "Podcast of true stories from the dark side of the internet."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://darknetdiaries.com/"
     how: script
+  notes: "Regular episodes are free. Darknet Diaries Plus sells bonus episodes, early access, and ad-free listening, so paid plans add content. Publisher from the About page, which says the show is created by Jack Rhysider."
 
 - id: sans-newsbites
   name: "SANS NewsBites"
@@ -460,6 +465,7 @@
     status: 200
     final: "https://twit.tv/shows/security-now"
     how: script
+  notes: "Episodes are free with advertising. The show page offers this podcast ad-free for 5 dollars a month and Club TWiT for 10 dollars a month. The paid option for this show removes ads and adds no episodes, so the entry stays Free."
 
 - id: infosec-exchange
   name: "Infosec Exchange"

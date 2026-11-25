@@ -209,13 +209,13 @@
   section: united-states
   kind: service
   cost: free-with-account
-  description: "CISA's no-cost services that help organizations reduce their exposure to threats, such as scanning of internet-facing systems; organizations enroll by email."
+  description: "CISA's no-cost services, such as scanning of internet-facing systems, for US governments and critical infrastructure organizations, which enroll to use them."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.cisa.gov/cyber-hygiene-services"
     how: script
-  notes: "No payment, but the service cannot be used without enrolling: the page says to email CISA to enroll."
+  notes: "No payment, but the service cannot be used without enrolling. The page says US-based federal, state, local, tribal, and territorial governments and public and private critical infrastructure organizations are welcome to enroll, by email."
 
 - id: cisa-cybersecurity-performance-goals
   name: "CISA Cross-Sector Cybersecurity Performance Goals"
@@ -360,7 +360,7 @@
     status: 200
     final: "https://cert.cyber.gouv.fr/"
     how: script
-  notes: "www.cert.ssi.gouv.fr redirects to this address. The site is in French."
+  notes: "www.cert.ssi.gouv.fr redirects to this address. The site is in French. Publisher from the footer, which says the site is published by ANSSI."
 
 - id: ncsc-nl
   name: "NCSC-NL"
@@ -403,7 +403,7 @@
     status: 200
     final: "https://jvn.jp/en/"
     how: script
-  notes: "On 2026-11-25 the page said its JVN iPedia and MyJVN services were temporarily unavailable."
+  notes: "On 2026-11-25 the page said its JVN iPedia and MyJVN services were temporarily unavailable. Publisher from the footer copyright and the sidebar line that says who provides JVN."
 
 - id: csa-singapore-alerts
   name: "CSA Singapore Alerts & Advisories"
@@ -451,7 +451,7 @@
 - id: cert-polska
   name: "CERT Polska"
   url: "https://cert.pl/en/"
-  publisher: "CERT Polska"
+  publisher: "CERT Polska, part of NASK"
   section: international
   kind: research
   cost: free
@@ -461,6 +461,7 @@
     status: 200
     final: "https://cert.pl/en/"
     how: script
+  notes: "The About page says the CERT Polska team operates within the structures of NASK, Poland's national research institute."
 
 - id: first
   name: "FIRST"
@@ -507,7 +508,7 @@
 - id: no-more-ransom
   name: "The No More Ransom Project"
   url: "https://www.nomoreransom.org/"
-  publisher: "No More Ransom"
+  publisher: "Europol, the Dutch police, Kaspersky, and McAfee"
   section: coordination-and-law-enforcement
   kind: service
   cost: free
@@ -517,6 +518,7 @@
     status: 200
     final: "https://www.nomoreransom.org/"
     how: script
+  notes: "The About page calls the site an initiative by the National High Tech Crime Unit of the Netherlands' police, Europol's European Cybercrime Centre, Kaspersky, and McAfee."
 
 - id: fbi-cyber
   name: "FBI Cyber"
