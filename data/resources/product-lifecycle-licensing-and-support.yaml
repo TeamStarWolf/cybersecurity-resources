@@ -1,0 +1,806 @@
+# Resources in the domain "product-lifecycle-licensing-and-support". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: microsoft-lifecycle-product-search
+  name: "Microsoft Lifecycle: product and services search"
+  url: "https://learn.microsoft.com/en-us/lifecycle/products/"
+  publisher: "Microsoft"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Microsoft's lookup for the lifecycle of its commercial products and services: search a name to open that product's support dates; an export page is linked."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/lifecycle/products/"
+    how: script
+
+- id: exchange-server-supportability-matrix
+  name: "Exchange Server supportability matrix"
+  url: "https://learn.microsoft.com/en-us/exchange/plan-and-deploy/supportability-matrix"
+  publisher: "Microsoft"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Microsoft's tables of what each Exchange Server version supports, including builds, operating systems, Active Directory environments, browsers, email clients, and .NET Framework."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/exchange/plan-and-deploy/supportability-matrix"
+    how: script
+
+- id: rhel-life-cycle
+  name: "Red Hat Enterprise Linux Life Cycle"
+  url: "https://access.redhat.com/support/policy/updates/errata"
+  publisher: "Red Hat"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Red Hat's policy page for RHEL support, in sections including production phases, what maintenance each phase receives, extended support offerings, and life-cycle dates by version."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://access.redhat.com/support/policy/updates/errata"
+    how: script
+  notes: "Publisher in the form the catalog's other Red Hat entries use, from the footer copyright."
+
+- id: ubuntu-release-cycle
+  name: "Ubuntu release cycle"
+  url: "https://ubuntu.com/about/release-cycle"
+  publisher: "Canonical"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Canonical's lifecycle page: a form that answers whether a product version is still covered, then sections including interim and LTS releases, Ubuntu Pro, and ESM."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ubuntu.com/about/release-cycle"
+    how: script
+  notes: "Publisher from the footer copyright, Canonical Ltd, in the form the catalog's other Canonical entries use. The page also sells Ubuntu Pro; the entry is the reference page, which is free to read."
+
+- id: debian-releases
+  name: "Debian Releases"
+  url: "https://www.debian.org/releases/"
+  publisher: "Debian"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Debian's releases page, including what stable, testing, and unstable mean, the release life cycle, and an index linking current and historic releases."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.debian.org/releases/"
+    how: script
+  notes: "Publisher in the form the catalog's other Debian entries use; the footer copyright reads SPI and others, and says Debian is a registered trademark of Software in the Public Interest, Inc."
+
+- id: suse-product-lifecycle
+  name: "SUSE Product Support Lifecycle"
+  url: "https://www.suse.com/lifecycle/"
+  publisher: "SUSE"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "SUSE's table of lifecycle dates by product, with a product filter, a view of end-of-life products, and links to the support lifecycle policies."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.suse.com/lifecycle/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: almalinux-release-notes
+  name: "AlmaLinux Release Notes"
+  url: "https://wiki.almalinux.org/release-notes/"
+  publisher: "AlmaLinux OS Foundation"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "AlmaLinux tables of minor releases by major version, with columns including codename, release date, and kernel, and a line on when that version's support ends."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://wiki.almalinux.org/release-notes/"
+    how: script
+  notes: "Publisher from the wiki's About page and https://wiki.almalinux.org/Transparency, read on 2026-11-25: the AlmaLinux OS Foundation, a 501(c)(6) non-profit, stewards the project. The page itself has no footer."
+
+- id: freebsd-supported-releases
+  name: "FreeBSD Security Information"
+  url: "https://www.freebsd.org/security/"
+  publisher: "The FreeBSD Project"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "The FreeBSD Project's security page, including the table of supported releases with expected end-of-life dates, how to report an incident, and how to update."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.freebsd.org/security/"
+    how: script
+  notes: "Publisher from the footer copyright and the page's copyright tag. The supported releases table is a section of this page."
+
+- id: linux-kernel-releases
+  name: "The Linux Kernel Archives: Releases"
+  url: "https://www.kernel.org/category/releases.html"
+  publisher: "The Linux Kernel Organization"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "kernel.org's explanation of kernel release categories, from prepatch and mainline to stable and longterm, with the longterm release table and a releases FAQ."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.kernel.org/category/releases.html"
+    how: script
+  notes: "Publisher from https://www.kernel.org/category/about.html, read on 2026-11-25, which says the Linux Kernel Organization is a California public benefit corporation established to distribute the kernel."
+
+- id: chromeos-auto-update-policy
+  name: "ChromeOS Auto Update policy"
+  url: "https://support.google.com/chrome/a/answer/6220366"
+  publisher: "Google"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Google's ChromeOS update policy, with tables by manufacturer listing approved device models and the month until which they get automatic updates; some need an opt-in."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.google.com/chrome/a/answer/6220366"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: kubernetes-releases
+  name: "Kubernetes Releases"
+  url: "https://kubernetes.io/releases/"
+  publisher: "Kubernetes"
+  section: operating-systems-and-platforms
+  kind: reference
+  cost: free
+  description: "Kubernetes release history: the minor versions now maintained, each with its patch releases and end-of-life date, the end-of-life releases, the upcoming release, and resource links."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://kubernetes.io/releases/"
+    how: script
+  notes: "Publisher in the form one of the catalog's Kubernetes entries uses; the footer carries copyright lines for The Kubernetes Authors and for Kubernetes a Series of LF Projects, LLC, and this page does not name the CNCF."
+
+- id: amazon-eks-kubernetes-versions
+  name: "Kubernetes version lifecycle on Amazon EKS"
+  url: "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html"
+  publisher: "Amazon Web Services"
+  section: operating-systems-and-platforms
+  kind: documentation
+  cost: free
+  description: "AWS user guide page on Kubernetes versions in EKS, including versions on standard and extended support, a release calendar, and two FAQs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html"
+    how: script
+  notes: "The address is a versionless alias for the current user guide."
+
+- id: aks-supported-kubernetes-versions
+  name: "Supported Kubernetes versions in AKS"
+  url: "https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions"
+  publisher: "Microsoft"
+  section: operating-systems-and-platforms
+  kind: documentation
+  cost: free
+  description: "Microsoft's page on Kubernetes version support in AKS, including the support policy, a release calendar with upcoming versions, LTS versions, and breaking changes by version."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions"
+    how: script
+
+- id: gke-release-schedule
+  name: "GKE release schedule"
+  url: "https://docs.cloud.google.com/kubernetes-engine/docs/release-schedule"
+  publisher: "Google Cloud"
+  section: operating-systems-and-platforms
+  kind: documentation
+  cost: free
+  description: "Google Cloud's table of estimated dates when GKE minor versions become available and auto-upgrade in Rapid, Regular, Stable, and Extended channels, and when support ends."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/kubernetes-engine/docs/release-schedule"
+    how: script
+  notes: "https://cloud.google.com/kubernetes-engine/docs/release-schedule redirects here."
+
+- id: amazon-linux-2023-release-cadence
+  name: "Amazon Linux 2023 release cadence"
+  url: "https://docs.aws.amazon.com/linux/al2023/ug/release-cadence.html"
+  publisher: "Amazon Web Services"
+  section: operating-systems-and-platforms
+  kind: documentation
+  cost: free
+  description: "AWS user guide page on Amazon Linux 2023's support timeline: standard support with quarterly minor updates until June 2027, then maintenance until June 2029."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/linux/al2023/ug/release-cadence.html"
+    how: script
+
+- id: sql-server-end-of-support
+  name: "SQL Server end of support options"
+  url: "https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview"
+  publisher: "Microsoft"
+  section: languages-databases-and-runtimes
+  kind: documentation
+  cost: free
+  description: "What Microsoft offers when a SQL Server version reaches end of support, with benefits and considerations, including upgrading, moves to Azure, and Extended Security Updates."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver17"
+    how: script
+  notes: "The page adds a version to the address as a query; the address listed is the one without it."
+
+- id: dotnet-support-policy
+  name: ".NET Support Policy"
+  url: "https://dotnet.microsoft.com/en-us/platform/support/policy"
+  publisher: "Microsoft"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Microsoft's support policy for .NET: supported versions with their end-of-support dates, the release schedule, and sections including .NET Framework, ASP.NET, and .NET MAUI."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dotnet.microsoft.com/en-us/platform/support/policy"
+    how: script
+  notes: "Publisher from the page's site-name tag, which reads Microsoft; the page has no footer copyright line a script can read."
+
+- id: powershell-support-lifecycle
+  name: "PowerShell Support Lifecycle"
+  url: "https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle"
+  publisher: "Microsoft"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Microsoft's support policy for PowerShell 7, in sections including supported platforms, end-of-support dates by version, module support, and notes on licensing."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle?view=powershell-7.6"
+    how: script
+  notes: "The page adds a version to the address as a query; the address listed is the one without it."
+
+- id: oracle-lifetime-support-policy
+  name: "Oracle Lifetime Support Policy"
+  url: "https://www.oracle.com/support/lifetime-support/"
+  publisher: "Oracle"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Oracle's Lifetime Support Policy overview, in tabs for software, Applications Unlimited, and hardware and operating systems, with support stages explained and policy PDFs linked."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.oracle.com/support/lifetime-support/"
+    how: script
+  notes: "Publisher from the footer copyright. The page explains the support stages; the dates by product are in the linked PDF documents."
+
+- id: python-version-status
+  name: "Status of Python versions"
+  url: "https://devguide.python.org/versions/"
+  publisher: "Python Software Foundation"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Python developer's guide page listing each branch with its release manager, status, and first-release and end-of-life dates, plus a full chart and status key."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://devguide.python.org/versions/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: nodejs-release-schedule
+  name: "Node.js Releases"
+  url: "https://nodejs.org/en/about/previous-releases"
+  publisher: "OpenJS Foundation"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Node.js release page, including how a major version moves from Current through LTS to end of life, the release schedule, and a table of versions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://nodejs.org/en/about/previous-releases"
+    how: script
+  notes: "Publisher from the footer, which reads Copyright OpenJS Foundation and Node.js contributors."
+
+- id: php-supported-versions
+  name: "PHP: Supported Versions"
+  url: "https://www.php.net/supported-versions.php"
+  publisher: "The PHP Group"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "PHP's table of currently supported branches with each one's initial release, end of active support, and end of security support, and the support policy."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.php.net/supported-versions.php"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: java-se-support-roadmap
+  name: "Oracle Java SE Support Roadmap"
+  url: "https://www.oracle.com/java/technologies/java-se-support-roadmap.html"
+  publisher: "Oracle"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Oracle's table of Java SE releases with general availability dates and the ends of Premier and Extended Support, noting which releases are long-term support."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.oracle.com/java/technologies/java-se-support-roadmap.html"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: adoptium-support
+  name: "Temurin Support"
+  url: "https://adoptium.net/support/"
+  publisher: "Eclipse Foundation"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Eclipse Adoptium's support page for its Temurin OpenJDK builds: community support, commercial support, and the release roadmap."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://adoptium.net/support/"
+    how: script
+  notes: "Publisher from the footer copyright, Eclipse Foundation; the page's author tag reads Eclipse Adoptium."
+
+- id: postgresql-versioning-policy
+  name: "PostgreSQL Versioning Policy"
+  url: "https://www.postgresql.org/support/versioning/"
+  publisher: "PostgreSQL Global Development Group"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "PostgreSQL's policy on major and minor releases: how long a major version is supported, version numbering, upgrading, and a table of releases with final dates."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.postgresql.org/support/versioning/"
+    how: script
+  notes: "Publisher from the footer copyright, in the form the catalog's other PostgreSQL entries use."
+
+- id: mongodb-software-lifecycle
+  name: "MongoDB Software Lifecycle Schedules"
+  url: "https://www.mongodb.com/legal/support-policy/lifecycles"
+  publisher: "MongoDB, Inc."
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "MongoDB's tables of when versions were released and when they reach end of life, in sections including Atlas, Enterprise Advanced, the Server, and Ops Manager."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.mongodb.com/legal/support-policy/lifecycles"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: elastic-product-end-of-life
+  name: "Elastic Product End of Life Dates"
+  url: "https://www.elastic.co/support/eol"
+  publisher: "Elastic"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Elastic's end-of-life policy and tables, including definitions, maintenance and support terms, end dates for current and prior versions, and retired products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.elastic.co/support/eol"
+    how: script
+  notes: "Publisher in the form the catalog's other Elastic entries use."
+
+- id: openssl-release-strategy
+  name: "OpenSSL Release Strategy"
+  url: "https://openssl-library.org/policies/releasestrat/"
+  publisher: "OpenSSL"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "OpenSSL's policy on version numbering, how often releases come, and how long LTS and other releases are supported."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://openssl-library.org/policies/releasestrat/"
+    how: script
+  notes: "Publisher in the form the catalog's other OpenSSL entry uses, from the footer copyright; the site's contact page names OpenSSL Software Foundation Inc, and its management page says the Foundation and the Corporation manage the project together."
+
+- id: ruby-maintenance-branches
+  name: "Ruby Maintenance Branches"
+  url: "https://www.ruby-lang.org/en/downloads/branches/"
+  publisher: "Ruby community"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Ruby's branch page: what the normal maintenance, legacy maintenance, and end-of-life phases mean, then status, release date, and end dates by release series."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ruby-lang.org/en/downloads/branches/"
+    how: script
+  notes: "Publisher from https://www.ruby-lang.org/en/about/website/, read on 2026-11-25, which says the site is maintained by members of the Ruby community; the page footer has no copyright line."
+
+- id: go-release-history
+  name: "Go Release History"
+  url: "https://go.dev/doc/devel/release"
+  publisher: "Go project"
+  section: languages-databases-and-runtimes
+  kind: reference
+  cost: free
+  description: "Go's stable releases, newest first, with release dates and what the minor revisions fixed; the policy supports the two latest major releases."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://go.dev/doc/devel/release"
+    how: script
+  notes: "Publisher in the form the catalog's other Go entry uses; the site's terms of service, https://go.dev/tos, say the website is hosted by Google."
+
+- id: ansible-release-and-maintenance
+  name: "Ansible: Releases and maintenance"
+  url: "https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html"
+  publisher: "Ansible community (Red Hat)"
+  section: languages-databases-and-runtimes
+  kind: documentation
+  cost: free
+  description: "Ansible documentation with a support matrix for ansible-core (maintenance dates, Python and PowerShell versions); sections include release cycles, workflows, and deprecation for both community projects."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html"
+    how: script
+  notes: "Publisher in the form the catalog's other Ansible documentation entries use; the footer reads Ansible project contributors. https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html redirects here."
+
+- id: apple-vintage-and-obsolete-products
+  name: "Apple: service after an expired warranty"
+  url: "https://support.apple.com/en-us/102772"
+  publisher: "Apple"
+  section: hardware-and-network-vendors
+  kind: reference
+  cost: free
+  description: "Apple's rules for service after warranty: what vintage and obsolete mean, and lists of the Mac, iPhone, iPad, and other products in each class."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.apple.com/en-us/102772"
+    how: script
+  notes: "Publisher from the footer copyright, Apple Inc., in the form the catalog's other Apple entries use."
+
+- id: palo-alto-end-of-life-summary
+  name: "Palo Alto Networks End-of-Life Summary"
+  url: "https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary"
+  publisher: "Palo Alto Networks"
+  section: hardware-and-network-vendors
+  kind: reference
+  cost: free
+  description: "Palo Alto Networks' end-of-life dates by product line, including PAN-OS and Panorama, Prisma Access, and the Cortex XDR agent."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: synology-product-support-status
+  name: "Synology Product Support Status"
+  url: "https://www.synology.com/en-global/products/status"
+  publisher: "Synology"
+  section: hardware-and-network-vendors
+  kind: reference
+  cost: free
+  description: "Synology's filterable support tables, with hardware and software tabs; hardware rows give a product's availability, warranty, and the status of DSM updates and technical support."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.synology.com/en-global/products/status"
+    how: browser
+  notes: "A script gets the heading and the two tab names only; the table is built in the browser, and its hardware columns were read in the built-in browser on 2026-11-25. The software tab was not opened. Publisher from the footer copyright and the page's author tag, Synology Inc., in the form the catalog's other Synology entry uses."
+
+- id: check-point-support-life-cycle
+  name: "Check Point Support Life Cycle Policy"
+  url: "https://www.checkpoint.com/support-services/support-life-cycle-policy/"
+  publisher: "Check Point Software Technologies"
+  section: hardware-and-network-vendors
+  kind: reference
+  cost: free
+  description: "Check Point's support lifecycle page: the latest announcements, then policy guidelines and support timelines by product, in one part for software and one for appliances."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.checkpoint.com/support-services/support-life-cycle-policy/"
+    how: script
+  notes: "Publisher from the footer copyright, Check Point Software Technologies Ltd."
+
+- id: sonicwall-product-lifecycle-tables
+  name: "SonicWall Product Life Cycle Tables"
+  url: "https://www.sonicwall.com/support/product-lifecycle-tables"
+  publisher: "SonicWall"
+  section: hardware-and-network-vendors
+  kind: reference
+  cost: free
+  description: "SonicWall's tables for current products, by series, then hardware or firmware; columns per model include Last Order Day, the retirement modes, and End of Support."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sonicwall.com/support/product-lifecycle-tables"
+    how: script
+  notes: "Publisher from the footer copyright. The column names are in the page a script gets; the hardware table of one series was also opened in the built-in browser on 2026-11-25, and its cells were not read. The page shows current products only and sends readers to a MySonicWall account for legacy and newer models."
+
+- id: microsoft-product-terms
+  name: "Microsoft Product Terms"
+  url: "https://www.microsoft.com/licensing/terms/"
+  publisher: "Microsoft"
+  section: licensing-references
+  kind: reference
+  cost: free
+  description: "Microsoft's site for the terms that govern customers' use of its products and online services, with search across the terms."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.microsoft.com/licensing/terms/"
+    how: script
+  notes: "The page has no footer a script can read; publisher from the page title and the microsoft.com address."
+
+- id: microsoft-365-licensing-guidance
+  name: "Microsoft 365 licensing guidance for security & compliance"
+  url: "https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance"
+  publisher: "Microsoft"
+  section: licensing-references
+  kind: documentation
+  cost: free
+  description: "Microsoft's index for licensing tenant-level security services: links the service descriptions for Purview, Priva, Intune, Entra, and Defender, naming services they include."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance"
+    how: script
+  notes: "The detailed guidance has moved: on 2026-11-25 the page pointed to five family service descriptions and named the services under four of them."
+
+- id: microsoft-365-service-descriptions
+  name: "Microsoft 365 and Office 365 service descriptions"
+  url: "https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-service-descriptions-technet-library"
+  publisher: "Microsoft"
+  section: licensing-references
+  kind: documentation
+  cost: free
+  description: "Microsoft's entry page to its Microsoft 365 service descriptions: links to plan comparison tables, then the descriptions by service, including Exchange Online and Entra."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-service-descriptions-technet-library"
+    how: script
+
+- id: kms-client-activation-keys
+  name: "KMS client activation and product keys"
+  url: "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys"
+  publisher: "Microsoft"
+  section: licensing-references
+  kind: documentation
+  cost: free
+  description: "Microsoft's tables of KMS client keys, grouped by Windows and Windows Server release back to earlier versions, after the slmgr command that installs one."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys"
+    how: script
+
+- id: choose-a-license
+  name: "Choose a License"
+  url: "https://choosealicense.com/"
+  publisher: "GitHub"
+  section: licensing-references
+  kind: reference
+  cost: free
+  description: "GitHub's guide to picking an open source license: advice for three common situations, naming MIT and GPLv3, and where to look when none fits."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://choosealicense.com/"
+    how: script
+  notes: "Publisher from https://choosealicense.com/terms-of-service/, read on 2026-11-25, which says the site is operated by GitHub, Inc.; the page footer names no one."
+
+- id: spdx-license-list
+  name: "SPDX License List"
+  url: "https://spdx.org/licenses/"
+  publisher: "Linux Foundation"
+  section: licensing-references
+  kind: reference
+  cost: free
+  description: "SPDX's sortable table of licenses with full name, short identifier, and FSF and OSI status, then deprecated identifiers; machine-readable data files are linked."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://spdx.org/licenses/"
+    how: script
+  notes: "Publisher from the footer, SPDX Workgroup a Linux Foundation Project, in the form the catalog's other SPDX entry uses."
+
+- id: tldrlegal
+  name: "TLDRLegal"
+  url: "https://www.tldrlegal.com/"
+  publisher: "FOSSA, Inc."
+  section: licensing-references
+  kind: reference
+  cost: free
+  description: "FOSSA's library of plain-English software license summaries: the home page lists verified entries, links a browse page, and invites suggestions for licenses to add."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.tldrlegal.com/"
+    how: script
+  notes: "Publisher from https://www.tldrlegal.com/terms-of-service, read on 2026-11-25, and the footer copyright. FOSSA sells a license compliance product on its own site; this site has no pricing page."
+
+- id: gnu-license-list
+  name: "Various Licenses and Comments about Them"
+  url: "https://www.gnu.org/licenses/license-list.html"
+  publisher: "GNU Project (Free Software Foundation)"
+  section: licensing-references
+  kind: reference
+  cost: free
+  description: "The Free Software Foundation's comments on many licenses for software, documentation, and other works, grouped by whether they are free and GPL-compatible."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.gnu.org/licenses/license-list.html"
+    how: script
+  notes: "Publisher from the footer copyright, in the form the catalog's other GNU entries use."
+
+- id: creative-commons-license-chooser
+  name: "Creative Commons License Chooser"
+  url: "https://creativecommons.org/chooser/"
+  publisher: "Creative Commons"
+  section: licensing-references
+  kind: service
+  cost: free
+  description: "Creative Commons' chooser: answer questions including attribution, commercial use, and adaptations to get a recommended license and the text to mark your work with."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://creativecommons.org/chooser/"
+    how: script
+  notes: "Publisher from the page's site-name tag and the creativecommons.org address. https://chooser-beta.creativecommons.org/ redirects here."
+
+- id: reuse-software
+  name: "REUSE"
+  url: "https://reuse.software/"
+  publisher: "Free Software Foundation Europe"
+  section: licensing-references
+  kind: standard
+  cost: free
+  description: "FSFE's REUSE recommendations for stating license and copyright of every file in a project, in three steps, with sections for developers and on license compliance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://reuse.software/"
+    how: script
+  notes: "Publisher from the footer copyright and the page's author tag."
+
+- id: iso-iec-19770-1
+  name: "ISO/IEC 19770-1:2017"
+  url: "https://www.iso.org/standard/68531.html"
+  publisher: "ISO"
+  section: licensing-references
+  kind: standard
+  cost: paid
+  description: "ISO's page for ISO/IEC 19770-1:2017, the standard for IT asset management systems, with its abstract, an amendment, a preview, and the document for sale."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.iso.org/standard/68531.html"
+    how: script
+  notes: "Cost from the purchase box on the page, which priced the standard at CHF 196 on 2026-11-25; the abstract and the preview are free to read."
+
+- id: blue-oak-council-license-list
+  name: "Blue Oak Council License List"
+  url: "https://blueoakcouncil.org/list"
+  publisher: "Blue Oak Council, Inc."
+  section: licensing-references
+  kind: reference
+  cost: free
+  description: "Blue Oak Council's list rating permissive licenses gold, silver, bronze, or lead, with its model license at the top and a section about the ratings."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blueoakcouncil.org/list"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: ubuntu-pro
+  name: "Ubuntu Pro"
+  url: "https://ubuntu.com/pro"
+  publisher: "Canonical"
+  section: support-plans-and-portals
+  kind: service
+  cost: freemium
+  description: "Canonical's subscription extending security maintenance of Ubuntu LTS releases, with features including Livepatch and compliance tools; personal use on five machines or fewer is free."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ubuntu.com/pro"
+    how: script
+  notes: "Cost from the page, which says Ubuntu Pro is free for personal use on up to 5 physical machines, and from https://ubuntu.com/pricing/pro, read on 2026-11-25, which prices server subscriptions per machine per year. Publisher from the footer copyright."
+
+- id: microsoft-q-and-a
+  name: "Microsoft Q&A"
+  url: "https://learn.microsoft.com/en-us/answers/"
+  publisher: "Microsoft"
+  section: support-plans-and-portals
+  kind: community
+  cost: free
+  description: "Microsoft's Q&A site for technical products, with product categories such as Azure and Entra, a section on using it, and links to its other communities."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/answers/"
+    how: script
+  notes: "The page was read without signing in; what asking or answering requires was not checked."
+
+- id: microsoft-365-get-support
+  name: "Get support for Microsoft 365 for business"
+  url: "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-support"
+  publisher: "Microsoft"
+  section: support-plans-and-portals
+  kind: documentation
+  cost: free
+  description: "Microsoft's instructions for admins on getting Microsoft 365 business support, in sections including online and phone support, volume licensing support, and technical support response times."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-support?view=o365-worldwide"
+    how: script
+  notes: "The page adds a version to the address as a query; the address listed is the one without it."
+
+- id: azure-support-plans
+  name: "Azure support plans"
+  url: "https://azure.microsoft.com/en-us/support/plans"
+  publisher: "Microsoft"
+  section: support-plans-and-portals
+  kind: service
+  cost: freemium
+  description: "Microsoft's comparison of Azure support plans: Basic is included for every Azure customer, and the paid plans start with Developer at $29 a month."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://azure.microsoft.com/en-us/support/plans"
+    how: script
+  notes: "Cost from the page's price row, read on 2026-11-25: included for all Azure customers, then $29, $100, and $1,000 per month, with a link to pricing details for the enterprise plan."
+
+- id: aws-support-plans
+  name: "AWS Support plans"
+  url: "https://aws.amazon.com/premiumsupport/plans/"
+  publisher: "Amazon Web Services"
+  section: support-plans-and-portals
+  kind: service
+  cost: freemium
+  description: "AWS's comparison of its Support plans: Basic Support comes with every account, and the paid plans are Unified Operations, Enterprise Support, and Business Support+."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://aws.amazon.com/premiumsupport/plans/"
+    how: script
+  notes: "Cost from the page, read on 2026-11-25, which says Basic Support is included for all AWS customers and compares the paid plans; their prices are on AWS's pricing pages, which were not read. Publisher from the footer copyright."
+
+- id: google-cloud-support
+  name: "Google Cloud Customer Care"
+  url: "https://cloud.google.com/support"
+  publisher: "Google Cloud"
+  section: support-plans-and-portals
+  kind: service
+  cost: freemium
+  description: "Google Cloud's support portfolio: Basic Support for every customer, paid Standard, Enhanced, and Premium Support, and value-add services."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cloud.google.com/support"
+    how: script
+  notes: "Cost from the page, read on 2026-11-25: every customer gets Basic Support, and Standard Support is priced at a minimum spend of $29 or 3% of monthly charges."

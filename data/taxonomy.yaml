@@ -354,13 +354,25 @@ domains:
     title: "Product lifecycle, licensing, and support"
     covers: "Vendor lifecycle and end-of-support pages, licensing references, and support portals."
     boundary: "End-of-life data used to judge vulnerability exposure is cross-listed from Vulnerability management."
-    sections: []
+    sections:
+      - {id: operating-systems-and-platforms, title: "Operating systems and platforms", question: "When does this operating system or platform version stop getting fixes?"}
+      - {id: languages-databases-and-runtimes, title: "Languages, databases, and runtimes", question: "Is this runtime or database version still supported?"}
+      - {id: hardware-and-network-vendors, title: "Hardware and network vendors", question: "When does this vendor end sale and support for a product?"}
+      - {id: licensing-references, title: "Licensing references", question: "What does this license allow, and what must we own?"}
+      - {id: support-plans-and-portals, title: "Support plans and portals", question: "Where do I get help, and what does a support plan include?"}
   - id: troubleshooting-toolbox
     group: enterprise-it
     title: "The troubleshooting toolbox"
     covers: "The small utilities and lookups an administrator reaches for during an incident or an outage: converters, testers, decoders, and diagnostics."
     boundary: "A tool that belongs to one platform sits with that platform."
-    sections: []
+    sections:
+      - {id: network-reachability-and-speed, title: "Network reachability and speed", question: "Can the rest of the world reach it, and how good is the path?"}
+      - {id: dns-ip-and-registration-lookups, title: "DNS, IP, and registration lookups", question: "What does DNS answer, and who holds this name or address?"}
+      - {id: web-and-tls-testers, title: "Web and TLS testers", question: "Is this server's TLS, SSH, or header setup right?"}
+      - {id: decoders-encoders-and-converters, title: "Decoders, encoders, and converters", question: "What does this token, timestamp, or blob say?"}
+      - {id: packet-capture-and-http-debugging, title: "Packet capture and HTTP debugging", question: "What is actually going over the wire?"}
+      - {id: rescue-and-system-diagnostics, title: "Rescue and system diagnostics", question: "How do I boot, test, or inspect a machine that is misbehaving?"}
+      - {id: quick-references-and-practice, title: "Quick references and practice", question: "Where is the short answer, and where can I practice?"}
 
 # Rows of the "Start here" table on the front page. "to" is a domain id, optionally with /section.
 start_here:

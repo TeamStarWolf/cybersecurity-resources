@@ -1,0 +1,887 @@
+# Resources in the domain "troubleshooting-toolbox". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: globalping
+  name: "Globalping"
+  url: "https://globalping.io/"
+  publisher: "jsDelivr"
+  section: network-reachability-and-speed
+  kind: service
+  cost: freemium
+  description: "Web form for running ping, traceroute, DNS, MTR, or HTTP from probes in places you pick; integrations include CLI and API; free within hourly limits."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://globalping.io/"
+    how: script
+  notes: "Cost from https://globalping.io/credits, read on 2026-11-25: 250 free tests an hour for an unregistered user, 500 for a registered one, and credits for more tests, which sponsors receive for donations. Publisher from the page header, which reads by jsDelivr; the source is under the jsDelivr organization on GitHub."
+
+- id: m-lab-speed-test
+  name: "M-Lab Speed Test"
+  url: "https://speed.measurementlab.net/"
+  publisher: "Measurement Lab"
+  section: network-reachability-and-speed
+  kind: service
+  cost: free
+  description: "Measurement Lab's speed test, which measures download, upload, latency, and retransmission with NDT; you agree first that results, IP address included, are published."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://speed.measurementlab.net/"
+    how: script
+  notes: "Publisher from the page's About section and https://www.measurementlab.net/about/, read on 2026-11-25. The page has no footer copyright line."
+
+- id: cloudflare-speed-test
+  name: "Cloudflare Speed Test"
+  url: "https://speed.cloudflare.com/"
+  publisher: "Cloudflare"
+  section: network-reachability-and-speed
+  kind: service
+  cost: free
+  description: "Cloudflare's connection test: download, upload, latency, jitter, and packet loss, with scores for streaming, gaming, and video calls."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://speed.cloudflare.com/"
+    how: script
+  notes: "Publisher from the footer copyright, Cloudflare, Inc., in the form the catalog's other Cloudflare entries use."
+
+- id: he-looking-glass
+  name: "Hurricane Electric Looking Glass"
+  url: "https://lg.he.net/"
+  publisher: "Hurricane Electric"
+  section: network-reachability-and-speed
+  kind: service
+  cost: free
+  description: "Hurricane Electric's looking glass: choose a router and run a BGP route lookup, BGP summary, ping, or traceroute against an address or hostname."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://lg.he.net/"
+    how: script
+  notes: "Publisher from the footer copyright and the page's author tag."
+
+- id: cidr-xyz
+  name: "CIDR.xyz"
+  url: "https://cidr.xyz/"
+  publisher: "Magic Monad LLC"
+  section: network-reachability-and-speed
+  kind: service
+  cost: free
+  description: "Interactive CIDR calculator showing a range's netmask, base and broadcast addresses, usable range, and count as you edit the bits; with an FAQ."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cidr.xyz/"
+    how: script
+  notes: "Publisher from https://cidr.xyz/privacy-policy/, read on 2026-11-25, which says the site is operated by Magic Monad LLC."
+
+- id: ipcalc
+  name: "ipcalc (IP Calculator)"
+  url: "https://jodies.de/ipcalc"
+  publisher: "Krischan Jodies"
+  section: network-reachability-and-speed
+  kind: service
+  cost: free
+  description: "IP calculator: give an address and one or two netmasks, in CIDR or dotted form, for results including network, broadcast, and host range, bits shown."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://jodies.de/ipcalc"
+    how: script
+  notes: "Publisher from the foot of the page, which reads 2000-2022 Krischan Jodies. The page has no terms, privacy, or about page."
+
+- id: ntp-pool
+  name: "NTP Pool Project"
+  url: "https://www.ntppool.org/en/"
+  publisher: "NTP Pool Project (Develooper LLC)"
+  section: network-reachability-and-speed
+  kind: service
+  cost: free
+  description: "pool.ntp.org, a cluster of time servers open to everyone, with sections including how to use the pool, how to join it, and information for vendors."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ntppool.org/en/"
+    how: script
+  notes: "Publisher from the page, which calls itself the NTP Pool Project, and from https://www.ntppool.org/tos.html, read on 2026-11-25, where the terms are between the user and Develooper LLC."
+
+- id: ncat
+  name: "Ncat"
+  url: "https://nmap.org/ncat/"
+  publisher: "Nmap Project"
+  section: network-reachability-and-speed
+  kind: tool
+  cost: free
+  description: "Netcat reimplementation shipped with Nmap, with features including port redirection, SSL, and SOCKS4 or HTTP proxying; links its Users' Guide and man page."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://nmap.org/ncat/"
+    how: script
+  notes: "Publisher from the page, which says Ncat was written for the Nmap Project, in the form the catalog's other Nmap entry uses."
+
+- id: mxtoolbox-supertool
+  name: "MxToolbox SuperTool"
+  url: "https://mxtoolbox.com/SuperTool.aspx"
+  publisher: "MxToolbox"
+  section: dns-ip-and-registration-lookups
+  kind: service
+  cost: free
+  description: "MxToolbox's lookup box for a domain, host name, or IP address, with command prefixes such as mx:, spf:, dmarc:, and blacklist: listed in a table."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://mxtoolbox.com/SuperTool.aspx"
+    how: script
+  notes: "Publisher from the footer copyright, MXToolBox, Inc, in the form the catalog's other MxToolbox entry uses. The lookups are free to run in a browser; the company sells monitoring, which the entry does not describe."
+
+- id: dnschecker
+  name: "DNS Checker"
+  url: "https://dnschecker.org/"
+  publisher: "Softrix Technologies"
+  section: dns-ip-and-registration-lookups
+  kind: service
+  cost: free
+  description: "Checks how a DNS record resolves on name servers in many countries, by record type, to follow a change as it propagates."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dnschecker.org/"
+    how: script
+  notes: "Publisher from https://dnschecker.org/privacy.php, read on 2026-11-25, which calls DNSChecker a domain owned by Softrix Technologies."
+
+- id: nslookup-io
+  name: "NsLookup.io DNS lookup"
+  url: "https://www.nslookup.io/"
+  publisher: "NsLookup.io"
+  section: dns-ip-and-registration-lookups
+  kind: service
+  cost: free
+  description: "DNS lookup site: enter a domain for its main record types, then pick public, authoritative, or local DNS servers on the results page."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.nslookup.io/"
+    how: script
+  notes: "Publisher from https://www.nslookup.io/terms-and-conditions/, read on 2026-11-25, where the content is owned by NsLookup; the About page names a founder and a small team, and no company. The choice of DNS servers on the results page is as this page describes it; no results page was opened."
+
+- id: rdap-org
+  name: "RDAP.org lookup"
+  url: "https://client.rdap.org/"
+  publisher: "Gavin Brown"
+  section: dns-ip-and-registration-lookups
+  kind: service
+  cost: free
+  description: "RDAP lookup form with query types including domain, TLD, IP or CIDR, AS number, and entity; queries go from your browser straight to the registry."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://client.rdap.org/"
+    how: script
+  notes: "Publisher from https://about.rdap.org, read on 2026-11-25, where the maintainer names himself."
+
+- id: dig-web-interface
+  name: "Dig web interface"
+  url: "https://www.digwebinterface.com/"
+  publisher: "Martin Holk Rasmussen"
+  section: dns-ip-and-registration-lookups
+  kind: service
+  cost: free
+  description: "Web front end to dig: query record types for one or more hostnames against name servers you pick, with options such as showing the command."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.digwebinterface.com/"
+    how: script
+  notes: "Publisher from the page's author tag, which a reader does not see; the visible page names no one and links no terms, privacy, or about page."
+
+- id: cloudflare-1-1-1-1-help
+  name: "1.1.1.1 DNS resolver help"
+  url: "https://one.one.one.one/help/"
+  publisher: "Cloudflare"
+  section: dns-ip-and-registration-lookups
+  kind: service
+  cost: free
+  description: "Cloudflare's diagnostic page for its 1.1.1.1 resolver: whether you reach it, by DNS over HTTPS, DNS over TLS, or WARP, and which data center answers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://one.one.one.one/help/"
+    how: script
+  notes: "https://1.1.1.1/help redirects here. Publisher from the terms and privacy policy the page links, which name Cloudflare, Inc., in the form the catalog's other Cloudflare entries use."
+
+- id: ssl-labs-server-test
+  name: "Qualys SSL Labs SSL Server Test"
+  url: "https://www.ssllabs.com/ssltest/"
+  publisher: "Qualys"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Qualys test of a public server's SSL/TLS setup, by hostname; an option keeps the result off its boards of recent, best, and worst hosts."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ssllabs.com/ssltest/"
+    how: script
+  notes: "Publisher from the footer copyright, Qualys, Inc., in the form the catalog's other Qualys entries use."
+
+- id: testssl-sh
+  name: "testssl.sh"
+  url: "https://testssl.sh/"
+  publisher: "Dr. Wetter IT-Consulting"
+  section: web-and-tls-testers
+  kind: tool
+  cost: free
+  description: "Command-line TLS tester for any service, STARTTLS included, not just web servers; runs with nothing to install on systems including Linux and macOS; GPLv2."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://testssl.sh/"
+    how: script
+  notes: "Publisher from the imprint the page links, https://drwetter.eu/impressum, read on 2026-11-25, which names Dr. Wetter IT-Consulting; the source is under the testssl organization on GitHub."
+
+- id: badssl
+  name: "badssl.com"
+  url: "https://badssl.com/"
+  publisher: "The Chromium Project"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Test hosts with broken or unusual TLS setups, grouped by kind, including expired and self-signed certificates, RC4 and 3DES cipher suites, and mixed content."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://badssl.com/"
+    how: script
+  notes: "Publisher: the page names no one and links its source at github.com/chromium/badssl.com; the organization's display name is from GitHub's API on 2026-11-25. The page has no terms, privacy, or about page."
+
+- id: hsts-preload
+  name: "HSTS Preload List Submission"
+  url: "https://hstspreload.org/"
+  publisher: "The Chromium Project"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Explains HSTS and the preload list built into Chrome, with sections including submission requirements, deployment recommendations, and the form to check and submit a domain."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://hstspreload.org/"
+    how: script
+  notes: "Publisher: the page names no operator and links its source at github.com/chromium/hstspreload.org; the organization's display name is from GitHub's API on 2026-11-25."
+
+- id: security-headers
+  name: "Security Headers"
+  url: "https://securityheaders.com/"
+  publisher: "Snyk"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Scans a site's HTTP response headers and grades them from A+ to F, with boards of recent scans and of the best and worst results."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://securityheaders.com/"
+    how: script
+  notes: "Publisher from https://securityheaders.com/about/, read on 2026-11-25, which says Security Headers is a part of Snyk and was created by Scott Helme, whose name is in the page's author tag. Scans are free; the paid API has been discontinued, as its page says."
+
+- id: mozilla-http-observatory
+  name: "HTTP Observatory"
+  url: "https://developer.mozilla.org/en-US/observatory"
+  publisher: "Mozilla"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Mozilla's free scanner on MDN: enter a site to have its HTTP headers and related security settings graded; the FAQ covers its limits."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.mozilla.org/en-US/observatory"
+    how: script
+  notes: "Publisher from https://developer.mozilla.org/en-US/about, read on 2026-11-25, which says MDN is owned by Mozilla Corporation, in the form the catalog's other Mozilla entries use. That a scan ends in a grade, and what scans do not test, are from https://developer.mozilla.org/en-US/observatory/docs/faq, read on 2026-11-25, one click from the page."
+
+- id: csp-evaluator
+  name: "CSP Evaluator"
+  url: "https://csp-evaluator.withgoogle.com/"
+  publisher: "Google"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Google's checker for how well a Content Security Policy blocks cross-site scripting, by CSP version, with sample policies; also a Chrome extension."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://csp-evaluator.withgoogle.com/"
+    how: script
+  notes: "Publisher from the page, which says Google provides no guarantees for the tool, and from its address under withgoogle.com."
+
+- id: howsmyssl
+  name: "How's My SSL?"
+  url: "https://www.howsmyssl.com/"
+  publisher: "How's My SSL?"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Shows how the TLS client you are browsing with rates, including its protocol version, key support, session tickets, compression, and insecure cipher suites."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.howsmyssl.com/"
+    how: script
+  notes: "Publisher is the site's own name. The About page, read on 2026-11-25, names no person or organization; the page has no author tag and links no terms or privacy page."
+
+- id: keycdn-tools
+  name: "KeyCDN Tools"
+  url: "https://tools.keycdn.com/"
+  publisher: "proinity LLC"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "KeyCDN's free web and network tools, including a website speed test, HTTP header checker, HTTP/2 and Brotli tests, DNS checker, ping, and traceroute."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://tools.keycdn.com/"
+    how: script
+  notes: "Publisher from https://www.keycdn.com/about, read on 2026-11-25, which says KeyCDN is a service of proinity LLC. KeyCDN sells a content delivery network, which the entry does not describe."
+
+- id: ssh-audit
+  name: "SSH Configuration Auditor"
+  url: "https://www.ssh-audit.com/"
+  publisher: "Positron Security"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Web form for auditing an SSH server by hostname or address, as a scored standard audit or a pass-or-fail policy audit; also audits clients."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ssh-audit.com/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: openssl-s-client
+  name: "openssl-s_client manual page"
+  url: "https://docs.openssl.org/master/man1/openssl-s_client/"
+  publisher: "OpenSSL"
+  section: web-and-tls-testers
+  kind: documentation
+  cost: free
+  description: "OpenSSL's manual page for s_client, its command-line SSL/TLS client, with sections including synopsis, options, basic and advanced connected commands, notes, and bugs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.openssl.org/master/man1/openssl-s_client/"
+    how: script
+  notes: "Publisher in the form the catalog's other OpenSSL entry uses; the footer reads The OpenSSL Project Authors. The address follows the master branch."
+
+- id: openssl-cookbook
+  name: "OpenSSL Cookbook"
+  url: "https://www.feistyduck.com/library/openssl-cookbook/"
+  publisher: "Feisty Duck Limited"
+  section: web-and-tls-testers
+  kind: reference
+  cost: free
+  description: "Ivan Ristić's book on the OpenSSL command line and on testing TLS with it; free to read online, with PDF and EPUB behind a sign-in."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.feistyduck.com/library/openssl-cookbook/"
+    how: script
+  notes: "Publisher from https://www.feistyduck.com/about/terms_and_conditions, read on 2026-11-25. This is the book's library page, which says reading online needs no registration and asks readers to log in or sign up for the PDF and EPUB; the two chapter titles are from the online edition's contents, one click away, read on 2026-11-25."
+
+- id: lets-debug
+  name: "Let's Debug"
+  url: "https://letsdebug.net/"
+  publisher: "Let's Debug"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Form that takes a domain name and a validation method (HTTP-01, DNS-01, or TLS-ALPN-01) and tests for problems that stop Let's Encrypt issuing a certificate."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://letsdebug.net/"
+    how: script
+  notes: "Publisher is the site's own name, which is also the display name of the GitHub organization its source link leads to. The page says it is not affiliated with ISRG and names no person or company; it links no terms or about page."
+
+- id: base64decode
+  name: "Base64 Decode and Encode"
+  url: "https://www.base64decode.org/"
+  publisher: "HAZOTA Europe Kft"
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: free
+  description: "Base64 decoder with a text box, file upload, a character set menu, and an explainer with sections including padding, line breaks, and the URL-safe variant."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.base64decode.org/"
+    how: script
+  notes: "Publisher from https://www.base64decode.org/terms/, read on 2026-11-25, which says the service is owned and operated by HAZOTA Europe Kft."
+
+- id: epoch-converter
+  name: "Epoch Converter"
+  url: "https://www.epochconverter.com/"
+  publisher: "Misja.com"
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: free
+  description: "Unix timestamp tools including conversion to dates and back, in seconds through nanoseconds, start and end epochs for a period, and code examples by language."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.epochconverter.com/"
+    how: script
+  notes: "Publisher from the footer, which reads Epoch Converter by Misja.com."
+
+- id: jsonlint
+  name: "JSONLint"
+  url: "https://jsonlint.com/"
+  publisher: "Todd Garland"
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: freemium
+  description: "JSON validator and formatter in an editor box, above sections including what JSON is, proper format, and common errors; a separate Mac app is paid."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://jsonlint.com/"
+    how: script
+  notes: "Cost: the web validator is free; the page links JSONLint Pro, a Mac app sold on Apple's App Store, read on 2026-11-25. Publisher from https://jsonlint.com/about, where Todd Garland says he acquired JSONLint and builds it; the footer copyright reads JSONLint."
+
+- id: diffchecker
+  name: "Diffchecker"
+  url: "https://www.diffchecker.com/"
+  publisher: "Checker Software Inc."
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: freemium
+  description: "Compares two texts and marks the differences, with modes including images, documents, spreadsheets, and folders; basic web tool is free, Pro and desktop are paid."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.diffchecker.com/"
+    how: script
+  notes: "Cost from https://www.diffchecker.com/pricing/, read on 2026-11-25: Basic is free for everyone, Pro + Desktop is $15 per user per month, and Enterprise is $40. Publisher from the terms, which say the sites are operated by Checker Software Inc."
+
+- id: oauth-debugger
+  name: "OAuth 2.0 Debugger"
+  url: "https://oauthdebugger.com/"
+  publisher: "Nate Barbettini"
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: free
+  description: "Builds an OAuth 2.0 authorization request from fields including the URIs, client ID, scope, and response type, sends it, and shows what comes back."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://oauthdebugger.com/"
+    how: script
+  notes: "Publisher from the page, which says it was crafted by Nate Barbettini, and its footer copyright."
+
+- id: curlconverter
+  name: "curlconverter: curl commands to code"
+  url: "https://curlconverter.com/"
+  publisher: "Nick Carneiro"
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: free
+  description: "Converts a curl command into code for Python, JavaScript, Go, and other languages, and shows how to copy a request as curl from a browser."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://curlconverter.com/"
+    how: script
+  notes: "Publisher from the page's author tag, which a reader does not see; the visible page names no one, and its source link leads to the curlconverter organization on GitHub."
+
+- id: devtoys
+  name: "DevToys"
+  url: "https://devtoys.app/"
+  publisher: "Etienne Baudoux and Benjamin Titeux"
+  section: decoders-encoders-and-converters
+  kind: tool
+  cost: free
+  description: "Open source desktop toolbox for Windows, macOS, and Linux whose offline tools include JWT decoding, hash generation, and text comparison; also runs from a terminal."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://devtoys.app/"
+    how: script
+  notes: "Publisher from the page, which says it is made by Etienne Baudoux and Benjamin Titeux; the footer copyright reads DevToys."
+
+- id: wireshark-display-filter-reference
+  name: "Wireshark Display Filter Reference"
+  url: "https://www.wireshark.org/docs/dfref/"
+  publisher: "Wireshark Foundation"
+  section: packet-capture-and-http-debugging
+  kind: reference
+  cost: free
+  description: "Index of the protocols Wireshark can filter on, each linking to its list of display filter fields."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.wireshark.org/docs/dfref/"
+    how: script
+  notes: "Publisher from https://www.wireshark.org/about and the Foundation's privacy policy, read on 2026-11-25, in the form the catalog's other Wireshark entries use."
+
+- id: wireshark-sample-captures
+  name: "Wireshark Wiki: SampleCaptures"
+  url: "https://wiki.wireshark.org/SampleCaptures"
+  publisher: "Wireshark Foundation"
+  section: packet-capture-and-http-debugging
+  kind: dataset
+  cost: free
+  description: "Wireshark wiki page of capture files to download, grouped by protocol, with notes on adding a capture and pointers to capture collections elsewhere."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://wiki.wireshark.org/SampleCaptures"
+    how: script
+  notes: "Publisher from https://www.wireshark.org/about and the Foundation's privacy policy, read on 2026-11-25, in the form the catalog's other Wireshark entries use."
+
+- id: wireshark-users-guide
+  name: "Wireshark User's Guide"
+  url: "https://www.wireshark.org/docs/wsug_html_chunked/"
+  publisher: "Wireshark Foundation"
+  section: packet-capture-and-http-debugging
+  kind: documentation
+  cost: free
+  description: "Contents page of the Wireshark manual, with chapters including building and installing, the user interface, capturing live network data, and working with captured packets."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.wireshark.org/docs/wsug_html_chunked/"
+    how: script
+  notes: "Publisher from https://www.wireshark.org/about and the Foundation's privacy policy, read on 2026-11-25, in the form the catalog's other Wireshark entries use. The address follows the development version, 5.1.0 on 2026-11-25."
+
+- id: mitmproxy
+  name: "mitmproxy"
+  url: "https://www.mitmproxy.org/"
+  publisher: "Mitmproxy Project"
+  section: packet-capture-and-http-debugging
+  kind: tool
+  cost: free
+  description: "Open source proxy for intercepting, modifying, and replaying web traffic, including HTTP/2, HTTP/3, and WebSockets, driven from a command line, web interface, or Python API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.mitmproxy.org/"
+    how: script
+  notes: "Publisher from the footer copyright. https://mitmproxy.org/ redirects here."
+
+- id: fiddler
+  name: "Fiddler"
+  url: "https://www.telerik.com/fiddler"
+  publisher: "Progress Software Corporation"
+  section: packet-capture-and-http-debugging
+  kind: tool
+  cost: freemium
+  description: "Web debugging proxies for HTTP and HTTPS from Progress Telerik: Fiddler Everywhere by subscription, and Fiddler Classic, limited by its EULA to eligible non-commercial use."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.telerik.com/fiddler"
+    how: script
+  notes: "Cost from the page, which says Fiddler Classic remains available for eligible non-commercial use, and from https://www.telerik.com/purchase/fiddler, read on 2026-11-25, which sells Fiddler Everywhere from $7 per user per month, billed annually. Publisher from the footer copyright."
+
+- id: httpbin
+  name: "httpbin.org"
+  url: "https://httpbin.org/"
+  publisher: "httpbin.org"
+  section: packet-capture-and-http-debugging
+  kind: service
+  cost: free
+  description: "Public test server for HTTP clients: endpoints such as /post, /headers, and /anything echo what you sent; the page states its rate limits."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://httpbin.org/"
+    how: script
+  notes: "Publisher is the site's own name. The page names no operator, has no author tag, and links no terms, privacy, or about page."
+
+- id: webhook-site
+  name: "Webhook.site"
+  url: "https://webhook.site/"
+  publisher: "Webhook ApS"
+  section: packet-capture-and-http-debugging
+  kind: service
+  cost: freemium
+  description: "Captures HTTP requests, emails, and DNS lookups sent to addresses it generates; free URLs last a week and hold 50 requests, paid accounts more."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://webhook.site/"
+    how: script
+  notes: "Cost from the page, which states the limits on free URLs, and from https://webhook.site/pricing, read on 2026-11-25, which sells accounts from $9 a month. Publisher from https://docs.webhook.site, which says the site is operated by Webhook ApS."
+
+- id: httpie
+  name: "HTTPie"
+  url: "https://httpie.io/"
+  publisher: "HTTPie, Inc."
+  section: packet-capture-and-http-debugging
+  kind: tool
+  cost: free
+  description: "API testing client: an open source tool for the terminal, and apps for web and desktop in public beta."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://httpie.io/"
+    how: script
+  notes: "Publisher from the footer copyright. The page has no pricing page."
+
+- id: chrome-devtools-network
+  name: "Chrome DevTools: Inspect network activity"
+  url: "https://developer.chrome.com/docs/devtools/network"
+  publisher: "Google"
+  section: packet-capture-and-http-debugging
+  kind: documentation
+  cost: free
+  description: "Google's tutorial on the DevTools Network panel, including logging requests, showing more information, simulating a slower connection, and capturing screenshots."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.chrome.com/docs/devtools/network"
+    how: script
+  notes: "Publisher from the developer.chrome.com address and the page's site-name tag, Chrome for Developers."
+
+- id: firefox-network-monitor
+  name: "Firefox Network Monitor"
+  url: "https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/"
+  publisher: "Mozilla"
+  section: packet-capture-and-http-debugging
+  kind: documentation
+  cost: free
+  description: "Firefox documentation for the Network Monitor: opening it, a tour of its interface, and pages including the request list, request details, and throttling."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/"
+    how: script
+  notes: "Publisher from the mozilla.org address, in the form the catalog's other Mozilla entries use; the page has no footer copyright line."
+
+- id: lnav
+  name: "lnav (The Logfile Navigator)"
+  url: "https://lnav.org/"
+  publisher: "Tim Stack (tstack)"
+  section: packet-capture-and-http-debugging
+  kind: tool
+  cost: free
+  description: "Terminal log viewer that needs no server: point it at a directory of logs; has an SQLite interface and a demo reachable over SSH."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://lnav.org/"
+    how: script
+  notes: "Publisher: the page names no one and links its source at github.com/tstack/lnav, a personal account; the display name is from GitHub's API on 2026-11-25. The repository's license field reads BSD-2-Clause."
+
+- id: goaccess
+  name: "GoAccess"
+  url: "https://goaccess.io/"
+  publisher: "Gerardo O. (allinurl)"
+  section: packet-capture-and-http-debugging
+  kind: tool
+  cost: free
+  description: "Web log analyzer written in C that reads formats including Apache, Nginx, and CloudFront and reports in a terminal or a web dashboard; MIT licensed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://goaccess.io/"
+    how: script
+  notes: "Publisher: the page names no one and links its source at github.com/allinurl/goaccess, a personal account; the display name is from GitHub's API on 2026-11-25."
+
+- id: systemrescue
+  name: "SystemRescue"
+  url: "https://www.system-rescue.org/"
+  publisher: "SystemRescue"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "Bootable Linux rescue system for repairing Linux and Windows computers, with tools including GParted and fsarchiver; guides, manual chapters, and a tool list are linked."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.system-rescue.org/"
+    how: script
+  notes: "Publisher is the project's own name. The page names no person or organization, has no author tag, and links its sources on GitLab under the systemrescue group; it links no terms or about page. Licensed GPLv3."
+
+- id: gparted
+  name: "GParted"
+  url: "https://gparted.org/"
+  publisher: "GParted"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "Graphical partition editor with actions including create, resize, move, and copy, on file systems including btrfs, ext4, and NTFS; GParted Live is its bootable edition."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://gparted.org/"
+    how: script
+  notes: "Publisher is the project's own name. The page's author tag, which a reader does not see, reads Curtis Gedak; the visible page names no person or organization."
+
+- id: testdisk
+  name: "TestDisk"
+  url: "https://www.cgsecurity.org/wiki/TestDisk"
+  publisher: "Christophe Grenier (CGSecurity)"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "GPL data recovery program whose abilities include fixing partition tables, rebuilding FAT and NTFS boot sectors, and undeleting files; lists supported operating systems and filesystems."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cgsecurity.org/wiki/TestDisk"
+    how: script
+  notes: "Publisher from https://www.cgsecurity.org/wiki/CGSecurity:About, read on 2026-11-25, which calls the site a personal website created by Christophe Grenier. Licensed GPL v2 or later."
+
+- id: memtest86-plus
+  name: "Memtest86+"
+  url: "https://www.memtest.org/"
+  publisher: "Samuel Demeulemeester"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "Home of the GPL memory tester Memtest86+: downloads, nightly builds, and sections including why to test RAM, installing on removable media, and troubleshooting RAM errors."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.memtest.org/"
+    how: script
+  notes: "Publisher from https://www.memtest.org/legal, read on 2026-11-25, which names the website's publisher; the same page says Memtest86+ is not an edition of MemTest86, a separate closed-source product."
+
+- id: gnu-ddrescue
+  name: "GNU ddrescue"
+  url: "https://www.gnu.org/software/ddrescue/"
+  publisher: "GNU Project (Free Software Foundation)"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "GNU tool for copying a disk or file with read errors; given a mapfile it reads only the blocks needed and resumes an interrupted rescue."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.gnu.org/software/ddrescue/"
+    how: script
+  notes: "Publisher from the footer copyright, in the form the catalog's other GNU entries use."
+
+- id: htop
+  name: "htop"
+  url: "https://htop.dev/"
+  publisher: "htop"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "Interactive text-mode process viewer built on ncurses for systems including Linux, FreeBSD, and macOS; site links include downloads, screenshots, and an FAQ."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://htop.dev/"
+    how: script
+  notes: "Publisher is the project's own name. The page names no organization as owner; it says Hack Club, a nonprofit, has been the project's fiscal sponsor since March 2024."
+
+- id: strace
+  name: "strace"
+  url: "https://strace.io/"
+  publisher: "strace"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "Linux utility that traces the system calls and signals of a process, including attaching to a running one and filtering by call or path; LGPL."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://strace.io/"
+    how: script
+  notes: "Publisher is the project's own name, which is also the name of the GitHub and GitLab organizations its source links lead to. The page names no person or company as owner."
+
+- id: ncdu
+  name: "ncdu"
+  url: "https://dev.yorhel.nl/ncdu"
+  publisher: "Yorhel"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "Home of ncdu, which shows what fills a disk from a terminal on POSIX-like systems: notable updates, downloads, packages and ports, and similar projects."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dev.yorhel.nl/ncdu"
+    how: script
+  notes: "Publisher from the site's home page, https://dev.yorhel.nl/, which is titled Yorhel's Projects; the page gives no other name. Licensed MIT."
+
+- id: sysstat
+  name: "sysstat"
+  url: "https://sysstat.github.io/"
+  publisher: "Sébastien Godard"
+  section: rescue-and-system-diagnostics
+  kind: tool
+  cost: free
+  description: "Home of sysstat, the Linux package of performance tools including sar, iostat, mpstat, and pidstat: release news, with features, download, and FAQ pages linked."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://sysstat.github.io/"
+    how: script
+  notes: "Publisher from https://sysstat.github.io/about, read on 2026-11-25, which names the creator and maintainer."
+
+- id: mdn-http-status-codes
+  name: "MDN: HTTP response status codes"
+  url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status"
+  publisher: "Mozilla"
+  section: quick-references-and-practice
+  kind: reference
+  cost: free
+  description: "MDN's list of HTTP response status codes in informational, successful, redirection, client error, and server error groups, with short explanations and links to per-code pages."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status"
+    how: script
+  notes: "Publisher from https://developer.mozilla.org/en-US/about, read on 2026-11-25, in the form the catalog's other Mozilla entries use."
+
+- id: the-art-of-command-line
+  name: "The Art of Command Line"
+  url: "https://github.com/jlevy/the-art-of-command-line"
+  publisher: "Joshua Levy (jlevy)"
+  section: quick-references-and-practice
+  kind: reference
+  cost: free
+  description: "One-page guide to command-line fluency, in sections including one-liners, system debugging, everyday use, and processing files and data, with translations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/jlevy/the-art-of-command-line"
+    how: script
+  notes: "Publisher: the repository is under the personal account jlevy; the display name is from GitHub's API on 2026-11-25. The repository's last push was on 2024-06-25, from the GitHub API on 2026-11-25."
+
+- id: sadservers
+  name: "SadServers"
+  url: "https://sadservers.com/"
+  publisher: "SadServers Inc."
+  section: quick-references-and-practice
+  kind: training
+  cost: freemium
+  description: "Linux and DevOps troubleshooting challenges on live servers, for practice and for assessing hires; some open without signing up, and paid plans add more."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://sadservers.com/"
+    how: script
+  notes: "Cost from https://sadservers.com/pricing, read on 2026-11-25: a free Hobbyist plan with a selection of scenarios, and Pro from $9 a month. Publisher from the About page."
+
+- id: mess-with-dns
+  name: "Mess with DNS"
+  url: "https://messwithdns.net/"
+  publisher: "Julia Evans and Marie Claire LeBlanc Flanagan"
+  section: quick-references-and-practice
+  kind: training
+  cost: free
+  description: "A sandbox that gives you a subdomain to add DNS records to and shows each request that arrives for it, for learning by experiment."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://messwithdns.net/"
+    how: script
+  notes: "Publisher from https://messwithdns.net/about.html, read on 2026-11-25, which credits the two people who built it."

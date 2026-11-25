@@ -188,6 +188,7 @@
   url: "https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information"
   publisher: "Microsoft"
   section: release-health-and-roadmap
+  also_in: [product-lifecycle-licensing-and-support/operating-systems-and-platforms]
   kind: reference
   cost: free
   description: "Release information for each Windows 11 version."
@@ -202,6 +203,7 @@
   url: "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info"
   publisher: "Microsoft"
   section: release-health-and-roadmap
+  also_in: [product-lifecycle-licensing-and-support/operating-systems-and-platforms]
   kind: reference
   cost: free
   description: "Release information for Windows Server versions."
@@ -274,6 +276,7 @@
   url: "https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date"
   publisher: "Microsoft"
   section: release-health-and-roadmap
+  also_in: [product-lifecycle-licensing-and-support/operating-systems-and-platforms]
   kind: reference
   cost: free
   description: "Table of every Microsoft 365 Apps build by release date and update channel, each linked to its release notes."
@@ -460,6 +463,7 @@
   url: "https://m365maps.com/"
   publisher: "Aaron Dinnage"
   section: tools-and-references
+  also_in: [product-lifecycle-licensing-and-support/licensing-references]
   kind: reference
   cost: free
   description: "Diagrams showing which features each Microsoft 365, Entra, Intune, Defender, and Purview license plan includes."

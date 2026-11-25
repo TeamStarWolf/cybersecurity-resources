@@ -191,6 +191,7 @@
   url: "https://man7.org/linux/man-pages/"
   publisher: "Michael Kerrisk"
   section: linux-servers
+  also_in: [troubleshooting-toolbox/quick-references-and-practice]
   kind: reference
   cost: free
   description: "HTML versions of the Linux man-pages project's manual pages, plus a selection from other free software projects, listed by section, alphabetically, or by project."

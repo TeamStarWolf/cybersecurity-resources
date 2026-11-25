@@ -506,6 +506,7 @@
   url: "https://www.ventoy.net/"
   publisher: "longpanda"
   section: packaging-imaging-and-software-deployment
+  also_in: [troubleshooting-toolbox/rescue-and-system-diagnostics]
   kind: tool
   cost: free
   description: "Prepares a USB drive once, after which you copy disk images onto it and choose one from a boot menu; open source."

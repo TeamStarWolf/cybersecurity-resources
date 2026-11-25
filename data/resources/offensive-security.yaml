@@ -505,7 +505,7 @@
   url: "https://gchq.github.io/CyberChef/"
   publisher: "GCHQ"
   section: cheat-sheets-and-payloads
-  also_in: [dfir-and-malware-analysis/reverse-engineering]
+  also_in: [dfir-and-malware-analysis/reverse-engineering, troubleshooting-toolbox/decoders-encoders-and-converters]
   kind: service
   cost: free
   description: "GCHQ's browser tool for transforming data: drag operations such as Base64 decoding or decryption into a recipe and apply it to your input."

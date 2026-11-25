@@ -448,6 +448,7 @@
   url: "https://lookup.icann.org/en"
   publisher: "ICANN"
   section: registries-and-numbering
+  also_in: [troubleshooting-toolbox/dns-ip-and-registration-lookups]
   kind: service
   cost: free
   description: "ICANN's tool for current registration data: type in a domain name, IP network, or AS number, and it fetches the record over RDAP."
@@ -508,6 +509,7 @@
   url: "https://dnsviz.net/"
   publisher: "Casey Deccio"
   section: lookup-and-diagnostic-tools
+  also_in: [troubleshooting-toolbox/dns-ip-and-registration-lookups]
   kind: service
   cost: free
   description: "Enter a domain name to get a diagram of its DNSSEC authentication chain, with the configuration errors the tool found."
@@ -523,6 +525,7 @@
   url: "https://github.com/esnet/iperf"
   publisher: "ESnet (Energy Sciences Network)"
   section: lookup-and-diagnostic-tools
+  also_in: [troubleshooting-toolbox/network-reachability-and-speed]
   kind: tool
   cost: free
   description: "Measures the maximum bandwidth achievable on an IP network over TCP, UDP, or SCTP; maintained by ESnet."
@@ -538,6 +541,7 @@
   url: "https://github.com/traviscross/mtr"
   publisher: "Travis Cross (traviscross)"
   section: lookup-and-diagnostic-tools
+  also_in: [troubleshooting-toolbox/network-reachability-and-speed]
   kind: tool
   cost: free
   description: "Network diagnostic tool that does the work of traceroute and ping in one program."
@@ -568,6 +572,7 @@
   url: "https://test-ipv6.com/"
   publisher: "APNIC Labs"
   section: lookup-and-diagnostic-tools
+  also_in: [troubleshooting-toolbox/network-reachability-and-speed]
   kind: service
   cost: free
   description: "Tests whether your browser and connection can reach sites over IPv6, and displays the IPv4 and IPv6 addresses you are using."
@@ -598,6 +603,7 @@
   url: "https://www.tcpdump.org/"
   publisher: "The Tcpdump Group"
   section: lookup-and-diagnostic-tools
+  also_in: [troubleshooting-toolbox/packet-capture-and-http-debugging]
   kind: tool
   cost: free
   description: "Project site for the tcpdump packet analyzer, a command-line tool, and for libpcap, a library for capturing network traffic, with releases, man pages, and documentation."

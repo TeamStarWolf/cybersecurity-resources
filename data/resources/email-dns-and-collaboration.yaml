@@ -560,6 +560,7 @@
   url: "https://toolbox.googleapps.com/apps/main/"
   publisher: "Google"
   section: lookup-and-test-tools
+  also_in: [troubleshooting-toolbox/dns-ip-and-registration-lookups]
   kind: service
   cost: free
   description: "Google's web tools for troubleshooting Workspace: Check MX and Dig for DNS, Messageheader for mail delivery, HAR and log analyzers, and browser debugging pages."
@@ -634,6 +635,7 @@
   url: "https://www.whatsmydns.net/"
   publisher: "whatsmydns.net"
   section: lookup-and-test-tools
+  also_in: [troubleshooting-toolbox/dns-ip-and-registration-lookups]
   kind: service
   cost: free
   description: "Looks up a DNS record on name servers in many countries at once and maps the answers, to show how far a change has propagated."
