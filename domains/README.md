@@ -4,7 +4,7 @@
 
 > The catalog, grouped by domain. Each domain page lists its resources by the question a practitioner asks, with one sentence on what each resource is, who runs it, what kind of thing it is, and what it costs.
 
-735 resources in 20 domains. A domain is listed without a link until it holds its first resource.
+855 resources in 23 domains. A domain is listed without a link until it holds its first resource.
 
 ## Security domains
 
@@ -50,9 +50,9 @@ The systems an IT department runs and the references needed to run them.
 | [Networking and connectivity](networking-and-connectivity.md) | Designing, running, and troubleshooting networks: vendor documentation, protocol references, registries, and lookup tools. | Traffic inspection for security sits in Network security; DNS for mail and collaboration sits in Email, DNS, and collaboration. | 46 |
 | [Servers, virtualization, and storage](servers-virtualization-and-storage.md) | Server operating systems, hypervisors, containers on premises, and storage platforms: documentation, compatibility guides, and sizing references. | Public cloud platforms sit in Cloud platform administration. | 35 |
 | [Cloud platform administration](cloud-platform-administration.md) | Operating AWS, Azure, and Google Cloud: documentation hubs, architecture centers, pricing calculators, and status pages. | Assessing and attacking cloud environments sits in Cloud and infrastructure. | 40 |
-| Automation and scripting | PowerShell, shell, Python, and infrastructure as code: language references, module galleries, and configuration management documentation. | Scripts and tools for a single platform sit with that platform. | 0 |
-| Monitoring, logging, and observability | Metrics, logs, traces, and alerting for infrastructure and applications. | Security detection on that telemetry sits in Detection and response. | 0 |
-| Backup, recovery, and resilience | Backup products and practices, disaster recovery planning, and resilience guidance. | Ransomware response guidance from governments sits in Government and CERT alerts. | 0 |
+| [Automation and scripting](automation-and-scripting.md) | PowerShell, shell, Python, and infrastructure as code: language references, module galleries, and configuration management documentation. | Scripts and tools for a single platform sit with that platform. | 46 |
+| [Monitoring, logging, and observability](monitoring-logging-and-observability.md) | Metrics, logs, traces, and alerting for infrastructure and applications. | Security detection on that telemetry sits in Detection and response. | 39 |
+| [Backup, recovery, and resilience](backup-recovery-and-resilience.md) | Backup products and practices, disaster recovery planning, and resilience guidance. | Ransomware response guidance from governments sits in Government and CERT alerts. | 35 |
 | IT service management and operations | Service desks, change and incident management, asset management, and the frameworks that describe them. | Security governance frameworks sit in GRC and security program. | 0 |
 | Email, DNS, and collaboration | Mail flow and authentication (SPF, DKIM, DMARC), DNS operations and lookup tools, and collaboration platforms. | Microsoft 365 tenant administration sits in Microsoft 365 and Windows administration. | 0 |
 | Databases and data platforms | Relational and non-relational database engines and data platforms: documentation, tuning references, and administration tools. | Database vendors' security advisories sit in Vendor advisories and PSIRTs. | 0 |

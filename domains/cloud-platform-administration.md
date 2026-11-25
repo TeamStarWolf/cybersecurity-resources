@@ -72,7 +72,7 @@ How do I manage cloud resources as code and compare providers?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Terraform Documentation](https://developer.hashicorp.com/terraform/docs) | HashiCorp | HashiCorp's documentation for Terraform Enterprise, HCP Terraform, and the CLI, from an introduction to managing infrastructure and collaborating. | Vendor documentation | Free |
+| [Terraform Documentation](https://developer.hashicorp.com/terraform/docs) | HashiCorp, an IBM company | HashiCorp's documentation for Terraform Enterprise, HCP Terraform, and the CLI, from an introduction to managing infrastructure and collaborating. | Vendor documentation | Free |
 | [OpenTofu Documentation](https://opentofu.org/docs/) | OpenTofu, a Linux Foundation project | Documentation for OpenTofu by version: getting started, the configuration language, the CLI, and internals. | Vendor documentation | Free |
 | [Pulumi Docs](https://www.pulumi.com/docs/) | Pulumi Corp | Pulumi's documentation for writing infrastructure as code in languages such as TypeScript, Python, Go, C#, and Java, or in YAML or HCL. | Vendor documentation | Free |
 | [CNCF Landscape](https://landscape.cncf.io/) | Cloud Native Computing Foundation (The Linux Foundation) | The CNCF's map of cloud native projects and products, grouped by category, with further views for members and for certified partners and providers. | Reference | Free |

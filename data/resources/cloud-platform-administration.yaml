@@ -475,7 +475,7 @@
 - id: terraform-documentation
   name: "Terraform Documentation"
   url: "https://developer.hashicorp.com/terraform/docs"
-  publisher: "HashiCorp"
+  publisher: "HashiCorp, an IBM company"
   section: multi-cloud-and-infrastructure-as-code
   kind: documentation
   cost: free
@@ -485,6 +485,7 @@
     status: 200
     final: "https://developer.hashicorp.com/terraform/docs"
     how: script
+  notes: "Publisher from https://www.hashicorp.com/en/about, read on 2026-11-25, which calls the company HashiCorp, an IBM company; the documentation page itself names only HashiCorp."
 
 - id: opentofu-documentation
   name: "OpenTofu Documentation"

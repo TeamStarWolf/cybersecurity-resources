@@ -176,3 +176,8 @@ entries:
     match: exact
     reason: "Returns 403 to automated clients; loads in a browser."
     opened: "2026-11-25"
+  - url: "https://www.iso.org/standard/22301"
+    match: exact
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners on two runs in a row; answers 200 from a desktop network."
+    opened: "2026-11-25"
