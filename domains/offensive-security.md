@@ -48,7 +48,7 @@ What do I test a web application with?
 | [Nikto](https://github.com/sullo/nikto) | sullo | Web server scanner, run from the command line against a target host. | Tool | Free |
 | [PortSwigger Web Security Academy](https://portswigger.net/web-security) | PortSwigger | Free online web security training with interactive labs, from the makers of Burp Suite; create an account to start. | Training or lab | Free with account |
 | [PortSwigger Research](https://portswigger.net/research) | PortSwigger | Web security research papers and articles from the PortSwigger Research team. | Research blog | Free |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | ProjectDiscovery | Scanner that runs YAML templates against applications, APIs, networks, DNS, and cloud configurations to find known vulnerabilities. | Tool | Free |
+| [Nuclei](https://github.com/projectdiscovery/nuclei) | ProjectDiscovery | Vulnerability scanner driven by community-written YAML templates; it checks cloud configurations, networks, DNS, APIs, and applications. | Tool | Free |
 
 Listed here from another domain: PortSwigger Web Security Academy ([Labs and training](labs-and-training.md#offensive-practice-labs)), PortSwigger Research ([Threat intelligence and adversaries](threat-intelligence.md#research-blogs)), Nuclei ([Vulnerability management](vulnerability-management.md#scanners)).
 
@@ -96,7 +96,7 @@ What is the command or payload for this?
 | [Reverse Shell Generator](https://www.revshells.com/) | revshells.com | Generator for reverse shell, bind shell, and MSFVenom commands for a chosen address, port, and shell. | Online service | Free |
 | [CyberChef](https://gchq.github.io/CyberChef/) | GCHQ | GCHQ's browser tool for transforming data: drag operations such as Base64 decoding or decryption into a recipe and apply it to your input. | Online service | Free |
 | [CrackStation](https://crackstation.net/) | Defuse Security | Free lookup service that cracks unsalted password hashes with precomputed tables; accepts up to 20 hashes at a time. | Online service | Free |
-| [pwntools](https://github.com/Gallopsled/pwntools) | Gallopsled | CTF framework and exploit development library written in Python, designed for rapid prototyping of exploits. | Tool | Free |
+| [pwntools](https://github.com/Gallopsled/pwntools) | Gallopsled | Python library for writing exploits quickly, built for capture-the-flag work; the project also publishes write-ups of past CTF challenges. | Tool | Free |
 
 Listed here from another domain: pwntools ([DFIR and malware analysis](dfir-and-malware-analysis.md#reverse-engineering)).
 

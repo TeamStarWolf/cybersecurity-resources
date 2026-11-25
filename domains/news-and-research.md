@@ -22,8 +22,8 @@ What happened today?
 | [The Record](https://therecord.media/) | Recorded Future News | Cybersecurity news from Recorded Future News, covering incidents, policy, and cybercrime. | News | Free |
 | [The Hacker News](https://thehackernews.com/) | The Hacker News | Cybersecurity news site covering malware, vulnerabilities, data breaches, and espionage campaigns. | News | Free |
 | [Dark Reading](https://www.darkreading.com/) | Informa TechTarget | Security news and analysis for practitioners and security leaders, with a CISO section. | News | Free |
-| [SecurityWeek](https://www.securityweek.com/) | Wired Business Media | Cybersecurity news, insights, and analysis for enterprise security professionals. | News | Free |
-| [Help Net Security](https://www.helpnetsecurity.com/) | Help Net Security | Cybersecurity news with a focus on enterprise security, plus daily and weekly newsletters. | News | Free |
+| [SecurityWeek](https://www.securityweek.com/) | Wired Business Media | News site for enterprise security staff: reporting on flaws, breaches, and attacks, with expert analysis. | News | Free |
+| [Help Net Security](https://www.helpnetsecurity.com/) | Help Net Security | Security news for enterprise readers, with a CISO section, industry announcements, videos, and daily and weekly email newsletters. | News | Free |
 | [DataBreaches.net](https://databreaches.net/) \* | DataBreaches.net | Site that reports on data breaches and follows up on incident disclosures. | News | Free |
 | [Ars Technica: Security](https://arstechnica.com/security/) | Condé Nast | The security section of Ars Technica, with reported stories on exploits, breaches, and security research. | News | Free |
 | [CSO Online](https://www.csoonline.com/) | Foundry (FoundryCo, Inc.) | News and features on trends, practices, and products for enterprise security leaders. | News | Free |
@@ -32,11 +32,11 @@ What happened today?
 | [Cybersecurity Dive](https://www.cybersecuritydive.com/) | Informa TechTarget | Cybersecurity news and analysis for industry professionals. | News | Free |
 | [Hackread](https://hackread.com/) | Gray Dot Media Group | Cybersecurity and technology news site. | News | Free |
 | [Infosecurity Magazine](https://www.infosecurity-magazine.com/) | Reed Exhibitions | Online magazine covering information security news, strategy, and technology. | News | Free |
-| [The Register: Security](https://www.theregister.com/security/) | Situation Publishing | The Register's news and insight on information security and IT defenses. | News | Free |
+| [The Register: Security](https://www.theregister.com/security/) | Situation Publishing | The security section of The Register, with its news coverage of breaches, attacks, and IT defense. | News | Free |
 | [Security Affairs](https://securityaffairs.com/) | Security Affairs | Security news blog covering data breaches, malware, cybercrime, and state-backed activity. | News | Free |
-| [TechCrunch: Security](https://techcrunch.com/category/security/) | TechCrunch | TechCrunch's security news and investigative reporting on breaches, hacks, and cyberattacks. | News | Free |
+| [TechCrunch: Security](https://techcrunch.com/category/security/) | TechCrunch | TechCrunch's security category: reporting, investigations, and analysis on breaches, hacks, and cyberattacks. | News | Free |
 | [WIRED: Security](https://www.wired.com/category/security/) | Condé Nast | WIRED's coverage of cybersecurity, hacks, privacy, and national security. | News | Freemium |
-| [404 Media](https://www.404media.co/) | 404 Media | Independent media company founded by technology journalists, whose reporting includes a hacking beat. | News | Freemium |
+| [404 Media](https://www.404media.co/) | 404 Media | Independent technology news outlet started by four journalists; its coverage includes a Hacking section. | News | Freemium |
 
 ## Analysis, newsletters, and podcasts
 
@@ -44,17 +44,17 @@ Who explains what it means?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Krebs on Security](https://krebsonsecurity.com/) | Krebs on Security | In-depth security news and investigative reporting. | News | Free |
+| [Krebs on Security](https://krebsonsecurity.com/) | Krebs on Security | A single author's investigative reporting on security and cybercrime. | News | Free |
 | [Schneier on Security](https://www.schneier.com/) | Bruce Schneier | Bruce Schneier's blog of essays and commentary on security. | News | Free |
-| [Risky Business](https://risky.biz/) | Risky Business Media | Podcasts, newsletters, and video with news and commentary for cybersecurity and intelligence professionals. | News | Free |
+| [Risky Business](https://risky.biz/) | Risky Business Media | Security podcasts published since 2007, led by the weekly Risky Business show, with the Risky Bulletin feed, newsletters, and videos. | News | Free |
 | [tl;dr sec](https://tldrsec.com/) | tl;dr sec | Free weekly newsletter that summarizes security tools, talks, and research. | News | Free |
 | [SANS Internet Storm Center](https://isc.sans.edu/) | SANS | Daily diaries from volunteer handlers on current attacks and scanning activity, with an API for its data. | News | Free |
 | [Graham Cluley: Writing](https://grahamcluley.com/writing/) | Graham Cluley (Cluley Associates Limited) | Articles and podcast episodes from cybersecurity speaker Graham Cluley, host of the Smashing Security podcast. | News | Free |
 | [Troy Hunt](https://www.troyhunt.com/) | Troy Hunt | Blog of Troy Hunt, who runs Have I Been Pwned. | News | Free |
-| [Darknet Diaries](https://darknetdiaries.com/) | Jack Rhysider | Podcast of true stories from the dark side of the internet. | News | Freemium |
-| [SANS NewsBites](https://www.sans.org/newsletters/newsbites/) | SANS Institute | Semiweekly executive summary of the most important security news, with each item annotated by subject matter experts. | News | Free |
+| [Darknet Diaries](https://darknetdiaries.com/) | Jack Rhysider | Jack Rhysider's podcast, which tells true stories about the internet's dark side. | News | Freemium |
+| [SANS NewsBites](https://www.sans.org/newsletters/newsbites/) | SANS Institute | Twice-weekly SANS newsletter that summarizes the main security news stories, with commentary on each item from experts in the SANS community. | News | Free |
 | [N2K CyberWire](https://thecyberwire.com/) | N2K Networks | Concise cybersecurity news briefings and podcasts. | News | Freemium |
-| [Security Now](https://twit.tv/shows/security-now) | TWiT | Podcast in which Steve Gibson and Leo Laporte break down the latest cybercrime and hacking stories every Tuesday. | News | Free |
+| [Security Now](https://twit.tv/shows/security-now) | TWiT | Weekly podcast, out on Tuesdays, in which Steve Gibson and Leo Laporte explain the week's security news and what to do about it. | News | Free |
 
 ## Communities
 
