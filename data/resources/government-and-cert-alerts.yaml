@@ -36,7 +36,7 @@
   section: united-states
   kind: reference
   cost: free
-  description: "CISA's Secure by Design pages: what the idea means, a pledge for technology makers, guidance on implementing the principles, and resources on memory safety."
+  description: "CISA's Secure by Design pages: what the idea means, a pledge for software manufacturers, guidance on implementing the principles, and resources on memory safety."
   checked:
     date: "2026-11-25"
     status: 200
@@ -426,7 +426,7 @@
   section: international
   kind: organization
   cost: free
-  description: "New Zealand's National Cyber Security Centre, with information and advice on responding to cyber security threats."
+  description: "New Zealand's National Cyber Security Centre: alerts, news, guides, its Cyber Threat Report, and a way to report a security issue."
   checked:
     date: "2026-11-25"
     status: 200

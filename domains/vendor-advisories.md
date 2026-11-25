@@ -129,7 +129,7 @@ What do I patch in the open source stack?
 | [Samba Security Updates and Information](https://www.samba.org/samba/history/security.html) | Samba | Samba's security releases, with the release notes for each. | Advisory source | Free |
 | [curl CVEs](https://curl.se/docs/security.html) | curl | Table of the published curl and libcurl CVEs, with how to report a suspected security problem. | Advisory source | Free |
 | [Sudo Security Advisories](https://www.sudo.ws/security/advisories/) | Sudo | Security advisories for sudo, each with the affected versions and CVE ID. | Advisory source | Free |
-| [BIND 9 Software Vulnerability Matrix](https://kb.isc.org/docs/aa-00913) | Internet Systems Consortium (ISC) | ISC's matrix for checking which known CVEs affect a given BIND 9 version, with the release that fixes each one. | Advisory source | Free |
+| [BIND 9 Software Vulnerability Matrix](https://kb.isc.org/docs/aa-00913) | Internet Systems Consortium (ISC) | ISC's matrix for checking which known CVEs affect a supported BIND 9 version, with the release that fixes each one. | Advisory source | Free |
 | [Wireshark Security Advisories](https://www.wireshark.org/security/) | Wireshark Foundation | Wireshark's security advisories and its guidelines for reporting a security problem. | Advisory source | Free |
 | [Drupal security advisories](https://www.drupal.org/security) | Drupal | Security advisories published on Drupal.org. | Advisory source | Free |
 | [WordPress News: Security](https://wordpress.org/news/category/security/) | WordPress | WordPress security release announcements. | Advisory source | Free |

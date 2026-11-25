@@ -20,7 +20,7 @@ What have CISA and other US bodies published?
 |---|---|---|---|---|
 | [CISA Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) | CISA | CISA's alerts, cybersecurity advisories, and analysis reports in one searchable list; ICS advisories have a list of their own. | Advisory source | Free |
 | [CISA Stop Ransomware](https://www.cisa.gov/stopransomware) | CISA | CISA's ransomware site: guidance on preparation and response, alerts, and a route to report an incident. | Reference | Free |
-| [CISA Secure by Design](https://www.cisa.gov/securebydesign) | CISA | CISA's Secure by Design pages: what the idea means, a pledge for technology makers, guidance on implementing the principles, and resources on memory safety. | Reference | Free |
+| [CISA Secure by Design](https://www.cisa.gov/securebydesign) | CISA | CISA's Secure by Design pages: what the idea means, a pledge for software manufacturers, guidance on implementing the principles, and resources on memory safety. | Reference | Free |
 | [CISA Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems) | CISA | CISA's ICS and OT topic page, with tools, guidance, and current information for asset owners and defenders. | Reference | Free |
 | [CERT/CC Vulnerability Notes Database](https://www.kb.cert.org/vuls/) | CERT/CC (Carnegie Mellon University SEI) | CERT/CC's database of vulnerability notes from coordinated disclosure, with guidance on reporting a vulnerability. | Advisory source | Free |
 | [Internet Crime Complaint Center (IC3)](https://www.ic3.gov/) | FBI | FBI center where you file a complaint about internet crime; it also posts alerts and publishes annual reports. | Organization | Free |
@@ -57,7 +57,7 @@ What do other national centers advise?
 | [JPCERT Coordination Center](https://www.jpcert.or.jp/english/) | JPCERT/CC | English site of Japan's CERT coordination center, with security alerts on widespread and emerging threats. | Advisory source | Free |
 | [Japan Vulnerability Notes (JVN)](https://jvn.jp/en/) | JPCERT/CC and IPA | Vulnerability notes for products used in Japan, with recent notes listed by date. | Advisory source | Free |
 | [CSA Singapore Alerts & Advisories](https://www.csa.gov.sg/alerts-and-advisories) | Cyber Security Agency of Singapore | Alerts, advisories, and security bulletins from Singapore's Cyber Security Agency on new vulnerabilities and threats, with a filter by year. | Advisory source | Free |
-| [National Cyber Security Centre (New Zealand)](https://www.ncsc.govt.nz/) | National Cyber Security Centre, New Zealand | New Zealand's National Cyber Security Centre, with information and advice on responding to cyber security threats. | Organization | Free |
+| [National Cyber Security Centre (New Zealand)](https://www.ncsc.govt.nz/) | National Cyber Security Centre, New Zealand | New Zealand's National Cyber Security Centre: alerts, news, guides, its Cyber Threat Report, and a way to report a security issue. | Organization | Free |
 | [INCIBE-CERT](https://www.incibe.es/en/incibe-cert) | INCIBE | English pages of Spain's INCIBE-CERT: security advisories and ICS advisories; its English blog was last updated in September 2025. | Advisory source | Free |
 | [CERT Polska](https://cert.pl/en/) | CERT Polska, part of NASK | English site of Poland's CERT, with news and technical analyses of the campaigns it investigates. | Research blog | Free |
 

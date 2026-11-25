@@ -46,7 +46,7 @@ What do I test a web application with?
 | [ffuf](https://github.com/ffuf/ffuf) | ffuf | Command-line fuzzer for web targets: content and virtual host discovery, and fuzzing of GET parameters and POST data. | Tool | Free |
 | [sqlmap](https://sqlmap.org/) | sqlmap project | Detects and exploits SQL injection through to database takeover, with file and command access where the backend allows; GPLv2 or a commercial license. | Tool | Free |
 | [Nikto](https://github.com/sullo/nikto) | sullo | Web server scanner, run from the command line against a target host. | Tool | Free |
-| [PortSwigger Web Security Academy](https://portswigger.net/web-security) | PortSwigger | Free online web security training with interactive labs, from the makers of Burp Suite; create an account to start. | Training or lab | Free with account |
+| [PortSwigger Web Security Academy](https://portswigger.net/web-security) | PortSwigger | PortSwigger's training site for web application security: learning materials and interactive labs at no charge; you need an account to start. | Training or lab | Free with account |
 | [PortSwigger Research](https://portswigger.net/research) | PortSwigger | Web security research papers and articles from the PortSwigger Research team. | Research blog | Free |
 | [Nuclei](https://github.com/projectdiscovery/nuclei) | ProjectDiscovery | Vulnerability scanner driven by community-written YAML templates; it checks cloud configurations, networks, DNS, APIs, and applications. | Tool | Free |
 
