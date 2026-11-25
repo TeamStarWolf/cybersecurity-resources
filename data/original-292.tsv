@@ -1,0 +1,293 @@
+folder	subsection	label	address
+⭐ Daily Driver		NVD: National Vulnerability Database	https://nvd.nist.gov/
+⭐ Daily Driver		CISA KEV: Known Exploited Vulnerabilities	https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+⭐ Daily Driver		FIRST EPSS: Exploit Prediction Scoring System	https://www.first.org/epss/
+⭐ Daily Driver		VulnCheck	https://vulncheck.com/
+⭐ Daily Driver		MITRE ATT&CK	https://attack.mitre.org/
+⭐ Daily Driver		VirusTotal	https://www.virustotal.com/
+⭐ Daily Driver		Shodan	https://www.shodan.io/
+⭐ Daily Driver		GreyNoise Visualizer	https://viz.greynoise.io/
+⭐ Daily Driver		abuse.ch ThreatFox (IOCs)	https://threatfox.abuse.ch/
+⭐ Daily Driver		Exploit-DB	https://www.exploit-db.com/
+⭐ Daily Driver		BleepingComputer	https://www.bleepingcomputer.com/
+⭐ Daily Driver		SANS Internet Storm Center	https://isc.sans.edu/
+🔎 Vulnerability Management	CVE & Vuln Databases	NVD (NIST)	https://nvd.nist.gov/
+🔎 Vulnerability Management	CVE & Vuln Databases	CVE.org (MITRE)	https://www.cve.org/
+🔎 Vulnerability Management	CVE & Vuln Databases	CVE Details	https://www.cvedetails.com/
+🔎 Vulnerability Management	CVE & Vuln Databases	OpenCVE	https://www.opencve.io/
+🔎 Vulnerability Management	CVE & Vuln Databases	OSV: Open Source Vulnerabilities	https://osv.dev/
+🔎 Vulnerability Management	CVE & Vuln Databases	GitHub Advisory Database	https://github.com/advisories
+🔎 Vulnerability Management	CVE & Vuln Databases	VulnCheck	https://vulncheck.com/
+🔎 Vulnerability Management	CVE & Vuln Databases	Vulners	https://vulners.com/
+🔎 Vulnerability Management	CVE & Vuln Databases	VulDB	https://vuldb.com/
+🔎 Vulnerability Management	CVE & Vuln Databases	Snyk Vulnerability DB	https://security.snyk.io/
+🔎 Vulnerability Management	CVE & Vuln Databases	Mend Vulnerability DB	https://www.mend.io/vulnerability-database/
+🔎 Vulnerability Management	CVE & Vuln Databases	Rapid7 Vuln & Exploit DB	https://www.rapid7.com/db/
+🔎 Vulnerability Management	CVE & Vuln Databases	Tenable CVE Database	https://www.tenable.com/cve
+🔎 Vulnerability Management	CVE & Vuln Databases	cvecrowd (trending CVEs)	https://cvecrowd.com/
+🔎 Vulnerability Management	Prioritization (KEV / EPSS / CVSS / SSVC)	CISA KEV Catalog	https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+🔎 Vulnerability Management	Prioritization (KEV / EPSS / CVSS / SSVC)	FIRST EPSS	https://www.first.org/epss/
+🔎 Vulnerability Management	Prioritization (KEV / EPSS / CVSS / SSVC)	EPSS Data	https://www.first.org/epss/data
+🔎 Vulnerability Management	Prioritization (KEV / EPSS / CVSS / SSVC)	CVSS v4.0 Calculator	https://www.first.org/cvss/calculator/4.0
+🔎 Vulnerability Management	Prioritization (KEV / EPSS / CVSS / SSVC)	CVSS v3.1 Calculator	https://www.first.org/cvss/calculator/3.1
+🔎 Vulnerability Management	Prioritization (KEV / EPSS / CVSS / SSVC)	CISA SSVC	https://www.cisa.gov/ssvc
+🔎 Vulnerability Management	Prioritization (KEV / EPSS / CVSS / SSVC)	SSVC Calculator (CERT/CC)	https://certcc.github.io/SSVC/ssvc-calc/
+🔎 Vulnerability Management	Exploits & Proof-of-Concept	Exploit-DB	https://www.exploit-db.com/
+🔎 Vulnerability Management	Exploits & Proof-of-Concept	Metasploit Modules (Rapid7 DB)	https://www.rapid7.com/db/?type=metasploit
+🔎 Vulnerability Management	Exploits & Proof-of-Concept	Nuclei Templates	https://github.com/projectdiscovery/nuclei-templates
+🔎 Vulnerability Management	Exploits & Proof-of-Concept	PoC-in-GitHub (nomi-sec)	https://github.com/nomi-sec/PoC-in-GitHub
+🔎 Vulnerability Management	Exploits & Proof-of-Concept	Trickest CVE → PoC	https://github.com/trickest/cve
+🔎 Vulnerability Management	Exploits & Proof-of-Concept	Packet Storm	https://packetstorm.news/
+🔎 Vulnerability Management	Exploits & Proof-of-Concept	Sploitus	https://sploitus.com/
+🔎 Vulnerability Management	Exploits & Proof-of-Concept	VulnCheck XDB (exploits)	https://vulncheck.com/xdb
+🔎 Vulnerability Management	Scanners	Tenable Nessus	https://www.tenable.com/products/nessus
+🔎 Vulnerability Management	Scanners	Qualys VMDR	https://www.qualys.com/apps/vulnerability-management-detection-response/
+🔎 Vulnerability Management	Scanners	Rapid7 InsightVM	https://www.rapid7.com/products/insightvm/
+🔎 Vulnerability Management	Scanners	OpenVAS / Greenbone	https://www.greenbone.net/en/community-edition/
+🔎 Vulnerability Management	Scanners	Nuclei	https://github.com/projectdiscovery/nuclei
+🔎 Vulnerability Management	Scanners	OSV-Scanner	https://github.com/google/osv-scanner
+🔎 Vulnerability Management	Scanners	Trivy	https://github.com/aquasecurity/trivy
+🔎 Vulnerability Management	Scanners	Grype	https://github.com/anchore/grype
+🔎 Vulnerability Management	Lifecycle & End-of-Life	endoflife.date	https://endoflife.date/
+🔎 Vulnerability Management	Lifecycle & End-of-Life	Microsoft Product Lifecycle	https://learn.microsoft.com/en-us/lifecycle/
+🔎 Vulnerability Management	Weakness Taxonomies	CWE: Common Weakness Enumeration	https://cwe.mitre.org/
+🔎 Vulnerability Management	Weakness Taxonomies	CWE Top 25	https://cwe.mitre.org/top25/
+🔎 Vulnerability Management	Weakness Taxonomies	CAPEC: Attack Patterns	https://capec.mitre.org/
+🏢 Vendor Advisories & PSIRTs	Microsoft & Cloud	Microsoft MSRC Update Guide	https://msrc.microsoft.com/update-guide/
+🏢 Vendor Advisories & PSIRTs	Microsoft & Cloud	MSRC Security Update Blog	https://www.microsoft.com/en-us/msrc/blog
+🏢 Vendor Advisories & PSIRTs	Microsoft & Cloud	AWS Security Bulletins	https://aws.amazon.com/security/security-bulletins/
+🏢 Vendor Advisories & PSIRTs	Microsoft & Cloud	Google Cloud Security Bulletins	https://docs.cloud.google.com/support/bulletins
+🏢 Vendor Advisories & PSIRTs	OS & Linux Distros	Apple Security Releases	https://support.apple.com/en-us/100100
+🏢 Vendor Advisories & PSIRTs	OS & Linux Distros	Android Security Bulletins	https://source.android.com/docs/security/bulletin
+🏢 Vendor Advisories & PSIRTs	OS & Linux Distros	Chrome Releases	https://chromereleases.googleblog.com/
+🏢 Vendor Advisories & PSIRTs	OS & Linux Distros	Ubuntu Security Notices (USN)	https://ubuntu.com/security/notices
+🏢 Vendor Advisories & PSIRTs	OS & Linux Distros	Red Hat Security Updates	https://access.redhat.com/security/security-updates/
+🏢 Vendor Advisories & PSIRTs	OS & Linux Distros	Debian Security Advisories	https://www.debian.org/security/
+🏢 Vendor Advisories & PSIRTs	OS & Linux Distros	SUSE Security Updates	https://www.suse.com/support/update/
+🏢 Vendor Advisories & PSIRTs	OS & Linux Distros	Amazon Linux ALAS	https://alas.aws.amazon.com/
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	Cisco Security Advisories	https://sec.cloudapps.cisco.com/security/center/publicationListing.x
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	Palo Alto Networks Security	https://security.paloaltonetworks.com/
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	Fortinet FortiGuard PSIRT	https://www.fortiguard.com/psirt
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	F5 Security Advisories	https://my.f5.com/manage/s/tech-documents
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	Citrix Security Bulletins	https://support.citrix.com/securitybulletins
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	Ivanti Security Advisories	https://www.ivanti.com/blog/topics/security-advisory
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	SonicWall PSIRT	https://psirt.global.sonicwall.com/vuln-list
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	VMware (Broadcom) Security Advisories	https://www.broadcom.com/support/vmware-security-advisories
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	Juniper Support Portal (SIRT)	https://supportportal.juniper.net/
+🏢 Vendor Advisories & PSIRTs	Network & Security Vendors	Check Point Support	https://support.checkpoint.com/
+🏢 Vendor Advisories & PSIRTs	Enterprise Applications	Oracle Critical Patch Updates	https://www.oracle.com/security-alerts/
+🏢 Vendor Advisories & PSIRTs	Enterprise Applications	SAP Security Notes	https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html
+🏢 Vendor Advisories & PSIRTs	Enterprise Applications	IBM PSIRT / Security Bulletins	https://www.ibm.com/trust/security-psirt
+🏢 Vendor Advisories & PSIRTs	Enterprise Applications	Adobe Security Bulletins	https://www.adobe.com/trust/security/bulletins-and-advisories.html
+🏢 Vendor Advisories & PSIRTs	Enterprise Applications	Atlassian Security Advisories	https://www.atlassian.com/trust/security/advisories
+🏢 Vendor Advisories & PSIRTs	Enterprise Applications	GitLab Advisory Database	https://advisories.gitlab.com/
+🏢 Vendor Advisories & PSIRTs	Enterprise Applications	Jenkins Security Advisories	https://www.jenkins.io/security/advisories/
+🏢 Vendor Advisories & PSIRTs	ICS / OT	CISA Cybersecurity Advisories (incl. ICS)	https://www.cisa.gov/news-events/cybersecurity-advisories
+🏢 Vendor Advisories & PSIRTs	ICS / OT	CISA Industrial Control Systems	https://www.cisa.gov/topics/industrial-control-systems
+🏢 Vendor Advisories & PSIRTs	ICS / OT	Siemens ProductCERT	https://productcert.siemens.com/
+🏢 Vendor Advisories & PSIRTs	ICS / OT	Schneider Electric Security Notifications	https://www.se.com/ww/en/work/support/cybersecurity/security-notifications.jsp
+🏢 Vendor Advisories & PSIRTs	Aggregators & CERT	CISA All Advisories	https://www.cisa.gov/news-events/cybersecurity-advisories
+🏢 Vendor Advisories & PSIRTs	Aggregators & CERT	CERT/CC Vulnerability Notes	https://www.kb.cert.org/vuls/
+🏢 Vendor Advisories & PSIRTs	Aggregators & CERT	GitHub Advisory Database	https://github.com/advisories
+🧠 Threat Intelligence	Feeds & IOC Lookup	abuse.ch URLhaus	https://urlhaus.abuse.ch/
+🧠 Threat Intelligence	Feeds & IOC Lookup	abuse.ch MalwareBazaar	https://bazaar.abuse.ch/
+🧠 Threat Intelligence	Feeds & IOC Lookup	abuse.ch ThreatFox	https://threatfox.abuse.ch/
+🧠 Threat Intelligence	Feeds & IOC Lookup	abuse.ch Feodo Tracker	https://feodotracker.abuse.ch/
+🧠 Threat Intelligence	Feeds & IOC Lookup	abuse.ch YARAify	https://yaraify.abuse.ch/
+🧠 Threat Intelligence	Feeds & IOC Lookup	VirusTotal	https://www.virustotal.com/
+🧠 Threat Intelligence	Feeds & IOC Lookup	LevelBlue OTX (AlienVault)	https://otx.alienvault.com/
+🧠 Threat Intelligence	Feeds & IOC Lookup	AbuseIPDB	https://www.abuseipdb.com/
+🧠 Threat Intelligence	Feeds & IOC Lookup	Pulsedive	https://pulsedive.com/
+🧠 Threat Intelligence	Feeds & IOC Lookup	GreyNoise	https://viz.greynoise.io/
+🧠 Threat Intelligence	Feeds & IOC Lookup	Shodan	https://www.shodan.io/
+🧠 Threat Intelligence	Feeds & IOC Lookup	Censys Search	https://search.censys.io/
+🧠 Threat Intelligence	Feeds & IOC Lookup	Onyphe	https://www.onyphe.com/
+🧠 Threat Intelligence	Feeds & IOC Lookup	crt.sh (certificate search)	https://crt.sh/
+🧠 Threat Intelligence	APT & Adversary Tracking	MITRE ATT&CK Groups	https://attack.mitre.org/groups/
+🧠 Threat Intelligence	APT & Adversary Tracking	MITRE ATT&CK Software	https://attack.mitre.org/software/
+🧠 Threat Intelligence	APT & Adversary Tracking	Malpedia	https://malpedia.caad.fkie.fraunhofer.de/
+🧠 Threat Intelligence	APT & Adversary Tracking	ETDA/ThaiCERT APT Groups	https://apt.etda.or.th/cgi-bin/aptgroups.cgi
+🧠 Threat Intelligence	APT & Adversary Tracking	MISP Galaxy	https://www.misp-galaxy.org/
+🧠 Threat Intelligence	APT & Adversary Tracking	ORKL: Threat Report Library	https://orkl.eu/
+🧠 Threat Intelligence	APT & Adversary Tracking	CrowdStrike Adversary Universe	https://www.crowdstrike.com/en-us/adversaries/
+🧠 Threat Intelligence	APT & Adversary Tracking	Microsoft Threat Actor Naming	https://learn.microsoft.com/en-us/unified-secops-platform/microsoft-threat-actor-naming
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Google Threat Intelligence (Mandiant)	https://cloud.google.com/blog/topics/threat-intelligence
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Google Threat Analysis Group (TAG)	https://blog.google/threat-analysis-group/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Microsoft Threat Intelligence	https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Cisco Talos	https://blog.talosintelligence.com/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Palo Alto Unit 42	https://unit42.paloaltonetworks.com/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	CrowdStrike Blog	https://www.crowdstrike.com/blog/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Recorded Future	https://www.recordedfuture.com/blog
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Check Point Research	https://research.checkpoint.com/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	ESET WeLiveSecurity	https://www.welivesecurity.com/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Kaspersky Securelist	https://securelist.com/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Volexity	https://www.volexity.com/blog/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	The DFIR Report	https://thedfirreport.com/
+🧠 Threat Intelligence	CTI Vendor Research Blogs	Sekoia Blog	https://www.sekoia.com/blog
+🧠 Threat Intelligence	Threat Reports & Landscape	Verizon DBIR	https://www.verizon.com/business/resources/reports/dbir/
+🧠 Threat Intelligence	Threat Reports & Landscape	M-Trends (Mandiant)	https://cloud.google.com/security/resources/m-trends
+🧠 Threat Intelligence	Threat Reports & Landscape	CrowdStrike Global Threat Report	https://www.crowdstrike.com/global-threat-report/
+🧠 Threat Intelligence	Threat Reports & Landscape	ENISA Threat Landscape	https://www.enisa.europa.eu/topics/cyber-threats
+🧠 Threat Intelligence	Threat Reports & Landscape	IBM X-Force Threat Intelligence	https://www.ibm.com/reports/threat-intelligence
+🧠 Threat Intelligence	CTI Platforms	MISP	https://www.misp-project.org/
+🧠 Threat Intelligence	CTI Platforms	OpenCTI	https://filigran.io/products/opencti
+🧠 Threat Intelligence	CTI Platforms	Yeti	https://yeti-platform.io/
+🧠 Threat Intelligence	CTI Platforms	IntelOwl	https://github.com/intelowlproject/IntelOwl
+🧠 Threat Intelligence	CTI Platforms	OASIS STIX/TAXII	https://oasis-open.github.io/cti-documentation/
+🚨 Gov / CERT / Alerts		CISA Cybersecurity Advisories	https://www.cisa.gov/news-events/cybersecurity-advisories
+🚨 Gov / CERT / Alerts		CISA KEV Catalog	https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+🚨 Gov / CERT / Alerts		CISA #StopRansomware	https://www.cisa.gov/stopransomware
+🚨 Gov / CERT / Alerts		CISA Secure by Design	https://www.cisa.gov/securebydesign
+🚨 Gov / CERT / Alerts		CERT/CC Vulnerability Notes	https://www.kb.cert.org/vuls/
+🚨 Gov / CERT / Alerts		NCSC UK	https://www.ncsc.gov.uk/
+🚨 Gov / CERT / Alerts		ACSC (Australia)	https://www.cyber.gov.au/
+🚨 Gov / CERT / Alerts		Canadian Centre for Cyber Security	https://www.cyber.gc.ca/en
+🚨 Gov / CERT / Alerts		ENISA	https://www.enisa.europa.eu/
+🚨 Gov / CERT / Alerts		FBI IC3	https://www.ic3.gov/
+🚨 Gov / CERT / Alerts		HHS HC3 (Healthcare)	https://www.hhs.gov/hc3
+🧰 Frameworks & Standards	MITRE	ATT&CK	https://attack.mitre.org/
+🧰 Frameworks & Standards	MITRE	D3FEND	https://d3fend.mitre.org/
+🧰 Frameworks & Standards	MITRE	CAPEC	https://capec.mitre.org/
+🧰 Frameworks & Standards	MITRE	CWE	https://cwe.mitre.org/
+🧰 Frameworks & Standards	MITRE	ATLAS (AI)	https://atlas.mitre.org/
+🧰 Frameworks & Standards	MITRE	Engage	https://engage.mitre.org/
+🧰 Frameworks & Standards	MITRE	EMB3D	https://emb3d.mitre.org/
+🧰 Frameworks & Standards	MITRE	CAR: Cyber Analytics Repository	https://car.mitre.org/
+🧰 Frameworks & Standards	MITRE	Center for Threat-Informed Defense	https://ctid.mitre.org/
+🧰 Frameworks & Standards	MITRE	CTID Mappings Explorer	https://center-for-threat-informed-defense.github.io/mappings-explorer/
+🧰 Frameworks & Standards	NIST	NIST Cybersecurity Framework (CSF)	https://www.nist.gov/cyberframework
+🧰 Frameworks & Standards	NIST	NIST CSRC	https://csrc.nist.gov/
+🧰 Frameworks & Standards	NIST	SP 800-53 Rev 5	https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
+🧰 Frameworks & Standards	NIST	NVD	https://nvd.nist.gov/
+🧰 Frameworks & Standards	NIST	OSCAL	https://pages.nist.gov/OSCAL/
+🧰 Frameworks & Standards	NIST	CPRT (Cybersecurity and Privacy Reference Tool)	https://csrc.nist.gov/projects/cprt
+🧰 Frameworks & Standards	CIS	CIS Controls	https://www.cisecurity.org/controls
+🧰 Frameworks & Standards	CIS	CIS Benchmarks	https://www.cisecurity.org/cis-benchmarks
+🧰 Frameworks & Standards	OWASP & AppSec	OWASP Top 10	https://owasp.org/www-project-top-ten/
+🧰 Frameworks & Standards	OWASP & AppSec	OWASP ASVS	https://asvs.owasp.org/
+🧰 Frameworks & Standards	OWASP & AppSec	OWASP Web Security Testing Guide	https://owasp.org/www-project-web-security-testing-guide/
+🧰 Frameworks & Standards	OWASP & AppSec	OWASP MASTG (Mobile)	https://mas.owasp.org/
+🧰 Frameworks & Standards	OWASP & AppSec	OWASP Cheat Sheet Series	https://cheatsheetseries.owasp.org/
+🧰 Frameworks & Standards	OWASP & AppSec	OWASP SAMM	https://owaspsamm.org/
+🧰 Frameworks & Standards	OWASP & AppSec	OWASP Threat Dragon	https://owasp.org/www-project-threat-dragon/
+🛠️ Offensive & Tooling	Recon & OSINT	theHarvester	https://github.com/laramies/theHarvester
+🛠️ Offensive & Tooling	Recon & OSINT	OWASP Amass	https://github.com/owasp-amass/amass
+🛠️ Offensive & Tooling	Recon & OSINT	subfinder	https://github.com/projectdiscovery/subfinder
+🛠️ Offensive & Tooling	Recon & OSINT	SpiderFoot	https://github.com/smicallef/spiderfoot
+🛠️ Offensive & Tooling	Recon & OSINT	recon-ng	https://github.com/lanmaster53/recon-ng
+🛠️ Offensive & Tooling	Recon & OSINT	Maltego	https://www.maltego.com/
+🛠️ Offensive & Tooling	Recon & OSINT	crt.sh	https://crt.sh/
+🛠️ Offensive & Tooling	Web App	Burp Suite	https://portswigger.net/burp
+🛠️ Offensive & Tooling	Web App	ZAP (Zed Attack Proxy)	https://www.zaproxy.org/
+🛠️ Offensive & Tooling	Web App	Caido	https://caido.io/
+🛠️ Offensive & Tooling	Web App	ffuf	https://github.com/ffuf/ffuf
+🛠️ Offensive & Tooling	Web App	sqlmap	https://sqlmap.org/
+🛠️ Offensive & Tooling	Web App	Nuclei	https://github.com/projectdiscovery/nuclei
+🛠️ Offensive & Tooling	Web App	Nikto	https://github.com/sullo/nikto
+🛠️ Offensive & Tooling	Web App	PortSwigger Web Security Academy	https://portswigger.net/web-security
+🛠️ Offensive & Tooling	Active Directory & Windows	BloodHound CE	https://github.com/SpecterOps/BloodHound
+🛠️ Offensive & Tooling	Active Directory & Windows	SharpHound	https://github.com/SpecterOps/SharpHound
+🛠️ Offensive & Tooling	Active Directory & Windows	Impacket	https://github.com/fortra/impacket
+🛠️ Offensive & Tooling	Active Directory & Windows	NetExec (nxc)	https://github.com/Pennyw0rth/NetExec
+🛠️ Offensive & Tooling	Active Directory & Windows	Rubeus	https://github.com/GhostPack/Rubeus
+🛠️ Offensive & Tooling	Active Directory & Windows	Mimikatz	https://github.com/gentilkiwi/mimikatz
+🛠️ Offensive & Tooling	Active Directory & Windows	Responder	https://github.com/lgandx/Responder
+🛠️ Offensive & Tooling	Active Directory & Windows	Kerbrute	https://github.com/ropnop/kerbrute
+🛠️ Offensive & Tooling	Active Directory & Windows	PingCastle	https://www.pingcastle.com/
+🛠️ Offensive & Tooling	C2 Frameworks	Metasploit Framework	https://github.com/rapid7/metasploit-framework
+🛠️ Offensive & Tooling	C2 Frameworks	Sliver	https://github.com/BishopFox/sliver
+🛠️ Offensive & Tooling	C2 Frameworks	Havoc	https://github.com/HavocFramework/Havoc
+🛠️ Offensive & Tooling	C2 Frameworks	Mythic	https://github.com/its-a-feature/Mythic
+🛠️ Offensive & Tooling	C2 Frameworks	Cobalt Strike	https://www.cobaltstrike.com/
+🛠️ Offensive & Tooling	C2 Frameworks	PoshC2	https://github.com/nettitude/PoshC2
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	HackTricks	https://hacktricks.wiki/
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	PayloadsAllTheThings	https://github.com/swisskyrepo/PayloadsAllTheThings
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	GTFOBins	https://gtfobins.org/
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	LOLBAS	https://lolbas-project.github.io/
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	LOLDrivers	https://www.loldrivers.io/
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	WADComs	https://wadcoms.github.io/
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	RevShells	https://www.revshells.com/
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	CyberChef	https://gchq.github.io/CyberChef/
+🛠️ Offensive & Tooling	Cheatsheets & Payloads	CrackStation	https://crackstation.net/
+🛠️ Offensive & Tooling	Scanning & Network	Nmap	https://nmap.org/
+🛠️ Offensive & Tooling	Scanning & Network	Masscan	https://github.com/robertdavidgraham/masscan
+🛠️ Offensive & Tooling	Scanning & Network	naabu	https://github.com/projectdiscovery/naabu
+🛠️ Offensive & Tooling	Scanning & Network	Wireshark	https://www.wireshark.org/
+🛠️ Offensive & Tooling	Scanning & Network	Zeek	https://zeek.org/
+🔬 DFIR & Malware Analysis	Sandboxes & Lookup	Any.run	https://any.run/
+🔬 DFIR & Malware Analysis	Sandboxes & Lookup	Hybrid Analysis	https://www.hybrid-analysis.com/
+🔬 DFIR & Malware Analysis	Sandboxes & Lookup	Joe Sandbox	https://www.joesandbox.com/
+🔬 DFIR & Malware Analysis	Sandboxes & Lookup	Hatching Triage	https://tria.ge/
+🔬 DFIR & Malware Analysis	Sandboxes & Lookup	MalwareBazaar	https://bazaar.abuse.ch/
+🔬 DFIR & Malware Analysis	Sandboxes & Lookup	VirusTotal	https://www.virustotal.com/
+🔬 DFIR & Malware Analysis	Sandboxes & Lookup	UnpacMe	https://www.unpac.me/
+🔬 DFIR & Malware Analysis	Sandboxes & Lookup	Malpedia	https://malpedia.caad.fkie.fraunhofer.de/
+🔬 DFIR & Malware Analysis	DFIR Tools	Volatility 3	https://github.com/volatilityfoundation/volatility3
+🔬 DFIR & Malware Analysis	DFIR Tools	Autopsy	https://www.autopsy.com/
+🔬 DFIR & Malware Analysis	DFIR Tools	KAPE	https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape
+🔬 DFIR & Malware Analysis	DFIR Tools	Eric Zimmerman Tools	https://ericzimmerman.github.io/
+🔬 DFIR & Malware Analysis	DFIR Tools	Velociraptor	https://github.com/Velocidex/velociraptor
+🔬 DFIR & Malware Analysis	DFIR Tools	Chainsaw	https://github.com/WithSecureLabs/chainsaw
+🔬 DFIR & Malware Analysis	DFIR Tools	Timesketch	https://github.com/google/timesketch
+🔬 DFIR & Malware Analysis	DFIR Tools	plaso (log2timeline)	https://github.com/log2timeline/plaso
+🔬 DFIR & Malware Analysis	DFIR Tools	SANS DFIR	https://www.sans.org/cyber-security-courses/?focus-area=digital-forensics-incident-response
+🔬 DFIR & Malware Analysis	Reverse Engineering	Ghidra	https://github.com/NationalSecurityAgency/ghidra
+🔬 DFIR & Malware Analysis	Reverse Engineering	IDA Free	https://hex-rays.com/ida-free/
+🔬 DFIR & Malware Analysis	Reverse Engineering	Binary Ninja	https://binary.ninja/
+🔬 DFIR & Malware Analysis	Reverse Engineering	Cutter (rizin)	https://github.com/rizinorg/cutter
+🔬 DFIR & Malware Analysis	Reverse Engineering	x64dbg	https://github.com/x64dbg/x64dbg
+🔬 DFIR & Malware Analysis	Reverse Engineering	Decompiler Explorer (dogbolt)	https://dogbolt.org/
+🔬 DFIR & Malware Analysis	Reverse Engineering	pwntools	https://github.com/Gallopsled/pwntools
+☁️ Cloud & Container		Prowler	https://github.com/prowler-cloud/prowler
+☁️ Cloud & Container		ScoutSuite	https://github.com/nccgroup/ScoutSuite
+☁️ Cloud & Container		Pacu (AWS)	https://github.com/RhinoSecurityLabs/pacu
+☁️ Cloud & Container		CloudFox	https://github.com/BishopFox/cloudfox
+☁️ Cloud & Container		kube-bench	https://github.com/aquasecurity/kube-bench
+☁️ Cloud & Container		kube-hunter	https://github.com/aquasecurity/kube-hunter
+☁️ Cloud & Container		Trivy	https://github.com/aquasecurity/trivy
+☁️ Cloud & Container		Falco	https://github.com/falcosecurity/falco
+☁️ Cloud & Container		Wiz Blog	https://www.wiz.io/blog
+☁️ Cloud & Container		Hacking the Cloud	https://hackingthe.cloud/
+☁️ Cloud & Container		flaws.cloud	http://flaws.cloud/
+☁️ Cloud & Container		AWS Security	https://aws.amazon.com/security/
+☁️ Cloud & Container		Azure Security	https://learn.microsoft.com/en-us/azure/security/
+☁️ Cloud & Container		Google Cloud Security	https://cloud.google.com/security
+🧪 Detection Engineering & Blue Team		Sigma (SigmaHQ)	https://github.com/SigmaHQ/sigma
+🧪 Detection Engineering & Blue Team		Detection.fyi (Sigma search)	https://detection.fyi/
+🧪 Detection Engineering & Blue Team		Uncoder.io	https://uncoder.io/
+🧪 Detection Engineering & Blue Team		Atomic Red Team	https://github.com/redcanaryco/atomic-red-team
+🧪 Detection Engineering & Blue Team		MITRE Caldera	https://github.com/mitre/caldera
+🧪 Detection Engineering & Blue Team		Elastic Detection Rules	https://github.com/elastic/detection-rules
+🧪 Detection Engineering & Blue Team		DetectionLab	https://github.com/clong/DetectionLab
+🧪 Detection Engineering & Blue Team		EVTX-ATTACK-SAMPLES	https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES
+🧪 Detection Engineering & Blue Team		Wazuh	https://wazuh.com/
+🧪 Detection Engineering & Blue Team		YARA	https://virustotal.github.io/yara/
+🎓 Labs & Training		Hack The Box	https://www.hackthebox.com/
+🎓 Labs & Training		HTB Academy	https://academy.hackthebox.com/
+🎓 Labs & Training		TryHackMe	https://tryhackme.com/
+🎓 Labs & Training		PortSwigger Web Security Academy	https://portswigger.net/web-security
+🎓 Labs & Training		PentesterLab	https://pentesterlab.com/
+🎓 Labs & Training		pwn.college	https://pwn.college/
+🎓 Labs & Training		VulnHub	https://www.vulnhub.com/
+🎓 Labs & Training		OverTheWire	https://overthewire.org/wargames/
+🎓 Labs & Training		CyberDefenders	https://cyberdefenders.org/
+🎓 Labs & Training		Blue Team Labs Online	https://blueteamlabs.online/
+🎓 Labs & Training		LetsDefend	https://letsdefend.io/
+🎓 Labs & Training		RangeForce	https://www.rangeforce.com/
+🎓 Labs & Training		Antisyphon Training	https://www.antisyphontraining.com/
+🎓 Labs & Training		picoCTF	https://picoctf.org/
+🎓 Labs & Training		CTFtime	https://ctftime.org/
+📰 News & Research		BleepingComputer	https://www.bleepingcomputer.com/
+📰 News & Research		The Record (Recorded Future)	https://therecord.media/
+📰 News & Research		The Hacker News	https://thehackernews.com/
+📰 News & Research		Dark Reading	https://www.darkreading.com/
+📰 News & Research		KrebsOnSecurity	https://krebsonsecurity.com/
+📰 News & Research		SANS Internet Storm Center	https://isc.sans.edu/
+📰 News & Research		Risky Business	https://risky.biz/
+📰 News & Research		tl;dr sec	https://tldrsec.com/
+📰 News & Research		SecurityWeek	https://www.securityweek.com/
+📰 News & Research		Help Net Security	https://www.helpnetsecurity.com/
+📰 News & Research		Schneier on Security	https://www.schneier.com/
+📰 News & Research		DataBreaches.net	https://databreaches.net/
+📰 News & Research		Reddit r/netsec	https://www.reddit.com/r/netsec/
+📰 News & Research		Reddit r/blueteamsec	https://www.reddit.com/r/blueteamsec/

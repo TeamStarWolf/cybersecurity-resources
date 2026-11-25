@@ -1,0 +1,385 @@
+# The compact bookmark set: the folder tree that LINKS.md and bookmarks.html are generated from.
+# Another TeamStarWolf system reads LINKS.md, so its shape is fixed: at most 16 folders,
+# at most 16 subsections in a folder, and at most 16 links in a list.
+# Each link names a resource id and the label to show. A link with its own "url" is pinned to
+# that address; without one it uses the resource's current address.
+
+title: "Cybersecurity Resources"
+intro: "A bookmark collection weighted toward vulnerability management and threat intelligence. This page lists the same links as `bookmarks.html`, folder by folder; the [README](README.md) explains how to import them."
+folders:
+  - title: "⭐ Daily Driver"
+    links:
+      - {id: nvd, label: "NVD: National Vulnerability Database"}
+      - {id: cisa-kev, label: "CISA KEV: Known Exploited Vulnerabilities"}
+      - {id: epss, label: "FIRST EPSS: Exploit Prediction Scoring System"}
+      - {id: vulncheck, label: "VulnCheck", url: "https://vulncheck.com/"}
+      - {id: mitre-attack, label: "MITRE ATT&CK"}
+      - {id: virustotal, label: "VirusTotal"}
+      - {id: shodan, label: "Shodan"}
+      - {id: greynoise-visualizer, label: "GreyNoise Visualizer"}
+      - {id: threatfox, label: "abuse.ch ThreatFox (IOCs)"}
+      - {id: exploit-db, label: "Exploit-DB"}
+      - {id: bleepingcomputer, label: "BleepingComputer"}
+      - {id: sans-internet-storm-center, label: "SANS Internet Storm Center"}
+  - title: "🔎 Vulnerability Management"
+    sections:
+      - title: "CVE & Vuln Databases"
+        links:
+          - {id: nvd, label: "NVD (NIST)"}
+          - {id: cve-program, label: "CVE.org (MITRE)"}
+          - {id: cve-details, label: "CVE Details"}
+          - {id: opencve, label: "OpenCVE"}
+          - {id: osv, label: "OSV: Open Source Vulnerabilities"}
+          - {id: github-advisory-database, label: "GitHub Advisory Database"}
+          - {id: vulncheck, label: "VulnCheck", url: "https://vulncheck.com/"}
+          - {id: vulners, label: "Vulners"}
+          - {id: vuldb, label: "VulDB"}
+          - {id: snyk-security-database, label: "Snyk Vulnerability DB"}
+          - {id: mend-vulnerability-database, label: "Mend Vulnerability DB"}
+          - {id: rapid7-vulnerability-and-exploit-database, label: "Rapid7 Vuln & Exploit DB"}
+          - {id: tenable-cves, label: "Tenable CVE Database"}
+          - {id: cve-crowd, label: "cvecrowd (trending CVEs)"}
+      - title: "Prioritization (KEV / EPSS / CVSS / SSVC)"
+        links:
+          - {id: cisa-kev, label: "CISA KEV Catalog"}
+          - {id: epss, label: "FIRST EPSS"}
+          - {id: epss-data, label: "EPSS Data"}
+          - {id: cvss-v4-calculator, label: "CVSS v4.0 Calculator"}
+          - {id: cvss-v3-1-calculator, label: "CVSS v3.1 Calculator"}
+          - {id: cisa-ssvc, label: "CISA SSVC", url: "https://www.cisa.gov/ssvc"}
+          - {id: ssvc-calculator, label: "SSVC Calculator (CERT/CC)"}
+      - title: "Exploits & Proof-of-Concept"
+        links:
+          - {id: exploit-db, label: "Exploit-DB"}
+          - {id: metasploit-modules, label: "Metasploit Modules (Rapid7 DB)", url: "https://www.rapid7.com/db/?type=metasploit"}
+          - {id: nuclei-templates, label: "Nuclei Templates"}
+          - {id: poc-in-github, label: "PoC-in-GitHub (nomi-sec)"}
+          - {id: trickest-cve, label: "Trickest CVE → PoC"}
+          - {id: packet-storm, label: "Packet Storm"}
+          - {id: sploitus, label: "Sploitus"}
+          - {id: vulncheck-xdb, label: "VulnCheck XDB (exploits)", url: "https://vulncheck.com/xdb"}
+      - title: "Scanners"
+        links:
+          - {id: nessus, label: "Tenable Nessus"}
+          - {id: qualys-vmdr, label: "Qualys VMDR", url: "https://www.qualys.com/apps/vulnerability-management-detection-response/"}
+          - {id: insightvm, label: "Rapid7 InsightVM"}
+          - {id: greenbone-community-edition, label: "OpenVAS / Greenbone", url: "https://www.greenbone.net/en/community-edition/"}
+          - {id: nuclei, label: "Nuclei"}
+          - {id: osv-scanner, label: "OSV-Scanner"}
+          - {id: trivy, label: "Trivy"}
+          - {id: grype, label: "Grype"}
+      - title: "Lifecycle & End-of-Life"
+        links:
+          - {id: endoflife-date, label: "endoflife.date"}
+          - {id: microsoft-lifecycle-policy, label: "Microsoft Product Lifecycle"}
+      - title: "Weakness Taxonomies"
+        links:
+          - {id: cwe, label: "CWE: Common Weakness Enumeration"}
+          - {id: cwe-top-25, label: "CWE Top 25"}
+          - {id: capec, label: "CAPEC: Attack Patterns"}
+  - title: "🏢 Vendor Advisories & PSIRTs"
+    sections:
+      - title: "Microsoft & Cloud"
+        links:
+          - {id: msrc-security-update-guide, label: "Microsoft MSRC Update Guide"}
+          - {id: msrc-blog, label: "MSRC Security Update Blog"}
+          - {id: aws-security-bulletins, label: "AWS Security Bulletins"}
+          - {id: google-cloud-security-bulletins, label: "Google Cloud Security Bulletins"}
+      - title: "OS & Linux Distros"
+        links:
+          - {id: apple-security-releases, label: "Apple Security Releases"}
+          - {id: android-security-bulletins, label: "Android Security Bulletins"}
+          - {id: chrome-releases, label: "Chrome Releases"}
+          - {id: ubuntu-security-notices, label: "Ubuntu Security Notices (USN)"}
+          - {id: red-hat-security-advisories, label: "Red Hat Security Updates"}
+          - {id: debian-security-information, label: "Debian Security Advisories"}
+          - {id: suse-update-advisories, label: "SUSE Security Updates"}
+          - {id: amazon-linux-security-center, label: "Amazon Linux ALAS"}
+      - title: "Network & Security Vendors"
+        links:
+          - {id: cisco-security-advisories, label: "Cisco Security Advisories"}
+          - {id: palo-alto-networks-security-advisories, label: "Palo Alto Networks Security"}
+          - {id: fortiguard-psirt-advisories, label: "Fortinet FortiGuard PSIRT"}
+          - {id: f5-security-advisories, label: "F5 Security Advisories", url: "https://my.f5.com/manage/s/tech-documents"}
+          - {id: citrix-security-bulletins, label: "Citrix Security Bulletins", url: "https://support.citrix.com/securitybulletins"}
+          - {id: ivanti-security-advisories, label: "Ivanti Security Advisories"}
+          - {id: sonicwall-psirt, label: "SonicWall PSIRT"}
+          - {id: vmware-security-advisories, label: "VMware (Broadcom) Security Advisories"}
+          - {id: juniper-support-portal, label: "Juniper Support Portal (SIRT)", url: "https://supportportal.juniper.net/"}
+          - {id: check-point-support-center, label: "Check Point Support"}
+      - title: "Enterprise Applications"
+        links:
+          - {id: oracle-security-alerts, label: "Oracle Critical Patch Updates"}
+          - {id: sap-security-notes, label: "SAP Security Notes"}
+          - {id: ibm-security-vulnerability-management, label: "IBM PSIRT / Security Bulletins", url: "https://www.ibm.com/trust/security-psirt"}
+          - {id: adobe-security-bulletins, label: "Adobe Security Bulletins"}
+          - {id: atlassian-security-advisories, label: "Atlassian Security Advisories"}
+          - {id: gitlab-advisory-database, label: "GitLab Advisory Database"}
+          - {id: jenkins-security-advisories, label: "Jenkins Security Advisories"}
+      - title: "ICS / OT"
+        links:
+          - {id: cisa-cybersecurity-advisories, label: "CISA Cybersecurity Advisories (incl. ICS)"}
+          - {id: cisa-industrial-control-systems, label: "CISA Industrial Control Systems"}
+          - {id: siemens-productcert, label: "Siemens ProductCERT"}
+          - {id: schneider-electric-security-notifications, label: "Schneider Electric Security Notifications", url: "https://www.se.com/ww/en/work/support/cybersecurity/security-notifications.jsp"}
+      - title: "Aggregators & CERT"
+        links:
+          - {id: cisa-cybersecurity-advisories, label: "CISA All Advisories"}
+          - {id: cert-cc-vulnerability-notes, label: "CERT/CC Vulnerability Notes"}
+          - {id: github-advisory-database, label: "GitHub Advisory Database"}
+  - title: "🧠 Threat Intelligence"
+    sections:
+      - title: "Feeds & IOC Lookup"
+        links:
+          - {id: urlhaus, label: "abuse.ch URLhaus"}
+          - {id: malwarebazaar, label: "abuse.ch MalwareBazaar"}
+          - {id: threatfox, label: "abuse.ch ThreatFox"}
+          - {id: feodo-tracker, label: "abuse.ch Feodo Tracker"}
+          - {id: yaraify, label: "abuse.ch YARAify"}
+          - {id: virustotal, label: "VirusTotal"}
+          - {id: otx, label: "LevelBlue OTX (AlienVault)"}
+          - {id: abuseipdb, label: "AbuseIPDB"}
+          - {id: pulsedive, label: "Pulsedive"}
+          - {id: greynoise-visualizer, label: "GreyNoise"}
+          - {id: shodan, label: "Shodan"}
+          - {id: censys-platform, label: "Censys Search", url: "https://search.censys.io/"}
+          - {id: onyphe, label: "Onyphe"}
+          - {id: crt-sh, label: "crt.sh (certificate search)"}
+      - title: "APT & Adversary Tracking"
+        links:
+          - {id: attack-groups, label: "MITRE ATT&CK Groups"}
+          - {id: attack-software, label: "MITRE ATT&CK Software"}
+          - {id: malpedia, label: "Malpedia"}
+          - {id: threat-group-cards, label: "ETDA/ThaiCERT APT Groups"}
+          - {id: misp-galaxy, label: "MISP Galaxy"}
+          - {id: orkl, label: "ORKL: Threat Report Library"}
+          - {id: crowdstrike-adversaries, label: "CrowdStrike Adversary Universe"}
+          - {id: microsoft-threat-actor-naming, label: "Microsoft Threat Actor Naming", url: "https://learn.microsoft.com/en-us/unified-secops-platform/microsoft-threat-actor-naming"}
+      - title: "CTI Vendor Research Blogs"
+        links:
+          - {id: google-threat-intelligence-blog, label: "Google Threat Intelligence (Mandiant)"}
+          - {id: google-threat-analysis-group, label: "Google Threat Analysis Group (TAG)"}
+          - {id: microsoft-threat-intelligence-blog, label: "Microsoft Threat Intelligence"}
+          - {id: cisco-talos-blog, label: "Cisco Talos"}
+          - {id: unit-42, label: "Palo Alto Unit 42"}
+          - {id: crowdstrike-blog, label: "CrowdStrike Blog", url: "https://www.crowdstrike.com/blog/"}
+          - {id: recorded-future-blog, label: "Recorded Future"}
+          - {id: check-point-research, label: "Check Point Research"}
+          - {id: welivesecurity, label: "ESET WeLiveSecurity", url: "https://www.welivesecurity.com/"}
+          - {id: securelist, label: "Kaspersky Securelist"}
+          - {id: volexity-blog, label: "Volexity"}
+          - {id: the-dfir-report, label: "The DFIR Report"}
+          - {id: sekoia-blog, label: "Sekoia Blog"}
+      - title: "Threat Reports & Landscape"
+        links:
+          - {id: verizon-dbir, label: "Verizon DBIR"}
+          - {id: m-trends, label: "M-Trends (Mandiant)"}
+          - {id: crowdstrike-global-threat-report, label: "CrowdStrike Global Threat Report", url: "https://www.crowdstrike.com/global-threat-report/"}
+          - {id: enisa-cyber-threats, label: "ENISA Threat Landscape"}
+          - {id: ibm-x-force-threat-intelligence-index, label: "IBM X-Force Threat Intelligence"}
+      - title: "CTI Platforms"
+        links:
+          - {id: misp, label: "MISP"}
+          - {id: opencti, label: "OpenCTI"}
+          - {id: yeti, label: "Yeti"}
+          - {id: intelowl, label: "IntelOwl"}
+          - {id: stix-and-taxii, label: "OASIS STIX/TAXII"}
+  - title: "🚨 Gov / CERT / Alerts"
+    links:
+      - {id: cisa-cybersecurity-advisories, label: "CISA Cybersecurity Advisories"}
+      - {id: cisa-kev, label: "CISA KEV Catalog"}
+      - {id: cisa-stop-ransomware, label: "CISA #StopRansomware"}
+      - {id: cisa-secure-by-design, label: "CISA Secure by Design"}
+      - {id: cert-cc-vulnerability-notes, label: "CERT/CC Vulnerability Notes"}
+      - {id: ncsc-uk, label: "NCSC UK"}
+      - {id: cyber-gov-au, label: "ACSC (Australia)"}
+      - {id: canadian-centre-for-cyber-security, label: "Canadian Centre for Cyber Security"}
+      - {id: enisa, label: "ENISA"}
+      - {id: ic3, label: "FBI IC3"}
+      - {id: hhs-hc3, label: "HHS HC3 (Healthcare)"}
+  - title: "🧰 Frameworks & Standards"
+    sections:
+      - title: "MITRE"
+        links:
+          - {id: mitre-attack, label: "ATT&CK"}
+          - {id: mitre-d3fend, label: "D3FEND"}
+          - {id: capec, label: "CAPEC"}
+          - {id: cwe, label: "CWE"}
+          - {id: mitre-atlas, label: "ATLAS (AI)"}
+          - {id: mitre-engage, label: "Engage"}
+          - {id: mitre-emb3d, label: "EMB3D"}
+          - {id: mitre-car, label: "CAR: Cyber Analytics Repository"}
+          - {id: center-for-threat-informed-defense, label: "Center for Threat-Informed Defense"}
+          - {id: mappings-explorer, label: "CTID Mappings Explorer", url: "https://center-for-threat-informed-defense.github.io/mappings-explorer/"}
+      - title: "NIST"
+        links:
+          - {id: nist-cybersecurity-framework, label: "NIST Cybersecurity Framework (CSF)"}
+          - {id: nist-csrc, label: "NIST CSRC"}
+          - {id: nist-sp-800-53, label: "SP 800-53 Rev 5"}
+          - {id: nvd, label: "NVD"}
+          - {id: oscal, label: "OSCAL"}
+          - {id: nist-cprt, label: "CPRT (Cybersecurity and Privacy Reference Tool)"}
+      - title: "CIS"
+        links:
+          - {id: cis-controls, label: "CIS Controls"}
+          - {id: cis-benchmarks, label: "CIS Benchmarks"}
+      - title: "OWASP & AppSec"
+        links:
+          - {id: owasp-top-10, label: "OWASP Top 10", url: "https://owasp.org/www-project-top-ten/"}
+          - {id: owasp-asvs, label: "OWASP ASVS"}
+          - {id: owasp-wstg, label: "OWASP Web Security Testing Guide", url: "https://owasp.org/www-project-web-security-testing-guide/"}
+          - {id: owasp-mas, label: "OWASP MASTG (Mobile)"}
+          - {id: owasp-cheat-sheet-series, label: "OWASP Cheat Sheet Series"}
+          - {id: owasp-samm, label: "OWASP SAMM"}
+          - {id: owasp-threat-dragon, label: "OWASP Threat Dragon", url: "https://owasp.org/www-project-threat-dragon/"}
+  - title: "🛠️ Offensive & Tooling"
+    sections:
+      - title: "Recon & OSINT"
+        links:
+          - {id: theharvester, label: "theHarvester"}
+          - {id: amass, label: "OWASP Amass"}
+          - {id: subfinder, label: "subfinder"}
+          - {id: spiderfoot, label: "SpiderFoot"}
+          - {id: recon-ng, label: "recon-ng"}
+          - {id: maltego, label: "Maltego"}
+          - {id: crt-sh, label: "crt.sh"}
+      - title: "Web App"
+        links:
+          - {id: burp-suite, label: "Burp Suite"}
+          - {id: zap, label: "ZAP (Zed Attack Proxy)"}
+          - {id: caido, label: "Caido", url: "https://caido.io/"}
+          - {id: ffuf, label: "ffuf"}
+          - {id: sqlmap, label: "sqlmap"}
+          - {id: nuclei, label: "Nuclei"}
+          - {id: nikto, label: "Nikto"}
+          - {id: web-security-academy, label: "PortSwigger Web Security Academy"}
+      - title: "Active Directory & Windows"
+        links:
+          - {id: bloodhound, label: "BloodHound CE"}
+          - {id: sharphound, label: "SharpHound"}
+          - {id: impacket, label: "Impacket"}
+          - {id: netexec, label: "NetExec (nxc)"}
+          - {id: rubeus, label: "Rubeus"}
+          - {id: mimikatz, label: "Mimikatz"}
+          - {id: responder, label: "Responder"}
+          - {id: kerbrute, label: "Kerbrute"}
+          - {id: pingcastle, label: "PingCastle"}
+      - title: "C2 Frameworks"
+        links:
+          - {id: metasploit-framework, label: "Metasploit Framework"}
+          - {id: sliver, label: "Sliver"}
+          - {id: havoc, label: "Havoc"}
+          - {id: mythic, label: "Mythic"}
+          - {id: cobalt-strike, label: "Cobalt Strike"}
+          - {id: poshc2, label: "PoshC2"}
+      - title: "Cheatsheets & Payloads"
+        links:
+          - {id: hacktricks, label: "HackTricks"}
+          - {id: payloadsallthethings, label: "PayloadsAllTheThings"}
+          - {id: gtfobins, label: "GTFOBins"}
+          - {id: lolbas, label: "LOLBAS"}
+          - {id: loldrivers, label: "LOLDrivers"}
+          - {id: wadcoms, label: "WADComs"}
+          - {id: revshells, label: "RevShells"}
+          - {id: cyberchef, label: "CyberChef"}
+          - {id: crackstation, label: "CrackStation"}
+      - title: "Scanning & Network"
+        links:
+          - {id: nmap, label: "Nmap"}
+          - {id: masscan, label: "Masscan"}
+          - {id: naabu, label: "naabu"}
+          - {id: wireshark, label: "Wireshark"}
+          - {id: zeek, label: "Zeek"}
+  - title: "🔬 DFIR & Malware Analysis"
+    sections:
+      - title: "Sandboxes & Lookup"
+        links:
+          - {id: any-run, label: "Any.run"}
+          - {id: hybrid-analysis, label: "Hybrid Analysis", url: "https://www.hybrid-analysis.com/"}
+          - {id: joe-sandbox, label: "Joe Sandbox"}
+          - {id: triage, label: "Hatching Triage"}
+          - {id: malwarebazaar, label: "MalwareBazaar"}
+          - {id: virustotal, label: "VirusTotal"}
+          - {id: unpacme, label: "UnpacMe"}
+          - {id: malpedia, label: "Malpedia"}
+      - title: "DFIR Tools"
+        links:
+          - {id: volatility-3, label: "Volatility 3"}
+          - {id: autopsy, label: "Autopsy"}
+          - {id: kape, label: "KAPE", url: "https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape"}
+          - {id: eric-zimmerman-tools, label: "Eric Zimmerman Tools"}
+          - {id: velociraptor, label: "Velociraptor"}
+          - {id: chainsaw, label: "Chainsaw", url: "https://github.com/WithSecureLabs/chainsaw"}
+          - {id: timesketch, label: "Timesketch"}
+          - {id: plaso, label: "plaso (log2timeline)"}
+          - {id: sans-dfir-courses, label: "SANS DFIR", url: "https://www.sans.org/cyber-security-courses/?focus-area=digital-forensics-incident-response"}
+      - title: "Reverse Engineering"
+        links:
+          - {id: ghidra, label: "Ghidra"}
+          - {id: ida-free, label: "IDA Free", url: "https://hex-rays.com/ida-free/"}
+          - {id: binary-ninja, label: "Binary Ninja"}
+          - {id: cutter, label: "Cutter (rizin)"}
+          - {id: x64dbg, label: "x64dbg"}
+          - {id: decompiler-explorer, label: "Decompiler Explorer (dogbolt)"}
+          - {id: pwntools, label: "pwntools"}
+  - title: "☁️ Cloud & Container"
+    links:
+      - {id: prowler, label: "Prowler"}
+      - {id: scoutsuite, label: "ScoutSuite"}
+      - {id: pacu, label: "Pacu (AWS)"}
+      - {id: cloudfox, label: "CloudFox"}
+      - {id: kube-bench, label: "kube-bench"}
+      - {id: kube-hunter, label: "kube-hunter"}
+      - {id: trivy, label: "Trivy"}
+      - {id: falco, label: "Falco"}
+      - {id: wiz-blog, label: "Wiz Blog"}
+      - {id: hacking-the-cloud, label: "Hacking the Cloud"}
+      - {id: flaws-cloud, label: "flaws.cloud"}
+      - {id: aws-cloud-security, label: "AWS Security"}
+      - {id: azure-security-documentation, label: "Azure Security"}
+      - {id: google-cloud-security, label: "Google Cloud Security"}
+  - title: "🧪 Detection Engineering & Blue Team"
+    links:
+      - {id: sigma, label: "Sigma (SigmaHQ)"}
+      - {id: detection-fyi, label: "Detection.fyi (Sigma search)"}
+      - {id: uncoder-io, label: "Uncoder.io"}
+      - {id: atomic-red-team, label: "Atomic Red Team"}
+      - {id: caldera, label: "MITRE Caldera", url: "https://github.com/mitre/caldera"}
+      - {id: elastic-detection-rules, label: "Elastic Detection Rules"}
+      - {id: detectionlab, label: "DetectionLab"}
+      - {id: evtx-attack-samples, label: "EVTX-ATTACK-SAMPLES"}
+      - {id: wazuh, label: "Wazuh"}
+      - {id: yara, label: "YARA"}
+  - title: "🎓 Labs & Training"
+    links:
+      - {id: hack-the-box, label: "Hack The Box"}
+      - {id: htb-academy, label: "HTB Academy"}
+      - {id: tryhackme, label: "TryHackMe"}
+      - {id: web-security-academy, label: "PortSwigger Web Security Academy"}
+      - {id: pentesterlab, label: "PentesterLab"}
+      - {id: pwn-college, label: "pwn.college"}
+      - {id: vulnhub, label: "VulnHub"}
+      - {id: overthewire, label: "OverTheWire"}
+      - {id: cyberdefenders, label: "CyberDefenders"}
+      - {id: blue-team-labs-online, label: "Blue Team Labs Online"}
+      - {id: letsdefend, label: "LetsDefend"}
+      - {id: rangeforce, label: "RangeForce"}
+      - {id: antisyphon-training, label: "Antisyphon Training"}
+      - {id: picoctf, label: "picoCTF"}
+      - {id: ctftime, label: "CTFtime"}
+  - title: "📰 News & Research"
+    links:
+      - {id: bleepingcomputer, label: "BleepingComputer"}
+      - {id: the-record, label: "The Record (Recorded Future)"}
+      - {id: the-hacker-news, label: "The Hacker News"}
+      - {id: dark-reading, label: "Dark Reading"}
+      - {id: krebs-on-security, label: "KrebsOnSecurity"}
+      - {id: sans-internet-storm-center, label: "SANS Internet Storm Center"}
+      - {id: risky-business, label: "Risky Business"}
+      - {id: tldr-sec, label: "tl;dr sec"}
+      - {id: securityweek, label: "SecurityWeek"}
+      - {id: help-net-security, label: "Help Net Security"}
+      - {id: schneier-on-security, label: "Schneier on Security"}
+      - {id: databreaches-net, label: "DataBreaches.net"}
+      - {id: reddit-netsec, label: "Reddit r/netsec"}
+      - {id: reddit-blueteamsec, label: "Reddit r/blueteamsec"}

@@ -1,0 +1,160 @@
+# Resources in the domain "government-and-cert-alerts". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: cisa-cybersecurity-advisories
+  name: "CISA Cybersecurity Alerts & Advisories"
+  url: "https://www.cisa.gov/news-events/cybersecurity-advisories"
+  publisher: "CISA"
+  section: united-states
+  also_in: [vendor-advisories/ics-and-ot-vendors]
+  kind: advisories
+  cost: free
+  description: "CISA's alerts, cybersecurity advisories, ICS advisories, and analysis reports in one searchable list."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cisa.gov/news-events/cybersecurity-advisories"
+    how: script
+
+- id: cisa-stop-ransomware
+  name: "CISA Stop Ransomware"
+  url: "https://www.cisa.gov/stopransomware"
+  publisher: "CISA"
+  section: united-states
+  kind: reference
+  cost: free
+  description: "CISA's ransomware site: guidance on preparation and response, alerts, and a route to report an incident."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cisa.gov/stopransomware"
+    how: script
+
+- id: cisa-secure-by-design
+  name: "CISA Secure by Design"
+  url: "https://www.cisa.gov/securebydesign"
+  publisher: "CISA"
+  section: united-states
+  kind: reference
+  cost: free
+  description: "CISA's Secure by Design pages, which make the case for building security into the design and manufacture of technology products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cisa.gov/securebydesign"
+    how: script
+
+- id: cisa-industrial-control-systems
+  name: "CISA Industrial Control Systems"
+  url: "https://www.cisa.gov/topics/industrial-control-systems"
+  publisher: "CISA"
+  section: united-states
+  also_in: [vendor-advisories/ics-and-ot-vendors]
+  kind: reference
+  cost: free
+  description: "CISA's ICS and OT topic page, with tools, guidance, and current information for asset owners and defenders."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cisa.gov/topics/industrial-control-systems"
+    how: script
+
+- id: cert-cc-vulnerability-notes
+  name: "CERT/CC Vulnerability Notes Database"
+  url: "https://www.kb.cert.org/vuls/"
+  publisher: "CERT/CC (Carnegie Mellon University SEI)"
+  section: united-states
+  kind: advisories
+  cost: free
+  description: "CERT/CC's database of vulnerability notes from coordinated disclosure, with guidance on reporting a vulnerability."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.kb.cert.org/vuls/"
+    how: script
+
+- id: ic3
+  name: "Internet Crime Complaint Center (IC3)"
+  url: "https://www.ic3.gov/"
+  publisher: "FBI"
+  section: united-states
+  kind: organization
+  cost: free
+  description: "The FBI's hub for reporting cyber-enabled crime, with industry alerts and annual reports."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ic3.gov/"
+    how: script
+
+- id: hhs-hc3
+  name: "HHS HC3"
+  url: "https://www.hhs.gov/hc3"
+  publisher: "U.S. Department of Health and Human Services"
+  section: united-states
+  kind: advisories
+  cost: free
+  status: retired
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://tech.hhs.gov/"
+    how: browser
+  notes: "On 2026-11-25 this address and the longer HC3 path under hhs.gov both redirected to https://tech.hhs.gov/, the HHS Office of the Chief Information Officer site, which carries no HC3 content. No current HC3 address was found. Kept in the compact set until the owner decides."
+
+- id: ncsc-uk
+  name: "National Cyber Security Centre (NCSC)"
+  url: "https://www.ncsc.gov.uk/"
+  publisher: "NCSC, a part of GCHQ"
+  section: international
+  kind: organization
+  cost: free
+  description: "The UK's National Cyber Security Centre: guidance, blog posts, and incident help for organizations and the public."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ncsc.gov.uk/"
+    how: script
+
+- id: cyber-gov-au
+  name: "cyber.gov.au (Australian Cyber Security Centre)"
+  url: "https://www.cyber.gov.au/"
+  publisher: "Australian Signals Directorate"
+  section: international
+  kind: organization
+  cost: free
+  description: "Australia's cyber security site: alerts, publications, the Information Security Manual, and advice by audience."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cyber.gov.au/"
+    how: browser
+  notes: "Reset the connection of a plain HTTP client; opened in a browser."
+
+- id: canadian-centre-for-cyber-security
+  name: "Canadian Centre for Cyber Security"
+  url: "https://www.cyber.gc.ca/en"
+  publisher: "Communications Security Establishment Canada"
+  section: international
+  kind: organization
+  cost: free
+  description: "Canada's national source of cyber security advice, guidance, services, and support, with incident reporting."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cyber.gc.ca/en"
+    how: script
+
+- id: enisa
+  name: "ENISA"
+  url: "https://www.enisa.europa.eu/"
+  publisher: "European Union Agency for Cybersecurity (ENISA)"
+  section: international
+  kind: organization
+  cost: free
+  description: "The EU's cybersecurity agency: guidance, tools, and resources for national authorities, the private sector, and the public."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.enisa.europa.eu/"
+    how: script

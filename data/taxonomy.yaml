@@ -1,0 +1,314 @@
+# The taxonomy: groups, domains, sections, kinds, and costs.
+# Every page is generated from this file and the records under data/resources/.
+# A domain gets a page once it holds at least one resource.
+
+kinds:
+  - {id: reference, label: "Reference", means: "A knowledge base, catalog, or guide that you look things up in."}
+  - {id: standard, label: "Standard", means: "A published standard, framework, benchmark, scoring system, or specification."}
+  - {id: tool, label: "Tool", means: "Software that you download and run yourself."}
+  - {id: service, label: "Online service", means: "A hosted lookup, scanner, sandbox, calculator, or search that you use in a browser or through an API."}
+  - {id: dataset, label: "Dataset or feed", means: "Data, rules, samples, or templates that you search, download, or subscribe to."}
+  - {id: advisories, label: "Advisory source", means: "Security advisories and bulletins from a vendor, agency, or coordination center."}
+  - {id: documentation, label: "Vendor documentation", means: "A vendor's own documentation, support, or product security pages."}
+  - {id: training, label: "Training or lab", means: "Courses, practice labs, challenges, and ranges."}
+  - {id: community, label: "Community", means: "A forum, calendar, or other place where practitioners gather."}
+  - {id: news, label: "News", means: "News sites, newsletters, podcasts, and commentary."}
+  - {id: research, label: "Research blog", means: "A research team's blog of technical findings."}
+  - {id: report, label: "Report", means: "A recurring published report, such as an annual threat report."}
+  - {id: organization, label: "Organization", means: "The home page of an agency, center, or project body, where its guidance and alerts start."}
+  - {id: status, label: "Status page", means: "A provider's live service health page."}
+
+costs:
+  - {id: free, label: "Free", means: "No payment and no account needed for the main use."}
+  - {id: free-with-account, label: "Free with account", means: "No payment, but you must sign up or fill in a form."}
+  - {id: freemium, label: "Freemium", means: "A free tier or edition exists, and paid plans add more."}
+  - {id: paid, label: "Paid", means: "Paid only. A time-limited trial does not change this."}
+  - {id: unconfirmed, label: "Not confirmed", means: "The pricing page could not be opened when the entry was checked."}
+
+groups:
+  - id: security
+    title: "Security domains"
+    note: "These follow the domain pages of the TeamStarWolf library, in the same order."
+  - id: own
+    title: "Vulnerability, advisory, and practice domains"
+    note: "The areas this collection started from."
+  - id: enterprise-it
+    title: "Enterprise IT domains"
+    note: "The systems an IT department runs and the references needed to run them."
+
+domains:
+  # ---- security: mirrors hubs/ in TeamStarWolf/TeamStarWolf
+  - id: threat-informed-defense
+    group: security
+    title: "Threat-informed defense and ATT&CK"
+    covers: "ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses."
+    boundary: "Detection rules sit in Detection and response; reporting on specific adversaries sits in Threat intelligence and adversaries."
+    library_hub: threat-informed-defense
+    sections:
+      - {id: knowledge-bases, title: "Knowledge bases", question: "Where is the shared map of how attacks and defenses work?"}
+      - {id: ctid-projects, title: "Center for Threat-Informed Defense projects", question: "What has been built on top of ATT&CK?"}
+      - {id: adversary-emulation, title: "Adversary emulation and control testing", question: "How do I test whether a defense works?"}
+  - id: detection-and-response
+    group: security
+    title: "Detection and response"
+    covers: "Detection rules and analytics, the platforms that run them, and the data and labs used to build and test detections."
+    boundary: "Forensic and malware analysis tools sit in DFIR and malware analysis; adversary emulation sits in Threat-informed defense and ATT&CK."
+    library_hub: detection-and-response
+    sections:
+      - {id: rules-and-analytics, title: "Rules and analytics", question: "Is there already a detection for this?"}
+      - {id: platforms, title: "Detection platforms", question: "What do I run the detections on?"}
+      - {id: lab-data, title: "Test data and lab builds", question: "What can I test a detection against?"}
+  - id: threat-intelligence
+    group: security
+    title: "Threat intelligence and adversaries"
+    covers: "Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms."
+    boundary: "Vulnerability and exploit data sit in Vulnerability management; malware sandboxes sit in DFIR and malware analysis."
+    library_hub: threat-intelligence
+    sections:
+      - {id: indicator-lookup, title: "Indicator lookup and sharing", question: "Is this address, domain, URL, or file known to be bad?"}
+      - {id: internet-scan-data, title: "Internet scan and exposure data", question: "What is exposed to the internet, and who is scanning it?"}
+      - {id: adversary-tracking, title: "Adversary and malware tracking", question: "Who is this group, and what do other vendors call it?"}
+      - {id: research-blogs, title: "Research blogs", question: "Who publishes original threat research?"}
+      - {id: annual-reports, title: "Recurring threat reports", question: "What does the yearly data say?"}
+      - {id: platforms-and-standards, title: "Platforms and standards", question: "Where do I store and exchange intelligence?"}
+  - id: offensive-security
+    group: security
+    title: "Offensive security"
+    covers: "Tools and references for authorized penetration testing and red teaming: reconnaissance, web testing, Active Directory, command and control, and payload references."
+    boundary: "Cloud attack tooling sits in Cloud and infrastructure; exploit databases sit in Vulnerability management; practice ranges sit in Labs and training."
+    library_hub: offensive-security
+    sections:
+      - {id: recon-and-osint, title: "Reconnaissance and OSINT", question: "What does the target expose?"}
+      - {id: web-application-testing, title: "Web application testing", question: "What do I test a web application with?"}
+      - {id: active-directory-and-windows, title: "Active Directory and Windows", question: "How do I assess a Windows domain?"}
+      - {id: command-and-control, title: "Command and control frameworks", question: "What do I operate from after initial access?"}
+      - {id: cheat-sheets-and-payloads, title: "Cheat sheets, payloads, and utilities", question: "What is the command or payload for this?"}
+      - {id: network-scanning, title: "Network scanning", question: "What is listening on this network?"}
+  - id: network-security
+    group: security
+    title: "Network security"
+    covers: "Capturing, inspecting, and monitoring network traffic, and the references for securing networks and their protocols."
+    boundary: "Running and troubleshooting a network day to day sits in Networking and connectivity; port scanners sit in Offensive security."
+    library_hub: network-security
+    sections:
+      - {id: traffic-analysis, title: "Traffic capture and analysis", question: "What is on the wire?"}
+  - id: cloud-and-infrastructure
+    group: security
+    title: "Cloud and infrastructure"
+    covers: "Assessing and attacking cloud accounts, containers, and Kubernetes, and the providers' own security pages."
+    boundary: "Operating a cloud platform (documentation hubs, calculators, status pages) sits in Cloud platform administration; provider security bulletins sit in Vendor advisories and PSIRTs."
+    library_hub: cloud-and-infrastructure
+    sections:
+      - {id: assessment-tools, title: "Audit, posture, and runtime tools", question: "Is this account or cluster configured safely?"}
+      - {id: attack-techniques, title: "Cloud attack techniques and practice", question: "How are cloud environments attacked?"}
+      - {id: provider-security, title: "Provider security pages and research", question: "What does the provider say about security?"}
+  - id: platform-hardening
+    group: security
+    title: "Platform hardening"
+    covers: "Security baselines and hardening guidance for Windows, Linux, macOS, and mobile devices."
+    boundary: "Managing fleets of devices sits in Endpoint and device management; framework-level control catalogs sit in GRC and security program."
+    library_hub: platform-hardening
+    sections: []
+  - id: application-and-supply-chain
+    group: security
+    title: "Application and supply chain security"
+    covers: "Standards, testing guides, and tools for building and verifying secure software and its supply chain."
+    boundary: "Web testing tools used in penetration tests sit in Offensive security; dependency vulnerability databases sit in Vulnerability management."
+    library_hub: application-and-supply-chain
+    sections:
+      - {id: standards-and-guides, title: "Standards, testing guides, and maturity models", question: "What should the application be built and tested against?"}
+      - {id: design-tools, title: "Design and review tools", question: "What do I use to model threats?"}
+  - id: identity-and-data-protection
+    group: security
+    title: "Identity and data protection"
+    covers: "Identity and access security, Active Directory defense, passwords, zero trust, cryptography, and protecting data."
+    boundary: "Administering a directory or identity provider sits in Identity and directory services administration; Active Directory attack tools sit in Offensive security."
+    library_hub: identity-and-data-protection
+    sections: []
+  - id: ai-and-emerging-tech
+    group: security
+    title: "AI and emerging tech"
+    covers: "Securing AI and machine learning systems, and attacks on and with AI."
+    boundary: "General application security standards sit in Application and supply chain security."
+    library_hub: ai-and-emerging-tech
+    sections: []
+  - id: ics-ot-and-hardware
+    group: security
+    title: "ICS, OT, and hardware"
+    covers: "Industrial control systems, operational technology, embedded and IoT devices, and hardware security."
+    boundary: "ICS vendor advisories sit in Vendor advisories and PSIRTs; government ICS advisories sit in Government and CERT alerts."
+    library_hub: ics-ot-and-hardware
+    sections: []
+  - id: grc-and-security-program
+    group: security
+    title: "GRC and security program"
+    covers: "Frameworks, control catalogs, benchmarks, and the publications a security program is measured against."
+    boundary: "Application security standards sit in Application and supply chain security; vulnerability scoring systems sit in Vulnerability management."
+    library_hub: grc-and-security-program
+    sections:
+      - {id: frameworks-and-controls, title: "Frameworks, controls, and benchmarks", question: "What must the program comply with or measure against?"}
+      - {id: nist-publications-and-tools, title: "NIST publications and tools", question: "Where do I find the NIST document or its data?"}
+
+  # ---- own: this collection's starting strengths
+  - id: vulnerability-management
+    group: own
+    title: "Vulnerability management"
+    covers: "Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies."
+    boundary: "Advisories from the affected vendor sit in Vendor advisories and PSIRTs; government alerts sit in Government and CERT alerts."
+    sections:
+      - {id: databases, title: "Vulnerability databases", question: "Where do I look up a CVE?"}
+      - {id: prioritization, title: "Prioritization and scoring", question: "What do I fix first?"}
+      - {id: exploits, title: "Exploits and proof of concept", question: "Is there public exploit code?"}
+      - {id: scanners, title: "Scanners", question: "What do I run to find vulnerable systems?"}
+      - {id: lifecycle, title: "Lifecycle and end of life", question: "Is this version still supported?"}
+      - {id: weaknesses, title: "Weakness and attack-pattern taxonomies", question: "What class of flaw is this?"}
+  - id: vendor-advisories
+    group: own
+    title: "Vendor advisories and PSIRTs"
+    covers: "The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product."
+    boundary: "Databases that aggregate advisories sit in Vulnerability management; advisories from governments and coordination centers sit in Government and CERT alerts."
+    sections:
+      - {id: microsoft-and-cloud, title: "Microsoft and cloud providers", question: "What did Microsoft or my cloud provider just fix?"}
+      - {id: operating-systems-and-browsers, title: "Operating systems and browsers", question: "What do I patch on endpoints and servers?"}
+      - {id: network-and-security-vendors, title: "Network and security vendors", question: "What do I patch at the edge?"}
+      - {id: enterprise-applications, title: "Enterprise applications", question: "What do I patch in the business applications?"}
+      - {id: ics-and-ot-vendors, title: "ICS and OT", question: "What affects the control systems?"}
+  - id: government-and-cert-alerts
+    group: own
+    title: "Government and CERT alerts"
+    covers: "Alerts, advisories, and guidance from national cyber security agencies and coordination centers."
+    boundary: "Standards and frameworks from the same agencies sit in GRC and security program."
+    sections:
+      - {id: united-states, title: "United States", question: "What have CISA and other US bodies published?"}
+      - {id: international, title: "National and regional centers", question: "What do other national centers advise?"}
+  - id: dfir-and-malware-analysis
+    group: own
+    title: "DFIR and malware analysis"
+    covers: "Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools."
+    boundary: "Detection rules and platforms sit in Detection and response; indicator lookup sits in Threat intelligence and adversaries."
+    library_hub: detection-and-response
+    sections:
+      - {id: sandboxes, title: "Sandboxes and sample analysis", question: "What does this file do when it runs?"}
+      - {id: forensics-tools, title: "Forensic collection and analysis", question: "What happened on this host?"}
+      - {id: reverse-engineering, title: "Reverse engineering", question: "How does this binary work?"}
+  - id: labs-and-training
+    group: own
+    title: "Labs and training"
+    covers: "Practice labs, ranges, courses, and capture-the-flag events for building security skills."
+    boundary: "Reference material you read rather than practice on sits in the domain it is about."
+    sections:
+      - {id: offensive-labs, title: "Offensive practice labs", question: "Where do I practice attacking?"}
+      - {id: defensive-labs, title: "Defensive practice labs", question: "Where do I practice defending and investigating?"}
+      - {id: courses, title: "Courses", question: "Where do I take a taught course?"}
+      - {id: ctf, title: "Capture the flag", question: "Where do I compete?"}
+  - id: news-and-research
+    group: own
+    title: "News and research"
+    covers: "Security news sites, commentary, newsletters, podcasts, and communities."
+    boundary: "Vendor research blogs sit in Threat intelligence and adversaries; advisories sit in the two advisory domains."
+    sections:
+      - {id: news, title: "News sites", question: "What happened today?"}
+      - {id: analysis-and-commentary, title: "Analysis, newsletters, and podcasts", question: "Who explains what it means?"}
+      - {id: communities, title: "Communities", question: "Where do practitioners discuss it?"}
+
+  # ---- enterprise IT
+  - id: identity-and-directory-administration
+    group: enterprise-it
+    title: "Identity and directory services administration"
+    covers: "Running Active Directory, Microsoft Entra ID, and other directories and identity providers: documentation, tools, and troubleshooting references."
+    boundary: "Attacking and defending identity systems sits in Identity and data protection and Offensive security."
+    sections: []
+  - id: microsoft-365-and-windows-administration
+    group: enterprise-it
+    title: "Microsoft 365 and Windows administration"
+    covers: "Administering Microsoft 365 tenants, Windows clients, and Windows Server: admin centers, documentation, release health, and message centers."
+    boundary: "Scripting sits in Automation and scripting; device enrollment and policy sit in Endpoint and device management."
+    sections: []
+  - id: endpoint-and-device-management
+    group: enterprise-it
+    title: "Endpoint and device management"
+    covers: "Managing fleets of Windows, macOS, Linux, and mobile devices: management platforms, packaging, patching, and imaging."
+    boundary: "Security baselines for those devices sit in Platform hardening."
+    sections: []
+  - id: networking-and-connectivity
+    group: enterprise-it
+    title: "Networking and connectivity"
+    covers: "Designing, running, and troubleshooting networks: vendor documentation, protocol references, registries, and lookup tools."
+    boundary: "Traffic inspection for security sits in Network security; DNS for mail and collaboration sits in Email, DNS, and collaboration."
+    sections: []
+  - id: servers-virtualization-and-storage
+    group: enterprise-it
+    title: "Servers, virtualization, and storage"
+    covers: "Server operating systems, hypervisors, containers on premises, and storage platforms: documentation, compatibility guides, and sizing references."
+    boundary: "Public cloud platforms sit in Cloud platform administration."
+    sections: []
+  - id: cloud-platform-administration
+    group: enterprise-it
+    title: "Cloud platform administration"
+    covers: "Operating AWS, Azure, and Google Cloud: documentation hubs, architecture centers, pricing calculators, and status pages."
+    boundary: "Assessing and attacking cloud environments sits in Cloud and infrastructure."
+    sections: []
+  - id: automation-and-scripting
+    group: enterprise-it
+    title: "Automation and scripting"
+    covers: "PowerShell, shell, Python, and infrastructure as code: language references, module galleries, and configuration management documentation."
+    boundary: "Scripts and tools for a single platform sit with that platform."
+    sections: []
+  - id: monitoring-logging-and-observability
+    group: enterprise-it
+    title: "Monitoring, logging, and observability"
+    covers: "Metrics, logs, traces, and alerting for infrastructure and applications."
+    boundary: "Security detection on that telemetry sits in Detection and response."
+    sections: []
+  - id: backup-recovery-and-resilience
+    group: enterprise-it
+    title: "Backup, recovery, and resilience"
+    covers: "Backup products and practices, disaster recovery planning, and resilience guidance."
+    boundary: "Ransomware response guidance from governments sits in Government and CERT alerts."
+    sections: []
+  - id: it-service-management-and-operations
+    group: enterprise-it
+    title: "IT service management and operations"
+    covers: "Service desks, change and incident management, asset management, and the frameworks that describe them."
+    boundary: "Security governance frameworks sit in GRC and security program."
+    sections: []
+  - id: email-dns-and-collaboration
+    group: enterprise-it
+    title: "Email, DNS, and collaboration"
+    covers: "Mail flow and authentication (SPF, DKIM, DMARC), DNS operations and lookup tools, and collaboration platforms."
+    boundary: "Microsoft 365 tenant administration sits in Microsoft 365 and Windows administration."
+    sections: []
+  - id: databases-and-data-platforms
+    group: enterprise-it
+    title: "Databases and data platforms"
+    covers: "Relational and non-relational database engines and data platforms: documentation, tuning references, and administration tools."
+    boundary: "Database vendors' security advisories sit in Vendor advisories and PSIRTs."
+    sections: []
+  - id: product-lifecycle-licensing-and-support
+    group: enterprise-it
+    title: "Product lifecycle, licensing, and support"
+    covers: "Vendor lifecycle and end-of-support pages, licensing references, and support portals."
+    boundary: "End-of-life data used to judge vulnerability exposure is cross-listed from Vulnerability management."
+    sections: []
+  - id: troubleshooting-toolbox
+    group: enterprise-it
+    title: "The troubleshooting toolbox"
+    covers: "The small utilities and lookups an administrator reaches for during an incident or an outage: converters, testers, decoders, and diagnostics."
+    boundary: "A tool that belongs to one platform sits with that platform."
+    sections: []
+
+# Rows of the "Start here" table on the front page. "to" is a domain id, optionally with /section.
+start_here:
+  - {want: "Look up a CVE or check for a public exploit", to: "vulnerability-management/databases"}
+  - {want: "Decide which vulnerabilities to fix first", to: "vulnerability-management/prioritization"}
+  - {want: "Find a vendor's security advisories", to: "vendor-advisories"}
+  - {want: "Read what CISA and other national centers have published", to: "government-and-cert-alerts"}
+  - {want: "Check whether an address, domain, URL, or file is known to be bad", to: "threat-intelligence/indicator-lookup"}
+  - {want: "Identify a threat group or malware family", to: "threat-intelligence/adversary-tracking"}
+  - {want: "Find or write a detection", to: "detection-and-response/rules-and-analytics"}
+  - {want: "Analyze a suspicious file or investigate a host", to: "dfir-and-malware-analysis"}
+  - {want: "Run an authorized penetration test", to: "offensive-security"}
+  - {want: "Assess a cloud account or a Kubernetes cluster", to: "cloud-and-infrastructure/assessment-tools"}
+  - {want: "Find the framework or control catalog an audit asks for", to: "grc-and-security-program"}
+  - {want: "Practice in a lab or take a course", to: "labs-and-training"}
+  - {want: "Keep up with security news", to: "news-and-research"}

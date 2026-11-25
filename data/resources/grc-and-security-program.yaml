@@ -1,0 +1,100 @@
+# Resources in the domain "grc-and-security-program". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: nist-cybersecurity-framework
+  name: "NIST Cybersecurity Framework"
+  url: "https://www.nist.gov/cyberframework"
+  publisher: "NIST"
+  section: frameworks-and-controls
+  kind: standard
+  cost: free
+  description: "Home of the NIST Cybersecurity Framework, for understanding and improving how an organization manages cybersecurity risk."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.nist.gov/cyberframework"
+    how: script
+
+- id: nist-sp-800-53
+  name: "NIST SP 800-53 Rev. 5"
+  url: "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+  publisher: "NIST"
+  section: frameworks-and-controls
+  kind: standard
+  cost: free
+  description: "Security and privacy control catalog for information systems and organizations; the page links Release 5.2.0, issued in August 2025."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    how: script
+
+- id: cis-controls
+  name: "CIS Critical Security Controls"
+  url: "https://www.cisecurity.org/controls"
+  publisher: "Center for Internet Security"
+  section: frameworks-and-controls
+  kind: standard
+  cost: free
+  description: "Prioritized set of security practices from the Center for Internet Security; the page presents version 8.1."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cisecurity.org/controls"
+    how: script
+
+- id: cis-benchmarks
+  name: "CIS Benchmarks"
+  url: "https://www.cisecurity.org/cis-benchmarks"
+  publisher: "Center for Internet Security"
+  section: frameworks-and-controls
+  kind: standard
+  cost: free
+  description: "Consensus configuration recommendations for more than 25 vendor product families, used as hardening baselines."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cisecurity.org/cis-benchmarks"
+    how: script
+
+- id: nist-csrc
+  name: "NIST Computer Security Resource Center (CSRC)"
+  url: "https://csrc.nist.gov/"
+  publisher: "NIST"
+  section: nist-publications-and-tools
+  kind: reference
+  cost: free
+  description: "NIST's library of cybersecurity and information security projects, publications, news, and events."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://csrc.nist.gov/"
+    how: script
+
+- id: oscal
+  name: "OSCAL"
+  url: "https://pages.nist.gov/OSCAL/"
+  publisher: "NIST"
+  section: nist-publications-and-tools
+  kind: standard
+  cost: free
+  description: "Open Security Controls Assessment Language: NIST-led machine-readable formats for control-related information, built to support automated assessment."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pages.nist.gov/OSCAL/"
+    how: script
+
+- id: nist-cprt
+  name: "Cybersecurity and Privacy Reference Tool (CPRT)"
+  url: "https://csrc.nist.gov/projects/cprt"
+  publisher: "NIST"
+  section: nist-publications-and-tools
+  kind: service
+  cost: free
+  description: "Tool for browsing and downloading reference data from NIST cybersecurity and privacy standards, guidelines, and frameworks in XLSX and JSON."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://csrc.nist.gov/projects/cprt"
+    how: script

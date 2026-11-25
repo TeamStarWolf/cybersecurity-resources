@@ -1,0 +1,232 @@
+# Resources in the domain "labs-and-training". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: hack-the-box
+  name: "Hack The Box"
+  url: "https://www.hackthebox.com/"
+  publisher: "Hack The Box"
+  section: offensive-labs
+  kind: training
+  cost: freemium
+  description: "Hands-on hacking labs and challenges for individuals and teams; joining is free, and subscriptions open more content."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.hackthebox.com/"
+    how: script
+
+- id: htb-academy
+  name: "HTB Academy"
+  url: "https://academy.hackthebox.com/"
+  publisher: "Hack The Box"
+  section: offensive-labs
+  kind: training
+  cost: freemium
+  description: "Guided cybersecurity courses and job-role paths with certifications; starting is free, and certification exams are paid."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://academy.hackthebox.com/"
+    how: script
+
+- id: tryhackme
+  name: "TryHackMe"
+  url: "https://tryhackme.com/"
+  publisher: "TryHackMe"
+  section: offensive-labs
+  kind: training
+  cost: freemium
+  description: "Browser-based cybersecurity training with hands-on labs for all skill levels; free rooms plus premium plans."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://tryhackme.com/"
+    how: script
+
+- id: web-security-academy
+  name: "PortSwigger Web Security Academy"
+  url: "https://portswigger.net/web-security"
+  publisher: "PortSwigger"
+  section: offensive-labs
+  also_in: [offensive-security/web-application-testing]
+  kind: training
+  cost: free-with-account
+  description: "Free online web security training with interactive labs, from the makers of Burp Suite; create an account to start."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://portswigger.net/web-security"
+    how: script
+
+- id: pentesterlab
+  name: "PentesterLab"
+  url: "https://pentesterlab.com/"
+  publisher: "PentesterLab"
+  section: offensive-labs
+  kind: training
+  cost: freemium
+  description: "Web hacking and security code review training built on real CVEs and vulnerable code; some exercises are free, the rest need PRO."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pentesterlab.com/"
+    how: script
+
+- id: pwn-college
+  name: "pwn.college"
+  url: "https://pwn.college/"
+  publisher: "Arizona State University"
+  section: offensive-labs
+  kind: training
+  cost: free
+  description: "Free education platform for practicing core cybersecurity skills hands-on, maintained at Arizona State University."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pwn.college/"
+    how: script
+
+- id: vulnhub
+  name: "VulnHub"
+  url: "https://www.vulnhub.com/"
+  publisher: "VulnHub"
+  section: offensive-labs
+  kind: training
+  cost: free
+  description: "Vulnerable-by-design virtual machines to download and attack for hands-on practice."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.vulnhub.com/"
+    how: script
+
+- id: overthewire
+  name: "OverTheWire Wargames"
+  url: "https://overthewire.org/wargames/"
+  publisher: "OverTheWire community"
+  section: offensive-labs
+  kind: training
+  cost: free
+  description: "Wargames from the OverTheWire community for learning and practicing security concepts as games."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://overthewire.org/wargames/"
+    how: script
+
+- id: cyberdefenders
+  name: "CyberDefenders"
+  url: "https://cyberdefenders.org/"
+  publisher: "CyberDefenders"
+  section: defensive-labs
+  kind: training
+  cost: paid
+  description: "Blue team training for SOC analysts and DFIR, built on cyber range labs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cyberdefenders.org/"
+    how: script
+  notes: "The pricing page lists paid plans. A free tier was not confirmed on 2026-11-25, although a testimonial on the home page calls the platform free."
+
+- id: blue-team-labs-online
+  name: "Blue Team Labs Online"
+  url: "https://blueteamlabs.online/"
+  publisher: "Centri"
+  section: defensive-labs
+  kind: training
+  cost: freemium
+  description: "Gamified platform for defenders to practice incident response, digital forensics, security operations, reverse engineering, and threat hunting; free and paid tiers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blueteamlabs.online/"
+    how: script
+
+- id: letsdefend
+  name: "LetsDefend"
+  url: "https://letsdefend.io/"
+  publisher: "LetsDefend"
+  section: defensive-labs
+  kind: training
+  cost: freemium
+  description: "Blue team training inside a simulated SOC, with free and paid courses; the site says Hack The Box is acquiring LetsDefend."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://letsdefend.io/"
+    how: script
+
+- id: rangeforce
+  name: "RangeForce"
+  url: "https://www.rangeforce.com/"
+  publisher: "RangeForce"
+  section: defensive-labs
+  kind: training
+  cost: freemium
+  description: "Cloud-based cyber range and solo labs for defensive teams; the site says RangeForce has joined Cyberbit."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rangeforce.com/"
+    how: script
+  notes: "The Free Edition link leads to https://www.cyberbit.com/free-edition/."
+
+- id: antisyphon-training
+  name: "Antisyphon Training"
+  url: "https://www.antisyphontraining.com/"
+  publisher: "Antisyphon Training"
+  section: courses
+  kind: training
+  cost: freemium
+  description: "Live and on-demand security courses, including Pay What You Can classes that start at $0."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.antisyphontraining.com/"
+    how: script
+
+- id: sans-dfir-courses
+  name: "SANS DFIR courses"
+  url: "https://www.sans.org/cyber-security-courses?focus-area=digital-forensics-incident-response"
+  previously: ["https://www.sans.org/cyber-security-courses/?focus-area=digital-forensics-incident-response"]
+  publisher: "SANS Institute"
+  section: courses
+  also_in: [dfir-and-malware-analysis/forensics-tools]
+  kind: training
+  cost: paid
+  description: "SANS course catalog filtered to digital forensics and incident response."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sans.org/cyber-security-courses?focus-area=digital-forensics-incident-response"
+    how: script
+
+- id: picoctf
+  name: "picoCTF (CyLab Security Academy)"
+  formerly: "picoCTF"
+  url: "https://picoctf.org/"
+  publisher: "Carnegie Mellon University"
+  section: ctf
+  kind: training
+  cost: free
+  description: "Carnegie Mellon's free cybersecurity learning platform; picoCTF has joined CyLab Security Academy, and picoCTF accounts still work."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://picoctf.org/"
+    how: script
+
+- id: ctftime
+  name: "CTFtime"
+  url: "https://ctftime.org/"
+  publisher: "CTFtime team"
+  section: ctf
+  kind: community
+  cost: free
+  description: "Calendar of capture-the-flag events, with team ratings, an archive of past CTFs, and writeups."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ctftime.org/"
+    how: script

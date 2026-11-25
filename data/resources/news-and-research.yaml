@@ -1,0 +1,203 @@
+# Resources in the domain "news-and-research". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: bleepingcomputer
+  name: "BleepingComputer"
+  url: "https://www.bleepingcomputer.com/"
+  publisher: "BleepingComputer"
+  section: news
+  kind: news
+  cost: free
+  description: "News site whose feed covers breaches, ransomware and extortion groups, and vendor security disclosures."
+  checked:
+    date: "2026-11-25"
+    status: 403
+    final: "https://www.bleepingcomputer.com/"
+    how: blocked
+  notes: "The home page answered 403 with a Cloudflare check to every client on 2026-11-25. Description written from the site's own feed (https://www.bleepingcomputer.com/feed/), which answered 200."
+
+- id: the-record
+  name: "The Record"
+  url: "https://therecord.media/"
+  publisher: "Recorded Future News"
+  section: news
+  kind: news
+  cost: free
+  description: "Cybersecurity news from Recorded Future News, covering incidents, policy, and cybercrime."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://therecord.media/"
+    how: script
+
+- id: the-hacker-news
+  name: "The Hacker News"
+  url: "https://thehackernews.com/"
+  publisher: "The Hacker News"
+  section: news
+  kind: news
+  cost: free
+  description: "Cybersecurity news site covering malware, vulnerabilities, data breaches, and espionage campaigns."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://thehackernews.com/"
+    how: script
+
+- id: dark-reading
+  name: "Dark Reading"
+  url: "https://www.darkreading.com/"
+  publisher: "Informa TechTarget"
+  section: news
+  kind: news
+  cost: free
+  description: "Security news and analysis for practitioners and security leaders, with a CISO section."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.darkreading.com/"
+    how: script
+
+- id: securityweek
+  name: "SecurityWeek"
+  url: "https://www.securityweek.com/"
+  publisher: "Wired Business Media"
+  section: news
+  kind: news
+  cost: free
+  description: "Cybersecurity news, insights, and analysis for enterprise security professionals."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.securityweek.com/"
+    how: script
+
+- id: help-net-security
+  name: "Help Net Security"
+  url: "https://www.helpnetsecurity.com/"
+  publisher: "Help Net Security"
+  section: news
+  kind: news
+  cost: free
+  description: "Cybersecurity news with a focus on enterprise security, plus daily and weekly newsletters."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.helpnetsecurity.com/"
+    how: script
+
+- id: databreaches-net
+  name: "DataBreaches.net"
+  url: "https://databreaches.net/"
+  publisher: "DataBreaches.net"
+  section: news
+  kind: news
+  cost: free
+  description: "Site that reports on data breaches and follows up on incident disclosures."
+  checked:
+    date: "2026-11-25"
+    status: 403
+    final: "https://databreaches.net/"
+    how: blocked
+  notes: "The home page answered 403 with a bot check to every client on 2026-11-25. Description written from the site's own feed (https://databreaches.net/feed/), which answered 200."
+
+- id: krebs-on-security
+  name: "Krebs on Security"
+  url: "https://krebsonsecurity.com/"
+  publisher: "Krebs on Security"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "In-depth security news and investigative reporting."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://krebsonsecurity.com/"
+    how: script
+
+- id: schneier-on-security
+  name: "Schneier on Security"
+  url: "https://www.schneier.com/"
+  publisher: "Bruce Schneier"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Bruce Schneier's blog of essays and commentary on security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.schneier.com/"
+    how: script
+
+- id: risky-business
+  name: "Risky Business"
+  url: "https://risky.biz/"
+  publisher: "Risky Business Media"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Podcasts, newsletters, and video with news and commentary for cybersecurity and intelligence professionals."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://risky.biz/"
+    how: script
+
+- id: tldr-sec
+  name: "tl;dr sec"
+  url: "https://tldrsec.com/"
+  publisher: "tl;dr sec"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Free weekly newsletter that summarizes security tools, talks, and research."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://tldrsec.com/"
+    how: script
+
+- id: sans-internet-storm-center
+  name: "SANS Internet Storm Center"
+  url: "https://isc.sans.edu/"
+  publisher: "SANS"
+  section: analysis-and-commentary
+  also_in: [threat-intelligence/internet-scan-data]
+  kind: news
+  cost: free
+  description: "Daily diaries from volunteer handlers on current attacks and scanning activity, with an API for its data."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://isc.sans.edu/"
+    how: script
+
+- id: reddit-netsec
+  name: "r/netsec"
+  url: "https://www.reddit.com/r/netsec/"
+  publisher: "Reddit"
+  section: communities
+  kind: community
+  cost: free
+  status: unverified
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.reddit.com/r/netsec/"
+    how: blocked
+  notes: "A plain HTTP client received an empty page shell (status 200), Reddit refused its JSON and feed addresses, and the browser pane does not open reddit.com. Not read on 2026-11-25, so it has no description and is held out of the domain pages."
+
+- id: reddit-blueteamsec
+  name: "r/blueteamsec"
+  url: "https://www.reddit.com/r/blueteamsec/"
+  publisher: "Reddit"
+  section: communities
+  kind: community
+  cost: free
+  status: unverified
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.reddit.com/r/blueteamsec/"
+    how: blocked
+  notes: "A plain HTTP client received an empty page shell (status 200), Reddit refused its JSON address, and the browser pane does not open reddit.com. Not read on 2026-11-25, so it has no description and is held out of the domain pages."

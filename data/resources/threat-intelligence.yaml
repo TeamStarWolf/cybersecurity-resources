@@ -1,0 +1,654 @@
+# Resources in the domain "threat-intelligence". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: urlhaus
+  name: "URLhaus"
+  url: "https://urlhaus.abuse.ch/"
+  publisher: "abuse.ch"
+  section: indicator-lookup
+  kind: dataset
+  cost: free
+  description: "abuse.ch platform for sharing URLs used to distribute malware: search it, report URLs, or pull the data through its APIs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://urlhaus.abuse.ch/"
+    how: script
+
+- id: malwarebazaar
+  name: "MalwareBazaar"
+  url: "https://bazaar.abuse.ch/"
+  publisher: "abuse.ch"
+  section: indicator-lookup
+  also_in: [dfir-and-malware-analysis/sandboxes]
+  kind: dataset
+  cost: free
+  description: "abuse.ch platform for sharing malware samples: upload a sample, search the database, set alerts for new malware, or query the API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://bazaar.abuse.ch/"
+    how: script
+
+- id: threatfox
+  name: "ThreatFox"
+  url: "https://threatfox.abuse.ch/"
+  publisher: "abuse.ch"
+  section: indicator-lookup
+  kind: dataset
+  cost: free
+  description: "abuse.ch platform for sharing indicators of compromise tied to malware: search an indicator or push and pull data through the APIs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://threatfox.abuse.ch/"
+    how: script
+
+- id: feodo-tracker
+  name: "Feodo Tracker"
+  url: "https://feodotracker.abuse.ch/"
+  publisher: "abuse.ch"
+  section: indicator-lookup
+  kind: dataset
+  cost: free
+  description: "abuse.ch tracker of botnet command-and-control servers for Dridex, Emotet, TrickBot, QakBot, and BazarLoader, published as blocklists."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://feodotracker.abuse.ch/"
+    how: script
+
+- id: yaraify
+  name: "YARAify"
+  url: "https://yaraify.abuse.ch/"
+  publisher: "abuse.ch"
+  section: indicator-lookup
+  kind: service
+  cost: free
+  description: "abuse.ch service that scans a suspicious file against a large repository of YARA rules, with hunting alerts and an API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://yaraify.abuse.ch/"
+    how: script
+
+- id: virustotal
+  name: "VirusTotal"
+  url: "https://www.virustotal.com/"
+  publisher: "VirusTotal"
+  section: indicator-lookup
+  also_in: [dfir-and-malware-analysis/sandboxes]
+  kind: service
+  cost: free
+  description: "File and URL analysis service: upload a file or search an indicator, knowing that submissions are shared with the security community."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.virustotal.com:443/gui/"
+    how: browser
+  notes: "The address redirects to the web application at /gui/. Paid tiers were not checked in this pass."
+
+- id: otx
+  name: "LevelBlue Open Threat Exchange (OTX)"
+  formerly: "AlienVault OTX"
+  url: "https://otx.alienvault.com/"
+  publisher: "LevelBlue"
+  section: indicator-lookup
+  kind: service
+  cost: free-with-account
+  description: "Community threat exchange where participants publish pulses of indicators; search an indicator or subscribe to pulses through the API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://otx.alienvault.com/"
+    how: browser
+
+- id: abuseipdb
+  name: "AbuseIPDB"
+  url: "https://www.abuseipdb.com/"
+  publisher: "AbuseIPDB"
+  section: indicator-lookup
+  kind: service
+  cost: unconfirmed
+  description: "Database of IP addresses reported for abuse, with an API to check an address, report one, or download a blocklist."
+  checked:
+    date: "2026-11-25"
+    status: 403
+    final: "https://www.abuseipdb.com/"
+    how: blocked
+  notes: "The home page answered 403 with a Cloudflare check to every client on 2026-11-25. Description written from the service's own API documentation (https://docs.abuseipdb.com/), which answered 200. Pricing page not opened."
+
+- id: pulsedive
+  name: "Pulsedive"
+  url: "https://pulsedive.com/"
+  publisher: "Pulsedive LLC"
+  section: indicator-lookup
+  kind: service
+  cost: freemium
+  description: "Threat intelligence platform for searching, scanning, and enriching IPs, URLs, and domains from open feeds and user submissions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pulsedive.com/"
+    how: script
+
+- id: greynoise-visualizer
+  name: "GreyNoise Visualizer"
+  url: "https://viz.greynoise.io/"
+  publisher: "GreyNoise"
+  section: internet-scan-data
+  kind: service
+  cost: freemium
+  description: "Search what GreyNoise has observed from an IP address: untargeted scanning and opportunistic attack activity across the internet."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://viz.greynoise.io/"
+    how: script
+
+- id: shodan
+  name: "Shodan"
+  url: "https://www.shodan.io/"
+  publisher: "Shodan"
+  section: internet-scan-data
+  kind: service
+  cost: freemium
+  description: "Search engine for internet-connected devices and the services they expose, with monitoring, maps, and a developer API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.shodan.io/"
+    how: script
+
+- id: censys-platform
+  name: "Censys Platform"
+  formerly: "Censys Search"
+  url: "https://platform.censys.io/"
+  previously: ["https://search.censys.io/"]
+  publisher: "Censys"
+  section: internet-scan-data
+  kind: service
+  cost: freemium
+  description: "Censys's current search platform for finding and monitoring internet-facing servers; it replaced the legacy Censys Search for free accounts."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://platform.censys.io/home"
+    how: browser
+  notes: "The former address, https://search.censys.io/, says legacy search has been disabled for all free users and points to the Censys Platform. The platform answers 403 to a plain HTTP client; opened in a browser."
+
+- id: onyphe
+  name: "ONYPHE"
+  url: "https://www.onyphe.com/"
+  publisher: "ONYPHE"
+  section: internet-scan-data
+  kind: service
+  cost: paid
+  description: "Internet scan data for attack surface discovery and cyber threat intelligence, with current results and years of history."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.onyphe.com/"
+    how: script
+  notes: "Pricing pages list paid plans; a free tier was not confirmed on 2026-11-25."
+
+- id: crt-sh
+  name: "crt.sh"
+  url: "https://crt.sh/"
+  publisher: "Sectigo"
+  section: internet-scan-data
+  also_in: [offensive-security/recon-and-osint]
+  kind: service
+  cost: free
+  description: "Certificate search: enter a domain name, organization name, or certificate fingerprint to list matching certificates."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://crt.sh/"
+    how: browser
+  notes: "Answered 502 to the script and loaded in the browser a few minutes later; the site is often slow."
+
+- id: attack-groups
+  name: "ATT&CK Groups"
+  url: "https://attack.mitre.org/groups/"
+  publisher: "MITRE"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "ATT&CK's catalog of threat groups, the activity clusters the security community tracks under a common name, with their associated names."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://attack.mitre.org/groups/"
+    how: script
+
+- id: attack-software
+  name: "ATT&CK Software"
+  url: "https://attack.mitre.org/software/"
+  publisher: "MITRE"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "ATT&CK's catalog of the malware and tools adversaries use, with the names different organizations give the same software."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://attack.mitre.org/software/"
+    how: script
+
+- id: malpedia
+  name: "Malpedia"
+  url: "https://malpedia.caad.fkie.fraunhofer.de/"
+  publisher: "Fraunhofer FKIE"
+  section: adversary-tracking
+  also_in: [dfir-and-malware-analysis/sandboxes]
+  kind: reference
+  cost: free
+  description: "Free reference of malware families, built for rapid identification and context during an investigation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://malpedia.caad.fkie.fraunhofer.de/"
+    how: script
+
+- id: threat-group-cards
+  name: "Threat Group Cards: A Threat Actor Encyclopedia"
+  url: "https://apt.etda.or.th/cgi-bin/aptgroups.cgi"
+  publisher: "Electronic Transactions Development Agency (ETDA), Thailand"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "Portal version of ETDA's threat actor encyclopedia: browse threat groups and their tools, search, and view statistics."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://apt.etda.or.th/cgi-bin/aptgroups.cgi"
+    how: script
+
+- id: misp-galaxy
+  name: "MISP Galaxy"
+  url: "https://www.misp-galaxy.org/"
+  publisher: "MISP Project"
+  section: adversary-tracking
+  kind: dataset
+  cost: free
+  description: "The MISP project's public knowledge base of clusters, such as threat actors and tools, that can be attached to MISP events and attributes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.misp-galaxy.org/"
+    how: script
+
+- id: orkl
+  name: "ORKL"
+  url: "https://orkl.eu/"
+  publisher: "ORKL"
+  section: adversary-tracking
+  kind: dataset
+  cost: free
+  description: "Searchable library of public cyber threat intelligence reports, indexed by threat actor and updated daily from monitored sources."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://orkl.eu/"
+    how: browser
+
+- id: crowdstrike-adversaries
+  name: "CrowdStrike adversary profiles"
+  url: "https://www.crowdstrike.com/en-us/adversaries/"
+  publisher: "CrowdStrike"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "CrowdStrike's profiles of the adversary groups it tracks, with origin, target industries, and target nations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.crowdstrike.com/en-us/adversaries/"
+    how: script
+
+- id: microsoft-threat-actor-naming
+  name: "How Microsoft names threat actors"
+  url: "https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming"
+  previously: ["https://learn.microsoft.com/en-us/unified-secops-platform/microsoft-threat-actor-naming"]
+  publisher: "Microsoft"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "Microsoft's weather-themed naming taxonomy, with the full list of tracked actors, their previous names, and origin details."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming"
+    how: script
+
+- id: google-threat-intelligence-blog
+  name: "Google Cloud Threat Intelligence blog"
+  url: "https://cloud.google.com/blog/topics/threat-intelligence"
+  publisher: "Google Cloud"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Research from Mandiant and the Google Threat Intelligence Group: frontline investigations, analysis, tools, and guidance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cloud.google.com/blog/topics/threat-intelligence"
+    how: script
+
+- id: google-threat-analysis-group
+  name: "Google Threat Analysis Group (TAG)"
+  url: "https://blog.google/threat-analysis-group/"
+  publisher: "Google"
+  section: research-blogs
+  kind: research
+  cost: free
+  status: retired
+  replaced_by: google-threat-intelligence-blog
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.google/security/"
+    how: script
+  notes: "On 2026-11-25 this address redirected to https://blog.google/security/, Google's general security blog, which showed no Threat Analysis Group section. Google's threat research is listed under the Google Cloud Threat Intelligence blog. Kept in the compact set until the owner decides."
+
+- id: microsoft-threat-intelligence-blog
+  name: "Microsoft Threat Intelligence blog"
+  url: "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/"
+  publisher: "Microsoft"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Microsoft Security Blog posts on threat intelligence, from the Microsoft Threat Intelligence community."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/"
+    how: script
+
+- id: cisco-talos-blog
+  name: "Cisco Talos Blog"
+  url: "https://blog.talosintelligence.com/"
+  publisher: "Cisco Talos"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Cisco Talos research on vulnerabilities, malware, and threat activity."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.talosintelligence.com/"
+    how: script
+
+- id: unit-42
+  name: "Unit 42"
+  url: "https://unit42.paloaltonetworks.com/"
+  publisher: "Palo Alto Networks"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Threat research from Palo Alto Networks' Unit 42, including technical analysis of vulnerabilities with patch guidance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://unit42.paloaltonetworks.com/"
+    how: script
+
+- id: crowdstrike-blog
+  name: "CrowdStrike Blog"
+  url: "https://www.crowdstrike.com/en-us/blog/"
+  previously: ["https://www.crowdstrike.com/blog/"]
+  publisher: "CrowdStrike"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "CrowdStrike's blog: posts on new vulnerabilities and detection alongside product and company announcements."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.crowdstrike.com/en-us/blog/"
+    how: script
+
+- id: recorded-future-blog
+  name: "Recorded Future Blog"
+  url: "https://www.recordedfuture.com/blog"
+  publisher: "Recorded Future"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Recorded Future's blog, including research from its Insikt Group."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.recordedfuture.com/blog"
+    how: script
+
+- id: check-point-research
+  name: "Check Point Research"
+  url: "https://research.checkpoint.com/"
+  publisher: "Check Point"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Check Point Research publications on threat actors, ransomware, and AI security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://research.checkpoint.com/"
+    how: script
+
+- id: welivesecurity
+  name: "WeLiveSecurity"
+  url: "https://www.welivesecurity.com/en/"
+  previously: ["https://www.welivesecurity.com/"]
+  publisher: "ESET"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "ESET's news and research site, with ESET Research reports on malware and threat groups."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.welivesecurity.com/en/"
+    how: script
+
+- id: securelist
+  name: "Securelist"
+  url: "https://securelist.com/"
+  publisher: "Kaspersky"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Kaspersky's threat research site: threat intelligence reports, malware research, APT analysis, and statistics."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://securelist.com/"
+    how: script
+
+- id: volexity-blog
+  name: "Volexity Blog"
+  url: "https://www.volexity.com/blog/"
+  publisher: "Volexity"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Research from Volexity's threat intelligence and incident response teams, with posts on memory analysis and memory forensics."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.volexity.com/blog/"
+    how: script
+
+- id: the-dfir-report
+  name: "The DFIR Report"
+  url: "https://thedfirreport.com/"
+  publisher: "The DFIR Report"
+  section: research-blogs
+  also_in: [dfir-and-malware-analysis/forensics-tools]
+  kind: research
+  cost: free
+  description: "Detailed reports drawn from observed intrusions, written to help defenders harden systems and improve detection and response."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://thedfirreport.com/"
+    how: script
+
+- id: sekoia-blog
+  name: "Sekoia Blog"
+  url: "https://www.sekoia.com/blog"
+  publisher: "Sekoia"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Sekoia's blog on threat research and intelligence, detection engineering, and SOC operations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sekoia.com/blog"
+    how: script
+
+- id: verizon-dbir
+  name: "Verizon Data Breach Investigations Report (DBIR)"
+  url: "https://www.verizon.com/business/resources/reports/dbir/"
+  publisher: "Verizon"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "Verizon's annual Data Breach Investigations Report, with the current edition, industry snapshots, and an archive of past reports."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.verizon.com/business/resources/reports/dbir/"
+    how: script
+
+- id: m-trends
+  name: "M-Trends"
+  url: "https://cloud.google.com/security/resources/m-trends"
+  publisher: "Google Cloud (Mandiant)"
+  section: annual-reports
+  kind: report
+  cost: free-with-account
+  description: "Mandiant's annual report on what its incident investigations found; the download sits behind a registration form."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cloud.google.com/security/resources/m-trends"
+    how: script
+
+- id: crowdstrike-global-threat-report
+  name: "CrowdStrike Global Threat Report"
+  url: "https://www.crowdstrike.com/en-us/global-threat-report/"
+  previously: ["https://www.crowdstrike.com/global-threat-report/"]
+  publisher: "CrowdStrike"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "CrowdStrike's annual report on adversary activity and attack trends."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.crowdstrike.com/en-us/global-threat-report/"
+    how: script
+  notes: "Whether the download needs a form was not checked in this pass."
+
+- id: enisa-cyber-threats
+  name: "ENISA Cyber Threats"
+  url: "https://www.enisa.europa.eu/topics/cyber-threats"
+  publisher: "European Union Agency for Cybersecurity (ENISA)"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "ENISA's cyber threats topic page, the entry point to its threat landscape, situational awareness, and foresight work."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.enisa.europa.eu/topics/cyber-threats"
+    how: script
+
+- id: ibm-x-force-threat-intelligence-index
+  name: "IBM X-Force Threat Intelligence Index"
+  url: "https://www.ibm.com/reports/threat-intelligence"
+  publisher: "IBM"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "IBM's annual X-Force Threat Intelligence Index, with the report and a companion webinar."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ibm.com/reports/threat-intelligence"
+    how: script
+  notes: "Whether the download needs a form was not checked in this pass."
+
+- id: misp
+  name: "MISP"
+  url: "https://www.misp-project.org/"
+  publisher: "MISP Project"
+  section: platforms-and-standards
+  kind: tool
+  cost: free
+  description: "Open source threat intelligence platform for collecting, storing, correlating, and sharing indicators, with open standards for exchange."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.misp-project.org/"
+    how: script
+
+- id: opencti
+  name: "OpenCTI"
+  url: "https://filigran.io/products/opencti"
+  publisher: "Filigran"
+  section: platforms-and-standards
+  kind: tool
+  cost: freemium
+  description: "Open source threat intelligence platform that stores intelligence in a STIX 2.1 data model, with integrations for feeds and security tools."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://filigran.io/products/opencti"
+    how: script
+  notes: "The platform is open source; Filigran also sells an Enterprise Edition with a 30-day trial."
+
+- id: yeti
+  name: "Yeti"
+  url: "https://yeti-platform.io/"
+  publisher: "Yeti project"
+  section: platforms-and-standards
+  kind: tool
+  cost: free
+  description: "Platform that links threat intelligence with DFIR work, built to answer where an artifact has been seen before."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://yeti-platform.io/"
+    how: script
+
+- id: intelowl
+  name: "IntelOwl"
+  url: "https://github.com/intelowlproject/IntelOwl"
+  publisher: "IntelOwl Project"
+  section: platforms-and-standards
+  kind: tool
+  cost: free
+  description: "Open source tool that gathers threat intelligence about a file, IP address, or domain from many sources with a single API request."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/intelowlproject/IntelOwl"
+    how: script
+
+- id: stix-and-taxii
+  name: "STIX and TAXII documentation"
+  url: "https://oasis-open.github.io/cti-documentation/"
+  publisher: "OASIS Cyber Threat Intelligence Technical Committee"
+  section: platforms-and-standards
+  kind: standard
+  cost: free
+  description: "OASIS documentation for STIX, the language and serialization format for exchanging cyber threat intelligence, and for TAXII."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://oasis-open.github.io/cti-documentation/"
+    how: script
