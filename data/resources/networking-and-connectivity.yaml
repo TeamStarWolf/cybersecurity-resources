@@ -1,0 +1,680 @@
+# Resources in the domain "networking-and-connectivity". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: cisco-support
+  name: "Cisco Support"
+  url: "https://www.cisco.com/c/en/us/support/index.html"
+  publisher: "Cisco"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "Cisco's support hub: look up a product to reach its documentation and security notices, or browse by resource type."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cisco.com/c/en/us/support/index.html"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser. The page also offers software downloads and support cases, which the entry does not describe."
+
+- id: hpe-networking-documentation
+  name: "HPE Networking Documentation"
+  url: "https://networkingdocs.hpe.com/documentation/"
+  publisher: "Hewlett Packard Enterprise"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "Documentation for HPE's Juniper and Aruba networking products: technical guides, release notes, and configuration resources, chosen by product."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://networkingdocs.hpe.com/documentation/"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. Juniper's documentation address, https://www.juniper.net/documentation/, redirected here on 2026-11-25. The page's summary line is what names Juniper Networking and Aruba Networking products."
+
+- id: arista-product-documentation
+  name: "Arista Product Documentation Library"
+  url: "https://www.arista.com/en/support/product-documentation"
+  publisher: "Arista Networks"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "Arista's manuals under tabs for software, hardware, policies, and packaging, including the EOS configuration guide and CloudVision guides."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.arista.com/en/support/product-documentation"
+    how: browser
+  notes: "Answers 406 to a plain HTTP client; opened in a browser. The four tab labels are in the page's markup; the Software tab was the one read."
+
+- id: fortinet-document-library
+  name: "Fortinet Document Library"
+  url: "https://docs.fortinet.com/"
+  publisher: "Fortinet"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "Fortinet's product documentation, arranged by solution area such as secure networking and SASE, with an upgrade guide and outbreak alerts linked from the front page."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.fortinet.com/"
+    how: script
+
+- id: palo-alto-networks-techdocs
+  name: "Palo Alto Networks TechDocs"
+  url: "https://docs.paloaltonetworks.com/"
+  publisher: "Palo Alto Networks"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "Palo Alto Networks' documentation portal, arranged by portfolio, from next-generation firewalls and secure access service edge to AI security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.paloaltonetworks.com/"
+    how: script
+
+- id: meraki-documentation
+  name: "Cisco Meraki Documentation"
+  url: "https://documentation.meraki.com/"
+  publisher: "Cisco"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "Cisco Meraki's documentation, split into wireless, switching, SD-WAN and SASE, IoT, and platform management, with a getting-started section."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://documentation.meraki.com/"
+    how: script
+  notes: "Publisher from the footer copyright, Cisco Systems, Inc."
+
+- id: mikrotik-routeros-manual
+  name: "RouterOS Manual"
+  url: "https://manual.mikrotik.com/docs/introduction/"
+  publisher: "MikroTik"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "MikroTik's manual for RouterOS, the operating system on its wireless devices, switches, and routers, with a CLI reference and a dated changelog for the manual."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://manual.mikrotik.com/docs/introduction/"
+    how: script
+  notes: "The earlier documentation site, https://help.mikrotik.com/docs/, says it is frozen and points here. The page's section headed Release notes and documentation updates holds Docs Changes, a dated log of changes to the manual, and Product news; RouterOS release notes are not linked from it."
+
+- id: pfsense-documentation
+  name: "pfSense Documentation"
+  url: "https://docs.netgate.com/pfsense/en/latest/"
+  publisher: "Netgate (Rubicon Communications LLC)"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "Netgate's documentation for pfSense software, with configuration recipes; also offered as PDF and ePub."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.netgate.com/pfsense/en/latest/"
+    how: script
+  notes: "Publisher from the footer copyright, Electric Sheep Fencing LLC and Rubicon Communications LLC; the site is Netgate's."
+
+- id: opnsense-documentation
+  name: "OPNsense documentation"
+  url: "https://docs.opnsense.org/"
+  publisher: "Deciso B.V."
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "Documentation for OPNsense, the open source firewall and routing platform built on FreeBSD."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.opnsense.org/"
+    how: script
+
+- id: nvidia-networking-documentation
+  name: "NVIDIA Networking Documentation"
+  url: "https://docs.nvidia.com/networking-ethernet-software/"
+  publisher: "NVIDIA"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "User guides and release notes for NVIDIA's Cumulus Linux network operating system, NetQ, and DSX Air, with technical guides and a knowledge base."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.nvidia.com/networking-ethernet-software/"
+    how: script
+
+- id: vyos-documentation
+  name: "VyOS User Guide"
+  url: "https://docs.vyos.io/en/rolling/"
+  publisher: "VyOS"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "VyOS's guide: getting or building an image, installing on bare metal, in a VM, or in a cloud, then configuring, operating, and automating it."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.vyos.io/en/rolling/"
+    how: script
+  notes: "https://docs.vyos.io/en/latest/ redirects here, the guide for the rolling release. Publisher from the footer copyright, VyOS maintainers and contributors."
+
+- id: frrouting-documentation
+  name: "FRRouting User Guide"
+  url: "https://docs.frrouting.org/en/latest/"
+  publisher: "FRRouting"
+  section: vendor-documentation
+  kind: documentation
+  cost: free
+  description: "User guide for FRR, the free IP routing suite that implements BGP, OSPF, IS-IS, RIP, and other protocols."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.frrouting.org/en/latest/"
+    how: script
+
+- id: ietf-datatracker
+  name: "IETF Datatracker"
+  url: "https://datatracker.ietf.org/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: reference
+  cost: free
+  description: "The IETF's working database: search its documents and see working groups, meetings, agendas, and minutes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://datatracker.ietf.org/"
+    how: script
+
+- id: rfc-editor
+  name: "RFC Editor"
+  url: "https://www.rfc-editor.org/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: reference
+  cost: free
+  description: "The official home of the RFC series: browse RFCs by category or subject, see the latest ones, and read about errata."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-4271
+  name: "RFC 4271: A Border Gateway Protocol 4 (BGP-4)"
+  url: "https://www.rfc-editor.org/info/rfc4271/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Specifies BGP-4, the routing protocol that autonomous systems use to exchange reachability information; later RFCs update it."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc4271/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-2328
+  name: "RFC 2328: OSPF Version 2"
+  url: "https://www.rfc-editor.org/info/rfc2328/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Defines OSPF version 2, the link-state protocol for routing inside one autonomous system; Internet Standard 54, updated by later RFCs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc2328/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-1918
+  name: "RFC 1918: Address Allocation for Private Internets"
+  url: "https://www.rfc-editor.org/info/rfc1918/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Sets aside the private IPv4 blocks 10/8, 172.16/12, and 192.168/16; published as Best Current Practice 5."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc1918/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-8200
+  name: "RFC 8200: Internet Protocol, Version 6 (IPv6) Specification"
+  url: "https://www.rfc-editor.org/info/rfc8200/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Specifies IPv6; it is Internet Standard 86 and obsoletes RFC 2460."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc8200/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-9293
+  name: "RFC 9293: Transmission Control Protocol (TCP)"
+  url: "https://www.rfc-editor.org/info/rfc9293/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "The current TCP specification, Internet Standard 7 from 2022; it replaces RFC 793 and gathers the changes made to it since."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc9293/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-2131
+  name: "RFC 2131: Dynamic Host Configuration Protocol"
+  url: "https://www.rfc-editor.org/info/rfc2131/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Specifies DHCP, which hands network configuration to hosts and extends BOOTP with automatic allocation of reusable addresses."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc2131/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: ieee-802-1-working-group
+  name: "IEEE 802.1 Working Group"
+  url: "https://1.ieee802.org/"
+  publisher: "IEEE 802"
+  section: protocols-and-standards
+  kind: organization
+  cost: free
+  description: "Home of the IEEE 802.1 group, which writes standards for LAN and MAN architecture, internetworking, security, and network management, including Time-Sensitive Networking."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://1.ieee802.org/"
+    how: script
+
+- id: iana-protocol-registries
+  name: "Protocol Registries (IANA)"
+  url: "https://www.iana.org/protocols"
+  publisher: "IANA (Public Technical Identifiers, an affiliate of ICANN)"
+  section: registries-and-numbering
+  kind: reference
+  cost: free
+  description: "IANA's index of the registries that record the codes and numbers used in Internet protocols."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.iana.org/protocols"
+    how: script
+  notes: "Publisher from the footer, which says the IANA functions are provided by Public Technical Identifiers, an affiliate of ICANN. The page's heading is Protocol Registries; the name in parentheses is the catalog's."
+
+- id: iana-port-numbers
+  name: "Service Name and Transport Protocol Port Number Registry"
+  url: "https://www.iana.org/assignments/service-names-port-numbers"
+  publisher: "IANA (Public Technical Identifiers, an affiliate of ICANN)"
+  section: registries-and-numbering
+  kind: reference
+  cost: free
+  description: "IANA's registry of assigned TCP, UDP, SCTP, and DCCP port numbers and service names, available as CSV, XML, HTML, and TXT."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.iana.org/assignments/service-names-port-numbers"
+    how: script
+  notes: "Publisher from the footer, which says the IANA functions are provided by Public Technical Identifiers, an affiliate of ICANN. The address ending in service-names-port-numbers.xhtml redirects here."
+
+- id: iana-ipv4-special-purpose-registry
+  name: "IPv4 Special-Purpose Address Space"
+  url: "https://www.iana.org/assignments/iana-ipv4-special-registry"
+  publisher: "IANA (Public Technical Identifiers, an affiliate of ICANN)"
+  section: registries-and-numbering
+  kind: reference
+  cost: free
+  description: "IANA's registry of IPv4 address blocks set aside for special purposes, available as XML, HTML, TXT, and CSV."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.iana.org/assignments/iana-ipv4-special-registry"
+    how: script
+  notes: "Publisher from the footer, which says the IANA functions are provided by Public Technical Identifiers, an affiliate of ICANN."
+
+- id: arin
+  name: "American Registry for Internet Numbers (ARIN)"
+  url: "https://www.arin.net/"
+  publisher: "American Registry for Internet Numbers"
+  section: registries-and-numbering
+  kind: organization
+  cost: freemium
+  description: "The nonprofit, member-based registry that administers IP addresses and AS numbers; its Whois is open to all, while number resources and transfers carry fees."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.arin.net/"
+    how: script
+  notes: "Cost: Whois is free (its RDAP service answered a lookup with no account on 2026-11-25). The fee schedule at https://www.arin.net/resources/fees/fee_schedule/ says an organization that receives number resources pays an annual Registration Services Plan fee, and it lists transfer fees."
+
+- id: ripe-ncc
+  name: "RIPE NCC"
+  url: "https://www.ripe.net/"
+  publisher: "RIPE NCC"
+  section: registries-and-numbering
+  kind: organization
+  cost: freemium
+  description: "Registry of IP addresses and AS numbers for Europe, Central Asia, and the Middle East, serving fee-paying members; it is also the RIPE community's secretariat."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ripe.net/"
+    how: script
+  notes: "Cost: the site and the RIPE Database are free to query (its RDAP service answered a lookup with no account on 2026-11-25). The page Become a RIPE NCC Member, at https://www.ripe.net/membership/member-support/become-a-member/, says a member pays a one-time sign-up fee and an annual membership fee."
+
+- id: apnic
+  name: "APNIC"
+  url: "https://www.apnic.net/"
+  publisher: "APNIC"
+  section: registries-and-numbering
+  kind: organization
+  cost: freemium
+  description: "The Regional Internet Registry for the Asia Pacific: getting IP addresses as a fee-paying member, transfers, moving to IPv6, and ways to take part."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.apnic.net/"
+    how: script
+  notes: "Cost: the site and Whois are free (its RDAP service answered a lookup with no account on 2026-11-25). The page How much does it cost?, at https://www.apnic.net/get-ip/apnic-membership/how-much-does-it-cost/, says an approved applicant is invoiced a sign-up fee and an annual membership fee based on its address holdings."
+
+- id: lacnic
+  name: "LACNIC"
+  url: "https://www.lacnic.net/en"
+  publisher: "LACNIC"
+  section: registries-and-numbering
+  kind: organization
+  cost: freemium
+  description: "The Internet address registry for Latin America and the Caribbean: Whois, IPv6 deployment, tools, R+D reports, and fee-based resource requests."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.lacnic.net/en"
+    how: browser
+  notes: "The page needs a browser. The first clause translates the page's summary line, which is in Spanish. The five items named are tiles on the English page that loaded on every visit on 2026-11-25; a sixth tile is Events. The rest of the page, which on a full load also shows a Community banner for policy development, loaded on some visits and on others stayed on a loading message or showed a 502 for its announcements. Cost: Whois is free (its RDAP service answered a lookup with no account on 2026-11-25). The page Membership Fees and Categories, at https://www.lacnic.net/en/membership/categories-and-fees, read in a browser, says that to obtain IP addresses a requester pays an initial assignment fee, and it lists annual fees by category."
+
+- id: afrinic
+  name: "AFRINIC"
+  url: "https://afrinic.net/"
+  publisher: "African Network Information Centre (AFRINIC)"
+  section: registries-and-numbering
+  kind: organization
+  cost: freemium
+  description: "The registry that allocates and manages IPv4, IPv6, and AS number resources in Africa for fee-paying members, with its news and Whois."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://afrinic.net/"
+    how: script
+  notes: "Cost: the site and Whois are free (its RDAP service answered a lookup with no account on 2026-11-25). The page Fees & Payment, at https://afrinic.net/fees-payment, says an approved applicant pays an allocation or assignment fee and an annual membership fee."
+
+- id: peeringdb
+  name: "PeeringDB"
+  url: "https://www.peeringdb.com/"
+  publisher: "PeeringDB"
+  section: registries-and-numbering
+  kind: dataset
+  cost: free
+  description: "Database of networks, Internet exchanges, facilities, and carriers that its users maintain, free to use and consulted when making interconnection decisions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.peeringdb.com/"
+    how: script
+
+- id: icann-lookup
+  name: "ICANN Lookup"
+  url: "https://lookup.icann.org/en"
+  publisher: "ICANN"
+  section: registries-and-numbering
+  kind: service
+  cost: free
+  description: "ICANN's tool for current registration data: type in a domain name, IP network, or AS number, and it fetches the record over RDAP."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://lookup.icann.org/en"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. https://lookup.icann.org/ redirects here."
+
+- id: bgp-tools
+  name: "BGP.Tools"
+  url: "https://bgp.tools/"
+  publisher: "Port 179 Ltd"
+  section: lookup-and-diagnostic-tools
+  kind: service
+  cost: freemium
+  description: "Search by ASN, prefix, DNS name, or MAC address for near-realtime BGP data; network monitoring and API credits are for paid users."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://bgp.tools/"
+    how: script
+  notes: "The home page lists what is free and what is for paid users. Publisher from the footer."
+
+- id: ripestat
+  name: "RIPEstat"
+  url: "https://stat.ripe.net/"
+  publisher: "RIPE NCC"
+  section: lookup-and-diagnostic-tools
+  kind: service
+  cost: free
+  description: "Look up an IP address, ASN, hostname, or country code and see data and visualisations about it, as widgets or through a data API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://stat.ripe.net/"
+    how: script
+  notes: "The page text does not name its operator; the site is on the RIPE NCC's domain."
+
+- id: ripe-atlas
+  name: "RIPE Atlas"
+  url: "https://atlas.ripe.net/"
+  publisher: "RIPE NCC"
+  section: lookup-and-diagnostic-tools
+  kind: service
+  cost: free-with-account
+  description: "The RIPE NCC's Internet measurement system of probes and anchors: browse its public measurements, maps, and statistics, or run your own with a free account."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://atlas.ripe.net/"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. The page says public data needs no account and that running measurements needs a free RIPE NCC Access account."
+
+- id: dnsviz
+  name: "DNSViz"
+  url: "https://dnsviz.net/"
+  publisher: "Casey Deccio"
+  section: lookup-and-diagnostic-tools
+  kind: service
+  cost: free
+  description: "Enter a domain name to get a diagram of its DNSSEC authentication chain, with the configuration errors the tool found."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dnsviz.net/"
+    how: script
+  notes: "Publisher from the newest copyright line on the page; earlier ones name Sandia Corporation and VeriSign."
+
+- id: iperf3
+  name: "iperf3"
+  url: "https://github.com/esnet/iperf"
+  publisher: "ESnet (Energy Sciences Network)"
+  section: lookup-and-diagnostic-tools
+  kind: tool
+  cost: free
+  description: "Measures the maximum bandwidth achievable on an IP network over TCP, UDP, or SCTP; maintained by ESnet."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/esnet/iperf"
+    how: script
+  notes: "Publisher is the display name of the GitHub organization. Last commit on the default branch: 2026-11-24."
+
+- id: mtr
+  name: "mtr"
+  url: "https://github.com/traviscross/mtr"
+  publisher: "Travis Cross (traviscross)"
+  section: lookup-and-diagnostic-tools
+  kind: tool
+  cost: free
+  description: "Network diagnostic tool that does the work of traceroute and ping in one program."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/traviscross/mtr"
+    how: script
+  notes: "Last commit on the default branch: 2026-11-22."
+
+- id: netbox
+  name: "NetBox"
+  url: "https://github.com/netbox-community/netbox"
+  publisher: "NetBox Community"
+  section: lookup-and-diagnostic-tools
+  kind: tool
+  cost: free
+  description: "Open source application for documenting and modeling a network, from cabling to device configuration, kept as the authoritative record for network automation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/netbox-community/netbox"
+    how: script
+  notes: "The repository also advertises a hosted NetBox Cloud, which the entry does not cover. Last commit on the default branch: 2026-11-25."
+
+- id: test-ipv6
+  name: "Test your IPv6"
+  url: "https://test-ipv6.com/"
+  publisher: "APNIC Labs"
+  section: lookup-and-diagnostic-tools
+  kind: service
+  cost: free
+  description: "Tests whether your browser and connection can reach sites over IPv6, and displays the IPv4 and IPv6 addresses you are using."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://test-ipv6.com/"
+    how: script
+  notes: "Publisher from the copyright line on the page."
+
+- id: route-views
+  name: "RouteViews"
+  url: "https://www.routeviews.org/routeviews/"
+  publisher: "University of Oregon (Network Startup Resource Center)"
+  section: lookup-and-diagnostic-tools
+  kind: dataset
+  cost: free
+  description: "Archive of BGP routing data collected from networks around the world, free for operations and research with attribution."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.routeviews.org/routeviews/"
+    how: script
+  notes: "The page says the data is under CC BY 4.0 and has separate commercial terms of use."
+
+- id: tcpdump
+  name: "tcpdump and libpcap"
+  url: "https://www.tcpdump.org/"
+  publisher: "The Tcpdump Group"
+  section: lookup-and-diagnostic-tools
+  kind: tool
+  cost: free
+  description: "Project site for the tcpdump packet analyzer, a command-line tool, and for libpcap, a library for capturing network traffic, with releases, man pages, and documentation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.tcpdump.org/"
+    how: script
+
+- id: packet-pushers
+  name: "Packet Pushers"
+  url: "https://packetpushers.net/"
+  publisher: "Packet Pushers Interactive, LLC"
+  section: learning-and-community
+  kind: news
+  cost: free
+  description: "Podcast network for network engineers and IT infrastructure professionals, with a blog, newsletters, and videos; the content is free and ungated."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://packetpushers.net/"
+    how: script
+  notes: "On 2026-11-25 the site carried a banner reading Meter Acquires Packet Pushers, and its post of November 2, 2026, Packet Pushers By Meter Goes Sponsor-Free In 2027, says Packet Pushers is an independent subsidiary of Meter. The footer copyright still names Packet Pushers Interactive, LLC, which is the publisher given here."
+
+- id: ipspace-blog
+  name: "ipSpace.net blog"
+  url: "https://blog.ipspace.net/"
+  publisher: "ipSpace.net AG"
+  section: learning-and-community
+  kind: news
+  cost: free
+  description: "ipSpace.net's blog on routing, network automation, public cloud, and data center networking."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.ipspace.net/"
+    how: script
+
+- id: network-engineering-stack-exchange
+  name: "Network Engineering Stack Exchange"
+  url: "https://networkengineering.stackexchange.com/"
+  publisher: "Stack Exchange Inc"
+  section: learning-and-community
+  kind: community
+  cost: free
+  description: "Question-and-answer site for network engineers, with questions tagged by topic such as routing, switching, and VLANs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://networkengineering.stackexchange.com/"
+    how: script
+
+- id: apnic-blog
+  name: "APNIC Blog"
+  url: "https://blog.apnic.net/"
+  publisher: "APNIC"
+  section: learning-and-community
+  kind: news
+  cost: free
+  description: "APNIC's blog, where the Internet community discusses network engineering and Internet topics."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.apnic.net/"
+    how: script
+  notes: "The subject, network engineering and the Internet, comes from the page's summary line; the page body is the list of posts."
+
+- id: ripe-labs
+  name: "RIPE Labs"
+  url: "https://labs.ripe.net/"
+  publisher: "RIPE NCC"
+  section: learning-and-community
+  kind: news
+  cost: free
+  description: "The RIPE NCC's community site, where contributors publish articles and analyses about the Internet, and where new tools are showcased and tested."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://labs.ripe.net/"
+    how: script

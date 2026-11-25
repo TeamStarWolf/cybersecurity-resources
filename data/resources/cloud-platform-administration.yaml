@@ -1,0 +1,590 @@
+# Resources in the domain "cloud-platform-administration". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: aws-documentation
+  name: "AWS Documentation"
+  url: "https://docs.aws.amazon.com/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: documentation
+  cost: free
+  description: "Entry point to AWS's guides and references by service category, with tutorials, decision guides, and prescriptive guidance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/"
+    how: script
+
+- id: aws-architecture-center
+  name: "AWS Architecture Center"
+  url: "https://aws.amazon.com/architecture/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: reference
+  cost: free
+  description: "AWS's reference architectures, decision guides, and best practices for designing workloads on its cloud."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://aws.amazon.com/architecture/"
+    how: script
+
+- id: aws-well-architected
+  name: "AWS Well-Architected"
+  url: "https://aws.amazon.com/architecture/well-architected/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: standard
+  cost: free
+  description: "AWS's framework for reviewing a workload against six pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://aws.amazon.com/architecture/well-architected/"
+    how: script
+
+- id: aws-pricing-calculator
+  name: "AWS Pricing Calculator"
+  url: "https://calculator.aws/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: service
+  cost: free
+  description: "Build a cost estimate for a planned AWS architecture; the public calculator works without signing in."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://calculator.aws/#/"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. Signing in to the AWS console adds your own discounts to an estimate, which the entry does not describe."
+
+- id: aws-health-dashboard
+  name: "AWS Health Dashboard"
+  url: "https://health.aws.amazon.com/health/status"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: status
+  cost: free
+  description: "Status of AWS services now and in the past, on tabs for open and recent issues and for service history."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://health.aws.amazon.com/health/status"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. The page also offers a signed-in view of events for your own account, which the entry does not describe."
+
+- id: aws-whats-new
+  name: "What's New with AWS"
+  url: "https://aws.amazon.com/new/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: reference
+  cost: free
+  description: "AWS's running list of launch and feature announcements."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://aws.amazon.com/new/"
+    how: script
+
+- id: aws-cli-command-reference
+  name: "AWS CLI Command Reference"
+  url: "https://docs.aws.amazon.com/cli/latest/reference/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: documentation
+  cost: free
+  description: "Reference for version 2 of the aws command: synopsis, global options, and the services it can manage."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/cli/latest/reference/"
+    how: script
+
+- id: aws-prescriptive-guidance
+  name: "AWS Prescriptive Guidance"
+  url: "https://aws.amazon.com/prescriptive-guidance/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: reference
+  cost: free
+  description: "Guides and patterns from AWS and its partners for migrating to and modernizing on AWS, including a security reference architecture."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://aws.amazon.com/prescriptive-guidance/"
+    how: script
+
+- id: aws-repost
+  name: "AWS re:Post"
+  url: "https://repost.aws/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: community
+  cost: free
+  description: "AWS's question-and-answer community, with expert-reviewed answers and official AWS knowledge articles, organized by topic."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://repost.aws/"
+    how: script
+
+- id: aws-general-reference
+  name: "AWS General Reference"
+  url: "https://docs.aws.amazon.com/general/latest/gr/Welcome.html"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: documentation
+  cost: free
+  description: "Where AWS documents service endpoints and quotas, its IP address ranges, security credentials, and glossary."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/general/latest/gr/Welcome.html"
+    how: script
+
+- id: amazon-eks-documentation
+  name: "Amazon Elastic Kubernetes Service Documentation"
+  url: "https://docs.aws.amazon.com/eks/"
+  publisher: "Amazon Web Services"
+  section: aws
+  kind: documentation
+  cost: free
+  description: "AWS's documentation set for EKS: the user guide, best practices guide, API and CLI references, and the eksctl tool."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/eks/"
+    how: script
+
+- id: azure-documentation
+  name: "Azure documentation"
+  url: "https://learn.microsoft.com/en-us/azure/"
+  publisher: "Microsoft"
+  section: azure
+  kind: documentation
+  cost: free
+  description: "Microsoft's entry point to the documentation for Azure services, browsable by product category."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/"
+    how: script
+
+- id: azure-architecture-center
+  name: "Azure Architecture Center"
+  url: "https://learn.microsoft.com/en-us/azure/architecture/"
+  publisher: "Microsoft"
+  section: azure
+  kind: reference
+  cost: free
+  description: "Microsoft's guidance for designing solutions on Azure: reference architectures, example workloads, technology decision guides, and design patterns."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/architecture/"
+    how: script
+
+- id: azure-cloud-adoption-framework
+  name: "Cloud Adoption Framework for Microsoft"
+  url: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/"
+  publisher: "Microsoft"
+  section: azure
+  kind: standard
+  cost: free
+  description: "Microsoft's guidance for decision makers on adopting Azure across an organization, with the key adoption scenarios."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/"
+    how: script
+
+- id: azure-well-architected-framework
+  name: "Azure Well-Architected Framework"
+  url: "https://learn.microsoft.com/en-us/azure/well-architected/"
+  publisher: "Microsoft"
+  section: azure
+  kind: standard
+  cost: free
+  description: "Microsoft's design framework for Azure workloads: pillars, workload-specific guidance, service guides, and review tools."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/well-architected/"
+    how: script
+
+- id: azure-pricing-calculator
+  name: "Azure Pricing Calculator"
+  url: "https://azure.microsoft.com/en-us/pricing/calculator/"
+  publisher: "Microsoft"
+  section: azure
+  kind: service
+  cost: free
+  description: "Estimate the upfront and monthly cost of Azure products by adding products one at a time or starting from an estimate template."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://azure.microsoft.com/en-us/pricing/calculator/"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. Logging in saves estimates and applies agreement pricing, which the entry does not describe."
+
+- id: azure-status
+  name: "Azure status"
+  url: "https://azure.status.microsoft/en-us/status"
+  publisher: "Microsoft"
+  section: azure
+  kind: status
+  cost: free
+  description: "Microsoft's status page for widespread Azure incidents, by region, with a link to its status history."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://azure.status.microsoft/en-us/status"
+    how: script
+  notes: "The page says it is used only for widespread incidents and sends signed-in users to Azure Service Health for their own services."
+
+- id: azure-updates
+  name: "Azure Updates"
+  url: "https://azure.microsoft.com/en-us/updates/"
+  publisher: "Microsoft"
+  section: azure
+  kind: reference
+  cost: free
+  description: "Microsoft's list of updates to Azure products and features, each marked in development, in preview, or launched, with filters by product and a notification subscription."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://azure.microsoft.com/en-us/updates/"
+    how: browser
+  notes: "A plain HTTP client gets the page's summary line and menus but not the list of updates; read in a browser. The summary line mentions a Cloud Platform roadmap that the page body does not show."
+
+- id: azure-cli-documentation
+  name: "Azure Command-Line Interface (CLI) documentation"
+  url: "https://learn.microsoft.com/en-us/cli/azure/"
+  publisher: "Microsoft"
+  section: azure
+  kind: documentation
+  cost: free
+  description: "Documentation for Azure CLI, which manages Azure resources from a terminal on any platform: installation, authentication, and the command reference."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/cli/azure/?view=azure-cli-latest"
+    how: script
+
+- id: azure-bicep-documentation
+  name: "Bicep documentation"
+  url: "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/"
+  publisher: "Microsoft"
+  section: azure
+  kind: documentation
+  cost: free
+  description: "Documentation for writing Bicep files and deploying Azure resources from them, with quickstarts, how-to guides, and reference."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/"
+    how: script
+
+- id: azure-charts
+  name: "Azure Charts"
+  url: "https://azurecharts.com/"
+  publisher: "Aleksei Polkovnikov"
+  section: azure
+  kind: reference
+  cost: free-with-account
+  status: unverified
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://azurecharts.com/"
+    how: browser
+  notes: "Held out on 2026-11-25: the home page says access is currently limited to approved users and organizations, and its Heat Maps, Signals, and Overview links lead to a sign-in page, which was not used. Nothing a reader without approval can use was found beyond the home page. The home page says the site was created by Aleksei Polkovnikov, a Microsoft Cloud Solution Architect; it is not on a Microsoft domain. The home page states no price; the cost recorded here says only that an approved sign-in is needed, and is not confirmed."
+
+- id: azure-subscription-limits
+  name: "Azure subscription and service limits, quotas, and constraints"
+  url: "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits"
+  publisher: "Microsoft"
+  section: azure
+  kind: reference
+  cost: free
+  description: "Microsoft's tables of the most common limits and quotas for Azure subscriptions, resource groups, and individual services, with how to raise them."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits"
+    how: script
+
+- id: azure-powershell-documentation
+  name: "Azure PowerShell documentation"
+  url: "https://learn.microsoft.com/en-us/powershell/azure/"
+  publisher: "Microsoft"
+  section: azure
+  kind: documentation
+  cost: free
+  description: "Documentation for the Azure PowerShell modules: installation, authentication, and the cmdlet reference."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/powershell/azure/?view=azps-17.0.0"
+    how: script
+
+- id: azure-kubernetes-service-documentation
+  name: "Azure Kubernetes Service (AKS) documentation"
+  url: "https://learn.microsoft.com/en-us/azure/aks/"
+  publisher: "Microsoft"
+  section: azure
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for running Kubernetes clusters on Azure with AKS: quickstarts, tutorials, concepts, and architecture guidance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/aks/"
+    how: script
+
+- id: google-cloud-documentation
+  name: "Google Cloud Documentation"
+  url: "https://docs.cloud.google.com/docs"
+  publisher: "Google"
+  section: google-cloud
+  kind: documentation
+  cost: free
+  description: "Google Cloud's documentation home: product guides, an overview of the platform, setup guidance, and material for people coming from AWS or Azure."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/docs"
+    how: script
+
+- id: google-cloud-architecture-center
+  name: "Cloud Architecture Center"
+  url: "https://docs.cloud.google.com/architecture"
+  publisher: "Google"
+  section: google-cloud
+  kind: reference
+  cost: free
+  description: "Google Cloud's hub for design guidance and reference architectures, with deployment archetypes, landing zone design, and the enterprise foundations blueprint."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/architecture"
+    how: script
+
+- id: google-cloud-pricing-calculator
+  name: "Google Cloud Pricing Calculator"
+  url: "https://cloud.google.com/products/calculator"
+  publisher: "Google"
+  section: google-cloud
+  kind: service
+  cost: free
+  description: "Add and configure Google Cloud products to build a cost estimate that can be shared with a team."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cloud.google.com/products/calculator"
+    how: script
+  notes: "Signing in shows the pricing of your own billing account, which the entry does not describe."
+
+- id: google-cloud-service-health
+  name: "Google Cloud Service Health"
+  url: "https://status.cloud.google.com/"
+  publisher: "Google"
+  section: google-cloud
+  kind: status
+  cost: free
+  description: "Google's public status page for Cloud products, by product and location, with an incident history."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://status.cloud.google.com/"
+    how: script
+
+- id: google-cloud-release-notes
+  name: "Google Cloud release notes"
+  url: "https://docs.cloud.google.com/release-notes"
+  publisher: "Google"
+  section: google-cloud
+  kind: reference
+  cost: free
+  description: "Dated release notes for Google Cloud products in one list."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/release-notes"
+    how: script
+
+- id: gcloud-reference
+  name: "gcloud reference"
+  url: "https://docs.cloud.google.com/sdk/gcloud/reference"
+  publisher: "Google"
+  section: google-cloud
+  kind: documentation
+  cost: free
+  description: "Reference for the gcloud command, which handles authentication, local configuration, and calls to the Google Cloud APIs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/sdk/gcloud/reference"
+    how: script
+  notes: "The page's heading is gcloud; its title adds Google Cloud SDK."
+
+- id: google-cloud-well-architected-framework
+  name: "Google Cloud Well-Architected Framework"
+  url: "https://docs.cloud.google.com/architecture/framework"
+  publisher: "Google"
+  section: google-cloud
+  kind: standard
+  cost: free
+  description: "Google's recommendations for designing and operating a cloud topology, grouped into pillars, with perspectives that cut across them and a set of core principles."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/architecture/framework"
+    how: script
+
+- id: google-cloud-service-comparison
+  name: "Compare AWS and Azure services to Google Cloud"
+  url: "https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison"
+  publisher: "Google"
+  section: google-cloud
+  kind: reference
+  cost: free
+  description: "Google's table that maps its generally available cloud services to the nearest AWS and Azure offerings."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison"
+    how: script
+  notes: "The page says it was last updated on December 3, 2024; newer services may be missing. That is under the two years after which a reference is marked dormant."
+
+- id: google-kubernetes-engine-documentation
+  name: "Google Kubernetes Engine documentation"
+  url: "https://docs.cloud.google.com/kubernetes-engine/docs"
+  publisher: "Google"
+  section: google-cloud
+  kind: documentation
+  cost: free
+  description: "Google's documentation for GKE: guides, tutorials including AI and ML workloads, and references."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/kubernetes-engine/docs"
+    how: script
+
+- id: terraform-documentation
+  name: "Terraform Documentation"
+  url: "https://developer.hashicorp.com/terraform/docs"
+  publisher: "HashiCorp"
+  section: multi-cloud-and-infrastructure-as-code
+  kind: documentation
+  cost: free
+  description: "HashiCorp's documentation for Terraform Enterprise, HCP Terraform, and the CLI, from an introduction to managing infrastructure and collaborating."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.hashicorp.com/terraform/docs"
+    how: script
+
+- id: opentofu-documentation
+  name: "OpenTofu Documentation"
+  url: "https://opentofu.org/docs/"
+  publisher: "OpenTofu, a Linux Foundation project"
+  section: multi-cloud-and-infrastructure-as-code
+  kind: documentation
+  cost: free
+  description: "Documentation for OpenTofu by version: getting started, the configuration language, the CLI, and internals."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://opentofu.org/docs/"
+    how: script
+  notes: "Publisher from the footer copyright, OpenTofu a Series of LF Projects, LLC."
+
+- id: pulumi-documentation
+  name: "Pulumi Docs"
+  url: "https://www.pulumi.com/docs/"
+  publisher: "Pulumi Corp"
+  section: multi-cloud-and-infrastructure-as-code
+  kind: documentation
+  cost: free
+  description: "Pulumi's documentation for writing infrastructure as code in languages such as TypeScript, Python, Go, C#, and Java, or in YAML or HCL."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.pulumi.com/docs/"
+    how: script
+
+- id: cncf-landscape
+  name: "CNCF Landscape"
+  url: "https://landscape.cncf.io/"
+  publisher: "Cloud Native Computing Foundation (The Linux Foundation)"
+  section: multi-cloud-and-infrastructure-as-code
+  kind: reference
+  cost: free
+  description: "The CNCF's map of cloud native projects and products, grouped by category, with further views for members and for certified partners and providers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://landscape.cncf.io/"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. Publisher from the footer copyright, The Linux Foundation."
+
+- id: finops-framework
+  name: "FinOps Framework"
+  url: "https://www.finops.org/framework/"
+  publisher: "FinOps Foundation, a Linux Foundation project"
+  section: multi-cloud-and-infrastructure-as-code
+  kind: standard
+  cost: free
+  description: "The FinOps Foundation's operating model for managing technology spending: domains and capabilities, personas, phases, maturity, and principles."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.finops.org/framework/"
+    how: script
+  notes: "Publisher from the footer copyright, FinOps Foundation Project a Series of LF Projects, LLC."
+
+- id: vantage-instances
+  name: "Amazon EC2 Instance Comparison (Vantage)"
+  url: "https://instances.vantage.sh/"
+  publisher: "Vantage"
+  section: multi-cloud-and-infrastructure-as-code
+  kind: reference
+  cost: free
+  description: "Table for comparing EC2 instances by specification and price in a chosen region, plus tabs for other AWS services, Azure, and GCP."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://instances.vantage.sh/"
+    how: script
+  notes: "The page's title is Amazon EC2 Instance Comparison and it says it is presented by Vantage. The page's summary line calls the tool free; the table loaded without signing in on 2026-11-25."
+
+- id: azure-for-aws-professionals
+  name: "Azure for AWS professionals"
+  url: "https://learn.microsoft.com/en-us/azure/architecture/aws-professional/"
+  publisher: "Microsoft"
+  section: multi-cloud-and-infrastructure-as-code
+  kind: reference
+  cost: free
+  description: "Microsoft's guide for people who know AWS: the way accounts and resources are organized on Azure, and how its services compare with AWS's by category."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/architecture/aws-professional/"
+    how: script
+
+- id: cloud-init-documentation
+  name: "cloud-init documentation"
+  url: "https://docs.cloud-init.io/en/latest/"
+  publisher: "Canonical"
+  section: multi-cloud-and-infrastructure-as-code
+  kind: documentation
+  cost: free
+  description: "Documentation for cloud-init, which initializes cloud instances across distributions and platforms."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud-init.io/en/latest/"
+    how: script
+  notes: "Publisher from the footer copyright, Canonical Group Ltd."

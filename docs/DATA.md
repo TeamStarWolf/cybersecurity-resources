@@ -54,6 +54,8 @@ Every page in this repository is generated from the files under `data/`. To chan
 
 A description is the catalog's own sentence. It may not share a run of five or more consecutive words with what the page says about itself: its meta description, its title, its first heading, or its opening paragraphs. The resource's own name is excepted, and so are its former name and its publisher: a shared run counts unless those names account for every word of it. "The", "a", and "an" in front of a name are not counted.
 
+An opening paragraph is any paragraph or list item of five or more words, however short: a six-word first line counts. The check reads them until it has read eight that are 40 or more characters long, so short lines do not use up the opening.
+
 Write the sentence from what the page covers: its sections, its table of contents, what the tool does. Do not start from the page's summary line and change words. A review finding quotes the page as evidence; the description that follows from it still has to be yours.
 
 `python scripts/check_links.py --wording` measures this for every shown record and exits 1 if any description is over the threshold. `--only domain-id,domain-id` limits it to the domains you changed. It needs the network, so it is a required step before a pull request and a weekly report, not a check on every push.

@@ -19,7 +19,8 @@ see a page that keeps its name while changing what it offers, and it cannot read
 
 A description has to be the catalog's own sentence. --wording takes what each page says about itself (its
 meta descriptions, its title, its first heading, and its opening paragraphs) and finds the longest run of
-consecutive words that the record's description shares with any of them. A run of five or more words is
+consecutive words that the record's description shares with any of them. An opening paragraph is a paragraph or
+list item of five or more words, however short, so a six-word first line is read. A run of five or more words is
 reported, unless the resource's own name, former name, and publisher account for every word of it but the articles. It needs the network, so it is run by hand before a pull
 request and by a weekly job, not on every push. It finds copied runs of words; it cannot find a sentence that
 follows its source with one word in five changed, and it cannot read a page that needs a browser.
@@ -59,6 +60,7 @@ WORD_RE = re.compile(r"[a-z0-9]+(?:'[a-z]+)?")
 # A description may not share this many consecutive words with its page's own summary.
 MIN_RUN = 5
 OPENING_PARAGRAPHS = 8
+LONG_PARAGRAPH = 40  # characters; only paragraphs this long count toward OPENING_PARAGRAPHS
 WRITE_OUT = r"\n%{http_code}\t%{url_effective}"
 # Words a page uses when it answers 200 but has nothing at the address.
 NOT_THERE = ("page not found", "404 not found", "no terms match", "no results found", "no matching results",
@@ -69,6 +71,25 @@ SMALL_WORDS = {"the", "and", "for", "of", "a", "an", "to", "in", "on", "by", "wi
 
 def clean(fragment: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(TAG_RE.sub(" ", fragment))).strip()
+
+
+def opening_paragraphs(paragraphs: list[str]) -> list[str]:
+    """The paragraphs and list items that make up a page's opening: every one of MIN_RUN or more words, up to and
+    including the OPENING_PARAGRAPHS-th that is LONG_PARAGRAPH or more characters long.
+
+    The floor is counted in words, not characters, because a run of MIN_RUN words fits in a line much shorter than
+    a paragraph: "Find and fix cloud security risks." is six words in 34 characters. A short line is read without
+    using up one of the OPENING_PARAGRAPHS, so a page that opens with a list of short items still has its first
+    full paragraphs read."""
+    taken, long_seen = [], 0
+    for paragraph in paragraphs:
+        if len(word_list(paragraph)) < MIN_RUN:
+            continue
+        taken.append(paragraph)
+        long_seen += len(paragraph) >= LONG_PARAGRAPH
+        if long_seen == OPENING_PARAGRAPHS:
+            break
+    return taken
 
 
 def read_page(body: bytes) -> dict:
@@ -89,7 +110,7 @@ def read_page(body: bytes) -> dict:
     if heading:
         sources.append(["heading", clean(heading.group(1))[:400]])
     paragraphs = [clean(m.group(2)) for m in PARA_RE.finditer(CHROME_RE.sub(" ", visible))]
-    sources += [["opening", p[:800]] for p in paragraphs if len(p) >= 40][:OPENING_PARAGRAPHS]
+    sources += [["opening", p[:800]] for p in opening_paragraphs(paragraphs)]
     return {"title": clean(title.group(1))[:120] if title else "",
             "h1": clean(heading.group(1))[:120] if heading else "",
             "says": says,
@@ -370,11 +391,20 @@ def self_test() -> int:
     with_article = dict(both, description="Search site for the Known Exploited Flaw Catalog, with one row for each flaw.")
     with_more = dict(both, description="The national Known Exploited Flaw Catalog, with one row for each flaw.")
     article_page = page('<meta name="description" content="Explore the Known Exploited Flaw Catalog."><p>Welcome to the national Known Exploited Flaw Catalog, which is updated on working days.</p>')
+    # A short first line is an opening paragraph too: six words in 34 characters.
+    short_line = {"name": "Example Finder", "publisher": "Example Company",
+                  "description": "Find and fix cloud security risks across accounts and regions."}
+    short_opening = page("<title>Example Finder</title><main><p>Find and fix cloud security risks.</p></main>")
+    # Short lines do not use up the opening: a copied run in the paragraph after nine of them is still found.
+    crumbs = "".join(f"<li>Read the guide for step {n}</li>" for n in range(9))
+    after_short = page(f"<title>Example Scanner</title><main><ul>{crumbs}</ul><p>Example Scanner is {tagline}, written in C.</p></main>")
     found = wording_problem(copied, in_meta)
     planted = [
         ("a description copied from the meta description", found is not None and found[0] == 10 and found[2] == "meta"),
         ("a description copied from a social-card description", wording_problem(copied, in_og) is not None),
         ("a description copied from the opening paragraph", (wording_problem(copied, in_opening) or (0, "", ""))[2] == "opening"),
+        ("a description copied from a short first line", (wording_problem(short_line, short_opening) or (0, "", ""))[::2] == (6, "opening")),
+        ("short lines do not push a later paragraph out of the opening", (wording_problem(copied, after_short) or (0, "", ""))[2] == "opening"),
         ("the catalog's own sentence", wording_problem(own, in_meta) is None),
         ("the same words inside a script are not page text", wording_problem(copied, in_code) is None),
         ("the same words inside the site menu are not the opening", wording_problem(copied, in_menu) is None),
@@ -396,9 +426,10 @@ def self_test() -> int:
           "and neither a longer address than an exact entry nor a CI-only entry was excused; "
           "5 planted pages: the hub, the empty filter and the page with no heading were flagged, "
           "the right page and wording inside a script were not; "
-          "12 planted descriptions: copies of a meta description, a social-card description and an opening "
-          "paragraph were caught, and so were a copied run with name words in the middle of it and a name with "
-          "another shared word in front of it; the catalog's own sentence, words in a script or a menu, the "
+          "14 planted descriptions: copies of a meta description, a social-card description, an opening "
+          "paragraph and a six-word first line were caught, and so were a copied run after nine short lines, a "
+          "copied run with name words in the middle of it and a name with another shared word in front of it; "
+          "the catalog's own sentence, words in a script or a menu, the "
           "resource's own name, its publisher and name together, and the name after an article were not")
     return 1 if problems else 0
 
