@@ -1,0 +1,641 @@
+# Resources in the domain "databases-and-data-platforms". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: postgresql-documentation
+  name: "PostgreSQL Documentation"
+  url: "https://www.postgresql.org/docs/"
+  publisher: "PostgreSQL Global Development Group"
+  section: relational-databases
+  kind: documentation
+  cost: free
+  description: "Entry page to the PostgreSQL manuals: versions 15 through 19 online and as PDF, a development snapshot, translated manuals, and an archive of older versions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.postgresql.org/docs/"
+    how: script
+  notes: "Publisher from the footer copyright, in the form the catalog's other PostgreSQL entry uses."
+
+- id: mariadb-documentation
+  name: "MariaDB Documentation"
+  url: "https://mariadb.com/docs/"
+  publisher: "MariaDB"
+  section: relational-databases
+  kind: documentation
+  cost: free
+  description: "MariaDB's documentation for the Community and Enterprise servers: a guide from install to first query, then paths for developing, analytics, migrating, deploying, and production."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://mariadb.com/docs/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: sql-server-documentation
+  name: "SQL Server technical documentation"
+  url: "https://learn.microsoft.com/en-us/sql/sql-server/"
+  publisher: "Microsoft"
+  section: relational-databases
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation hub for SQL Server: what's new, quickstarts, downloads and deployment, database design, querying, business intelligence, and reference, with links to Azure SQL."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver17"
+    how: script
+  notes: "The page adds a version to the address as a query; the address listed is the one without it."
+
+- id: oracle-database-documentation
+  name: "Oracle AI Database Documentation"
+  url: "https://docs.oracle.com/en/database/oracle/oracle-database/"
+  publisher: "Oracle"
+  section: relational-databases
+  kind: documentation
+  cost: free
+  description: "Oracle's documentation library for its database, by release from 26ai back to 11g: getting started, what's new, and books on administration, development, installation, and security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.oracle.com/en/database/oracle/oracle-database/"
+    how: script
+
+- id: sqlite-documentation
+  name: "SQLite Documentation"
+  url: "https://www.sqlite.org/docs.html"
+  publisher: "Hwaci"
+  section: relational-databases
+  kind: documentation
+  cost: free
+  description: "Index of SQLite's documentation: overview documents, SQL syntax, pragmas and functions, the C/C++ interface, the CLI, and lists of every document by title and keyword."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sqlite.org/docs.html"
+    how: script
+  notes: "Publisher from https://www.sqlite.org/copyright.html, read on 2026-11-25, which calls Hwaci the company that employs all the developers of SQLite. The same page says the code is in the public domain and that Hwaci sells a warranty of title; the documentation is free to read."
+
+- id: postgresql-wiki
+  name: "PostgreSQL wiki"
+  url: "https://wiki.postgresql.org/wiki/Main_Page"
+  publisher: "PostgreSQL Global Development Group"
+  section: relational-databases
+  kind: reference
+  cost: free
+  description: "Community wiki for PostgreSQL: FAQs, guides and tutorials, code snippets, installation guides, advice on converting from other databases, and a working area for contributors."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://wiki.postgresql.org/wiki/Main_Page"
+    how: script
+  notes: "The page carries no copyright line. Publisher follows the project's main site: the page says editing here needs a PostgreSQL community account, the same one used on www.postgresql.org."
+
+- id: mongodb-documentation
+  name: "MongoDB Docs"
+  url: "https://www.mongodb.com/docs/"
+  publisher: "MongoDB, Inc."
+  section: non-relational-and-streaming
+  kind: documentation
+  cost: free
+  description: "MongoDB's documentation home: getting started, choosing a deployment, developing with the query language and data modeling, managing deployments, and client libraries for most programming languages."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.mongodb.com/docs/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: redis-documentation
+  name: "Redis Docs"
+  url: "https://redis.io/docs/latest/"
+  publisher: "Redis Inc."
+  section: non-relational-and-streaming
+  kind: documentation
+  cost: free
+  description: "Redis documentation home: developing by language, vector and AI features, streams, and running Redis Open Source, Redis Software, Redis for Kubernetes, or Redis Cloud."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://redis.io/docs/latest/"
+    how: script
+  notes: "Publisher from the site's terms of use, https://redis.io/legal/redis-website-terms-of-use/, read on 2026-11-25, which begin with Redis Inc. and its affiliates; this page carries no copyright line."
+
+- id: valkey-documentation
+  name: "Valkey Documentation"
+  url: "https://valkey.io/docs/"
+  publisher: "Valkey contributors"
+  section: non-relational-and-streaming
+  kind: documentation
+  cost: free
+  description: "Entry page to documentation for Valkey: a reference of all commands, topic-by-topic documentation, recommended client libraries, integrations, and the Valkey Admin interface."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://valkey.io/docs/"
+    how: script
+  notes: "Publisher from the footer copyright, which also says the Valkey name and logo are trademarks of LF Projects, LLC."
+
+- id: apache-cassandra-documentation
+  name: "Apache Cassandra Documentation"
+  url: "https://cassandra.apache.org/doc/latest/"
+  publisher: "Apache Software Foundation"
+  section: non-relational-and-streaming
+  kind: documentation
+  cost: free
+  description: "Contents page of the Apache Cassandra documentation: getting started, architecture, data modeling, the CQL reference, configuration, operating, tools such as cqlsh and nodetool, and troubleshooting."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cassandra.apache.org/doc/latest/"
+    how: script
+  notes: "The address is a versionless alias."
+
+- id: apache-kafka-documentation
+  name: "Apache Kafka Documentation"
+  url: "https://kafka.apache.org/documentation/"
+  publisher: "Apache Software Foundation"
+  section: non-relational-and-streaming
+  kind: documentation
+  cost: free
+  description: "Apache Kafka's documentation: an introduction with use cases and terminology, then sections including design, APIs, configuration, security, operations, Kafka Streams, and Kafka Connect."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://kafka.apache.org/44/getting-started/introduction/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25. The address listed is the versionless one the site's own Docs menu uses; it answers a script with a redirect page, and a browser lands on the introduction for the current release, 4.4 that day. Publisher from the footer copyright."
+
+- id: apache-airflow-documentation
+  name: "Apache Airflow Documentation"
+  url: "https://airflow.apache.org/docs/"
+  publisher: "Apache Software Foundation"
+  section: non-relational-and-streaming
+  kind: documentation
+  cost: free
+  description: "Index of documentation for Apache Airflow: the core, the airflowctl CLI, the Task SDK, the Docker stack and Helm chart, and provider packages."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://airflow.apache.org/docs/"
+    how: script
+
+- id: snowflake-documentation
+  name: "Snowflake Documentation"
+  url: "https://docs.snowflake.com/en/"
+  publisher: "Snowflake, Inc."
+  section: non-relational-and-streaming
+  kind: documentation
+  cost: free
+  description: "Snowflake's documentation home: getting started, user guides, developer guides, SQL reference, tutorials, and release notes, with featured guides on warehouses, databases, and connecting."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.snowflake.com/en/"
+    how: script
+  notes: "Publisher from the footer copyright. https://docs.snowflake.com/ redirects here."
+
+- id: databricks-documentation
+  name: "Databricks documentation"
+  url: "https://docs.databricks.com/aws/en"
+  publisher: "Databricks, Inc."
+  section: non-relational-and-streaming
+  kind: documentation
+  cost: free
+  description: "Databricks documentation for its platform on AWS, with a switcher for Azure and Google Cloud: data engineering, machine learning, dashboards, data warehousing, and data sharing."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.databricks.com/aws/en"
+    how: script
+  notes: "Publisher from https://www.databricks.com/terms-of-use, read on 2026-11-25, which names Databricks, Inc.; the footer here reads Databricks. https://docs.databricks.com/ redirects here, to the edition for Amazon Web Services."
+
+- id: amazon-rds-documentation
+  name: "Amazon RDS and Aurora Documentation"
+  url: "https://docs.aws.amazon.com/rds/"
+  publisher: "Amazon Web Services"
+  section: cloud-database-services
+  kind: documentation
+  cost: free
+  description: "Index of AWS documentation for RDS and Aurora: user guides for RDS, Aurora, and Aurora DSQL, a getting started guide, and API and CLI references."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/rds/"
+    how: script
+
+- id: azure-sql-documentation
+  name: "Azure SQL documentation"
+  url: "https://learn.microsoft.com/en-us/azure/azure-sql/"
+  publisher: "Microsoft"
+  section: cloud-database-services
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation hub for Azure SQL Database, SQL Server on Azure virtual machines, and Azure SQL Managed Instance, with overviews, quickstarts, and concepts for each."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql"
+    how: script
+  notes: "The page adds a version to the address as a query; the address listed is the one without it."
+
+- id: google-cloud-sql-documentation
+  name: "Cloud SQL documentation"
+  url: "https://docs.cloud.google.com/sql/docs"
+  publisher: "Google Cloud"
+  section: cloud-database-services
+  kind: documentation
+  cost: free
+  description: "Google Cloud's documentation for Cloud SQL, its managed service for MySQL, PostgreSQL, and SQL Server: guides, reference, and resources."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/sql/docs"
+    how: script
+  notes: "https://cloud.google.com/sql/docs redirects here."
+
+- id: amazon-dynamodb-documentation
+  name: "Amazon DynamoDB Documentation"
+  url: "https://docs.aws.amazon.com/dynamodb/"
+  publisher: "Amazon Web Services"
+  section: cloud-database-services
+  kind: documentation
+  cost: free
+  description: "Index of AWS documentation for DynamoDB: the developer guide, API reference, a cheat sheet, programming guides for Python, Java, and JavaScript, and best-practice resources."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/dynamodb/"
+    how: script
+
+- id: azure-cosmos-db-documentation
+  name: "Azure Cosmos DB documentation"
+  url: "https://learn.microsoft.com/en-us/azure/cosmos-db/"
+  publisher: "Microsoft"
+  section: cloud-database-services
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation hub for Azure Cosmos DB: its NoSQL, MongoDB, Cassandra, Gremlin, Table, and PostgreSQL APIs, vector search, core concepts, data modeling, and performance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/cosmos-db/"
+    how: script
+
+- id: bigquery-documentation
+  name: "BigQuery documentation"
+  url: "https://docs.cloud.google.com/bigquery/docs"
+  publisher: "Google Cloud"
+  section: cloud-database-services
+  kind: documentation
+  cost: free
+  description: "Google Cloud's documentation for BigQuery, its analytics data warehouse: guides, reference, and resources, followed by related training and code samples."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/bigquery/docs"
+    how: script
+  notes: "https://cloud.google.com/bigquery/docs redirects here."
+
+- id: pgadmin
+  name: "pgAdmin"
+  url: "https://www.pgadmin.org/"
+  publisher: "pgAdmin Development Team"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: free
+  description: "Open source management tool for PostgreSQL that runs as a desktop or web application, with graphical object management and a query tool with graphical EXPLAIN."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.pgadmin.org/"
+    how: script
+  notes: "Publisher from the footer copyright. https://www.pgadmin.org/licence/, read on 2026-11-25, says pgAdmin 4 is released under the PostgreSQL licence; the site has no pricing page."
+
+- id: dbeaver
+  name: "DBeaver Community"
+  url: "https://dbeaver.io/"
+  publisher: "DBeaver Corp"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: freemium
+  description: "Open source edition of the DBeaver database tool: data and SQL editors for relational databases; the commercial DBeaver PRO adds NoSQL and cloud databases."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dbeaver.io/"
+    how: script
+  notes: "Cost: the page sets the open-source Community version beside DBeaver PRO, the commercial version, which is sold by license at https://dbeaver.com, read on 2026-11-25. Publisher from that site's footer copyright; this page names no company."
+
+- id: sql-server-management-studio
+  name: "SQL Server Management Studio documentation"
+  url: "https://learn.microsoft.com/en-us/ssms/"
+  publisher: "Microsoft"
+  section: administration-and-tuning-tools
+  kind: documentation
+  cost: free
+  description: "Microsoft's SQL Server Management Studio documentation: what SSMS is, download and installation, release notes, a connect-and-query quickstart, customization, and troubleshooting."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/ssms/"
+    how: script
+
+- id: dbatools
+  name: "dbatools"
+  url: "https://dbatools.io/"
+  publisher: "dbatools"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: free
+  description: "Commands for running SQL Server from PowerShell: migrating instances, exporting configurations, testing that backups restore, setting up log shipping, and patching; free and open source."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dbatools.io/"
+    how: script
+  notes: "Publisher is the project's own name, from the footer copyright, which adds that the site was built by Chrissy LeMaire and Simone Bizzotto. The page links an MIT license and has no pricing page."
+
+- id: ola-hallengren-maintenance-solution
+  name: "SQL Server Maintenance Solution"
+  url: "https://ola.hallengren.com/"
+  publisher: "Ola Hallengren"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: free
+  description: "Free stored-procedure scripts for SQL Server upkeep: backups, with S3 and Azure Blob Storage among the targets, database integrity checks, index rebuilds, and statistics updates."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ola.hallengren.com/"
+    how: script
+  notes: "Publisher from the footer copyright, which names a person. https://ola.hallengren.com/license.html, read on 2026-11-25, gives the MIT license."
+
+- id: first-responder-kit
+  name: "SQL Server First Responder Kit"
+  url: "https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit"
+  publisher: "Brent Ozar Unlimited"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: free
+  description: "Brent Ozar Unlimited's stored procedures for diagnosing SQL Server: sp_Blitz for overall health, sp_BlitzCache for resource-heavy queries, sp_BlitzIndex for index tuning, and sp_BlitzLock for deadlocks."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit"
+    how: script
+  notes: "Publisher is the display name of the GitHub organization that holds the repository. Its last push was on 2026-11-18, from the GitHub API on 2026-11-25."
+
+- id: pgbackrest
+  name: "pgBackRest"
+  url: "https://pgbackrest.org/"
+  publisher: "PostgreSQL Global Development Group"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: free
+  description: "PostgreSQL backup tool with parallel processing, lz4 and zstd compression, local or remote operation, multiple repositories, and backup from a standby; MIT licensed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pgbackrest.org/"
+    how: script
+  notes: "Publisher from the footer, which reads Copyright 2015-2026, The PostgreSQL Global Development Group, MIT License. The page asks enterprises for sponsorship and sells nothing."
+
+- id: barman
+  name: "Barman"
+  url: "https://pgbarman.org/"
+  publisher: "EnterpriseDB"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: free
+  description: "Site of Barman, EnterpriseDB's disaster recovery tool for PostgreSQL: the current release, why to use it, and links to documentation, downloads, and support."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pgbarman.org/"
+    how: script
+  notes: "Publisher from the footer copyright and the site's About page, https://pgbarman.org/about/, read on 2026-11-25, which says Barman is now maintained by EnterpriseDB. EnterpriseDB sells its own products on another site; this site sells nothing."
+
+- id: percona-toolkit
+  name: "Percona Toolkit Documentation"
+  url: "https://docs.percona.com/percona-toolkit/"
+  publisher: "Percona LLC"
+  section: administration-and-tuning-tools
+  kind: documentation
+  cost: free
+  description: "Documentation for Percona Toolkit: an installation guide, configuration, and a page for each tool, among them pt-query-digest, pt-online-schema-change, and pt-table-checksum, for MySQL and MongoDB work."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.percona.com/percona-toolkit/"
+    how: script
+  notes: "Publisher from the footer copyright, Percona LLC and/or its affiliates. The license page gives GPL version 2 or the Perl Artistic License."
+
+- id: pgbouncer
+  name: "PgBouncer"
+  url: "https://www.pgbouncer.org/"
+  publisher: "PgBouncer Authors"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: free
+  description: "Site of PgBouncer, the PostgreSQL connection pooler: release announcements, some listing the CVEs fixed, downloads, the FAQ, configuration and usage reference, install guide, and changelog."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.pgbouncer.org/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: pgtune
+  name: "PGTune"
+  url: "https://pgtune.leopard.in.ua/"
+  publisher: "Oleksii Vasyliev (le0pard)"
+  section: administration-and-tuning-tools
+  kind: service
+  cost: free
+  description: "Web form that suggests PostgreSQL configuration settings from your version, operating system, workload type, memory, CPUs, and storage; a starting point, its about page says."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pgtune.leopard.in.ua/"
+    how: script
+  notes: "Publisher: the page names no one and links its source at github.com/le0pard/pgtune, a personal account; the display name is from GitHub's API on 2026-11-25. The caution rests on https://pgtune.leopard.in.ua/about, read the same day."
+
+- id: explain-depesz
+  name: "explain.depesz.com"
+  url: "https://explain.depesz.com/"
+  publisher: "Hubert Lubaczewski (depesz) and Łukasz Lewandowski (metys)"
+  section: administration-and-tuning-tools
+  kind: service
+  cost: free
+  description: "Paste the output of PostgreSQL's EXPLAIN ANALYZE and get it back as a readable table; plans can stay off the history page or be obfuscated."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://explain.depesz.com/"
+    how: script
+  notes: "Publisher from the footer copyright, which names two people."
+
+- id: explain-dalibo
+  name: "explain.dalibo.com"
+  url: "https://explain.dalibo.com/"
+  publisher: "Dalibo"
+  section: administration-and-tuning-tools
+  kind: service
+  cost: free
+  description: "Dalibo's service for reading PostgreSQL EXPLAIN output: submit a plan as text or JSON, try the sample plans, or run the standalone HTML file locally."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://explain.dalibo.com/"
+    how: script
+  notes: "Publisher from the footer, which says the service is brought to you by Dalibo. The page says a submitted plan is sent to the server and stored in a database; the standalone file avoids that."
+
+- id: mysqltuner
+  name: "MySQLTuner"
+  url: "https://github.com/major/MySQLTuner-perl"
+  publisher: "Major Hayden (major)"
+  section: administration-and-tuning-tools
+  kind: tool
+  cost: free
+  description: "Perl script that inspects a MySQL, MariaDB, or Percona Server and reports settings and status with tuning advice, including a health score and capacity planning."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/major/MySQLTuner-perl"
+    how: script
+  notes: "The repository's last push was on 2026-11-24, from the GitHub API on 2026-11-25. Licensed GPL-3.0."
+
+- id: patroni
+  name: "Patroni documentation"
+  url: "https://patroni.readthedocs.io/en/latest/"
+  publisher: "Compose, Zalando SE, Patroni Contributors"
+  section: administration-and-tuning-tools
+  kind: documentation
+  cost: free
+  description: "Documentation for Patroni, which runs PostgreSQL in high-availability clusters, including installation, configuration, the REST API, patronictl, replication modes, standby clusters, Kubernetes, Citus, and major upgrades."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://patroni.readthedocs.io/en/latest/"
+    how: script
+  notes: "Publisher as the footer copyright lists it. The address is a versionless alias; it showed Patroni 4.1.5 on 2026-11-25."
+
+- id: use-the-index-luke
+  name: "Use The Index, Luke"
+  url: "https://use-the-index-luke.com/"
+  publisher: "Markus Winand"
+  section: learning-and-community
+  kind: reference
+  cost: free
+  description: "Markus Winand's online book on SQL indexing: index anatomy, the where clause, scalability, joins, clustering, sorting and grouping, paging, and data changes, with execution plans."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://use-the-index-luke.com/"
+    how: script
+  notes: "Cost: the page calls the site the free web edition of the book SQL Performance Explained, which it sells from 9.95 euros; the entry describes the site. Publisher from https://use-the-index-luke.com/legal, read on 2026-11-25."
+
+- id: dba-stack-exchange
+  name: "Database Administrators Stack Exchange"
+  url: "https://dba.stackexchange.com/"
+  publisher: "Stack Exchange Inc"
+  section: learning-and-community
+  kind: community
+  cost: free
+  description: "Stack Exchange's question-and-answer site on database administration, with questions tagged by product and topic such as PostgreSQL, Oracle, MySQL, SQL Server, replication, and performance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dba.stackexchange.com/"
+    how: script
+  notes: "Reading is free and needs no account; asking and answering need one. Publisher from the footer copyright."
+
+- id: planet-postgresql
+  name: "Planet PostgreSQL"
+  url: "https://planet.postgresql.org/"
+  publisher: "PostgreSQL Global Development Group"
+  section: learning-and-community
+  kind: news
+  cost: free
+  description: "Aggregator of blog posts about PostgreSQL from across its community, newest first, each with its author, source, and date."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://planet.postgresql.org/"
+    how: script
+  notes: "Publisher from the footer copyright; https://www.postgresql.org/about/policies/planet-postgresql/, read on 2026-11-25, calls it a blog aggregation service run by the PostgreSQL community. The newest post on 2026-11-25 was dated that day."
+
+- id: brent-ozar-blog
+  name: "Brent Ozar Unlimited blog"
+  url: "https://www.brentozar.com/blog/"
+  publisher: "Brent Ozar Unlimited"
+  section: learning-and-community
+  kind: news
+  cost: free
+  description: "Brent Ozar's blog on running SQL Server: performance posts, Office Hours videos, opinion, and news of the training classes the company sells."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.brentozar.com/blog/"
+    how: script
+  notes: "The blog is free to read; the training it advertises is paid. The newest post on 2026-11-25 was dated that day."
+
+- id: sql-style-guide
+  name: "SQL Style Guide"
+  url: "https://www.sqlstyle.guide/"
+  publisher: "Simon Holywell"
+  section: learning-and-community
+  kind: reference
+  cost: free
+  description: "Style guide for writing SQL: naming conventions for tables and columns, query syntax and white space, create syntax, data types, and designs to avoid."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sqlstyle.guide/"
+    how: script
+  notes: "Publisher from the page heading and the license line, which name a person."
+
+- id: pgexercises
+  name: "PostgreSQL Exercises"
+  url: "https://pgexercises.com/"
+  publisher: "Alisdair Owens"
+  section: learning-and-community
+  kind: training
+  cost: free
+  description: "Practice problems for SQL on PostgreSQL, grouped from basics, joins, and aggregates to strings and recursive queries; meant to accompany a book or the manual."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pgexercises.com/"
+    how: script
+  notes: "Publisher from https://pgexercises.com/about.html, read on 2026-11-25, which says the site was made by Alisdair Owens. Content is licensed CC BY-SA 3.0."
+
+- id: sqlbolt
+  name: "SQLBolt"
+  url: "https://sqlbolt.com/"
+  publisher: "SQLBolt"
+  section: learning-and-community
+  kind: training
+  cost: free
+  description: "Interactive SQL lessons in the browser, each ending in an exercise: SELECT queries, filtering and sorting, joins, aggregates, then changing tables and creating new ones."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://sqlbolt.com/"
+    how: script
+  notes: "Publisher is the site's own name, from the footer copyright."
+
+- id: jepsen-analyses
+  name: "Jepsen analyses"
+  url: "https://jepsen.io/analyses"
+  publisher: "Jepsen, LLC"
+  section: learning-and-community
+  kind: research
+  cost: free
+  description: "Jepsen's published analyses of how databases, queues, and coordination services behave in practice, listed by system, date, and version tested, with its ethics policy."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://jepsen.io/analyses"
+    how: script
+  notes: "The analyses are free to read; the page says Jepsen can be hired to test a system and offers training and consulting. Publisher from the footer copyright."

@@ -320,19 +320,35 @@ domains:
     title: "IT service management and operations"
     covers: "Service desks, change and incident management, asset management, and the frameworks that describe them."
     boundary: "Security governance frameworks sit in GRC and security program."
-    sections: []
+    sections:
+      - {id: frameworks-and-standards, title: "Frameworks and standards", question: "What do the service management frameworks ask for?"}
+      - {id: service-desk-and-ticketing, title: "Service desk and ticketing", question: "What can I run a help desk on?"}
+      - {id: asset-and-configuration-management, title: "Asset and configuration management", question: "How do I keep track of what we own and how it is set up?"}
+      - {id: knowledge-and-documentation, title: "Knowledge and documentation", question: "Where do we write things down, and how do we write them well?"}
+      - {id: incident-and-change-practice, title: "Incident and change practice", question: "How do other operations teams handle incidents and the daily work?"}
   - id: email-dns-and-collaboration
     group: enterprise-it
     title: "Email, DNS, and collaboration"
     covers: "Mail flow and authentication (SPF, DKIM, DMARC), DNS operations and lookup tools, and collaboration platforms."
     boundary: "Microsoft 365 tenant administration sits in Microsoft 365 and Windows administration."
-    sections: []
+    sections:
+      - {id: email-standards-and-authentication, title: "Email standards and authentication", question: "What do SPF, DKIM, DMARC, and the mail standards require?"}
+      - {id: mail-servers-and-delivery, title: "Mail servers and delivery", question: "How do I run and filter a mail server?"}
+      - {id: dns-standards-and-references, title: "DNS standards and references", question: "What do the DNS standards and registries say?"}
+      - {id: dns-servers-and-services, title: "DNS servers and services", question: "Where is the documentation for this DNS server or service?"}
+      - {id: lookup-and-test-tools, title: "Lookup and test tools", question: "How do I test a domain's mail and DNS setup from outside?"}
+      - {id: collaboration-platforms, title: "Collaboration platforms", question: "Where is the administrator documentation for this collaboration platform?"}
   - id: databases-and-data-platforms
     group: enterprise-it
     title: "Databases and data platforms"
     covers: "Relational and non-relational database engines and data platforms: documentation, tuning references, and administration tools."
     boundary: "Database vendors' security advisories sit in Vendor advisories and PSIRTs."
-    sections: []
+    sections:
+      - {id: relational-databases, title: "Relational databases", question: "Where is the manual for this relational database?"}
+      - {id: non-relational-and-streaming, title: "Non-relational, streaming, and data platforms", question: "Where is the manual for this data store or data platform?"}
+      - {id: cloud-database-services, title: "Cloud database services", question: "Where is the documentation for this managed database?"}
+      - {id: administration-and-tuning-tools, title: "Administration and tuning tools", question: "What helps me back up, tune, and look after a database?"}
+      - {id: learning-and-community, title: "Learning and community", question: "Where do I learn SQL and database practice, and who can I ask?"}
   - id: product-lifecycle-licensing-and-support
     group: enterprise-it
     title: "Product lifecycle, licensing, and support"

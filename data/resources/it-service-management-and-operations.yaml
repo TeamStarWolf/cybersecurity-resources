@@ -1,0 +1,435 @@
+# Resources in the domain "it-service-management-and-operations". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: iso-iec-20000-1
+  name: "ISO/IEC 20000-1:2018"
+  url: "https://www.iso.org/standard/70636.html"
+  publisher: "ISO"
+  section: frameworks-and-standards
+  kind: standard
+  cost: paid
+  description: "ISO's page for ISO/IEC 20000-1:2018, which sets requirements for a service management system: the abstract, its one amendment, a preview, and the standard for sale."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.iso.org/standard/70636.html"
+    how: script
+  notes: "Cost from the purchase box on the page, which priced the standard at CHF 179 on 2026-11-25; the abstract and the preview are free to read."
+
+- id: fitsm
+  name: "FitSM"
+  url: "https://www.fitsm.eu/"
+  publisher: "FitSM e.V."
+  section: frameworks-and-standards
+  kind: standard
+  cost: free
+  description: "Site of the FitSM standard for IT service management, free and lightweight: its goals, its compatibility with ISO/IEC 20000-1 and ITIL, and who maintains it."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.fitsm.eu/"
+    how: script
+  notes: "Publisher from the page body and the imprint: the standard is maintained by the FitSM working group through its organisation FitSM e.V. The body also says FitSM e.V. offers training and certification; the entry describes the standard, which the page calls free."
+
+- id: it4it
+  name: "IT4IT Reference Architecture"
+  url: "https://www.opengroup.org/it4it"
+  publisher: "The Open Group"
+  section: frameworks-and-standards
+  kind: standard
+  cost: freemium
+  description: "The Open Group's page for the IT4IT standard, a reference architecture built around value streams; the Library offers it free for non-commercial use after registration."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.opengroup.org/it4it"
+    how: script
+  notes: "Cost is not stated on the record's own page. It is on The Open Group Library's page for readers without membership, two clicks away: https://publications.opengroup.org/it4it-library/i24a, read on 2026-11-25, says the standard may be downloaded under a free, personal, 90-day Evaluation License and then used internally under a free, perpetual Corporate License or Academic License, and that an annual Commercial License is the alternative for commercial purposes. It gives no price, and the download needs a login. The record's own page is free to read."
+
+- id: dora-research
+  name: "DORA"
+  url: "https://dora.dev/"
+  publisher: "Google Cloud"
+  section: frameworks-and-standards
+  kind: organization
+  cost: free-with-account
+  description: "Google Cloud's software delivery research program: capability guides, DORA Core, a Quick Check, and yearly reports; the 2025 report downloads through a sign-up form."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dora.dev/"
+    how: script
+  notes: "Cost: the guides, the capability pages, and the Quick Check open without an account, and so do the 2019, 2022, 2023, and 2024 reports, whose pages on dora.dev link their PDFs directly. Two reports go through a Google Cloud form that asks for a name, a business email, and a company: the 2025 report, whose download links on https://dora.dev/research/2025/dora-report/ lead to https://cloud.google.com/dora, and the ROI of AI-assisted Software Development report in the page's banner. The report pages were read in the built-in browser on 2026-11-25; those for other years were not opened. The research page, https://dora.dev/research/, calls the reports annual. Publisher from the footer: DORA is a program run by Google Cloud, with content licensed by Google LLC under CC BY 4.0."
+
+- id: jira-service-management-documentation
+  name: "Jira Service Management Cloud support"
+  url: "https://support.atlassian.com/jira-service-management-cloud/"
+  publisher: "Atlassian"
+  section: service-desk-and-ticketing
+  kind: documentation
+  cost: free
+  description: "Atlassian's support hub for Jira Service Management Cloud: links to the documentation, the community, system status, bug reports and suggestions, billing questions, and release notes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.atlassian.com/jira-service-management-cloud/"
+    how: script
+  notes: "The documentation itself is one click away, at the View documentation link."
+
+- id: zammad
+  name: "Zammad"
+  url: "https://zammad.org/"
+  publisher: "Zammad GmbH"
+  section: service-desk-and-ticketing
+  kind: tool
+  cost: freemium
+  description: "Community site of Zammad, an open source web-based ticketing system for user support, with downloads for Debian, Ubuntu, CentOS, and Docker; hosting is sold separately."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://zammad.org/"
+    how: script
+  notes: "Cost: the page offers the software to download and install on your own servers for free, and points to its sister site; https://zammad.com/en/pricing, read on 2026-11-25, sells hosted plans from 7 euros per agent per month. Publisher from https://zammad.org/imprint, read on 2026-11-25, which says Zammad.org is a service provided by Zammad GmbH; the same page names the Zammad Foundation as owner of the source code."
+
+- id: osticket
+  name: "osTicket"
+  url: "https://osticket.com/"
+  publisher: "Enhancesoft"
+  section: service-desk-and-ticketing
+  kind: tool
+  cost: freemium
+  description: "Open source ticketing system for support desks: ticket filters, help topics, service level agreements, and a customer portal; cloud hosting and support are sold."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://osticket.com/"
+    how: script
+  notes: "Cost from https://osticket.com/editions/ and https://osticket.com/commercial-support/, read on 2026-11-25: the open source edition is a free download, the cloud-hosted edition starts at $12 per agent per month, and support contracts start at $12,500 a year. Publisher from the footer, which calls osTicket.com an Enhancesoft product."
+
+- id: glpi
+  name: "GLPI"
+  url: "https://www.glpi-project.org/en/"
+  publisher: "Teclib'"
+  section: service-desk-and-ticketing
+  kind: tool
+  cost: freemium
+  description: "Open source IT service management software that joins a helpdesk, an asset inventory with a CMDB, and financial management; Teclib' sells cloud hosting and subscriptions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.glpi-project.org/en/"
+    how: script
+  notes: "Cost from https://www.glpi-project.org/en/pricing/, read on 2026-11-25: GLPI Network Cloud, hosted and managed by Teclib', from 19 euros per user per month, and self-hosted subscriptions; the software itself is a free download. Publisher from the site's Company menu and the pricing page. https://glpi-project.org/ redirects here."
+
+- id: itop
+  name: "iTop"
+  url: "https://combodo.com/"
+  publisher: "Combodo"
+  section: service-desk-and-ticketing
+  kind: tool
+  cost: freemium
+  description: "Combodo's open source service management software: a service catalog, request and incident handling, problem and change management, and a CMDB; paid subscriptions add features."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://combodo.com/"
+    how: script
+  notes: "Cost from https://combodo.com/offers-services/, read on 2026-11-25: iTop Community is the open source edition, and each paid subscription level comes with a bundle of additional features and support; the page gives no prices. https://www.combodo.com/itop-193 redirects here."
+
+- id: request-tracker
+  name: "Request Tracker"
+  url: "https://requesttracker.com/request-tracker/"
+  publisher: "Best Practical Solutions, LLC"
+  section: service-desk-and-ticketing
+  kind: tool
+  cost: freemium
+  description: "Open source ticketing from Best Practical: requests arrive by email, form, or portal and route through rule-driven queues with SLAs; hosted plans are sold."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://requesttracker.com/request-tracker/"
+    how: script
+  notes: "Cost from https://requesttracker.com/pricing, read on 2026-11-25: hosted plans from $15 per user per month, billed annually, from 5 users; the page says RT can also run on your own servers. Publisher from https://requesttracker.com/website-terms, read on 2026-11-25, which names Best Practical Solutions, LLC as owner and operator of the site; the page body calls it Best Practical. https://bestpractical.com/request-tracker redirects here."
+
+- id: spiceworks-help-desk
+  name: "Spiceworks Cloud Help Desk"
+  url: "https://www.spiceworks.com/free-cloud-help-desk-software/"
+  publisher: "Spiceworks (owned by Ziff Davis Inc)"
+  section: service-desk-and-ticketing
+  kind: service
+  cost: freemium
+  description: "Hosted help desk with a web portal for tickets, automatic routing, custom queues, and a knowledge base; free for up to five technician seats."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.spiceworks.com/free-cloud-help-desk-software/"
+    how: script
+  notes: "Cost from https://www.spiceworks.com/free-cloud-help-desk-software/pricing/, read on 2026-11-25: a Core plan at no charge for 1 to 5 tech and admin seats, and paid plans from US$6 per seat per month billed annually. Every plan needs an account. Publisher from https://www.spiceworks.com/privacy/, read on 2026-11-25, which says Spiceworks is owned by Ziff Davis Inc; the footer copyright reads Spiceworks Inc. https://www.spiceworks.com/free-help-desk-software/ redirects here."
+
+- id: snipe-it
+  name: "Snipe-IT"
+  url: "https://snipeitapp.com/"
+  publisher: "Grokability, Inc."
+  section: asset-and-configuration-management
+  kind: tool
+  cost: freemium
+  description: "Open source system for managing IT assets in place of spreadsheets, with a REST API and 2FA; free to host yourself, with paid hosting plans."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://snipeitapp.com/"
+    how: script
+  notes: "Cost from https://snipeitapp.com/pricing, read on 2026-11-25: self-hosted is free, and hosting plans start at $39.99 a month. Publisher from the footer copyright and the company page."
+
+- id: ocs-inventory
+  name: "OCS Inventory"
+  url: "https://ocsinventory-ng.org/?lang=en"
+  publisher: "FactorFX"
+  section: asset-and-configuration-management
+  kind: tool
+  cost: freemium
+  description: "Open source inventory project: agents that report each machine's hardware and software, network discovery, remote software deployment, and plugins; its publisher sells hosting and support."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ocsinventory-ng.org/?lang=en"
+    how: script
+  notes: "Cost from the OCS Professional page, https://ocsinventory-ng.org/?page_id=140&lang=en, read on 2026-11-25: paid packages of support, consulting, and SaaS hosting; it gives no prices. The software is open source. Publisher from the page body, which calls FactorFX the main contributor and the publisher of OCS Inventory NG. https://ocsinventory-ng.org/ redirects here."
+
+- id: lansweeper-documentation
+  name: "Lansweeper Knowledge Center"
+  url: "https://docs.lansweeper.com/"
+  publisher: "Lansweeper"
+  section: asset-and-configuration-management
+  kind: documentation
+  cost: free
+  description: "Lansweeper's documentation for its Platform and Classic products: first setup, discovering and managing assets, dashboards and risk insights, automated workflows, and integrations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.lansweeper.com/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: bookstack
+  name: "BookStack"
+  url: "https://www.bookstackapp.com/"
+  publisher: "Dan Brown"
+  section: knowledge-and-documentation
+  kind: tool
+  cost: free
+  description: "Self-hosted wiki software, MIT licensed, that sorts content into books, chapters, and pages, with full search, a WYSIWYG editor, and built-in diagrams.net drawing."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.bookstackapp.com/"
+    how: script
+  notes: "Publisher from the footer copyright, which names a person. The software is free; https://www.bookstackapp.com/support, read on 2026-11-25, sells support plans from 450 pounds a year, which add help and not features."
+
+- id: wiki-js
+  name: "Wiki.js"
+  url: "https://js.wiki/"
+  publisher: "Wiki.js"
+  section: knowledge-and-documentation
+  kind: tool
+  cost: free
+  description: "Self-hosted open source wiki engine on Node.js and Postgres: a Markdown editor with live preview, diagrams as code, real-time shared notes, and a file manager."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://js.wiki/"
+    how: script
+  notes: "Publisher is the project's own name, from the footer copyright; the page names no organization, and its source link goes to the requarks organization on GitHub. The page calls it free forever and AGPL licensed, and has no pricing page."
+
+- id: mediawiki
+  name: "MediaWiki"
+  url: "https://www.mediawiki.org/wiki/MediaWiki"
+  publisher: "Wikimedia Foundation"
+  section: knowledge-and-documentation
+  kind: tool
+  cost: free
+  description: "Home of the wiki software that powers Wikipedia: how to download, install, and configure it, add extensions, edit pages, and develop code, with project news."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.mediawiki.org/wiki/MediaWiki"
+    how: script
+  notes: "Publisher from https://www.mediawiki.org/wiki/Project:About, read on 2026-11-25, which says the site is hosted by the Wikimedia Foundation."
+
+- id: confluence-documentation
+  name: "Confluence Cloud support"
+  url: "https://support.atlassian.com/confluence-cloud/"
+  publisher: "Atlassian"
+  section: knowledge-and-documentation
+  kind: documentation
+  cost: free
+  description: "Atlassian's support hub for Confluence Cloud: links to the documentation, a troubleshooting knowledge base, the community, system status, bug reports and suggestions, and release notes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.atlassian.com/confluence-cloud/"
+    how: script
+  notes: "The documentation itself is one click away, at the View documentation link."
+
+- id: diataxis
+  name: "Diátaxis"
+  url: "https://diataxis.fr/"
+  publisher: "Daniele Procida"
+  section: knowledge-and-documentation
+  kind: reference
+  cost: free
+  description: "Teaches the Diátaxis approach to documentation: a short primer, pages on explanation, reference, how-to guides, and tutorials, a compass and workflow, and its theory."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://diataxis.fr/"
+    how: script
+  notes: "Publisher from the footer copyright, which names a person."
+
+- id: write-the-docs-guide
+  name: "Write the Docs: Software documentation guide"
+  url: "https://www.writethedocs.org/guide/"
+  publisher: "Write the Docs"
+  section: knowledge-and-documentation
+  kind: reference
+  cost: free
+  description: "Community-written guide to software documentation: how to start, approaches such as docs as code, markup languages, documentation tools, and writing for an API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.writethedocs.org/guide/"
+    how: script
+
+- id: google-developer-documentation-style-guide
+  name: "Google developer documentation style guide"
+  url: "https://developers.google.com/style"
+  publisher: "Google"
+  section: knowledge-and-documentation
+  kind: reference
+  cost: free
+  description: "The style guide Google uses for developer documentation; this page covers which reference to consult first, other editorial resources, annotations, and breaking the rules."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developers.google.com/style"
+    how: script
+
+- id: microsoft-writing-style-guide
+  name: "Microsoft Writing Style Guide"
+  url: "https://learn.microsoft.com/en-us/style-guide/welcome/"
+  publisher: "Microsoft"
+  section: knowledge-and-documentation
+  kind: reference
+  cost: free
+  description: "Welcome page of Microsoft's guide to writing about technology, with its voice described and links to ten top tips, bias-free communication, and global communications."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/style-guide/welcome/"
+    how: script
+
+- id: atlassian-incident-management-handbook
+  name: "Atlassian Incident Management Handbook"
+  url: "https://www.atlassian.com/incident-management/handbook"
+  publisher: "Atlassian"
+  section: incident-and-change-practice
+  kind: reference
+  cost: free
+  description: "Atlassian's own incident process written up as a handbook: what counts as an incident, incident values, tooling, the incident manager's role, response, and postmortems."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.atlassian.com/incident-management/handbook"
+    how: script
+
+- id: postmortem-templates
+  name: "Postmortem Templates"
+  url: "https://github.com/dastergon/postmortem-templates"
+  publisher: "Pavlos Ratis (dastergon)"
+  section: incident-and-change-practice
+  kind: dataset
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2023-07-12"
+  description: "Postmortem templates, each from a named source: books on reliability and system administration, a Google Developers blog post, Azure status posts, and more."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/dastergon/postmortem-templates"
+    how: script
+  notes: "The repository's last push was on 2023-07-12, from the GitHub API on 2026-11-25. Licensed CC0-1.0."
+
+- id: ops-school
+  name: "Ops School"
+  url: "https://www.opsschool.org/"
+  publisher: "Ops School"
+  section: incident-and-change-practice
+  kind: training
+  cost: free
+  description: "Open curriculum for operations work at 101, 201, and 301 levels, including Unix and Windows fundamentals, networking, security and identity, monitoring, deployment, and datacenters."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.opsschool.org/"
+    how: script
+  notes: "The page says the curriculum is written by volunteers and that many chapters are still incomplete. Publisher is the project's own name: the page names no organization, and its source is under the opsschool organization on GitHub. The footer gives the license as Creative Commons Attribution 3.0."
+
+- id: awesome-sysadmin
+  name: "Awesome Sysadmin"
+  url: "https://github.com/awesome-foss/awesome-sysadmin"
+  publisher: "awesome-foss"
+  section: incident-and-change-practice
+  kind: reference
+  cost: free
+  description: "Open source software for administrators, each entry with a description, license, and language, under headings such as backups, DNS servers, identity management, monitoring, and VPN."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/awesome-foss/awesome-sysadmin"
+    how: script
+  notes: "Publisher is the GitHub organization that holds the repository; it gives no other name."
+
+- id: server-fault
+  name: "Server Fault"
+  url: "https://serverfault.com/"
+  publisher: "Stack Exchange Inc"
+  section: incident-and-change-practice
+  kind: community
+  cost: free
+  description: "Stack Exchange's site about running servers and networks: questions listed with votes and answer counts, under tags such as Linux, Windows, nginx, and Active Directory."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://serverfault.com/"
+    how: script
+  notes: "Scope from two places, both read on 2026-11-25: the page's summary line, Q&A for system and network administrators, and the tour page, https://serverfault.com/tour, which calls it a question and answer site for managing information technology systems in a business environment. Reading is free and needs no account; asking and answering need one. Publisher from the footer copyright."
+
+- id: awesome-sre
+  name: "Awesome Site Reliability Engineering"
+  url: "https://github.com/dastergon/awesome-sre"
+  publisher: "Pavlos Ratis (dastergon)"
+  section: incident-and-change-practice
+  kind: reference
+  cost: free
+  description: "Curated reading list for site reliability engineering: culture, education, books, monitoring and alerting, on-call, postmortems, capacity planning, and service level agreements."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/dastergon/awesome-sre"
+    how: script
+  notes: "The repository's last push was on 2025-08-28, from the GitHub API on 2026-11-25."
+
+- id: sysadmin-code-of-ethics
+  name: "System Administrators' Code of Ethics"
+  url: "https://www.usenix.org/system-administrators-code-ethics"
+  publisher: "USENIX"
+  section: incident-and-change-practice
+  kind: reference
+  cost: free
+  description: "Code of ethics for system administrators, with USENIX, LOPSA, and LISA as signatories: professionalism, personal integrity, privacy, laws and policies, communication, system integrity, and more."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.usenix.org/system-administrators-code-ethics"
+    how: script

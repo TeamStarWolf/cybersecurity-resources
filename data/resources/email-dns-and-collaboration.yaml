@@ -1,0 +1,718 @@
+# Resources in the domain "email-dns-and-collaboration". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: rfc-5321
+  name: "RFC 5321: Simple Mail Transfer Protocol"
+  url: "https://www.rfc-editor.org/info/rfc5321/"
+  publisher: "IETF"
+  section: email-standards-and-authentication
+  kind: standard
+  cost: free
+  description: "Specifies SMTP, the protocol that moves mail between servers, with its extension mechanism and use for message submission; obsoletes RFC 2821, updated by RFC 7504."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc5321/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-5322
+  name: "RFC 5322: Internet Message Format"
+  url: "https://www.rfc-editor.org/info/rfc5322/"
+  publisher: "IETF"
+  section: email-standards-and-authentication
+  kind: standard
+  cost: free
+  description: "Defines the syntax of an email message, its header fields and its body; it revises RFC 2822 and is updated by RFC 6854."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc5322/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-7208
+  name: "RFC 7208: Sender Policy Framework (SPF) for Authorizing Use of Domains in Email, Version 1"
+  url: "https://www.rfc-editor.org/info/rfc7208/"
+  publisher: "IETF"
+  section: email-standards-and-authentication
+  kind: standard
+  cost: free
+  description: "Defines SPF version 1, by which a domain publishes the hosts allowed to send mail in its name and receivers check them; obsoletes RFC 4408."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc7208/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-6376
+  name: "RFC 6376: DomainKeys Identified Mail (DKIM) Signatures"
+  url: "https://www.rfc-editor.org/info/rfc6376/"
+  publisher: "IETF"
+  section: email-standards-and-authentication
+  kind: standard
+  cost: free
+  description: "Defines DKIM: a signing domain takes responsibility for a message with a cryptographic signature checked against a public key in DNS; Internet Standard 76."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc6376/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-9989
+  name: "RFC 9989: Domain-Based Message Authentication, Reporting, and Conformance (DMARC)"
+  url: "https://www.rfc-editor.org/info/rfc9989/"
+  publisher: "IETF"
+  section: email-standards-and-authentication
+  kind: standard
+  cost: free
+  description: "DMARC as specified in May 2026, including identifier alignment, the policy record, and actions for mail receivers and domain owners; obsoletes RFC 7489 and 9091."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc9989/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The page for RFC 7489, the earlier DMARC document, says it is now obsolete and points to RFC 9989, RFC 9990, and RFC 9991."
+
+- id: rfc-8461
+  name: "RFC 8461: SMTP MTA Strict Transport Security (MTA-STS)"
+  url: "https://www.rfc-editor.org/info/rfc8461/"
+  publisher: "IETF"
+  section: email-standards-and-authentication
+  kind: standard
+  cost: free
+  description: "Defines MTA-STS, including policy discovery through a TXT record and HTTPS fetch, validation of MX hosts and certificates, policy application, failure reporting, and operational advice."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc8461/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: dmarc-org
+  name: "DMARC.org"
+  url: "https://dmarc.org/"
+  publisher: "DMARC.org"
+  section: email-standards-and-authentication
+  kind: reference
+  cost: free
+  description: "Explains what DMARC is, why it matters, and how it works, and tracks its status, including the three May 2026 RFCs that replaced RFC 7489."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dmarc.org/"
+    how: script
+  notes: "Publisher from the footer, which credits the site's content to DMARC.org; https://dmarc.org/about/, read on 2026-11-25, says DMARC.org has been an initiative under the Trusted Domain Project, a non-profit, since 2015."
+
+- id: m3aawg-best-practices
+  name: "M3AAWG Best Practices"
+  url: "https://www.m3aawg.org/published-documents"
+  publisher: "Messaging, Malware and Mobile Anti-Abuse Working Group (M3AAWG)"
+  section: email-standards-and-authentication
+  kind: reference
+  cost: free
+  description: "M3AAWG's published best practices and papers on messaging abuse, newest first, among them sender best common practices and a paper on justifying an abuse desk."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.m3aawg.org/published-documents"
+    how: script
+  notes: "Publisher from the footer copyright. The documents listed are open to read without joining the group."
+
+- id: google-email-sender-guidelines
+  name: "Email sender guidelines (Gmail)"
+  url: "https://support.google.com/mail/answer/81126"
+  publisher: "Google"
+  section: email-standards-and-authentication
+  kind: reference
+  cost: free
+  description: "Google's rules for sending mail to personal Gmail accounts: SPF, DKIM, DMARC, PTR records, TLS, spam rates, and more above 5,000 messages a day."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.google.com/mail/answer/81126"
+    how: script
+  notes: "https://support.google.com/a/answer/81126 redirects here with a visit identifier in the query; the address listed is the one without it, which answered 200 on 2026-11-25."
+
+- id: yahoo-sender-hub
+  name: "Yahoo Sender Hub: Sender Best Practices"
+  url: "https://senders.yahooinc.com/best-practices/"
+  publisher: "Yahoo"
+  section: email-standards-and-authentication
+  kind: reference
+  cost: free
+  description: "Yahoo's requirements for mail sent to its domains, stricter for bulk senders: SPF, DKIM, and DMARC authentication, low complaint rates, valid DNS, and further recommendations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://senders.yahooinc.com/best-practices/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: bimi-group
+  name: "BIMI Group"
+  url: "https://bimigroup.org/"
+  publisher: "AuthIndicators Working Group"
+  section: email-standards-and-authentication
+  kind: reference
+  cost: free
+  description: "Explains BIMI, a specification for showing a brand's logo beside mail that passes DMARC, with three starting steps and FAQs for senders and mailbox providers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://bimigroup.org/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: postfix-documentation
+  name: "Postfix Documentation"
+  url: "https://www.postfix.org/documentation.html"
+  publisher: "Wietse Venema"
+  section: mail-servers-and-delivery
+  kind: documentation
+  cost: free
+  description: "Index of the Postfix mail server's documentation: basic and standard configuration, TLS and SASL, content inspection, relay and access control, lookup tables, and performance tuning."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.postfix.org/documentation.html"
+    how: script
+  notes: "Publisher from the home page, https://www.postfix.org/, read on 2026-11-25, which calls Postfix Wietse Venema's mail server and says he continues to maintain it; this page names no one."
+
+- id: exim-documentation
+  name: "Exim documentation"
+  url: "https://www.exim.org/docs.html"
+  publisher: "The Exim Maintainers"
+  section: mail-servers-and-delivery
+  kind: documentation
+  cost: free
+  description: "Exim's documentation index: the specification and filter specification for the current version in HTML and PDF, older versions from a list, HOWTOs, and an FAQ."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.exim.org/docs.html"
+    how: script
+  notes: "Publisher from https://www.exim.org/legal.html, read on 2026-11-25, where the Exim Maintainers say they regard the domain as owned by them as a group."
+
+- id: dovecot-documentation
+  name: "Dovecot CE documentation"
+  url: "https://doc.dovecot.org/latest/"
+  publisher: "Open-Xchange GmbH"
+  section: mail-servers-and-delivery
+  kind: documentation
+  cost: free
+  description: "Open-Xchange's documentation for Dovecot Community Edition, the open source IMAP, POP3, LMTP, and ManageSieve server; the commercial Dovecot Pro is documented elsewhere."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://doc.dovecot.org/latest/"
+    how: script
+  notes: "Publisher from the footer copyright. https://doc.dovecot.org/ redirects to this versionless address, which follows the current release."
+
+- id: rspamd-documentation
+  name: "Rspamd Documentation"
+  url: "https://docs.rspamd.com/"
+  publisher: "Rspamd Project"
+  section: mail-servers-and-delivery
+  kind: documentation
+  cost: free
+  description: "Documentation for the Rspamd spam filter, including its capabilities, the stages each message passes through, installation, configuration, module reference, the Lua API, and MTA integration."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.rspamd.com/"
+    how: script
+  notes: "Publisher from the footer copyright. https://rspamd.com/doc/ redirects here."
+
+- id: spamassassin
+  name: "Apache SpamAssassin"
+  url: "https://spamassassin.apache.org/"
+  publisher: "Apache Software Foundation"
+  section: mail-servers-and-delivery
+  kind: tool
+  cost: free
+  description: "Open source spam filter that scores mail using header and body tests, Bayesian filtering, and DNS blocklists; the project site carries news, downloads, and documentation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://spamassassin.apache.org/"
+    how: script
+  notes: "The page's latest news item, dated 2025-08-30, announces release 4.0.2."
+
+- id: mailcow-documentation
+  name: "mailcow: dockerized documentation"
+  url: "https://docs.mailcow.email/"
+  publisher: "The Infrastructure Company GmbH"
+  section: mail-servers-and-delivery
+  kind: documentation
+  cost: free
+  description: "Documentation for mailcow: dockerized, an open source mail suite of Docker containers including Postfix, Dovecot, Rspamd, and SOGo: system preparation, DNS, installation, updates, and backups."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.mailcow.email/"
+    how: script
+  notes: "Publisher from the project site's imprint, https://mailcow.email/imprint/, read on 2026-11-25, which names The Infrastructure Company GmbH; this page says mailcow and Servercow are registered trademarks of that company, while its footer copyright reads mailcow Team & Community. Paid support and a managed service are sold under the Servercow name on another site."
+
+- id: mail-in-a-box
+  name: "Mail-in-a-Box"
+  url: "https://mailinabox.email/"
+  publisher: "Joshua Tauberer"
+  section: mail-servers-and-delivery
+  kind: tool
+  cost: free
+  description: "Project that sets up a mail server on a new Ubuntu machine: webmail, IMAP and SMTP, spam filtering, automatic DNS records, and Let's Encrypt certificates."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://mailinabox.email/"
+    how: script
+  notes: "Publisher from the page, which says Joshua Tauberer began the project in 2013 and is its primary maintainer; it names no organization. The project is dedicated to the public domain under CC0."
+
+- id: exchange-server-documentation
+  name: "Exchange Server documentation"
+  url: "https://learn.microsoft.com/en-us/exchange/exchange-server"
+  publisher: "Microsoft"
+  section: mail-servers-and-delivery
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation hub for Exchange Server Subscription Edition, 2019, and 2016: what's new, system requirements, deployment, installation and upgrades, and build numbers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/exchange/exchange-server"
+    how: script
+
+- id: rfc-1034
+  name: "RFC 1034: Domain names - concepts and facilities"
+  url: "https://www.rfc-editor.org/info/rfc1034/"
+  publisher: "IETF"
+  section: dns-standards-and-references
+  kind: standard
+  cost: free
+  description: "With RFC 1035, Internet Standard 13: DNS concepts, covering the name space, resource records, name servers, and resolvers; updated by many later RFCs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc1034/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-1035
+  name: "RFC 1035: Domain names - implementation and specification"
+  url: "https://www.rfc-editor.org/info/rfc1035/"
+  publisher: "IETF"
+  section: dns-standards-and-references
+  kind: standard
+  cost: free
+  description: "With RFC 1034, Internet Standard 13: the DNS implementation, with resource record definitions, the message format, and master files; updated by many later RFCs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc1035/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-4033
+  name: "RFC 4033: DNS Security Introduction and Requirements"
+  url: "https://www.rfc-editor.org/info/rfc4033/"
+  publisher: "IETF"
+  section: dns-standards-and-references
+  kind: standard
+  cost: free
+  description: "With RFC 4034 and 4035, the DNSSEC specification; this part includes the terms, the services provided and not provided, and considerations for resolvers and zones."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc4033/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The page says this RFC is updated by RFC 6014 and RFC 6840."
+
+- id: rfc-9499
+  name: "RFC 9499: DNS Terminology"
+  url: "https://www.rfc-editor.org/info/rfc9499/"
+  publisher: "IETF"
+  section: dns-standards-and-references
+  kind: standard
+  cost: free
+  description: "Best Current Practice 219, a glossary of DNS terms by subject: names, resource records, response codes, transactions, zones, wildcards, servers and clients, registration, and DNSSEC."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc9499/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The abstract says it obsoletes RFC 8499."
+
+- id: iana-top-level-domains
+  name: "IANA Top-Level Domains"
+  url: "https://www.iana.org/domains/root/db"
+  publisher: "IANA (Public Technical Identifiers, an affiliate of ICANN)"
+  section: dns-standards-and-references
+  kind: reference
+  cost: free
+  description: "IANA's registry of every top-level domain with its delegation details, filterable by status, type, and writing system, and downloadable in several formats."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.iana.org/domains/root/db"
+    how: script
+  notes: "The page calls this the Top-Level Domain Registry. Publisher follows the catalog's other IANA entries, from the footer."
+
+- id: iana-dns-parameters
+  name: "IANA Domain Name System (DNS) Parameters"
+  url: "https://www.iana.org/assignments/dns-parameters"
+  publisher: "IANA (Public Technical Identifiers, an affiliate of ICANN)"
+  section: dns-standards-and-references
+  kind: reference
+  cost: free
+  description: "IANA's registries of DNS protocol values: classes, resource record types, OpCodes, RCODEs, and more, each with its registration procedure and reference RFCs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.iana.org/assignments/dns-parameters"
+    how: script
+  notes: "https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml redirects here. Publisher follows the catalog's other IANA entries, from the footer."
+
+- id: how-dns-works
+  name: "How DNS Works"
+  url: "https://dnsimple.com/comics/how-dns-works/"
+  publisher: "DNSimple"
+  section: dns-standards-and-references
+  kind: reference
+  cost: free
+  description: "DNSimple's comic about a DNS lookup, told in episodes with a bonus on glue records, a video version, and translations into many languages."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dnsimple.com/comics/how-dns-works/"
+    how: script
+  notes: "https://howdns.works/ redirects here. This is the comic's opening page; the story itself starts one click away."
+
+- id: bind-9-documentation
+  name: "BIND 9 Administrator Reference Manual"
+  url: "https://bind9.readthedocs.io/en/stable/"
+  publisher: "Internet Systems Consortium (ISC)"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "ISC's administrator manual for BIND 9: DNS basics, resource requirements, configurations and zone files, name server operations, DNSSEC, security, the configuration reference, and troubleshooting."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://bind9.readthedocs.io/en/stable/"
+    how: script
+  notes: "The address is a versionless alias for the current stable release, which was 9.20.31 on 2026-11-25. Publisher from the footer copyright, in the form the catalog's other ISC entry uses."
+
+- id: unbound-documentation
+  name: "Unbound documentation"
+  url: "https://unbound.docs.nlnetlabs.nl/en/latest/"
+  publisher: "NLnet Labs"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "NLnet Labs' manual for Unbound, its validating recursive resolver: getting started, configuring and operating it, an option and command reference, and developing with libunbound."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://unbound.docs.nlnetlabs.nl/en/latest/"
+    how: script
+  notes: "The address is a versionless alias; https://unbound.docs.nlnetlabs.nl/ redirects to it. Publisher from the footer copyright."
+
+- id: powerdns-documentation
+  name: "PowerDNS Documentation"
+  url: "https://doc.powerdns.com/index.html"
+  publisher: "PowerDNS.com B.V."
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "Entry page to PowerDNS documentation: the Recursor, the Authoritative Server, and the dnsdist load balancer, plus additional products such as Cloud Control and Lightning Stream."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://doc.powerdns.com/index.html"
+    how: script
+  notes: "Publisher from https://www.powerdns.com/imprint, read on 2026-11-25; the footer here reads PowerDNS.com. The company page, https://www.powerdns.com/company, says PowerDNS merged with Open-Xchange in 2015. https://doc.powerdns.com/ redirects here."
+
+- id: coredns-manual
+  name: "CoreDNS Manual"
+  url: "https://coredns.io/manual/toc/"
+  publisher: "The CoreDNS Authors"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2019-09-28"
+  description: "The CoreDNS project's manual, marked a work in progress: installation, how plugins process a query, configuration through the Corefile, specific setups, and writing plugins."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://coredns.io/manual/toc/"
+    how: script
+  notes: "The page's section lines read Modified: 2019-09-28, which is the date used here. Publisher from the footer, which carries copyright lines for The CoreDNS Authors and for The Linux Foundation."
+
+- id: pi-hole-documentation
+  name: "Pi-hole documentation"
+  url: "https://docs.pi-hole.net/"
+  publisher: "Pi-hole"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "Opening page of the Pi-hole documentation: what the DNS sinkhole does, its main features, and ways to support the project."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.pi-hole.net/"
+    how: script
+  notes: "Publisher from the footer copyright. The page says Pi-hole is free and funded by donations."
+
+- id: windows-dns-server
+  name: "DNS in Windows and Windows Server"
+  url: "https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview"
+  publisher: "Microsoft"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "Microsoft's overview of the DNS Server role: features such as dynamic updates, DNSSEC, forwarding, caching, and policies, deployment scenarios, and where to start."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview"
+    how: script
+
+- id: azure-dns-documentation
+  name: "Azure DNS documentation"
+  url: "https://learn.microsoft.com/en-us/azure/dns/"
+  publisher: "Microsoft"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation hub for Azure DNS: public zones and records, private DNS zones, the DNS resolver, alias records, and related network services."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/dns/"
+    how: script
+
+- id: amazon-route-53-documentation
+  name: "Amazon Route 53 Documentation"
+  url: "https://docs.aws.amazon.com/route53/"
+  publisher: "Amazon Web Services"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "Index of AWS documentation for Route 53: the developer guide, API reference, and CLI references for DNS and health checks, domain registration, Resolver, and Profiles."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/route53/"
+    how: script
+
+- id: google-cloud-dns-documentation
+  name: "Cloud DNS documentation"
+  url: "https://docs.cloud.google.com/dns/docs"
+  publisher: "Google Cloud"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "Google Cloud's documentation for Cloud DNS, its authoritative DNS service on anycast name servers: guides, concepts, reference material, and related training and architecture content."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/dns/docs"
+    how: script
+  notes: "https://cloud.google.com/dns/docs redirects here."
+
+- id: cloudflare-dns-documentation
+  name: "Cloudflare DNS docs"
+  url: "https://developers.cloudflare.com/dns/"
+  publisher: "Cloudflare"
+  section: dns-servers-and-services
+  kind: documentation
+  cost: free
+  description: "Cloudflare's documentation for its authoritative DNS service: DNS records, DNSSEC, nameserver options, and Internal DNS for enterprise customers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developers.cloudflare.com/dns/"
+    how: script
+  notes: "Publisher in the form the catalog's other Cloudflare entries use; the footer copyright reads Cloudflare, Inc."
+
+- id: dnsmasq
+  name: "Dnsmasq"
+  url: "https://thekelleys.org.uk/dnsmasq/doc.html"
+  publisher: "Simon Kelley"
+  section: dns-servers-and-services
+  kind: tool
+  cost: free
+  description: "Page for dnsmasq describing its DNS, DHCP, and router advertisement subsystems, including DNSSEC validation, PXE, and TFTP, with the download, git repository, and mailing list."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://thekelleys.org.uk/dnsmasq/doc.html"
+    how: script
+  notes: "Publisher from the page, which says dnsmasq is mainly written and maintained by Simon Kelley, and that it is distributed under the GPL, version 2 or 3."
+
+- id: google-admin-toolbox
+  name: "Google Admin Toolbox"
+  url: "https://toolbox.googleapps.com/apps/main/"
+  publisher: "Google"
+  section: lookup-and-test-tools
+  kind: service
+  cost: free
+  description: "Google's web tools for troubleshooting Workspace: Check MX and Dig for DNS, Messageheader for mail delivery, HAR and log analyzers, and browser debugging pages."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://toolbox.googleapps.com/apps/main/"
+    how: script
+
+- id: mail-tester
+  name: "mail-tester"
+  url: "https://mail-tester.com/"
+  publisher: "MAIL TESTER LLC"
+  section: lookup-and-test-tools
+  kind: service
+  cost: freemium
+  description: "Spam test for outgoing mail: send a message to the address the page generates and view its score; three tests a day are free."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://mail-tester.com/"
+    how: script
+  notes: "The page itself shows only the heading and the test address, in a script read and in the built-in browser alike. The score, the limit, and the publisher rest on pages one click away, read on 2026-11-25: https://mail-tester.com/faq says you can perform 3 tests for free within 24 hours, https://mail-tester.com/manager sells monthly plans from $10 for 50 tests, and the terms of service name the company. https://www.mail-tester.com/ redirects here."
+
+- id: learndmarc
+  name: "Learn and Test DMARC"
+  url: "https://www.learndmarc.com/"
+  publisher: "URIports.com"
+  section: lookup-and-test-tools
+  kind: service
+  cost: free
+  description: "Teaches SPF, DKIM, and DMARC three ways: mail its tester and watch each check, take a ten-question quiz, or paste headers for a visual breakdown."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.learndmarc.com/"
+    how: script
+  notes: "Publisher from the page's author tag, which reads URIports.com; the page's visible text names no one, and every outside link on it goes to uriports.com."
+
+- id: internet-nl
+  name: "Internet.nl"
+  url: "https://internet.nl/"
+  publisher: "Dutch Internet Standards Platform"
+  section: lookup-and-test-tools
+  kind: service
+  cost: free
+  description: "Tests a website, a mail domain, or your connection against modern Internet standards: modern addresses, signed domains, secure connections and transport, anti-phishing, and route authorisation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://internet.nl/"
+    how: script
+  notes: "Publisher from https://internet.nl/about/, read on 2026-11-25, which calls Internet.nl an initiative of the Dutch Internet Standards Platform. The page's title names the standards behind its headings: IPv6, DNSSEC, HTTPS, DMARC, STARTTLS and DANE."
+
+- id: zonemaster
+  name: "Zonemaster"
+  url: "https://zonemaster.net/en/"
+  publisher: "AFNIC and The Swedish Internet Foundation"
+  section: lookup-and-test-tools
+  kind: service
+  cost: free
+  description: "Runs a battery of DNS tests, DNSSEC among them, on a domain name you enter, with optional settings; the source code and documentation are linked."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://zonemaster.net/en/"
+    how: script
+  notes: "Publisher from the footer copyright. https://zonemaster.net/ redirects here."
+
+- id: whatsmydns
+  name: "whatsmydns.net DNS Propagation Checker"
+  url: "https://www.whatsmydns.net/"
+  publisher: "whatsmydns.net"
+  section: lookup-and-test-tools
+  kind: service
+  cost: free
+  description: "Looks up a DNS record on name servers in many countries at once and maps the answers, to show how far a change has propagated."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.whatsmydns.net/"
+    how: script
+  notes: "Publisher is the site's own name: the page names no organization, it has no author tag, and its privacy policy, read on 2026-11-25, speaks only of whatsmydns.net. It calls itself a free online tool and asks for donations."
+
+- id: dmarcian-tools
+  name: "dmarcian DMARC tools"
+  url: "https://dmarcian.com/dmarc-tools/"
+  publisher: "dmarcian, Inc."
+  section: lookup-and-test-tools
+  kind: service
+  cost: free
+  description: "dmarcian's free tools, usable without an account: a domain checker, DMARC and DKIM inspectors, an SPF surveyor, a DMARC record wizard, and a header analyzer."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dmarcian.com/dmarc-tools/"
+    how: script
+  notes: "Cost: the page says the tools are free with no registration required. dmarcian's DMARC Management Platform is a separate product; https://dmarcian.com/pricing/, read on 2026-11-25, lists a free personal plan and a Basic plan at $19.99 a month billed yearly, or $24 billed monthly. Publisher from the footer."
+
+- id: google-workspace-admin-help
+  name: "Google Workspace Admin Help"
+  url: "https://knowledge.workspace.google.com/admin"
+  publisher: "Google"
+  section: collaboration-platforms
+  kind: documentation
+  cost: free
+  description: "Google's help center for Workspace administrators: managing services and switching them on for users, security checklists, 2-Step Verification, and controls for Gemini features."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://knowledge.workspace.google.com/admin"
+    how: script
+
+- id: google-workspace-status
+  name: "Google Workspace Status Dashboard"
+  url: "https://www.google.com/appsstatus/dashboard/"
+  publisher: "Google"
+  section: collaboration-platforms
+  kind: status
+  cost: free
+  description: "Google's dashboard of the current status of each Google Workspace service, with an incident history, a feed, and JSON data."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.google.com/appsstatus/dashboard/"
+    how: script
+
+- id: nextcloud-administration-manual
+  name: "Nextcloud Administration Manual"
+  url: "https://docs.nextcloud.com/server/latest/admin_manual/"
+  publisher: "Nextcloud GmbH"
+  section: collaboration-platforms
+  kind: documentation
+  cost: free
+  description: "Introduction to Nextcloud's server administration manual: who it is for, the core components, the editions, further resources, and where to start installing and configuring."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.nextcloud.com/server/latest/admin_manual/"
+    how: script
+  notes: "The address is a versionless alias. On 2026-11-25 it served the manual for Nextcloud 36, which the page's own version menu labels upcoming, with 35 labelled latest. Publisher from the footer copyright, which names Nextcloud GmbH and Nextcloud contributors."
+
+- id: matrix-synapse-documentation
+  name: "Synapse documentation"
+  url: "https://element-hq.github.io/synapse/latest/"
+  publisher: "Element"
+  section: collaboration-platforms
+  kind: documentation
+  cost: free
+  description: "Element's documentation for Synapse, its Matrix homeserver: installing, configuring, and upgrading it, the Admin API, modules, logging, scaling with workers, and monitoring."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://element-hq.github.io/synapse/latest/"
+    how: script
+  notes: "Publisher from the page, which says Synapse is developed by Element. The address is a versionless alias for the latest release."
