@@ -63,7 +63,7 @@
 - id: sqlite-documentation
   name: "SQLite Documentation"
   url: "https://www.sqlite.org/docs.html"
-  publisher: "SQLite"
+  publisher: "Hwaci"
   section: relational-databases
   kind: documentation
   cost: free
@@ -73,7 +73,7 @@
     status: 200
     final: "https://www.sqlite.org/docs.html"
     how: script
-  notes: "Publisher is the project's own name; the page names no organization and says SQLite is in the public domain."
+  notes: "Publisher from https://www.sqlite.org/copyright.html, read on 2026-11-25, which calls Hwaci the company that employs all the developers of SQLite. The same page says the code is in the public domain and that Hwaci sells a warranty of title; the documentation is free to read."
 
 - id: postgresql-wiki
   name: "PostgreSQL wiki"
@@ -108,7 +108,7 @@
 - id: redis-documentation
   name: "Redis Docs"
   url: "https://redis.io/docs/latest/"
-  publisher: "Redis"
+  publisher: "Redis Inc."
   section: non-relational-and-streaming
   kind: documentation
   cost: free
@@ -118,7 +118,7 @@
     status: 200
     final: "https://redis.io/docs/latest/"
     how: script
-  notes: "Publisher is the company's name as the page uses it; the page carries no copyright line."
+  notes: "Publisher from the site's terms of use, https://redis.io/legal/redis-website-terms-of-use/, read on 2026-11-25, which begin with Redis Inc. and its affiliates; this page carries no copyright line."
 
 - id: valkey-documentation
   name: "Valkey Documentation"
@@ -157,7 +157,7 @@
   section: non-relational-and-streaming
   kind: documentation
   cost: free
-  description: "Apache Kafka's documentation: an introduction to event streaming and Kafka's concepts and APIs, then configuration, design, operations, security, Kafka Connect, and Kafka Streams."
+  description: "Apache Kafka's documentation: an introduction with use cases and terminology, then design, APIs, configuration, security, operations, Kafka Streams, and Kafka Connect."
   checked:
     date: "2026-11-25"
     status: 200
@@ -407,7 +407,7 @@
   section: administration-and-tuning-tools
   kind: tool
   cost: free
-  description: "EnterpriseDB's backup and recovery manager for PostgreSQL: point-in-time recovery, remote management of many servers centrally, and a catalogue of each server's backups."
+  description: "Site of Barman, EnterpriseDB's disaster recovery tool for PostgreSQL: the current release, why to use it, and links to documentation, downloads, and support."
   checked:
     date: "2026-11-25"
     status: 200
@@ -437,7 +437,7 @@
   section: administration-and-tuning-tools
   kind: tool
   cost: free
-  description: "Home of PgBouncer, a pooler for PostgreSQL connections that is light on resources: release news including security fixes, and documentation for installation, configuration, and usage."
+  description: "Site of PgBouncer, the PostgreSQL connection pooler: release announcements with the CVEs each fixes, downloads, the FAQ, configuration and usage reference, install guide, and changelog."
   checked:
     date: "2026-11-25"
     status: 200
@@ -448,7 +448,7 @@
 - id: pgtune
   name: "PGTune"
   url: "https://pgtune.leopard.in.ua/"
-  publisher: "PGTune"
+  publisher: "Oleksii Vasyliev (le0pard)"
   section: administration-and-tuning-tools
   kind: service
   cost: free
@@ -458,7 +458,7 @@
     status: 200
     final: "https://pgtune.leopard.in.ua/"
     how: script
-  notes: "Publisher is the tool's own name; the page names no person or organization. The caution rests on https://pgtune.leopard.in.ua/about, read on 2026-11-25."
+  notes: "Publisher: the page names no one and links its source at github.com/le0pard/pgtune, a personal account; the display name is from GitHub's API on 2026-11-25. The caution rests on https://pgtune.leopard.in.ua/about, read the same day."
 
 - id: explain-depesz
   name: "explain.depesz.com"
@@ -482,13 +482,13 @@
   section: administration-and-tuning-tools
   kind: service
   cost: free
-  description: "Dalibo's visualizer for PostgreSQL execution plans: paste a plan as text or JSON, with the query if you like; a standalone HTML version runs locally."
+  description: "Dalibo's service for reading PostgreSQL EXPLAIN output: submit a plan as text or JSON, try the sample plans, or run the standalone HTML file locally."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://explain.dalibo.com/"
     how: script
-  notes: "Publisher from the footer, which says the service is brought to you by Dalibo."
+  notes: "Publisher from the footer, which says the service is brought to you by Dalibo. The page says a submitted plan is sent to the server and stored in a database; the standalone file avoids that."
 
 - id: mysqltuner
   name: "MySQLTuner"
@@ -497,13 +497,13 @@
   section: administration-and-tuning-tools
   kind: tool
   cost: free
-  description: "Perl script that inspects a MySQL, MariaDB, or Percona Server and reports its settings and status with tuning advice, drawing on some 900 indicators."
+  description: "Perl script that inspects a MySQL, MariaDB, or Percona Server and reports settings and status with tuning advice, including a health score and capacity planning."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/major/MySQLTuner-perl"
     how: script
-  notes: "The page gives the count as about 900 indicators, KPIs, and recommendations. The repository's last push was on 2026-11-24, from the GitHub API on 2026-11-25. Licensed GPL-3.0."
+  notes: "The repository's last push was on 2026-11-24, from the GitHub API on 2026-11-25. Licensed GPL-3.0."
 
 - id: patroni
   name: "Patroni documentation"
@@ -512,7 +512,7 @@
   section: administration-and-tuning-tools
   kind: documentation
   cost: free
-  description: "Documentation for Patroni, a template for highly available PostgreSQL using ZooKeeper, etcd, or Consul: installation, configuration, the REST API, patronictl, replication modes, and Kubernetes."
+  description: "Documentation for Patroni, which runs PostgreSQL in high-availability clusters: installation, configuration, the REST API, patronictl, replication modes, standby clusters, Kubernetes, Citus, and major upgrades."
   checked:
     date: "2026-11-25"
     status: 200
@@ -527,7 +527,7 @@
   section: learning-and-community
   kind: reference
   cost: free
-  description: "Free web edition of Markus Winand's book on SQL indexing: how an index is built, the where clause, and more, across the major databases."
+  description: "Markus Winand's online book on SQL indexing: index anatomy, the where clause, scalability, joins, clustering, sorting and grouping, paging, and data changes, with execution plans."
   checked:
     date: "2026-11-25"
     status: 200
@@ -602,7 +602,7 @@
   section: learning-and-community
   kind: training
   cost: free
-  description: "SQL exercises with explanations, all on one simple dataset: basics, aggregates, joins and subqueries, dates, strings, modifying data, and recursive queries."
+  description: "Practice problems for SQL on PostgreSQL, grouped from basics, joins, and aggregates to strings and recursive queries; meant to accompany a book or the manual."
   checked:
     date: "2026-11-25"
     status: 200

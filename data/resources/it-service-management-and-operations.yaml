@@ -38,28 +38,28 @@
   section: frameworks-and-standards
   kind: standard
   cost: freemium
-  description: "The Open Group's page for the IT4IT standard, a reference architecture built around value streams; free to download for non-commercial use, with commercial use licensed."
+  description: "The Open Group's page for the IT4IT standard, a reference architecture built around value streams; the Library offers it free for non-commercial use after registration."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.opengroup.org/it4it"
     how: script
-  notes: "Cost from The Open Group Library, one click away: https://publications.opengroup.org/standards/it4it/i24am, read on 2026-11-25, says the standard is available to all to download free of charge for non-commercial use and that a Commercial License is available for commercial purposes; it gives no price, and the download sits behind a login. The record's own page is free to read."
+  notes: "Cost is not stated on the record's own page. It is on The Open Group Library's product page, two clicks away: https://publications.opengroup.org/standards/it4it/i24am, read on 2026-11-25, says the standard is available to all to download free of charge for non-commercial use and that a Commercial License is available for commercial purposes. It gives no price, and the download needs registration. The record's own page is free to read."
 
 - id: dora-research
   name: "DORA"
   url: "https://dora.dev/"
   publisher: "Google Cloud"
   section: frameworks-and-standards
-  kind: research
-  cost: free
-  description: "Google Cloud's research program on how software teams deliver and operate: reports, capability guides, the DORA Core framework, and a Quick Check against industry peers."
+  kind: organization
+  cost: free-with-account
+  description: "Google Cloud's research program on how software teams deliver and operate: capability guides, DORA Core, a Quick Check, and reports behind a sign-up form."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://dora.dev/"
     how: script
-  notes: "Publisher from the footer: DORA is a program run by Google Cloud, with content licensed by Google LLC under CC BY 4.0."
+  notes: "Cost: the guides, the capability pages, and the Quick Check open without an account. The reports are the exception: the page's download link leads to https://cloud.google.com/resources/content/dora-roi-of-ai-assisted-software-development, read on 2026-11-25, which asks for a name, a business email, and a company before the download. Publisher from the footer: DORA is a program run by Google Cloud, with content licensed by Google LLC under CC BY 4.0."
 
 - id: jira-service-management-documentation
   name: "Jira Service Management Cloud support"
@@ -89,7 +89,7 @@
     status: 200
     final: "https://zammad.org/"
     how: script
-  notes: "Cost: the page offers the software to download and install on your own servers for free, and points to its sister site; https://zammad.com/en/pricing, read on 2026-11-25, sells hosted plans from 7 euros per agent per month. Publisher from the About Us page, which says zammad.org is a service provided by Zammad GmbH."
+  notes: "Cost: the page offers the software to download and install on your own servers for free, and points to its sister site; https://zammad.com/en/pricing, read on 2026-11-25, sells hosted plans from 7 euros per agent per month. Publisher from https://zammad.org/imprint, read on 2026-11-25, which says Zammad.org is a service provided by Zammad GmbH; the same page names the Zammad Foundation as owner of the source code."
 
 - id: osticket
   name: "osTicket"
@@ -143,7 +143,7 @@
   section: service-desk-and-ticketing
   kind: tool
   cost: freemium
-  description: "Ticketing system, open source, in which every incident, request, asset, or task is a ticket with its history; Best Practical sells hosted plans and support."
+  description: "Open source ticketing from Best Practical: requests arrive by email, form, or portal and route through rule-driven queues with SLAs; hosted plans are sold."
   checked:
     date: "2026-11-25"
     status: 200
@@ -154,7 +154,7 @@
 - id: spiceworks-help-desk
   name: "Spiceworks Cloud Help Desk"
   url: "https://www.spiceworks.com/free-cloud-help-desk-software/"
-  publisher: "Spiceworks Inc."
+  publisher: "Spiceworks (owned by Ziff Davis Inc)"
   section: service-desk-and-ticketing
   kind: service
   cost: freemium
@@ -164,7 +164,7 @@
     status: 200
     final: "https://www.spiceworks.com/free-cloud-help-desk-software/"
     how: script
-  notes: "Cost from https://www.spiceworks.com/free-cloud-help-desk-software/pricing/, read on 2026-11-25: a Core plan at no charge for 1 to 5 tech and admin seats, and paid plans from US$6 per seat per month billed annually. Every plan needs an account. Publisher from the footer copyright; the footer's Terms of Use link leads to ziffdavis.com, and the privacy policy lists Spiceworks Ziff Davis among the company's sites. https://www.spiceworks.com/free-help-desk-software/ redirects here."
+  notes: "Cost from https://www.spiceworks.com/free-cloud-help-desk-software/pricing/, read on 2026-11-25: a Core plan at no charge for 1 to 5 tech and admin seats, and paid plans from US$6 per seat per month billed annually. Every plan needs an account. Publisher from https://www.spiceworks.com/privacy/, read on 2026-11-25, which says Spiceworks is owned by Ziff Davis Inc; the footer copyright reads Spiceworks Inc. https://www.spiceworks.com/free-help-desk-software/ redirects here."
 
 - id: snipe-it
   name: "Snipe-IT"
@@ -188,7 +188,7 @@
   section: asset-and-configuration-management
   kind: tool
   cost: freemium
-  description: "Open source software that inventories the hardware and software of an organization's devices and can deploy packages to them; its publisher sells hosting and support."
+  description: "Open source inventory project: agents that report each machine's hardware and software, network discovery, remote software deployment, and plugins; its publisher sells hosting and support."
   checked:
     date: "2026-11-25"
     status: 200
@@ -278,7 +278,7 @@
   section: knowledge-and-documentation
   kind: reference
   cost: free
-  description: "Framework for technical documentation that sorts it by the reader's need into four forms: explanation, reference, how-to guides, and tutorials."
+  description: "Teaches the Diátaxis approach to documentation: a short primer, pages on explanation, reference, how-to guides, and tutorials, a compass and workflow, and its theory."
   checked:
     date: "2026-11-25"
     status: 200
@@ -367,13 +367,13 @@
   section: incident-and-change-practice
   kind: training
   cost: free
-  description: "Volunteer-written curriculum for people who run systems, covering systems administration, networking, and security from beginner level up; openly licensed, with many chapters still incomplete."
+  description: "Open curriculum for operations work at 101, 201, and 301 levels: Unix and Windows fundamentals, networking, security and identity, monitoring, deployment, datacenters, and soft skills."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.opsschool.org/"
     how: script
-  notes: "Publisher is the project's own name; the page names no organization. The footer gives the license as Creative Commons Attribution 3.0."
+  notes: "The page says the curriculum is written by volunteers and that many chapters are still incomplete. Publisher is the project's own name: the page names no organization, and its source is under the opsschool organization on GitHub. The footer gives the license as Creative Commons Attribution 3.0."
 
 - id: awesome-sysadmin
   name: "Awesome Sysadmin"
@@ -382,7 +382,7 @@
   section: incident-and-change-practice
   kind: reference
   cost: free
-  description: "Curated list of free and open source software for system administrators, sorted into categories from automation and backups to configuration management and databases."
+  description: "Open source software for administrators, each entry with a description, license, and language, under headings such as backups, DNS servers, identity management, monitoring, and VPN."
   checked:
     date: "2026-11-25"
     status: 200
@@ -397,13 +397,13 @@
   section: incident-and-change-practice
   kind: community
   cost: free
-  description: "Question-and-answer site about managing IT systems in a business setting, with questions on Linux, Windows, nginx, Active Directory, SSH, and more, and answers voted on."
+  description: "Stack Exchange's site about running servers and networks: questions listed with votes and answer counts, under tags such as Linux, Windows, nginx, and Active Directory."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://serverfault.com/"
     how: script
-  notes: "Scope from the site's tour page, https://serverfault.com/tour, read on 2026-11-25: a question and answer site for managing information technology systems in a business environment. Reading is free and needs no account; asking and answering need one. Publisher from the footer copyright."
+  notes: "Scope from two places, both read on 2026-11-25: the page's summary line, Q&A for system and network administrators, and the tour page, https://serverfault.com/tour, which calls it a question and answer site for managing information technology systems in a business environment. Reading is free and needs no account; asking and answering need one. Publisher from the footer copyright."
 
 - id: awesome-sre
   name: "Awesome Site Reliability Engineering"

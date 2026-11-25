@@ -68,7 +68,7 @@
   section: email-standards-and-authentication
   kind: standard
   cost: free
-  description: "The DMARC specification of May 2026: how a domain owner states a handling preference for mail that fails validation and requests reports; obsoletes RFC 7489."
+  description: "DMARC as specified in May 2026: identifier alignment, the policy record, and actions for mail receivers and domain owners; obsoletes RFC 7489 and 9091."
   checked:
     date: "2026-11-25"
     status: 200
@@ -83,7 +83,7 @@
   section: email-standards-and-authentication
   kind: standard
   cost: free
-  description: "Defines MTA-STS, by which a mail domain declares that its servers accept TLS and tells senders whether to refuse delivery without a trusted certificate."
+  description: "Defines MTA-STS: policy discovery through a TXT record and an HTTPS fetch, validation of MX hosts and certificates, policy application, failure reporting, and operational advice."
   checked:
     date: "2026-11-25"
     status: 200
@@ -188,7 +188,7 @@
   section: mail-servers-and-delivery
   kind: documentation
   cost: free
-  description: "Index of documentation for the Exim mailer: the specification and the filter specification in HTML and PDF for each version, HOWTO documents, and an FAQ."
+  description: "Exim's documentation index: the specification and filter specification for the current version in HTML and PDF, older versions from a list, HOWTOs, and an FAQ."
   checked:
     date: "2026-11-25"
     status: 200
@@ -218,7 +218,7 @@
   section: mail-servers-and-delivery
   kind: documentation
   cost: free
-  description: "Documentation for Rspamd, a spam filtering daemon that scores each message an MTA hands it: getting started, configuration, module reference, Lua API, and MTA integration."
+  description: "Documentation for the Rspamd spam filter: its capabilities, the stages each message passes through, installation, configuration, module reference, the Lua API, and MTA integration."
   checked:
     date: "2026-11-25"
     status: 200
@@ -244,7 +244,7 @@
 - id: mailcow-documentation
   name: "mailcow: dockerized documentation"
   url: "https://docs.mailcow.email/"
-  publisher: "mailcow Team & Community"
+  publisher: "The Infrastructure Company GmbH"
   section: mail-servers-and-delivery
   kind: documentation
   cost: free
@@ -254,7 +254,7 @@
     status: 200
     final: "https://docs.mailcow.email/"
     how: script
-  notes: "Publisher from the footer copyright. The page says paid support and a managed service are sold by Servercow, a separate site."
+  notes: "Publisher from the project site's imprint, https://mailcow.email/imprint/, read on 2026-11-25, which names The Infrastructure Company GmbH; this page says mailcow and Servercow are registered trademarks of that company, while its footer copyright reads mailcow Team & Community. Paid support and a managed service are sold under the Servercow name on another site."
 
 - id: mail-in-a-box
   name: "Mail-in-a-Box"
@@ -322,13 +322,13 @@
   section: dns-standards-and-references
   kind: standard
   cost: free
-  description: "Introduces DNSSEC: the services it provides and those it does not, and how its specifying documents fit together; updated by RFC 6014 and 6840."
+  description: "With RFC 4034 and 4035, the DNSSEC specification; this part defines the terms and sets out considerations for name servers, zones, resolvers, and stub resolvers."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.rfc-editor.org/info/rfc4033/"
     how: script
-  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The page says this RFC is updated by RFC 6014 and RFC 6840."
 
 - id: rfc-9499
   name: "RFC 9499: DNS Terminology"
@@ -337,13 +337,13 @@
   section: dns-standards-and-references
   kind: standard
   cost: free
-  description: "Best Current Practice 219: current definitions of DNS terms in one document, from names and response codes to zones, wildcards, and DNSSEC; obsoletes RFC 8499."
+  description: "Best Current Practice 219, a glossary of DNS terms by subject: names, resource records, response codes, transactions, zones, wildcards, servers and clients, registration, and DNSSEC."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.rfc-editor.org/info/rfc9499/"
     how: script
-  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The abstract says it obsoletes RFC 8499."
 
 - id: iana-top-level-domains
   name: "IANA Top-Level Domains"
@@ -380,9 +380,9 @@
   url: "https://dnsimple.com/comics/how-dns-works/"
   publisher: "DNSimple"
   section: dns-standards-and-references
-  kind: training
+  kind: reference
   cost: free
-  description: "Comic from DNSimple that explains what DNS does with a website address once you type it in a browser; last updated in July 2026."
+  description: "DNSimple's comic about a DNS lookup, told in episodes with a bonus on glue records, a video version, and translations into many languages."
   checked:
     date: "2026-11-25"
     status: 200
@@ -547,13 +547,13 @@
   section: dns-servers-and-services
   kind: tool
   cost: free
-  description: "Home page of dnsmasq, a lightweight server for small networks that forwards and caches DNS and provides network boot, router advertisement, and DHCP; GPL licensed."
+  description: "Page for dnsmasq describing its DNS, DHCP, and router advertisement subsystems, including DNSSEC validation, PXE, and TFTP, with the download, git repository, and mailing list."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://thekelleys.org.uk/dnsmasq/doc.html"
     how: script
-  notes: "Publisher from the page, which says dnsmasq is mainly written and maintained by Simon Kelley."
+  notes: "Publisher from the page, which says dnsmasq is mainly written and maintained by Simon Kelley, and that it is distributed under the GPL, version 2 or 3."
 
 - id: google-admin-toolbox
   name: "Google Admin Toolbox"
@@ -587,17 +587,17 @@
 - id: learndmarc
   name: "Learn and Test DMARC"
   url: "https://www.learndmarc.com/"
-  publisher: "Learn and Test DMARC"
+  publisher: "URIports.com"
   section: lookup-and-test-tools
   kind: service
   cost: free
-  description: "Shows how a receiving server checks SPF, DKIM, and DMARC on a message you send it; also a ten-question quiz and a header analyzer."
+  description: "Teaches SPF, DKIM, and DMARC three ways: mail its tester and watch each check, take a ten-question quiz, or paste headers for a visual breakdown."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.learndmarc.com/"
     how: script
-  notes: "Publisher is the site's own name; the page names no organization. Its Learn more links lead to uriports.com."
+  notes: "Publisher from the page's author tag, which reads URIports.com; the page's visible text names no one, and every outside link on it goes to uriports.com."
 
 - id: internet-nl
   name: "Internet.nl"
@@ -621,7 +621,7 @@
   section: lookup-and-test-tools
   kind: service
   cost: free
-  description: "Checks a domain name's health by walking the DNS tree from the root to its authoritative servers, testing DNSSEC signatures, host reachability, and address validity."
+  description: "Runs a battery of DNS tests, DNSSEC among them, on a domain name you enter, with optional settings; the source code and documentation are linked."
   checked:
     date: "2026-11-25"
     status: 200
@@ -642,7 +642,7 @@
     status: 200
     final: "https://www.whatsmydns.net/"
     how: script
-  notes: "Publisher is the site's own name; the page names no organization. It calls itself a free online tool and asks for donations."
+  notes: "Publisher is the site's own name: the page names no organization, it has no author tag, and its privacy policy, read on 2026-11-25, speaks only of whatsmydns.net. It calls itself a free online tool and asks for donations."
 
 - id: dmarcian-tools
   name: "dmarcian DMARC tools"
@@ -657,7 +657,7 @@
     status: 200
     final: "https://dmarcian.com/dmarc-tools/"
     how: script
-  notes: "Cost: the page says the tools are free with no registration required. dmarcian's DMARC Management Platform is a separate product; https://dmarcian.com/pricing/, read on 2026-11-25, lists a free personal plan and paid plans from $24 a month. Publisher from the footer."
+  notes: "Cost: the page says the tools are free with no registration required. dmarcian's DMARC Management Platform is a separate product; https://dmarcian.com/pricing/, read on 2026-11-25, lists a free personal plan and a Basic plan at $19.99 a month billed yearly, or $24 billed monthly. Publisher from the footer."
 
 - id: google-workspace-admin-help
   name: "Google Workspace Admin Help"
@@ -680,7 +680,7 @@
   section: collaboration-platforms
   kind: status
   cost: free
-  description: "Google's dashboard of the current status of each Google Workspace service, with an incident history, an RSS feed, and JSON data."
+  description: "Google's dashboard of the current status of each Google Workspace service, with an incident history, a feed, and JSON data."
   checked:
     date: "2026-11-25"
     status: 200
@@ -700,7 +700,7 @@
     status: 200
     final: "https://docs.nextcloud.com/server/latest/admin_manual/"
     how: script
-  notes: "The address is a versionless alias; it showed the manual for Nextcloud 36 on 2026-11-25. Publisher from the footer copyright, which names Nextcloud GmbH and Nextcloud contributors."
+  notes: "The address is a versionless alias. On 2026-11-25 it served the manual for Nextcloud 36, which the page's own version menu labels upcoming, with 35 labelled latest. Publisher from the footer copyright, which names Nextcloud GmbH and Nextcloud contributors."
 
 - id: matrix-synapse-documentation
   name: "Synapse documentation"

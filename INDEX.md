@@ -293,7 +293,7 @@
 | [Docker Docs](https://docs.docker.com/) | Docker Inc | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#containers-and-kubernetes) | Vendor documentation | Free |
 | [Docker security announcements](https://docs.docker.com/security/security-announcements/) | Docker | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [DomainTools Investigations](https://dti.domaintools.com/) | DomainTools | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [DORA](https://dora.dev/) | Google Cloud | [IT service management and operations](domains/it-service-management-and-operations.md#frameworks-and-standards) | Research blog | Free |
+| [DORA](https://dora.dev/) | Google Cloud | [IT service management and operations](domains/it-service-management-and-operations.md#frameworks-and-standards) | Organization | Free with account |
 | [Dovecot CE documentation](https://doc.dovecot.org/latest/) | Open-Xchange GmbH | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#mail-servers-and-delivery) | Vendor documentation | Free |
 | [Download Windows 11](https://www.microsoft.com/en-us/software-download/windows11) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Tool | Free |
 | [Dragos OT Cybersecurity Year in Review](https://www.dragos.com/ot-cybersecurity-year-in-review/) | Dragos | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
@@ -425,7 +425,7 @@
 | [HHS Threat Intelligence](https://tech.hhs.gov/cyber/threat-intelligence) | U.S. Department of Health and Human Services | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Advisory source | Free |
 | [Hitachi Energy Cybersecurity Alerts and Notifications](https://www.hitachienergy.com/us/en/products-and-solutions/cybersecurity/alerts-and-notifications) | Hitachi Energy | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Homebrew](https://brew.sh/) | Homebrew | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
-| [How DNS Works](https://dnsimple.com/comics/how-dns-works/) | DNSimple | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-standards-and-references) | Training or lab | Free |
+| [How DNS Works](https://dnsimple.com/comics/how-dns-works/) | DNSimple | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-standards-and-references) | Reference | Free |
 | [How Microsoft names threat actors](https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming) | Microsoft | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [How OpenID Connect Works](https://openid.net/developers/how-connect-works/) | OpenID Foundation | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
 | [HP Security Bulletins](https://support.hp.com/us-en/security-bulletins) | HP | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
@@ -522,7 +522,7 @@
 | [Lansweeper Knowledge Center](https://docs.lansweeper.com/) | Lansweeper | [IT service management and operations](domains/it-service-management-and-operations.md#asset-and-configuration-management) | Vendor documentation | Free |
 | [LDAP.com](https://ldap.com/) | Neil Wilson | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Reference | Free |
 | [LeakIX](https://leakix.net/) | LeakIX | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
-| [Learn and Test DMARC](https://www.learndmarc.com/) | Learn and Test DMARC | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#lookup-and-test-tools) | Online service | Free |
+| [Learn and Test DMARC](https://www.learndmarc.com/) | URIports.com | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#lookup-and-test-tools) | Online service | Free |
 | [Legacy GitLab Advisory Database](https://advisories.gitlab.com/) | GitLab | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [Lenovo Product Security Advisories and Announcements](https://support.lenovo.com/product_security/home) | Lenovo | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 | [LetsDefend](https://letsdefend.io/) | LetsDefend | [Labs and training](domains/labs-and-training.md#defensive-practice-labs) | Training or lab | Freemium |
@@ -547,7 +547,7 @@
 | [Mac Admins Foundation](https://www.macadmins.org/) | Mac Admins Foundation | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Organization | Free |
 | [Mail-in-a-Box](https://mailinabox.email/) | Joshua Tauberer | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#mail-servers-and-delivery) | Tool | Free |
 | [mail-tester](https://mail-tester.com/) | MAIL TESTER LLC | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#lookup-and-test-tools) | Online service | Freemium |
-| [mailcow: dockerized documentation](https://docs.mailcow.email/) | mailcow Team & Community | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#mail-servers-and-delivery) | Vendor documentation | Free |
+| [mailcow: dockerized documentation](https://docs.mailcow.email/) | The Infrastructure Company GmbH | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#mail-servers-and-delivery) | Vendor documentation | Free |
 | [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) | Fraunhofer FKIE | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Maltego](https://www.maltego.com/) | Maltego Technologies | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Freemium |
 | [MalwareBazaar](https://bazaar.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
@@ -742,7 +742,7 @@
 | [pgAdmin](https://www.pgadmin.org/) | pgAdmin Development Team | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Free |
 | [pgBackRest](https://pgbackrest.org/) | PostgreSQL Global Development Group | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Free |
 | [PgBouncer](https://www.pgbouncer.org/) | PgBouncer Authors | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Tool | Free |
-| [PGTune](https://pgtune.leopard.in.ua/) | PGTune | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Online service | Free |
+| [PGTune](https://pgtune.leopard.in.ua/) | Oleksii Vasyliev (le0pard) | [Databases and data platforms](domains/databases-and-data-platforms.md#administration-and-tuning-tools) | Online service | Free |
 | [PhishTank](https://phishtank.org/) | Cisco Talos | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
 | [Pi-hole documentation](https://docs.pi-hole.net/) | Pi-hole | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |
 | [PingCastle](https://www.pingcastle.com/) | Netwrix | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Freemium |
@@ -821,7 +821,7 @@
 | [Red Hat Enterprise Linux (Red Hat Documentation)](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/) | Red Hat | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#linux-servers) | Vendor documentation | Free |
 | [Red Hat Security Advisories](https://access.redhat.com/security/security-updates/) | Red Hat | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Redfish](https://www.dmtf.org/standards/redfish) | DMTF | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#storage-and-hardware) | Standard | Free |
-| [Redis Docs](https://redis.io/docs/latest/) | Redis | [Databases and data platforms](domains/databases-and-data-platforms.md#non-relational-streaming-and-data-platforms) | Vendor documentation | Free |
+| [Redis Docs](https://redis.io/docs/latest/) | Redis Inc. | [Databases and data platforms](domains/databases-and-data-platforms.md#non-relational-streaming-and-data-platforms) | Vendor documentation | Free |
 | [regex101](https://regex101.com/) | Firas Dib (firasdib) | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Online service | Freemium |
 | [The Register: Security](https://www.theregister.com/security/) | Situation Publishing | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Reliability (AWS Well-Architected Framework)](https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability.html) | Amazon Web Services | [Backup, recovery, and resilience](domains/backup-recovery-and-resilience.md#disaster-recovery-and-resilience) | Reference | Free |
@@ -922,7 +922,7 @@
 | [Spamhaus](https://www.spamhaus.org/) | The Spamhaus Project | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 | [SPDX](https://spdx.dev/) | Linux Foundation | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Standard | Free |
 | [SpecterOps Blog](https://specterops.io/blog/) | SpecterOps | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [Spiceworks Cloud Help Desk](https://www.spiceworks.com/free-cloud-help-desk-software/) | Spiceworks Inc. | [IT service management and operations](domains/it-service-management-and-operations.md#service-desk-and-ticketing) | Online service | Freemium |
+| [Spiceworks Cloud Help Desk](https://www.spiceworks.com/free-cloud-help-desk-software/) | Spiceworks (owned by Ziff Davis Inc) | [IT service management and operations](domains/it-service-management-and-operations.md#service-desk-and-ticketing) | Online service | Freemium |
 | [SpiderFoot](https://github.com/smicallef/spiderfoot) | Steve Micallef (smicallef) | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Free |
 | [Sploitus](https://sploitus.com/) | Sploitus | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Online service | Free |
 | [Splunk Security Advisories](https://advisory.splunk.com/) | Splunk | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
@@ -932,7 +932,7 @@
 | [SQL Server technical documentation](https://learn.microsoft.com/en-us/sql/sql-server/) | Microsoft | [Databases and data platforms](domains/databases-and-data-platforms.md#relational-databases) | Vendor documentation | Free |
 | [SQL Style Guide](https://www.sqlstyle.guide/) | Simon Holywell | [Databases and data platforms](domains/databases-and-data-platforms.md#learning-and-community) | Reference | Free |
 | [SQLBolt](https://sqlbolt.com/) | SQLBolt | [Databases and data platforms](domains/databases-and-data-platforms.md#learning-and-community) | Training or lab | Free |
-| [SQLite Documentation](https://www.sqlite.org/docs.html) | SQLite | [Databases and data platforms](domains/databases-and-data-platforms.md#relational-databases) | Vendor documentation | Free |
+| [SQLite Documentation](https://www.sqlite.org/docs.html) | Hwaci | [Databases and data platforms](domains/databases-and-data-platforms.md#relational-databases) | Vendor documentation | Free |
 | [sqlmap](https://sqlmap.org/) | sqlmap project | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Free |
 | [SS64 Command line reference](https://ss64.com/) | SS64.com | [Automation and scripting](domains/automation-and-scripting.md#shell-and-command-line) | Reference | Free |
 | [SSLBL](https://sslbl.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free |

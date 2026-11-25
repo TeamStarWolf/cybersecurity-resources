@@ -22,8 +22,8 @@ What do the service management frameworks ask for?
 |---|---|---|---|---|
 | [ISO/IEC 20000-1:2018](https://www.iso.org/standard/70636.html) | ISO | ISO's page for ISO/IEC 20000-1:2018, which sets requirements for a service management system: the abstract, its one amendment, a preview, and the standard for sale. | Standard | Paid |
 | [FitSM](https://www.fitsm.eu/) | FitSM e.V. | Site of the FitSM standard for IT service management, free and lightweight: its goals, its compatibility with ISO/IEC 20000-1 and ITIL, and who maintains it. | Standard | Free |
-| [IT4IT Reference Architecture](https://www.opengroup.org/it4it) | The Open Group | The Open Group's page for the IT4IT standard, a reference architecture built around value streams; free to download for non-commercial use, with commercial use licensed. | Standard | Freemium |
-| [DORA](https://dora.dev/) | Google Cloud | Google Cloud's research program on how software teams deliver and operate: reports, capability guides, the DORA Core framework, and a Quick Check against industry peers. | Research blog | Free |
+| [IT4IT Reference Architecture](https://www.opengroup.org/it4it) | The Open Group | The Open Group's page for the IT4IT standard, a reference architecture built around value streams; the Library offers it free for non-commercial use after registration. | Standard | Freemium |
+| [DORA](https://dora.dev/) | Google Cloud | Google Cloud's research program on how software teams deliver and operate: capability guides, DORA Core, a Quick Check, and reports behind a sign-up form. | Organization | Free with account |
 
 ## Service desk and ticketing
 
@@ -36,8 +36,8 @@ What can I run a help desk on?
 | [osTicket](https://osticket.com/) | Enhancesoft | Open source ticketing system for support desks: ticket filters, help topics, service level agreements, and a customer portal; cloud hosting and support are sold. | Tool | Freemium |
 | [GLPI](https://www.glpi-project.org/en/) | Teclib' | Open source IT service management software that joins a helpdesk, an asset inventory with a CMDB, and financial management; Teclib' sells cloud hosting and subscriptions. | Tool | Freemium |
 | [iTop](https://combodo.com/) | Combodo | Combodo's open source service management software: a service catalog, request and incident handling, problem and change management, and a CMDB; paid subscriptions add features. | Tool | Freemium |
-| [Request Tracker](https://requesttracker.com/request-tracker/) | Best Practical Solutions, LLC | Ticketing system, open source, in which every incident, request, asset, or task is a ticket with its history; Best Practical sells hosted plans and support. | Tool | Freemium |
-| [Spiceworks Cloud Help Desk](https://www.spiceworks.com/free-cloud-help-desk-software/) | Spiceworks Inc. | Hosted help desk with a web portal for tickets, automatic routing, custom queues, and a knowledge base; free for up to five technician seats. | Online service | Freemium |
+| [Request Tracker](https://requesttracker.com/request-tracker/) | Best Practical Solutions, LLC | Open source ticketing from Best Practical: requests arrive by email, form, or portal and route through rule-driven queues with SLAs; hosted plans are sold. | Tool | Freemium |
+| [Spiceworks Cloud Help Desk](https://www.spiceworks.com/free-cloud-help-desk-software/) | Spiceworks (owned by Ziff Davis Inc) | Hosted help desk with a web portal for tickets, automatic routing, custom queues, and a knowledge base; free for up to five technician seats. | Online service | Freemium |
 
 ## Asset and configuration management
 
@@ -46,7 +46,7 @@ How do I keep track of what we own and how it is set up?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Snipe-IT](https://snipeitapp.com/) | Grokability, Inc. | Open source system for managing IT assets in place of spreadsheets, with a REST API and 2FA; free to host yourself, with paid hosting plans. | Tool | Freemium |
-| [OCS Inventory](https://ocsinventory-ng.org/?lang=en) | FactorFX | Open source software that inventories the hardware and software of an organization's devices and can deploy packages to them; its publisher sells hosting and support. | Tool | Freemium |
+| [OCS Inventory](https://ocsinventory-ng.org/?lang=en) | FactorFX | Open source inventory project: agents that report each machine's hardware and software, network discovery, remote software deployment, and plugins; its publisher sells hosting and support. | Tool | Freemium |
 | [Lansweeper Knowledge Center](https://docs.lansweeper.com/) | Lansweeper | Lansweeper's documentation for its Platform and Classic products: first setup, discovering and managing assets, dashboards and risk insights, automated workflows, and integrations. | Vendor documentation | Free |
 
 ## Knowledge and documentation
@@ -59,7 +59,7 @@ Where do we write things down, and how do we write them well?
 | [Wiki.js](https://js.wiki/) | Wiki.js | Self-hosted open source wiki engine on Node.js and Postgres: a Markdown editor with live preview, diagrams as code, real-time shared notes, and a file manager. | Tool | Free |
 | [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) | Wikimedia Foundation | Home of the wiki software that powers Wikipedia: how to download, install, and configure it, add extensions, edit pages, and develop code, with project news. | Tool | Free |
 | [Confluence Cloud support](https://support.atlassian.com/confluence-cloud/) | Atlassian | Atlassian's support hub for Confluence Cloud: links to the documentation, a troubleshooting knowledge base, the community, system status, bug reports and suggestions, and release notes. | Vendor documentation | Free |
-| [Diátaxis](https://diataxis.fr/) | Daniele Procida | Framework for technical documentation that sorts it by the reader's need into four forms: explanation, reference, how-to guides, and tutorials. | Reference | Free |
+| [Diátaxis](https://diataxis.fr/) | Daniele Procida | Teaches the Diátaxis approach to documentation: a short primer, pages on explanation, reference, how-to guides, and tutorials, a compass and workflow, and its theory. | Reference | Free |
 | [Write the Docs: Software documentation guide](https://www.writethedocs.org/guide/) | Write the Docs | Community-written guide to software documentation: how to start, approaches such as docs as code, markup languages, documentation tools, and writing for an API. | Reference | Free |
 | [Google developer documentation style guide](https://developers.google.com/style) | Google | The style guide Google uses for developer documentation; this page covers which reference to consult first, other editorial resources, annotations, and breaking the rules. | Reference | Free |
 | [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) | Microsoft | Welcome page of Microsoft's guide to writing about technology, with its voice described and links to ten top tips, bias-free communication, and global communications. | Reference | Free |
@@ -72,9 +72,9 @@ How do other operations teams handle incidents and the daily work?
 |---|---|---|---|---|
 | [Atlassian Incident Management Handbook](https://www.atlassian.com/incident-management/handbook) | Atlassian | Atlassian's own incident process written up as a handbook: what counts as an incident, incident values, tooling, the incident manager's role, response, and postmortems. | Reference | Free |
 | [Postmortem Templates](https://github.com/dastergon/postmortem-templates) | Pavlos Ratis (dastergon) | Postmortem templates, each from a named source: books on reliability and system administration, a Google Developers blog post, Azure status posts, and more. *Last updated on July 12, 2023.* | Dataset or feed | Free |
-| [Ops School](https://www.opsschool.org/) | Ops School | Volunteer-written curriculum for people who run systems, covering systems administration, networking, and security from beginner level up; openly licensed, with many chapters still incomplete. | Training or lab | Free |
-| [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | awesome-foss | Curated list of free and open source software for system administrators, sorted into categories from automation and backups to configuration management and databases. | Reference | Free |
-| [Server Fault](https://serverfault.com/) | Stack Exchange Inc | Question-and-answer site about managing IT systems in a business setting, with questions on Linux, Windows, nginx, Active Directory, SSH, and more, and answers voted on. | Community | Free |
+| [Ops School](https://www.opsschool.org/) | Ops School | Open curriculum for operations work at 101, 201, and 301 levels: Unix and Windows fundamentals, networking, security and identity, monitoring, deployment, datacenters, and soft skills. | Training or lab | Free |
+| [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | awesome-foss | Open source software for administrators, each entry with a description, license, and language, under headings such as backups, DNS servers, identity management, monitoring, and VPN. | Reference | Free |
+| [Server Fault](https://serverfault.com/) | Stack Exchange Inc | Stack Exchange's site about running servers and networks: questions listed with votes and answer counts, under tags such as Linux, Windows, nginx, and Active Directory. | Community | Free |
 | [Awesome Site Reliability Engineering](https://github.com/dastergon/awesome-sre) | Pavlos Ratis (dastergon) | Curated reading list for site reliability engineering: culture, education, books, monitoring and alerting, on-call, postmortems, capacity planning, and service level agreements. | Reference | Free |
 | [System Administrators' Code of Ethics](https://www.usenix.org/system-administrators-code-ethics) | USENIX | Code of ethics for system administrators, with USENIX, LOPSA, and LISA as signatories: professionalism, personal integrity, privacy, laws and policies, communication, system integrity, and more. | Reference | Free |
 
