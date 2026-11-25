@@ -1,0 +1,553 @@
+# Resources in the domain "identity-and-directory-administration". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: microsoft-entra-documentation
+  name: "Microsoft Entra documentation"
+  url: "https://learn.microsoft.com/en-us/entra/"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation hub for Entra: Entra ID, ID Protection, ID Governance, External ID, Verified ID, and the Internet Access and Private Access services."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/entra/"
+    how: script
+
+- id: microsoft-entra-whats-new
+  name: "Microsoft Entra releases and announcements"
+  url: "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: reference
+  cost: free
+  description: "Month-by-month list of Microsoft Entra feature releases and planned changes, with a linked archive for older months."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+    how: script
+  notes: "On 2026-11-25 the newest month on the page was June 2026 (page metadata: dated 2026-06-26, updated 2026-10-08), although the page says it is updated monthly. It carries no notice that the list has moved."
+
+- id: microsoft-entra-built-in-roles
+  name: "Microsoft Entra built-in roles"
+  url: "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: reference
+  cost: free
+  description: "Reference list of every built-in Entra role, giving each role's description, permissions, and template ID."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference"
+    how: script
+
+- id: microsoft-entra-connect
+  name: "Microsoft Entra Connect and Connect Health"
+  url: "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Explains Entra Connect, its Connect Health monitoring, and hybrid identity options: password hash synchronization, pass-through authentication, federation, and the suggested move to Cloud Sync."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect"
+    how: script
+
+- id: microsoft-entra-authentication
+  name: "Microsoft Entra authentication documentation"
+  url: "https://learn.microsoft.com/en-us/entra/identity/authentication/"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for Entra authentication: passkeys, certificate-based sign-in, Windows Hello for Business, multifactor authentication, and password reset."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/entra/identity/authentication/"
+    how: script
+
+- id: microsoft-entra-conditional-access
+  name: "Microsoft Entra Conditional Access documentation"
+  url: "https://learn.microsoft.com/en-us/entra/identity/conditional-access/"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for Conditional Access: conditions and locations, deployment planning, common policy templates, and troubleshooting with the What If tool."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/entra/identity/conditional-access/"
+    how: script
+
+- id: microsoft-identity-platform
+  name: "Microsoft identity platform documentation"
+  url: "https://learn.microsoft.com/en-us/entra/identity-platform/"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Developer documentation for building Entra sign-in into apps: app registration, authentication flows, the MSAL libraries, and protecting web APIs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/entra/identity-platform/"
+    how: script
+
+- id: active-directory-domain-services-overview
+  name: "Active Directory Domain Services overview"
+  url: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Short introduction to AD DS that links onward to its data store, schema, global catalog, replication, and domain controller roles."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview"
+    how: script
+
+- id: windows-server-identity-and-access
+  name: "Windows Server Identity and Access documentation"
+  url: "https://learn.microsoft.com/en-us/windows-server/identity/identity-and-access"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Hub for Windows Server identity documentation: Active Directory Domain Services, Certificate Services, Federation Services, and Windows LAPS."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/identity/identity-and-access"
+    how: script
+
+- id: active-directory-troubleshooting
+  name: "Active Directory documentation (troubleshooting)"
+  url: "https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Microsoft's index of troubleshooting articles for Active Directory."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview"
+    how: script
+  notes: "The page's heading is Active Directory documentation and it sits in the troubleshooting section of Microsoft Learn; the word in parentheses is the catalog's, to tell it apart from the product documentation."
+
+- id: dcdiag
+  name: "dcdiag"
+  url: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dcdiag"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: reference
+  cost: free
+  description: "Command reference for dcdiag: its syntax, the tests it can run against a domain controller, DNS options, and examples."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dcdiag"
+    how: script
+
+- id: windows-laps
+  name: "Windows LAPS overview"
+  url: "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview"
+  publisher: "Microsoft"
+  section: active-directory-and-entra
+  kind: documentation
+  cost: free
+  description: "Introduces Windows LAPS for managing local administrator passwords: supported platforms, use with Microsoft Entra ID, policy settings, and migration from legacy Microsoft LAPS."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview"
+    how: script
+
+- id: openid-connect
+  name: "How OpenID Connect Works"
+  url: "https://openid.net/developers/how-connect-works/"
+  publisher: "OpenID Foundation"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "The OpenID Foundation's explanation of OpenID Connect, the authentication protocol built on OAuth 2.0."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://openid.net/developers/how-connect-works/"
+    how: script
+
+- id: oauth-2
+  name: "OAuth 2.0"
+  url: "https://oauth.net/2/"
+  publisher: "Aaron Parecki"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Guide to OAuth 2.0, the protocol for authorization."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://oauth.net/2/"
+    how: script
+  notes: "The site's Credits page says the website is maintained by Aaron Parecki."
+
+- id: rfc-6749
+  name: "RFC 6749: The OAuth 2.0 Authorization Framework"
+  url: "https://www.rfc-editor.org/info/rfc6749/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Framework by which an application gets limited, token-based access to a web service for a user; updated by RFCs 8252, 8996, and 9700."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc6749/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The About page says the RFC Editor publishes and archives RFCs. On 2026-11-25 the page said this RFC was updated by RFC 8252, RFC 8996, and RFC 9700."
+
+- id: saml-2
+  name: "Security Assertion Markup Language (SAML) v2.0"
+  url: "https://www.oasis-open.org/standard/saml/"
+  publisher: "OASIS"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "OASIS's page for the SAML 2.0 standard, approved in March 2005: the specification set as PDFs and schema files in a zip, plus the errata."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.oasis-open.org/standard/saml/"
+    how: script
+
+- id: scim
+  name: "SCIM: System for Cross-domain Identity Management"
+  url: "https://scim.cloud/"
+  publisher: "Aaron Parecki (aaronpk)"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Home of the SCIM standard for exchanging user identity data: user and group schema, REST protocol, the RFCs that define version 2.0, and known implementations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://scim.cloud/"
+    how: script
+  notes: "The page says SCIM is developed in the IETF SCIM working group. No page names who runs the site in words; its footer and its Resources page link its source in a repository under the personal GitHub account aaronpk, whose profile name is Aaron Parecki."
+
+- id: fido-passkeys
+  name: "FIDO Passkeys"
+  url: "https://fidoalliance.org/passkeys/"
+  publisher: "FIDO Alliance"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "The FIDO Alliance's explanation of passkeys, the FIDO credential that signs a user in with the device's own unlock method."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://fidoalliance.org/passkeys/"
+    how: script
+
+- id: rfc-4511
+  name: "RFC 4511: Lightweight Directory Access Protocol (LDAP): The Protocol"
+  url: "https://www.rfc-editor.org/info/rfc4511/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Defines the LDAP protocol itself: the operations a client can ask of a directory server and how each message is encoded."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc4511/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The About page says the RFC Editor publishes and archives RFCs."
+
+- id: rfc-4120
+  name: "RFC 4120: The Kerberos Network Authentication Service (V5)"
+  url: "https://www.rfc-editor.org/info/rfc4120/"
+  publisher: "IETF"
+  section: protocols-and-standards
+  kind: standard
+  cost: free
+  description: "Defines version 5 of Kerberos, the network authentication service; it obsoletes RFC 1510 and is updated by several later RFCs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc4120/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The About page says the RFC Editor publishes and archives RFCs."
+
+- id: ldap-com
+  name: "LDAP.com"
+  url: "https://ldap.com/"
+  publisher: "Neil Wilson"
+  section: protocols-and-standards
+  kind: reference
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2024-12-16"
+  description: "Reference site on LDAP, with sections for learning the protocol, using it, and looking up reference material."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ldap.com/"
+    how: script
+  notes: "The About page says all content was written by Neil Wilson, who works at Ping Identity. The newest post the home page lists is dated December 16, 2024, read from the post's address. The reference sections are undated."
+
+- id: jwt-ms
+  name: "jwt.ms"
+  url: "https://jwt.ms/"
+  publisher: "Microsoft"
+  section: token-and-protocol-tools
+  kind: service
+  cost: free
+  description: "Paste a JSON Web Token to see its decoded claims with notes on each; the page says the token never leaves the browser."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://jwt.ms/"
+    how: script
+  notes: "The page itself names no operator. Microsoft's documentation, in its tutorial on registering a web application in Azure AD B2C, calls jwt.ms a Microsoft-owned web application that displays the decoded contents of a token."
+
+- id: jwt-io
+  name: "jwt.io"
+  url: "https://www.jwt.io/"
+  publisher: "Okta"
+  section: token-and-protocol-tools
+  kind: service
+  cost: free
+  description: "Debugger for decoding, verifying, and generating JSON Web Tokens."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.jwt.io/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: onelogin-saml-tools
+  name: "OneLogin SAML online tools"
+  url: "https://developers.onelogin.com/docs/saml/online-tools/"
+  publisher: "OneLogin"
+  section: token-and-protocol-tools
+  kind: service
+  cost: free
+  description: "Browser tools for SAML work: decode and validate requests and responses, build metadata, format certificates, and generate a self-signed certificate."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developers.onelogin.com:443/docs/saml/online-tools/"
+    how: script
+  notes: "samltool.com redirects to this page."
+
+- id: okta-documentation
+  name: "Okta Documentation"
+  url: "https://help.okta.com/"
+  publisher: "Okta"
+  section: other-directories-and-identity-providers
+  kind: documentation
+  cost: free
+  description: "Okta's product documentation for Identity Engine, Classic Engine, Access Gateway, and its other products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://help.okta.com/en-us/content/index.htm"
+    how: browser
+
+- id: okta-developer
+  name: "Okta Developer"
+  url: "https://developer.okta.com/"
+  publisher: "Okta"
+  section: other-directories-and-identity-providers
+  kind: documentation
+  cost: free
+  description: "Okta's site for developers who are building sign-in and user handling into their own applications."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.okta.com/"
+    how: script
+
+- id: okta-status
+  name: "Okta Status"
+  url: "https://status.okta.com/"
+  publisher: "Okta"
+  section: other-directories-and-identity-providers
+  kind: status
+  cost: free
+  description: "Live health page for the Okta service, with a record of past incidents."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://status.okta.com/"
+    how: script
+
+- id: ping-identity-documentation
+  name: "Build with Ping Identity"
+  url: "https://docs.pingidentity.com/"
+  publisher: "Ping Identity"
+  section: other-directories-and-identity-providers
+  kind: documentation
+  cost: free
+  description: "Ping Identity's documentation home: product documentation, use cases, and release notes for PingOne and its other products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.pingidentity.com/"
+    how: script
+
+- id: google-cloud-identity-documentation
+  name: "Cloud Identity documentation"
+  url: "https://docs.cloud.google.com/identity/docs"
+  publisher: "Google Cloud"
+  section: other-directories-and-identity-providers
+  kind: documentation
+  cost: free
+  description: "Google's documentation for Cloud Identity: domain verification, setup, and the Groups and Devices APIs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/identity/docs"
+    how: script
+
+- id: aws-iam-user-guide
+  name: "AWS IAM User Guide"
+  url: "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+  publisher: "Amazon Web Services"
+  section: other-directories-and-identity-providers
+  kind: documentation
+  cost: free
+  description: "Amazon's guide to IAM, opening with what the service is and how access requests are authorized, then covering users, groups, roles, and policies."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+    how: script
+
+- id: aws-iam-identity-center-user-guide
+  name: "AWS IAM Identity Center User Guide"
+  url: "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html"
+  publisher: "Amazon Web Services"
+  section: other-directories-and-identity-providers
+  kind: documentation
+  cost: free
+  description: "Amazon's guide to IAM Identity Center, its service for giving a workforce single sign-on across AWS accounts and applications from one identity source."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html"
+    how: script
+
+- id: duo-documentation
+  name: "Duo Documentation"
+  url: "https://duo.com/docs"
+  publisher: "Cisco"
+  section: other-directories-and-identity-providers
+  kind: documentation
+  cost: free
+  description: "How-to and setup guides for integrating Duo with devices and applications."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://duo.com/docs"
+    how: script
+  notes: "Publisher from the footer copyright, Cisco Systems, Inc."
+
+- id: keycloak
+  name: "Keycloak"
+  url: "https://www.keycloak.org/"
+  publisher: "Keycloak, a CNCF project"
+  section: other-directories-and-identity-providers
+  kind: tool
+  cost: free
+  description: "Open source server for identity management: single sign-on, identity brokering, social login, user federation with LDAP or Active Directory, and authorization services."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.keycloak.org/"
+    how: script
+  notes: "The page says Keycloak is a Cloud Native Computing Foundation incubation project; the footer copyright names the Keycloak Authors and The Linux Foundation."
+
+- id: freeipa
+  name: "FreeIPA"
+  url: "https://www.freeipa.org/"
+  publisher: "FreeIPA"
+  section: other-directories-and-identity-providers
+  kind: tool
+  cost: free
+  description: "Open source identity, policy, and audit system for managing Linux users and hosts."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.freeipa.org/"
+    how: script
+
+- id: openldap
+  name: "OpenLDAP"
+  url: "https://www.openldap.org/"
+  publisher: "OpenLDAP Foundation"
+  section: other-directories-and-identity-providers
+  kind: tool
+  cost: free
+  description: "Home of the community-developed OpenLDAP software, with its documentation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.openldap.org/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: 389-directory-server
+  name: "389 Directory Server"
+  url: "https://www.port389.org/"
+  publisher: "Red Hat"
+  section: other-directories-and-identity-providers
+  kind: tool
+  cost: free
+  description: "LDAP directory server for Linux, developed in the open, with documentation, release notes, and mailing lists on this site."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.port389.org/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: authelia
+  name: "Authelia"
+  url: "https://www.authelia.com/"
+  publisher: "Authelia"
+  section: other-directories-and-identity-providers
+  kind: tool
+  cost: free
+  description: "Open source server for authentication and authorization that is certified as an OpenID Connect provider."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.authelia.com/"
+    how: script
+
+- id: authentik
+  name: "authentik"
+  url: "https://goauthentik.io/"
+  publisher: "Authentik Security"
+  section: other-directories-and-identity-providers
+  kind: tool
+  cost: freemium
+  description: "Identity provider that you host yourself, with an open source core and paid enterprise plans."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://goauthentik.io/"
+    how: script
+  notes: "The page describes the product as open source and also lists pricing. Publisher from the footer copyright. The site has a pricing page for its enterprise plans."

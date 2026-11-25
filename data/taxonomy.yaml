@@ -224,19 +224,32 @@ domains:
     title: "Identity and directory services administration"
     covers: "Running Active Directory, Microsoft Entra ID, and other directories and identity providers: documentation, tools, and troubleshooting references."
     boundary: "Attacking and defending identity systems sits in Identity and data protection and Offensive security."
-    sections: []
+    sections:
+      - {id: active-directory-and-entra, title: "Active Directory and Microsoft Entra", question: "How do I run Microsoft's directories?"}
+      - {id: other-directories-and-identity-providers, title: "Other directories and identity providers", question: "What about the other identity systems?"}
+      - {id: protocols-and-standards, title: "Protocols and standards", question: "How do OAuth, OpenID Connect, SAML, SCIM, LDAP, Kerberos, and passkeys work?"}
+      - {id: token-and-protocol-tools, title: "Token and protocol tools", question: "What do I debug a sign-in with?"}
   - id: microsoft-365-and-windows-administration
     group: enterprise-it
     title: "Microsoft 365 and Windows administration"
     covers: "Administering Microsoft 365 tenants, Windows clients, and Windows Server: admin centers, documentation, release health, and message centers."
     boundary: "Scripting sits in Automation and scripting; device enrollment and policy sit in Endpoint and device management."
-    sections: []
+    sections:
+      - {id: documentation-hubs, title: "Documentation hubs", question: "Where is the official documentation?"}
+      - {id: release-health-and-roadmap, title: "Release health, updates, and roadmap", question: "What changed, what is coming, and what is broken right now?"}
+      - {id: tools-and-references, title: "Admin tools and references", question: "What do I look up or run?"}
+      - {id: community-and-blogs, title: "Community and blogs", question: "Who explains it well?"}
   - id: endpoint-and-device-management
     group: enterprise-it
     title: "Endpoint and device management"
     covers: "Managing fleets of Windows, macOS, Linux, and mobile devices: management platforms, packaging, patching, and imaging."
     boundary: "Security baselines for those devices sit in Platform hardening."
-    sections: []
+    sections:
+      - {id: windows-management-and-deployment, title: "Windows management and deployment", question: "How do I deploy, manage, and update Windows devices?"}
+      - {id: apple-device-management, title: "Apple device management", question: "How do I manage Macs, iPhones, and iPads?"}
+      - {id: android-chromeos-and-cross-platform, title: "Android, ChromeOS, and cross-platform", question: "What about the other platforms?"}
+      - {id: packaging-imaging-and-software-deployment, title: "Packaging, imaging, and software deployment", question: "How do I get software and images onto devices?"}
+      - {id: community-and-blogs, title: "Community and blogs", question: "Who explains it well?"}
   - id: networking-and-connectivity
     group: enterprise-it
     title: "Networking and connectivity"
@@ -319,3 +332,7 @@ start_here:
   - {want: "Find the framework or control catalog an audit asks for", to: "grc-and-security-program"}
   - {want: "Practice in a lab or take a course", to: "labs-and-training"}
   - {want: "Keep up with security news", to: "news-and-research"}
+  - {want: "Administer Microsoft 365 or Windows", to: "microsoft-365-and-windows-administration"}
+  - {want: "Check whether a Windows update or a Microsoft service has a known problem", to: "microsoft-365-and-windows-administration/release-health-and-roadmap"}
+  - {want: "Run a directory or debug a sign-in", to: "identity-and-directory-administration"}
+  - {want: "Deploy, manage, and patch devices", to: "endpoint-and-device-management"}

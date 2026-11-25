@@ -46,13 +46,13 @@ Every page in this repository is generated from the files under `data/`. To chan
 | `maintenance` | Only for a resource that is no longer developed: a `state` and, where known, the date `since`. See Maintenance below |
 | `description` | One sentence of at most 25 words: what it is and when you reach for it. Written from the page, in your own words, with no adjectives that sell and no count the page will outgrow (rules, tools, lists). A version number, a date, or a limit of the tool can stay |
 | `checked` | `date` the address was opened; the HTTP `status` and `final` address that came back; `how` it was opened: `script`, `browser`, or `blocked` |
-| `status` | Omitted for a shown record. `retired` when the resource has gone; `unverified` when the address could not be read. Both need `notes`, and neither is shown on a domain page |
+| `status` | Omitted for a shown record. `retired` when the resource has gone; `unverified` when the address could not be read, or when the page is held out for safety (see below). Both need `notes`, and neither is shown on a domain page |
 | `replaced_by` | For a retired record, the id of the record that took its place |
 | `notes` | What a maintainer needs to know: a login wall, the date of the last commit, what was read when the address itself was blocked. Notes stay in the data and are not shown on a page |
 
 ### Publisher
 
-The publisher is the organization that runs the resource today, as the page's footer or about page states it. A brand is not a publisher: a news site's footer usually names the company that owns it. When the footer or the about page names someone other than the brand, say in `notes` which page settled it. After an acquisition, that is the current owner in the form the page gives, such as "Wiz (part of Google Cloud)". Use the project's own name only when the page names no organization. For a repository under a personal account, give the person's display name with the account name in parentheses, such as "Ronnie Flathers (ropnop)", both read from the account's profile.
+The publisher is the organization that runs the resource today, as the page's footer or about page states it. A brand is not a publisher: a news site's footer usually names the company that owns it. When the footer or the about page names someone other than the brand, say in `notes` which page settled it. After an acquisition, that is the current owner in the form the page gives, such as "Wiz (part of Google Cloud)". Use the project's own name only when the page names no organization. For a repository under a personal account, give the person's display name with the account name in parentheses, such as "Ronnie Flathers (ropnop)", both read from the account's profile. The same holds for a site that names no operator but links its own source in a repository under a personal account; say in `notes` that the name comes from the repository.
 
 ### Cost
 
@@ -79,7 +79,7 @@ A resource that is still developed has no `maintenance` field. One that is not c
 | `archived` | The repository is marked archived by its owner | Archived on February 20, 2026. |
 | `maintenance-mode` | The maintainers say it receives fixes only | In maintenance mode. |
 | `unmaintained` | The maintainers say it is no longer maintained or developed | No longer actively maintained, as of January 1, 2023. |
-| `dormant` | No such statement, but no update for about two years | Last updated in November 2020. |
+| `dormant` | No such statement, but no update for about two years. For a news site, blog, newsletter, or podcast, six months without a new item is enough, because new items are what a reader comes for | Last updated in November 2020. |
 
 `since` is written `YYYY`, `YYYY-MM`, or `YYYY-MM-DD`, as precisely as the source gives it. It is required for `dormant` and optional otherwise.
 
@@ -145,6 +145,10 @@ Some sites refuse automated clients. When an address cannot be opened by the scr
 - If nothing can be read, the record gets `status: unverified` and no description. It stays in the data and off the domain pages until someone can open it.
 
 Either way, the address goes on the ignore list with the reason.
+
+## Pages held out for safety
+
+An entry has to be safe to link. When a check finds a sign that a page may have been tampered with, such as a hidden link to an unrelated site in its HTML, the record gets `status: unverified` and `notes` that say what was seen, where, and on what date. It keeps its other fields, stays in the data, and stays off the domain pages until a later check finds the sign gone. Do not open whatever the sign points to.
 
 ## The link-check ignore list
 
