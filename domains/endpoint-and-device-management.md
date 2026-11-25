@@ -4,7 +4,7 @@
 
 > Managing fleets of Windows, macOS, Linux, and mobile devices: management platforms, packaging, patching, and imaging.
 
-Part of the [domain list](README.md). 40 resources in 5 sections. Security baselines for those devices sit in Platform hardening.
+Part of the [domain list](README.md). 39 resources in 5 sections. Security baselines for those devices sit in Platform hardening.
 
 | Section | The question it answers | Resources |
 |---|---|---|
@@ -12,7 +12,7 @@ Part of the [domain list](README.md). 40 resources in 5 sections. Security basel
 | [Apple device management](#apple-device-management) | How do I manage Macs, iPhones, and iPads? | 10 |
 | [Android, ChromeOS, and cross-platform](#android-chromeos-and-cross-platform) | What about the other platforms? | 5 |
 | [Packaging, imaging, and software deployment](#packaging-imaging-and-software-deployment) | How do I get software and images onto devices? | 10 |
-| [Community and blogs](#community-and-blogs) | Who explains it well? | 4 |
+| [Community and blogs](#community-and-blogs) | Who explains it well? | 3 |
 
 ## Windows management and deployment
 
@@ -24,7 +24,7 @@ How do I deploy, manage, and update Windows devices?
 | [What's new in Microsoft Intune](https://learn.microsoft.com/en-us/intune/whats-new/) | Microsoft | Microsoft's running list of what is new in Intune. | Reference | Free |
 | [Windows Autopilot documentation](https://learn.microsoft.com/en-us/autopilot/) | Microsoft | Documentation for Windows Autopilot and Autopilot device preparation, the technologies for setting up and pre-configuring new devices. | Vendor documentation | Free |
 | [Microsoft Configuration Manager documentation](https://learn.microsoft.com/en-us/intune/configmgr/) | Microsoft | Microsoft's documentation for Configuration Manager: site infrastructure, co-management with Intune, app management, OS deployment, software updates, and compliance. | Vendor documentation | Free |
-| [Windows Server Update Services (WSUS) overview](https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) | Microsoft | Overview of the WSUS server role, its features, and its support for the Unified Update Platform. | Vendor documentation | Free |
+| [Windows Server Update Services (WSUS) overview](https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) | Microsoft | Overview of the WSUS server role and its Unified Update Platform support; Microsoft has deprecated WSUS and adds no features, but still supports it. *In maintenance mode.* | Vendor documentation | Free |
 | [Windows Autopatch documentation](https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/) | Microsoft | Documentation for Windows Autopatch, Microsoft's managed update service for Windows, Microsoft 365 Apps, Edge, and Teams, with an overview and FAQ. | Vendor documentation | Free |
 | [Windows deployment documentation](https://learn.microsoft.com/en-us/windows/deployment/) | Microsoft | How to plan, prepare, and carry out the deployment and updating of Windows devices. | Vendor documentation | Free |
 | [Manage Windows client](https://learn.microsoft.com/en-us/windows/client-management/) | Microsoft | Documentation for managing Windows clients through MDM: enrollment, settings and updates, the configuration service provider reference, and troubleshooting. | Vendor documentation | Free |
@@ -40,10 +40,10 @@ How do I manage Macs, iPhones, and iPads?
 |---|---|---|---|---|
 | [Apple Platform Deployment](https://support.apple.com/guide/deployment/welcome/web) | Apple | Apple's deployment guide for administrators: enrollment methods, deployment models, supervision, declarative device management, and management payloads. | Vendor documentation | Free |
 | [Apple Device Management documentation](https://developer.apple.com/documentation/devicemanagement) | Apple | Apple's developer documentation for managing an organization's devices remotely. | Vendor documentation | Free |
-| [Apple Developer Releases](https://developer.apple.com/news/releases/) | Apple | Apple's running list of operating system, Xcode, and developer tool releases and betas, each with its build number and release notes. | Reference | Free |
+| [Apple Developer Releases](https://developer.apple.com/news/releases/) | Apple | Apple's list of operating system, Xcode, and developer tool releases and betas, with build numbers where they apply and links to downloads or release notes. | Reference | Free |
 | [Jamf Learning Hub](https://learn.jamf.com/) | Jamf | Jamf's documentation site, covering each of its products, including Jamf Pro, Jamf Connect, Jamf Protect, and Jamf School. | Vendor documentation | Free |
 | [Jamf Nation](https://community.jamf.com/) | Jamf | Jamf's community forum for Apple administrators. | Community | Free |
-| [Mac Admins Foundation](https://www.macadmins.org/) | Mac Admins Foundation | Nonprofit that supports the Mac administrators community. | Community | Free |
+| [Mac Admins Foundation](https://www.macadmins.org/) | Mac Admins Foundation | Nonprofit that runs the Mac Admins Slack workspace, funds conference and speaker grants, and pairs newer Apple device administrators with experienced mentors. | Organization | Free |
 | [Munki](https://github.com/munki/munki) | Munki | Open source tools, started at Walt Disney Animation Studios, that let Mac administrators install and remove software on clients from a web server repository. | Tool | Free |
 | [AutoPkg](https://github.com/autopkg/autopkg) | AutoPkg | Open source tool that Mac administrators use to automate fetching software and building installer packages, driven by shared recipes. | Tool | Free |
 | [Nudge](https://github.com/macadmins/nudge) | Mac Admins Open Source | Tool for encouraging users to install macOS security updates. | Tool | Free |
@@ -55,11 +55,11 @@ What about the other platforms?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Android Enterprise](https://www.android.com/enterprise/) | Google | Google's overview of Android Enterprise, its program for managing and securing Android devices at work. | Vendor documentation | Free |
+| [Android Enterprise](https://www.android.com/enterprise/) | Google | Google's product site for Android Enterprise: management, enrollment, and security features for work devices, with customer stories, a help center, and a partner finder. | Vendor documentation | Free |
 | [Android Enterprise Help](https://support.google.com/work/android/) | Google | The official help center for Android Enterprise. | Vendor documentation | Free |
 | [Google Workspace Help](https://knowledge.workspace.google.com/) | Google | Google's help site for finding answers and resolving issues with Google Workspace. | Vendor documentation | Free |
 | [Chrome Enterprise and Education Help](https://support.google.com/chrome/a/) | Google | The official help center for managing Chrome in enterprises and schools. | Vendor documentation | Free |
-| [osquery](https://osquery.io/) | osquery | Exposes an operating system as SQL tables, so that you can query processes, users, and configuration on macOS, Windows, and Linux. | Tool | Free |
+| [osquery](https://osquery.io/) | osquery, a Linux Foundation project | Exposes an operating system as SQL tables, so that you can query processes, users, and configuration on macOS, Windows, and Linux. | Tool | Free |
 
 ## Packaging, imaging, and software deployment
 
@@ -67,7 +67,7 @@ How do I get software and images onto devices?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [WinGet (Windows Package Manager)](https://learn.microsoft.com/en-us/windows/package-manager/) | Microsoft | Documentation for Microsoft's Windows package manager: the winget command, configuration files, package submission, and Group Policy controls for enterprises. | Tool | Free |
+| [WinGet (Windows Package Manager)](https://learn.microsoft.com/en-us/windows/package-manager/) | Microsoft | Documentation for Microsoft's Windows package manager: the winget command, configuration files, package submission, and Group Policy controls for enterprises. | Vendor documentation | Free |
 | [winget-pkgs](https://github.com/microsoft/winget-pkgs) | Microsoft | Microsoft's public repository of the manifests behind winget's default source, with guides for authoring and testing a manifest. | Dataset or feed | Free |
 | [Chocolatey](https://chocolatey.org/) | Chocolatey Software | Windows package manager that turns installers and scripts into packages; the open source edition is free, and Chocolatey for Business is paid. | Tool | Freemium |
 | [Scoop](https://scoop.sh/) | Scoop | Installs Windows programs from a PowerShell prompt without elevation prompts or installer wizards, and resolves their dependencies. | Tool | Free |
@@ -84,9 +84,8 @@ Who explains it well?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Call4Cloud](https://call4cloud.nl/) | Rudy Ooms | Blog on Windows Autopilot and Intune. | News | Free |
 | [Out of Office Hours](https://oofhours.com/) | Michael Niehaus | Michael Niehaus's blog on Windows Autopilot and Windows deployment. | News | Free |
-| [MSEndpointMgr](https://msendpointmgr.com/) | MSEndpointMgr | Community site on Configuration Manager, Intune, Windows, and PowerShell. | Community | Free |
-| [HTMD Community](https://www.anoopcnair.com/) | HTMD Community | Blog on Configuration Manager, Intune, and Windows device management. | News | Free |
+| [MSEndpointMgr](https://msendpointmgr.com/) | MSEndpointMgr | Group blog on Intune, Configuration Manager, Windows, and identity, with the site's own tools such as Modern Driver Management and Intune App Factory. | News | Free |
+| [HTMD Community](https://www.anoopcnair.com/) | Anoop C Nair | Blog on Configuration Manager, Intune, and Windows device management. | News | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

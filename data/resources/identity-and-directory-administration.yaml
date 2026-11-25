@@ -22,12 +22,13 @@
   section: active-directory-and-entra
   kind: reference
   cost: free
-  description: "Month-by-month list of Microsoft Entra feature announcements, marked as general availability or preview, with an archive of older months."
+  description: "Month-by-month list of Microsoft Entra feature releases and planned changes, with a linked archive for older months."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
     how: script
+  notes: "On 2026-11-25 the newest month on the page was June 2026 (page metadata: dated 2026-06-26, updated 2026-10-08), although the page says it is updated monthly. It carries no notice that the list has moved."
 
 - id: microsoft-entra-built-in-roles
   name: "Microsoft Entra built-in roles"
@@ -128,7 +129,7 @@
     how: script
 
 - id: active-directory-troubleshooting
-  name: "Active Directory troubleshooting"
+  name: "Active Directory documentation (troubleshooting)"
   url: "https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview"
   publisher: "Microsoft"
   section: active-directory-and-entra
@@ -140,6 +141,7 @@
     status: 200
     final: "https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview"
     how: script
+  notes: "The page's heading is Active Directory documentation and it sits in the troubleshooting section of Microsoft Learn; the word in parentheses is the catalog's, to tell it apart from the product documentation."
 
 - id: dcdiag
   name: "dcdiag"
@@ -201,16 +203,17 @@
 - id: rfc-6749
   name: "RFC 6749: The OAuth 2.0 Authorization Framework"
   url: "https://www.rfc-editor.org/info/rfc6749/"
-  publisher: "RFC Editor"
+  publisher: "IETF"
   section: protocols-and-standards
   kind: standard
   cost: free
-  description: "Defines how an application obtains limited access to a web service for a user through tokens issued by an authorization server."
+  description: "Framework by which an application gets limited, token-based access to a web service for a user; updated by RFCs 8252, 8996, and 9700."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.rfc-editor.org/info/rfc6749/"
     how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The About page says the RFC Editor publishes and archives RFCs. On 2026-11-25 the page said this RFC was updated by RFC 8252, RFC 8996, and RFC 9700."
 
 - id: saml-2
   name: "Security Assertion Markup Language (SAML) v2.0"
@@ -219,7 +222,7 @@
   section: protocols-and-standards
   kind: standard
   cost: free
-  description: "OASIS's page for the SAML 2.0 standard, approved in March 2005, with the specification documents as HTML and a zip file."
+  description: "OASIS's page for the SAML 2.0 standard, approved in March 2005: the specification set as PDFs and schema files in a zip, plus the errata."
   checked:
     date: "2026-11-25"
     status: 200
@@ -229,7 +232,7 @@
 - id: scim
   name: "SCIM: System for Cross-domain Identity Management"
   url: "https://scim.cloud/"
-  publisher: "scim.cloud"
+  publisher: "Aaron Parecki (aaronpk)"
   section: protocols-and-standards
   kind: standard
   cost: free
@@ -239,7 +242,7 @@
     status: 200
     final: "https://scim.cloud/"
     how: script
-  notes: "The page says SCIM is developed in the IETF SCIM working group. It does not name who runs this site, so the publisher is the site's own name."
+  notes: "The page says SCIM is developed in the IETF SCIM working group. No page names who runs the site in words; its footer and its Resources page link its source in a repository under the personal GitHub account aaronpk, whose profile name is Aaron Parecki."
 
 - id: fido-passkeys
   name: "FIDO Passkeys"
@@ -256,9 +259,9 @@
     how: script
 
 - id: rfc-4511
-  name: "RFC 4511: LDAP: The Protocol"
+  name: "RFC 4511: Lightweight Directory Access Protocol (LDAP): The Protocol"
   url: "https://www.rfc-editor.org/info/rfc4511/"
-  publisher: "RFC Editor"
+  publisher: "IETF"
   section: protocols-and-standards
   kind: standard
   cost: free
@@ -268,11 +271,12 @@
     status: 200
     final: "https://www.rfc-editor.org/info/rfc4511/"
     how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The About page says the RFC Editor publishes and archives RFCs."
 
 - id: rfc-4120
   name: "RFC 4120: The Kerberos Network Authentication Service (V5)"
   url: "https://www.rfc-editor.org/info/rfc4120/"
-  publisher: "RFC Editor"
+  publisher: "IETF"
   section: protocols-and-standards
   kind: standard
   cost: free
@@ -282,6 +286,7 @@
     status: 200
     final: "https://www.rfc-editor.org/info/rfc4120/"
     how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. The About page says the RFC Editor publishes and archives RFCs."
 
 - id: ldap-com
   name: "LDAP.com"
@@ -290,13 +295,16 @@
   section: protocols-and-standards
   kind: reference
   cost: free
+  maintenance:
+    state: dormant
+    since: "2024-12-16"
   description: "Reference site on LDAP, with sections for learning the protocol, using it, and looking up reference material."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://ldap.com/"
     how: script
-  notes: "The About page says all content was written by Neil Wilson, who works at Ping Identity."
+  notes: "The About page says all content was written by Neil Wilson, who works at Ping Identity. The newest post the home page lists is dated December 16, 2024, read from the post's address. The reference sections are undated."
 
 - id: jwt-ms
   name: "jwt.ms"
@@ -386,13 +394,13 @@
     how: script
 
 - id: ping-identity-documentation
-  name: "Ping Identity documentation"
+  name: "Build with Ping Identity"
   url: "https://docs.pingidentity.com/"
   publisher: "Ping Identity"
   section: other-directories-and-identity-providers
   kind: documentation
   cost: free
-  description: "Ping Identity's documentation, use cases, and release notes for PingOne and its other products."
+  description: "Ping Identity's documentation home: product documentation, use cases, and release notes for PingOne and its other products."
   checked:
     date: "2026-11-25"
     status: 200

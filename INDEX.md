@@ -2,7 +2,7 @@
 
 # Index, A to Z
 
-> Every resource in the catalog by name: 615 entries. Each name links to the resource; the domain links to its place in the catalog.
+> Every resource in the catalog by name: 614 entries. Each name links to the resource; the domain links to its place in the catalog.
 
 [0-9](#0-9) · [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
@@ -21,8 +21,8 @@
 | [ABB cyber security alerts and notifications](https://www.abb.com/global/en/company/about/cybersecurity/alerts-and-notifications) | ABB | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [abuse.ch Hunting](https://hunting.abuse.ch/) | abuse.ch | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free with account |
 | [AbuseIPDB](https://www.abuseipdb.com/) \* | AbuseIPDB LLC | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
+| [Active Directory documentation (troubleshooting)](https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
-| [Active Directory troubleshooting](https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/active-directory-overview) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Adobe Security Bulletins and Advisories](https://www.adobe.com/trust/security/bulletins-and-advisories.html) | Adobe | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
 | [Akamai Security Research](https://www.akamai.com/blog/security-research) | Akamai | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [AlmaLinux Product Errata](https://errata.almalinux.org/) | AlmaLinux | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
@@ -79,6 +79,7 @@
 | [BOD 26-04: Prioritizing Security Updates Based on Risk](https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk) | CISA | [Vulnerability management](domains/vulnerability-management.md#program-guidance-and-directives) | Standard | Free |
 | [Bosch PSIRT Security Advisories](https://psirt.bosch.com/security-advisories/) | Bosch | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [BSI (Federal Office for Information Security)](https://www.bsi.bund.de/EN/Home/home_node.html) | Federal Office for Information Security (BSI), Germany | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
+| [Build with Ping Identity](https://docs.pingidentity.com/) | Ping Identity | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
 | [Burp Suite](https://portswigger.net/burp) | PortSwigger | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Freemium |
 
 ## C
@@ -86,7 +87,6 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [Caido](https://www.caido.io/) | Caido | [Offensive security](domains/offensive-security.md#web-application-testing) | Tool | Freemium |
-| [Call4Cloud](https://call4cloud.nl/) | Rudy Ooms | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | News | Free |
 | [Canadian Centre for Cyber Security](https://www.cyber.gc.ca/en) | Communications Security Establishment Canada | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Organization | Free |
 | [Canadian Centre for Cyber Security alerts and advisories](https://www.cyber.gc.ca/en/alerts-advisories) | Communications Security Establishment Canada | [Government and CERT alerts](domains/government-and-cert-alerts.md#national-and-regional-centers) | Advisory source | Free |
 | [Censys Platform](https://platform.censys.io/) | Censys | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
@@ -190,7 +190,7 @@
 | [DNSDumpster](https://dnsdumpster.com/) | Hacker Target | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Docker security announcements](https://docs.docker.com/security/security-announcements/) | Docker | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [DomainTools Investigations](https://dti.domaintools.com/) | DomainTools | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
-| [Download Windows 11](https://www.microsoft.com/en-us/software-download/windows11) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free |
+| [Download Windows 11](https://www.microsoft.com/en-us/software-download/windows11) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Tool | Free |
 | [Dragos OT Cybersecurity Year in Review](https://www.dragos.com/ot-cybersecurity-year-in-review/) | Dragos | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [Dragos Threat Groups](https://www.dragos.com/threat-groups/) | Dragos | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Drupal security advisories](https://www.drupal.org/security) | Drupal | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
@@ -229,6 +229,7 @@
 | [FIDO Passkeys](https://fidoalliance.org/passkeys/) | FIDO Alliance | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
 | [FIRST](https://www.first.org/) | FIRST | [Government and CERT alerts](domains/government-and-cert-alerts.md#coordination-bodies-and-law-enforcement) | Organization | Free |
 | [flAWS](http://flaws.cloud/) | Scott Piper | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#cloud-attack-techniques-and-practice) | Training or lab | Free |
+| [Flight Hub (Windows Insider Program)](https://learn.microsoft.com/en-us/windows-insider/flight-hub/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [FOG Project](https://fogproject.org/) | FOG Project | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [FortiGuard Labs Threat Research](https://www.fortinet.com/blog/threat-research) | Fortinet | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [FortiGuard PSIRT Advisories](https://www.fortiguard.com/psirt) | Fortinet | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
@@ -259,7 +260,7 @@
 | [GreyNoise Blog](https://www.greynoise.io/blog) | GreyNoise | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [GreyNoise Visualizer](https://viz.greynoise.io/) | GreyNoise | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Freemium |
 | [Group Policy overview for Windows Server](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Vendor documentation | Free |
-| [Group Policy Search](https://gpsearch.azurewebsites.net/) | Stephanus A. Schulte (Microsoft) | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free |
+| [Group Policy Search](https://gpsearch.azurewebsites.net/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free |
 | [Group-IB Blog](https://www.group-ib.com/blog/) | Group-IB | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Grype](https://github.com/anchore/grype) | Anchore | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [GTFOBins](https://gtfobins.org/) | GTFOBins | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Reference | Free |
@@ -284,7 +285,7 @@
 | [HP Security Bulletins](https://support.hp.com/us-en/security-bulletins) | HP | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 | [HPE Security Bulletin Library](https://support.hpe.com/km/security-bulletin) | Hewlett Packard Enterprise | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#hardware-firmware-and-chips) | Advisory source | Free |
 | [HTB Academy](https://academy.hackthebox.com/) | Hack The Box | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Freemium |
-| [HTMD Community](https://www.anoopcnair.com/) | HTMD Community | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | News | Free |
+| [HTMD Community](https://www.anoopcnair.com/) | Anoop C Nair | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | News | Free |
 | [Hurricane Electric BGP Toolkit](https://bgp.he.net/) | Hurricane Electric | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Free |
 | [Hybrid Analysis](https://hybrid-analysis.com/) | CrowdStrike | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Free |
 
@@ -360,7 +361,7 @@
 |---|---|---|---|---|
 | [M-Trends](https://cloud.google.com/security/resources/m-trends) | Google Cloud (Mandiant) | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free with account |
 | [M365 Maps](https://m365maps.com/) | Aaron Dinnage | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
-| [Mac Admins Foundation](https://www.macadmins.org/) | Mac Admins Foundation | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Community | Free |
+| [Mac Admins Foundation](https://www.macadmins.org/) | Mac Admins Foundation | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Organization | Free |
 | [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) | Fraunhofer FKIE | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Reference | Free |
 | [Maltego](https://www.maltego.com/) | Maltego Technologies | [Offensive security](domains/offensive-security.md#reconnaissance-and-osint) | Tool | Freemium |
 | [MalwareBazaar](https://bazaar.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
@@ -371,13 +372,13 @@
 | [Metasploit Framework](https://github.com/rapid7/metasploit-framework) | Rapid7 | [Offensive security](domains/offensive-security.md#command-and-control-frameworks) | Tool | Free |
 | [Metasploit Modules (Rapid7 database)](https://www.rapid7.com/db/modules/) | Rapid7 | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
 | [Microsoft 365 documentation](https://learn.microsoft.com/en-us/microsoft-365/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
-| [Microsoft 365 for enterprise documentation](https://learn.microsoft.com/en-us/microsoft-365/enterprise/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
-| [Microsoft 365 Message center overview](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Vendor documentation | Free |
+| [Microsoft 365 for enterprise documentation and resources](https://learn.microsoft.com/en-us/microsoft-365/enterprise/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
+| [Microsoft 365 for IT Pros](https://office365itpros.com/) | Redmond & Associates | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | News | Free |
 | [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
 | [Microsoft Community Hub](https://techcommunity.microsoft.com/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | Community | Free |
 | [Microsoft Configuration Manager documentation](https://learn.microsoft.com/en-us/intune/configmgr/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Microsoft Copilot hub](https://learn.microsoft.com/en-us/copilot/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
-| [Microsoft Copilot Roadmap (Microsoft 365)](https://www.microsoft.com/en-us/microsoft-365/roadmap) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
+| [Microsoft Copilot Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [Microsoft Defender Vulnerability Management documentation](https://learn.microsoft.com/en-us/defender-vulnerability-management/) | Microsoft | [Vulnerability management](domains/vulnerability-management.md#scanners) | Vendor documentation | Free |
 | [Microsoft Digital Defense Report](https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-archives) | Microsoft | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [Microsoft Edge security release notes](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security) | Microsoft | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Advisory source | Free |
@@ -392,7 +393,7 @@
 | [Microsoft identity platform documentation](https://learn.microsoft.com/en-us/entra/identity-platform/) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Microsoft Intune documentation](https://learn.microsoft.com/en-us/intune/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Microsoft Lifecycle Policy](https://learn.microsoft.com/en-us/lifecycle/) | Microsoft | [Vulnerability management](domains/vulnerability-management.md#lifecycle-and-end-of-life) | Vendor documentation | Free |
-| [Microsoft Purview documentation](https://learn.microsoft.com/en-us/purview/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
+| [Microsoft Purview](https://learn.microsoft.com/en-us/purview/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
 | [Microsoft Security Update Guide](https://msrc.microsoft.com/update-guide/) | Microsoft | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Advisory source | Free |
 | [Microsoft service health status](https://status.cloud.microsoft/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Status page | Free |
 | [Microsoft Teams admin documentation](https://learn.microsoft.com/en-us/microsoftteams/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
@@ -415,8 +416,8 @@
 | [Mozilla Foundation Security Advisories](https://www.mozilla.org/en-US/security/advisories/) | Mozilla | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
 | [Mozilla Security Blog](https://blog.mozilla.org/security/) | Mozilla | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [MS-ISAC](https://www.cisecurity.org/ms-isac) | Center for Internet Security | [Government and CERT alerts](domains/government-and-cert-alerts.md#united-states) | Organization | Paid |
-| [MSEndpointMgr](https://msendpointmgr.com/) | MSEndpointMgr | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | Community | Free |
-| [MSPortals.io](https://msportals.io/) | MSPortals.io | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
+| [MSEndpointMgr](https://msendpointmgr.com/) | MSEndpointMgr | [Endpoint and device management](domains/endpoint-and-device-management.md#community-and-blogs) | News | Free |
+| [MSPortals.io](https://msportals.io/) | Adam Fowler | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
 | [MSRC Blog](https://www.microsoft.com/en-us/msrc/blog) | Microsoft | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#microsoft-and-cloud-providers) | Research blog | Free |
 | [Munki](https://github.com/munki/munki) | Munki | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Tool | Free |
 | [MxToolbox Blacklist Check](https://mxtoolbox.com/blacklists.aspx) | MxToolbox | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Free |
@@ -461,8 +462,7 @@
 | Resource | Run by | Domain | Kind | Cost |
 |---|---|---|---|---|
 | [OAuth 2.0](https://oauth.net/2/) | Aaron Parecki | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
-| [Office 365 for IT Pros](https://office365itpros.com/) | Redmond & Associates | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#community-and-blogs) | News | Free |
-| [Office release notes](https://learn.microsoft.com/en-us/officeupdates/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
+| [Office updates](https://learn.microsoft.com/en-us/officeupdates/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [Official CPE Dictionary](https://nvd.nist.gov/products/cpe) | NIST | [Vulnerability management](domains/vulnerability-management.md#formats-and-exchange-standards) | Dataset or feed | Free |
 | [Okta Developer](https://developer.okta.com/) | Okta | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
 | [Okta Documentation](https://help.okta.com/) | Okta | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
@@ -484,7 +484,7 @@
 | [Oracle Linux Security](https://linux.oracle.com/security/) | Oracle | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Vendor documentation | Free |
 | [ORKL](https://orkl.eu/) | ORKL | [Threat intelligence and adversaries](domains/threat-intelligence.md#adversary-and-malware-tracking) | Dataset or feed | Free |
 | [OSCAL](https://pages.nist.gov/OSCAL/) | NIST | [GRC and security program](domains/grc-and-security-program.md#nist-publications-and-tools) | Standard | Free |
-| [osquery](https://osquery.io/) | osquery | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Tool | Free |
+| [osquery](https://osquery.io/) | osquery, a Linux Foundation project | [Endpoint and device management](domains/endpoint-and-device-management.md#android-chromeos-and-cross-platform) | Tool | Free |
 | [oss-security mailing list](https://www.openwall.com/lists/oss-security/) | Openwall | [Vulnerability management](domains/vulnerability-management.md#disclosure-venues-and-research) | Community | Free |
 | [OSV](https://osv.dev/) | Google | [Vulnerability management](domains/vulnerability-management.md#vulnerability-databases) | Dataset or feed | Free |
 | [OSV-Scanner](https://github.com/google/osv-scanner) | Google | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
@@ -512,7 +512,6 @@
 | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | Swissky (swisskyrepo) | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Reference | Free |
 | [PentesterLab](https://pentesterlab.com/) | PentesterLab | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Freemium |
 | [PhishTank](https://phishtank.org/) | Cisco Talos | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
-| [Ping Identity documentation](https://docs.pingidentity.com/) | Ping Identity | [Identity and directory services administration](domains/identity-and-directory-administration.md#other-directories-and-identity-providers) | Vendor documentation | Free |
 | [PingCastle](https://www.pingcastle.com/) | Netwrix | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Freemium |
 | [Plaso (log2timeline)](https://github.com/log2timeline/plaso) | log2timeline | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
 | [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) | nomi-sec | [Vulnerability management](domains/vulnerability-management.md#exploits-and-proof-of-concept) | Dataset or feed | Free |
@@ -559,9 +558,9 @@
 | [The Register: Security](https://www.theregister.com/security/) | Situation Publishing | [News and research](domains/news-and-research.md#news-sites) | News | Free |
 | [Responder](https://github.com/lgandx/Responder) | lgandx | [Offensive security](domains/offensive-security.md#active-directory-and-windows) | Tool | Free |
 | [Reverse Shell Generator](https://www.revshells.com/) | revshells.com | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Online service | Free |
-| [RFC 4120: The Kerberos Network Authentication Service (V5)](https://www.rfc-editor.org/info/rfc4120/) | RFC Editor | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
-| [RFC 4511: LDAP: The Protocol](https://www.rfc-editor.org/info/rfc4511/) | RFC Editor | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
-| [RFC 6749: The OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/info/rfc6749/) | RFC Editor | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
+| [RFC 4120: The Kerberos Network Authentication Service (V5)](https://www.rfc-editor.org/info/rfc4120/) | IETF | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
+| [RFC 4511: Lightweight Directory Access Protocol (LDAP): The Protocol](https://www.rfc-editor.org/info/rfc4511/) | IETF | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
+| [RFC 6749: The OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/info/rfc6749/) | IETF | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
 | [Risky Business](https://risky.biz/) | Risky Business Media | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [Rockwell Automation Security Advisories](https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html) | Rockwell Automation | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Rocky Linux Errata](https://errata.rockylinux.org/) | Rocky Linux | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#operating-systems-and-browsers) | Advisory source | Free |
@@ -581,7 +580,7 @@
 | [SAP Security Notes & News](https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html) | SAP | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#enterprise-applications-and-it-operations-software) | Advisory source | Free |
 | [Schneider Electric security notifications](https://www.se.com/ww/en/work/support/cybersecurity/security-notifications/) | Schneider Electric | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#ics-and-ot) | Advisory source | Free |
 | [Schneier on Security](https://www.schneier.com/) | Bruce Schneier | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
-| [SCIM: System for Cross-domain Identity Management](https://scim.cloud/) | scim.cloud | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
+| [SCIM: System for Cross-domain Identity Management](https://scim.cloud/) | Aaron Parecki (aaronpk) | [Identity and directory services administration](domains/identity-and-directory-administration.md#protocols-and-standards) | Standard | Free |
 | [Scoop](https://scoop.sh/) | Scoop | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [Scout Suite](https://github.com/nccgroup/ScoutSuite) | NCC Group | [Cloud and infrastructure](domains/cloud-and-infrastructure.md#audit-posture-and-runtime-tools) | Tool | Free |
 | [Securelist](https://securelist.com/) | Kaspersky | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
@@ -646,6 +645,7 @@
 | [ThreatFox](https://threatfox.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
 | [Timesketch](https://github.com/google/timesketch) | Google | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#forensic-collection-and-analysis) | Tool | Free |
 | [tl;dr sec](https://tldrsec.com/) | tl;dr sec | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
+| [Track new and changed features in the Microsoft 365 Message center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Vendor documentation | Free |
 | [Traffic Light Protocol (TLP)](https://www.first.org/tlp/) | FIRST | [Threat intelligence and adversaries](domains/threat-intelligence.md#platforms-and-standards) | Standard | Free |
 | [The Trail of Bits Blog](https://blog.trailofbits.com/) | Trail of Bits | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Trend Micro Research, News, and Perspectives](https://www.trendmicro.com/en_us/research.html) | Trend Micro | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
@@ -666,7 +666,7 @@
 | [Unit 42](https://unit42.paloaltonetworks.com/) | Palo Alto Networks | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Unit 42 Global Incident Response Report](https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report) | Palo Alto Networks | [Threat intelligence and adversaries](domains/threat-intelligence.md#recurring-threat-reports) | Report | Free |
 | [UnpacMe](https://www.unpac.me/) | OpenAnalysis Inc | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Freemium |
-| [Update history for Microsoft 365 Apps](https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
+| [Update history for Microsoft 365 Apps (listed by date)](https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [URLhaus](https://urlhaus.abuse.ch/) | abuse.ch and Spamhaus | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Dataset or feed | Free with account |
 | [urlscan.io](https://urlscan.io/) | urlscan GmbH | [Threat intelligence and adversaries](domains/threat-intelligence.md#indicator-lookup-and-sharing) | Online service | Freemium |
 
@@ -709,18 +709,17 @@
 | [Windows 365 documentation](https://learn.microsoft.com/en-us/windows-365/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Windows Autopatch documentation](https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Windows Autopilot documentation](https://learn.microsoft.com/en-us/autopilot/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
-| [Windows commands reference](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
+| [Windows commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Reference | Free |
 | [Windows deployment documentation](https://learn.microsoft.com/en-us/windows/deployment/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
 | [Windows documentation](https://learn.microsoft.com/en-us/windows/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
 | [Windows help and learning](https://support.microsoft.com/en-us/windows) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
-| [Windows Insider Flight Hub](https://learn.microsoft.com/en-us/windows-insider/flight-hub/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [Windows LAPS overview](https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Windows release health](https://learn.microsoft.com/en-us/windows/release-health/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [Windows Server documentation](https://learn.microsoft.com/en-us/windows-server/) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#documentation-hubs) | Vendor documentation | Free |
 | [Windows Server Identity and Access documentation](https://learn.microsoft.com/en-us/windows-server/identity/identity-and-access) | Microsoft | [Identity and directory services administration](domains/identity-and-directory-administration.md#active-directory-and-microsoft-entra) | Vendor documentation | Free |
 | [Windows Server release information](https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#release-health-updates-and-roadmap) | Reference | Free |
 | [Windows Server Update Services (WSUS) overview](https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#windows-management-and-deployment) | Vendor documentation | Free |
-| [WinGet (Windows Package Manager)](https://learn.microsoft.com/en-us/windows/package-manager/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
+| [WinGet (Windows Package Manager)](https://learn.microsoft.com/en-us/windows/package-manager/) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Vendor documentation | Free |
 | [winget-pkgs](https://github.com/microsoft/winget-pkgs) | Microsoft | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Dataset or feed | Free |
 | [WIRED: Security](https://www.wired.com/category/security/) | Condé Nast | [News and research](domains/news-and-research.md#news-sites) | News | Freemium |
 | [Wireshark](https://www.wireshark.org/) | Wireshark Foundation | [Network security](domains/network-security.md#traffic-capture-and-analysis) | Tool | Free |

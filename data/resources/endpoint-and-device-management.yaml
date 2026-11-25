@@ -64,12 +64,15 @@
   section: windows-management-and-deployment
   kind: documentation
   cost: free
-  description: "Overview of the WSUS server role, its features, and its support for the Unified Update Platform."
+  maintenance:
+    state: maintenance-mode
+  description: "Overview of the WSUS server role and its Unified Update Platform support; Microsoft has deprecated WSUS and adds no features, but still supports it."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus"
     how: script
+  notes: "The page says WSUS is deprecated and no longer adding new features, and that it stays supported for production deployments with security and quality updates. It gives no date for the deprecation."
 
 - id: windows-autopatch-documentation
   name: "Windows Autopatch documentation"
@@ -190,7 +193,7 @@
   section: apple-device-management
   kind: reference
   cost: free
-  description: "Apple's running list of operating system, Xcode, and developer tool releases and betas, each with its build number and release notes."
+  description: "Apple's list of operating system, Xcode, and developer tool releases and betas, with build numbers where they apply and links to downloads or release notes."
   checked:
     date: "2026-11-25"
     status: 200
@@ -230,9 +233,9 @@
   url: "https://www.macadmins.org/"
   publisher: "Mac Admins Foundation"
   section: apple-device-management
-  kind: community
+  kind: organization
   cost: free
-  description: "Nonprofit that supports the Mac administrators community."
+  description: "Nonprofit that runs the Mac Admins Slack workspace, funds conference and speaker grants, and pairs newer Apple device administrators with experienced mentors."
   checked:
     date: "2026-11-25"
     status: 200
@@ -303,12 +306,13 @@
   section: android-chromeos-and-cross-platform
   kind: documentation
   cost: free
-  description: "Google's overview of Android Enterprise, its program for managing and securing Android devices at work."
+  description: "Google's product site for Android Enterprise: management, enrollment, and security features for work devices, with customer stories, a help center, and a partner finder."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.android.com/enterprise/"
     how: script
+  notes: "The page is a product overview that links Google's help center for Android Enterprise. No kind fits a product page better than Vendor documentation."
 
 - id: android-enterprise-help
   name: "Android Enterprise Help"
@@ -356,7 +360,7 @@
 - id: osquery
   name: "osquery"
   url: "https://osquery.io/"
-  publisher: "osquery"
+  publisher: "osquery, a Linux Foundation project"
   section: android-chromeos-and-cross-platform
   also_in: [detection-and-response/platforms]
   kind: tool
@@ -367,13 +371,14 @@
     status: 200
     final: "https://osquery.io/"
     how: browser
+  notes: "The site footer carries a Linux Foundation logo that links to the Foundation's projects page, and no sentence naming an operator. The project's charter, in its foundation repository on GitHub, says osquery is established as a series of LF Projects, LLC."
 
 - id: winget
   name: "WinGet (Windows Package Manager)"
   url: "https://learn.microsoft.com/en-us/windows/package-manager/"
   publisher: "Microsoft"
   section: packaging-imaging-and-software-deployment
-  kind: tool
+  kind: documentation
   cost: free
   description: "Documentation for Microsoft's Windows package manager: the winget command, configuration files, package submission, and Group Policy controls for enterprises."
   checked:
@@ -381,6 +386,7 @@
     status: 200
     final: "https://learn.microsoft.com/en-us/windows/package-manager/"
     how: script
+  notes: "The address is the documentation, not the software: the page says WinGet is released through the Microsoft Store."
 
 - id: winget-pkgs
   name: "winget-pkgs"
@@ -517,13 +523,14 @@
   section: community-and-blogs
   kind: news
   cost: free
+  status: unverified
   description: "Blog on Windows Autopilot and Intune."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://call4cloud.nl/"
     how: script
-  notes: "Publisher from the About page."
+  notes: "Publisher from the About page. Held out on 2026-11-25: the home page's HTML carried a hidden element (display:none) holding a link to an unrelated site named Glamdea, which was not opened. A hidden link to another site is a common sign of injected content. Eight of the ten posts listed on the home page that day linked out to the Patch My PC blog; the About page says the author works there. Restore the entry when a later check finds the hidden link gone."
 
 - id: out-of-office-hours
   name: "Out of Office Hours"
@@ -544,19 +551,20 @@
   url: "https://msendpointmgr.com/"
   publisher: "MSEndpointMgr"
   section: community-and-blogs
-  kind: community
+  kind: news
   cost: free
-  description: "Community site on Configuration Manager, Intune, Windows, and PowerShell."
+  description: "Group blog on Intune, Configuration Manager, Windows, and identity, with the site's own tools such as Modern Driver Management and Intune App Factory."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://msendpointmgr.com/"
     how: script
+  notes: "The site calls itself a community site. Its About page lists a founder, two site operators, and contributors, and the site has no forum, so the kind is News, as for the other blogs in this section."
 
 - id: htmd-community
   name: "HTMD Community"
   url: "https://www.anoopcnair.com/"
-  publisher: "HTMD Community"
+  publisher: "Anoop C Nair"
   section: community-and-blogs
   kind: news
   cost: free
@@ -566,3 +574,4 @@
     status: 200
     final: "https://www.anoopcnair.com/"
     how: script
+  notes: "The About page names Anoop C Nair as the owner and founder of the site and of HTMD Community, and says the blog has other contributors. The footer reads How to Manage Devices."

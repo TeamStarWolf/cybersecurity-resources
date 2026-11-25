@@ -16,7 +16,7 @@
     how: script
 
 - id: microsoft-365-enterprise-documentation
-  name: "Microsoft 365 for enterprise documentation"
+  name: "Microsoft 365 for enterprise documentation and resources"
   url: "https://learn.microsoft.com/en-us/microsoft-365/enterprise/"
   publisher: "Microsoft"
   section: documentation-hubs
@@ -100,7 +100,7 @@
     how: script
 
 - id: microsoft-purview-documentation
-  name: "Microsoft Purview documentation"
+  name: "Microsoft Purview"
   url: "https://learn.microsoft.com/en-us/purview/"
   publisher: "Microsoft"
   section: documentation-hubs
@@ -226,22 +226,23 @@
     how: browser
 
 - id: microsoft-365-roadmap
-  name: "Microsoft Copilot Roadmap (Microsoft 365)"
+  name: "Microsoft Copilot Roadmap"
+  formerly: "Microsoft 365 Roadmap"
   url: "https://www.microsoft.com/en-us/microsoft-365/roadmap"
   publisher: "Microsoft"
   section: release-health-and-roadmap
   kind: reference
   cost: free
-  description: "Microsoft's list of updates planned for Microsoft 365 subscribers, with the status of each feature."
+  description: "Microsoft's list of planned commercial features for its work apps, Copilot, and agents, each with a description and an estimated release date."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.microsoft.com/en-us/microsoft-365/roadmap"
     how: script
-  notes: "On 2026-11-25 the page at the Microsoft 365 roadmap address was titled Microsoft Copilot Roadmap."
+  notes: "On 2026-11-25 the page at the Microsoft 365 roadmap address was titled Microsoft Copilot Roadmap. Its visible text no longer uses the earlier name; the page source still labels its controls Microsoft 365 Roadmap."
 
 - id: microsoft-365-message-center
-  name: "Microsoft 365 Message center overview"
+  name: "Track new and changed features in the Microsoft 365 Message center"
   url: "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/message-center"
   publisher: "Microsoft"
   section: release-health-and-roadmap
@@ -255,7 +256,7 @@
     how: script
 
 - id: office-release-notes
-  name: "Office release notes"
+  name: "Office updates"
   url: "https://learn.microsoft.com/en-us/officeupdates/"
   publisher: "Microsoft"
   section: release-health-and-roadmap
@@ -269,7 +270,7 @@
     how: script
 
 - id: microsoft-365-apps-update-history
-  name: "Update history for Microsoft 365 Apps"
+  name: "Update history for Microsoft 365 Apps (listed by date)"
   url: "https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date"
   publisher: "Microsoft"
   section: release-health-and-roadmap
@@ -297,7 +298,7 @@
     how: script
 
 - id: windows-insider-flight-hub
-  name: "Windows Insider Flight Hub"
+  name: "Flight Hub (Windows Insider Program)"
   url: "https://learn.microsoft.com/en-us/windows-insider/flight-hub/"
   publisher: "Microsoft"
   section: release-health-and-roadmap
@@ -317,7 +318,7 @@
   section: tools-and-references
   kind: tool
   cost: free
-  description: "Microsoft's Sysinternals utilities for Windows, with downloads, documentation, and learning resources."
+  description: "Microsoft's Sysinternals utilities for diagnosing Windows and Linux systems, with downloads, documentation, and learning resources."
   checked:
     date: "2026-11-25"
     status: 200
@@ -325,7 +326,7 @@
     how: script
 
 - id: windows-commands
-  name: "Windows commands reference"
+  name: "Windows commands"
   url: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands"
   publisher: "Microsoft"
   section: tools-and-references
@@ -369,7 +370,7 @@
 - id: group-policy-search
   name: "Group Policy Search"
   url: "https://gpsearch.azurewebsites.net/"
-  publisher: "Stephanus A. Schulte (Microsoft)"
+  publisher: "Microsoft"
   section: tools-and-references
   kind: service
   cost: free
@@ -379,7 +380,7 @@
     status: 200
     final: "https://gpsearch.azurewebsites.net/"
     how: script
-  notes: "The page says the site is maintained by Stephanus A. Schulte at Microsoft Germany; the footer copyright is Microsoft Corporation."
+  notes: "Publisher from the footer copyright, Microsoft Corporation. The page says the site is maintained by Stephanus A. Schulte at Microsoft Germany."
 
 - id: microsoft-update-catalog
   name: "Microsoft Update Catalog"
@@ -416,20 +417,20 @@
   section: tools-and-references
   kind: service
   cost: free-with-account
-  description: "Browser tool for trying Microsoft Graph requests: a sample account works without signing in, and signing in runs them against your own tenant."
+  description: "Browser tool for trying Microsoft Graph requests: the sample tenant needs no sign-in, and signing in runs requests against your own data."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://developer.microsoft.com/en-us/graph/graph-explorer"
     how: script
-  notes: "The page says to try the APIs on the default sample tenant. Its sign-in control reads: you are currently using a sample account, sign in to access your own data."
+  notes: "The page says to try the APIs on the default sample tenant. Its sign-in control reads: you are currently using a sample account, sign in to access your own data. Cost is free with account because the description covers both uses, and the second needs a Microsoft account."
 
 - id: download-windows-11
   name: "Download Windows 11"
   url: "https://www.microsoft.com/en-us/software-download/windows11"
   publisher: "Microsoft"
   section: tools-and-references
-  kind: service
+  kind: tool
   cost: free
   description: "Microsoft's download page for the current Windows 11 release, with three ways to install or create installation media."
   checked:
@@ -437,6 +438,7 @@
     status: 200
     final: "https://www.microsoft.com/en-us/software-download/windows11"
     how: script
+  notes: "The page hands out software to download and run: the Installation Assistant, the media creation tool, and a disk image."
 
 - id: microsoft-evaluation-center
   name: "Microsoft Evaluation Center"
@@ -471,7 +473,7 @@
 - id: msportals-io
   name: "MSPortals.io"
   url: "https://msportals.io/"
-  publisher: "MSPortals.io"
+  publisher: "Adam Fowler"
   section: tools-and-references
   kind: reference
   cost: free
@@ -481,7 +483,7 @@
     status: 200
     final: "https://msportals.io/"
     how: script
-  notes: "The page names no operator; it links to a GitHub repository for corrections."
+  notes: "The About page says the project was set up and is owned by Adam Fowler."
 
 - id: microsoft-community-hub
   name: "Microsoft Community Hub"
@@ -504,16 +506,20 @@
   section: community-and-blogs
   kind: news
   cost: free
+  maintenance:
+    state: dormant
+    since: "2026-01-27"
   description: "Articles and a podcast by Microsoft 365 practitioners on Exchange Online, Teams, Entra ID, Purview, and Graph PowerShell."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://practical365.com/"
     how: script
-  notes: "Publisher from the footer copyright."
+  notes: "Publisher from the footer copyright. The newest article is dated January 27, 2026 (the feed's newest item; the feed was last built on January 28, 2026), and the newest podcast episode November 24, 2025. The home page carries no retirement notice."
 
 - id: office-365-for-it-pros
-  name: "Office 365 for IT Pros"
+  name: "Microsoft 365 for IT Pros"
+  formerly: "Office 365 for IT Pros"
   url: "https://office365itpros.com/"
   publisher: "Redmond & Associates"
   section: community-and-blogs
@@ -525,4 +531,4 @@
     status: 200
     final: "https://office365itpros.com/"
     how: script
-  notes: "The blog is free to read; the eBook is sold by subscription. Publisher from the footer copyright. The eBook is a separate paid product, so the blog entry stays Free."
+  notes: "The blog is free to read; the eBook is sold by subscription. Publisher from the footer copyright. The eBook is a separate paid product, so the blog entry stays Free. The site header and menus say Microsoft 365 for IT Pros; the page title and its summary still say Office 365 for IT Pros."

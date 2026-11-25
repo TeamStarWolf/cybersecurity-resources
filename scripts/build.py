@@ -301,7 +301,7 @@ class Catalog:
         text += f"The compact bookmark set holds {compact_links} bookmarks in {plural(len(self.compact['folders']), 'folder')}."
         if held:
             text += (f" The data also keeps {plural(held, 'record')} that {'is' if held == 1 else 'are'} not shown, "
-                     "because the address is retired or could not be read at the last check.")
+                     "because the address is retired, could not be read at the last check, or is held out for safety.")
         return text
 
     def block_start_here(self) -> str:
