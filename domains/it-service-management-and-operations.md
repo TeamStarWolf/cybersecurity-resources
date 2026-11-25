@@ -23,7 +23,7 @@ What do the service management frameworks ask for?
 | [ISO/IEC 20000-1:2018](https://www.iso.org/standard/70636.html) | ISO | ISO's page for ISO/IEC 20000-1:2018, which sets requirements for a service management system: the abstract, its one amendment, a preview, and the standard for sale. | Standard | Paid |
 | [FitSM](https://www.fitsm.eu/) | FitSM e.V. | Site of the FitSM standard for IT service management, free and lightweight: its goals, its compatibility with ISO/IEC 20000-1 and ITIL, and who maintains it. | Standard | Free |
 | [IT4IT Reference Architecture](https://www.opengroup.org/it4it) | The Open Group | The Open Group's page for the IT4IT standard, a reference architecture built around value streams; the Library offers it free for non-commercial use after registration. | Standard | Freemium |
-| [DORA](https://dora.dev/) | Google Cloud | Google Cloud's research program on how software teams deliver and operate: capability guides, DORA Core, a Quick Check, and reports behind a sign-up form. | Organization | Free with account |
+| [DORA](https://dora.dev/) | Google Cloud | Google Cloud's software delivery research program: capability guides, DORA Core, a Quick Check, and yearly reports; the 2025 report downloads through a sign-up form. | Organization | Free with account |
 
 ## Service desk and ticketing
 
@@ -72,7 +72,7 @@ How do other operations teams handle incidents and the daily work?
 |---|---|---|---|---|
 | [Atlassian Incident Management Handbook](https://www.atlassian.com/incident-management/handbook) | Atlassian | Atlassian's own incident process written up as a handbook: what counts as an incident, incident values, tooling, the incident manager's role, response, and postmortems. | Reference | Free |
 | [Postmortem Templates](https://github.com/dastergon/postmortem-templates) | Pavlos Ratis (dastergon) | Postmortem templates, each from a named source: books on reliability and system administration, a Google Developers blog post, Azure status posts, and more. *Last updated on July 12, 2023.* | Dataset or feed | Free |
-| [Ops School](https://www.opsschool.org/) | Ops School | Open curriculum for operations work at 101, 201, and 301 levels: Unix and Windows fundamentals, networking, security and identity, monitoring, deployment, datacenters, and soft skills. | Training or lab | Free |
+| [Ops School](https://www.opsschool.org/) | Ops School | Open curriculum for operations work at 101, 201, and 301 levels, including Unix and Windows fundamentals, networking, security and identity, monitoring, deployment, and datacenters. | Training or lab | Free |
 | [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | awesome-foss | Open source software for administrators, each entry with a description, license, and language, under headings such as backups, DNS servers, identity management, monitoring, and VPN. | Reference | Free |
 | [Server Fault](https://serverfault.com/) | Stack Exchange Inc | Stack Exchange's site about running servers and networks: questions listed with votes and answer counts, under tags such as Linux, Windows, nginx, and Active Directory. | Community | Free |
 | [Awesome Site Reliability Engineering](https://github.com/dastergon/awesome-sre) | Pavlos Ratis (dastergon) | Curated reading list for site reliability engineering: culture, education, books, monitoring and alerting, on-call, postmortems, capacity planning, and service level agreements. | Reference | Free |

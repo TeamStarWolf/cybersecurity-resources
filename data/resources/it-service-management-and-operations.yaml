@@ -44,7 +44,7 @@
     status: 200
     final: "https://www.opengroup.org/it4it"
     how: script
-  notes: "Cost is not stated on the record's own page. It is on The Open Group Library's product page, two clicks away: https://publications.opengroup.org/standards/it4it/i24am, read on 2026-11-25, says the standard is available to all to download free of charge for non-commercial use and that a Commercial License is available for commercial purposes. It gives no price, and the download needs registration. The record's own page is free to read."
+  notes: "Cost is not stated on the record's own page. It is on The Open Group Library's page for readers without membership, two clicks away: https://publications.opengroup.org/it4it-library/i24a, read on 2026-11-25, says the standard may be downloaded under a free, personal, 90-day Evaluation License and then used internally under a free, perpetual Corporate License or Academic License, and that an annual Commercial License is the alternative for commercial purposes. It gives no price, and the download needs a login. The record's own page is free to read."
 
 - id: dora-research
   name: "DORA"
@@ -53,13 +53,13 @@
   section: frameworks-and-standards
   kind: organization
   cost: free-with-account
-  description: "Google Cloud's research program on how software teams deliver and operate: capability guides, DORA Core, a Quick Check, and reports behind a sign-up form."
+  description: "Google Cloud's software delivery research program: capability guides, DORA Core, a Quick Check, and yearly reports; the 2025 report downloads through a sign-up form."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://dora.dev/"
     how: script
-  notes: "Cost: the guides, the capability pages, and the Quick Check open without an account. The reports are the exception: the page's download link leads to https://cloud.google.com/resources/content/dora-roi-of-ai-assisted-software-development, read on 2026-11-25, which asks for a name, a business email, and a company before the download. Publisher from the footer: DORA is a program run by Google Cloud, with content licensed by Google LLC under CC BY 4.0."
+  notes: "Cost: the guides, the capability pages, and the Quick Check open without an account, and so do the 2019, 2022, 2023, and 2024 reports, whose pages on dora.dev link their PDFs directly. Two reports go through a Google Cloud form that asks for a name, a business email, and a company: the 2025 report, whose download links on https://dora.dev/research/2025/dora-report/ lead to https://cloud.google.com/dora, and the ROI of AI-assisted Software Development report in the page's banner. The report pages were read in the built-in browser on 2026-11-25; those for other years were not opened. The research page, https://dora.dev/research/, calls the reports annual. Publisher from the footer: DORA is a program run by Google Cloud, with content licensed by Google LLC under CC BY 4.0."
 
 - id: jira-service-management-documentation
   name: "Jira Service Management Cloud support"
@@ -367,7 +367,7 @@
   section: incident-and-change-practice
   kind: training
   cost: free
-  description: "Open curriculum for operations work at 101, 201, and 301 levels: Unix and Windows fundamentals, networking, security and identity, monitoring, deployment, datacenters, and soft skills."
+  description: "Open curriculum for operations work at 101, 201, and 301 levels, including Unix and Windows fundamentals, networking, security and identity, monitoring, deployment, and datacenters."
   checked:
     date: "2026-11-25"
     status: 200

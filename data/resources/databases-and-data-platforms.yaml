@@ -157,7 +157,7 @@
   section: non-relational-and-streaming
   kind: documentation
   cost: free
-  description: "Apache Kafka's documentation: an introduction with use cases and terminology, then design, APIs, configuration, security, operations, Kafka Streams, and Kafka Connect."
+  description: "Apache Kafka's documentation: an introduction with use cases and terminology, then sections including design, APIs, configuration, security, operations, Kafka Streams, and Kafka Connect."
   checked:
     date: "2026-11-25"
     status: 200
@@ -437,7 +437,7 @@
   section: administration-and-tuning-tools
   kind: tool
   cost: free
-  description: "Site of PgBouncer, the PostgreSQL connection pooler: release announcements with the CVEs each fixes, downloads, the FAQ, configuration and usage reference, install guide, and changelog."
+  description: "Site of PgBouncer, the PostgreSQL connection pooler: release announcements, some listing the CVEs fixed, downloads, the FAQ, configuration and usage reference, install guide, and changelog."
   checked:
     date: "2026-11-25"
     status: 200
@@ -512,7 +512,7 @@
   section: administration-and-tuning-tools
   kind: documentation
   cost: free
-  description: "Documentation for Patroni, which runs PostgreSQL in high-availability clusters: installation, configuration, the REST API, patronictl, replication modes, standby clusters, Kubernetes, Citus, and major upgrades."
+  description: "Documentation for Patroni, which runs PostgreSQL in high-availability clusters, including installation, configuration, the REST API, patronictl, replication modes, standby clusters, Kubernetes, Citus, and major upgrades."
   checked:
     date: "2026-11-25"
     status: 200

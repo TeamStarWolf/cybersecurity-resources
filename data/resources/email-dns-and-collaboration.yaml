@@ -68,7 +68,7 @@
   section: email-standards-and-authentication
   kind: standard
   cost: free
-  description: "DMARC as specified in May 2026: identifier alignment, the policy record, and actions for mail receivers and domain owners; obsoletes RFC 7489 and 9091."
+  description: "DMARC as specified in May 2026, including identifier alignment, the policy record, and actions for mail receivers and domain owners; obsoletes RFC 7489 and 9091."
   checked:
     date: "2026-11-25"
     status: 200
@@ -83,7 +83,7 @@
   section: email-standards-and-authentication
   kind: standard
   cost: free
-  description: "Defines MTA-STS: policy discovery through a TXT record and an HTTPS fetch, validation of MX hosts and certificates, policy application, failure reporting, and operational advice."
+  description: "Defines MTA-STS, including policy discovery through a TXT record and HTTPS fetch, validation of MX hosts and certificates, policy application, failure reporting, and operational advice."
   checked:
     date: "2026-11-25"
     status: 200
@@ -218,7 +218,7 @@
   section: mail-servers-and-delivery
   kind: documentation
   cost: free
-  description: "Documentation for the Rspamd spam filter: its capabilities, the stages each message passes through, installation, configuration, module reference, the Lua API, and MTA integration."
+  description: "Documentation for the Rspamd spam filter, including its capabilities, the stages each message passes through, installation, configuration, module reference, the Lua API, and MTA integration."
   checked:
     date: "2026-11-25"
     status: 200
@@ -322,7 +322,7 @@
   section: dns-standards-and-references
   kind: standard
   cost: free
-  description: "With RFC 4034 and 4035, the DNSSEC specification; this part defines the terms and sets out considerations for name servers, zones, resolvers, and stub resolvers."
+  description: "With RFC 4034 and 4035, the DNSSEC specification; this part includes the terms, the services provided and not provided, and considerations for resolvers and zones."
   checked:
     date: "2026-11-25"
     status: 200
