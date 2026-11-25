@@ -20,7 +20,7 @@ Is there already a detection for this?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Sigma rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | Main repository of Sigma, the generic signature format for SIEM systems, with more than 3,000 detection rules. | Dataset or feed | Free |
+| [Sigma rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | Main repository of Sigma, the generic signature format for SIEM systems, with its library of detection rules. | Dataset or feed | Free |
 | [Detection.FYI](https://detection.fyi/) | detection.fyi | Browsable site of detection rules, each shown with its ATT&CK tags and description. | Online service | Free |
 | [Uncoder IO](https://uncoder.io/) | SOC Prime | SOC Prime's detection rule translator for Sigma and Roota; it is now part of the Prime Architect product, with trial access by request. | Online service | Paid |
 | [Elastic detection rules](https://github.com/elastic/detection-rules) | Elastic | Repository where Elastic develops, tests, and releases the rules used by Elastic Security's detection engine. | Dataset or feed | Free |

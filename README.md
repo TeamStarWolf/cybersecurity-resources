@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 388 resources in 14 domains. 382 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 4 records that are not shown, because the address is retired or could not be read at the last check.
+The catalog holds 500 resources in 14 domains. 494 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 4 records that are not shown, because the address is retired or could not be read at the last check.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -37,9 +37,9 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 
 | Domain | What it covers | Resources |
 |---|---|---|
-| [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md) | ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses. | 9 |
+| [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md) | ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses. | 10 |
 | [Detection and response](domains/detection-and-response.md) | Detection rules and analytics, the platforms that run them, and the data and labs used to build and test detections. | 9 |
-| [Threat intelligence and adversaries](domains/threat-intelligence.md) | Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms. | 44 |
+| [Threat intelligence and adversaries](domains/threat-intelligence.md) | Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms. | 111 |
 | [Offensive security](domains/offensive-security.md) | Tools and references for authorized penetration testing and red teaming: reconnaissance, web testing, Active Directory, command and control, and payload references. | 39 |
 | [Network security](domains/network-security.md) | Capturing, inspecting, and monitoring network traffic, and the references for securing networks and their protocols. | 2 |
 | [Cloud and infrastructure](domains/cloud-and-infrastructure.md) | Assessing and attacking cloud accounts, containers, and Kubernetes, and the providers' own security pages. | 13 |
@@ -52,10 +52,10 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 |---|---|---|
 | [Vulnerability management](domains/vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | 94 |
 | [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 103 |
-| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 13 |
+| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 38 |
 | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md) | Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools. | 20 |
 | [Labs and training](domains/labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | 16 |
-| [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 12 |
+| [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 31 |
 
 The [domain list](domains/README.md) also defines 18 domains that hold no resources yet: Platform hardening; Identity and data protection; AI and emerging tech; ICS, OT, and hardware; Identity and directory services administration; Microsoft 365 and Windows administration; Endpoint and device management; Networking and connectivity; Servers, virtualization, and storage; Cloud platform administration; Automation and scripting; Monitoring, logging, and observability; Backup, recovery, and resilience; IT service management and operations; Email, DNS, and collaboration; Databases and data platforms; Product lifecycle, licensing, and support; The troubleshooting toolbox.
 <!-- domains:end -->
@@ -158,12 +158,13 @@ An address that cannot be read is not described from memory. When a site refuses
 - **Checks on every pull request.** `scripts/validate.py` checks the record rules, duplicates, the address and text rules, and the limits of the compact set, and runs planted failures to prove each rule rejects what it should. `scripts/build.py --check` fails if any generated file differs from what the data produces. A link check requests the addresses on the generated pages, apart from those on the ignore list described below.
 - **A weekly link check** requests the same addresses, with the same exception.
 - **The compact set is locked.** `LINKS.md` is read by another TeamStarWolf project, so its shape is fixed and its SHA-256 is recorded in `data/compact.lock`. A change to the compact set has to update the lock in the same pull request. The address rule is at least as strict as that project's own, so an address accepted here cannot break its build.
+- **A right-page list for a person to read.** A page can answer and still be the wrong page. `scripts/check_links.py --pages` lists the records whose page title or first heading no longer matches the name, or whose page says it found nothing. It does not fail a run; a maintainer reads the list.
 - **The original links are accounted for.** `data/original-292.tsv` records the links this collection began with, and the validator checks that each one still maps to a record.
 
 The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
 
 <!-- link-check:start (written by scripts/build.py; do not edit) -->
-The ignore list holds 28 entries, 8 of which apply to the CI check alone. Together they cover 29 of the 421 addresses the catalog publishes (6.9%). The validator fails if that share passes 10%.
+The ignore list holds 35 entries, 10 of which apply to the CI check alone. Together they cover 38 of the 533 addresses the catalog publishes (7.1%). The validator fails if that share passes 10%.
 <!-- link-check:end -->
 
 Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.

@@ -659,3 +659,966 @@
     status: 200
     final: "https://oasis-open.github.io/cti-documentation/"
     how: script
+
+- id: apple-security-research
+  name: "Apple Security Research"
+  url: "https://security.apple.com/blog/"
+  publisher: "Apple"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Posts from Apple Security Research on its security engineering and research discoveries."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://security.apple.com/blog/"
+    how: script
+
+- id: cloudflare-blog-security
+  name: "Cloudflare Blog: Security"
+  url: "https://blog.cloudflare.com/tag/security/"
+  publisher: "Cloudflare"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Cloudflare blog posts tagged Security, including how its products respond to newly disclosed vulnerabilities."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.cloudflare.com/tag/security/"
+    how: script
+
+- id: f5-labs
+  name: "F5 Labs"
+  url: "https://www.f5.com/labs"
+  publisher: "F5"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "F5 Labs research and analysis on threats to applications."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.f5.com/labs"
+    how: script
+
+- id: google-security-blog
+  name: "Google security blog"
+  url: "https://blog.google/security/"
+  publisher: "Google"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "The security section of Google's official blog, with posts from its Android, Chrome, and product security teams."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.google/security/"
+    how: script
+  notes: "security.googleblog.com and the former Threat Analysis Group address both redirect here."
+
+- id: mozilla-security-blog
+  name: "Mozilla Security Blog"
+  url: "https://blog.mozilla.org/security/"
+  publisher: "Mozilla"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Mozilla's blog on the security and privacy protections it builds into Firefox."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.mozilla.org/security/"
+    how: script
+
+- id: portswigger-research
+  name: "PortSwigger Research"
+  url: "https://portswigger.net/research"
+  publisher: "PortSwigger"
+  section: research-blogs
+  also_in: [offensive-security/web-application-testing]
+  kind: research
+  cost: free
+  description: "Web security research papers and articles from the PortSwigger Research team."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://portswigger.net/research"
+    how: script
+
+- id: qualys-blog
+  name: "Qualys Security Blog"
+  url: "https://blog.qualys.com/"
+  publisher: "Qualys"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Qualys blog on threat detection, compliance, and vulnerability management, including guidance on newly disclosed flaws."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.qualys.com/"
+    how: script
+
+- id: sentinellabs
+  name: "SentinelLABS"
+  url: "https://www.sentinelone.com/labs/"
+  publisher: "SentinelOne"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Threat research and intelligence from SentinelOne's research team."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sentinelone.com/labs/"
+    how: script
+
+- id: tenable-blog
+  name: "Tenable Blog"
+  url: "https://www.tenable.com/blog"
+  publisher: "Tenable"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Tenable's blog of security alerts, research, and exposure management guidance."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.tenable.com/blog"
+    how: script
+
+- id: watchtowr-labs
+  name: "watchTowr Labs"
+  url: "https://labs.watchtowr.com/"
+  publisher: "watchTowr"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Offensive security research from watchTowr Labs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://labs.watchtowr.com/"
+    how: script
+
+- id: proofpoint-threat-insight
+  name: "Proofpoint Threat Insight"
+  url: "https://www.proofpoint.com/us/blog/threat-insight"
+  publisher: "Proofpoint"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Proofpoint's threat research blog."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.proofpoint.com/us/blog/threat-insight"
+    how: script
+
+- id: trend-micro-research
+  name: "Trend Micro Research, News, and Perspectives"
+  url: "https://www.trendmicro.com/en_us/research.html"
+  publisher: "Trend Micro"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Research, news, and perspectives from Trend Micro, with articles now credited to TrendAI Research."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.trendmicro.com/en_us/research.html"
+    how: script
+  notes: "The page title and footer still say Trend Micro. Its menu presents TrendAI as the enterprise security business, and articles credit TrendAI Research. On 2026-11-25 the newest item on this listing was dated September 25, 2026."
+
+- id: sophos-threat-research
+  name: "Sophos Blog: Threat Research"
+  url: "https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research"
+  publisher: "Sophos"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Sophos blog posts in the Threat Research category, including notes on new exploit code and patches."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research"
+    how: browser
+  notes: "The site timed out for a plain HTTP client; opened in a browser. With a trailing slash the filter matches nothing. news.sophos.com redirects to the whole blog, not to this category."
+
+- id: akamai-security-research
+  name: "Akamai Security Research"
+  url: "https://www.akamai.com/blog/security-research"
+  publisher: "Akamai"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Akamai's security research blog, with technical write-ups of the vulnerabilities its researchers find."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.akamai.com/blog/security-research"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: elastic-security-labs
+  name: "Elastic Security Labs"
+  url: "https://www.elastic.co/security-labs"
+  publisher: "Elastic"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Security intelligence research and free tools from Elastic Security Labs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.elastic.co/security-labs"
+    how: script
+
+- id: rapid7-blog
+  name: "Rapid7 Blog"
+  url: "https://www.rapid7.com/blog/"
+  publisher: "Rapid7"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Rapid7's blog on the latest vulnerabilities, exploits, and attacks."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rapid7.com/blog/"
+    how: script
+
+- id: greynoise-blog
+  name: "GreyNoise Blog"
+  url: "https://www.greynoise.io/blog"
+  publisher: "GreyNoise"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "GreyNoise's blog of analysis, product tips, and research."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.greynoise.io/blog"
+    how: script
+
+- id: trail-of-bits-blog
+  name: "The Trail of Bits Blog"
+  url: "https://blog.trailofbits.com/"
+  publisher: "Trail of Bits"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Security research and engineering posts from Trail of Bits."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://blog.trailofbits.com/"
+    how: script
+
+- id: ncc-group-research
+  name: "NCC Group Research"
+  url: "https://www.nccgroup.com/research/"
+  publisher: "NCC Group"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "NCC Group's public reports, technical advisories, and analyses."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.nccgroup.com/research/"
+    how: script
+
+- id: bishop-fox-blog
+  name: "Bishop Fox Offensive Security Blog"
+  url: "https://bishopfox.com/blog"
+  publisher: "Bishop Fox"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Offensive security research and insights from Bishop Fox's researchers and penetration testers."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://bishopfox.com/blog"
+    how: script
+
+- id: specterops-blog
+  name: "SpecterOps Blog"
+  url: "https://specterops.io/blog/"
+  publisher: "SpecterOps"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "SpecterOps posts on attack path management, red team operations, detection engineering, and identity security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://specterops.io/blog/"
+    how: script
+
+- id: citizen-lab
+  name: "The Citizen Lab"
+  url: "https://citizenlab.ca/"
+  publisher: "The Citizen Lab, University of Toronto"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Interdisciplinary research unit at the University of Toronto's Munk School that investigates digital threats to civil society."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://citizenlab.ca/"
+    how: script
+
+- id: security-com-threat-intelligence
+  name: "SECURITY.COM Threat Intelligence"
+  url: "https://www.security.com/threat-intelligence"
+  publisher: "Broadcom"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Threat intelligence posts on Broadcom's security.com site."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.security.com/threat-intelligence"
+    how: script
+
+- id: zscaler-security-research
+  name: "Zscaler Blog: Security Research"
+  url: "https://www.zscaler.com/blogs?type=security-research"
+  publisher: "Zscaler"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Zscaler blog posts filtered to security research."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.zscaler.com/blogs?type=security-research"
+    how: script
+
+- id: fortiguard-labs-threat-research
+  name: "FortiGuard Labs Threat Research"
+  url: "https://www.fortinet.com/blog/threat-research"
+  publisher: "Fortinet"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Threat research posts from Fortinet's FortiGuard Labs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.fortinet.com/blog/threat-research"
+    how: script
+
+- id: group-ib-blog
+  name: "Group-IB Blog"
+  url: "https://www.group-ib.com/blog/"
+  publisher: "Group-IB"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Group-IB's blog on current cyber threat trends."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.group-ib.com/blog/"
+    how: script
+
+- id: team-cymru-blog
+  name: "Team Cymru Blog"
+  url: "https://www.team-cymru.com/blog"
+  publisher: "Team Cymru"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Research from Team Cymru on named threat actors, mapped command-and-control infrastructure, and ransomware."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.team-cymru.com/blog"
+    how: script
+  notes: "The page says new research every week. The newest posts on 2026-11-25 were dated November 17, November 2, October 22, and October 14, about two a month, so the description does not repeat the claim."
+
+- id: datadog-security-labs
+  name: "Datadog Security Labs"
+  url: "https://securitylabs.datadoghq.com/"
+  publisher: "Datadog"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Security research and tooling that Datadog publishes for the community."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://securitylabs.datadoghq.com/"
+    how: script
+
+- id: netskope-threat-research
+  name: "Netskope Threat Research"
+  url: "https://www.netskope.com/the-lens/threat-research"
+  publisher: "Netskope"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Threat research updates from Netskope."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.netskope.com/the-lens/threat-research"
+    how: script
+
+- id: binarly-blog
+  name: "Binarly Blog"
+  url: "https://www.binarly.io/blog"
+  publisher: "Binarly"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Binarly's research on firmware security, UEFI and BMC threats, and the supply chain."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.binarly.io/blog"
+    how: script
+
+- id: urlscan-io
+  name: "urlscan.io"
+  url: "https://urlscan.io/"
+  publisher: "urlscan GmbH"
+  section: indicator-lookup
+  kind: service
+  cost: freemium
+  description: "Website scanner for suspicious and malicious URLs: submit one, or search the scans the community has made public."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://urlscan.io/"
+    how: script
+
+- id: spamhaus
+  name: "Spamhaus"
+  url: "https://www.spamhaus.org/"
+  publisher: "The Spamhaus Project"
+  section: indicator-lookup
+  kind: service
+  cost: freemium
+  description: "IP and domain reputation data, including DNS blocklists, with free datasets and tools."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.spamhaus.org/"
+    how: script
+
+- id: talos-reputation-center
+  name: "Talos IP and Domain Intelligence Center"
+  url: "https://talosintelligence.com/reputation_center"
+  publisher: "Cisco Talos"
+  section: indicator-lookup
+  kind: service
+  cost: free
+  description: "Cisco Talos's lookup for the reputation of an IP address or domain."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://talosintelligence.com/reputation_center"
+    how: script
+
+- id: abuse-ch-sslbl
+  name: "SSLBL"
+  url: "https://sslbl.abuse.ch/"
+  publisher: "abuse.ch"
+  section: indicator-lookup
+  kind: dataset
+  cost: free
+  description: "abuse.ch blacklist of SSL certificates used by botnet command-and-control servers; its JA3 fingerprint list has had no additions since August 2021."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://sslbl.abuse.ch/"
+    how: script
+  notes: "On 2026-11-25 the certificate blacklist had been updated that day. The newest JA3 fingerprint is dated 2021-08-03, and the botnet C2 IP blacklist says it was deprecated on 2025-01-03."
+
+- id: abuse-ch-hunting
+  name: "abuse.ch Hunting"
+  url: "https://hunting.abuse.ch/"
+  publisher: "abuse.ch"
+  section: indicator-lookup
+  kind: service
+  cost: free-with-account
+  description: "One search across all of the abuse.ch platforms; searching needs an abuse.ch login."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://hunting.abuse.ch/"
+    how: script
+  notes: "For a signed-out visitor the Search button opens a prompt that says authentication is required."
+
+- id: phishtank
+  name: "PhishTank"
+  url: "https://phishtank.org/"
+  publisher: "Cisco Talos"
+  section: indicator-lookup
+  kind: dataset
+  cost: free-with-account
+  description: "Community site, operated by Cisco Talos, for searching, submitting, and verifying phishing URLs; new user registration was disabled when checked."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://phishtank.org/"
+    how: script
+  notes: "On 2026-11-25 the registration page said new user registration is temporarily disabled. Searching works without an account; submitting and verifying need one."
+
+- id: google-safe-browsing-site-status
+  name: "Google Safe Browsing site status"
+  url: "https://transparencyreport.google.com/safe-browsing/search"
+  publisher: "Google"
+  section: indicator-lookup
+  kind: service
+  cost: free
+  description: "Check whether Google Safe Browsing currently lists a site as unsafe."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://transparencyreport.google.com/safe-browsing/search"
+    how: browser
+
+- id: misp-default-feeds
+  name: "MISP Default Feeds"
+  url: "https://www.misp-project.org/feeds/"
+  publisher: "MISP Project"
+  section: indicator-lookup
+  kind: dataset
+  cost: free
+  description: "The open source intelligence feeds that MISP ships with by default."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.misp-project.org/feeds/"
+    how: script
+
+- id: ipinfo
+  name: "IPinfo"
+  url: "https://ipinfo.io/"
+  publisher: "IPinfo"
+  section: indicator-lookup
+  kind: service
+  cost: freemium
+  description: "IP address data such as geolocation and ASN, through a web lookup and an API with a free tier."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ipinfo.io/"
+    how: script
+
+- id: mxtoolbox-blacklist-check
+  name: "MxToolbox Blacklist Check"
+  url: "https://mxtoolbox.com/blacklists.aspx"
+  publisher: "MxToolbox"
+  section: indicator-lookup
+  kind: service
+  cost: free
+  description: "Free check of a mail server IP or domain against DNS-based email blacklists."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://mxtoolbox.com/blacklists.aspx"
+    how: script
+  notes: "The page says it tests against over 100 blacklists; the count is left out of the description because it changes."
+
+- id: ipvoid
+  name: "IPVoid"
+  url: "https://www.ipvoid.com/"
+  publisher: "NoVirusThanks Company Srl"
+  section: indicator-lookup
+  kind: service
+  cost: free
+  description: "Free IP, DNS, and URL tools, including an IP blacklist check, whois, and DNS propagation, with no sign-up."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ipvoid.com/"
+    how: script
+  notes: "The footer names NoVirusThanks Company Srl; the page also says it comes from APIVoid, the team behind IPVoid. APIVoid is a separate paid API product."
+
+- id: shadowserver
+  name: "The Shadowserver Foundation"
+  url: "https://www.shadowserver.org/"
+  publisher: "The Shadowserver Foundation"
+  section: internet-scan-data
+  kind: organization
+  cost: free
+  description: "Nonprofit that collects threat data at scale and sends free daily remediation reports to network owners."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.shadowserver.org/"
+    how: script
+
+- id: shadowserver-dashboard
+  name: "Shadowserver Dashboard"
+  url: "https://dashboard.shadowserver.org/"
+  publisher: "The Shadowserver Foundation"
+  section: internet-scan-data
+  kind: dataset
+  cost: free
+  description: "Public statistics from Shadowserver's sinkholes, scans, and honeypots, with views for CVEs, compromised devices, and ICS and OT."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dashboard.shadowserver.org/"
+    how: script
+
+- id: cloudflare-radar
+  name: "Cloudflare Radar"
+  url: "https://radar.cloudflare.com/"
+  publisher: "Cloudflare"
+  section: internet-scan-data
+  kind: service
+  cost: free
+  description: "Internet trends as seen by Cloudflare's network: traffic, outages, bots, and domain popularity."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://radar.cloudflare.com/"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: zoomeye
+  name: "ZoomEye"
+  url: "https://www.zoomeye.ai/"
+  publisher: "KnownSec Hong Kong"
+  section: internet-scan-data
+  kind: service
+  cost: freemium
+  description: "Search engine for internet-connected assets, with a free plan and paid memberships."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.zoomeye.ai/"
+    how: script
+  notes: "Publisher from the About page."
+
+- id: netlas
+  name: "Netlas"
+  url: "https://netlas.io/"
+  publisher: "Netlas"
+  section: internet-scan-data
+  kind: service
+  cost: freemium
+  description: "Internet-wide scan data with DNS, WHOIS, and attack surface discovery tools, through a web app and API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://netlas.io/"
+    how: script
+
+- id: leakix
+  name: "LeakIX"
+  url: "https://leakix.net/"
+  publisher: "LeakIX"
+  section: internet-scan-data
+  kind: service
+  cost: freemium
+  description: "Search engine for internet-exposed services, queried by port, protocol, ASN, or address range."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://leakix.net/"
+    how: script
+
+- id: dnsdumpster
+  name: "DNSDumpster"
+  url: "https://dnsdumpster.com/"
+  publisher: "Hacker Target"
+  section: internet-scan-data
+  also_in: [offensive-security/recon-and-osint]
+  kind: service
+  cost: freemium
+  description: "Domain research tool that finds the hosts related to a domain; it works without sign-in, and a free account or paid plans raise the limits."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dnsdumpster.com/"
+    how: script
+  notes: "The home page calls itself a hackertarget.com project. The membership page lists a free Basic account at 50 requests a day and paid Plus and Max plans."
+
+- id: wayback-machine
+  name: "Wayback Machine"
+  url: "https://web.archive.org/"
+  publisher: "Internet Archive"
+  section: internet-scan-data
+  kind: service
+  cost: free
+  description: "The Internet Archive's record of past versions of web pages."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://web.archive.org/"
+    how: script
+
+- id: he-bgp-toolkit
+  name: "Hurricane Electric BGP Toolkit"
+  url: "https://bgp.he.net/"
+  publisher: "Hurricane Electric"
+  section: internet-scan-data
+  kind: service
+  cost: free
+  description: "Lookups for BGP prefixes, peers, and autonomous systems, with looking glass and traceroute tools."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://bgp.he.net/"
+    how: script
+
+- id: viewdns-info
+  name: "ViewDNS.info"
+  url: "https://viewdns.info/"
+  publisher: "ViewDNS.info"
+  section: internet-scan-data
+  kind: service
+  cost: freemium
+  description: "DNS and IP tools, including reverse IP lookup, reverse WHOIS, and a propagation checker; the web tools are free and the API is paid."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://viewdns.info/"
+    how: script
+  notes: "The API pricing page lists a free sandbox of 250 trial queries and paid plans from 49 dollars a month."
+
+- id: ransomware-live
+  name: "Ransomware.live"
+  url: "https://www.ransomware.live/"
+  publisher: "Julien Mousqueton"
+  section: adversary-tracking
+  kind: dataset
+  cost: free
+  description: "Tracks ransomware groups' victim postings and activity, with an API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ransomware.live/"
+    how: script
+  notes: "The API page lists a free API that needs no authentication and is rate limited, and an API PRO that it also calls free and that needs an API key. The About page names Julien Mousqueton as the author and calls the site a personal project."
+
+- id: ransomlook
+  name: "RansomLook"
+  url: "https://www.ransomlook.io/"
+  publisher: "RansomLook"
+  section: adversary-tracking
+  kind: dataset
+  cost: free
+  description: "Open, searchable intelligence on ransomware groups, with live statistics, their posts, and an API."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ransomlook.io/"
+    how: script
+
+- id: unit-42-threat-actor-groups
+  name: "Threat Actor Groups Tracked by Unit 42"
+  url: "https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/"
+  publisher: "Palo Alto Networks"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "Unit 42's list of the threat actor groups it tracks, with a summary and the industries each typically affects."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/"
+    how: script
+  notes: "The page title says the list was updated August 1, 2025."
+
+- id: google-cloud-apt-groups
+  name: "APT groups and threat actors (Google Cloud)"
+  url: "https://cloud.google.com/security/resources/insights/apt-groups"
+  publisher: "Google Cloud"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "Google Cloud's profiles of advanced persistent threat groups, organized by country."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cloud.google.com/security/resources/insights/apt-groups"
+    how: script
+
+- id: dragos-threat-groups
+  name: "Dragos Threat Groups"
+  url: "https://www.dragos.com/threat-groups/"
+  publisher: "Dragos"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "The threat groups Dragos tracks for activity against industrial infrastructure."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.dragos.com/threat-groups"
+    how: script
+
+- id: attack-campaigns
+  name: "ATT&CK Campaigns"
+  url: "https://attack.mitre.org/campaigns/"
+  publisher: "MITRE"
+  section: adversary-tracking
+  kind: reference
+  cost: free
+  description: "ATT&CK's catalog of campaigns, the groupings of intrusion activity that the security community tracks."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://attack.mitre.org/campaigns/"
+    how: script
+
+- id: apt-campaign-collections
+  name: "APT & CyberCriminal Campaign Collection"
+  url: "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections"
+  publisher: "CyberMonitor"
+  section: adversary-tracking
+  kind: dataset
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2024-07"
+  description: "Repository collecting public reports on APT and cybercrime campaigns."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections"
+    how: script
+  notes: "Last commit on the default branch: 2024-07-25. The newest year folder is 2024."
+
+- id: microsoft-digital-defense-report
+  name: "Microsoft Digital Defense Report"
+  url: "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-archives"
+  publisher: "Microsoft"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "Microsoft's Digital Defense Report, with its archive of past editions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-archives"
+    how: script
+
+- id: dragos-year-in-review
+  name: "Dragos OT Cybersecurity Year in Review"
+  url: "https://www.dragos.com/ot-cybersecurity-year-in-review/"
+  publisher: "Dragos"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "Dragos's annual report on OT threat groups, ransomware, and attacks on industrial environments."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.dragos.com/ot-cybersecurity-year-in-review"
+    how: script
+  notes: "The page shows the report's key findings, timeline, and numbers online. Its download section did not render in the browser used for checking, so the form was not seen."
+
+- id: europol-iocta
+  name: "Internet Organised Crime Threat Assessment (IOCTA)"
+  url: "https://www.europol.europa.eu/publications-events/main-reports/iocta-report"
+  publisher: "Europol"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "Europol's flagship strategic report on cybercrime, published by its European Cybercrime Centre."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.europol.europa.eu/publications-events/main-reports/iocta-report"
+    how: script
+
+- id: ic3-annual-reports
+  name: "IC3 Annual Reports"
+  url: "https://www.ic3.gov/AnnualReport/Reports"
+  publisher: "FBI"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "The FBI Internet Crime Complaint Center's annual reports, with state-by-state reports."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ic3.gov/AnnualReport/Reports"
+    how: script
+
+- id: red-canary-threat-detection-report
+  name: "Red Canary Threat Detection Report"
+  url: "https://redcanary.com/threat-detection-report/"
+  publisher: "Red Canary, a Zscaler company"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "Red Canary's report on the top techniques, threats, and trends it observed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://redcanary.com/threat-detection-report/"
+    how: script
+  notes: "redcanary.com/blog now redirects to Zscaler's blog; the report page still answers at this address. Publisher from the site logo, which reads Red Canary, A Zscaler Company."
+
+- id: unit-42-incident-response-report
+  name: "Unit 42 Global Incident Response Report"
+  url: "https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report"
+  publisher: "Palo Alto Networks"
+  section: annual-reports
+  kind: report
+  cost: free
+  description: "Unit 42's annual report on attacker tactics seen in its incident response cases, with recommendations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report"
+    how: script
+
+- id: traffic-light-protocol
+  name: "Traffic Light Protocol (TLP)"
+  url: "https://www.first.org/tlp/"
+  publisher: "FIRST"
+  section: platforms-and-standards
+  kind: standard
+  cost: free
+  description: "FIRST's Traffic Light Protocol standard, with definitions and usage guidance; the page gives version 2.0 as current."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.first.org/tlp/"
+    how: script
+
+- id: cortex
+  name: "Cortex"
+  url: "https://github.com/TheHive-Project/Cortex"
+  publisher: "TheHive Project"
+  section: platforms-and-standards
+  kind: tool
+  cost: free
+  description: "Observable analysis and active response engine."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/TheHive-Project/Cortex"
+    how: script
+
+- id: domaintools-investigations
+  name: "DomainTools Investigations"
+  url: "https://dti.domaintools.com/"
+  publisher: "DomainTools"
+  section: research-blogs
+  kind: research
+  cost: free
+  description: "Research from DomainTools Investigations: intelligence assessments of campaigns and their infrastructure, with a newsletter and a podcast."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dti.domaintools.com/"
+    how: script
+  notes: "Replaces the DomainTools blog, which the site's own menu describes as thought leadership articles; its research is published here."

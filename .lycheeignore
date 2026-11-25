@@ -9,11 +9,11 @@
 ^https://engage\.mitre\.org/$
 ^https://www\.adobe\.com/trust/security/bulletins\-and\-advisories\.html$
 ^https://www\.se\.com/ww/en/work/support/cybersecurity/
-^https://www\.cyber\.gov\.au/$
+^https://www\.cyber\.gov\.au/
 ^https://www\.hhs\.gov/hc3$
 ^https://crt\.sh/$
 ^https://www\.shodan\.io/$
-^https://www\.ic3\.gov/$
+^https://www\.ic3\.gov/
 ^https://www\.cobaltstrike\.com/$
 ^https://platform\.censys\.io/$
 ^https://search\.censys\.io/$
@@ -28,3 +28,10 @@
 ^https://www\.rockwellautomation\.com/en\-us/trust\-center/security\-advisories\.html$
 ^https://www\.sophos\.com/en\-us/security\-advisories$
 ^https://security\.alpinelinux\.org/$
+^https://www\.nsa\.gov/Cybersecurity/Cybersecurity\-Advisories\-Guidance/$
+^https://www\.cybersecuritydive\.com/$
+^https://www\.sophos\.com/en\-us/blog\?taxonomy_blog_category=Threat\+Research$
+^https://www\.akamai\.com/blog/security\-research$
+^https://radar\.cloudflare\.com/$
+^https://dashboard\.shadowserver\.org/$
+^https://blog\.qualys\.com/$

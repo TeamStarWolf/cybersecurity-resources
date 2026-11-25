@@ -8,7 +8,7 @@
   section: rules-and-analytics
   kind: dataset
   cost: free
-  description: "Main repository of Sigma, the generic signature format for SIEM systems, with more than 3,000 detection rules."
+  description: "Main repository of Sigma, the generic signature format for SIEM systems, with its library of detection rules."
   checked:
     date: "2026-11-25"
     status: 200

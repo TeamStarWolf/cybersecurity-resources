@@ -51,8 +51,8 @@ entries:
     reason: "Returns 403 to a plain HTTP client; loads in a browser. Covers the current security notifications page and the earlier address that the compact set still carries."
     opened: "2026-11-25"
   - url: "https://www.cyber.gov.au/"
-    match: exact
-    reason: "Resets the connection of a plain HTTP client; loads in a browser."
+    match: prefix
+    reason: "Resets the connection of a plain HTTP client or times out; loads in a browser. Covers the home page and the alerts and advisories page."
     opened: "2026-11-25"
   - url: "https://www.hhs.gov/hc3"
     match: exact
@@ -68,9 +68,9 @@ entries:
     reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
     opened: "2026-11-25"
   - url: "https://www.ic3.gov/"
-    match: exact
+    match: prefix
     only: ci
-    reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+    reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network. Covers the home page and the annual reports page."
     opened: "2026-11-25"
   - url: "https://www.cobaltstrike.com/"
     match: exact
@@ -133,4 +133,34 @@ entries:
     match: exact
     only: ci
     reason: "Returns 406 to the CI link checker's request; answers 200 to curl and to a browser."
+    opened: "2026-11-25"
+  - url: "https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.cybersecuritydive.com/"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research"
+    match: exact
+    reason: "Times out for a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.akamai.com/blog/security-research"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://radar.cloudflare.com/"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://dashboard.shadowserver.org/"
+    match: exact
+    only: ci
+    reason: "Times out for GitHub-hosted runners on repeated runs; answers 200 from a desktop network."
+    opened: "2026-11-25"
+  - url: "https://blog.qualys.com/"
+    match: exact
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
     opened: "2026-11-25"

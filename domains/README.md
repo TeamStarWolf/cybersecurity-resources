@@ -4,7 +4,7 @@
 
 > The catalog, grouped by domain. Each domain page lists its resources by the question a practitioner asks, with one sentence on what each resource is, who runs it, what kind of thing it is, and what it costs.
 
-388 resources in 14 domains. A domain is listed without a link until it holds its first resource.
+500 resources in 14 domains. A domain is listed without a link until it holds its first resource.
 
 ## Security domains
 
@@ -12,9 +12,9 @@ These follow the domain pages of the TeamStarWolf library, in the same order.
 
 | Domain | What it covers | Where its boundary is | Resources |
 |---|---|---|---|
-| [Threat-informed defense and ATT&CK](threat-informed-defense.md) | ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses. | Detection rules sit in Detection and response; reporting on specific adversaries sits in Threat intelligence and adversaries. | 9 |
+| [Threat-informed defense and ATT&CK](threat-informed-defense.md) | ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses. | Detection rules sit in Detection and response; reporting on specific adversaries sits in Threat intelligence and adversaries. | 10 |
 | [Detection and response](detection-and-response.md) | Detection rules and analytics, the platforms that run them, and the data and labs used to build and test detections. | Forensic and malware analysis tools sit in DFIR and malware analysis; adversary emulation sits in Threat-informed defense and ATT&CK. | 9 |
-| [Threat intelligence and adversaries](threat-intelligence.md) | Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms. | Vulnerability and exploit data sit in Vulnerability management; malware sandboxes sit in DFIR and malware analysis. | 44 |
+| [Threat intelligence and adversaries](threat-intelligence.md) | Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms. | Vulnerability and exploit data sit in Vulnerability management; malware sandboxes sit in DFIR and malware analysis. | 111 |
 | [Offensive security](offensive-security.md) | Tools and references for authorized penetration testing and red teaming: reconnaissance, web testing, Active Directory, command and control, and payload references. | Cloud attack tooling sits in Cloud and infrastructure; exploit databases sit in Vulnerability management; practice ranges sit in Labs and training. | 39 |
 | [Network security](network-security.md) | Capturing, inspecting, and monitoring network traffic, and the references for securing networks and their protocols. | Running and troubleshooting a network day to day sits in Networking and connectivity; port scanners sit in Offensive security. | 2 |
 | [Cloud and infrastructure](cloud-and-infrastructure.md) | Assessing and attacking cloud accounts, containers, and Kubernetes, and the providers' own security pages. | Operating a cloud platform (documentation hubs, calculators, status pages) sits in Cloud platform administration; provider security bulletins sit in Vendor advisories and PSIRTs. | 13 |
@@ -33,10 +33,10 @@ The areas this collection started from.
 |---|---|---|---|
 | [Vulnerability management](vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | Advisories from the affected vendor sit in Vendor advisories and PSIRTs; government alerts sit in Government and CERT alerts. | 94 |
 | [Vendor advisories and PSIRTs](vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | Databases that aggregate advisories sit in Vulnerability management; advisories from governments and coordination centers sit in Government and CERT alerts. | 103 |
-| [Government and CERT alerts](government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | Standards and frameworks from the same agencies sit in GRC and security program. | 13 |
+| [Government and CERT alerts](government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | Standards and frameworks from the same agencies sit in GRC and security program. | 38 |
 | [DFIR and malware analysis](dfir-and-malware-analysis.md) | Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools. | Detection rules and platforms sit in Detection and response; indicator lookup sits in Threat intelligence and adversaries. | 20 |
 | [Labs and training](labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | Reference material you read rather than practice on sits in the domain it is about. | 16 |
-| [News and research](news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | Vendor research blogs sit in Threat intelligence and adversaries; advisories sit in the two advisory domains. | 12 |
+| [News and research](news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | Vendor research blogs sit in Threat intelligence and adversaries; advisories sit in the two advisory domains. | 31 |
 
 ## Enterprise IT domains
 

@@ -4,14 +4,14 @@
 
 > ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses.
 
-Part of the [domain list](README.md). 9 resources in 3 sections. Detection rules sit in Detection and response; reporting on specific adversaries sits in Threat intelligence and adversaries.
+Part of the [domain list](README.md). 10 resources in 3 sections. Detection rules sit in Detection and response; reporting on specific adversaries sits in Threat intelligence and adversaries.
 
 For references, how-to guides, and learning paths on this subject, see the TeamStarWolf library's [matching domain page](https://github.com/TeamStarWolf/TeamStarWolf/blob/main/hubs/threat-informed-defense.md).
 
 | Section | The question it answers | Resources |
 |---|---|---|
 | [Knowledge bases](#knowledge-bases) | Where is the shared map of how attacks and defenses work? | 5 |
-| [Center for Threat-Informed Defense projects](#center-for-threat-informed-defense-projects) | What has been built on top of ATT&CK? | 2 |
+| [Center for Threat-Informed Defense projects](#center-for-threat-informed-defense-projects) | What has been built on top of ATT&CK? | 3 |
 | [Adversary emulation and control testing](#adversary-emulation-and-control-testing) | How do I test whether a defense works? | 2 |
 
 ## Knowledge bases
@@ -39,6 +39,7 @@ What has been built on top of ATT&CK?
 |---|---|---|---|---|
 | [Center for Threat-Informed Defense](https://ctid.mitre.org/) | MITRE | Research and development consortium operated by MITRE; start here to find its published projects on threat-informed defense. | Organization | Free |
 | [Mappings Explorer](https://ctid.mitre.org/mappings/) | Center for Threat-Informed Defense | Shows how security controls and capabilities, including NIST 800-53, CIS Controls, and cloud platform features, map to ATT&CK techniques. | Reference | Free |
+| [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) | Center for Threat-Informed Defense | Language for describing how adversaries combine and sequence offensive techniques; the documentation covers version 4.0. | Standard | Free |
 | [KEV mappings (Mappings Explorer)](https://ctid.mitre.org/mappings/external/kev/) | Center for Threat-Informed Defense | Mappings Explorer's view of the Known Exploited Vulnerabilities catalog, tying its entries to ATT&CK behaviors; the newest mapped KEV version is from July 2025. | Reference | Free |
 
 Listed here from another domain: KEV mappings (Mappings Explorer) ([Vulnerability management](vulnerability-management.md#prioritization-and-scoring)).
@@ -52,4 +53,4 @@ How do I test whether a defense works?
 | [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Red Canary, a Zscaler company | Library of small, portable detection tests mapped to ATT&CK techniques; run one to check whether a detection fires. | Dataset or feed | Free |
 | [Apache Caldera](https://github.com/apache/caldera) (formerly MITRE Caldera) | Apache Software Foundation | Adversary emulation platform built on ATT&CK that automates security assessments and assists red teams; started at MITRE. | Tool | Free |
 
-Of the 13 addresses on this page, 12 were opened and read on 2026-11-25. The one marked \* refused every client used for checking, a script and a browser, so that entry was written from another page of the same publisher: its feed, its documentation, its vendor site, or its repository. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).
+Of the 14 addresses on this page, 13 were opened and read on 2026-11-25. The one marked \* refused every client used for checking, a script and a browser, so that entry was written from another page of the same publisher: its feed, its documentation, its vendor site, or its repository. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

@@ -4,12 +4,13 @@
 
 > Security news sites, commentary, newsletters, podcasts, and communities.
 
-Part of the [domain list](README.md). 12 resources in 2 sections. Vendor research blogs sit in Threat intelligence and adversaries; advisories sit in the two advisory domains.
+Part of the [domain list](README.md). 31 resources in 3 sections. Vendor research blogs sit in Threat intelligence and adversaries; advisories sit in the two advisory domains.
 
 | Section | The question it answers | Resources |
 |---|---|---|
-| [News sites](#news-sites) | What happened today? | 7 |
-| [Analysis, newsletters, and podcasts](#analysis-newsletters-and-podcasts) | Who explains what it means? | 5 |
+| [News sites](#news-sites) | What happened today? | 19 |
+| [Analysis, newsletters, and podcasts](#analysis-newsletters-and-podcasts) | Who explains what it means? | 11 |
+| [Communities](#communities) | Where do practitioners discuss it? | 1 |
 
 ## News sites
 
@@ -24,6 +25,18 @@ What happened today?
 | [SecurityWeek](https://www.securityweek.com/) | Wired Business Media | Cybersecurity news, insights, and analysis for enterprise security professionals. | News | Free |
 | [Help Net Security](https://www.helpnetsecurity.com/) | Help Net Security | Cybersecurity news with a focus on enterprise security, plus daily and weekly newsletters. | News | Free |
 | [DataBreaches.net](https://databreaches.net/) \* | DataBreaches.net | Site that reports on data breaches and follows up on incident disclosures. | News | Free |
+| [Ars Technica: Security](https://arstechnica.com/security/) | Condé Nast | The security section of Ars Technica, with reported stories on exploits, breaches, and security research. | News | Free |
+| [CSO Online](https://www.csoonline.com/) | Foundry (FoundryCo, Inc.) | News and features on trends, practices, and products for enterprise security leaders. | News | Free |
+| [CyberInsider](https://cyberinsider.com/) | CyberInsider | Cybersecurity news and resources, with coverage of phishing campaigns, breaches, and extortion groups. | News | Free |
+| [CyberScoop](https://cyberscoop.com/) | Scoop News Group | Breaking cybersecurity news with a focus on government and the public sector. | News | Free |
+| [Cybersecurity Dive](https://www.cybersecuritydive.com/) | Informa TechTarget | Cybersecurity news and analysis for industry professionals. | News | Free |
+| [Hackread](https://hackread.com/) | Gray Dot Media Group | Cybersecurity and technology news site. | News | Free |
+| [Infosecurity Magazine](https://www.infosecurity-magazine.com/) | Reed Exhibitions | Online magazine covering information security news, strategy, and technology. | News | Free |
+| [The Register: Security](https://www.theregister.com/security/) | Situation Publishing | The Register's news and insight on information security and IT defenses. | News | Free |
+| [Security Affairs](https://securityaffairs.com/) | Security Affairs | Security news blog covering data breaches, malware, cybercrime, and state-backed activity. | News | Free |
+| [TechCrunch: Security](https://techcrunch.com/category/security/) | TechCrunch | TechCrunch's security news and investigative reporting on breaches, hacks, and cyberattacks. | News | Free |
+| [WIRED: Security](https://www.wired.com/category/security/) | Condé Nast | WIRED's coverage of cybersecurity, hacks, privacy, and national security. | News | Freemium |
+| [404 Media](https://www.404media.co/) | 404 Media | Independent media company founded by technology journalists, whose reporting includes a hacking beat. | News | Freemium |
 
 ## Analysis, newsletters, and podcasts
 
@@ -36,5 +49,19 @@ Who explains what it means?
 | [Risky Business](https://risky.biz/) | Risky Business Media | Podcasts, newsletters, and video with news and commentary for cybersecurity and intelligence professionals. | News | Free |
 | [tl;dr sec](https://tldrsec.com/) | tl;dr sec | Free weekly newsletter that summarizes security tools, talks, and research. | News | Free |
 | [SANS Internet Storm Center](https://isc.sans.edu/) | SANS | Daily diaries from volunteer handlers on current attacks and scanning activity, with an API for its data. | News | Free |
+| [Graham Cluley: Writing](https://grahamcluley.com/writing/) | Graham Cluley (Cluley Associates Limited) | Articles and podcast episodes from cybersecurity speaker Graham Cluley, host of the Smashing Security podcast. | News | Free |
+| [Troy Hunt](https://www.troyhunt.com/) | Troy Hunt | Blog of Troy Hunt, who runs Have I Been Pwned. | News | Free |
+| [Darknet Diaries](https://darknetdiaries.com/) | Jack Rhysider | Podcast of true stories from the dark side of the internet. | News | Freemium |
+| [SANS NewsBites](https://www.sans.org/newsletters/newsbites/) | SANS Institute | Semiweekly executive summary of the most important security news, with each item annotated by subject matter experts. | News | Free |
+| [N2K CyberWire](https://thecyberwire.com/) | N2K Networks | Concise cybersecurity news briefings and podcasts. | News | Freemium |
+| [Security Now](https://twit.tv/shows/security-now) | TWiT | Podcast in which Steve Gibson and Leo Laporte break down the latest cybercrime and hacking stories every Tuesday. | News | Free |
 
-Of the 12 addresses on this page, 10 were opened and read on 2026-11-25. The 2 marked \* refused every client used for checking, a script and a browser, so each of those entries was written from another page of the same publisher: its feed, its documentation, its vendor site, or its repository. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).
+## Communities
+
+Where do practitioners discuss it?
+
+| Resource | Run by | What it is and when to use it | Kind | Cost |
+|---|---|---|---|---|
+| [Infosec Exchange](https://infosec.exchange/) | Infosec Exchange | A Mastodon instance for people who work in or follow information security. | Community | Free |
+
+Of the 31 addresses on this page, 29 were opened and read on 2026-11-25. The 2 marked \* refused every client used for checking, a script and a browser, so each of those entries was written from another page of the same publisher: its feed, its documentation, its vendor site, or its repository. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).
