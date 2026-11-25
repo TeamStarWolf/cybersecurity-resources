@@ -132,3 +132,17 @@
     final: "https://github.com/apache/caldera"
     how: script
   notes: "github.com/mitre/caldera redirects to github.com/apache/caldera. The project site is https://caldera.apache.org/ and release archives carry an incubating label."
+
+- id: attack-flow
+  name: "Attack Flow"
+  url: "https://center-for-threat-informed-defense.github.io/attack-flow/"
+  publisher: "Center for Threat-Informed Defense"
+  section: ctid-projects
+  kind: standard
+  cost: free
+  description: "Language for describing how adversaries combine and sequence offensive techniques; the documentation covers version 4.0."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://center-for-threat-informed-defense.github.io/attack-flow/"
+    how: script

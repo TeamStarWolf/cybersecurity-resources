@@ -4,14 +4,14 @@
 
 > ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses.
 
-Part of the [domain list](README.md). 9 resources in 3 sections. Detection rules sit in Detection and response; reporting on specific adversaries sits in Threat intelligence and adversaries.
+Part of the [domain list](README.md). 10 resources in 3 sections. Detection rules sit in Detection and response; reporting on specific adversaries sits in Threat intelligence and adversaries.
 
 For references, how-to guides, and learning paths on this subject, see the TeamStarWolf library's [matching domain page](https://github.com/TeamStarWolf/TeamStarWolf/blob/main/hubs/threat-informed-defense.md).
 
 | Section | The question it answers | Resources |
 |---|---|---|
 | [Knowledge bases](#knowledge-bases) | Where is the shared map of how attacks and defenses work? | 5 |
-| [Center for Threat-Informed Defense projects](#center-for-threat-informed-defense-projects) | What has been built on top of ATT&CK? | 2 |
+| [Center for Threat-Informed Defense projects](#center-for-threat-informed-defense-projects) | What has been built on top of ATT&CK? | 3 |
 | [Adversary emulation and control testing](#adversary-emulation-and-control-testing) | How do I test whether a defense works? | 2 |
 
 ## Knowledge bases
@@ -39,6 +39,7 @@ What has been built on top of ATT&CK?
 |---|---|---|---|---|
 | [Center for Threat-Informed Defense](https://ctid.mitre.org/) | MITRE | Research and development consortium operated by MITRE; start here to find its published projects on threat-informed defense. | Organization | Free |
 | [Mappings Explorer](https://ctid.mitre.org/mappings/) | Center for Threat-Informed Defense | Shows how security controls and capabilities, including NIST 800-53, CIS Controls, and cloud platform features, map to ATT&CK techniques. | Reference | Free |
+| [Attack Flow](https://center-for-threat-informed-defense.github.io/attack-flow/) | Center for Threat-Informed Defense | Language for describing how adversaries combine and sequence offensive techniques; the documentation covers version 4.0. | Standard | Free |
 | [KEV mappings (Mappings Explorer)](https://ctid.mitre.org/mappings/external/kev/) | Center for Threat-Informed Defense | Mappings Explorer's view of the Known Exploited Vulnerabilities catalog, which ties its entries to adversary behaviors in ATT&CK. | Reference | Free |
 
 Listed here from another domain: KEV mappings (Mappings Explorer) ([Vulnerability management](vulnerability-management.md#prioritization-and-scoring)).

@@ -201,3 +201,270 @@
     final: "https://www.reddit.com/r/blueteamsec/"
     how: blocked
   notes: "A plain HTTP client received an empty page shell (status 200), Reddit refused its JSON address, and the browser pane does not open reddit.com. Not read on 2026-11-25, so it has no description and is held out of the domain pages."
+
+- id: ars-technica-security
+  name: "Ars Technica: Security"
+  url: "https://arstechnica.com/security/"
+  publisher: "Ars Technica"
+  section: news
+  kind: news
+  cost: free
+  description: "The security section of Ars Technica, with reported stories on exploits, breaches, and security research."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://arstechnica.com/security/"
+    how: script
+
+- id: cso-online
+  name: "CSO Online"
+  url: "https://www.csoonline.com/"
+  publisher: "CSO"
+  section: news
+  kind: news
+  cost: free
+  description: "News and features on trends, practices, and products for enterprise security leaders."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.csoonline.com/"
+    how: script
+
+- id: cyberinsider
+  name: "CyberInsider"
+  url: "https://cyberinsider.com/"
+  publisher: "CyberInsider"
+  section: news
+  kind: news
+  cost: free
+  description: "Cybersecurity news and resources, with coverage of phishing campaigns, breaches, and extortion groups."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cyberinsider.com/"
+    how: script
+
+- id: cyberscoop
+  name: "CyberScoop"
+  url: "https://cyberscoop.com/"
+  publisher: "CyberScoop"
+  section: news
+  kind: news
+  cost: free
+  description: "Breaking cybersecurity news with a focus on government and the public sector."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cyberscoop.com/"
+    how: script
+
+- id: cybersecurity-dive
+  name: "Cybersecurity Dive"
+  url: "https://www.cybersecuritydive.com/"
+  publisher: "Informa TechTarget"
+  section: news
+  kind: news
+  cost: free
+  description: "Cybersecurity news and analysis for industry professionals."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.cybersecuritydive.com/"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: hackread
+  name: "Hackread"
+  url: "https://hackread.com/"
+  publisher: "Hackread"
+  section: news
+  kind: news
+  cost: free
+  description: "Cybersecurity and technology news site."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://hackread.com/"
+    how: script
+
+- id: infosecurity-magazine
+  name: "Infosecurity Magazine"
+  url: "https://www.infosecurity-magazine.com/"
+  publisher: "Infosecurity Magazine"
+  section: news
+  kind: news
+  cost: free
+  description: "Online magazine covering information security news, strategy, and technology."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.infosecurity-magazine.com/"
+    how: script
+
+- id: the-register-security
+  name: "The Register: Security"
+  url: "https://www.theregister.com/security/"
+  publisher: "The Register"
+  section: news
+  kind: news
+  cost: free
+  description: "The Register's news and insight on information security and IT defenses."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.theregister.com/security/"
+    how: script
+
+- id: security-affairs
+  name: "Security Affairs"
+  url: "https://securityaffairs.com/"
+  publisher: "Security Affairs"
+  section: news
+  kind: news
+  cost: free
+  description: "Security news blog covering data breaches, malware, cybercrime, and state-backed activity."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://securityaffairs.com/"
+    how: script
+
+- id: techcrunch-security
+  name: "TechCrunch: Security"
+  url: "https://techcrunch.com/category/security/"
+  publisher: "TechCrunch"
+  section: news
+  kind: news
+  cost: free
+  description: "TechCrunch's security news and investigative reporting on breaches, hacks, and cyberattacks."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://techcrunch.com/category/security/"
+    how: script
+
+- id: wired-security
+  name: "WIRED: Security"
+  url: "https://www.wired.com/category/security/"
+  publisher: "WIRED"
+  section: news
+  kind: news
+  cost: free
+  description: "WIRED's coverage of cybersecurity, hacks, privacy, and national security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.wired.com/category/security/"
+    how: script
+
+- id: 404-media
+  name: "404 Media"
+  url: "https://www.404media.co/"
+  publisher: "404 Media"
+  section: news
+  kind: news
+  cost: free
+  description: "Independent media company founded by technology journalists, whose reporting includes a hacking beat."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.404media.co/"
+    how: script
+
+- id: graham-cluley
+  name: "Graham Cluley"
+  url: "https://grahamcluley.com/"
+  publisher: "Graham Cluley"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Site of cybersecurity speaker Graham Cluley, host of the Smashing Security podcast."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://grahamcluley.com/"
+    how: script
+
+- id: troy-hunt
+  name: "Troy Hunt"
+  url: "https://www.troyhunt.com/"
+  publisher: "Troy Hunt"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Blog of Troy Hunt, who runs Have I Been Pwned."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.troyhunt.com/"
+    how: script
+
+- id: darknet-diaries
+  name: "Darknet Diaries"
+  url: "https://darknetdiaries.com/"
+  publisher: "Darknet Diaries"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Podcast of true stories from the dark side of the internet."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://darknetdiaries.com/"
+    how: script
+
+- id: sans-newsbites
+  name: "SANS NewsBites"
+  url: "https://www.sans.org/newsletters/newsbites/"
+  publisher: "SANS Institute"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Semiweekly executive summary of the most important security news, with each item annotated by subject matter experts."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sans.org/newsletters/newsbites"
+    how: script
+
+- id: n2k-cyberwire
+  name: "N2K CyberWire"
+  url: "https://thecyberwire.com/"
+  publisher: "N2K Networks"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Concise cybersecurity news briefings and podcasts."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://thecyberwire.com/"
+    how: script
+
+- id: security-now
+  name: "Security Now"
+  url: "https://twit.tv/shows/security-now"
+  publisher: "TWiT"
+  section: analysis-and-commentary
+  kind: news
+  cost: free
+  description: "Podcast in which Steve Gibson and Leo Laporte break down the latest cybercrime and hacking stories every Tuesday."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://twit.tv/shows/security-now"
+    how: script
+
+- id: infosec-exchange
+  name: "Infosec Exchange"
+  url: "https://infosec.exchange/"
+  publisher: "Infosec Exchange"
+  section: communities
+  kind: community
+  cost: free
+  description: "A Mastodon instance for people who work in or follow information security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://infosec.exchange/"
+    how: script

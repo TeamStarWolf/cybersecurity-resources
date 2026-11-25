@@ -30,8 +30,9 @@ What does the target expose?
 | [recon-ng](https://github.com/lanmaster53/recon-ng) | lanmaster53 | Open source intelligence gathering tool built to reduce the time spent harvesting information from open sources. | Tool | Free |
 | [Maltego](https://www.maltego.com/) | Maltego Technologies | Link analysis and investigation platform for OSINT; a free Basic plan includes the Community Edition of Maltego Graph. | Tool | Freemium |
 | [crt.sh](https://crt.sh/) | Sectigo | Certificate search: enter a domain name, organization name, or certificate fingerprint to list matching certificates. | Online service | Free |
+| [DNSDumpster](https://dnsdumpster.com/) | DNSDumpster | Free domain research tool that finds the hosts related to a domain. | Online service | Free |
 
-Listed here from another domain: crt.sh ([Threat intelligence and adversaries](threat-intelligence.md#internet-scan-and-exposure-data)).
+Listed here from another domain: crt.sh ([Threat intelligence and adversaries](threat-intelligence.md#internet-scan-and-exposure-data)), DNSDumpster ([Threat intelligence and adversaries](threat-intelligence.md#internet-scan-and-exposure-data)).
 
 ## Web application testing
 
@@ -46,9 +47,10 @@ What do I test a web application with?
 | [sqlmap](https://sqlmap.org/) | sqlmap project | Open source tool that automates detecting and exploiting SQL injection flaws and taking over the database behind them. | Tool | Free |
 | [Nikto](https://github.com/sullo/nikto) | sullo | Web server scanner, run from the command line against a target host. | Tool | Free |
 | [PortSwigger Web Security Academy](https://portswigger.net/web-security) | PortSwigger | Free online web security training with interactive labs, from the makers of Burp Suite; create an account to start. | Training or lab | Free with account |
+| [PortSwigger Research](https://portswigger.net/research) | PortSwigger | Web security research papers and articles from the PortSwigger Research team. | Research blog | Free |
 | [Nuclei](https://github.com/projectdiscovery/nuclei) | ProjectDiscovery | Scanner that runs YAML templates against applications, APIs, networks, DNS, and cloud configurations to find known vulnerabilities. | Tool | Free |
 
-Listed here from another domain: PortSwigger Web Security Academy ([Labs and training](labs-and-training.md#offensive-practice-labs)), Nuclei ([Vulnerability management](vulnerability-management.md#scanners)).
+Listed here from another domain: PortSwigger Web Security Academy ([Labs and training](labs-and-training.md#offensive-practice-labs)), PortSwigger Research ([Threat intelligence and adversaries](threat-intelligence.md#research-blogs)), Nuclei ([Vulnerability management](vulnerability-management.md#scanners)).
 
 ## Active Directory and Windows
 

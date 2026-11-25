@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 385 resources in 14 domains, each opened and read before it was described. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired or could not be read at the last check.
+The catalog holds 497 resources in 14 domains, each opened and read before it was described. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired or could not be read at the last check.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -37,9 +37,9 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 
 | Domain | What it covers | Resources |
 |---|---|---|
-| [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md) | ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses. | 9 |
+| [Threat-informed defense and ATT&CK](domains/threat-informed-defense.md) | ATT&CK and the related MITRE knowledge bases, the projects built on them, and the tools that emulate adversary behavior to test defenses. | 10 |
 | [Detection and response](domains/detection-and-response.md) | Detection rules and analytics, the platforms that run them, and the data and labs used to build and test detections. | 9 |
-| [Threat intelligence and adversaries](domains/threat-intelligence.md) | Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms. | 44 |
+| [Threat intelligence and adversaries](domains/threat-intelligence.md) | Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms. | 111 |
 | [Offensive security](domains/offensive-security.md) | Tools and references for authorized penetration testing and red teaming: reconnaissance, web testing, Active Directory, command and control, and payload references. | 39 |
 | [Network security](domains/network-security.md) | Capturing, inspecting, and monitoring network traffic, and the references for securing networks and their protocols. | 2 |
 | [Cloud and infrastructure](domains/cloud-and-infrastructure.md) | Assessing and attacking cloud accounts, containers, and Kubernetes, and the providers' own security pages. | 13 |
@@ -52,10 +52,10 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 |---|---|---|
 | [Vulnerability management](domains/vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | 94 |
 | [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 101 |
-| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 12 |
+| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 37 |
 | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md) | Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools. | 20 |
 | [Labs and training](domains/labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | 16 |
-| [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 12 |
+| [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 31 |
 
 The [domain list](domains/README.md) also defines 18 domains that hold no resources yet: Platform hardening; Identity and data protection; AI and emerging tech; ICS, OT, and hardware; Identity and directory services administration; Microsoft 365 and Windows administration; Endpoint and device management; Networking and connectivity; Servers, virtualization, and storage; Cloud platform administration; Automation and scripting; Monitoring, logging, and observability; Backup, recovery, and resilience; IT service management and operations; Email, DNS, and collaboration; Databases and data platforms; Product lifecycle, licensing, and support; The troubleshooting toolbox.
 <!-- domains:end -->

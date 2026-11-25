@@ -23,6 +23,9 @@ What must the program comply with or measure against?
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | Security and privacy control catalog for information systems and organizations; the page links Release 5.2.0, issued in August 2025. | Standard | Free |
 | [CIS Critical Security Controls](https://www.cisecurity.org/controls) | Center for Internet Security | Prioritized set of security practices from the Center for Internet Security; the page presents version 8.1. | Standard | Free |
 | [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) | Center for Internet Security | Consensus configuration recommendations for more than 25 vendor product families, used as hardening baselines. | Standard | Free |
+| [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) | CISA | A common set of protections that CISA says every critical infrastructure entity, large or small, should implement. | Standard | Free |
+
+Listed here from another domain: CISA Cross-Sector Cybersecurity Performance Goals ([Government and CERT alerts](government-and-cert-alerts.md#united-states)).
 
 ## NIST publications and tools
 

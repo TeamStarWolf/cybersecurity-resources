@@ -4,18 +4,18 @@
 
 > Indicator lookup, internet scan data, adversary and malware tracking, research blogs, annual threat reports, and intelligence platforms.
 
-Part of the [domain list](README.md). 44 resources in 6 sections. Vulnerability and exploit data sit in Vulnerability management; malware sandboxes sit in DFIR and malware analysis.
+Part of the [domain list](README.md). 111 resources in 6 sections. Vulnerability and exploit data sit in Vulnerability management; malware sandboxes sit in DFIR and malware analysis.
 
 For references, how-to guides, and learning paths on this subject, see the TeamStarWolf library's [matching domain page](https://github.com/TeamStarWolf/TeamStarWolf/blob/main/hubs/threat-intelligence.md).
 
 | Section | The question it answers | Resources |
 |---|---|---|
-| [Indicator lookup and sharing](#indicator-lookup-and-sharing) | Is this address, domain, URL, or file known to be bad? | 9 |
-| [Internet scan and exposure data](#internet-scan-and-exposure-data) | What is exposed to the internet, and who is scanning it? | 5 |
-| [Adversary and malware tracking](#adversary-and-malware-tracking) | Who is this group, and what do other vendors call it? | 8 |
-| [Research blogs](#research-blogs) | Who publishes original threat research? | 12 |
-| [Recurring threat reports](#recurring-threat-reports) | What does the yearly data say? | 5 |
-| [Platforms and standards](#platforms-and-standards) | Where do I store and exchange intelligence? | 5 |
+| [Indicator lookup and sharing](#indicator-lookup-and-sharing) | Is this address, domain, URL, or file known to be bad? | 20 |
+| [Internet scan and exposure data](#internet-scan-and-exposure-data) | What is exposed to the internet, and who is scanning it? | 15 |
+| [Adversary and malware tracking](#adversary-and-malware-tracking) | Who is this group, and what do other vendors call it? | 15 |
+| [Research blogs](#research-blogs) | Who publishes original threat research? | 43 |
+| [Recurring threat reports](#recurring-threat-reports) | What does the yearly data say? | 11 |
+| [Platforms and standards](#platforms-and-standards) | Where do I store and exchange intelligence? | 7 |
 
 ## Indicator lookup and sharing
 
@@ -32,6 +32,17 @@ Is this address, domain, URL, or file known to be bad?
 | [LevelBlue Open Threat Exchange (OTX)](https://otx.alienvault.com/) (formerly AlienVault OTX) | LevelBlue | Community threat exchange where participants publish pulses of indicators; search an indicator or subscribe to pulses through the API. | Online service | Free with account |
 | [AbuseIPDB](https://www.abuseipdb.com/) | AbuseIPDB | Database of IP addresses reported for abuse, with an API to check an address, report one, or download a blocklist. | Online service | Not confirmed |
 | [Pulsedive](https://pulsedive.com/) | Pulsedive LLC | Threat intelligence platform for searching, scanning, and enriching IPs, URLs, and domains from open feeds and user submissions. | Online service | Freemium |
+| [urlscan.io](https://urlscan.io/) | urlscan GmbH | Website scanner for suspicious and malicious URLs: submit one, or search the scans the community has made public. | Online service | Freemium |
+| [Spamhaus](https://www.spamhaus.org/) | The Spamhaus Project | IP and domain reputation data, including DNS blocklists, with free datasets and tools. | Online service | Freemium |
+| [Talos IP and Domain Intelligence Center](https://talosintelligence.com/reputation_center) | Cisco Talos | Cisco Talos's lookup for the reputation of an IP address or domain. | Online service | Free |
+| [SSLBL](https://sslbl.abuse.ch/) | abuse.ch | abuse.ch collection of malicious SSL certificates and JA3 fingerprints used by botnet command-and-control servers. | Dataset or feed | Free |
+| [abuse.ch Hunting](https://hunting.abuse.ch/) | abuse.ch | One search across all of the abuse.ch platforms. | Online service | Free |
+| [PhishTank](https://phishtank.org/) | Cisco Talos | Community site, operated by Cisco Talos, for submitting, verifying, and searching phishing URLs. | Dataset or feed | Free with account |
+| [Google Safe Browsing site status](https://transparencyreport.google.com/safe-browsing/search) | Google | Check whether Google Safe Browsing currently lists a site as unsafe. | Online service | Free |
+| [MISP Default Feeds](https://www.misp-project.org/feeds/) | MISP Project | The open source intelligence feeds that MISP ships with by default. | Dataset or feed | Free |
+| [IPinfo](https://ipinfo.io/) | IPinfo | IP address data such as geolocation and ASN, through a web lookup and an API with a free tier. | Online service | Freemium |
+| [MxToolbox Blacklist Check](https://mxtoolbox.com/blacklists.aspx) | MxToolbox | Free check of a server IP or domain against more than 60 DNS blacklists. | Online service | Free |
+| [IPVoid](https://www.ipvoid.com/) | IPVoid | Free IP, DNS, and URL tools, including an IP blacklist check, whois, and DNS propagation, with no sign-up. | Online service | Free |
 
 ## Internet scan and exposure data
 
@@ -44,6 +55,16 @@ What is exposed to the internet, and who is scanning it?
 | [Censys Platform](https://platform.censys.io/) (formerly Censys Search) | Censys | Censys's current search platform for finding and monitoring internet-facing servers; it replaced the legacy Censys Search for free accounts. | Online service | Freemium |
 | [ONYPHE](https://www.onyphe.com/) | ONYPHE | Internet scan data for attack surface discovery and cyber threat intelligence, with current results and years of history. | Online service | Paid |
 | [crt.sh](https://crt.sh/) | Sectigo | Certificate search: enter a domain name, organization name, or certificate fingerprint to list matching certificates. | Online service | Free |
+| [The Shadowserver Foundation](https://www.shadowserver.org/) | The Shadowserver Foundation | Nonprofit that collects threat data at scale and sends free daily remediation reports to network owners. | Organization | Free |
+| [Shadowserver Dashboard](https://dashboard.shadowserver.org/) | The Shadowserver Foundation | Public statistics from Shadowserver's sinkholes, scans, and honeypots, with views for CVEs, compromised devices, and ICS and OT. | Dataset or feed | Free |
+| [Cloudflare Radar](https://radar.cloudflare.com/) | Cloudflare | Internet trends as seen by Cloudflare's network: traffic, outages, bots, and domain popularity. | Online service | Free |
+| [ZoomEye](https://www.zoomeye.ai/) | ZoomEye | Search engine for internet-connected assets, with a free plan and paid memberships. | Online service | Freemium |
+| [Netlas](https://netlas.io/) | Netlas | Internet-wide scan data with DNS, WHOIS, and attack surface discovery tools, through a web app and API. | Online service | Freemium |
+| [LeakIX](https://leakix.net/) | LeakIX | Search engine for internet-exposed services, queried by port, protocol, ASN, or address range. | Online service | Freemium |
+| [DNSDumpster](https://dnsdumpster.com/) | DNSDumpster | Free domain research tool that finds the hosts related to a domain. | Online service | Free |
+| [Wayback Machine](https://web.archive.org/) | Internet Archive | The Internet Archive's record of past versions of web pages. | Online service | Free |
+| [Hurricane Electric BGP Toolkit](https://bgp.he.net/) | Hurricane Electric | Lookups for BGP prefixes, peers, and autonomous systems, with looking glass and traceroute tools. | Online service | Free |
+| [ViewDNS.info](https://viewdns.info/) | ViewDNS.info | Free DNS and IP tools, including reverse IP lookup, reverse WHOIS, DNS records, and a propagation checker. | Online service | Free |
 | [SANS Internet Storm Center](https://isc.sans.edu/) | SANS | Daily diaries from volunteer handlers on current attacks and scanning activity, with an API for its data. | News | Free |
 
 Listed here from another domain: SANS Internet Storm Center ([News and research](news-and-research.md#analysis-newsletters-and-podcasts)).
@@ -62,6 +83,13 @@ Who is this group, and what do other vendors call it?
 | [ORKL](https://orkl.eu/) | ORKL | Searchable library of public cyber threat intelligence reports, indexed by threat actor and updated daily from monitored sources. | Dataset or feed | Free |
 | [CrowdStrike adversary profiles](https://www.crowdstrike.com/en-us/adversaries/) | CrowdStrike | CrowdStrike's profiles of the adversary groups it tracks, with origin, target industries, and target nations. | Reference | Free |
 | [How Microsoft names threat actors](https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming) | Microsoft | Microsoft's weather-themed naming taxonomy, with the full list of tracked actors, their previous names, and origin details. | Reference | Free |
+| [Ransomware.live](https://www.ransomware.live/) | Ransomware.live | Tracks ransomware groups' victim postings and activity, with an API. | Dataset or feed | Free |
+| [RansomLook](https://www.ransomlook.io/) | RansomLook | Open, searchable intelligence on ransomware groups, with live statistics, their posts, and an API. | Dataset or feed | Free |
+| [Threat Actor Groups Tracked by Unit 42](https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/) | Palo Alto Networks | Unit 42's list of the threat actor groups it tracks, with a summary and the industries each typically affects. | Reference | Free |
+| [APT groups and threat actors (Google Cloud)](https://cloud.google.com/security/resources/insights/apt-groups) | Google Cloud | Google Cloud's profiles of advanced persistent threat groups, organized by country. | Reference | Free |
+| [Dragos Threat Groups](https://www.dragos.com/threat-groups/) | Dragos | The threat groups Dragos tracks for activity against industrial infrastructure. | Reference | Free |
+| [ATT&CK Campaigns](https://attack.mitre.org/campaigns/) | MITRE | ATT&CK's catalog of campaigns, the groupings of intrusion activity that the security community tracks. | Reference | Free |
+| [APT & CyberCriminal Campaign Collection](https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections) | CyberMonitor | Repository collecting public reports on APT and cybercrime campaigns. | Dataset or feed | Free |
 
 ## Research blogs
 
@@ -81,6 +109,37 @@ Who publishes original threat research?
 | [Volexity Blog](https://www.volexity.com/blog/) | Volexity | Research from Volexity's threat intelligence and incident response teams, with posts on memory analysis and memory forensics. | Research blog | Free |
 | [The DFIR Report](https://thedfirreport.com/) | The DFIR Report | Detailed reports drawn from observed intrusions, written to help defenders harden systems and improve detection and response. | Research blog | Free |
 | [Sekoia Blog](https://www.sekoia.com/blog) | Sekoia | Sekoia's blog on threat research and intelligence, detection engineering, and SOC operations. | Research blog | Free |
+| [Apple Security Research](https://security.apple.com/blog/) | Apple | Posts from Apple Security Research on its security engineering and research discoveries. | Research blog | Free |
+| [Cloudflare Blog: Security](https://blog.cloudflare.com/tag/security/) | Cloudflare | Cloudflare blog posts tagged Security, including how its products respond to newly disclosed vulnerabilities. | Research blog | Free |
+| [F5 Labs](https://www.f5.com/labs) | F5 | F5 Labs research and analysis on threats to applications. | Research blog | Free |
+| [Google security blog](https://blog.google/security/) | Google | The security section of Google's official blog, with posts from its Android, Chrome, and product security teams. | Research blog | Free |
+| [Mozilla Security Blog](https://blog.mozilla.org/security/) | Mozilla | Mozilla's blog on the security and privacy protections it builds into Firefox. | Research blog | Free |
+| [PortSwigger Research](https://portswigger.net/research) | PortSwigger | Web security research papers and articles from the PortSwigger Research team. | Research blog | Free |
+| [Qualys Blog](https://blog.qualys.com/) | Qualys | Qualys blog on threat detection, compliance, and vulnerability management, including guidance on newly disclosed flaws. | Research blog | Free |
+| [SentinelLABS](https://www.sentinelone.com/labs/) | SentinelOne | Threat research and intelligence from SentinelOne's research team. | Research blog | Free |
+| [Tenable Blog](https://www.tenable.com/blog) | Tenable | Tenable's blog of security alerts, research, and exposure management guidance. | Research blog | Free |
+| [watchTowr Labs](https://labs.watchtowr.com/) | watchTowr | Offensive security research from watchTowr Labs. | Research blog | Free |
+| [Proofpoint Threat Insight](https://www.proofpoint.com/us/blog/threat-insight) | Proofpoint | Proofpoint's threat research blog. | Research blog | Free |
+| [Trend Micro Research, News, and Perspectives](https://www.trendmicro.com/en_us/research.html) | Trend Micro | Trend Micro's research, news, and expert perspectives. | Research blog | Free |
+| [Sophos Blog: Threat Research](https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research/) | Sophos | Sophos blog posts in the Threat Research category, including notes on new exploit code and patches. | Research blog | Free |
+| [Akamai Security Research](https://www.akamai.com/blog/security-research) | Akamai | Akamai's security research blog, with technical write-ups of the vulnerabilities its researchers find. | Research blog | Free |
+| [Elastic Security Labs](https://www.elastic.co/security-labs) | Elastic | Security intelligence research and free tools from Elastic Security Labs. | Research blog | Free |
+| [Rapid7 Blog](https://www.rapid7.com/blog/) | Rapid7 | Rapid7's blog on the latest vulnerabilities, exploits, and attacks. | Research blog | Free |
+| [GreyNoise Blog](https://www.greynoise.io/blog) | GreyNoise | GreyNoise's blog of analysis, product tips, and research. | Research blog | Free |
+| [The Trail of Bits Blog](https://blog.trailofbits.com/) | Trail of Bits | Security research and engineering posts from Trail of Bits. | Research blog | Free |
+| [NCC Group Research](https://www.nccgroup.com/research/) | NCC Group | NCC Group's public reports, technical advisories, and analyses. | Research blog | Free |
+| [Bishop Fox Blog](https://bishopfox.com/blog) | Bishop Fox | Offensive security research and insights from Bishop Fox's researchers and penetration testers. | Research blog | Free |
+| [SpecterOps Blog](https://specterops.io/blog/) | SpecterOps | SpecterOps posts on attack path management, red team operations, detection engineering, and identity security. | Research blog | Free |
+| [The Citizen Lab](https://citizenlab.ca/) | University of Toronto | Interdisciplinary research unit at the University of Toronto's Munk School that investigates digital threats to civil society. | Research blog | Free |
+| [SECURITY.COM Threat Intelligence](https://www.security.com/threat-intelligence) | Broadcom | Threat intelligence posts on Broadcom's security.com site. | Research blog | Free |
+| [Zscaler Blog: Security Research](https://www.zscaler.com/blogs?type=security-research) | Zscaler | Zscaler blog posts filtered to security research. | Research blog | Free |
+| [FortiGuard Labs Threat Research](https://www.fortinet.com/blog/threat-research) | Fortinet | Threat research posts from Fortinet's FortiGuard Labs. | Research blog | Free |
+| [Group-IB Blog](https://www.group-ib.com/blog/) | Group-IB | Group-IB's blog on current cyber threat trends. | Research blog | Free |
+| [Team Cymru Blog](https://www.team-cymru.com/blog) | Team Cymru | Weekly research from Team Cymru on named threat actors, mapped command-and-control infrastructure, and ransomware. | Research blog | Free |
+| [DomainTools Blog](https://www.domaintools.com/blog) | DomainTools | DomainTools articles on DNS intelligence and threat detection. | Research blog | Free |
+| [Datadog Security Labs](https://securitylabs.datadoghq.com/) | Datadog | Security research and tooling that Datadog publishes for the community. | Research blog | Free |
+| [Netskope Threat Research](https://www.netskope.com/the-lens/threat-research) | Netskope | Threat research updates from Netskope. | Research blog | Free |
+| [Binarly Blog](https://www.binarly.io/blog) | Binarly | Binarly's research on firmware security, UEFI and BMC threats, and the supply chain. | Research blog | Free |
 
 ## Recurring threat reports
 
@@ -93,6 +152,12 @@ What does the yearly data say?
 | [CrowdStrike Global Threat Report](https://www.crowdstrike.com/en-us/global-threat-report/) | CrowdStrike | CrowdStrike's annual report on adversary activity and attack trends. | Report | Free |
 | [ENISA Cyber Threats](https://www.enisa.europa.eu/topics/cyber-threats) | European Union Agency for Cybersecurity (ENISA) | ENISA's cyber threats topic page, the entry point to its threat landscape, situational awareness, and foresight work. | Report | Free |
 | [IBM X-Force Threat Intelligence Index](https://www.ibm.com/reports/threat-intelligence) | IBM | IBM's annual X-Force Threat Intelligence Index, with the report and a companion webinar. | Report | Free |
+| [Microsoft Digital Defense Report](https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-archives) | Microsoft | Microsoft's Digital Defense Report, with its archive of past editions. | Report | Free |
+| [Dragos OT Cybersecurity Year in Review](https://www.dragos.com/ot-cybersecurity-year-in-review/) | Dragos | Dragos's annual report on OT threat groups, ransomware, and attacks on industrial environments. | Report | Free |
+| [Internet Organised Crime Threat Assessment (IOCTA)](https://www.europol.europa.eu/publications-events/main-reports/iocta-report) | Europol | Europol's flagship strategic report on cybercrime, published by its European Cybercrime Centre. | Report | Free |
+| [IC3 Annual Reports](https://www.ic3.gov/AnnualReport/Reports) | FBI | The FBI Internet Crime Complaint Center's annual reports, with state-by-state reports. | Report | Free |
+| [Red Canary Threat Detection Report](https://redcanary.com/threat-detection-report/) | Red Canary | Red Canary's report on the top techniques, threats, and trends it observed. | Report | Free |
+| [Unit 42 Global Incident Response Report](https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report) | Palo Alto Networks | Unit 42's annual report on attacker tactics seen in its incident response cases, with recommendations. | Report | Free |
 
 ## Platforms and standards
 
@@ -105,5 +170,7 @@ Where do I store and exchange intelligence?
 | [Yeti](https://yeti-platform.io/) | Yeti project | Platform that links threat intelligence with DFIR work, built to answer where an artifact has been seen before. | Tool | Free |
 | [IntelOwl](https://github.com/intelowlproject/IntelOwl) | IntelOwl Project | Open source tool that gathers threat intelligence about a file, IP address, or domain from many sources with a single API request. | Tool | Free |
 | [STIX and TAXII documentation](https://oasis-open.github.io/cti-documentation/) | OASIS Cyber Threat Intelligence Technical Committee | OASIS documentation for STIX, the language and serialization format for exchanging cyber threat intelligence, and for TAXII. | Standard | Free |
+| [Traffic Light Protocol (TLP)](https://www.first.org/tlp/) | FIRST | FIRST's Traffic Light Protocol standard, with definitions and usage guidance; the page gives version 2.0 as current. | Standard | Free |
+| [Cortex](https://github.com/TheHive-Project/Cortex) | TheHive Project | Observable analysis and active response engine. | Tool | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).
