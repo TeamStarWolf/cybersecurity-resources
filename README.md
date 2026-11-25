@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 260 resources in 14 domains, each opened and read before it was described. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired or could not be read at the last check.
+The catalog holds 385 resources in 14 domains, each opened and read before it was described. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 5 records that are not shown, because the address is retired or could not be read at the last check.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -50,9 +50,9 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 
 | Domain | What it covers | Resources |
 |---|---|---|
-| [Vulnerability management](domains/vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | 42 |
-| [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 30 |
-| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 10 |
+| [Vulnerability management](domains/vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | 94 |
+| [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 101 |
+| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 12 |
 | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md) | Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools. | 20 |
 | [Labs and training](domains/labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | 16 |
 | [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 12 |

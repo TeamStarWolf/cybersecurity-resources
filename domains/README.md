@@ -4,7 +4,7 @@
 
 > The catalog, grouped by domain. Each domain page lists its resources by the question a practitioner asks, with one sentence on what each resource is, who runs it, what kind of thing it is, and what it costs.
 
-260 resources in 14 domains. A domain is listed without a link until it holds its first resource.
+385 resources in 14 domains. A domain is listed without a link until it holds its first resource.
 
 ## Security domains
 
@@ -31,9 +31,9 @@ The areas this collection started from.
 
 | Domain | What it covers | Where its boundary is | Resources |
 |---|---|---|---|
-| [Vulnerability management](vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | Advisories from the affected vendor sit in Vendor advisories and PSIRTs; government alerts sit in Government and CERT alerts. | 42 |
-| [Vendor advisories and PSIRTs](vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | Databases that aggregate advisories sit in Vulnerability management; advisories from governments and coordination centers sit in Government and CERT alerts. | 30 |
-| [Government and CERT alerts](government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | Standards and frameworks from the same agencies sit in GRC and security program. | 10 |
+| [Vulnerability management](vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | Advisories from the affected vendor sit in Vendor advisories and PSIRTs; government alerts sit in Government and CERT alerts. | 94 |
+| [Vendor advisories and PSIRTs](vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | Databases that aggregate advisories sit in Vulnerability management; advisories from governments and coordination centers sit in Government and CERT alerts. | 101 |
+| [Government and CERT alerts](government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | Standards and frameworks from the same agencies sit in GRC and security program. | 12 |
 | [DFIR and malware analysis](dfir-and-malware-analysis.md) | Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools. | Detection rules and platforms sit in Detection and response; indicator lookup sits in Threat intelligence and adversaries. | 20 |
 | [Labs and training](labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | Reference material you read rather than practice on sits in the domain it is about. | 16 |
 | [News and research](news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | Vendor research blogs sit in Threat intelligence and adversaries; advisories sit in the two advisory domains. | 12 |

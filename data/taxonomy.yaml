@@ -160,6 +160,10 @@ domains:
       - {id: prioritization, title: "Prioritization and scoring", question: "What do I fix first?"}
       - {id: exploits, title: "Exploits and proof of concept", question: "Is there public exploit code?"}
       - {id: scanners, title: "Scanners", question: "What do I run to find vulnerable systems?"}
+      - {id: triage-and-tracking, title: "Triage and remediation tracking", question: "Where do the findings go, and who fixes them?"}
+      - {id: disclosure-and-research, title: "Disclosure venues and research", question: "Where are new vulnerabilities disclosed, and how do I report one?"}
+      - {id: program-guidance, title: "Program guidance and directives", question: "How should the program be run?"}
+      - {id: formats-and-exchange, title: "Formats and exchange standards", question: "How is vulnerability data named and exchanged?"}
       - {id: lifecycle, title: "Lifecycle and end of life", question: "Is this version still supported?"}
       - {id: weaknesses, title: "Weakness and attack-pattern taxonomies", question: "What class of flaw is this?"}
   - id: vendor-advisories
@@ -170,8 +174,10 @@ domains:
     sections:
       - {id: microsoft-and-cloud, title: "Microsoft and cloud providers", question: "What did Microsoft or my cloud provider just fix?"}
       - {id: operating-systems-and-browsers, title: "Operating systems and browsers", question: "What do I patch on endpoints and servers?"}
-      - {id: network-and-security-vendors, title: "Network and security vendors", question: "What do I patch at the edge?"}
-      - {id: enterprise-applications, title: "Enterprise applications", question: "What do I patch in the business applications?"}
+      - {id: network-and-security-vendors, title: "Network, security, and edge device vendors", question: "What do I patch at the edge?"}
+      - {id: enterprise-applications, title: "Enterprise applications and IT operations software", question: "What do I patch in the business and operations software?"}
+      - {id: open-source-infrastructure, title: "Open source infrastructure software", question: "What do I patch in the open source stack?"}
+      - {id: hardware-and-firmware, title: "Hardware, firmware, and chips", question: "What affects the hardware under everything else?"}
       - {id: ics-and-ot-vendors, title: "ICS and OT", question: "What affects the control systems?"}
   - id: government-and-cert-alerts
     group: own

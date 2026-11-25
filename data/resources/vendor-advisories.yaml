@@ -431,3 +431,1007 @@
     final: "https://www.se.com/ww/en/work/support/cybersecurity/security-notifications/"
     how: browser
   notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: microsoft-edge-security-release-notes
+  name: "Microsoft Edge security release notes"
+  url: "https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security"
+  publisher: "Microsoft"
+  section: microsoft-and-cloud
+  kind: advisories
+  cost: free
+  description: "Release notes for the security updates to Microsoft Edge."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security"
+    how: script
+
+- id: mozilla-security-advisories
+  name: "Mozilla Foundation Security Advisories"
+  url: "https://www.mozilla.org/en-US/security/advisories/"
+  publisher: "Mozilla"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Mozilla's security advisories for its products, each rated by impact from critical downward."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.mozilla.org/en-US/security/advisories/"
+    how: script
+
+- id: oracle-linux-security
+  name: "Oracle Linux Security"
+  url: "https://linux.oracle.com/security/"
+  publisher: "Oracle"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Oracle Linux's security page, which gathers the distribution's security resources in one place."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://linux.oracle.com/security/index.html"
+    how: script
+
+- id: almalinux-errata
+  name: "AlmaLinux Product Errata"
+  url: "https://errata.almalinux.org/"
+  publisher: "AlmaLinux"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "AlmaLinux advisories with summary, version, severity, and publish date, filterable by version and severity."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://errata.almalinux.org/"
+    how: browser
+
+- id: rocky-linux-errata
+  name: "Rocky Linux Errata"
+  url: "https://errata.rockylinux.org/"
+  publisher: "Rocky Linux"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Rocky Linux errata, filterable by type (security, bug fix, enhancement), product version, and date."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://errata.rockylinux.org/"
+    how: browser
+
+- id: arch-linux-security-tracker
+  name: "Arch Linux Security Tracker"
+  url: "https://security.archlinux.org/"
+  publisher: "Arch Linux"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Arch Linux's tracker of vulnerable packages, with affected and fixed versions, severity, status, and advisories."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://security.archlinux.org/"
+    how: script
+
+- id: gentoo-glsa
+  name: "Gentoo Linux Security Advisories (GLSA)"
+  url: "https://security.gentoo.org/glsa/"
+  publisher: "Gentoo"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Every security advisory released by the Gentoo security team."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://security.gentoo.org/glsa/"
+    how: script
+
+- id: alpine-security-tracker
+  name: "Alpine Security Tracker"
+  url: "https://security.alpinelinux.org/"
+  publisher: "Alpine Linux"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Tracker of security issues that affect Alpine Linux, derived from CVE, the NVD, and Alpine's own security fixes database."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://security.alpinelinux.org/"
+    how: script
+
+- id: freebsd-security-advisories
+  name: "FreeBSD Security Advisories"
+  url: "https://www.freebsd.org/security/advisories/"
+  publisher: "The FreeBSD Project"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "FreeBSD security advisories, next to errata notices and a guide to reading an advisory."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.freebsd.org/security/advisories/"
+    how: script
+
+- id: openbsd-errata
+  name: "OpenBSD Errata and Patches"
+  url: "https://www.openbsd.org/errata.html"
+  publisher: "OpenBSD"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "OpenBSD's errata and patches, organized by release."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.openbsd.org/errata.html"
+    how: script
+
+- id: samsung-mobile-security-updates
+  name: "Samsung Mobile Security Updates"
+  url: "https://security.samsungmobile.com/securityUpdate.smsb"
+  publisher: "Samsung"
+  section: operating-systems-and-browsers
+  kind: advisories
+  cost: free
+  description: "Samsung Mobile's security update bulletins for firmware and other updates, organized by year and month."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://security.samsungmobile.com/securityUpdate.smsb"
+    how: browser
+
+- id: red-hat-cve-database
+  name: "Red Hat CVE Database"
+  url: "https://access.redhat.com/security/security-updates/cve"
+  publisher: "Red Hat"
+  section: operating-systems-and-browsers
+  kind: dataset
+  cost: free
+  description: "Search and filter Red Hat's CVE information by product, state, and publish date."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://access.redhat.com/security/security-updates/cve"
+    how: browser
+
+- id: ubuntu-cve-reports
+  name: "Ubuntu CVE reports"
+  url: "https://ubuntu.com/security/cves"
+  publisher: "Canonical"
+  section: operating-systems-and-browsers
+  kind: dataset
+  cost: free
+  description: "Canonical's tracker of the CVEs that affect Ubuntu."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ubuntu.com/security/cves"
+    how: script
+
+- id: debian-security-tracker
+  name: "Debian Security Bug Tracker"
+  url: "https://security-tracker.debian.org/tracker/"
+  publisher: "Debian"
+  section: operating-systems-and-browsers
+  kind: dataset
+  cost: free
+  description: "The Debian security team's tracker, built from its Debian Security Advisories and the issues it follows."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://security-tracker.debian.org/tracker/"
+    how: script
+
+- id: suse-cve-database
+  name: "SUSE CVE Database"
+  url: "https://www.suse.com/security/cve/"
+  publisher: "SUSE"
+  section: operating-systems-and-browsers
+  kind: dataset
+  cost: free
+  description: "Every CVE that relates to software shipped by SUSE, with rating, affectedness, and update release status."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.suse.com/security/cve/"
+    how: script
+
+- id: linux-kernel-cves
+  name: "Linux kernel CVEs"
+  url: "https://docs.kernel.org/process/cve.html"
+  publisher: "The Linux kernel community"
+  section: operating-systems-and-browsers
+  kind: reference
+  cost: free
+  description: "Kernel documentation on how CVEs are assigned for the Linux kernel, pointing to the linux-cve-announce archive of every assigned CVE."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.kernel.org/process/cve.html"
+    how: script
+  notes: "The linux-cve-announce archive at lore.kernel.org sits behind a bot check and was not read."
+
+- id: check-point-advisories
+  name: "Check Point advisories archive"
+  url: "https://advisories.checkpoint.com/advisories/"
+  publisher: "Check Point"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Check Point's archive of security advisories, browsable by year."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://advisories.checkpoint.com/advisories/"
+    how: script
+
+- id: arista-security-advisories
+  name: "Arista Security Advisories"
+  url: "https://www.arista.com/en/support/advisories-notices"
+  publisher: "Arista Networks"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Security advisories from Arista's PSIRT, with RSS, CSAF, and email subscriptions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.arista.com/en/support/advisories-notices"
+    how: browser
+  notes: "Answers 406 to a plain HTTP client; opened in a browser."
+
+- id: zyxel-security-advisories
+  name: "Zyxel Security Advisories"
+  url: "https://www.zyxel.com/global/en/support/security-advisories"
+  publisher: "Zyxel Networks"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Zyxel's security advisories, listed by CVE ID, alongside its PSIRT policy and vulnerability reporting route."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.zyxel.com/global/en/support/security-advisories"
+    how: script
+
+- id: sophos-security-advisories
+  name: "Sophos Security Advisories"
+  url: "https://www.sophos.com/en-us/security-advisories"
+  publisher: "Sophos"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Sophos security advisories, searchable by CVE and filterable by impact and product family, with an RSS feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sophos.com/en-us/security-advisories"
+    how: browser
+  notes: "Timed out for a plain HTTP client; opened in a browser."
+
+- id: watchguard-security-advisories
+  name: "WatchGuard Security Advisories"
+  url: "https://psirt.watchguard.com/"
+  publisher: "WatchGuard"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Published WatchGuard CVEs and advisories, with severity, product, and affected versions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://psirt.watchguard.com/"
+    how: script
+
+- id: trend-micro-vulnerability-response
+  name: "Trend Micro Vulnerability Response"
+  url: "https://success.trendmicro.com/en-US/vulnerability-response/"
+  publisher: "Trend Micro"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Trend Micro's vulnerability response page, listing current claims by product version and date, with how to report a vulnerability."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://success.trendmicro.com/en-US/vulnerability-response/"
+    how: script
+
+- id: synology-security-advisories
+  name: "Synology Product Security Advisory"
+  url: "https://www.synology.com/en-us/security/advisory"
+  publisher: "Synology"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Synology's product security advisories, with an RSS feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.synology.com/en-us/security/advisory"
+    how: script
+
+- id: qnap-security-advisories
+  name: "QNAP Security Advisories"
+  url: "https://www.qnap.com/en/security-advisories"
+  publisher: "QNAP"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Current security advisories issued by QNAP, with instructions for reporting a vulnerability."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.qnap.com/en/security-advisories"
+    how: script
+
+- id: openvpn-security-advisories
+  name: "OpenVPN Security Advisories"
+  url: "https://openvpn.net/security-advisories/"
+  publisher: "OpenVPN"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "OpenVPN security advisories, each stating which OpenVPN products are affected."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://openvpn.net/security-advisories/"
+    how: script
+
+- id: tailscale-security-bulletins
+  name: "Tailscale Security Bulletins"
+  url: "https://tailscale.com/security-bulletins"
+  publisher: "Tailscale"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Security notifications affecting the Tailscale client and service."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://tailscale.com/security-bulletins"
+    how: script
+
+- id: splunk-security-advisories
+  name: "Splunk Security Advisories"
+  url: "https://advisory.splunk.com/"
+  publisher: "Splunk"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Announcements of Splunk security advisories, which collect the disclosures and fixes for supported versions of Splunk products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://advisory.splunk.com/"
+    how: script
+
+- id: okta-security-advisories
+  name: "Okta security advisories"
+  url: "https://trust.okta.com/security-advisories/"
+  publisher: "Okta"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Okta's security advisories, newest first, with an RSS feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://trust.okta.com/security-advisories/"
+    how: script
+
+- id: elastic-security-announcements
+  name: "Elastic Security Announcements"
+  url: "https://discuss.elastic.co/c/announcements/security-announcements/31"
+  publisher: "Elastic"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Security announcements for the Elastic Stack, posted in Elastic's discussion forum."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://discuss.elastic.co/c/announcements/security-announcements/31"
+    how: script
+
+- id: hashicorp-security
+  name: "HashiCorp security updates"
+  url: "https://discuss.hashicorp.com/c/security/52"
+  publisher: "HashiCorp"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Security updates for all HashiCorp products and services, posted by HashiCorp staff in its discussion forum."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://discuss.hashicorp.com/c/security/52"
+    how: script
+
+- id: connectwise-security-bulletins
+  name: "ConnectWise Security Bulletins"
+  url: "https://www.connectwise.com/company/trust/security-bulletins"
+  publisher: "ConnectWise"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "ConnectWise security bulletins, published when vulnerabilities in its offerings are publicly disclosed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.connectwise.com/company/trust/security-bulletins"
+    how: script
+
+- id: solarwinds-security-advisories
+  name: "SolarWinds Security Advisories"
+  url: "https://www.solarwinds.com/trust-center/security-advisories"
+  publisher: "SolarWinds"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "The security advisories page of the SolarWinds Trust Center."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.solarwinds.com/trust-center/security-advisories"
+    how: browser
+  notes: "The advisory list is loaded by script and was not read in full; the page title and heading name it."
+
+- id: zabbix-security-advisories
+  name: "Zabbix Security Advisories"
+  url: "https://www.zabbix.com/security_advisories"
+  publisher: "Zabbix"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Zabbix security advisories with CVE ID, component, severity, and affected and fixed versions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.zabbix.com/security_advisories"
+    how: browser
+
+- id: grafana-security-advisories
+  name: "Grafana Labs Security Advisories"
+  url: "https://grafana.com/security/security-advisories/"
+  publisher: "Grafana Labs"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Security advisories and CVE records for Grafana Labs products, with severity, affected products, and fixed versions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://grafana.com/security/security-advisories/"
+    how: script
+
+- id: jetbrains-fixed-security-issues
+  name: "JetBrains fixed security issues"
+  url: "https://www.jetbrains.com/privacy-security/issues-fixed/"
+  publisher: "JetBrains"
+  section: enterprise-applications
+  kind: advisories
+  cost: free
+  description: "Resolved security issues in JetBrains products, with description, severity, CVE, and the version that fixed each one."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.jetbrains.com/privacy-security/issues-fixed/"
+    how: script
+
+- id: apache-httpd-vulnerabilities
+  name: "Apache HTTP Server 2.4 vulnerabilities"
+  url: "https://httpd.apache.org/security/vulnerabilities_24.html"
+  publisher: "The Apache HTTP Server Project"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "The project's list of security vulnerabilities fixed in Apache HTTP Server 2.4."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://httpd.apache.org/security/vulnerabilities_24.html"
+    how: script
+
+- id: apache-tomcat-security
+  name: "Apache Tomcat security"
+  url: "https://tomcat.apache.org/security.html"
+  publisher: "Apache Tomcat"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Apache Tomcat's security page: how to report a problem, and the security updates for each supported version."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://tomcat.apache.org/security.html"
+    how: script
+
+- id: asf-security-team
+  name: "Apache Software Foundation Security Team"
+  url: "https://www.apache.org/security/"
+  publisher: "Apache Software Foundation"
+  section: open-source-infrastructure
+  kind: organization
+  cost: free
+  description: "The ASF Security Team, which coordinates vulnerability handling and is the CVE Numbering Authority for all Apache projects."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.apache.org/security/"
+    how: script
+
+- id: nginx-security-advisories
+  name: "nginx security advisories"
+  url: "https://nginx.org/en/security_advisories.html"
+  publisher: "nginx"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Security advisories for nginx, with how to report a security issue."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://nginx.org/en/security_advisories.html"
+    how: script
+
+- id: openssl-vulnerabilities
+  name: "OpenSSL vulnerabilities"
+  url: "https://openssl-library.org/news/vulnerabilities/"
+  publisher: "OpenSSL"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Vulnerabilities fixed in OpenSSL, with a filter for each release series."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://openssl-library.org/news/vulnerabilities/"
+    how: script
+
+- id: openssh-security
+  name: "OpenSSH Security"
+  url: "https://www.openssh.org/security.html"
+  publisher: "OpenSSH"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "OpenSSH's security advisories and its contact for reporting a security issue."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.openssh.org/security.html"
+    how: script
+
+- id: nodejs-vulnerability-announcements
+  name: "Node.js vulnerability announcements"
+  url: "https://nodejs.org/en/blog/vulnerability"
+  publisher: "Node.js"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Node.js blog posts in the Vulnerabilities category, where security releases are announced."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://nodejs.org/en/blog/vulnerability"
+    how: script
+
+- id: python-security
+  name: "Python Security"
+  url: "https://www.python.org/dev/security/"
+  publisher: "Python Software Foundation"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "How to report a security issue in Python and where the project publishes its security advisories."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.python.org/dev/security/"
+    how: script
+
+- id: kubernetes-cve-feed
+  name: "Kubernetes Official CVE Feed"
+  url: "https://kubernetes.io/docs/reference/issues-security/official-cve-feed/"
+  publisher: "Kubernetes"
+  section: open-source-infrastructure
+  kind: dataset
+  cost: free
+  description: "Community-maintained list of the official CVEs announced by the Kubernetes Security Response Committee, also published as a feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://kubernetes.io/docs/reference/issues-security/official-cve-feed/"
+    how: script
+
+- id: docker-security-announcements
+  name: "Docker security announcements"
+  url: "https://docs.docker.com/security/security-announcements/"
+  publisher: "Docker"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Security announcements for Docker products, including CVE fixes for Docker Desktop and Docker Official Images."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.docker.com/security/security-announcements/"
+    how: script
+
+- id: postgresql-security
+  name: "PostgreSQL Security Information"
+  url: "https://www.postgresql.org/support/security/"
+  publisher: "PostgreSQL Global Development Group"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "What counts as a PostgreSQL security vulnerability, how to report one, and how fixes are released."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.postgresql.org/support/security/"
+    how: script
+
+- id: xen-security-advisories
+  name: "Xen Security Advisories"
+  url: "https://xenbits.xen.org/xsa/"
+  publisher: "Xen Project"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Xen Security Advisories, publicly released or pre-released, also available as a JSON document."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://xenbits.xen.org/xsa/"
+    how: script
+
+- id: samba-security
+  name: "Samba Security Updates and Information"
+  url: "https://www.samba.org/samba/history/security.html"
+  publisher: "Samba"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Samba's security releases, with the release notes for each."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.samba.org/samba/history/security.html"
+    how: script
+
+- id: curl-cves
+  name: "curl CVEs"
+  url: "https://curl.se/docs/security.html"
+  publisher: "curl"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Table of the published curl and libcurl CVEs, with how to report a suspected security problem."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://curl.se/docs/security.html"
+    how: script
+
+- id: sudo-security-advisories
+  name: "Sudo Security Advisories"
+  url: "https://www.sudo.ws/security/advisories/"
+  publisher: "Sudo"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Security advisories for sudo, each with the affected versions and CVE ID."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.sudo.ws/security/advisories/"
+    how: script
+
+- id: bind-vulnerability-matrix
+  name: "BIND 9 Software Vulnerability Matrix"
+  url: "https://kb.isc.org/docs/aa-00913"
+  publisher: "Internet Systems Consortium (ISC)"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Known security vulnerabilities in supported versions of BIND 9, by CVE ID, with the versions that fix each."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://kb.isc.org/docs/aa-00913"
+    how: script
+
+- id: wireshark-security-advisories
+  name: "Wireshark Security Advisories"
+  url: "https://www.wireshark.org/security/"
+  publisher: "Wireshark Foundation"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Wireshark's security advisories and its guidelines for reporting a security problem."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.wireshark.org/security/"
+    how: script
+
+- id: drupal-security-advisories
+  name: "Drupal security advisories"
+  url: "https://www.drupal.org/security"
+  publisher: "Drupal"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Security advisories published on Drupal.org."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.drupal.org/security"
+    how: script
+
+- id: wordpress-security-news
+  name: "WordPress News: Security"
+  url: "https://wordpress.org/news/category/security/"
+  publisher: "WordPress"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "WordPress security release announcements."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://wordpress.org/news/category/security/"
+    how: script
+
+- id: joomla-security-announcements
+  name: "Joomla Security Announcements"
+  url: "https://developer.joomla.org/security-centre.html"
+  publisher: "Joomla"
+  section: open-source-infrastructure
+  kind: advisories
+  cost: free
+  description: "Announcements of resolved security issues in Joomla releases, also available as a feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.joomla.org/security-centre.html"
+    how: script
+
+- id: intel-security-center
+  name: "Intel Product Security Center"
+  url: "https://www.intel.com/content/www/us/en/security-center/default.html"
+  publisher: "Intel"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "Intel's security advisories, bulletins, CSAF advisories, and security guidance for its products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.intel.com/content/www/us/en/security-center/default.html"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: amd-product-security
+  name: "AMD Product Security"
+  url: "https://www.amd.com/en/resources/product-security.html"
+  publisher: "AMD"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "AMD's product security page: security bulletins and briefs, its disclosure policy, and the contact for its PSIRT."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.amd.com/en/resources/product-security.html"
+    how: script
+
+- id: nvidia-product-security
+  name: "NVIDIA Product Security"
+  url: "https://www.nvidia.com/en-us/product-security/"
+  publisher: "NVIDIA"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "NVIDIA's published security bulletins, with its PSIRT policies and how to report a vulnerability."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.nvidia.com/en-us/product-security/"
+    how: browser
+
+- id: dell-security-advisories
+  name: "Dell Security Advisories, Notices and Resources"
+  url: "https://www.dell.com/support/security/en-us/"
+  publisher: "Dell Technologies"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "Dell's security advisories, notices, and resources for its consumer and enterprise products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.dell.com/support/security/en-us/"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: hp-security-bulletins
+  name: "HP Security Bulletins"
+  url: "https://support.hp.com/us-en/security-bulletins"
+  publisher: "HP"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "HP's security bulletins, with how to report a potential vulnerability in an HP product."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.hp.com/us-en/security-bulletins"
+    how: browser
+
+- id: hpe-security-bulletin-library
+  name: "HPE Security Bulletin Library"
+  url: "https://support.hpe.com/km/security-bulletin"
+  publisher: "Hewlett Packard Enterprise"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "Searchable library of security bulletins for HPE products, with an RSS feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.hpe.com/km/security-bulletin"
+    how: browser
+
+- id: lenovo-product-security
+  name: "Lenovo Product Security Advisories and Announcements"
+  url: "https://support.lenovo.com/us/en/product_security/home"
+  publisher: "Lenovo"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "Security advisories and announcements from Lenovo's PSIRT, with an RSS feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.lenovo.com/us/en/product_security/home"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: supermicro-security-center
+  name: "Supermicro Security Center"
+  url: "https://www.supermicro.com/en/support/security_center"
+  publisher: "Supermicro"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "Supermicro's source for product security updates, alerts, and advisories."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.supermicro.com/en/support/security_center"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: qualcomm-security-bulletins
+  name: "Qualcomm Security Bulletins"
+  url: "https://docs.qualcomm.com/product/publicresources/securitybulletin/"
+  publisher: "Qualcomm"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "Qualcomm's monthly security bulletins, written to help device makers incorporate the security updates for its code."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.qualcomm.com/securitybulletin/november-2026-bulletin.html"
+    how: browser
+  notes: "The address redirects to the latest monthly bulletin."
+
+- id: rockwell-automation-security-advisories
+  name: "Rockwell Automation Security Advisories"
+  url: "https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html"
+  publisher: "Rockwell Automation"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "Rockwell Automation's security advisories for validated vulnerabilities, with an RSS feed and alert sign-up."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html"
+    how: browser
+  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+
+- id: abb-cyber-security-alerts
+  name: "ABB cyber security alerts and notifications"
+  url: "https://www.abb.com/global/en/company/about/cybersecurity/alerts-and-notifications"
+  publisher: "ABB"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "ABB's cyber security alerts and notifications for its products and systems."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.abb.com/global/en/company/about/cybersecurity/alerts-and-notifications"
+    how: script
+
+- id: mitsubishi-electric-vulnerability-information
+  name: "Mitsubishi Electric Vulnerability Information"
+  url: "https://www.mitsubishielectric.com/psirt/vulnerability/index.html"
+  publisher: "Mitsubishi Electric"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "Vulnerability information from Mitsubishi Electric's PSIRT, with an RSS feed."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.mitsubishielectric.com/psirt/vulnerability/index.html"
+    how: script
+
+- id: moxa-security-advisories
+  name: "Moxa Security Advisories"
+  url: "https://www.moxa.com/en/support/product-support/security-advisory"
+  publisher: "Moxa"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "Security advisories from Moxa's PSIRT, with a route to report a vulnerability."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.moxa.com/en/support/product-support/security-advisory"
+    how: browser
+
+- id: cert-vde-advisories
+  name: "CERT@VDE advisories"
+  url: "https://certvde.com/en/advisories/"
+  publisher: "CERT@VDE"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "Advisories published by CERT@VDE, each with an identifier, date, and affected product, and filters to narrow the list."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://certvde.com/en/advisories/"
+    how: script
+
+- id: hitachi-energy-cybersecurity-advisories
+  name: "Hitachi Energy Cybersecurity Alerts and Notifications"
+  url: "https://www.hitachienergy.com/us/en/products-and-solutions/cybersecurity/alerts-and-notifications"
+  publisher: "Hitachi Energy"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "Hitachi Energy's list of cybersecurity advisories and notifications, with its vulnerability handling policy and a subscription."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.hitachienergy.com/us/en/products-and-solutions/cybersecurity/alerts-and-notifications"
+    how: script
+
+- id: bosch-psirt-advisories
+  name: "Bosch PSIRT Security Advisories"
+  url: "https://psirt.bosch.com/security-advisories/"
+  publisher: "Bosch"
+  section: ics-and-ot-vendors
+  kind: advisories
+  cost: free
+  description: "Public security advisories from Bosch and its brands, with CVE IDs, CVSS scores, and affected products."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://psirt.bosch.com/security-advisories/"
+    how: script
