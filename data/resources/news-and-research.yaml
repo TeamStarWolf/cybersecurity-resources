@@ -65,7 +65,7 @@
   section: news
   kind: news
   cost: free
-  description: "Cybersecurity news, insights, and analysis for enterprise security professionals."
+  description: "News site for enterprise security staff: reporting on flaws, breaches, and attacks, with expert analysis."
   checked:
     date: "2026-11-25"
     status: 200
@@ -79,7 +79,7 @@
   section: news
   kind: news
   cost: free
-  description: "Cybersecurity news with a focus on enterprise security, plus daily and weekly newsletters."
+  description: "Security news for enterprise readers, with a CISO section, industry announcements, videos, and daily and weekly email newsletters."
   checked:
     date: "2026-11-25"
     status: 200
@@ -108,7 +108,7 @@
   section: analysis-and-commentary
   kind: news
   cost: free
-  description: "In-depth security news and investigative reporting."
+  description: "A single author's investigative reporting on security and cybercrime."
   checked:
     date: "2026-11-25"
     status: 200
@@ -136,7 +136,7 @@
   section: analysis-and-commentary
   kind: news
   cost: free
-  description: "Podcasts, newsletters, and video with news and commentary for cybersecurity and intelligence professionals."
+  description: "Security podcasts published since 2007, led by the weekly Risky Business show, with the Risky Bulletin feed, newsletters, and videos."
   checked:
     date: "2026-11-25"
     status: 200
@@ -313,7 +313,7 @@
   section: news
   kind: news
   cost: free
-  description: "The Register's news and insight on information security and IT defenses."
+  description: "The security section of The Register, with its news coverage of breaches, attacks, and IT defense."
   checked:
     date: "2026-11-25"
     status: 200
@@ -342,7 +342,7 @@
   section: news
   kind: news
   cost: free
-  description: "TechCrunch's security news and investigative reporting on breaches, hacks, and cyberattacks."
+  description: "TechCrunch's security category: reporting, investigations, and analysis on breaches, hacks, and cyberattacks."
   checked:
     date: "2026-11-25"
     status: 200
@@ -371,7 +371,7 @@
   section: news
   kind: news
   cost: freemium
-  description: "Independent media company founded by technology journalists, whose reporting includes a hacking beat."
+  description: "Independent technology news outlet started by four journalists; its coverage includes a Hacking section."
   checked:
     date: "2026-11-25"
     status: 200
@@ -415,7 +415,7 @@
   section: analysis-and-commentary
   kind: news
   cost: freemium
-  description: "Podcast of true stories from the dark side of the internet."
+  description: "Jack Rhysider's podcast, which tells true stories about the internet's dark side."
   checked:
     date: "2026-11-25"
     status: 200
@@ -430,7 +430,7 @@
   section: analysis-and-commentary
   kind: news
   cost: free
-  description: "Semiweekly executive summary of the most important security news, with each item annotated by subject matter experts."
+  description: "Twice-weekly SANS newsletter that summarizes the main security news stories, with commentary on each item from experts in the SANS community."
   checked:
     date: "2026-11-25"
     status: 200
@@ -459,7 +459,7 @@
   section: analysis-and-commentary
   kind: news
   cost: free
-  description: "Podcast in which Steve Gibson and Leo Laporte break down the latest cybercrime and hacking stories every Tuesday."
+  description: "Weekly podcast, out on Tuesdays, in which Steve Gibson and Leo Laporte explain the week's security news and what to do about it."
   checked:
     date: "2026-11-25"
     status: 200

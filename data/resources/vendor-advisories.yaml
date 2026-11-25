@@ -22,7 +22,7 @@
   section: microsoft-and-cloud
   kind: research
   cost: free
-  description: "Blog of the Microsoft Security Response Center: security program updates, policy changes, technical research, and perspectives."
+  description: "The Microsoft Security Response Center's blog: strategy pieces, technical vulnerability research with defense guidance, and news for the researcher and bounty community."
   checked:
     date: "2026-11-25"
     status: 200
@@ -106,7 +106,7 @@
   section: operating-systems-and-browsers
   kind: advisories
   cost: free
-  description: "Ubuntu Security Notices, issued when a security issue is fixed in an official Ubuntu package."
+  description: "Canonical's numbered notices, or USNs, for security fixes in official Ubuntu packages, with search."
   checked:
     date: "2026-11-25"
     status: 200
@@ -204,7 +204,7 @@
   section: network-and-security-vendors
   kind: advisories
   cost: free
-  description: "Advisories for issues resolved in Fortinet products, browsable by product, severity, component, and date."
+  description: "Fortinet's list of advisories for flaws it has fixed in its products, which you can browse by product, severity, component, or date."
   checked:
     date: "2026-11-25"
     status: 200
@@ -366,7 +366,7 @@
   section: enterprise-applications
   kind: advisories
   cost: free
-  description: "Adobe's security bulletins and advisories for its products; bulletins published before January 2026 are on HelpX."
+  description: "Adobe's security bulletins and advisories for its products; those dated earlier than January 2026 remain on HelpX."
   checked:
     date: "2026-11-25"
     status: 200
@@ -525,7 +525,7 @@
   section: operating-systems-and-browsers
   kind: advisories
   cost: free
-  description: "Every security advisory released by the Gentoo security team."
+  description: "The full list of advisories from Gentoo's security team, by GLSA number and title."
   checked:
     date: "2026-11-25"
     status: 200
@@ -539,7 +539,7 @@
   section: operating-systems-and-browsers
   kind: advisories
   cost: free
-  description: "Tracker of security issues that affect Alpine Linux, derived from CVE, the NVD, and Alpine's own security fixes database."
+  description: "Shows which known vulnerabilities affect Alpine Linux packages, by release branch; built from CVE and NVD data and the distribution's own record of security fixes."
   checked:
     date: "2026-11-25"
     status: 200
@@ -637,7 +637,7 @@
   section: operating-systems-and-browsers
   kind: dataset
   cost: free
-  description: "Every CVE that relates to software shipped by SUSE, with rating, affectedness, and update release status."
+  description: "SUSE's list, by year, of the CVEs in software it ships, giving the rating, whether SUSE products are affected, and the status of updates."
   checked:
     date: "2026-11-25"
     status: 200
@@ -725,7 +725,7 @@
   section: network-and-security-vendors
   kind: advisories
   cost: free
-  description: "Published WatchGuard CVEs and advisories, with severity, product, and affected versions."
+  description: "WatchGuard's table of its advisories and CVEs: severity score, product, affected and unaffected versions, and publication date."
   checked:
     date: "2026-11-25"
     status: 200
@@ -768,7 +768,7 @@
   section: network-and-security-vendors
   kind: advisories
   cost: free
-  description: "Current security advisories issued by QNAP, with instructions for reporting a vulnerability."
+  description: "QNAP's current advisories, with how to report a flaw to the company, a FAQ, and a subscription for new advisories."
   checked:
     date: "2026-11-25"
     status: 200
@@ -796,7 +796,7 @@
   section: network-and-security-vendors
   kind: advisories
   cost: free
-  description: "Security notifications affecting the Tailscale client and service."
+  description: "Dated bulletins about security issues in Tailscale's client and service, with an RSS feed and the company's disclosure policy."
   checked:
     date: "2026-11-25"
     status: 200
@@ -810,7 +810,7 @@
   section: enterprise-applications
   kind: advisories
   cost: free
-  description: "Announcements of Splunk security advisories, which collect the disclosures and fixes for supported versions of Splunk products."
+  description: "Splunk's advisories, which gather the disclosures and fixes for product versions still under support; a mailing list and RSS feed announce new ones."
   checked:
     date: "2026-11-25"
     status: 200
@@ -852,7 +852,7 @@
   section: enterprise-applications
   kind: advisories
   cost: free
-  description: "Security updates for all HashiCorp products and services, posted by HashiCorp staff in its discussion forum."
+  description: "The security category of HashiCorp's discussion forum, where the company posts updates about its products and services; only employees can post."
   checked:
     date: "2026-11-25"
     status: 200
@@ -909,7 +909,7 @@
   section: enterprise-applications
   kind: advisories
   cost: free
-  description: "Security advisories and CVE records for Grafana Labs products, with severity, affected products, and fixed versions."
+  description: "Grafana Labs' table of its published CVE records and advisories, with CVSS severity and product columns and an RSS feed."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1052,7 +1052,7 @@
   section: open-source-infrastructure
   kind: dataset
   cost: free
-  description: "Community-maintained list of the official CVEs announced by the Kubernetes Security Response Committee, also published as a feed."
+  description: "Kubernetes's list of the CVEs its Security Response Committee has announced, kept by the community and also offered as JSON and RSS feeds."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1066,7 +1066,7 @@
   section: open-source-infrastructure
   kind: advisories
   cost: free
-  description: "Security announcements for Docker products, including CVE fixes for Docker Desktop, Docker Sandboxes, and Docker Official Images."
+  description: "Docker's dated notices of security fixes and incident responses for Docker Desktop, Sandboxes, and Official Images, with an RSS feed."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1094,7 +1094,7 @@
   section: open-source-infrastructure
   kind: advisories
   cost: free
-  description: "Xen Security Advisories, publicly released or pre-released, also available as a JSON document."
+  description: "The Xen Project's table of XSA advisories, including pre-released ones, with public release dates and CVE numbers; also offered as JSON."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1150,7 +1150,7 @@
   section: open-source-infrastructure
   kind: advisories
   cost: free
-  description: "Known security vulnerabilities in supported versions of BIND 9, by CVE ID, with the versions that fix each."
+  description: "ISC's matrix for checking which known CVEs affect a supported BIND 9 version, with the release that fixes each one."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1206,7 +1206,7 @@
   section: open-source-infrastructure
   kind: advisories
   cost: free
-  description: "Announcements of resolved security issues in Joomla releases, also available as a feed."
+  description: "Joomla's notices of fixed security issues, giving a description, the affected installs, and the solution; also available as a feed."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1235,7 +1235,7 @@
   section: hardware-and-firmware
   kind: advisories
   cost: free
-  description: "AMD's product security page: security bulletins and briefs, its disclosure policy, and the contact for its PSIRT."
+  description: "AMD's hub for security bulletins and briefs, its vulnerability disclosure and support policies, and how to report a flaw to its PSIRT."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1264,7 +1264,7 @@
   section: hardware-and-firmware
   kind: advisories
   cost: free
-  description: "Dell's security advisories, notices, and resources for its consumer and enterprise products."
+  description: "Dell's product security hub: advisories and notices for its consumer and enterprise products, plus related resources."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1322,7 +1322,7 @@
   section: hardware-and-firmware
   kind: advisories
   cost: free
-  description: "Supermicro's source for product security updates, alerts, and advisories."
+  description: "Supermicro's security center: the starting point for its current security alerts, advisories, and product security updates."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1437,7 +1437,7 @@
   section: ics-and-ot-vendors
   kind: advisories
   cost: free
-  description: "Public security advisories from Bosch and its brands, with CVE IDs, CVSS scores, and affected products."
+  description: "Bosch's advisories by year, covering its brands as well, with advisory ID, CVE IDs, CVSS score, and affected products; Atom and RSS feeds."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1451,7 +1451,7 @@
   section: hardware-and-firmware
   kind: advisories
   cost: free
-  description: "Repository where NVIDIA's PSIRT publishes security bulletins in Markdown, CSAF, and CVE record formats, its stated home for new bulletins since October 1, 2026."
+  description: "NVIDIA's bulletin repository: since October 1, 2026 its PSIRT publishes bulletins only here, as Markdown to read and as CSAF and CVE records for tools."
   checked:
     date: "2026-11-25"
     status: 200

@@ -51,7 +51,7 @@
   also_in: [offensive-security/web-application-testing]
   kind: training
   cost: free-with-account
-  description: "Free online web security training with interactive labs, from the makers of Burp Suite; create an account to start."
+  description: "PortSwigger's training site for web application security: learning materials and interactive labs at no charge; you need an account to start."
   checked:
     date: "2026-11-25"
     status: 200
@@ -65,7 +65,7 @@
   section: offensive-labs
   kind: training
   cost: freemium
-  description: "Web hacking and security code review training built on real CVEs and vulnerable code; some exercises are free, the rest need PRO."
+  description: "Hands-on labs and videos on web exploitation and source code review, built on real CVEs; some exercises are free and the rest need PRO."
   checked:
     date: "2026-11-25"
     status: 200
@@ -126,7 +126,7 @@
   section: defensive-labs
   kind: training
   cost: freemium
-  description: "Blue team training for SOC analysts and DFIR, built on cyber range labs; joining is free, with community and premium labs."
+  description: "Cyber range labs for SOC analysts and DFIR practitioners, with certification and team assessment; joining is free, and labs are community, premium, or trial."
   checked:
     date: "2026-11-25"
     status: 200
@@ -141,7 +141,7 @@
   section: defensive-labs
   kind: training
   cost: freemium
-  description: "Gamified platform for defenders to practice incident response, digital forensics, security operations, reverse engineering, and threat hunting; free and paid tiers."
+  description: "Game-style practice platform for defenders: investigations and challenges in threat hunting, reverse engineering, security operations, forensics, and incident response; free, with a PRO subscription."
   checked:
     date: "2026-11-25"
     status: 200
@@ -169,7 +169,7 @@
   section: defensive-labs
   kind: training
   cost: freemium
-  description: "Cloud-based cyber range and solo labs for defensive teams; the site says RangeForce has joined Cyberbit."
+  description: "Hosted cyber range for team exercises, plus individual labs, aimed at SOC and threat hunting staff; the site says RangeForce has joined Cyberbit."
   checked:
     date: "2026-11-25"
     status: 200
@@ -184,7 +184,7 @@
   section: courses
   kind: training
   cost: freemium
-  description: "Live and on-demand security courses, including Pay What You Can classes that start at $0."
+  description: "Security courses taught live or on demand, for red and blue teams; its Pay What You Can sessions can be taken from $0."
   checked:
     date: "2026-11-25"
     status: 200
@@ -200,7 +200,7 @@
   also_in: [dfir-and-malware-analysis/forensics-tools]
   kind: training
   cost: paid
-  description: "SANS course catalog filtered to digital forensics and incident response."
+  description: "The SANS course catalog with its filter set to forensics and incident response."
   checked:
     date: "2026-11-25"
     status: 200

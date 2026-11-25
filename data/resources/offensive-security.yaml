@@ -470,7 +470,7 @@
     status: 200
     final: "https://www.loldrivers.io/"
     how: script
-  notes: "The page says HVCI statuses apply to individual samples, and that some samples have no result recorded."
+  notes: "The page says HVCI statuses apply to individual samples, and that some samples have no result recorded. Block policies is from the home page's Detections and policies section, read in a browser on 2026-11-25; it says find rules, hunting queries, and block policies, and links the project's WDAC folder."
 
 - id: wadcoms
   name: "WADComs"

@@ -36,7 +36,7 @@
   section: united-states
   kind: reference
   cost: free
-  description: "CISA's Secure by Design pages, which make the case for building security into the design and manufacture of technology products."
+  description: "CISA's Secure by Design pages: what the idea means, a pledge for software manufacturers, guidance on implementing the principles, and resources on memory safety."
   checked:
     date: "2026-11-25"
     status: 200
@@ -79,7 +79,7 @@
   section: united-states
   kind: organization
   cost: free
-  description: "The FBI's hub for reporting cyber-enabled crime, with industry alerts and annual reports."
+  description: "FBI center where you file a complaint about internet crime; it also posts alerts and publishes annual reports."
   checked:
     date: "2026-11-25"
     status: 200
@@ -138,7 +138,7 @@
   section: international
   kind: organization
   cost: free
-  description: "Canada's national source of cyber security advice, guidance, services, and support, with incident reporting."
+  description: "Canada's cyber security centre, part of the Communications Security Establishment: alerts and advisories, guidance by audience, and incident reporting."
   checked:
     date: "2026-11-25"
     status: 200
@@ -253,7 +253,7 @@
   section: united-states
   kind: advisories
   cost: free
-  description: "The NSA's repository of advisories, info sheets, tech reports, and operational risk notices on evolving cybersecurity threats; some items have access requirements."
+  description: "The NSA's searchable table of its cybersecurity guidance, by title and publication date: advisories, information sheets, technical reports, and risk notices; some carry access restrictions."
   checked:
     date: "2026-11-25"
     status: 200
@@ -268,7 +268,7 @@
   section: united-states
   kind: organization
   cost: paid
-  description: "The Multi-State Information Sharing and Analysis Center for US state, local, tribal, and territorial governments; since 2025 its services need a paid membership."
+  description: "The ISAC for US state and local governments, and for tribal and territorial ones, run by CIS; since 2025 its services need a paid membership."
   checked:
     date: "2026-11-25"
     status: 200
@@ -297,7 +297,7 @@
   section: international
   kind: advisories
   cost: free
-  description: "The UK NCSC's reports and advisories on cyber security matters affecting the UK."
+  description: "The NCSC's listing of the reports and advisories it publishes about cyber security in the UK."
   checked:
     date: "2026-11-25"
     status: 200
@@ -311,7 +311,7 @@
   section: international
   kind: advisories
   cost: free
-  description: "Australia's latest cyber security alerts and threat advisories, with mitigation advice."
+  description: "Australia's alerts on vulnerabilities and advisories on threats, with filters, an archive of older ones, and an email sign-up."
   checked:
     date: "2026-11-25"
     status: 200
@@ -412,7 +412,7 @@
   section: international
   kind: advisories
   cost: free
-  description: "Alerts and advisories from Singapore's Cyber Security Agency on emerging threats, vulnerabilities, and preventive measures."
+  description: "Alerts, advisories, and security bulletins from Singapore's Cyber Security Agency on new vulnerabilities and threats, with a filter by year."
   checked:
     date: "2026-11-25"
     status: 200
@@ -426,7 +426,7 @@
   section: international
   kind: organization
   cost: free
-  description: "New Zealand's National Cyber Security Centre, with information and advice on responding to cyber security threats."
+  description: "New Zealand's National Cyber Security Centre: alerts, news, guides, its Cyber Threat Report, and a way to report a security issue."
   checked:
     date: "2026-11-25"
     status: 200
@@ -470,7 +470,7 @@
   section: coordination-and-law-enforcement
   kind: organization
   cost: free
-  description: "The global Forum of Incident Response and Security Teams, home of CVSS, EPSS, TLP, and the PSIRT framework."
+  description: "Membership organization for computer security response teams worldwide; home of CVSS, EPSS, TLP, and the PSIRT framework."
   checked:
     date: "2026-11-25"
     status: 200
