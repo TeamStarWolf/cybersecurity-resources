@@ -1,0 +1,690 @@
+# Resources in the domain "automation-and-scripting". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: powershell-documentation
+  name: "PowerShell Documentation"
+  url: "https://learn.microsoft.com/en-us/powershell/"
+  publisher: "Microsoft"
+  section: powershell
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation hub for PowerShell: installing on Windows, Linux, and macOS, sample scripts, the module browser, Desired State Configuration, and the PowerShell Gallery."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/powershell/"
+    how: script
+
+- id: powershell-gallery
+  name: "PowerShell Gallery"
+  url: "https://www.powershellgallery.com/"
+  publisher: "Microsoft"
+  section: powershell
+  kind: service
+  cost: free
+  description: "Microsoft's public repository of PowerShell scripts, modules, and DSC resources; the site warns that its packages come from the community and are untrusted by default."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.powershellgallery.com/"
+    how: script
+  notes: "No pricing page exists; searching and reading package pages needed no account on 2026-11-25. Publishing a package needs an account, which the entry does not describe."
+
+- id: powershell-repository
+  name: "PowerShell (GitHub repository)"
+  url: "https://github.com/PowerShell/PowerShell"
+  publisher: "PowerShell Team (Microsoft)"
+  section: powershell
+  kind: tool
+  cost: free
+  description: "Source repository for PowerShell 7, with a pointer to installation instructions, an explanation of how it differs from Windows PowerShell, and community discussions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/PowerShell/PowerShell"
+    how: script
+  notes: "Publisher is the display name of the GitHub organization; the repository's own site link is microsoft.com/PowerShell. The page's heading is PowerShell; the words in parentheses are the catalog's. MIT license. Last commit on the default branch: 2026-11-24."
+
+- id: powershell-team-blog
+  name: "PowerShell Team blog"
+  url: "https://devblogs.microsoft.com/powershell/"
+  publisher: "Microsoft"
+  section: powershell
+  kind: news
+  cost: free
+  description: "The PowerShell team's blog at Microsoft: release announcements for PowerShell and Desired State Configuration, and posts on the roadmap."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://devblogs.microsoft.com/powershell/"
+    how: script
+  notes: "The page's title is PowerShell Team. The newest post on 2026-11-25 was dated Nov 17, 2026."
+
+- id: pester
+  name: "Pester"
+  url: "https://pester.dev/"
+  publisher: "Pester Team"
+  section: powershell
+  kind: tool
+  cost: free
+  description: "Site of Pester, the testing and mocking framework for PowerShell, with a quick start and a follow-along tutorial."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pester.dev/"
+    how: script
+  notes: "Publisher from the footer copyright. The site asks for sponsors and has no pricing page."
+
+- id: psscriptanalyzer
+  name: "PSScriptAnalyzer"
+  url: "https://github.com/PowerShell/PSScriptAnalyzer"
+  publisher: "PowerShell Team (Microsoft)"
+  section: powershell
+  kind: tool
+  cost: free
+  description: "Checks PowerShell scripts and modules against a set of rules for code quality; installed from the PowerShell Gallery."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/PowerShell/PSScriptAnalyzer"
+    how: script
+  notes: "Publisher is the display name of the GitHub organization. MIT license. Last commit on the default branch: 2026-10-22."
+
+- id: powershell-101
+  name: "PowerShell 101"
+  url: "https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction"
+  publisher: "Microsoft"
+  section: powershell
+  kind: training
+  cost: free
+  description: "A book for learning PowerShell, hosted on Microsoft Learn: chapters that each end with links to the help articles that go deeper."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction?view=powershell-7.6"
+    how: script
+  notes: "The page's heading is PowerShell 101 Introduction. The book is by Mike F. Robbins, and the page says it focuses on Windows PowerShell."
+
+- id: powershell-practice-and-style
+  name: "PowerShell Practice and Style"
+  url: "https://poshcode.gitbook.io/powershell-practice-and-style"
+  publisher: "PoshCode"
+  section: powershell
+  kind: reference
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2023-05-19"
+  description: "Community-written guide to PowerShell in two parts, a style guide and best practices, free to share and adapt under a Creative Commons license."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://poshcode.gitbook.io/powershell-practice-and-style"
+    how: script
+  notes: "The page's heading is About this Guide. Publisher is the GitHub organization that holds the source, PoshCode/PowerShellPracticeAndStyle, whose last commit was on 2023-05-19; the page itself says it was last updated 3 years ago. The page credits Don Jones, Matt Penny, Carlos Perez, Joel Bennett, and the PowerShell community."
+
+- id: powershell-desired-state-configuration
+  name: "Microsoft Desired State Configuration overview"
+  url: "https://learn.microsoft.com/en-us/powershell/dsc/overview"
+  publisher: "Microsoft"
+  section: powershell
+  kind: documentation
+  cost: free
+  description: "Microsoft's overview of Desired State Configuration, its declarative configuration platform for Windows, Linux, and macOS: configuration documents, resources, and how it differs from PowerShell DSC."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/powershell/dsc/overview?view=dsc-3.0"
+    how: script
+
+- id: ss64
+  name: "SS64 Command line reference"
+  url: "https://ss64.com/"
+  publisher: "SS64.com"
+  section: shell-and-command-line
+  kind: reference
+  cost: free
+  description: "Command line reference with sections for Linux, macOS, CMD, PowerShell, and VBScript."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ss64.com/"
+    how: script
+  notes: "The front page is an index of sections and little else; the entry names those sections. Publisher from the copyright line. The site asks for donations and has no pricing page."
+
+- id: bash-reference-manual
+  name: "GNU Bash manual"
+  url: "https://www.gnu.org/software/bash/manual/"
+  publisher: "GNU Project (Free Software Foundation)"
+  section: shell-and-command-line
+  kind: documentation
+  cost: free
+  description: "The GNU Bash manual as one HTML page or one page per node, and as ASCII text, PDF, and Texinfo source."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.gnu.org/software/bash/manual/"
+    how: script
+  notes: "The page also links printed manuals sold by the FSF, which the entry does not describe."
+
+- id: shellcheck
+  name: "ShellCheck"
+  url: "https://www.shellcheck.net/"
+  publisher: "Vidar Holen (koalaman)"
+  section: shell-and-command-line
+  kind: tool
+  cost: free
+  description: "Paste a shell script and get warnings about bugs and portability problems; the open source analyzer is also packaged for distributions and editors."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.shellcheck.net/"
+    how: script
+  notes: "The page names no operator and links its source under the GitHub account koalaman, whose profile name is Vidar Holen. GPLv3; no pricing page."
+
+- id: explainshell
+  name: "explainshell"
+  url: "https://explainshell.com/"
+  publisher: "Idan Kamara (idank)"
+  section: shell-and-command-line
+  kind: service
+  cost: free
+  description: "Type a command line and see each argument explained from its help text, with a choice of which distribution's manpages to use."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://explainshell.com/"
+    how: script
+  notes: "The page names no operator and links its source under the GitHub account idank, whose profile name is Idan Kamara. GPL-3.0 license; no pricing page."
+
+- id: tldr-pages
+  name: "tldr pages"
+  url: "https://tldr.sh/"
+  publisher: "tldr pages"
+  section: shell-and-command-line
+  kind: reference
+  cost: free
+  description: "Community-written simplified versions of man pages, built around practical examples, with command-line clients, a PDF version, and a live demo on the site."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://tldr.sh/"
+    how: script
+  notes: "Publisher is the project; the page names no organization. MIT license."
+
+- id: gnu-coreutils-manual
+  name: "GNU coreutils manual"
+  url: "https://www.gnu.org/software/coreutils/manual/"
+  publisher: "GNU Project (Free Software Foundation)"
+  section: shell-and-command-line
+  kind: documentation
+  cost: free
+  description: "The GNU coreutils manual as one HTML page or one page per node, and in other formats for download."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.gnu.org/software/coreutils/manual/"
+    how: script
+  notes: "The page's title is GNU coreutils - Core GNU utilities."
+
+- id: jq
+  name: "jq"
+  url: "https://jqlang.org/"
+  publisher: "jq"
+  section: shell-and-command-line
+  kind: tool
+  cost: free
+  description: "Home of jq, a command-line processor for JSON: downloads by platform, a tutorial, the manual, and a page to try it online."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://jqlang.org/"
+    how: script
+  notes: "Publisher is the project; the page names no organization. MIT license for the code, per the page's footer."
+
+- id: regex101
+  name: "regex101"
+  url: "https://regex101.com/"
+  publisher: "Firas Dib (firasdib)"
+  section: shell-and-command-line
+  kind: service
+  cost: freemium
+  description: "Online regular expression tester: write a pattern, run it against text, and inspect matches and capture groups; a paid Pro plan adds further tools."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://regex101.com/"
+    how: browser
+  notes: "A plain HTTP client gets only a script shell; opened in a browser. Cost from https://docs.regex101.com/application/regex101-pro/, read on 2026-11-25, which calls regex101 Pro the paid plan for regex101.com; I found no page that states its price. The page names no operator and links a sponsor page under the GitHub account firasdib, whose profile name is Firas Dib."
+
+- id: crontab-guru
+  name: "crontab guru"
+  url: "https://crontab.guru/"
+  publisher: "Cronitor"
+  section: shell-and-command-line
+  kind: service
+  cost: free
+  description: "Type a cron schedule expression and read it back in words, with its next run time; by Cronitor, which advertises its monitoring service there."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://crontab.guru/"
+    how: browser
+  notes: "The reading in words appears only in a browser. Publisher from the footer copyright. The editor has no pricing page and needed no account; Cronitor's monitoring service is a separate product, which the entry does not cover."
+
+- id: curl-documentation
+  name: "curl documentation overview"
+  url: "https://curl.se/docs/"
+  publisher: "curl"
+  section: shell-and-command-line
+  kind: documentation
+  cost: free
+  description: "The curl project's documentation index: the tool's man page and tutorial, libcurl, protocols, releases, and security, with a link to its book, Everything curl."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://curl.se/docs/"
+    how: script
+  notes: "The page's heading is Documentation Overview."
+
+- id: everything-curl
+  name: "Everything curl"
+  url: "https://everything.curl.dev/"
+  publisher: "curl"
+  section: shell-and-command-line
+  kind: reference
+  cost: free
+  description: "Daniel Stenberg's book on curl: the project and how it began, the command-line tool, and the library, under a Creative Commons Attribution license."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://everything.curl.dev/"
+    how: script
+  notes: "The page names Daniel Stenberg, founder of the curl project, as its author. Publisher follows the catalog's other curl entries."
+
+- id: google-shell-style-guide
+  name: "Shell Style Guide (Google)"
+  url: "https://google.github.io/styleguide/shellguide.html"
+  publisher: "Google"
+  section: shell-and-command-line
+  kind: reference
+  cost: free
+  description: "Google's style guide for shell scripts: which shell to use and when, comments, formatting, naming conventions, and features and bugs to watch for."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://google.github.io/styleguide/shellguide.html"
+    how: script
+  notes: "The page's first heading is Google Style Guides; Shell Style Guide is the second."
+
+- id: python-documentation
+  name: "Python documentation"
+  url: "https://docs.python.org/3/"
+  publisher: "Python Software Foundation"
+  section: python
+  kind: documentation
+  cost: free
+  description: "The official Python documentation for the current release: tutorial, library and language references, setup and usage, HOWTOs, and what is new in each version."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.python.org/3/"
+    how: script
+  notes: "The address shows the newest Python 3 release; the page's title carries its version number."
+
+- id: automate-the-boring-stuff
+  name: "Automate the Boring Stuff with Python"
+  url: "https://automatetheboringstuff.com/"
+  publisher: "Al Sweigart"
+  section: python
+  kind: training
+  cost: free
+  description: "Al Sweigart's book on automating tasks with Python for readers with no programming experience; the full text is online under Creative Commons."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://automatetheboringstuff.com/"
+    how: script
+  notes: "The page says the book is free to read under a Creative Commons license. Print and ebook copies and a video course are sold; the entry covers the online text."
+
+- id: python-package-index
+  name: "Python Package Index (PyPI)"
+  url: "https://pypi.org/"
+  publisher: "Python Software Foundation"
+  section: python
+  kind: service
+  cost: free
+  description: "The Python Software Foundation's repository of Python software: search or browse projects shared by the community and install them."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pypi.org/"
+    how: script
+  notes: "Searching and installing need no account. Publishing needs an account, and organization accounts are offered, which the entry does not describe."
+
+- id: python-packaging-user-guide
+  name: "Python Packaging User Guide"
+  url: "https://packaging.python.org/en/latest/"
+  publisher: "Python Packaging Authority (PyPA)"
+  section: python
+  kind: documentation
+  cost: free
+  description: "The Python Packaging Authority's guide to distributing and installing Python packages: reference, tutorials, how-to guides, and discussions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://packaging.python.org/en/latest/"
+    how: script
+
+- id: pep-8
+  name: "PEP 8: Style Guide for Python Code"
+  url: "https://peps.python.org/pep-0008/"
+  publisher: "Python Software Foundation"
+  section: python
+  kind: standard
+  cost: free
+  description: "Python's style guide: conventions for code layout, imports, whitespace, comments, and naming, written for the code in the standard library."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://peps.python.org/pep-0008/"
+    how: script
+  notes: "Publisher follows the catalog's other python.org entries. The page lists Guido van Rossum, Barry Warsaw, and Alyssa Coghlan as authors and says the document is in the public domain."
+
+- id: ansible-documentation
+  name: "Ansible community documentation"
+  url: "https://docs.ansible.com/"
+  publisher: "Ansible community (Red Hat)"
+  section: configuration-management
+  kind: documentation
+  cost: free
+  description: "The Ansible community's documentation hub: getting started, guides for users, developers, and maintainers, and ecosystem projects such as Ansible Core and Ansible Builder."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.ansible.com/"
+    how: script
+  notes: "The page points readers who want Red Hat Ansible Automation Platform to a separate site; the entry covers the community documentation. The page's footer says sponsored by Red Hat."
+
+- id: ansible-lint
+  name: "Ansible Lint Documentation"
+  url: "https://docs.ansible.com/projects/lint/"
+  publisher: "Red Hat"
+  section: configuration-management
+  kind: tool
+  cost: free
+  description: "Documentation for Ansible Lint, a command-line linter for playbooks, roles, and collections that flags practices likely to cause bugs or hard-to-maintain code."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.ansible.com/projects/lint/"
+    how: script
+  notes: "Publisher from the footer copyright. https://ansible.readthedocs.io/projects/lint/ redirects here."
+
+- id: puppet-documentation
+  name: "Puppet Documentation"
+  url: "https://help.puppet.com/"
+  publisher: "Puppet"
+  section: configuration-management
+  kind: documentation
+  cost: free
+  description: "Puppet's documentation home: Puppet Enterprise by version, Puppet Core, Bolt, PDK, and PuppetDB, with a link to the Puppet Forge module library."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://help.puppet.com/"
+    how: script
+  notes: "Publisher from the footer copyright, Puppet, Inc."
+
+- id: chef-documentation
+  name: "Chef Documentation"
+  url: "https://docs.chef.io/"
+  publisher: "Progress Software (Chef)"
+  section: configuration-management
+  kind: documentation
+  cost: free
+  description: "Progress Chef's documentation, browsable by product: Chef 360 Platform, Automate, Infra Client, InSpec, Habitat, Workstation, and Supermarket."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.chef.io/"
+    how: script
+  notes: "Publisher from the footer copyright, Progress Software Corporation. On 2026-11-25 the page announced that Chef Infra Server is deprecated, with end of life on November 30, 2026."
+
+- id: salt-project-documentation
+  name: "Salt Table of Contents"
+  url: "https://docs.saltproject.io/en/latest/contents.html"
+  publisher: "Salt Project"
+  section: configuration-management
+  kind: documentation
+  cost: free
+  description: "Table of contents of the Salt Project documentation: installation and configuration, configuration management, remote execution, and events and the reactor."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.saltproject.io/en/latest/contents.html"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: packer-documentation
+  name: "Packer Documentation"
+  url: "https://developer.hashicorp.com/packer/docs"
+  publisher: "HashiCorp"
+  section: configuration-management
+  kind: documentation
+  cost: free
+  description: "HashiCorp's documentation for Packer: templates that define the images to build, the CLI, and plugins such as builders, provisioners, and post-processors."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://developer.hashicorp.com/packer/docs"
+    how: script
+
+- id: rundeck-documentation
+  name: "Rundeck Runbook Automation Documentation"
+  url: "https://docs.rundeck.com/docs/"
+  publisher: "PagerDuty"
+  section: configuration-management
+  kind: documentation
+  cost: free
+  description: "Documentation for the open source Rundeck project and the Runbook Automation product: fundamentals, distributed automation, integrations and plugins, administration, and security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.rundeck.com/docs/"
+    how: script
+  notes: "The page's heading is Welcome to Runbook Automation. PagerDuty is named in the page's summary line; the page body says Rundeck is an open source project. The page's menu links the cloud and self-hosted commercial editions and their licensing; the entry covers the documentation."
+
+- id: git-documentation
+  name: "Git Reference"
+  url: "https://git-scm.com/docs"
+  publisher: "Git, a Software Freedom Conservancy member project"
+  section: version-control-and-pipelines
+  kind: documentation
+  cost: free
+  description: "The Git project's command reference, grouped by task from setup and branching to sharing and inspection, with a cheat sheet and the full command list."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://git-scm.com/docs"
+    how: script
+  notes: "https://git-scm.com/doc redirects here. Publisher from the site footer, which says Git is a member of Software Freedom Conservancy."
+
+- id: pro-git
+  name: "Pro Git"
+  url: "https://git-scm.com/book/en/v2"
+  publisher: "Git, a Software Freedom Conservancy member project"
+  section: version-control-and-pipelines
+  kind: reference
+  cost: free
+  description: "Scott Chacon and Ben Straub's book Pro Git in full, Creative Commons licensed: basics, branching, servers, distributed workflows, tools, customization, and internals, with ebook downloads."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://git-scm.com/book/en/v2"
+    how: script
+  notes: "The page's heading is Book. The page says print versions are sold elsewhere; the entry covers the online text."
+
+- id: github-actions-documentation
+  name: "GitHub Actions documentation"
+  url: "https://docs.github.com/en/actions"
+  publisher: "GitHub"
+  section: version-control-and-pipelines
+  kind: documentation
+  cost: free
+  description: "GitHub's documentation for Actions, its workflow automation built into repositories: a quickstart, concepts, GitHub-hosted runners, custom actions, and limits."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.github.com/en/actions"
+    how: script
+  notes: "The entry covers the documentation, not the cost of running workflows; the page's footer links GitHub's pricing."
+
+- id: gitlab-ci-documentation
+  name: "Get started with GitLab CI/CD"
+  url: "https://docs.gitlab.com/ci/"
+  publisher: "GitLab"
+  section: version-control-and-pipelines
+  kind: documentation
+  cost: free
+  description: "GitLab's starting page for CI/CD: configuring a pipeline, finding or creating runners, variables and expressions, and CI/CD components."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.gitlab.com/ci/"
+    how: script
+  notes: "The page marks the feature as available in the Free, Premium, and Ultimate tiers."
+
+- id: jenkins-documentation
+  name: "Jenkins User Documentation"
+  url: "https://www.jenkins.io/doc/"
+  publisher: "Jenkins"
+  section: version-control-and-pipelines
+  kind: documentation
+  cost: free
+  description: "The Jenkins user documentation: a handbook on installing, using, managing, securing, and scaling Jenkins, tutorials, and the Pipeline syntax and steps references."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.jenkins.io/doc/"
+    how: script
+  notes: "Publisher is the project; the page names no organization."
+
+- id: azure-pipelines-documentation
+  name: "Azure Pipelines documentation"
+  url: "https://learn.microsoft.com/en-us/azure/devops/pipelines/"
+  publisher: "Microsoft"
+  section: version-control-and-pipelines
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for Azure Pipelines: getting started, key concepts, building any repository, deploying to Azure, and managing agents, including self-hosted ones."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops"
+    how: script
+
+- id: pre-commit
+  name: "pre-commit"
+  url: "https://pre-commit.com/"
+  publisher: "pre-commit"
+  section: version-control-and-pipelines
+  kind: tool
+  cost: free
+  description: "Framework for managing Git hook scripts in many languages, run before each commit to catch simple problems before code review; configured in one YAML file."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pre-commit.com/"
+    how: script
+  notes: "Publisher is the GitHub organization that holds the source; the page names no organization and links a sponsor page for Anthony Sottile. MIT license."
+
+- id: semantic-versioning
+  name: "Semantic Versioning 2.0.0"
+  url: "https://semver.org/"
+  publisher: "Tom Preston-Werner"
+  section: version-control-and-pipelines
+  kind: standard
+  cost: free
+  description: "The Semantic Versioning specification: what the major, minor, and patch parts of a version number say about compatibility, with a grammar and an FAQ."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://semver.org/"
+    how: script
+  notes: "The page says the specification was authored by Tom Preston-Werner and is licensed CC BY 3.0."
+
+- id: power-automate-documentation
+  name: "Microsoft Power Automate documentation"
+  url: "https://learn.microsoft.com/en-us/power-automate/"
+  publisher: "Microsoft"
+  section: apis-and-workflow-automation
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for Power Automate: creating flows, process mining, solutions, integrating with other products, best practices, troubleshooting, and administration."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/power-automate/"
+    how: script
+  notes: "The page has a Try/Buy section for the product; the entry covers the documentation."
+
+- id: openapi-specification
+  name: "OpenAPI Specification"
+  url: "https://spec.openapis.org/oas/latest.html"
+  publisher: "OpenAPI Initiative, a Linux Foundation project"
+  section: apis-and-workflow-automation
+  kind: standard
+  cost: free
+  description: "The current OpenAPI Specification: a language-neutral format, written in JSON or YAML, for describing HTTP APIs so that people and tools can understand a service."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://spec.openapis.org/oas/latest.html"
+    how: script
+  notes: "The address always shows the latest published version; the page's title carries its number. Publisher from the page, which names the OpenAPI Initiative and carries a Linux Foundation copyright."
+
+- id: postman-learning-center
+  name: "Postman Docs"
+  url: "https://learning.postman.com/"
+  publisher: "Postman"
+  section: apis-and-workflow-automation
+  kind: documentation
+  cost: free
+  description: "Postman's documentation: installing the app, sending API requests, Flows, the CLI, and its AI tools."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learning.postman.com/"
+    how: script
+  notes: "The page links Postman's plans and pricing; the entry covers the documentation."
+
+- id: json-schema
+  name: "JSON Schema"
+  url: "https://json-schema.org/"
+  publisher: "JSON Schema"
+  section: apis-and-workflow-automation
+  kind: standard
+  cost: free
+  description: "Home of JSON Schema, the vocabulary for describing and validating JSON data, with a getting-started path and links to the specification and to tools."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://json-schema.org/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: yaml-specification
+  name: "YAML Ain't Markup Language (YAML) version 1.2"
+  url: "https://yaml.org/spec/1.2.2/"
+  publisher: "YAML Language Development Team"
+  section: apis-and-workflow-automation
+  kind: standard
+  cost: free
+  description: "Revision 1.2.2 of the specification for YAML 1.2, from 2021: its goals, a language overview, the processing model, and the syntax productions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://yaml.org/spec/1.2.2/"
+    how: script
+  notes: "Publisher from the copyright line on the page. The page says this revision makes no normative changes to version 1.2."

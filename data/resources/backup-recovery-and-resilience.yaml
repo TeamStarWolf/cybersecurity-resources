@@ -1,0 +1,530 @@
+# Resources in the domain "backup-recovery-and-resilience". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: nist-sp-800-34
+  name: "NIST SP 800-34 Rev. 1"
+  url: "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final"
+  publisher: "NIST"
+  section: planning-and-standards
+  kind: standard
+  cost: free
+  description: "NIST's guide to writing contingency plans for federal information systems: the planning process, plan formats, and how such plans relate to other emergency plans."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final"
+    how: script
+  notes: "The page's heading is Contingency Planning Guide for Federal Information Systems."
+
+- id: nist-sp-800-184
+  name: "NIST SP 800-184"
+  url: "https://csrc.nist.gov/pubs/sp/800/184/final"
+  publisher: "NIST"
+  section: planning-and-standards
+  kind: standard
+  cost: free
+  description: "NIST's guide to recovering from a cybersecurity event: recovery planning, developing playbooks, testing, and improving the plan."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://csrc.nist.gov/pubs/sp/800/184/final"
+    how: script
+  notes: "The page's heading is Guide for Cybersecurity Event Recovery."
+
+- id: ready-gov-it-disaster-recovery-plan
+  name: "IT Disaster Recovery Plan (Ready.gov)"
+  url: "https://www.ready.gov/business/emergency-plans/recovery-plan"
+  publisher: "U.S. Department of Homeland Security (Ready.gov)"
+  section: planning-and-standards
+  kind: reference
+  cost: free
+  description: "Ready.gov's guidance for businesses on IT recovery after a disaster: how to build the recovery plan and a data backup plan, with further planning resources."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ready.gov/business/emergency-plans/recovery-plan"
+    how: script
+  notes: "Publisher from the footer, which calls Ready.gov an official website of the U.S. Department of Homeland Security."
+
+- id: ncsc-offline-backups
+  name: "Offline backups in an online world"
+  url: "https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world"
+  publisher: "NCSC, a part of GCHQ"
+  section: planning-and-standards
+  kind: reference
+  cost: free
+  description: "NCSC blog post on protecting backups kept in the public cloud from ransomware, built around four rules: offline, recovery, 3-2-1, and regular."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world"
+    how: script
+  notes: "Publisher follows the catalog's other NCSC entries."
+
+- id: ncsc-ransomware-resistant-backups
+  name: "Principles for ransomware-resistant cloud backups"
+  url: "https://www.ncsc.gov.uk/collection/ransomware-resistant-backups/principles-for-ransomware-resistant-cloud-backups"
+  publisher: "NCSC, a part of GCHQ"
+  section: planning-and-standards
+  kind: reference
+  cost: free
+  description: "NCSC guidance for cloud backup services: principles for backups that survive destructive ransomware, each with the threat it answers and suggested implementations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.ncsc.gov.uk/collection/ransomware-resistant-backups/principles-for-ransomware-resistant-cloud-backups"
+    how: script
+  notes: "The page's heading is Ransomware-resistant backups; it is the third page of that collection. https://www.ncsc.gov.uk/guidance/principles-for-ransomware-resistant-cloud-backups redirects here. Publisher follows the catalog's other NCSC entries."
+
+- id: iso-22301
+  name: "ISO 22301:2019"
+  url: "https://www.iso.org/standard/22301"
+  publisher: "ISO"
+  section: planning-and-standards
+  kind: standard
+  cost: paid
+  description: "ISO's page for ISO 22301:2019, which sets requirements for a business continuity management system: an explanation, a preview, and the standard for sale."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.iso.org/standard/22301"
+    how: script
+  notes: "Cost from the purchase box on the page, which priced the standard at CHF 155 on 2026-11-25; the explanation and the preview are free to read. https://www.iso.org/standard/75106.html redirects here."
+
+- id: microsoft-ransomware-backup-plan
+  name: "Backup and restore plan to protect against ransomware"
+  url: "https://learn.microsoft.com/en-us/azure/security/fundamentals/backup-plan-to-protect-against-ransomware"
+  publisher: "Microsoft"
+  section: planning-and-standards
+  kind: documentation
+  cost: free
+  description: "Microsoft's guidance on backups and ransomware: steps to take ahead of an attack and during one, validating backups, and the part Azure Backup plays."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/security/fundamentals/backup-plan-to-protect-against-ransomware"
+    how: script
+
+- id: restic
+  name: "restic"
+  url: "https://restic.net/"
+  publisher: "restic"
+  section: backup-tools
+  kind: tool
+  cost: free
+  description: "Open source backup program for Windows, Mac, Linux, and BSD that sends backups protected by cryptography to many kinds of storage from a single executable."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://restic.net/"
+    how: script
+  notes: "Publisher is the project; the page names no organization. The page says restic is entirely free to use; it has no pricing page."
+
+- id: borgbackup
+  name: "BorgBackup"
+  url: "https://www.borgbackup.org/"
+  publisher: "BorgBackup"
+  section: backup-tools
+  kind: tool
+  cost: free
+  description: "Site of BorgBackup, a backup archiver that deduplicates, compresses, and encrypts with authentication; BSD licensed, with archives that can be mounted as a filesystem."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.borgbackup.org/"
+    how: script
+  notes: "Publisher is the project; the page names no organization. No pricing page."
+
+- id: duplicati
+  name: "Duplicati"
+  url: "https://duplicati.com/"
+  publisher: "Duplicati"
+  section: backup-tools
+  kind: tool
+  cost: freemium
+  description: "Backup software with an open source engine for encrypted backups to S3, WebDAV, SFTP, or local storage; its console has free and paid plans."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://duplicati.com/"
+    how: script
+  notes: "Cost from https://duplicati.com/pricing, read on 2026-11-25: a console plan at no charge for a small number of machines, and paid plans priced per machine per month. Publisher is the product's own name; the page names no company."
+
+- id: bacula
+  name: "Bacula"
+  url: "https://www.bacula.org/"
+  publisher: "Bacula"
+  section: backup-tools
+  kind: tool
+  cost: free
+  description: "Site of Bacula, an open source backup system for Windows, Mac, and Linux machines: release announcements, manuals, and downloads."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.bacula.org/"
+    how: script
+  notes: "Publisher from the footer copyright. No pricing page on this site."
+
+- id: bareos
+  name: "Bareos"
+  url: "https://www.bareos.com/"
+  publisher: "Bareos GmbH & Co. KG"
+  section: backup-tools
+  kind: tool
+  cost: freemium
+  description: "Backup software, open source, for databases, applications, and physical or virtual machines, writing to tape, disk, or object storage; subscriptions and support are sold."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.bareos.com/"
+    how: script
+  notes: "Cost from https://www.bareos.com/pricing/, read on 2026-11-25: subscriptions priced per unit per year, and support levels priced per year. The software itself is open source. Publisher from the footer copyright."
+
+- id: rsync
+  name: "rsync"
+  url: "https://rsync.samba.org/"
+  publisher: "rsync project"
+  section: backup-tools
+  kind: tool
+  cost: free
+  description: "Home of rsync, an open source utility for fast incremental file transfer: downloads, documentation, examples, an FAQ, and release news."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://rsync.samba.org/"
+    how: script
+  notes: "The page says rsync is maintained by the rsync project; the site is hosted on samba.org."
+
+- id: rclone
+  name: "Rclone"
+  url: "https://rclone.org/"
+  publisher: "Nick Craig-Wood"
+  section: backup-tools
+  kind: tool
+  cost: free
+  description: "Command-line program for managing and syncing files on cloud storage, with a long list of supported providers and a layer that encrypts other remotes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://rclone.org/"
+    how: script
+  notes: "Publisher from the footer copyright. No pricing page."
+
+- id: urbackup
+  name: "UrBackup"
+  url: "https://www.urbackup.org/"
+  publisher: "Martin Raiber"
+  section: backup-tools
+  kind: tool
+  cost: free
+  description: "Client/server backup system, open source, that takes both file and image backups of Windows and Linux machines; with downloads, documentation, and release news."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.urbackup.org/"
+    how: script
+  notes: "Publisher from the footer copyright. The site's menu has a Commercial section, which the entry does not cover."
+
+- id: kopia
+  name: "Kopia"
+  url: "https://kopia.io/"
+  publisher: "Kopia Project"
+  section: backup-tools
+  kind: tool
+  cost: free
+  description: "Open source backup software with a GUI and a CLI for Linux, macOS, and Windows: deduplicated, compressed, and encrypted backups to cloud storage you choose."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://kopia.io/"
+    how: script
+  notes: "Publisher from the footer copyright. No pricing page."
+
+- id: velero
+  name: "Velero"
+  url: "https://velero.io/"
+  publisher: "Velero, a CNCF project"
+  section: backup-tools
+  kind: tool
+  cost: free
+  description: "Open source tool that backs up and restores the resources of a Kubernetes cluster, including persistent volumes, for disaster recovery and migration."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://velero.io/"
+    how: script
+  notes: "The page says Velero has been accepted into the Cloud Native Computing Foundation as a Sandbox project."
+
+- id: proxmox-backup-server-documentation
+  name: "Proxmox Backup documentation"
+  url: "https://pbs.proxmox.com/docs/"
+  publisher: "Proxmox Server Solutions GmbH"
+  section: backup-tools
+  kind: documentation
+  cost: free
+  description: "Documentation for Proxmox Backup Server: installation, backup storage, the backup client, Proxmox VE integration, tape backup, remotes and sync, and maintenance tasks."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pbs.proxmox.com/docs/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: duplicacy
+  name: "Duplicacy"
+  url: "https://duplicacy.com/"
+  publisher: "Acrosync LLC"
+  section: backup-tools
+  kind: tool
+  cost: freemium
+  description: "Backup tool for cloud storage that deduplicates and encrypts on the client side; licenses are subscriptions, with the CLI version free for personal use."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://duplicacy.com/"
+    how: script
+  notes: "Cost from https://duplicacy.com/buy.html, read on 2026-11-25: personal and commercial licenses for the GUI version and a license for the CLI version, all by subscription; the CLI version is free for personal use. Publisher from the footer copyright."
+
+- id: windows-server-backup-wbadmin
+  name: "wbadmin"
+  url: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wbadmin"
+  publisher: "Microsoft"
+  section: platform-and-vendor-backup
+  kind: documentation
+  cost: free
+  description: "Microsoft's reference for wbadmin, the command that backs up and restores a Windows system, volumes, files, and applications, with each subcommand explained."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wbadmin"
+    how: script
+
+- id: azure-backup-documentation
+  name: "Azure Backup service documentation"
+  url: "https://learn.microsoft.com/en-us/azure/backup/"
+  publisher: "Microsoft"
+  section: platform-and-vendor-backup
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for Azure Backup: an overview, what is new, and guides for backing up Azure virtual machines, storage, and databases."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/backup/"
+    how: script
+  notes: "The page links the service's pricing; the entry covers the documentation."
+
+- id: aws-backup-documentation
+  name: "AWS Backup Documentation"
+  url: "https://docs.aws.amazon.com/aws-backup/"
+  publisher: "Amazon Web Services"
+  section: platform-and-vendor-backup
+  kind: documentation
+  cost: free
+  description: "AWS's documentation set for AWS Backup: the developer guide, the API reference, and the CLI reference."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/aws-backup/"
+    how: script
+
+- id: google-cloud-backup-and-dr-documentation
+  name: "Backup and DR documentation (Google Cloud)"
+  url: "https://docs.cloud.google.com/backup-disaster-recovery/docs"
+  publisher: "Google"
+  section: platform-and-vendor-backup
+  kind: documentation
+  cost: free
+  description: "Google's documentation for its Backup and DR service, which protects copies of workload data for disaster recovery and business continuity: guides, reference, and resources."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/backup-disaster-recovery/docs"
+    how: script
+  notes: "The page's heading is Backup and DR documentation; the words in parentheses are the catalog's. https://cloud.google.com/backup-disaster-recovery/docs redirects here."
+
+- id: microsoft-365-backup-documentation
+  name: "Overview of Microsoft 365 Backup"
+  url: "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview"
+  publisher: "Microsoft"
+  section: platform-and-vendor-backup
+  kind: documentation
+  cost: free
+  description: "Microsoft's overview of Microsoft 365 Backup for SharePoint sites, OneDrive accounts, and Exchange mailboxes: scenarios, features, architecture, performance, scale limits, and billing."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview?view=o365-worldwide"
+    how: script
+  notes: "The service is billed pay-as-you-go, as the page says; the entry covers the documentation."
+
+- id: veeam-help-center
+  name: "Veeam Help Center"
+  url: "https://helpcenter.veeam.com/"
+  publisher: "Veeam Software"
+  section: platform-and-vendor-backup
+  kind: documentation
+  cost: free
+  description: "Veeam's documentation by product: Veeam Data Platform for backup, recovery, and replication, Veeam Data Cloud, Veeam ONE monitoring, and Kasten for Kubernetes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://helpcenter.veeam.com/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: active-directory-forest-recovery-guide
+  name: "Active Directory forest recovery guide"
+  url: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-guide"
+  publisher: "Microsoft"
+  section: platform-and-vendor-backup
+  kind: documentation
+  cost: free
+  description: "Microsoft's guide to bringing back an Active Directory forest after a failure that stops every domain controller, with steps to adapt into your own plan."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-guide"
+    how: script
+
+- id: azure-site-recovery-documentation
+  name: "Azure Site Recovery documentation"
+  url: "https://learn.microsoft.com/en-us/azure/site-recovery/"
+  publisher: "Microsoft"
+  section: disaster-recovery-and-resilience
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for Azure Site Recovery: protecting Azure VMs, VMware VMs, and Hyper-V VMs against disaster, with quickstarts, tutorials, and how-to guides."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/site-recovery/"
+    how: script
+  notes: "The page links the service's pricing; the entry covers the documentation."
+
+- id: aws-reliability-pillar
+  name: "Reliability (AWS Well-Architected Framework)"
+  url: "https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability.html"
+  publisher: "Amazon Web Services"
+  section: disaster-recovery-and-resilience
+  kind: reference
+  cost: free
+  description: "The reliability pillar of AWS's Well-Architected Framework, in four parts: foundations, architecting the workload, managing change, and managing failure, including disaster recovery planning."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability.html"
+    how: script
+  notes: "The page's heading is Reliability. https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html redirects here."
+
+- id: aws-disaster-recovery-whitepaper
+  name: "Disaster Recovery of Workloads on AWS: Recovery in the Cloud"
+  url: "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html"
+  publisher: "Amazon Web Services"
+  section: disaster-recovery-and-resilience
+  kind: reference
+  cost: free
+  description: "AWS whitepaper on recovering workloads on AWS after a disaster: planning and testing, with approaches matched to recovery time and recovery point objectives."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html"
+    how: script
+  notes: "The page gives a publication date of February 12, 2021 and links a document history."
+
+- id: azure-reliability-documentation
+  name: "Azure reliability documentation"
+  url: "https://learn.microsoft.com/en-us/azure/reliability/"
+  publisher: "Microsoft"
+  section: disaster-recovery-and-resilience
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation on reliability in Azure: a reliability guide for each service, the role of regions and availability zones in disaster recovery, and core concepts."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/reliability/"
+    how: script
+
+- id: google-cloud-disaster-recovery-planning-guide
+  name: "Disaster recovery planning guide (Google Cloud)"
+  url: "https://docs.cloud.google.com/architecture/dr-scenarios-planning-guide"
+  publisher: "Google"
+  section: disaster-recovery-and-resilience
+  kind: reference
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2024-07-05"
+  description: "First part of Google's series on disaster recovery in Google Cloud: recovery time and recovery point objectives, DR patterns, and creating a detailed plan."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/architecture/dr-scenarios-planning-guide"
+    how: script
+  notes: "The page says it was last reviewed on 2024-07-05. The words in parentheses are the catalog's. https://cloud.google.com/architecture/dr-scenarios-planning-guide redirects here."
+
+- id: principles-of-chaos-engineering
+  name: "Principles of Chaos Engineering"
+  url: "https://principlesofchaos.org/"
+  publisher: "chaos-eng (GitHub organization)"
+  section: disaster-recovery-and-resilience
+  kind: reference
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2019-03"
+  description: "The principles of chaos engineering in one page: a hypothesis about steady state, varied real-world events, experiments in production, automation, and a small blast radius."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://principlesofchaos.org/"
+    how: script
+  notes: "The page says its last update was in March 2019. It names no operator and links its source under the GitHub organization chaos-eng."
+
+- id: chaos-monkey
+  name: "Chaos Monkey"
+  url: "https://github.com/Netflix/chaosmonkey"
+  publisher: "Netflix"
+  section: disaster-recovery-and-resilience
+  kind: tool
+  cost: free
+  maintenance:
+    state: dormant
+    since: "2024-10-03"
+  description: "Netflix's tool that shuts down production containers and virtual machines at random, so that engineers build services able to survive such failures."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/Netflix/chaosmonkey"
+    how: script
+  notes: "Publisher is the GitHub organization. Apache-2.0 license. Last commit on the default branch: 2024-10-03."
+
+- id: litmuschaos
+  name: "LitmusChaos"
+  url: "https://litmuschaos.io/"
+  publisher: "LitmusChaos, a CNCF project"
+  section: disaster-recovery-and-resilience
+  kind: tool
+  cost: free
+  description: "Platform for chaos engineering, open source and hosted by the CNCF: teams run controlled chaos tests to find weaknesses in infrastructure; aimed at Kubernetes users."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://litmuschaos.io/"
+    how: script
+  notes: "The page calls Litmus CNCF-hosted. Publisher name from the footer copyright, LitmusChaos Authors."
+
+- id: azure-chaos-studio-documentation
+  name: "Chaos Studio Workspaces documentation"
+  url: "https://learn.microsoft.com/en-us/azure/chaos-studio/"
+  publisher: "Microsoft"
+  section: disaster-recovery-and-resilience
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for Azure Chaos Studio: testing an application's resilience with Workspaces, outage scenarios, and reports; the older Experiments model is being replaced."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/chaos-studio/"
+    how: script

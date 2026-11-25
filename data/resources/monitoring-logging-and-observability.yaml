@@ -1,0 +1,581 @@
+# Resources in the domain "monitoring-logging-and-observability". One record per resource; field rules are in docs/DATA.md.
+# The file name is the domain id from data/taxonomy.yaml.
+
+- id: prometheus-documentation
+  name: "Prometheus documentation"
+  url: "https://prometheus.io/docs/introduction/overview/"
+  publisher: "Prometheus, a CNCF project"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "The Prometheus project's documentation, opening with an overview of the monitoring and alerting toolkit: features, components, architecture, and when it fits or does not."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://prometheus.io/docs/introduction/overview/"
+    how: script
+  notes: "The page's heading is Overview. The page says Prometheus joined the Cloud Native Computing Foundation in 2016."
+
+- id: grafana-documentation
+  name: "Grafana OSS and Enterprise documentation"
+  url: "https://grafana.com/docs/grafana/latest/"
+  publisher: "Grafana Labs"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "Grafana Labs' documentation for the open source and Enterprise editions of Grafana, which queries, visualizes, and alerts on metrics, logs, and traces."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://grafana.com/docs/grafana/latest/"
+    how: script
+  notes: "The page links Grafana Labs' pricing for its paid editions and cloud; the entry covers the documentation."
+
+- id: zabbix-documentation
+  name: "Zabbix user manual"
+  url: "https://www.zabbix.com/documentation/current/en/manual"
+  publisher: "Zabbix SIA"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "Zabbix's user manual by version, with a getting-started path and links to its developer center and community resources."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.zabbix.com/documentation/current/en/manual"
+    how: script
+  notes: "The page's heading is Docs and its title is User manual. Publisher from the footer copyright."
+
+- id: nagios-documentation
+  name: "Nagios Documentation"
+  url: "https://www.nagios.org/documentation/"
+  publisher: "Nagios Enterprises"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "Install guides and references for Nagios Core, with documentation for its companion projects: the NCPA agent, plugins, Mod-Gearman, and visualization add-ons."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.nagios.org/documentation/"
+    how: script
+  notes: "Publisher from the footer copyright, Nagios Enterprises, LLC."
+
+- id: icinga-documentation
+  name: "Icinga Documentation"
+  url: "https://icinga.com/docs/"
+  publisher: "Icinga GmbH"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "Icinga's documentation: an installation walkthrough for a self-hosted monitoring system, core products and components, notifications, Kubernetes monitoring, FAQs, and a live demo."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://icinga.com/docs/"
+    how: script
+  notes: "The page links Icinga's subscriptions and pricing; the entry covers the documentation."
+
+- id: checkmk-documentation
+  name: "The official Checkmk User Guide"
+  url: "https://docs.checkmk.com/latest/en/"
+  publisher: "Checkmk"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "The Checkmk user guide by version: a beginner's guide to setting up a first monitoring site, then chapters on running the monitoring software."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.checkmk.com/latest/en/"
+    how: script
+  notes: "Publisher is the product's own name; the page names no company."
+
+- id: librenms-documentation
+  name: "LibreNMS Docs"
+  url: "https://docs.librenms.org/"
+  publisher: "LibreNMS"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "Documentation for LibreNMS: installation, with a Docker option, auto discovery, alerting rules and transports, the API, and developer guidance for adding an operating system."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.librenms.org/"
+    how: script
+  notes: "The page's heading is Home. Publisher is the project; the page names no organization."
+
+- id: uptime-kuma
+  name: "Uptime Kuma"
+  url: "https://github.com/louislam/uptime-kuma"
+  publisher: "Louis Lam (louislam)"
+  section: metrics-and-monitoring-systems
+  kind: tool
+  cost: free
+  description: "Self-hosted monitoring tool that checks uptime over HTTP, TCP, ping, DNS, and other monitor types and sends notifications through many services; with a live demo."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/louislam/uptime-kuma"
+    how: script
+  notes: "MIT license. Last commit on the default branch: 2026-11-25."
+
+- id: telegraf-documentation
+  name: "Telegraf documentation"
+  url: "https://docs.influxdata.com/telegraf/v1/"
+  publisher: "InfluxData"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "InfluxData's documentation for Telegraf, an agent built from plugins that collects, processes, and writes metrics and events, compiled as a single binary."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.influxdata.com/telegraf/v1/"
+    how: script
+
+- id: victoriametrics-documentation
+  name: "VictoriaMetrics Docs"
+  url: "https://docs.victoriametrics.com/"
+  publisher: "VictoriaMetrics"
+  section: metrics-and-monitoring-systems
+  kind: documentation
+  cost: free
+  description: "VictoriaMetrics' documentation: the open source time series database, VictoriaLogs, and VictoriaTraces, plus the Enterprise edition, the cloud service, and anomaly detection."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.victoriametrics.com/"
+    how: script
+  notes: "The page links plans for the Enterprise edition and the cloud service; the entry covers the documentation."
+
+- id: prometheus-node-exporter
+  name: "Node exporter"
+  url: "https://github.com/prometheus/node_exporter"
+  publisher: "Prometheus, a CNCF project"
+  section: metrics-and-monitoring-systems
+  kind: tool
+  cost: free
+  description: "Prometheus exporter for the hardware and operating system metrics of Unix-like kernels, with pluggable collectors; its page points Windows users to the Windows exporter."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/prometheus/node_exporter"
+    how: script
+  notes: "Publisher follows the Prometheus documentation entry; the repository belongs to the prometheus organization on GitHub. Apache-2.0 license. Last commit on the default branch: 2026-11-19."
+
+- id: windows-exporter
+  name: "windows_exporter"
+  url: "https://github.com/prometheus-community/windows_exporter"
+  publisher: "Prometheus Monitoring Community"
+  section: metrics-and-monitoring-systems
+  kind: tool
+  cost: free
+  description: "Collects metrics from Windows machines and their services for Prometheus, through collectors such as the Active Directory one; example dashboards and alerting rules are included."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/prometheus-community/windows_exporter"
+    how: script
+  notes: "Publisher is the display name of the GitHub organization. MIT license. Last commit on the default branch: 2026-11-24."
+
+- id: elastic-documentation
+  name: "Elastic Docs"
+  url: "https://www.elastic.co/docs"
+  publisher: "Elastic"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Elastic's documentation for Elastic Cloud Serverless and for Elastic Stack from version 9: solutions and use cases, platform guides, reference, and an upgrade guide."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.elastic.co/docs"
+    how: script
+  notes: "Publisher from the footer copyright, Elasticsearch B.V."
+
+- id: opensearch-documentation
+  name: "OpenSearch Documentation"
+  url: "https://docs.opensearch.org/latest/index.html"
+  publisher: "OpenSearch, a Linux Foundation project"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Documentation for OpenSearch, an open source suite for search, analytics, and observability: OpenSearch and its Dashboards, Data Prepper, clients, the benchmark tool, and Migration Assistant."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.opensearch.org/latest/index.html"
+    how: script
+  notes: "Publisher from the footer copyright, OpenSearch Project a Series of LF Projects, LLC. https://docs.opensearch.org/ redirects here."
+
+- id: graylog-documentation
+  name: "Graylog Documentation"
+  url: "https://go2docs.graylog.org/current/home.htm"
+  publisher: "Graylog"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Graylog's documentation by version: what Graylog is, then Graylog Enterprise, Graylog Security, Illuminate, and API Security."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://go2docs.graylog.org/current/home.htm"
+    how: script
+  notes: "Publisher from the footer copyright, Graylog, Inc."
+
+- id: grafana-loki-documentation
+  name: "Grafana Loki documentation"
+  url: "https://grafana.com/docs/loki/latest/"
+  publisher: "Grafana Labs"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Grafana Labs' documentation for Loki, the open source components of its logging stack, with an overview and FAQs on starting out, self-hosting, and labels."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://grafana.com/docs/loki/latest/"
+    how: script
+
+- id: fluent-bit-documentation
+  name: "Fluent Bit documentation"
+  url: "https://docs.fluentbit.io/manual"
+  publisher: "Fluent Bit, a CNCF project"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "The Fluent Bit manual: an agent that collects logs, metrics, and traces on Linux, Windows, macOS, and BSD; the page points to upgrade notes."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.fluentbit.io/manual"
+    how: script
+  notes: "The page says Fluent Bit is a CNCF graduated sub-project under the umbrella of Fluentd."
+
+- id: fluentd-documentation
+  name: "Fluentd Documentation"
+  url: "https://docs.fluentd.org/"
+  publisher: "Fluentd, a CNCF project"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Documentation for Fluentd, which collects log data into one logging layer and is open source: installation by package, configuration, deployment, and plugin management."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.fluentd.org/"
+    how: script
+  notes: "The page's heading is Introduction. The page says Fluentd is a project under the Cloud Native Computing Foundation and is made and sponsored by Treasure Data."
+
+- id: vector-documentation
+  name: "The Vector documentation"
+  url: "https://vector.dev/docs/"
+  publisher: "Datadog"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Datadog's documentation for Vector, a tool that builds observability pipelines: introduction, setup, architecture, administration, and reference."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://vector.dev/docs/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: rsyslog-documentation
+  name: "rsyslog documentation"
+  url: "https://docs.rsyslog.com/doc/"
+  publisher: "rsyslog (Rainer Gerhards and others)"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "The official rsyslog documentation, which warns against outdated copies elsewhere: beginner tutorials from installation to a first configuration, then reference and troubleshooting."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.rsyslog.com/doc/"
+    how: script
+  notes: "Publisher from the footer copyright. https://www.rsyslog.com/doc/ redirects to this site."
+
+- id: syslog-ng-documentation
+  name: "syslog-ng documentation"
+  url: "https://syslog-ng.github.io/"
+  publisher: "One Identity"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Documentation center for syslog-ng OSE: the administration guide, the developer guide, and how to contribute to the documentation."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://syslog-ng.github.io/"
+    how: script
+  notes: "The page's heading is Introduction. Publisher from the copyright section of the page, One Identity LLC."
+
+- id: logstash-documentation
+  name: "Logstash"
+  url: "https://www.elastic.co/docs/reference/logstash"
+  publisher: "Elastic"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Elastic's reference for Logstash, its open source engine for collecting data from many sources, normalizing it, and sending it to chosen destinations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.elastic.co/docs/reference/logstash"
+    how: script
+  notes: "Publisher follows the Elastic Docs entry; the page is part of that site."
+
+- id: systemd-journald
+  name: "systemd-journald.service"
+  url: "https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.service.html"
+  publisher: "systemd"
+  section: logs-and-log-pipelines
+  kind: documentation
+  cost: free
+  description: "Manual page for the systemd journal service, which collects and stores log data: stream logging, journal namespaces, signals, access control, and the files it uses."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.service.html"
+    how: script
+  notes: "Publisher is the project; the page names no organization."
+
+- id: opentelemetry-documentation
+  name: "OpenTelemetry Documentation"
+  url: "https://opentelemetry.io/docs/"
+  publisher: "OpenTelemetry Authors"
+  section: tracing-and-open-standards
+  kind: documentation
+  cost: free
+  description: "Documentation for OpenTelemetry, an open source, vendor-neutral framework for instrumenting software and collecting and exporting traces, metrics, and logs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://opentelemetry.io/docs/"
+    how: script
+  notes: "Publisher from the footer copyright."
+
+- id: jaeger-documentation
+  name: "Jaeger Documentation"
+  url: "https://www.jaegertracing.io/docs/latest/"
+  publisher: "Jaeger, a CNCF project"
+  section: tracing-and-open-standards
+  kind: documentation
+  cost: free
+  description: "Documentation for Jaeger, a distributed tracing platform first released by Uber and now a CNCF project, by version, for beginners and experienced users."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.jaegertracing.io/docs/2.23/"
+    how: script
+  notes: "The address leads to the newest version, 2.23 on 2026-11-25. The page's heading is Introduction."
+
+- id: grafana-tempo-documentation
+  name: "Grafana Tempo documentation"
+  url: "https://grafana.com/docs/tempo/latest/"
+  publisher: "Grafana Labs"
+  section: tracing-and-open-standards
+  kind: documentation
+  cost: free
+  description: "Grafana Labs' documentation for Tempo, a backend for distributed tracing: searching traces, generating metrics from spans, and linking traces with logs and metrics."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://grafana.com/docs/tempo/latest/"
+    how: script
+
+- id: rfc-5424
+  name: "RFC 5424: The Syslog Protocol"
+  url: "https://www.rfc-editor.org/info/rfc5424/"
+  publisher: "IETF"
+  section: tracing-and-open-standards
+  kind: standard
+  cost: free
+  description: "Specifies the syslog protocol for carrying event notification messages, with a layered design and a structured message format; it obsoletes RFC 3164."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc5424/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force."
+
+- id: rfc-3411
+  name: "RFC 3411: An Architecture for Describing Simple Network Management Protocol (SNMP) Management Frameworks"
+  url: "https://www.rfc-editor.org/info/rfc3411/"
+  publisher: "IETF"
+  section: tracing-and-open-standards
+  kind: standard
+  cost: free
+  description: "Describes the SNMP management framework architecture: engines, applications, and subsystems for security and for access control; part of Internet Standard 62; later RFCs update it."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.rfc-editor.org/info/rfc3411/"
+    how: script
+  notes: "Publisher from the site footer, which says the site is maintained by the Internet Engineering Task Force. On 2026-11-25 the page said this RFC was updated by RFC 5343 and RFC 5590."
+
+- id: azure-monitor-documentation
+  name: "Azure Monitor documentation"
+  url: "https://learn.microsoft.com/en-us/azure/azure-monitor/"
+  publisher: "Microsoft"
+  section: cloud-and-vendor-platforms
+  kind: documentation
+  cost: free
+  description: "Microsoft's documentation for Azure Monitor: aggregating and analyzing metrics, logs, and traces from services in Azure and on premises, alerting, and Application Insights."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://learn.microsoft.com/en-us/azure/azure-monitor/"
+    how: script
+
+- id: amazon-cloudwatch-documentation
+  name: "Amazon CloudWatch Documentation"
+  url: "https://docs.aws.amazon.com/cloudwatch/"
+  publisher: "Amazon Web Services"
+  section: cloud-and-vendor-platforms
+  kind: documentation
+  cost: free
+  description: "AWS's documentation set for CloudWatch, its service for monitoring AWS resources and applications: the user guide and the API references for its component services."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.aws.amazon.com/cloudwatch/"
+    how: script
+
+- id: google-cloud-observability-documentation
+  name: "Observability in Google Cloud"
+  url: "https://docs.cloud.google.com/stackdriver/docs"
+  publisher: "Google"
+  section: cloud-and-vendor-platforms
+  kind: documentation
+  cost: free
+  description: "Google's documentation for its observability services, including Cloud Monitoring, Cloud Logging, Cloud Trace, and Error Reporting, with application monitoring and PromQL querying."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.cloud.google.com/stackdriver/docs"
+    how: script
+  notes: "https://cloud.google.com/stackdriver/docs redirects here."
+
+- id: datadog-documentation
+  name: "Datadog Docs"
+  url: "https://docs.datadoghq.com/"
+  publisher: "Datadog"
+  section: cloud-and-vendor-platforms
+  kind: documentation
+  cost: free
+  description: "Datadog's documentation, opening with first steps: installing the Agent on hosts, setting up integrations for metrics, traces, and logs, and creating dashboards and monitors."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.datadoghq.com/"
+    how: script
+  notes: "The page links Datadog's product pricing; the entry covers the documentation."
+
+- id: prometheus-alertmanager
+  name: "Alertmanager"
+  url: "https://prometheus.io/docs/alerting/latest/alertmanager/"
+  publisher: "Prometheus, a CNCF project"
+  section: alerting-and-practice
+  kind: documentation
+  cost: free
+  description: "Prometheus documentation for Alertmanager, which deduplicates, groups, and routes alerts to receivers such as email, and handles silencing and inhibition."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://prometheus.io/docs/alerting/latest/alertmanager/"
+    how: script
+
+- id: awesome-prometheus-alerts
+  name: "Awesome Prometheus Alerts"
+  url: "https://samber.github.io/awesome-prometheus-alerts/"
+  publisher: "Samuel Berthe (samber)"
+  section: alerting-and-practice
+  kind: reference
+  cost: free
+  description: "Collection of Prometheus alerting rules to copy, grouped by service and category, from host and hardware to databases and Kubernetes; rules are CC BY 4.0."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://samber.github.io/awesome-prometheus-alerts/"
+    how: script
+  notes: "The footer credits the GitHub account samber, whose profile name is Samuel Berthe. Last commit on the default branch of the source repository: 2026-11-14."
+
+- id: google-sre-book
+  name: "Site Reliability Engineering (Google SRE book)"
+  url: "https://sre.google/sre-book/table-of-contents/"
+  publisher: "Google"
+  section: alerting-and-practice
+  kind: reference
+  cost: free
+  description: "Table of contents of Google's book Site Reliability Engineering, readable online: principles such as service level objectives, eliminating toil, and monitoring distributed systems, then practices."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://sre.google/sre-book/table-of-contents/"
+    how: script
+  notes: "The page's heading is Table of Contents. The book list at https://sre.google/books/, one click away, offers each book to read online or buy; the entry covers the online text."
+
+- id: google-sre-workbook
+  name: "The Site Reliability Workbook (Google SRE workbook)"
+  url: "https://sre.google/workbook/table-of-contents/"
+  publisher: "Google"
+  section: alerting-and-practice
+  kind: reference
+  cost: free
+  description: "Table of contents of Google's Site Reliability Workbook, readable online: implementing SLOs, monitoring, alerting on SLOs, on-call, incident response, and postmortem culture."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://sre.google/workbook/table-of-contents/"
+    how: script
+  notes: "The page's heading is Table of Contents and its title calls the book the SRE workbook; the full name is from the book list at https://sre.google/books/, one click away, which offers each book to read online or buy. The entry covers the online text."
+
+- id: pagerduty-incident-response
+  name: "Incident Response Guide (PagerDuty)"
+  url: "https://docs.pagerduty.com/ops-guides/incident-response-guide"
+  publisher: "PagerDuty"
+  section: alerting-and-practice
+  kind: reference
+  cost: free
+  description: "PagerDuty's public version of its internal incident response process: being on call, crisis response, training, and what to do before, during, and after an incident."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://docs.pagerduty.com/ops-guides/incident-response-guide"
+    how: script
+  notes: "https://response.pagerduty.com/ redirects here."
+
+- id: use-method
+  name: "The USE Method"
+  url: "https://www.brendangregg.com/usemethod.html"
+  publisher: "Brendan Gregg"
+  section: alerting-and-practice
+  kind: reference
+  cost: free
+  description: "Brendan Gregg's USE Method for finding performance problems: for each resource, look at utilization, then saturation, then errors; with resource lists and suggested interpretations."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.brendangregg.com/usemethod.html"
+    how: script
+  notes: "Publisher is the site's author; the page is on his personal site."
+
+- id: healthchecks-io
+  name: "Healthchecks.io"
+  url: "https://healthchecks.io/"
+  publisher: "SIA Monkey See Monkey Do"
+  section: alerting-and-practice
+  kind: service
+  cost: freemium
+  description: "Cron job monitoring: each job requests its own ping address when it runs, and a late ping raises an alert; free for a few jobs."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://healthchecks.io/"
+    how: script
+  notes: "Cost from https://healthchecks.io/pricing/, read on 2026-11-25: a Hobbyist plan at no charge with a limit on jobs, and paid plans above it. Every plan needs an account. Publisher from the footer copyright."

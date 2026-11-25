@@ -287,19 +287,34 @@ domains:
     title: "Automation and scripting"
     covers: "PowerShell, shell, Python, and infrastructure as code: language references, module galleries, and configuration management documentation."
     boundary: "Scripts and tools for a single platform sit with that platform."
-    sections: []
+    sections:
+      - {id: powershell, title: "PowerShell", question: "Where is the reference for this cmdlet, module, or practice?"}
+      - {id: shell-and-command-line, title: "Shell and command line", question: "What does this command or expression do?"}
+      - {id: python, title: "Python", question: "Where do I look things up when I script in Python?"}
+      - {id: configuration-management, title: "Configuration management", question: "How do I describe a machine's state once and apply it everywhere?"}
+      - {id: version-control-and-pipelines, title: "Version control and pipelines", question: "How do I keep scripts in Git and run them automatically?"}
+      - {id: apis-and-workflow-automation, title: "APIs and workflow automation", question: "How do I describe, call, or chain services?"}
   - id: monitoring-logging-and-observability
     group: enterprise-it
     title: "Monitoring, logging, and observability"
     covers: "Metrics, logs, traces, and alerting for infrastructure and applications."
     boundary: "Security detection on that telemetry sits in Detection and response."
-    sections: []
+    sections:
+      - {id: metrics-and-monitoring-systems, title: "Metrics and monitoring systems", question: "How do I watch hosts and services?"}
+      - {id: logs-and-log-pipelines, title: "Logs and log pipelines", question: "How do I collect, ship, and search logs?"}
+      - {id: tracing-and-open-standards, title: "Tracing and open standards", question: "What do the telemetry standards say?"}
+      - {id: cloud-and-vendor-platforms, title: "Cloud and vendor platforms", question: "Where is the documentation for this monitoring service?"}
+      - {id: alerting-and-practice, title: "Alerting and practice", question: "How do I alert well and respond when it fires?"}
   - id: backup-recovery-and-resilience
     group: enterprise-it
     title: "Backup, recovery, and resilience"
     covers: "Backup products and practices, disaster recovery planning, and resilience guidance."
     boundary: "Ransomware response guidance from governments sits in Government and CERT alerts."
-    sections: []
+    sections:
+      - {id: planning-and-standards, title: "Planning and standards", question: "What should a backup and recovery plan contain?"}
+      - {id: backup-tools, title: "Backup tools", question: "What can I use to take and restore backups?"}
+      - {id: platform-and-vendor-backup, title: "Platform and vendor backup", question: "How do I back up this platform?"}
+      - {id: disaster-recovery-and-resilience, title: "Disaster recovery and resilience", question: "How do I design for failure and test it?"}
   - id: it-service-management-and-operations
     group: enterprise-it
     title: "IT service management and operations"
