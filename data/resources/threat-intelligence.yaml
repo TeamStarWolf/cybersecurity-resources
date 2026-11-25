@@ -69,13 +69,13 @@
   section: indicator-lookup
   kind: service
   cost: free-with-account
-  description: "Scans a submitted file with YARA rules shared on the site, with search over past scans, hunting alerts, and an API; run by abuse.ch."
+  description: "Scans a submitted file against YARA rules, both public ones and non-public ones from Malpedia, with file search, hunting alerts, and an API."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://yaraify.abuse.ch/"
     how: script
-  notes: "Scanning a file on the site needs no account. The API needs a free abuse.ch Auth-Key; the API page says commercial use may need a paid subscription."
+  notes: "Scanning a file on the site needs no account. The API needs a free abuse.ch Auth-Key; the API page says commercial use may need a paid subscription. The rule set is described in the FAQ (https://yaraify.abuse.ch/faq/). The home page says the platform is from abuse.ch and Spamhaus; the About page says it is operated by abuse.ch."
 
 - id: virustotal
   name: "VirusTotal"
@@ -465,7 +465,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Kaspersky's research site, home of its GReAT team: malware and crimeware reports, vulnerability write-ups, industrial threats, and incident response posts."
+  description: "Kaspersky's research site: GReAT research, malware and crimeware reports, vulnerability write-ups, industrial threats, and incident response posts."
   checked:
     date: "2026-11-25"
     status: 200
@@ -868,12 +868,13 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Elastic's research group: malware and intrusion analyses, detection engineering articles, and the tools it releases alongside them."
+  description: "Elastic's security research: malware analysis and threat intelligence in its Threat Command section, detection engineering articles, and free tools."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.elastic.co/security-labs"
     how: script
+  notes: "The malware analysis and threat intelligence categories are on the linked Threat Command section (https://www.elastic.co/security-labs/threat-command), not on the landing page."
 
 - id: rapid7-blog
   name: "Rapid7 Blog"
@@ -1036,7 +1037,7 @@
   section: research-blogs
   kind: research
   cost: free
-  description: "Research from Team Cymru on named threat actors, mapped command-and-control infrastructure, and ransomware."
+  description: "Posts by Team Cymru analysts that trace the servers behind ransomware and other threat groups, drawing on the company's own network telemetry."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1093,12 +1094,13 @@
   section: indicator-lookup
   kind: service
   cost: freemium
-  description: "Opens a submitted URL in a real browser and records what the page loads and does; past scans are searchable, with paid tiers for teams."
+  description: "Opens a submitted URL in headless Chrome and records what the page loads and does; past scans are searchable, with paid tiers for teams."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://urlscan.io/"
     how: script
+  notes: "The browser is named in the FAQ (https://docs.urlscan.io/pages/faq), not on the home page."
 
 - id: spamhaus
   name: "Spamhaus"
@@ -1388,7 +1390,7 @@
     status: 200
     final: "https://viewdns.info/"
     how: script
-  notes: "The API pricing page lists a free sandbox of 250 trial queries and paid plans from 49 dollars a month."
+  notes: "The API pricing page (https://viewdns.info/api/pricing/) lists a free sandbox of 250 trial queries, named plans from 49 dollars a month, and a monthly subscription table that starts at 29 dollars for 1,000 queries."
 
 - id: ransomware-live
   name: "Ransomware.live"
@@ -1601,12 +1603,13 @@
   section: platforms-and-standards
   kind: tool
   cost: free
-  description: "Lets analysts submit an observable once and have many analyzers examine it and trigger response actions; works with TheHive and MISP."
+  description: "Analysis and response engine: analysts send in observables, singly or in bulk, and its analyzers examine them; works with TheHive and MISP."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/TheHive-Project/Cortex"
     how: script
+  notes: "Response rests on the repository's one-line description, which calls Cortex an observable analysis and active response engine; the README body describes analysis only."
 
 - id: domaintools-investigations
   name: "DomainTools Investigations"

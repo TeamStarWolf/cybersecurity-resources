@@ -8,12 +8,13 @@
   section: knowledge-bases
   kind: reference
   cost: free
-  description: "MITRE's matrix of attacker tactics and techniques, with linked pages for groups, software, campaigns, mitigations, and data sources; the common reference for mapping detections."
+  description: "MITRE's matrices of attacker tactics and techniques for enterprise, mobile, and ICS, with linked pages including groups, software, campaigns, mitigations, and detection strategies."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://attack.mitre.org/"
     how: script
+  notes: "The site's data sources page says data sources were deprecated in the v18 release in October 2025; the menu now lists detection strategies, analytics, and data components."
 
 - id: mitre-d3fend
   name: "MITRE D3FEND"
@@ -50,7 +51,7 @@
   section: knowledge-bases
   kind: reference
   cost: free
-  description: "MITRE's framework for active defense: how defenders can deny, deceive, and engage an adversary."
+  description: "MITRE's framework for denying, deceiving, and engaging an adversary."
   checked:
     date: "2026-11-25"
     status: 403

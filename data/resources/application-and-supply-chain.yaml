@@ -15,6 +15,7 @@
     status: 200
     final: "https://owasp.org/projects/top-ten"
     how: script
+  notes: "The ranking and the ten categories are on the linked introduction to the 2025 edition (https://owasp.org/Top10/2025/0x00_2025-Introduction/), not on the project page."
 
 - id: owasp-asvs
   name: "OWASP Application Security Verification Standard (ASVS)"

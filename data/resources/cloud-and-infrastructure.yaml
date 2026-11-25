@@ -40,12 +40,13 @@
   section: assessment-tools
   kind: tool
   cost: free
-  description: "Runs the checks of the CIS Kubernetes Benchmark against a cluster and reports which pass, with job files for EKS, AKS, and other managed services."
+  description: "Checks a Kubernetes cluster against the CIS Kubernetes Benchmark, with tests defined in YAML and job files for EKS, AKS, GKE, and other managed services."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/aquasecurity/kube-bench"
     how: script
+  notes: "The job files are in the repository's root listing (job-eks.yaml, job-aks.yaml, job-gke.yaml, and others). docs/running.md says that on managed clusters only the worker nodes can be checked."
 
 - id: kube-hunter
   name: "kube-hunter"

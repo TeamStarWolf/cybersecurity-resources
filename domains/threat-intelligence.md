@@ -27,12 +27,12 @@ Is this address, domain, URL, or file known to be bad?
 | [MalwareBazaar](https://bazaar.abuse.ch/) | abuse.ch and Spamhaus | Shared repository of malware samples, run by abuse.ch with Spamhaus: look up a sample, upload one, set alerts for new sightings, or use the API. | Dataset or feed | Free with account |
 | [ThreatFox](https://threatfox.abuse.ch/) | abuse.ch and Spamhaus | Shared database of indicators of compromise linked to malware families, run by abuse.ch with Spamhaus, with search, submission, and an API. | Dataset or feed | Free with account |
 | [Feodo Tracker](https://feodotracker.abuse.ch/) | abuse.ch | abuse.ch tracker of botnet command-and-control servers for Dridex, Emotet, TrickBot, QakBot, and BazarLoader; its datasets are empty at present. | Dataset or feed | Free |
-| [YARAify](https://yaraify.abuse.ch/) | abuse.ch and Spamhaus | Scans a submitted file with YARA rules shared on the site, with search over past scans, hunting alerts, and an API; run by abuse.ch. | Online service | Free with account |
+| [YARAify](https://yaraify.abuse.ch/) | abuse.ch and Spamhaus | Scans a submitted file against YARA rules, both public ones and non-public ones from Malpedia, with file search, hunting alerts, and an API. | Online service | Free with account |
 | [VirusTotal](https://www.virustotal.com/) | VirusTotal | File and URL analysis service: upload a file or search an indicator, knowing that submissions are shared with the security community. | Online service | Freemium |
 | [LevelBlue Open Threat Exchange (OTX)](https://otx.alienvault.com/) (formerly AlienVault OTX) | LevelBlue | Community threat exchange where participants publish pulses of indicators; search an indicator or subscribe to pulses through the API. | Online service | Free with account |
 | [AbuseIPDB](https://www.abuseipdb.com/) \* | AbuseIPDB LLC | Database of IP addresses reported for abuse, with an API to check an address, report one, or download a blocklist. | Online service | Freemium |
 | [Pulsedive](https://pulsedive.com/) | Pulsedive LLC | Threat intelligence platform for searching, scanning, and enriching IPs, URLs, and domains from open feeds and user submissions. | Online service | Freemium |
-| [urlscan.io](https://urlscan.io/) | urlscan GmbH | Opens a submitted URL in a real browser and records what the page loads and does; past scans are searchable, with paid tiers for teams. | Online service | Freemium |
+| [urlscan.io](https://urlscan.io/) | urlscan GmbH | Opens a submitted URL in headless Chrome and records what the page loads and does; past scans are searchable, with paid tiers for teams. | Online service | Freemium |
 | [Spamhaus](https://www.spamhaus.org/) | The Spamhaus Project | IP and domain reputation data, including DNS blocklists, with free datasets and tools. | Online service | Freemium |
 | [Talos IP and Domain Intelligence Center](https://talosintelligence.com/reputation_center) | Cisco Talos | Cisco Talos's lookup for the reputation of an IP address or domain. | Online service | Free |
 | [SSLBL](https://sslbl.abuse.ch/) | abuse.ch | abuse.ch list of SSL certificate fingerprints seen on botnet command-and-control servers; its JA3 fingerprint list has had no additions since August 2021. | Dataset or feed | Free |
@@ -105,7 +105,7 @@ Who publishes original threat research?
 | [Recorded Future Blog](https://www.recordedfuture.com/blog) | Recorded Future | Recorded Future's blog; research from its Insikt Group is published in a separate research section. | Research blog | Free |
 | [Check Point Research](https://research.checkpoint.com/) | Check Point | Check Point Research publications on threat actors, ransomware, and AI security. | Research blog | Free |
 | [WeLiveSecurity](https://www.welivesecurity.com/en/) | ESET | ESET's news and research site, with ESET Research reports on malware and threat groups. | Research blog | Free |
-| [Securelist](https://securelist.com/) | Kaspersky | Kaspersky's research site, home of its GReAT team: malware and crimeware reports, vulnerability write-ups, industrial threats, and incident response posts. | Research blog | Free |
+| [Securelist](https://securelist.com/) | Kaspersky | Kaspersky's research site: GReAT research, malware and crimeware reports, vulnerability write-ups, industrial threats, and incident response posts. | Research blog | Free |
 | [Volexity Blog](https://www.volexity.com/blog/) | Volexity | Volexity's write-ups of intrusions and exploitation campaigns it has investigated, alongside posts on memory forensics. | Research blog | Free |
 | [The DFIR Report](https://thedfirreport.com/) | The DFIR Report | Detailed reports drawn from observed intrusions, written to help defenders harden systems and improve detection and response. | Research blog | Freemium |
 | [Sekoia Blog](https://www.sekoia.com/blog) | Sekoia | Sekoia's blog on threat research and intelligence, detection engineering, and SOC operations. | Research blog | Free |
@@ -123,7 +123,7 @@ Who publishes original threat research?
 | [Trend Micro Research, News, and Perspectives](https://www.trendmicro.com/en_us/research.html) | Trend Micro | Research, news, and perspectives from Trend Micro, with articles now credited to TrendAI Research. | Research blog | Free |
 | [Sophos Blog: Threat Research](https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research) | Sophos | Sophos blog posts in the Threat Research category, including notes on new exploit code and patches. | Research blog | Free |
 | [Akamai Security Research](https://www.akamai.com/blog/security-research) | Akamai | Akamai's security research blog, with technical write-ups of the vulnerabilities its researchers find. | Research blog | Free |
-| [Elastic Security Labs](https://www.elastic.co/security-labs) | Elastic | Elastic's research group: malware and intrusion analyses, detection engineering articles, and the tools it releases alongside them. | Research blog | Free |
+| [Elastic Security Labs](https://www.elastic.co/security-labs) | Elastic | Elastic's security research: malware analysis and threat intelligence in its Threat Command section, detection engineering articles, and free tools. | Research blog | Free |
 | [Rapid7 Blog](https://www.rapid7.com/blog/) | Rapid7 | Rapid7's blog: vulnerability analyses from its research team, the Metasploit wrap-up, and company and product posts. | Research blog | Free |
 | [GreyNoise Blog](https://www.greynoise.io/blog) | GreyNoise | GreyNoise's blog of analysis, product tips, and research. | Research blog | Free |
 | [The Trail of Bits Blog](https://blog.trailofbits.com/) | Trail of Bits | Security research and engineering posts from Trail of Bits. | Research blog | Free |
@@ -135,7 +135,7 @@ Who publishes original threat research?
 | [Zscaler Blog: Security Research](https://www.zscaler.com/blogs?type=security-research) | Zscaler | Zscaler blog posts filtered to security research. | Research blog | Free |
 | [FortiGuard Labs Threat Research](https://www.fortinet.com/blog/threat-research) | Fortinet | Threat research posts from Fortinet's FortiGuard Labs. | Research blog | Free |
 | [Group-IB Blog](https://www.group-ib.com/blog/) | Group-IB | Group-IB's blog on current cyber threat trends. | Research blog | Free |
-| [Team Cymru Blog](https://www.team-cymru.com/blog) | Team Cymru | Research from Team Cymru on named threat actors, mapped command-and-control infrastructure, and ransomware. | Research blog | Free |
+| [Team Cymru Blog](https://www.team-cymru.com/blog) | Team Cymru | Posts by Team Cymru analysts that trace the servers behind ransomware and other threat groups, drawing on the company's own network telemetry. | Research blog | Free |
 | [Datadog Security Labs](https://securitylabs.datadoghq.com/) | Datadog | Security research and tooling that Datadog publishes for the community. | Research blog | Free |
 | [Netskope Threat Research](https://www.netskope.com/the-lens/threat-research) | Netskope | Articles and sector reports from Netskope Threat Labs, for example on malware loaders, phishing kits, and web skimmers. | Research blog | Free |
 | [Binarly Blog](https://www.binarly.io/blog) | Binarly | Binarly's research posts on flaws in boot and device firmware, such as U-Boot and UEFI, plus container and binary analysis and product news. | Research blog | Free |
@@ -171,6 +171,6 @@ Where do I store and exchange intelligence?
 | [IntelOwl](https://github.com/intelowlproject/IntelOwl) | Certego | Open source tool that gathers threat intelligence about a file, IP address, or domain from many sources with a single API request. | Tool | Free |
 | [STIX and TAXII documentation](https://oasis-open.github.io/cti-documentation/) | OASIS Cyber Threat Intelligence Technical Committee | OASIS documentation for STIX, the language and serialization format for exchanging cyber threat intelligence, and for TAXII. | Standard | Free |
 | [Traffic Light Protocol (TLP)](https://www.first.org/tlp/) | FIRST | FIRST's Traffic Light Protocol standard, with definitions and usage guidance; the page gives version 2.0 as current. | Standard | Free |
-| [Cortex](https://github.com/TheHive-Project/Cortex) | TheHive Project | Lets analysts submit an observable once and have many analyzers examine it and trigger response actions; works with TheHive and MISP. | Tool | Free |
+| [Cortex](https://github.com/TheHive-Project/Cortex) | TheHive Project | Analysis and response engine: analysts send in observables, singly or in bulk, and its analyzers examine them; works with TheHive and MISP. | Tool | Free |
 
 Of the 112 addresses on this page, 111 were opened and read on 2026-11-25. The one marked \* refused every client used for checking, a script and a browser, so that entry was written from another page of the same publisher: its feed, its documentation, its vendor site, or its repository. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

@@ -20,10 +20,10 @@ Is there already a detection for this?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [Sigma rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | The SigmaHQ rule repository: vendor-neutral detection rules grouped into generic, threat hunting, and emerging threat sets, with release packages. | Dataset or feed | Free |
+| [Sigma rules](https://github.com/SigmaHQ/sigma) | SigmaHQ | The SigmaHQ rule repository: vendor-neutral detection rules, including generic, threat hunting, and emerging threat sets, with rule packages on its release page. | Dataset or feed | Free |
 | [Detection.FYI](https://detection.fyi/) | detection.fyi | Browsable site of detection rules, each shown with its ATT&CK tags and description. | Online service | Free |
 | [Uncoder IO](https://uncoder.io/) | SOC Prime | SOC Prime's detection rule translator for Sigma and Roota; it is now part of the Prime Architect product, with trial access by request. | Online service | Paid |
-| [Elastic detection rules](https://github.com/elastic/detection-rules) | Elastic | Repository where Elastic develops, tests, and releases the rules used by Elastic Security's detection engine. | Dataset or feed | Free |
+| [Elastic detection rules](https://github.com/elastic/detection-rules) | Elastic | Elastic's repository for developing, testing, and releasing the rules that its Elastic Security detection engine runs. | Dataset or feed | Free |
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | Knowledge base of detection analytics based on the ATT&CK model, with pseudocode and some direct implementations. | Reference | Free |
 | [YARA](https://virustotal.github.io/yara/) | VirusTotal | Tool for identifying and classifying malware samples from rules that describe textual or binary patterns; its successor is YARA-X. *In maintenance mode.* | Tool | Free |
 

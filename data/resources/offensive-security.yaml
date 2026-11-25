@@ -22,7 +22,7 @@
   section: recon-and-osint
   kind: tool
   cost: free
-  description: "OWASP project that maps a target's external footprint, enumerating DNS names and subdomains from public sources and active probing."
+  description: "OWASP project that maps a target's attack surface and finds its external assets, combining public-source collection with active reconnaissance."
   checked:
     date: "2026-11-25"
     status: 200
@@ -68,7 +68,7 @@
   section: recon-and-osint
   kind: tool
   cost: free
-  description: "Reconnaissance framework for collecting public information from the web, with a console modeled on Metasploit plus command-line and web interfaces."
+  description: "Reconnaissance framework for collecting public information from the web; its look and feel follow the Metasploit Framework."
   checked:
     date: "2026-11-25"
     status: 200
@@ -153,7 +153,7 @@
   section: web-application-testing
   kind: tool
   cost: free
-  description: "Finds SQL injection in a web application and exploits it, from fingerprinting the database to taking over the host; GPLv2 with a commercial license option."
+  description: "Detects and exploits SQL injection through to database takeover, with file and command access where the backend allows; GPLv2 or a commercial license."
   checked:
     date: "2026-11-25"
     status: 200
@@ -201,6 +201,7 @@
     status: 200
     final: "https://github.com/SpecterOps/SharpHound"
     how: script
+  notes: "Active Directory is named in the linked documentation (https://bloodhound.specterops.io/collect-data/ce-collection/sharphound), not in the README."
 
 - id: impacket
   name: "Impacket"
@@ -258,6 +259,7 @@
     status: 200
     final: "https://github.com/gentilkiwi/mimikatz"
     how: script
+  notes: "LSASS is named on the wiki page for the sekurlsa module (https://github.com/gentilkiwi/mimikatz/wiki/module-~-sekurlsa); the README shows the module without naming the process."
 
 - id: responder
   name: "Responder"
@@ -304,6 +306,7 @@
     status: 200
     final: "https://www.pingcastle.com/"
     how: script
+  notes: "The maturity grade from 1 to 5 is on the Methodology page (https://www.pingcastle.com/methodology/)."
 
 - id: metasploit-framework
   name: "Metasploit Framework"
@@ -318,6 +321,7 @@
     status: 200
     final: "https://github.com/rapid7/metasploit-framework"
     how: script
+  notes: "The module types are the folder names under modules in the repository; the README does not list them."
 
 - id: sliver
   name: "Sliver"
@@ -326,7 +330,7 @@
   section: command-and-control
   kind: tool
   cost: free
-  description: "Bishop Fox's command-and-control framework for red teams, with a server, operator clients, and implants that call back over mutual TLS, WireGuard, HTTPS, or DNS."
+  description: "Bishop Fox's command-and-control framework for red teams, with a server, operator clients, and implants that call back over mutual TLS, WireGuard, HTTP(S), or DNS."
   checked:
     date: "2026-11-25"
     status: 200
@@ -349,7 +353,7 @@
     status: 200
     final: "https://github.com/HavocFramework/Havoc"
     how: script
-  notes: "GitHub shows the repository was archived by its owner on 2026-02-20. Last commit on the default branch: 2025-12-18."
+  notes: "GitHub shows the repository was archived by its owner on 2026-02-20. Last commit on the default branch: 2025-12-18. Who it is for is on the documentation's welcome page (https://havocframework.com/docs/welcome), which names penetration testers, red teams, and blue teams; the README does not say."
 
 - id: mythic
   name: "Mythic"
@@ -372,7 +376,7 @@
   section: command-and-control
   kind: tool
   cost: paid
-  description: "Fortra's commercial red team platform, built around the Beacon agent, Malleable C2 traffic profiles, and the Arsenal Kit; pricing is by request."
+  description: "Fortra's commercial red team platform, with the Beacon agent, Malleable C2, and the Arsenal Kit among its features; pricing is by request."
   checked:
     date: "2026-11-25"
     status: 200
@@ -408,7 +412,7 @@
     status: 200
     final: "https://hacktricks.wiki/"
     how: script
-  notes: "The site sends some automated clients to a paid-access notice on tollbit.hacktricks.wiki (HTTP 402). It answered 200 to the link checker on 2026-11-25."
+  notes: "The site sends some automated clients to a paid-access notice on tollbit.hacktricks.wiki (HTTP 402). It answered 200 to the link checker on 2026-11-25. The checklists are in the table of contents the home page loads (https://hacktricks.wiki/en/toc.html)."
 
 - id: payloadsallthethings
   name: "PayloadsAllTheThings"
@@ -423,6 +427,7 @@
     status: 200
     final: "https://github.com/swisskyrepo/PayloadsAllTheThings"
     how: script
+  notes: "The vulnerability classes are the folder names in the repository's root listing."
 
 - id: gtfobins
   name: "GTFOBins"
@@ -459,12 +464,13 @@
   section: cheat-sheets-and-payloads
   kind: dataset
   cost: free
-  description: "Catalog of Windows drivers abused in attacks, each entry with file hashes, whether it still loads under HVCI, and detection rules to download."
+  description: "Catalog of Windows drivers classed as vulnerable or malicious, with sample hashes, HVCI load results where recorded, and detection rules and block policies."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.loldrivers.io/"
     how: script
+  notes: "The page says HVCI statuses apply to individual samples, and that some samples have no result recorded."
 
 - id: wadcoms
   name: "WADComs"

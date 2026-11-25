@@ -22,7 +22,7 @@ Is this account or cluster configured safely?
 |---|---|---|---|---|
 | [Prowler](https://github.com/prowler-cloud/prowler) | Prowler | Runs security and compliance checks against cloud accounts from a CLI or a self-hosted server, with a dashboard for the findings. | Tool | Free |
 | [Scout Suite](https://github.com/nccgroup/ScoutSuite) | NCC Group | Open source multi-cloud auditing tool that gathers configuration data through provider APIs and highlights risk areas. *Last updated in May 2024.* | Tool | Free |
-| [kube-bench](https://github.com/aquasecurity/kube-bench) | Aqua Security | Runs the checks of the CIS Kubernetes Benchmark against a cluster and reports which pass, with job files for EKS, AKS, and other managed services. | Tool | Free |
+| [kube-bench](https://github.com/aquasecurity/kube-bench) | Aqua Security | Checks a Kubernetes cluster against the CIS Kubernetes Benchmark, with tests defined in YAML and job files for EKS, AKS, GKE, and other managed services. | Tool | Free |
 | [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Aqua Security | Probes a Kubernetes cluster from outside or from inside a pod for weaknesses; its README now recommends Trivy for this work. *No longer actively maintained.* | Tool | Free |
 | [Falco](https://github.com/falcosecurity/falco) | The Falco Project | CNCF graduated project, created by Sysdig, that watches Linux kernel events and raises alerts when they match its rules for abnormal behavior. | Tool | Free |
 | [Trivy](https://github.com/aquasecurity/trivy) | Aqua Security | Scanner that finds vulnerabilities, misconfigurations, secrets, and SBOM contents in container images, filesystems, Git repositories, virtual machine images, and Kubernetes. | Tool | Free |

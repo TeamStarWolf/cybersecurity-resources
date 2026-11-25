@@ -20,10 +20,10 @@ Where is the shared map of how attacks and defenses work?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [MITRE ATT&CK](https://attack.mitre.org/) | MITRE | MITRE's matrix of attacker tactics and techniques, with linked pages for groups, software, campaigns, mitigations, and data sources; the common reference for mapping detections. | Reference | Free |
+| [MITRE ATT&CK](https://attack.mitre.org/) | MITRE | MITRE's matrices of attacker tactics and techniques for enterprise, mobile, and ICS, with linked pages including groups, software, campaigns, mitigations, and detection strategies. | Reference | Free |
 | [MITRE D3FEND](https://d3fend.mitre.org/) | MITRE | MITRE's graph of defensive techniques, such as asset inventory and network mapping, each tied to the ATT&CK techniques it counters. | Reference | Free |
 | [MITRE ATLAS](https://atlas.mitre.org/) | MITRE | Knowledge base of adversary tactics and techniques involving AI systems, with mitigations and case studies. | Reference | Free |
-| [MITRE Engage](https://engage.mitre.org/) \* | MITRE | MITRE's framework for active defense: how defenders can deny, deceive, and engage an adversary. | Reference | Free |
+| [MITRE Engage](https://engage.mitre.org/) \* | MITRE | MITRE's framework for denying, deceiving, and engaging an adversary. | Reference | Free |
 | [MITRE EMB3D](https://emb3d.mitre.org/) | MITRE | MITRE's catalog of threats to embedded devices, organized by device properties and paired with mitigations, for vendors, asset owners, and security testers. | Reference | Free |
 | [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/) | MITRE | Knowledge base of detection analytics based on the ATT&CK model, with pseudocode and some direct implementations. | Reference | Free |
 | [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/) | MITRE | Community-developed list of software and hardware weakness types, with guidance on mapping a vulnerability to its root cause. | Reference | Free |

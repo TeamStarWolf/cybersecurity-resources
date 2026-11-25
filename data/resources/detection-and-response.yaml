@@ -8,12 +8,13 @@
   section: rules-and-analytics
   kind: dataset
   cost: free
-  description: "The SigmaHQ rule repository: vendor-neutral detection rules grouped into generic, threat hunting, and emerging threat sets, with release packages."
+  description: "The SigmaHQ rule repository: vendor-neutral detection rules, including generic, threat hunting, and emerging threat sets, with rule packages on its release page."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/SigmaHQ/sigma"
     how: script
+  notes: "The README names three rule types; the repository's root listing also has compliance, placeholder, and DFIR rule folders."
 
 - id: detection-fyi
   name: "Detection.FYI"
@@ -51,7 +52,7 @@
   section: rules-and-analytics
   kind: dataset
   cost: free
-  description: "Repository where Elastic develops, tests, and releases the rules used by Elastic Security's detection engine."
+  description: "Elastic's repository for developing, testing, and releasing the rules that its Elastic Security detection engine runs."
   checked:
     date: "2026-11-25"
     status: 200
@@ -104,7 +105,7 @@
     status: 200
     final: "https://wazuh.com/"
     how: script
-  notes: "The software has no license cost; Wazuh also sells a hosted cloud service with a free trial."
+  notes: "The software has no license cost; Wazuh also sells a hosted cloud service with a free trial. The agent and server components are named in the documentation (https://documentation.wazuh.com/current/getting-started/components/index.html); the home page says single agent and platform architecture. The hosted service is on https://wazuh.com/cloud/."
 
 - id: detectionlab
   name: "DetectionLab"
@@ -122,7 +123,7 @@
     status: 200
     final: "https://github.com/clong/DetectionLab"
     how: script
-  notes: "The README states that as of 2023-01-01 DetectionLab is no longer being actively maintained. Last commit on the default branch: 2023-03-27."
+  notes: "The README states that as of 2023-01-01 DetectionLab is no longer being actively maintained. Last commit on the default branch: 2023-03-27. The Vagrant and Packer folders are in the repository's root listing; the README lists the Terraform deployments."
 
 - id: evtx-attack-samples
   name: "EVTX-ATTACK-SAMPLES"
@@ -140,4 +141,4 @@
     status: 200
     final: "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES"
     how: script
-  notes: "Frozen reference set. Last commit on the default branch: 2023-01-24."
+  notes: "Frozen reference set. Last commit on the default branch: 2023-01-24. The tactic names are the folder names in the repository's root listing."
