@@ -4,7 +4,7 @@
 
 > The catalog, grouped by domain. Each domain page lists its resources by the question a practitioner asks, with one sentence on what each resource is, who runs it, what kind of thing it is, and what it costs.
 
-855 resources in 23 domains. A domain is listed without a link until it holds its first resource.
+975 resources in 26 domains. A domain is listed without a link until it holds its first resource.
 
 ## Security domains
 
@@ -53,9 +53,9 @@ The systems an IT department runs and the references needed to run them.
 | [Automation and scripting](automation-and-scripting.md) | PowerShell, shell, Python, and infrastructure as code: language references, module galleries, and configuration management documentation. | Scripts and tools for a single platform sit with that platform. | 46 |
 | [Monitoring, logging, and observability](monitoring-logging-and-observability.md) | Metrics, logs, traces, and alerting for infrastructure and applications. | Security detection on that telemetry sits in Detection and response. | 39 |
 | [Backup, recovery, and resilience](backup-recovery-and-resilience.md) | Backup products and practices, disaster recovery planning, and resilience guidance. | Ransomware response guidance from governments sits in Government and CERT alerts. | 35 |
-| IT service management and operations | Service desks, change and incident management, asset management, and the frameworks that describe them. | Security governance frameworks sit in GRC and security program. | 0 |
-| Email, DNS, and collaboration | Mail flow and authentication (SPF, DKIM, DMARC), DNS operations and lookup tools, and collaboration platforms. | Microsoft 365 tenant administration sits in Microsoft 365 and Windows administration. | 0 |
-| Databases and data platforms | Relational and non-relational database engines and data platforms: documentation, tuning references, and administration tools. | Database vendors' security advisories sit in Vendor advisories and PSIRTs. | 0 |
+| [IT service management and operations](it-service-management-and-operations.md) | Service desks, change and incident management, asset management, and the frameworks that describe them. | Security governance frameworks sit in GRC and security program. | 29 |
+| [Email, DNS, and collaboration](email-dns-and-collaboration.md) | Mail flow and authentication (SPF, DKIM, DMARC), DNS operations and lookup tools, and collaboration platforms. | Microsoft 365 tenant administration sits in Microsoft 365 and Windows administration. | 48 |
+| [Databases and data platforms](databases-and-data-platforms.md) | Relational and non-relational database engines and data platforms: documentation, tuning references, and administration tools. | Database vendors' security advisories sit in Vendor advisories and PSIRTs. | 43 |
 | Product lifecycle, licensing, and support | Vendor lifecycle and end-of-support pages, licensing references, and support portals. | End-of-life data used to judge vulnerability exposure is cross-listed from Vulnerability management. | 0 |
 | The troubleshooting toolbox | The small utilities and lookups an administrator reaches for during an incident or an outage: converters, testers, decoders, and diagnostics. | A tool that belongs to one platform sits with that platform. | 0 |
 
