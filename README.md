@@ -164,7 +164,7 @@ An address that cannot be read is not described from memory. When a site refuses
 The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
 
 <!-- link-check:start (written by scripts/build.py; do not edit) -->
-The ignore list holds 35 entries, 10 of which apply to the CI check alone. Together they cover 37 of the 533 addresses the catalog publishes (6.9%). The validator fails if that share passes 10%.
+The ignore list holds 35 entries, 10 of which apply to the CI check alone. Together they cover 38 of the 533 addresses the catalog publishes (7.1%). The validator fails if that share passes 10%.
 <!-- link-check:end -->
 
 Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.

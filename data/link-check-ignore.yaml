@@ -68,9 +68,9 @@ entries:
     reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
     opened: "2026-11-25"
   - url: "https://www.ic3.gov/"
-    match: exact
+    match: prefix
     only: ci
-    reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+    reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network. Covers the home page and the annual reports page."
     opened: "2026-11-25"
   - url: "https://www.cobaltstrike.com/"
     match: exact
