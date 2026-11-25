@@ -102,7 +102,7 @@
     status: 200
     final: "https://wiki.almalinux.org/release-notes/"
     how: script
-  notes: "Publisher from the wiki's About page and https://wiki.almalinux.org/Transparency, read on 2026-11-25: the AlmaLinux OS Foundation, a 501(c)(6) non-profit, stewards the project. The page itself has no footer."
+  notes: "Publisher from the wiki's About page and https://wiki.almalinux.org/Transparency, read on 2026-11-25: the AlmaLinux OS Foundation, a 501(c)(6) non-profit, stewards the project. The page's footer gives only a last-updated date."
 
 - id: freebsd-supported-releases
   name: "FreeBSD Security Information"
@@ -215,7 +215,7 @@
   section: operating-systems-and-platforms
   kind: documentation
   cost: free
-  description: "AWS user guide page on Amazon Linux 2023's support timeline: standard support with quarterly minor updates until June 2027, then maintenance until June 2029."
+  description: "AWS's page on Amazon Linux 2023 releases: support phases, what major and minor versions contain, how AMIs and repositories deliver updates, and core package support."
   checked:
     date: "2026-11-25"
     status: 200
@@ -250,7 +250,7 @@
     status: 200
     final: "https://dotnet.microsoft.com/en-us/platform/support/policy"
     how: script
-  notes: "Publisher from the page's site-name tag, which reads Microsoft; the page has no footer copyright line a script can read."
+  notes: "Publisher from the page's site-name tag, which reads Microsoft. A script gets the footer's links, among them privacy, terms of use, and trademarks, and no copyright line."
 
 - id: powershell-support-lifecycle
   name: "PowerShell Support Lifecycle"
@@ -400,7 +400,7 @@
     status: 200
     final: "https://www.elastic.co/support/eol"
     how: script
-  notes: "Publisher in the form the catalog's other Elastic entries use."
+  notes: "Publisher in the form the catalog's other Elastic entries use; the footer copyright reads elasticsearch B.V."
 
 - id: openssl-release-strategy
   name: "OpenSSL Release Strategy"
@@ -415,7 +415,7 @@
     status: 200
     final: "https://openssl-library.org/policies/releasestrat/"
     how: script
-  notes: "Publisher in the form the catalog's other OpenSSL entry uses, from the footer copyright; the site's contact page names OpenSSL Software Foundation Inc, and its management page says the Foundation and the Corporation manage the project together."
+  notes: "Publisher in the form the catalog's other OpenSSL entry uses, from the footer copyright; the site's contact page names OpenSSL Software Foundation Inc and OpenSSL Software Services Inc, and its management page says the Foundation and the Corporation manage the project together."
 
 - id: ruby-maintenance-branches
   name: "Ruby Maintenance Branches"
@@ -430,7 +430,7 @@
     status: 200
     final: "https://www.ruby-lang.org/en/downloads/branches/"
     how: script
-  notes: "Publisher from https://www.ruby-lang.org/en/about/website/, read on 2026-11-25, which says the site is maintained by members of the Ruby community; the page footer has no copyright line."
+  notes: "Publisher from the page footer, which says the website is maintained by members of the Ruby community, as does https://www.ruby-lang.org/en/about/website/, read on 2026-11-25; the footer has no copyright line."
 
 - id: go-release-history
   name: "Go Release History"
@@ -463,7 +463,7 @@
   notes: "Publisher in the form the catalog's other Ansible documentation entries use; the footer reads Ansible project contributors. https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html redirects here."
 
 - id: apple-vintage-and-obsolete-products
-  name: "Apple: service after an expired warranty"
+  name: "Obtaining service for your Apple product after an expired warranty"
   url: "https://support.apple.com/en-us/102772"
   publisher: "Apple"
   section: hardware-and-network-vendors
@@ -505,7 +505,7 @@
     status: 200
     final: "https://www.synology.com/en-global/products/status"
     how: browser
-  notes: "A script gets the heading and the two tab names only; the table is built in the browser, and its hardware columns were read in the built-in browser on 2026-11-25. The software tab was not opened. Publisher from the footer copyright and the page's author tag, Synology Inc., in the form the catalog's other Synology entry uses."
+  notes: "A script gets the heading, the two tab names, and the notes that define the availability, update, technical support, and warranty columns, but not the table, which is built in the browser; its hardware columns were read in the built-in browser on 2026-11-25. The software tab was not opened. Publisher from the footer copyright and the page's author tag, Synology Inc., in the form the catalog's other Synology entry uses."
 
 - id: check-point-support-life-cycle
   name: "Check Point Support Life Cycle Policy"
@@ -520,7 +520,7 @@
     status: 200
     final: "https://www.checkpoint.com/support-services/support-life-cycle-policy/"
     how: script
-  notes: "Publisher from the footer copyright, Check Point Software Technologies Ltd."
+  notes: "Publisher from the footer copyright, Check Point Software Technologies Ltd. The record was written from the page as it answered a script with status 200 earlier on 2026-11-25. Later the same day, after repeated requests from the checks, the address answered scripts with status 202 and a page asking for JavaScript; it was not read again."
 
 - id: sonicwall-product-lifecycle-tables
   name: "SonicWall Product Life Cycle Tables"
@@ -550,10 +550,10 @@
     status: 200
     final: "https://www.microsoft.com/licensing/terms/"
     how: script
-  notes: "The page has no footer a script can read; publisher from the page title and the microsoft.com address."
+  notes: "Publisher from the page title and the microsoft.com address. A script gets the footer's links, among them privacy, terms of use, and trademarks, and no copyright line."
 
 - id: microsoft-365-licensing-guidance
-  name: "Microsoft 365 licensing guidance for security & compliance"
+  name: "Microsoft 365 guidance for security & compliance"
   url: "https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance"
   publisher: "Microsoft"
   section: licensing-references
@@ -565,7 +565,7 @@
     status: 200
     final: "https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance"
     how: script
-  notes: "The detailed guidance has moved: on 2026-11-25 the page pointed to five family service descriptions and named the services under four of them."
+  notes: "The name is the page's title; its first heading reads Microsoft 365 Security, and the address still says licensing guidance. The detailed guidance has moved: on 2026-11-25 the page pointed to five family service descriptions and named the services under four of them."
 
 - id: microsoft-365-service-descriptions
   name: "Microsoft 365 and Office 365 service descriptions"
@@ -608,7 +608,7 @@
     status: 200
     final: "https://choosealicense.com/"
     how: script
-  notes: "Publisher from https://choosealicense.com/terms-of-service/, read on 2026-11-25, which says the site is operated by GitHub, Inc.; the page footer names no one."
+  notes: "Publisher from the page footer, which reads Curated by GitHub, Inc. and You, and from https://choosealicense.com/terms-of-service/, read on 2026-11-25, which says the site is operated by GitHub, Inc.; written in the form the catalog's other GitHub entries use."
 
 - id: spdx-license-list
   name: "SPDX License List"
@@ -677,7 +677,7 @@
   section: licensing-references
   kind: standard
   cost: free
-  description: "FSFE's REUSE recommendations for stating license and copyright of every file in a project, in three steps, with sections for developers and on license compliance."
+  description: "FSFE's REUSE recommendations for stating license and copyright of every file, in three steps, with sections including one for developers and one on license compliance."
   checked:
     date: "2026-11-25"
     status: 200
@@ -743,7 +743,7 @@
     status: 200
     final: "https://learn.microsoft.com/en-us/answers/"
     how: script
-  notes: "The page was read without signing in; what asking or answering requires was not checked."
+  notes: "The page was read without signing in. Asking a question needs a sign-in: https://learn.microsoft.com/en-us/answers/support/ask-question, read on 2026-11-25, gives being signed into a Microsoft Learn profile as the prerequisite. The description names browsing only, so the cost is free."
 
 - id: microsoft-365-get-support
   name: "Get support for Microsoft 365 for business"

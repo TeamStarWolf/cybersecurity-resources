@@ -29,7 +29,7 @@
     status: 200
     final: "https://speed.measurementlab.net/"
     how: script
-  notes: "Publisher from the page's About section and https://www.measurementlab.net/about/, read on 2026-11-25. The page has no footer copyright line."
+  notes: "Publisher from the page's About section and footer, which read Measurement Lab, and https://www.measurementlab.net/about/, read on 2026-11-25, whose footer says Measurement Lab (M-Lab) is a fiscally sponsored project of Superbloom Design. The page's own footer has no copyright line."
 
 - id: cloudflare-speed-test
   name: "Cloudflare Speed Test"
@@ -101,7 +101,7 @@
   section: network-reachability-and-speed
   kind: service
   cost: free
-  description: "pool.ntp.org, a cluster of time servers open to everyone, with sections including how to use the pool, how to join it, and information for vendors."
+  description: "pool.ntp.org, a cluster of public NTP time servers, with sections including how to use the pool, how to join it, and information for vendors."
   checked:
     date: "2026-11-25"
     status: 200
@@ -152,7 +152,7 @@
     status: 200
     final: "https://dnschecker.org/"
     how: script
-  notes: "Publisher from https://dnschecker.org/privacy.php, read on 2026-11-25, which calls DNSChecker a domain owned by Softrix Technologies."
+  notes: "Publisher from https://dnschecker.org/privacy.php, read on 2026-11-25, which calls DNSChecker a domain owned by Softrix Technologies. Cost: on 2026-11-25 the page showed no plan, price, sign-in, or pricing link, and /pricing, /login, /dashboard, and /premium each returned 404; its script holds unshown text about a premium plan."
 
 - id: nslookup-io
   name: "NsLookup.io DNS lookup"
@@ -197,7 +197,7 @@
     status: 200
     final: "https://www.digwebinterface.com/"
     how: script
-  notes: "Publisher from the page's author tag, which a reader does not see; the visible page names no one and links no terms, privacy, or about page."
+  notes: "Publisher from the page's About the creator section, which says the interface was created by Martin Holk Rasmussen; the page's author tag reads the same. The page links no terms or about page of its own; for privacy it points to the policy of the third party that serves its advertising."
 
 - id: cloudflare-1-1-1-1-help
   name: "1.1.1.1 DNS resolver help"
@@ -272,7 +272,7 @@
     status: 200
     final: "https://hstspreload.org/"
     how: script
-  notes: "Publisher: the page names no operator and links its source at github.com/chromium/hstspreload.org; the organization's display name is from GitHub's API on 2026-11-25."
+  notes: "Publisher: the page names no operator, though it says the preload list is Chrome's, and links its source at github.com/chromium/hstspreload.org; the organization's display name is from GitHub's API on 2026-11-25. The contact page it links, read the same day, names no one."
 
 - id: security-headers
   name: "Security Headers"
@@ -322,7 +322,7 @@
 - id: howsmyssl
   name: "How's My SSL?"
   url: "https://www.howsmyssl.com/"
-  publisher: "Jeff Hodges (jmhodges)"
+  publisher: "Darkish Green"
   section: web-and-tls-testers
   kind: service
   cost: free
@@ -332,7 +332,7 @@
     status: 200
     final: "https://www.howsmyssl.com/"
     how: script
-  notes: "Publisher: the page and its About page name no person or organization in their text; the About page links the source at github.com/jmhodges/howsmyssl, a personal account, and the display name is from GitHub's API on 2026-11-25. The page has no author tag and links no terms or privacy page."
+  notes: "Publisher from the footer of the page and of its About page, which reads Built by Darkish Green. https://www.darkishgreen.com/, read on 2026-11-25, is a software consulting site whose author writes that he is Jeff Hodges and works under the Darkish Green name; it also names Darkish Green, LLC. The About page links the source at github.com/jmhodges/howsmyssl. The page has no author tag and links no terms or privacy page."
 
 - id: keycdn-tools
   name: "KeyCDN Tools"
@@ -461,13 +461,13 @@
   section: decoders-encoders-and-converters
   kind: service
   cost: freemium
-  description: "Compares two texts and marks the differences, with modes including images, documents, spreadsheets, and folders; basic web tool is free, Pro and desktop are paid."
+  description: "Compares two texts and marks the differences; modes include images, documents, and spreadsheets; basic web use is free, and folders need the paid desktop app."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.diffchecker.com/"
     how: script
-  notes: "Cost from https://www.diffchecker.com/pricing/, read on 2026-11-25: Basic is free for everyone, Pro + Desktop is $15 per user per month, and Enterprise is $40. Publisher from the terms, which say the sites are operated by Checker Software Inc."
+  notes: "Cost from https://www.diffchecker.com/pricing/, read on 2026-11-25: Basic is free for everyone, Pro + Desktop is $15 per user per month, and Enterprise is $40. The feature table on that page lists comparing two folders as not included in Basic or Pro and included with the desktop app. Publisher from the terms, which say the sites are operated by Checker Software Inc."
 
 - id: oauth-debugger
   name: "OAuth 2.0 Debugger"
@@ -485,7 +485,7 @@
   notes: "Publisher from the page, which says it was crafted by Nate Barbettini, and its footer copyright."
 
 - id: curlconverter
-  name: "curlconverter: curl commands to code"
+  name: "curlconverter"
   url: "https://curlconverter.com/"
   publisher: "Nick Carneiro"
   section: decoders-encoders-and-converters
@@ -497,7 +497,7 @@
     status: 200
     final: "https://curlconverter.com/"
     how: script
-  notes: "Publisher from the page's author tag, which a reader does not see; the visible page names no one, and its source link leads to the curlconverter organization on GitHub."
+  notes: "Publisher from the page's author tag, which a reader does not see; the visible page names no one, and its source link leads to the curlconverter organization on GitHub. The name is the project's, which the page uses for its npm package; the page's title is Convert curl commands to code."
 
 - id: devtoys
   name: "DevToys"
@@ -566,7 +566,7 @@
   section: packet-capture-and-http-debugging
   kind: tool
   cost: free
-  description: "Open source proxy for intercepting, modifying, and replaying web traffic, including HTTP/2, HTTP/3, and WebSockets, driven from a command line, web interface, or Python API."
+  description: "Open source HTTPS proxy for uses including debugging and penetration testing: a command-line tool, the mitmweb graphical interface, and mitmdump for Python addons."
   checked:
     date: "2026-11-25"
     status: 200
@@ -592,7 +592,7 @@
 - id: httpbin
   name: "httpbin.org"
   url: "https://httpbin.org/"
-  publisher: "httpbin.org"
+  publisher: "Postman"
   section: packet-capture-and-http-debugging
   kind: service
   cost: free
@@ -602,7 +602,7 @@
     status: 200
     final: "https://httpbin.org/"
     how: script
-  notes: "Publisher is the site's own name. The page names no operator, has no author tag, and links no terms, privacy, about, or source page; the same was true of the page as the built-in browser showed it on 2026-11-25."
+  notes: "Publisher from the API description the page loads to draw its endpoint list, https://httpbin.org/spec.json, read on 2026-11-25, whose contact name is Postman; in the form the catalog's other Postman entry uses. The visible page, as a script and the built-in browser showed it, names no operator, has no author tag, and links no terms, privacy, about, or source page. The source at github.com/postmanlabs/httpbin is under an organization GitHub shows as Postman Inc.; the page does not link it."
 
 - id: webhook-site
   name: "Webhook.site"
@@ -696,6 +696,7 @@
 
 - id: systemrescue
   name: "SystemRescue"
+  formerly: "SystemRescueCd"
   url: "https://www.system-rescue.org/"
   publisher: "SystemRescue"
   section: rescue-and-system-diagnostics
@@ -707,7 +708,7 @@
     status: 200
     final: "https://www.system-rescue.org/"
     how: script
-  notes: "Publisher is the project's own name. The page names no person or organization, has no author tag, and links its sources on GitLab under the systemrescue group; it links no terms or about page. Licensed GPLv3."
+  notes: "Publisher is the project's own name. The page names no person or organization, has no author tag, and links its sources on GitLab under the systemrescue group; it links no terms or about page. The page says the project was formerly known as SystemRescueCd. Licensed GPLv3."
 
 - id: gparted
   name: "GParted"
@@ -722,7 +723,7 @@
     status: 200
     final: "https://gparted.org/"
     how: script
-  notes: "Publisher is the project's own name. The page's author tag, which a reader does not see, reads Curtis Gedak; the visible page names no person or organization."
+  notes: "Publisher is the project's own name. The home page names no person or organization in its text; its author tag, which a reader does not see, reads Curtis Gedak, and the Contact page it links, read on 2026-11-25, lists him as maintainer and project administrator among the project's people and names no organization. The privacy policy it links names no operator."
 
 - id: testdisk
   name: "TestDisk"
@@ -812,7 +813,7 @@
     status: 200
     final: "https://dev.yorhel.nl/ncdu"
     how: script
-  notes: "Publisher from the site's home page, https://dev.yorhel.nl/, which is titled Yorhel's Projects; the page gives no other name. Licensed MIT."
+  notes: "Publisher from the site's home page, https://dev.yorhel.nl/, which is titled Yorhel's Projects. The page gives no personal name; its header links a profile under the handle ayo. Licensed MIT."
 
 - id: sysstat
   name: "sysstat"
@@ -880,7 +881,7 @@
 - id: mess-with-dns
   name: "Mess with DNS"
   url: "https://messwithdns.net/"
-  publisher: "Julia Evans and Marie Claire LeBlanc Flanagan"
+  publisher: "Wizard Zines"
   section: quick-references-and-practice
   kind: training
   cost: free
@@ -890,4 +891,4 @@
     status: 200
     final: "https://messwithdns.net/"
     how: script
-  notes: "Publisher from https://messwithdns.net/about.html, read on 2026-11-25, which credits the two people who built it."
+  notes: "Publisher from the header of the site's pages, which reads a wizard zines project and links https://wizardzines.com. https://messwithdns.net/about.html, read on 2026-11-25, credits Julia Evans and Marie Claire LeBlanc Flanagan as the two people who built it."
