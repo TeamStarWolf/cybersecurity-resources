@@ -88,7 +88,7 @@
     status: 200
     final: "https://wiki.postgresql.org/wiki/Main_Page"
     how: script
-  notes: "The page carries no copyright line; publisher follows the project's main site, which runs the wiki's accounts."
+  notes: "The page carries no copyright line. Publisher follows the project's main site: the page says editing here needs a PostgreSQL community account, the same one used on www.postgresql.org."
 
 - id: mongodb-documentation
   name: "MongoDB Docs"
@@ -413,7 +413,7 @@
     status: 200
     final: "https://pgbarman.org/"
     how: script
-  notes: "Publisher from the footer copyright and https://www.pgbarman.org/about/, read on 2026-11-25, which says Barman is now maintained by EnterpriseDB. https://pgbarman.org/ redirects here. EnterpriseDB sells its own products on another site; this site sells nothing."
+  notes: "Publisher from the footer copyright and the site's About page, https://pgbarman.org/about/, read on 2026-11-25, which says Barman is now maintained by EnterpriseDB. EnterpriseDB sells its own products on another site; this site sells nothing."
 
 - id: percona-toolkit
   name: "Percona Toolkit Documentation"

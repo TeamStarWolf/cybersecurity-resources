@@ -119,7 +119,7 @@
     status: 200
     final: "https://www.m3aawg.org/published-documents"
     how: script
-  notes: "Publisher from the footer copyright. The documents listed are open to read; membership of the group is a separate matter with its own fees."
+  notes: "Publisher from the footer copyright. The documents listed are open to read without joining the group."
 
 - id: google-email-sender-guidelines
   name: "Email sender guidelines (Gmail)"
@@ -451,7 +451,7 @@
     status: 200
     final: "https://coredns.io/manual/toc/"
     how: script
-  notes: "Every section of the page carries the line Modified: 2019-09-28, which is the date used here. Publisher from the footer, which carries copyright lines for The CoreDNS Authors and for The Linux Foundation."
+  notes: "The page's section lines read Modified: 2019-09-28, which is the date used here. Publisher from the footer, which carries copyright lines for The CoreDNS Authors and for The Linux Foundation."
 
 - id: pi-hole-documentation
   name: "Pi-hole documentation"

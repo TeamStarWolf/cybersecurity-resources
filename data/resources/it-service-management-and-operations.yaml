@@ -352,7 +352,7 @@
   maintenance:
     state: dormant
     since: "2023-07-12"
-  description: "Postmortem templates, each from a named source: two books on reliability and system administration, a Google Developers blog post, Azure status posts, and more."
+  description: "Postmortem templates, each from a named source: books on reliability and system administration, a Google Developers blog post, Azure status posts, and more."
   checked:
     date: "2026-11-25"
     status: 200

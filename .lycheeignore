@@ -39,3 +39,5 @@
 ^https://docs\.redhat\.com/en/documentation/red_hat_enterprise_linux/$
 ^https://docs\.redhat\.com/en/documentation/openshift_container_platform/$
 ^https://www\.iso\.org/standard/22301$
+^https://www\.iso\.org/standard/70636\.html$
+^https://www\.whatsmydns\.net/$
