@@ -4,12 +4,12 @@
 
 > Alerts, advisories, and guidance from national cyber security agencies and coordination centers.
 
-Part of the [domain list](README.md). 11 resources in 2 sections. Standards and frameworks from the same agencies sit in GRC and security program.
+Part of the [domain list](README.md). 13 resources in 2 sections. Standards and frameworks from the same agencies sit in GRC and security program.
 
 | Section | The question it answers | Resources |
 |---|---|---|
-| [United States](#united-states) | What have CISA and other US bodies published? | 7 |
-| [National and regional centers](#national-and-regional-centers) | What do other national centers advise? | 4 |
+| [United States](#united-states) | What have CISA and other US bodies published? | 8 |
+| [National and regional centers](#national-and-regional-centers) | What do other national centers advise? | 5 |
 
 ## United States
 
@@ -24,6 +24,7 @@ What have CISA and other US bodies published?
 | [CERT/CC Vulnerability Notes Database](https://www.kb.cert.org/vuls/) | CERT/CC (Carnegie Mellon University SEI) | CERT/CC's database of vulnerability notes from coordinated disclosure, with guidance on reporting a vulnerability. | Advisory source | Free |
 | [Internet Crime Complaint Center (IC3)](https://www.ic3.gov/) | FBI | The FBI's hub for reporting cyber-enabled crime, with industry alerts and annual reports. | Organization | Free |
 | [HHS Threat Intelligence](https://tech.hhs.gov/cyber/threat-intelligence) | U.S. Department of Health and Human Services | HHS's threat intelligence pages for the health and public health sector, with libraries of threat briefs and sector alerts. | Advisory source | Free |
+| [CISA ICS Advisories](https://www.cisa.gov/news-events/ics-advisories) | CISA | CISA's ICS advisories, ICS medical advisories, and ICS alerts, searchable by type and release year. | Advisory source | Free |
 | [Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | CISA | CISA's list of vulnerabilities known to be exploited in the wild, searchable by vendor and product; use it to decide what to patch first. | Dataset or feed | Free |
 
 Listed here from another domain: Known Exploited Vulnerabilities Catalog ([Vulnerability management](vulnerability-management.md#prioritization-and-scoring)).
@@ -38,5 +39,6 @@ What do other national centers advise?
 | [cyber.gov.au (Australian Cyber Security Centre)](https://www.cyber.gov.au/) | Australian Signals Directorate | Australia's cyber security site: alerts, publications, the Information Security Manual, and advice by audience. | Organization | Free |
 | [Canadian Centre for Cyber Security](https://www.cyber.gc.ca/en) | Communications Security Establishment Canada | Canada's national source of cyber security advice, guidance, services, and support, with incident reporting. | Organization | Free |
 | [ENISA](https://www.enisa.europa.eu/) | European Union Agency for Cybersecurity (ENISA) | The EU's cybersecurity agency: guidance, tools, and resources for national authorities, the private sector, and the public. | Organization | Free |
+| [CERT-EU Security Advisories](https://cert.europa.eu/publications/security-advisories/) | CERT-EU | Security advisories from CERT-EU, organized by year, with an RSS feed. | Advisory source | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

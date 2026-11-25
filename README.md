@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 261 resources in 14 domains. 255 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 4 records that are not shown, because the address is retired or could not be read at the last check.
+The catalog holds 388 resources in 14 domains. 382 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 4 records that are not shown, because the address is retired or could not be read at the last check.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -50,9 +50,9 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 
 | Domain | What it covers | Resources |
 |---|---|---|
-| [Vulnerability management](domains/vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | 42 |
-| [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 30 |
-| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 11 |
+| [Vulnerability management](domains/vulnerability-management.md) | Vulnerability databases, prioritization and scoring, public exploits, scanners, product lifecycle dates, and weakness taxonomies. | 94 |
+| [Vendor advisories and PSIRTs](domains/vendor-advisories.md) | The security advisory and bulletin pages of the vendors whose products you run, grouped by kind of product. | 103 |
+| [Government and CERT alerts](domains/government-and-cert-alerts.md) | Alerts, advisories, and guidance from national cyber security agencies and coordination centers. | 13 |
 | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md) | Malware sandboxes, forensic collection and analysis tools, and reverse engineering tools. | 20 |
 | [Labs and training](domains/labs-and-training.md) | Practice labs, ranges, courses, and capture-the-flag events for building security skills. | 16 |
 | [News and research](domains/news-and-research.md) | Security news sites, commentary, newsletters, podcasts, and communities. | 12 |
@@ -163,7 +163,7 @@ An address that cannot be read is not described from memory. When a site refuses
 The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
 
 <!-- link-check:start (written by scripts/build.py; do not edit) -->
-The ignore list holds 21 entries, 7 of which apply to the CI check alone. Together they cover 22 of the 294 addresses the catalog publishes (7.5%). The validator fails if that share passes 10%.
+The ignore list holds 28 entries, 8 of which apply to the CI check alone. Together they cover 29 of the 421 addresses the catalog publishes (6.9%). The validator fails if that share passes 10%.
 <!-- link-check:end -->
 
 Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.

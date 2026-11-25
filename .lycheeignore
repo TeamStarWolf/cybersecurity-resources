@@ -21,3 +21,10 @@
 ^https://sploitus\.com/$
 ^https://www\.exploit\-db\.com/$
 ^https://support\.brave\.app/hc/en\-us/articles/360019782291\-How\-do\-I\-import\-or\-export\-browsing\-data$
+^https://www\.intel\.com/content/www/us/en/security\-center/default\.html$
+^https://www\.dell\.com/support/security/en\-us/$
+^https://support\.lenovo\.com/product_security/home$
+^https://www\.supermicro\.com/en/support/security_center$
+^https://www\.rockwellautomation\.com/en\-us/trust\-center/security\-advisories\.html$
+^https://www\.sophos\.com/en\-us/security\-advisories$
+^https://security\.alpinelinux\.org/$

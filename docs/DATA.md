@@ -36,7 +36,7 @@ Every page in this repository is generated from the files under `data/`. To chan
 | `id` | Lower-case slug, unique in the whole catalog, never reused |
 | `name` | The resource's own name as its page states it on the day it is checked |
 | `formerly` | An earlier name, when the resource was renamed or changed hands |
-| `url` | The address after redirects. It follows the address rules below |
+| `url` | The address after redirects, or the permanent address the page itself tells readers to bookmark, with a note. It follows the address rules below |
 | `previously` | Earlier addresses of the same resource, so that old links stay accounted for. They follow the same address rules |
 | `publisher` | The organization that runs the resource today, as the page's footer or about page states it. See Publisher below |
 | `section` | A section id of the domain the file belongs to |
