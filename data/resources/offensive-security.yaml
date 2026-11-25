@@ -455,7 +455,7 @@
     date: "2026-11-25"
     status: 200
     final: "https://lolbas-project.github.io/"
-    how: script
+    how: browser
 
 - id: loldrivers
   name: "LOLDrivers"

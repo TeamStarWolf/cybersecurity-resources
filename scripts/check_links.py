@@ -20,7 +20,7 @@ see a page that keeps its name while changing what it offers, and it cannot read
 A description has to be the catalog's own sentence. --wording takes what each page says about itself (its
 meta descriptions, its title, its first heading, and its opening paragraphs) and finds the longest run of
 consecutive words that the record's description shares with any of them. A run of five or more words is
-reported, unless it is the resource's own name. It needs the network, so it is run by hand before a pull
+reported, unless the resource's own name, former name, and publisher account for every word of it but the articles. It needs the network, so it is run by hand before a pull
 request and by a weekly job, not on every push. It finds copied runs of words; it cannot find a sentence that
 follows its source with one word in five changed, and it cannot read a page that needs a browser.
 
@@ -210,25 +210,49 @@ def common_runs(a: list[str], b: list[str], least: int) -> list[list[str]]:
     return runs
 
 
+ARTICLES = {"a", "an", "the"}
+
+
+def name_words(run: list[str], names: list[list[str]]) -> list[bool]:
+    """Which words of a shared run belong to the resource's own name, former name, or publisher: a stretch of
+    two or more words shared with one of them, or a word that is the whole of one."""
+    mark = [False] * len(run)
+
+    def cover(lo: int, hi: int) -> None:
+        best, start = 0, lo
+        for name in names:
+            for i in range(lo, hi):
+                for j in range(len(name)):
+                    k = 0
+                    while i + k < hi and j + k < len(name) and run[i + k] == name[j + k]:
+                        k += 1
+                    if k > best:
+                        best, start = k, i
+        if best < 2:
+            return
+        for at in range(start, start + best):
+            mark[at] = True
+        cover(lo, start)
+        cover(start + best, hi)
+
+    cover(0, len(run))
+    whole = {name[0] for name in names if len(name) == 1}
+    return [done or word in whole for done, word in zip(mark, run)]
+
+
 def outside_names(run: list[str], names: list[list[str]]) -> int:
-    """The longest stretch of a shared run that is not the resource's own name, former name, or publisher."""
-    best, start = 0, 0
-    for name in names:
-        for i in range(len(run)):
-            for j in range(len(name)):
-                k = 0
-                while i + k < len(run) and j + k < len(name) and run[i + k] == name[j + k]:
-                    k += 1
-                if k > best:
-                    best, start = k, i
-    if best < 2:
-        return len(run)
-    return max(outside_names(run[:start], names), outside_names(run[start + best:], names))
+    """How many words a shared run counts for: all of them, unless the resource's own name, former name, and
+    publisher account for every word but the articles, in which case none. Name words in the middle of a
+    copied run do not shorten it: "advisory database" inside seven copied words still leaves seven copied
+    words. "The" in front of a name is not copying."""
+    covered = name_words(run, names)
+    return 0 if all(done or word in ARTICLES for done, word in zip(covered, run)) else len(run)
 
 
 def wording_problem(rec: dict, page: dict) -> tuple[int, str, str] | None:
     """The longest run of MIN_RUN or more consecutive words that a description shares with what the page says
-    about itself, as (length outside the resource's own name, the shared words, where), or None."""
+    about itself, as (its length, the shared words, where), or None. A run made up wholly of the resource's own
+    name, former name, and publisher does not count."""
     mine = word_list(rec.get("description") or "")
     names = [word_list(str(rec.get(key) or "")) for key in ("name", "formerly", "publisher")]
     worst = None
@@ -333,6 +357,19 @@ def self_test() -> int:
     in_menu = page(f"<title>Example Scanner</title><nav><p>{tagline}</p></nav><p>Notes on how the project is built and released.</p>")
     own_name = page('<meta name="description" content="The Example Protocol Version Two Specification is maintained by Example Body.">')
     title_only = page("<title>Example Scanner</title><div id='app'></div>")
+    # A name inside a copied run must not hide the run: seven shared words with "advisory database" in the middle.
+    named = {"name": "Example Advisory Database", "publisher": "Example Group",
+             "description": "Security advisory database for Example crates published on the public registry."}
+    around_name = page('<meta name="description" content="Security advisory database for Example crates published through the registry.">')
+    # Publisher and name side by side are still only names.
+    both = {"name": "Known Exploited Flaw Catalog", "publisher": "Agency",
+            "description": "The Agency Known Exploited Flaw Catalog, as a table with the date each flaw was added."}
+    only_names = page('<meta name="description" content="Agency Known Exploited Flaw Catalog">')
+    hidden = wording_problem(named, around_name)
+    # An article in front of a name is not a copied word; any other word in front of it is.
+    with_article = dict(both, description="Search site for the Known Exploited Flaw Catalog, with one row for each flaw.")
+    with_more = dict(both, description="The national Known Exploited Flaw Catalog, with one row for each flaw.")
+    article_page = page('<meta name="description" content="Explore the Known Exploited Flaw Catalog."><p>Welcome to the national Known Exploited Flaw Catalog, which is updated on working days.</p>')
     found = wording_problem(copied, in_meta)
     planted = [
         ("a description copied from the meta description", found is not None and found[0] == 10 and found[2] == "meta"),
@@ -342,6 +379,10 @@ def self_test() -> int:
         ("the same words inside a script are not page text", wording_problem(copied, in_code) is None),
         ("the same words inside the site menu are not the opening", wording_problem(copied, in_menu) is None),
         ("a run that is the resource's own name", wording_problem(titled, own_name) is None),
+        ("a copied run with name words in the middle of it", hidden is not None and hidden[0] == 7),
+        ("a run made of the publisher and the name", wording_problem(both, only_names) is None),
+        ("an article in front of the name", wording_problem(with_article, article_page) is None),
+        ("another word in front of the name", (wording_problem(with_more, article_page) or (0,))[0] == 6),
         ("a page with only a title counts as unread", not has_summary(title_only) and has_summary(in_meta)),
     ]
     for label, passed in planted:
@@ -355,9 +396,10 @@ def self_test() -> int:
           "and neither a longer address than an exact entry nor a CI-only entry was excused; "
           "5 planted pages: the hub, the empty filter and the page with no heading were flagged, "
           "the right page and wording inside a script were not; "
-          "8 planted descriptions: copies of a meta description, a social-card description and an opening "
-          "paragraph were caught, and the catalog's own sentence, words in a script or a menu, and the "
-          "resource's own name were not")
+          "12 planted descriptions: copies of a meta description, a social-card description and an opening "
+          "paragraph were caught, and so were a copied run with name words in the middle of it and a name with "
+          "another shared word in front of it; the catalog's own sentence, words in a script or a menu, the "
+          "resource's own name, its publisher and name together, and the name after an article were not")
     return 1 if problems else 0
 
 

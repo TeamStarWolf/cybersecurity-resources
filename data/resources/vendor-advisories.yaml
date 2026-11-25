@@ -190,7 +190,7 @@
   section: network-and-security-vendors
   kind: advisories
   cost: free
-  description: "Security advisories and remediations for vulnerabilities in Palo Alto Networks products and services."
+  description: "Palo Alto Networks' advisories for vulnerabilities in its products and services, with remediations, filterable by date, severity, and product."
   checked:
     date: "2026-11-25"
     status: 200
@@ -323,7 +323,7 @@
   section: enterprise-applications
   kind: advisories
   cost: free
-  description: "Oracle's index of Critical Patch Update and Critical Security Patch Update advisories, security alerts, and bulletins, updated as each one is released."
+  description: "Oracle's index of its security fix announcements, by kind, with Oracle Linux advisories, Solaris third-party bulletins, and a map from CVE to advisory."
   checked:
     date: "2026-11-25"
     status: 200
@@ -838,7 +838,7 @@
   section: enterprise-applications
   kind: advisories
   cost: free
-  description: "Security announcements for the Elastic Stack, posted in Elastic's discussion forum."
+  description: "The category of Elastic's discussion forum where it posts security announcements about the Elastic Stack."
   checked:
     date: "2026-11-25"
     status: 200
@@ -937,7 +937,7 @@
   section: open-source-infrastructure
   kind: advisories
   cost: free
-  description: "The project's list of security vulnerabilities fixed in Apache HTTP Server 2.4."
+  description: "The project's list of security flaws corrected across the 2.4 releases of Apache HTTP Server, grouped by release."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1423,7 +1423,7 @@
   section: ics-and-ot-vendors
   kind: advisories
   cost: free
-  description: "Hitachi Energy's list of cybersecurity advisories and notifications, with its vulnerability handling policy and a subscription."
+  description: "Hitachi Energy's cybersecurity advisories and notices for its products, with the vulnerability handling policy, a subscription, and its PGP key."
   checked:
     date: "2026-11-25"
     status: 200

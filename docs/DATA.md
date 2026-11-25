@@ -52,7 +52,7 @@ Every page in this repository is generated from the files under `data/`. To chan
 
 ### Own words
 
-A description is the catalog's own sentence. It may not share a run of five or more consecutive words with what the page says about itself: its meta description, its title, its first heading, or its opening paragraphs. A name is excepted: the resource's own, or a product's or document's name that the sentence has to mention.
+A description is the catalog's own sentence. It may not share a run of five or more consecutive words with what the page says about itself: its meta description, its title, its first heading, or its opening paragraphs. The resource's own name is excepted, and so are its former name and its publisher: a shared run counts unless those names account for every word of it. "The", "a", and "an" in front of a name are not counted.
 
 Write the sentence from what the page covers: its sections, its table of contents, what the tool does. Do not start from the page's summary line and change words. A review finding quotes the page as evidence; the description that follows from it still has to be yours.
 
@@ -60,7 +60,7 @@ Write the sentence from what the page covers: its sections, its table of content
 
 What the check does not do:
 
-- It excepts the record's own name, former name, and publisher, and no other name. If another product's name of five or more words trips it, reword around the name.
+- It excepts a run only when the record's own name, former name, and publisher account for every word of it, articles aside. Name words in the middle of a copied run do not shorten the run: five shared words with the name among them are still five shared words. No other name is excepted; if another product's or body's name of five or more words trips it, reword around the name.
 - It cannot read a page that needs a browser. It lists those pages; open each one and compare by hand.
 - It finds copied runs of words. It does not find a sentence that follows its source with one word in five changed, so read the two side by side as well.
 
