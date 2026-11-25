@@ -19,9 +19,9 @@ kinds:
   - {id: status, label: "Status page", means: "A provider's live service health page."}
 
 costs:
-  - {id: free, label: "Free", means: "No payment and no account needed for the main use."}
-  - {id: free-with-account, label: "Free with account", means: "No payment, but you must sign up or fill in a form."}
-  - {id: freemium, label: "Freemium", means: "A free tier or edition exists, and paid plans add more."}
+  - {id: free, label: "Free", means: "No payment, account, API key, or sign-up form for anything the entry's description names."}
+  - {id: free-with-account, label: "Free with account", means: "No payment, but something the description names needs an account, an API key, or a sign-up form."}
+  - {id: freemium, label: "Freemium", means: "A free tier or edition exists, with or without an account, and paid plans add more."}
   - {id: paid, label: "Paid", means: "Paid only. A time-limited trial does not change this."}
   - {id: unconfirmed, label: "Not confirmed", means: "The pricing page could not be opened when the entry was checked."}
 

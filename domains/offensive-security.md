@@ -23,14 +23,14 @@ What does the target expose?
 
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
-| [theHarvester](https://github.com/laramies/theHarvester) | laramies | OSINT tool that gathers email addresses, subdomains, and names for a target. | Tool | Free |
+| [theHarvester](https://github.com/laramies/theHarvester) | Christian Martorella (laramies) | OSINT tool that gathers email addresses, subdomains, and names for a target. | Tool | Free |
 | [OWASP Amass](https://github.com/owasp-amass/amass) | OWASP | Maps attack surfaces and discovers external assets using open source information gathering and active reconnaissance. | Tool | Free |
 | [subfinder](https://github.com/projectdiscovery/subfinder) | ProjectDiscovery | Passive subdomain enumeration tool. | Tool | Free |
-| [SpiderFoot](https://github.com/smicallef/spiderfoot) | smicallef | OSINT automation tool that queries many data sources about a target, with a web interface and a command line. | Tool | Free |
-| [recon-ng](https://github.com/lanmaster53/recon-ng) | lanmaster53 | Open source intelligence gathering tool built to reduce the time spent harvesting information from open sources. | Tool | Free |
+| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Steve Micallef (smicallef) | OSINT automation tool that queries many data sources about a target, with a web interface and a command line. *Last updated in November 2023.* | Tool | Free |
+| [recon-ng](https://github.com/lanmaster53/recon-ng) | Tim Tomes (lanmaster53) | Open source intelligence gathering tool built to reduce the time spent harvesting information from open sources. | Tool | Free |
 | [Maltego](https://www.maltego.com/) | Maltego Technologies | Link analysis and investigation platform for OSINT; a free Basic plan includes the Community Edition of Maltego Graph. | Tool | Freemium |
 | [crt.sh](https://crt.sh/) | Sectigo | Certificate search: enter a domain name, organization name, or certificate fingerprint to list matching certificates. | Online service | Free |
-| [DNSDumpster](https://dnsdumpster.com/) | DNSDumpster | Free domain research tool that finds the hosts related to a domain. | Online service | Free |
+| [DNSDumpster](https://dnsdumpster.com/) | Hacker Target | Domain research tool that finds the hosts related to a domain; it works without sign-in, and a free account or paid plans raise the limits. | Online service | Freemium |
 
 Listed here from another domain: crt.sh ([Threat intelligence and adversaries](threat-intelligence.md#internet-scan-and-exposure-data)), DNSDumpster ([Threat intelligence and adversaries](threat-intelligence.md#internet-scan-and-exposure-data)).
 
@@ -65,7 +65,7 @@ How do I assess a Windows domain?
 | [Rubeus](https://github.com/GhostPack/Rubeus) | GhostPack | C# toolset for raw Kerberos interaction and abuses. | Tool | Free |
 | [mimikatz](https://github.com/gentilkiwi/mimikatz) | Benjamin Delpy (gentilkiwi) | Tool known for extracting plaintext passwords, hashes, PIN codes, and Kerberos tickets from memory, and for pass-the-hash and pass-the-ticket. | Tool | Free |
 | [Responder](https://github.com/lgandx/Responder) | lgandx | LLMNR, NBT-NS, and mDNS poisoner with built-in rogue authentication servers that support NTLMv1, NTLMv2, and basic HTTP authentication. | Tool | Free |
-| [Kerbrute](https://github.com/ropnop/kerbrute) | ropnop | Tool to brute force and enumerate valid Active Directory accounts through Kerberos pre-authentication. | Tool | Free |
+| [Kerbrute](https://github.com/ropnop/kerbrute) | Ronnie Flathers (ropnop) | Tool to brute force and enumerate valid Active Directory accounts through Kerberos pre-authentication. *Last updated in November 2020.* | Tool | Free |
 | [PingCastle](https://www.pingcastle.com/) | Netwrix | Active Directory and Entra ID security assessment tool; a free Community Edition and paid editions are offered. | Tool | Freemium |
 
 ## Command and control frameworks
@@ -76,10 +76,10 @@ What do I operate from after initial access?
 |---|---|---|---|---|
 | [Metasploit Framework](https://github.com/rapid7/metasploit-framework) | Rapid7 | Open source framework of exploit, auxiliary, and payload modules, released under a BSD-style license, with nightly installers. | Tool | Free |
 | [Sliver](https://github.com/BishopFox/sliver) | Bishop Fox | Open source adversary emulation and red team framework whose implants support C2 over mutual TLS, WireGuard, HTTP(S), and DNS. | Tool | Free |
-| [Havoc](https://github.com/HavocFramework/Havoc) | HavocFramework | Post-exploitation command and control framework; the repository is archived and read-only. | Tool | Free |
-| [Mythic](https://github.com/its-a-feature/Mythic) | its-a-feature | Cross-platform, post-exploitation red teaming framework with a web interface built for collaboration among operators. | Tool | Free |
+| [Havoc](https://github.com/HavocFramework/Havoc) | Havoc Framework | Post-exploitation command and control framework. *Archived on February 20, 2026.* | Tool | Free |
+| [Mythic](https://github.com/its-a-feature/Mythic) | Cody Thomas (its-a-feature) | Cross-platform, post-exploitation red teaming framework with a web interface built for collaboration among operators. | Tool | Free |
 | [Cobalt Strike](https://www.cobaltstrike.com/) | Fortra | Commercial adversary simulation software with a post-exploitation agent and covert channels; pricing is by request. | Tool | Paid |
-| [PoshC2](https://github.com/nettitude/PoshC2) | Nettitude | Proxy-aware C2 framework that aids red teamers with post-exploitation and lateral movement. | Tool | Free |
+| [PoshC2](https://github.com/nettitude/PoshC2) | LRQA Cyber | Proxy-aware C2 framework that aids red teamers with post-exploitation and lateral movement. | Tool | Free |
 
 ## Cheat sheets, payloads, and utilities
 
@@ -88,7 +88,7 @@ What is the command or payload for this?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [HackTricks](https://hacktricks.wiki/) | HackTricks | Knowledge base of pentesting, red team, web, cloud, binary exploitation, and privilege escalation techniques. | Reference | Free |
-| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | swisskyrepo | List of payloads and bypasses for web application security testing and CTFs. | Reference | Free |
+| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | Swissky (swisskyrepo) | List of payloads and bypasses for web application security testing and CTFs. | Reference | Free |
 | [GTFOBins](https://gtfobins.org/) | GTFOBins | Curated list of Unix-like executables that can be used to bypass local security restrictions on misconfigured systems. | Reference | Free |
 | [LOLBAS](https://lolbas-project.github.io/) | LOLBAS Project | Catalog of Living Off The Land Binaries, Scripts, and Libraries, with the project's criteria for what counts as one. | Reference | Free |
 | [LOLDrivers](https://www.loldrivers.io/) | MagicSword | Catalog of vulnerable and malicious Windows drivers, with sample hashes and detections. | Dataset or feed | Free |
@@ -107,7 +107,7 @@ What is listening on this network?
 | Resource | Run by | What it is and when to use it | Kind | Cost |
 |---|---|---|---|---|
 | [Nmap](https://nmap.org/) | Nmap Project | Free and open source security scanner for port scanning and network exploration. | Tool | Free |
-| [masscan](https://github.com/robertdavidgraham/masscan) | Robert David Graham | Asynchronous TCP port scanner built to scan very large address ranges quickly. | Tool | Free |
+| [masscan](https://github.com/robertdavidgraham/masscan) | Robert David Graham (robertdavidgraham) | Asynchronous TCP port scanner built to scan very large address ranges quickly. | Tool | Free |
 | [naabu](https://github.com/projectdiscovery/naabu) | ProjectDiscovery | Port scanner written in Go, designed to be combined with other tools for attack surface discovery. | Tool | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

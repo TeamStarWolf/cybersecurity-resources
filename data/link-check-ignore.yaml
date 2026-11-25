@@ -1,122 +1,166 @@
 # Addresses the automated link check skips, each with the reason and the date it was last opened by hand.
 # An address belongs here only if it fails for an automated client while the resource itself is fine.
 # scripts/build.py writes .lycheeignore from this list; scripts/check_links.py reads it directly.
-# "url" is matched as a prefix.
-# An entry marked "only: ci" is skipped by the CI link check alone: the address refuses requests from
-# GitHub-hosted runners but answers a desktop network, so scripts/check_links.py still requires it to answer.
+#
+# max_share_percent: the largest share of the catalog's published addresses this list may cover.
+#   scripts/validate.py prints the current share and fails above this number, so the list cannot
+#   grow quietly until the link check stops meaning anything. Raise it only on purpose.
+# match: exact  skips that one address.
+# match: prefix skips every address that starts with "url", which must end with a slash.
+# only: ci      the entry applies to the CI link check alone: the address refuses requests from
+#               GitHub-hosted runners but answers a desktop network, so scripts/check_links.py
+#               still requires it to answer.
 
-- url: "https://www.bleepingcomputer.com/"
-  reason: "Cloudflare check returns 403 to automated clients; the site's feed at /feed/ answers 200."
-  opened: "2026-11-25"
-- url: "https://www.cvedetails.com/"
-  reason: "Cloudflare check returns 403 to automated clients and to the browser used for checking."
-  opened: "2026-11-25"
-- url: "https://vuldb.com/"
-  reason: "Cloudflare check returns 403 to automated clients; the recent-entries feed answers 200."
-  opened: "2026-11-25"
-- url: "https://www.abuseipdb.com/"
-  reason: "Cloudflare check returns 403 to automated clients; the API documentation at docs.abuseipdb.com answers 200."
-  opened: "2026-11-25"
-- url: "https://www.joesandbox.com/"
-  reason: "Cloudflare check returns 403 to automated clients; the vendor site www.joesecurity.org answers 200."
-  opened: "2026-11-25"
-- url: "https://databreaches.net/"
-  reason: "Bot check returns 403 to automated clients on most requests; the site's feed at /feed/ answers 200."
-  opened: "2026-11-25"
-- url: "https://engage.mitre.org/"
-  reason: "Bot check returns 403 to automated clients; the project repository github.com/mitre/engage answers 200."
-  opened: "2026-11-25"
-- url: "https://www.adobe.com/trust/security/"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.se.com/ww/en/work/support/cybersecurity/"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.cyber.gov.au/"
-  reason: "Resets the connection of a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.hhs.gov/hc3"
-  reason: "Returns 403 to a plain HTTP client. In a browser it redirects to tech.hhs.gov. The record is retired; the address stays in the compact set until its removal is decided."
-  opened: "2026-11-25"
-- url: "https://crt.sh/"
-  reason: "Intermittent 502 from the site's front end; loads on retry."
-  opened: "2026-11-25"
-- url: "https://www.shodan.io/"
-  reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://www.ic3.gov/"
-  reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://www.cobaltstrike.com/"
-  reason: "Cloudflare check returns 403 to automated clients on some requests and 200 on others; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://platform.censys.io/"
-  reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://search.censys.io/"
-  reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://www.reddit.com/r/"
-  reason: "Returns 403 to GitHub-hosted runners; a desktop network receives a page shell with status 200."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://sploitus.com/"
-  reason: "Slow front end: requests from automated clients often time out or return 502; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.exploit-db.com/"
-  reason: "Returns 502 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://support.brave.app/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data"
-  reason: "The Brave help article cited in the README. support.brave.com answers 301 to this address, and brave.com links to the same host. It returns 403 to GitHub-hosted runners on some runs and 200 from a desktop network."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://www.intel.com/content/www/us/en/security-center/"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.dell.com/support/security/"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://support.lenovo.com/us/en/product_security/"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.supermicro.com/en/support/security_center"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.sophos.com/en-us/security-advisories"
-  reason: "Times out for a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://security.alpinelinux.org/"
-  reason: "Returns 406 to the CI link checker's request; answers 200 to curl and to a browser."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.cybersecuritydive.com/"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.sophos.com/en-us/blog"
-  reason: "Times out for a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://www.akamai.com/blog/security-research"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://radar.cloudflare.com/"
-  reason: "Returns 403 to a plain HTTP client; loads in a browser."
-  opened: "2026-11-25"
-- url: "https://dashboard.shadowserver.org/"
-  reason: "Times out for GitHub-hosted runners on repeated runs; answers 200 from a desktop network."
-  opened: "2026-11-25"
-  only: ci
-- url: "https://blog.qualys.com/"
-  reason: "Returns 403 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
-  opened: "2026-11-25"
-  only: ci
+max_share_percent: 10
+
+entries:
+  - url: "https://www.bleepingcomputer.com/"
+    match: exact
+    reason: "Cloudflare check returns 403 to automated clients; the site's feed at /feed/ answers 200."
+    opened: "2026-11-25"
+  - url: "https://www.cvedetails.com/"
+    match: exact
+    reason: "Cloudflare check returns 403 to automated clients and to the browser used for checking."
+    opened: "2026-11-25"
+  - url: "https://vuldb.com/"
+    match: exact
+    reason: "Cloudflare check returns 403 to automated clients; the recent-entries feed answers 200."
+    opened: "2026-11-25"
+  - url: "https://www.abuseipdb.com/"
+    match: exact
+    reason: "Cloudflare check returns 403 to automated clients; the API documentation at docs.abuseipdb.com answers 200."
+    opened: "2026-11-25"
+  - url: "https://www.joesandbox.com/"
+    match: exact
+    reason: "Cloudflare check returns 403 to automated clients; the vendor site www.joesecurity.org answers 200."
+    opened: "2026-11-25"
+  - url: "https://databreaches.net/"
+    match: exact
+    reason: "Bot check returns 403 to automated clients on most requests; the site's feed at /feed/ answers 200."
+    opened: "2026-11-25"
+  - url: "https://engage.mitre.org/"
+    match: exact
+    reason: "Bot check returns 403 to automated clients; the project repository github.com/mitre/engage answers 200."
+    opened: "2026-11-25"
+  - url: "https://www.adobe.com/trust/security/bulletins-and-advisories.html"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.se.com/ww/en/work/support/cybersecurity/"
+    match: prefix
+    reason: "Returns 403 to a plain HTTP client; loads in a browser. Covers the current security notifications page and the earlier address that the compact set still carries."
+    opened: "2026-11-25"
+  - url: "https://www.cyber.gov.au/"
+    match: exact
+    reason: "Resets the connection of a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.hhs.gov/hc3"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client. In a browser it redirects to tech.hhs.gov, where the record now points. The compact set keeps this earlier address until that entry is changed on purpose."
+    opened: "2026-11-25"
+  - url: "https://crt.sh/"
+    match: exact
+    reason: "Intermittent 502 from the site's front end; loads on retry."
+    opened: "2026-11-25"
+  - url: "https://www.shodan.io/"
+    match: exact
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+    opened: "2026-11-25"
+  - url: "https://www.ic3.gov/"
+    match: exact
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+    opened: "2026-11-25"
+  - url: "https://www.cobaltstrike.com/"
+    match: exact
+    reason: "Cloudflare check returns 403 to automated clients on some requests and 200 on others; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://platform.censys.io/"
+    match: exact
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+    opened: "2026-11-25"
+  - url: "https://search.censys.io/"
+    match: exact
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners; answers 200 from a desktop network."
+    opened: "2026-11-25"
+  - url: "https://www.reddit.com/r/"
+    match: prefix
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners; a desktop network receives a page shell with status 200. Covers the two subreddit links of the compact set."
+    opened: "2026-11-25"
+  - url: "https://sploitus.com/"
+    match: exact
+    reason: "Slow front end: requests from automated clients often time out or return 502; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.exploit-db.com/"
+    match: exact
+    only: ci
+    reason: "Returns 502 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
+    opened: "2026-11-25"
+  - url: "https://support.brave.app/hc/en-us/articles/360019782291-How-do-I-import-or-export-browsing-data"
+    match: exact
+    only: ci
+    reason: "The Brave help article cited in the README. support.brave.com answers 301 to this address, and brave.com links to the same host. It returns 403 to GitHub-hosted runners on some runs and 200 from a desktop network."
+    opened: "2026-11-25"
+  - url: "https://www.intel.com/content/www/us/en/security-center/default.html"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.dell.com/support/security/en-us/"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://support.lenovo.com/product_security/home"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.supermicro.com/en/support/security_center"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.sophos.com/en-us/security-advisories"
+    match: exact
+    reason: "Times out for a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://security.alpinelinux.org/"
+    match: exact
+    only: ci
+    reason: "Returns 406 to the CI link checker's request; answers 200 to curl and to a browser."
+    opened: "2026-11-25"
+  - url: "https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.cybersecuritydive.com/"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.sophos.com/en-us/blog?taxonomy_blog_category=Threat+Research"
+    match: exact
+    reason: "Times out for a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://www.akamai.com/blog/security-research"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://radar.cloudflare.com/"
+    match: exact
+    reason: "Returns 403 to a plain HTTP client; loads in a browser."
+    opened: "2026-11-25"
+  - url: "https://dashboard.shadowserver.org/"
+    match: exact
+    only: ci
+    reason: "Times out for GitHub-hosted runners on repeated runs; answers 200 from a desktop network."
+    opened: "2026-11-25"
+  - url: "https://blog.qualys.com/"
+    match: exact
+    only: ci
+    reason: "Returns 403 to GitHub-hosted runners on some runs; answers 200 from a desktop network."
+    opened: "2026-11-25"

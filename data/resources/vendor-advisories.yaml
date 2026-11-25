@@ -20,9 +20,9 @@
   url: "https://www.microsoft.com/en-us/msrc/blog"
   publisher: "Microsoft"
   section: microsoft-and-cloud
-  kind: advisories
+  kind: research
   cost: free
-  description: "Blog of the Microsoft Security Response Center, covering security response topics and guidance on prioritizing updates."
+  description: "Blog of the Microsoft Security Response Center: security program updates, policy changes, technical research, and perspectives."
   checked:
     date: "2026-11-25"
     status: 200
@@ -219,7 +219,7 @@
   section: network-and-security-vendors
   kind: advisories
   cost: free
-  description: "MyF5's list of new and updated articles filtered to security advisories; each K article covers one vulnerability in an F5 product."
+  description: "MyF5's list of new and updated articles filtered to security advisories, covering F5 products and the third-party components in them."
   checked:
     date: "2026-11-25"
     status: 200
@@ -241,7 +241,7 @@
     status: 200
     final: "https://support.citrix.com/support-home/home"
     how: browser
-  notes: "The former address, https://support.citrix.com/securitybulletins, redirects to the support home page. The page is rendered by script."
+  notes: "The former address, https://support.citrix.com/securitybulletins, redirects to the support home page. Its View All control opens a separate bulletin list whose articles did not finish loading when checked. The page is rendered by script."
 
 - id: ivanti-security-advisories
   name: "Ivanti security advisory blog"
@@ -317,13 +317,13 @@
     how: browser
 
 - id: oracle-security-alerts
-  name: "Oracle Critical Patch Updates, Security Alerts and Bulletins"
+  name: "Oracle Critical Patch Updates, Critical Security Patch Updates, Security Alerts and Bulletins"
   url: "https://www.oracle.com/security-alerts/"
   publisher: "Oracle"
   section: enterprise-applications
   kind: advisories
   cost: free
-  description: "Oracle's index of Critical Patch Update advisories, security alerts, and bulletins, updated as each one is released."
+  description: "Oracle's index of Critical Patch Update and Critical Security Patch Update advisories, security alerts, and bulletins, updated as each one is released."
   checked:
     date: "2026-11-25"
     status: 200
@@ -350,9 +350,9 @@
   previously: ["https://www.ibm.com/trust/security-psirt"]
   publisher: "IBM"
   section: enterprise-applications
-  kind: advisories
+  kind: documentation
   cost: free
-  description: "IBM's page on how it handles security vulnerabilities in its products, including the PSIRT process for reporting them."
+  description: "IBM's page on how it handles security vulnerabilities in its products: the PSIRT reporting process and the route to IBM Security Bulletins."
   checked:
     date: "2026-11-25"
     status: 200
@@ -465,14 +465,15 @@
   url: "https://linux.oracle.com/security/"
   publisher: "Oracle"
   section: operating-systems-and-browsers
-  kind: advisories
+  kind: documentation
   cost: free
-  description: "Oracle Linux's security page, which gathers the distribution's security resources in one place."
+  description: "Oracle Linux's security hub: links to its CVE summaries, errata, OVAL definitions, and Ksplice; the errata list asked for a login when checked."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://linux.oracle.com/security/index.html"
     how: script
+  notes: "On 2026-11-25 the Errata link (linux.oracle.com/errata/) answered 403 Login Required to a script and in a browser. The CVE summary at linux.oracle.com/cve/ opened without signing in."
 
 - id: almalinux-errata
   name: "AlmaLinux Product Errata"
@@ -515,6 +516,7 @@
     status: 200
     final: "https://security.archlinux.org/"
     how: script
+  notes: "Alive but sparsely updated. On 2026-11-25 the advisory page showed its newest published advisories under October 2026 and four advisories from June 2025 still listed as scheduled."
 
 - id: gentoo-glsa
   name: "Gentoo Linux Security Advisories (GLSA)"
@@ -658,18 +660,19 @@
   notes: "The linux-cve-announce archive at lore.kernel.org sits behind a bot check and was not read."
 
 - id: check-point-advisories
-  name: "Check Point advisories archive"
+  name: "Check Point Advisories Archive (IPS protections)"
   url: "https://advisories.checkpoint.com/advisories/"
-  publisher: "Check Point"
+  publisher: "Check Point Software Technologies"
   section: network-and-security-vendors
   kind: advisories
   cost: free
-  description: "Check Point's archive of security advisories, browsable by year."
+  description: "Check Point's archive of IPS protection advisories, each covering a vulnerability in another vendor's product that its gateways detect; browsable by year."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://advisories.checkpoint.com/advisories/"
     how: script
+  notes: "These are not advisories about Check Point's own products: each entry names the affected third-party software and says the protection arrives with an IPS update. Check Point's own product advisories are the separate record check-point-security-advisories."
 
 - id: arista-security-advisories
   name: "Arista Security Advisories"
@@ -730,18 +733,19 @@
     how: script
 
 - id: trend-micro-vulnerability-response
-  name: "Trend Micro Vulnerability Response"
+  name: "TrendAI Product Vulnerability Response"
   url: "https://success.trendmicro.com/en-US/vulnerability-response/"
   publisher: "Trend Micro"
   section: network-and-security-vendors
   kind: advisories
   cost: free
-  description: "Trend Micro's vulnerability response page, listing current claims by product version and date, with how to report a vulnerability."
+  description: "Product vulnerability response page of Trend Micro's TrendAI Business Support portal, listing current claims by product version and date, with how to report a vulnerability."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://success.trendmicro.com/en-US/vulnerability-response/"
     how: script
+  notes: "The rendered page is titled Product Vulnerability Response, TrendAI Business Support, and its text speaks of TrendAI. The footer copyright is Trend Micro Incorporated and the address is on trendmicro.com. The page does not explain how the two names relate."
 
 - id: synology-security-advisories
   name: "Synology Product Security Advisory"
@@ -971,7 +975,7 @@
 - id: nginx-security-advisories
   name: "nginx security advisories"
   url: "https://nginx.org/en/security_advisories.html"
-  publisher: "nginx"
+  publisher: "F5"
   section: open-source-infrastructure
   kind: advisories
   cost: free
@@ -981,6 +985,7 @@
     status: 200
     final: "https://nginx.org/en/security_advisories.html"
     how: script
+  notes: "The page's only ownership statement is its footer, which reads F5, Inc."
 
 - id: openssl-vulnerabilities
   name: "OpenSSL vulnerabilities"
@@ -1003,12 +1008,13 @@
   section: open-source-infrastructure
   kind: advisories
   cost: free
-  description: "OpenSSH's security advisories and its contact for reporting a security issue."
+  description: "OpenSSH's security advisories and its contact for reporting a security issue; the newest entry is from April 2025, so read the release notes too."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.openssh.org/security.html"
     how: script
+  notes: "On 2026-11-25 the newest entry on the page was dated April 9, 2025. The release notes list OpenSSH 10.6p2 of 2026-11-05, which they describe as containing a critical security workaround, so the page lags the releases."
 
 - id: nodejs-vulnerability-announcements
   name: "Node.js vulnerability announcements"
@@ -1029,7 +1035,7 @@
   url: "https://www.python.org/dev/security/"
   publisher: "Python Software Foundation"
   section: open-source-infrastructure
-  kind: advisories
+  kind: documentation
   cost: free
   description: "How to report a security issue in Python and where the project publishes its security advisories."
   checked:
@@ -1037,6 +1043,7 @@
     status: 200
     final: "https://www.python.org/dev/security/"
     how: script
+  notes: "The page lists no advisories. It gives the reporting route and handling policy and points to the security-announce mailing list and the advisory database at github.com/psf/advisory-database."
 
 - id: kubernetes-cve-feed
   name: "Kubernetes Official CVE Feed"
@@ -1059,7 +1066,7 @@
   section: open-source-infrastructure
   kind: advisories
   cost: free
-  description: "Security announcements for Docker products, including CVE fixes for Docker Desktop and Docker Official Images."
+  description: "Security announcements for Docker products, including CVE fixes for Docker Desktop, Docker Sandboxes, and Docker Official Images."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1242,12 +1249,13 @@
   section: hardware-and-firmware
   kind: advisories
   cost: free
-  description: "NVIDIA's published security bulletins, with its PSIRT policies and how to report a vulnerability."
+  description: "NVIDIA's product security page: PSIRT policies, how to report a vulnerability, and bulletins through September 2026; newer bulletins are published on GitHub."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.nvidia.com/en-us/product-security/"
     how: browser
+  notes: "The page says that from October 1, 2026 NVIDIA PSIRT publishes security bulletins only on GitHub (github.com/NVIDIA/product-security), and also that all bulletins stay available here. On 2026-11-25 the newest rows of its table were dated September 2026."
 
 - id: dell-security-advisories
   name: "Dell Security Advisories, Notices and Resources"
@@ -1294,7 +1302,7 @@
 
 - id: lenovo-product-security
   name: "Lenovo Product Security Advisories and Announcements"
-  url: "https://support.lenovo.com/us/en/product_security/home"
+  url: "https://support.lenovo.com/product_security/home"
   publisher: "Lenovo"
   section: hardware-and-firmware
   kind: advisories
@@ -1305,7 +1313,7 @@
     status: 200
     final: "https://support.lenovo.com/us/en/product_security/home"
     how: browser
-  notes: "Answers 403 to a plain HTTP client; opened in a browser."
+  notes: "Answers 403 to a plain HTTP client; opened in a browser. The page gives this address as the one to bookmark; it redirects to a path with the visitor's locale."
 
 - id: supermicro-security-center
   name: "Supermicro Security Center"
@@ -1435,3 +1443,33 @@
     status: 200
     final: "https://psirt.bosch.com/security-advisories/"
     how: script
+
+- id: nvidia-security-bulletins
+  name: "NVIDIA security bulletins (product-security repository)"
+  url: "https://github.com/NVIDIA/product-security"
+  publisher: "NVIDIA"
+  section: hardware-and-firmware
+  kind: advisories
+  cost: free
+  description: "Repository where NVIDIA's PSIRT publishes security bulletins in Markdown, CSAF, and CVE record formats, its stated home for new bulletins since October 1, 2026."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://github.com/NVIDIA/product-security"
+    how: script
+  notes: "Last commit on the default branch: 2026-11-24. NVIDIA's product security page links here."
+
+- id: check-point-security-advisories
+  name: "Check Point Security Advisories"
+  url: "https://support.checkpoint.com/security-advisories"
+  publisher: "Check Point Software Technologies"
+  section: network-and-security-vendors
+  kind: advisories
+  cost: free
+  description: "Check Point's advisories for vulnerabilities in its own products, filterable by severity, CVSS score, product, and date, with CSV export."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://support.checkpoint.com/security-advisories"
+    how: browser
+  notes: "The list is rendered by script; a plain HTTP client receives the support site's shell. It showed 161 advisories without signing in on 2026-11-25."

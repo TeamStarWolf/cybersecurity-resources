@@ -22,8 +22,8 @@ What must the program comply with or measure against?
 | [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) | NIST | Home of the NIST Cybersecurity Framework, for understanding and improving how an organization manages cybersecurity risk. | Standard | Free |
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | Security and privacy control catalog for information systems and organizations; the page links Release 5.2.0, issued in August 2025. | Standard | Free |
 | [CIS Critical Security Controls](https://www.cisecurity.org/controls) | Center for Internet Security | Prioritized set of security practices from the Center for Internet Security; the page presents version 8.1. | Standard | Free |
-| [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) | Center for Internet Security | Consensus configuration recommendations for more than 25 vendor product families, used as hardening baselines. | Standard | Free |
-| [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) | CISA | A common set of protections that CISA says every critical infrastructure entity, large or small, should implement. | Standard | Free |
+| [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) | Center for Internet Security | Consensus configuration recommendations for more than 25 vendor product families, used as hardening baselines. | Standard | Free with account |
+| [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) | CISA | CISA's Cross-Sector Cybersecurity Performance Goals, now version 2.0: a baseline set of practices for critical infrastructure entities of any size. | Standard | Free |
 
 Listed here from another domain: CISA Cross-Sector Cybersecurity Performance Goals ([Government and CERT alerts](government-and-cert-alerts.md#united-states)).
 
