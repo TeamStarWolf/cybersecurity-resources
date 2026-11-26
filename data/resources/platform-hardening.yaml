@@ -8,7 +8,7 @@
   section: baselines-and-benchmarks
   kind: reference
   cost: free
-  description: "NCSC device guides in one collection: a general audience set, a set for IT administrators or managers, pages by device and platform, and case studies."
+  description: "NCSC device guides in one collection, with groups including platform guides, getting ready, policies and settings, managing deployed devices, infrastructure, and bring your own device."
   checked:
     date: "2026-11-25"
     status: 200
@@ -51,7 +51,7 @@
   section: windows-hardening
   kind: documentation
   cost: free
-  description: "Microsoft's Windows security hub, with entry points for hardware security, operating system security, application and agent security, identity protection, cloud services, security foundation, and privacy."
+  description: "Windows security hub: overview with a downloadable guide, hardware security, operating system security, application and agent security, identity protection, cloud services, security foundation, and privacy."
   checked:
     date: "2026-11-25"
     status: 200
@@ -330,7 +330,7 @@
   section: linux-and-container-hardening
   kind: tool
   cost: free
-  description: "Bans addresses through firewall rules when its log scans find repeated login failures; the README includes installation, configuration, documentation links, contact channels, and the license."
+  description: "Blocks the source of repeated failed logins to services such as sshd for a set time; README includes installation, configuration, documentation links, and contact channels."
   checked:
     date: "2026-11-25"
     status: 200
@@ -539,7 +539,7 @@
   section: audit-and-assessment-tools
   kind: dataset
   cost: free
-  description: "Repository of security policy content, with README sections including installation from packages, release ZIPs, or source, and usage with oscap, SCAP Workbench, Ansible, and Bash."
+  description: "Security policy content, with README sections including installation from packages, release ZIPs, or source, and usage with oscap, SCAP Workbench, oscap-ssh, Ansible, and Bash."
   checked:
     date: "2026-11-25"
     status: 200
@@ -554,13 +554,13 @@
   section: audit-and-assessment-tools
   kind: dataset
   cost: free
-  description: "Hardening baselines for servers and services, including Linux, SSH, Docker, MySQL, and Nginx, as InSpec test profiles with remediation code for Ansible, Chef, or Puppet."
+  description: "Hardening baselines for servers and services, including Linux, SSH, Docker, MySQL, and Nginx, as InSpec profiles, most with remediation code for Ansible, Chef, or Puppet."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://dev-sec.io/"
     how: script
-  notes: "Publisher from the site's legal notice, https://dev-sec.io/legal, read on 2026-11-25. The project's repositories are under the organization dev-sec on GitHub; one of them, ansible-collection-hardening, had its last default-branch commit on 2026-11-24, from GitHub's API on 2026-11-25."
+  notes: "Publisher from the site's legal notice, https://dev-sec.io/legal, read on 2026-11-25. The project's repositories are under the organization dev-sec on GitHub; one of them, ansible-collection-hardening, had its last default-branch commit on 2026-11-24, from GitHub's API on 2026-11-25. Of the baseline pages named, Docker's lists an InSpec profile only; the others also list Ansible, Chef and Puppet remediation code."
 
 - id: goss
   name: "Goss"

@@ -74,7 +74,7 @@
     status: 200
     final: "https://webauthn.guide/"
     how: script
-  notes: "The page names no operator: its only credit is a Sponsored by line at the foot, over the Duo Security and Cisco logos, which is what the publisher field records. The text says Duo Labs provides example projects in Python and Go, the page links no repository of its own, and its metadata credits one personal account as creator."
+  notes: "Publisher: the page's author box describes its author as a software engineer at Duo Security who has worked on Web Authentication there, and the foot of the page reads Sponsored by over the Duo Security and Cisco logos. The text says Duo Labs provides example projects in Python and Go; the page links no repository of its own."
 
 - id: rfc-9700
   name: "RFC 9700: Best Current Practice for OAuth 2.0 Security"
@@ -146,13 +146,13 @@
   section: active-directory-and-entra-defense
   kind: tool
   cost: free-with-account
-  description: "Free download behind a request form, with pages on the security indicators it checks in Okta, Entra ID, and Active Directory, an FAQ, and videos."
+  description: "Assessment tool that looks for indicators of exposure and of compromise in Okta, Entra ID, and Active Directory; a free download behind a request form."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.semperis.com/purple-knight/"
     how: script
-  notes: "The page's download buttons lead to /purple-knight/request-form/. The page calls the tool free and labels the version Community. The indicator, FAQ and video pages are menu links, one click away."
+  notes: "The page's download buttons lead to /purple-knight/request-form/. The page calls the tool free and labels the version Community."
 
 - id: best-practices-for-securing-active-directory
   name: "Best practices for securing Active Directory"
@@ -342,7 +342,7 @@
     status: 200
     final: "https://keepassxc.org/"
     how: script
-  notes: "Publisher from the footer's copyright line and the author tag. The footer says KeePassXC is released under the GPLv3. The imprint on the team page names one maintainer as the legal contact."
+  notes: "Publisher from the footer's copyright line and the author tag. The footer says KeePassXC is released under the GPLv3. The Legal Info / Impressum section on the team page names one person as the legal contact."
 
 - id: bitwarden
   name: "Bitwarden"
@@ -698,13 +698,13 @@
   section: data-protection-and-privacy
   kind: tool
   cost: freemium
-  description: "Encrypts files before they reach cloud storage, in vaults unlocked by password; desktop is free, while mobile write access and hosted team plans are paid."
+  description: "Encrypts files before they reach cloud storage; desktop is free, mobile write access paid, and the team Hub paid beyond a free self-hosted tier."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://cryptomator.org/"
     how: script
-  notes: "Cost from the pricing page, read 2026-11-25: the desktop app is free with full access; the free Android and iOS versions are read-only and full access is a one-time purchase on each; Cryptomator Hub has a free self-hosted Community tier with 5 seats, a hosted Standard plan priced per seat with a 30-day trial, and an Enterprise plan. Publisher from the site's Impressum."
+  notes: "Cost from the pricing page, read 2026-11-25: the desktop app is free with full access; the free Android and iOS versions are read-only and full access is a one-time purchase on each; Cryptomator Hub, for teams, has a free Community tier (5 seats, self-hosted only), a Standard plan priced per seat and offered managed or self-hosted, with a 30-day trial, and an Enterprise plan. Publisher from the site's Impressum."
 
 - id: nwipe
   name: "nwipe"

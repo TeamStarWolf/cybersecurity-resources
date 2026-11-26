@@ -77,7 +77,7 @@ Is this server's TLS, SSH, or header setup right?
 | [OpenSSL Cookbook](https://www.feistyduck.com/library/openssl-cookbook/) | Feisty Duck Limited | Ivan Ristić's book on the OpenSSL command line and on testing TLS with it, free to read online without registration. | Reference | Free |
 | [Let's Debug](https://letsdebug.net/) | Let's Debug | Form that takes a domain name and a validation method (HTTP-01, DNS-01, or TLS-ALPN-01) and tests for problems that stop Let's Encrypt issuing a certificate. | Online service | Free |
 | [PageSpeed Insights](https://pagespeed.web.dev/) | Google | Enter a page address for a performance report on mobile and desktop that pairs field data from real users with Lighthouse lab diagnostics and suggestions. | Online service | Free |
-| [httpstatus.io](https://httpstatus.io/) | Crafted Code (Sander Heilbron) | Checks URLs in bulk for redirect chains, status codes, and response headers, with features including user agent choice, filters, and export; API plans are paid. | Online service | Freemium |
+| [httpstatus.io](https://httpstatus.io/) | Crafted Code (Sander Heilbron) | Bulk URL tester that follows redirects hop by hop, with features including user agent choice, filters, and export; the API has free and paid plans. | Online service | Freemium |
 
 ## Decoders, encoders, and converters
 

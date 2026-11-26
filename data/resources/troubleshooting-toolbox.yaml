@@ -945,13 +945,13 @@
   section: web-and-tls-testers
   kind: service
   cost: freemium
-  description: "Checks URLs in bulk for redirect chains, status codes, and response headers, with features including user agent choice, filters, and export; API plans are paid."
+  description: "Bulk URL tester that follows redirects hop by hop, with features including user agent choice, filters, and export; the API has free and paid plans."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://httpstatus.io/"
     how: browser
-  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the terms of service, which name the operator as Crafted Code, a registered trade name of one person; the footer line reads Crafted by Sander Heilbron. The checker on the page is free to use; the API page lists monthly and one-off paid plans."
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the terms of service, which name the operator as Crafted Code, a registered trade name of one person; the footer line reads Crafted by Sander Heilbron. The checker on the page is free to use; the API page's FAQ describes a free plan with a small request quota, which needs an account, beside monthly and one-off paid plans."
 
 - id: jq-playground
   name: "jq playground"
