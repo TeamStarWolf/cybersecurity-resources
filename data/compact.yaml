@@ -5,14 +5,14 @@
 # that address; without one it uses the resource's current address.
 
 title: "Cybersecurity Resources"
-intro: "A bookmark collection weighted toward vulnerability management and threat intelligence. This page lists the same links as `bookmarks.html`, folder by folder; the [README](README.md) explains how to import them."
+intro: "A bookmark collection for cybersecurity and enterprise IT work. This page lists the same links as `bookmarks.html`, folder by folder; the [README](README.md) explains how to import them."
 folders:
   - title: "⭐ Daily Driver"
     links:
       - {id: nvd, label: "NVD: National Vulnerability Database"}
       - {id: cisa-kev, label: "CISA KEV: Known Exploited Vulnerabilities"}
       - {id: epss, label: "FIRST EPSS: Exploit Prediction Scoring System"}
-      - {id: vulncheck, label: "VulnCheck", url: "https://vulncheck.com/"}
+      - {id: vulncheck, label: "VulnCheck"}
       - {id: mitre-attack, label: "MITRE ATT&CK"}
       - {id: virustotal, label: "VirusTotal"}
       - {id: shodan, label: "Shodan"}
@@ -31,7 +31,7 @@ folders:
           - {id: opencve, label: "OpenCVE"}
           - {id: osv, label: "OSV: Open Source Vulnerabilities"}
           - {id: github-advisory-database, label: "GitHub Advisory Database"}
-          - {id: vulncheck, label: "VulnCheck", url: "https://vulncheck.com/"}
+          - {id: vulncheck, label: "VulnCheck"}
           - {id: vulners, label: "Vulners"}
           - {id: vuldb, label: "VulDB"}
           - {id: snyk-security-database, label: "Snyk Vulnerability DB"}
@@ -46,24 +46,24 @@ folders:
           - {id: epss-data, label: "EPSS Data"}
           - {id: cvss-v4-calculator, label: "CVSS v4.0 Calculator"}
           - {id: cvss-v3-1-calculator, label: "CVSS v3.1 Calculator"}
-          - {id: cisa-ssvc, label: "CISA SSVC", url: "https://www.cisa.gov/ssvc"}
+          - {id: cisa-ssvc, label: "CISA SSVC"}
           - {id: ssvc-calculator, label: "SSVC Calculator (CERT/CC)"}
       - title: "Exploits & Proof-of-Concept"
         links:
           - {id: exploit-db, label: "Exploit-DB"}
-          - {id: metasploit-modules, label: "Metasploit Modules (Rapid7 DB)", url: "https://www.rapid7.com/db/?type=metasploit"}
+          - {id: metasploit-modules, label: "Metasploit Modules (Rapid7 DB)"}
           - {id: nuclei-templates, label: "Nuclei Templates"}
           - {id: poc-in-github, label: "PoC-in-GitHub (nomi-sec)"}
           - {id: trickest-cve, label: "Trickest CVE → PoC"}
           - {id: packet-storm, label: "Packet Storm"}
           - {id: sploitus, label: "Sploitus"}
-          - {id: vulncheck-xdb, label: "VulnCheck XDB (exploits)", url: "https://vulncheck.com/xdb"}
+          - {id: vulncheck-xdb, label: "VulnCheck XDB (exploits)"}
       - title: "Scanners"
         links:
           - {id: nessus, label: "Tenable Nessus"}
-          - {id: qualys-vmdr, label: "Qualys VMDR", url: "https://www.qualys.com/apps/vulnerability-management-detection-response/"}
+          - {id: qualys-vmdr, label: "Qualys VMDR"}
           - {id: insightvm, label: "Rapid7 InsightVM"}
-          - {id: greenbone-community-edition, label: "OpenVAS / Greenbone", url: "https://www.greenbone.net/en/community-edition/"}
+          - {id: greenbone-community-edition, label: "OpenVAS / Greenbone"}
           - {id: nuclei, label: "Nuclei"}
           - {id: osv-scanner, label: "OSV-Scanner"}
           - {id: trivy, label: "Trivy"}
@@ -100,18 +100,18 @@ folders:
           - {id: cisco-security-advisories, label: "Cisco Security Advisories"}
           - {id: palo-alto-networks-security-advisories, label: "Palo Alto Networks Security"}
           - {id: fortiguard-psirt-advisories, label: "Fortinet FortiGuard PSIRT"}
-          - {id: f5-security-advisories, label: "F5 Security Advisories", url: "https://my.f5.com/manage/s/tech-documents"}
-          - {id: citrix-security-bulletins, label: "Citrix Security Bulletins", url: "https://support.citrix.com/securitybulletins"}
+          - {id: f5-security-advisories, label: "F5 Security Advisories"}
+          - {id: citrix-security-bulletins, label: "Citrix Security Bulletins"}
           - {id: ivanti-security-advisories, label: "Ivanti Security Advisories"}
           - {id: sonicwall-psirt, label: "SonicWall PSIRT"}
           - {id: vmware-security-advisories, label: "VMware (Broadcom) Security Advisories"}
-          - {id: juniper-support-portal, label: "Juniper Support Portal (SIRT)", url: "https://supportportal.juniper.net/"}
+          - {id: juniper-support-portal, label: "Juniper Support Portal (SIRT)"}
           - {id: check-point-support-center, label: "Check Point Support"}
       - title: "Enterprise Applications"
         links:
           - {id: oracle-security-alerts, label: "Oracle Critical Patch Updates"}
           - {id: sap-security-notes, label: "SAP Security Notes"}
-          - {id: ibm-security-vulnerability-management, label: "IBM PSIRT / Security Bulletins", url: "https://www.ibm.com/trust/security-psirt"}
+          - {id: ibm-security-vulnerability-management, label: "IBM PSIRT / Security Bulletins"}
           - {id: adobe-security-bulletins, label: "Adobe Security Bulletins"}
           - {id: atlassian-security-advisories, label: "Atlassian Security Advisories"}
           - {id: gitlab-advisory-database, label: "GitLab Advisory Database"}
@@ -121,7 +121,7 @@ folders:
           - {id: cisa-cybersecurity-advisories, label: "CISA Cybersecurity Advisories (incl. ICS)"}
           - {id: cisa-industrial-control-systems, label: "CISA Industrial Control Systems"}
           - {id: siemens-productcert, label: "Siemens ProductCERT"}
-          - {id: schneider-electric-security-notifications, label: "Schneider Electric Security Notifications", url: "https://www.se.com/ww/en/work/support/cybersecurity/security-notifications.jsp"}
+          - {id: schneider-electric-security-notifications, label: "Schneider Electric Security Notifications"}
       - title: "Aggregators & CERT"
         links:
           - {id: cisa-cybersecurity-advisories, label: "CISA All Advisories"}
@@ -142,7 +142,7 @@ folders:
           - {id: pulsedive, label: "Pulsedive"}
           - {id: greynoise-visualizer, label: "GreyNoise"}
           - {id: shodan, label: "Shodan"}
-          - {id: censys-platform, label: "Censys Search", url: "https://search.censys.io/"}
+          - {id: censys-platform, label: "Censys Platform"}
           - {id: onyphe, label: "Onyphe"}
           - {id: crt-sh, label: "crt.sh (certificate search)"}
       - title: "APT & Adversary Tracking"
@@ -154,7 +154,7 @@ folders:
           - {id: misp-galaxy, label: "MISP Galaxy"}
           - {id: orkl, label: "ORKL: Threat Report Library"}
           - {id: crowdstrike-adversaries, label: "CrowdStrike Adversary Universe"}
-          - {id: microsoft-threat-actor-naming, label: "Microsoft Threat Actor Naming", url: "https://learn.microsoft.com/en-us/unified-secops-platform/microsoft-threat-actor-naming"}
+          - {id: microsoft-threat-actor-naming, label: "Microsoft Threat Actor Naming"}
       - title: "CTI Vendor Research Blogs"
         links:
           - {id: google-threat-intelligence-blog, label: "Google Threat Intelligence (Mandiant)"}
@@ -162,10 +162,10 @@ folders:
           - {id: microsoft-threat-intelligence-blog, label: "Microsoft Threat Intelligence"}
           - {id: cisco-talos-blog, label: "Cisco Talos"}
           - {id: unit-42, label: "Palo Alto Unit 42"}
-          - {id: crowdstrike-blog, label: "CrowdStrike Blog", url: "https://www.crowdstrike.com/blog/"}
+          - {id: crowdstrike-blog, label: "CrowdStrike Blog"}
           - {id: recorded-future-blog, label: "Recorded Future"}
           - {id: check-point-research, label: "Check Point Research"}
-          - {id: welivesecurity, label: "ESET WeLiveSecurity", url: "https://www.welivesecurity.com/"}
+          - {id: welivesecurity, label: "ESET WeLiveSecurity"}
           - {id: securelist, label: "Kaspersky Securelist"}
           - {id: volexity-blog, label: "Volexity"}
           - {id: the-dfir-report, label: "The DFIR Report"}
@@ -174,7 +174,7 @@ folders:
         links:
           - {id: verizon-dbir, label: "Verizon DBIR"}
           - {id: m-trends, label: "M-Trends (Mandiant)"}
-          - {id: crowdstrike-global-threat-report, label: "CrowdStrike Global Threat Report", url: "https://www.crowdstrike.com/global-threat-report/"}
+          - {id: crowdstrike-global-threat-report, label: "CrowdStrike Global Threat Report"}
           - {id: enisa-cyber-threats, label: "ENISA Threat Landscape"}
           - {id: ibm-x-force-threat-intelligence-index, label: "IBM X-Force Threat Intelligence"}
       - title: "CTI Platforms"
@@ -196,7 +196,7 @@ folders:
       - {id: canadian-centre-for-cyber-security, label: "Canadian Centre for Cyber Security"}
       - {id: enisa, label: "ENISA"}
       - {id: ic3, label: "FBI IC3"}
-      - {id: hhs-hc3, label: "HHS HC3 (Healthcare)", url: "https://www.hhs.gov/hc3"}
+      - {id: hhs-hc3, label: "HHS Threat Intelligence (Healthcare)"}
   - title: "🧰 Frameworks & Standards"
     sections:
       - title: "MITRE"
@@ -210,7 +210,7 @@ folders:
           - {id: mitre-emb3d, label: "EMB3D"}
           - {id: mitre-car, label: "CAR: Cyber Analytics Repository"}
           - {id: center-for-threat-informed-defense, label: "Center for Threat-Informed Defense"}
-          - {id: mappings-explorer, label: "CTID Mappings Explorer", url: "https://center-for-threat-informed-defense.github.io/mappings-explorer/"}
+          - {id: mappings-explorer, label: "CTID Mappings Explorer"}
       - title: "NIST"
         links:
           - {id: nist-cybersecurity-framework, label: "NIST Cybersecurity Framework (CSF)"}
@@ -225,13 +225,13 @@ folders:
           - {id: cis-benchmarks, label: "CIS Benchmarks"}
       - title: "OWASP & AppSec"
         links:
-          - {id: owasp-top-10, label: "OWASP Top 10", url: "https://owasp.org/www-project-top-ten/"}
+          - {id: owasp-top-10, label: "OWASP Top 10"}
           - {id: owasp-asvs, label: "OWASP ASVS"}
-          - {id: owasp-wstg, label: "OWASP Web Security Testing Guide", url: "https://owasp.org/www-project-web-security-testing-guide/"}
+          - {id: owasp-wstg, label: "OWASP Web Security Testing Guide"}
           - {id: owasp-mas, label: "OWASP MASTG (Mobile)"}
           - {id: owasp-cheat-sheet-series, label: "OWASP Cheat Sheet Series"}
           - {id: owasp-samm, label: "OWASP SAMM"}
-          - {id: owasp-threat-dragon, label: "OWASP Threat Dragon", url: "https://owasp.org/www-project-threat-dragon/"}
+          - {id: owasp-threat-dragon, label: "OWASP Threat Dragon"}
   - title: "🛠️ Offensive & Tooling"
     sections:
       - title: "Recon & OSINT"
@@ -247,7 +247,7 @@ folders:
         links:
           - {id: burp-suite, label: "Burp Suite"}
           - {id: zap, label: "ZAP (Zed Attack Proxy)"}
-          - {id: caido, label: "Caido", url: "https://caido.io/"}
+          - {id: caido, label: "Caido"}
           - {id: ffuf, label: "ffuf"}
           - {id: sqlmap, label: "sqlmap"}
           - {id: nuclei, label: "Nuclei"}
@@ -295,7 +295,7 @@ folders:
       - title: "Sandboxes & Lookup"
         links:
           - {id: any-run, label: "Any.run"}
-          - {id: hybrid-analysis, label: "Hybrid Analysis", url: "https://www.hybrid-analysis.com/"}
+          - {id: hybrid-analysis, label: "Hybrid Analysis"}
           - {id: joe-sandbox, label: "Joe Sandbox"}
           - {id: triage, label: "Hatching Triage"}
           - {id: malwarebazaar, label: "MalwareBazaar"}
@@ -306,17 +306,17 @@ folders:
         links:
           - {id: volatility-3, label: "Volatility 3"}
           - {id: autopsy, label: "Autopsy"}
-          - {id: kape, label: "KAPE", url: "https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape"}
+          - {id: kape, label: "KAPE"}
           - {id: eric-zimmerman-tools, label: "Eric Zimmerman Tools"}
           - {id: velociraptor, label: "Velociraptor"}
-          - {id: chainsaw, label: "Chainsaw", url: "https://github.com/WithSecureLabs/chainsaw"}
+          - {id: chainsaw, label: "Chainsaw"}
           - {id: timesketch, label: "Timesketch"}
           - {id: plaso, label: "plaso (log2timeline)"}
-          - {id: sans-dfir-courses, label: "SANS DFIR", url: "https://www.sans.org/cyber-security-courses/?focus-area=digital-forensics-incident-response"}
+          - {id: sans-dfir-courses, label: "SANS DFIR"}
       - title: "Reverse Engineering"
         links:
           - {id: ghidra, label: "Ghidra"}
-          - {id: ida-free, label: "IDA Free", url: "https://hex-rays.com/ida-free/"}
+          - {id: ida-free, label: "IDA Free"}
           - {id: binary-ninja, label: "Binary Ninja"}
           - {id: cutter, label: "Cutter (rizin)"}
           - {id: x64dbg, label: "x64dbg"}
@@ -344,7 +344,7 @@ folders:
       - {id: detection-fyi, label: "Detection.fyi (Sigma search)"}
       - {id: uncoder-io, label: "Uncoder.io"}
       - {id: atomic-red-team, label: "Atomic Red Team"}
-      - {id: caldera, label: "MITRE Caldera", url: "https://github.com/mitre/caldera"}
+      - {id: caldera, label: "Apache Caldera"}
       - {id: elastic-detection-rules, label: "Elastic Detection Rules"}
       - {id: detectionlab, label: "DetectionLab"}
       - {id: evtx-attack-samples, label: "EVTX-ATTACK-SAMPLES"}
@@ -365,7 +365,7 @@ folders:
       - {id: letsdefend, label: "LetsDefend"}
       - {id: rangeforce, label: "RangeForce"}
       - {id: antisyphon-training, label: "Antisyphon Training"}
-      - {id: picoctf, label: "picoCTF", url: "https://picoctf.org/"}
+      - {id: picoctf, label: "CyLab Security Academy (picoCTF)"}
       - {id: ctftime, label: "CTFtime"}
   - title: "📰 News & Research"
     links:
@@ -383,3 +383,278 @@ folders:
       - {id: databreaches-net, label: "DataBreaches.net"}
       - {id: reddit-netsec, label: "Reddit r/netsec"}
       - {id: reddit-blueteamsec, label: "Reddit r/blueteamsec"}
+  - title: "🛡️ Hardening & Identity"
+    sections:
+      - title: "Baselines & Benchmarks"
+        links:
+          - {id: cis-benchmarks, label: "CIS Benchmarks"}
+          - {id: disa-stigs, label: "DISA STIGs"}
+          - {id: nist-national-checklist-program, label: "NIST National Checklist Program"}
+          - {id: ncsc-device-security-guidance, label: "NCSC Device Security Guidance"}
+          - {id: nist-sp-800-190, label: "NIST SP 800-190 (Containers)"}
+          - {id: nist-sp-800-124, label: "NIST SP 800-124 (Mobile Devices)"}
+      - title: "Windows Hardening"
+        links:
+          - {id: windows-security-baselines, label: "Windows Security Baselines"}
+          - {id: security-compliance-toolkit, label: "Security Compliance Toolkit"}
+          - {id: attack-surface-reduction-rules, label: "ASR Rules Reference"}
+          - {id: app-control-for-business, label: "Application Control for Windows"}
+          - {id: windows-laps, label: "Windows LAPS"}
+          - {id: hardeningkitty, label: "HardeningKitty"}
+      - title: "Linux & Container Hardening"
+        links:
+          - {id: kspp-recommended-settings, label: "KSPP Recommended Settings"}
+          - {id: mozilla-openssh-guidelines, label: "Mozilla OpenSSH Guidelines"}
+          - {id: ssh-audit-hardening-guides, label: "SSH Hardening Guides"}
+          - {id: selinux-notebook, label: "The SELinux Notebook"}
+          - {id: docker-engine-security, label: "Docker Engine Security"}
+          - {id: kubernetes-security-checklist, label: "Kubernetes Security Checklist"}
+      - title: "macOS & Mobile Hardening"
+        links:
+          - {id: macos-security-compliance-project, label: "macOS Security Compliance Project"}
+          - {id: apple-platform-security, label: "Apple Platform Security"}
+          - {id: macos-security-and-privacy-guide, label: "macOS Security and Privacy Guide"}
+          - {id: objective-see-tools, label: "Objective-See Tools"}
+          - {id: android-security-features, label: "Android Security Features"}
+          - {id: grapheneos, label: "GrapheneOS Features"}
+      - title: "Audit & Assessment Tools"
+        links:
+          - {id: lynis, label: "Lynis"}
+          - {id: openscap, label: "OpenSCAP"}
+          - {id: complianceascode, label: "ComplianceAsCode"}
+          - {id: dev-sec-hardening-framework, label: "DevSec Hardening Framework"}
+          - {id: docker-bench-security, label: "Docker Bench for Security"}
+          - {id: kernel-hardening-checker, label: "kernel-hardening-checker"}
+      - title: "Authentication Standards"
+        links:
+          - {id: nist-sp-800-63, label: "NIST SP 800-63 (Digital Identity)"}
+          - {id: fido-alliance-specifications, label: "FIDO Specifications"}
+          - {id: passkeys-dev, label: "passkeys.dev"}
+          - {id: passkey-central, label: "Passkey Central"}
+          - {id: rfc-9700, label: "RFC 9700: OAuth 2.0 Security"}
+          - {id: owasp-authentication-cheat-sheet, label: "OWASP Authentication Cheat Sheet"}
+      - title: "Active Directory & Entra Defense"
+        links:
+          - {id: best-practices-for-securing-active-directory, label: "Securing Active Directory (Microsoft)"}
+          - {id: entra-security-operations-guide, label: "Entra Security Operations Guide"}
+          - {id: anssi-active-directory-checklist, label: "ANSSI Active Directory Checklist"}
+          - {id: pingcastle, label: "PingCastle"}
+          - {id: purple-knight, label: "Purple Knight"}
+          - {id: maester, label: "Maester"}
+      - title: "Zero Trust & Privileged Access"
+        links:
+          - {id: nist-sp-800-207, label: "NIST SP 800-207 (Zero Trust)"}
+          - {id: ncsc-zero-trust-architecture, label: "NCSC Zero Trust Principles"}
+          - {id: microsoft-zero-trust-guidance, label: "Microsoft Zero Trust Guidance"}
+          - {id: securing-privileged-access, label: "Securing Privileged Access"}
+      - title: "Passwords & Secrets"
+        links:
+          - {id: pwned-passwords, label: "Pwned Passwords"}
+          - {id: ncsc-password-guidance, label: "NCSC Password Guidance"}
+          - {id: keepassxc, label: "KeePassXC"}
+          - {id: bitwarden, label: "Bitwarden"}
+          - {id: owasp-password-storage-cheat-sheet, label: "OWASP Password Storage"}
+          - {id: trufflehog, label: "TruffleHog"}
+      - title: "Cryptography & PKI"
+        links:
+          - {id: tlsref-guidelines, label: "TLSRef TLS Guidelines"}
+          - {id: tlsref-configurator, label: "TLS Configurator"}
+          - {id: nist-post-quantum-cryptography, label: "NIST Post-Quantum Cryptography"}
+          - {id: cabforum-baseline-requirements, label: "CA/Browser Forum Baseline Requirements"}
+          - {id: certificate-transparency, label: "Certificate Transparency"}
+          - {id: badkeys, label: "badkeys"}
+      - title: "Data Protection & Privacy"
+        links:
+          - {id: nist-privacy-framework, label: "NIST Privacy Framework"}
+          - {id: nist-sp-800-88, label: "NIST SP 800-88 (Media Sanitization)"}
+          - {id: gdpr-eur-lex, label: "GDPR (EUR-Lex)"}
+          - {id: ico-uk-gdpr-guidance, label: "ICO UK GDPR Guidance"}
+          - {id: veracrypt, label: "VeraCrypt"}
+          - {id: privacy-guides, label: "Privacy Guides"}
+  - title: "🖥️ IT Administration"
+    sections:
+      - title: "Microsoft 365 & Windows"
+        links:
+          - {id: microsoft-365-documentation, label: "Microsoft 365 Docs"}
+          - {id: windows-server-documentation, label: "Windows Server Docs"}
+          - {id: windows-release-health, label: "Windows Release Health"}
+          - {id: microsoft-service-health-status, label: "Microsoft Service Health"}
+          - {id: sysinternals, label: "Sysinternals"}
+          - {id: microsoft-update-catalog, label: "Microsoft Update Catalog"}
+      - title: "Identity & Directory"
+        links:
+          - {id: microsoft-entra-documentation, label: "Microsoft Entra Docs"}
+          - {id: microsoft-entra-conditional-access, label: "Entra Conditional Access"}
+          - {id: active-directory-domain-services-overview, label: "AD DS Overview"}
+          - {id: okta-documentation, label: "Okta Docs"}
+          - {id: keycloak, label: "Keycloak"}
+          - {id: jwt-ms, label: "jwt.ms"}
+      - title: "Endpoint & Device Management"
+        links:
+          - {id: intune-documentation, label: "Microsoft Intune Docs"}
+          - {id: windows-autopilot-documentation, label: "Windows Autopilot"}
+          - {id: configuration-manager-documentation, label: "Configuration Manager"}
+          - {id: apple-platform-deployment, label: "Apple Platform Deployment"}
+          - {id: jamf-learning-hub, label: "Jamf Learning Hub"}
+          - {id: winget, label: "WinGet"}
+      - title: "Servers, Virtualization & Storage"
+        links:
+          - {id: windows-admin-center, label: "Windows Admin Center"}
+          - {id: rhel-documentation, label: "RHEL Docs"}
+          - {id: ubuntu-server-documentation, label: "Ubuntu Server Docs"}
+          - {id: linux-man-pages, label: "Linux man pages"}
+          - {id: proxmox-ve-documentation, label: "Proxmox VE Docs"}
+          - {id: kubernetes-documentation, label: "Kubernetes Docs"}
+      - title: "Cloud Platforms"
+        links:
+          - {id: aws-documentation, label: "AWS Docs"}
+          - {id: aws-well-architected, label: "AWS Well-Architected"}
+          - {id: azure-documentation, label: "Azure Docs"}
+          - {id: azure-architecture-center, label: "Azure Architecture Center"}
+          - {id: google-cloud-documentation, label: "Google Cloud Docs"}
+          - {id: terraform-documentation, label: "Terraform Docs"}
+      - title: "Networking"
+        links:
+          - {id: cisco-support, label: "Cisco Support"}
+          - {id: fortinet-document-library, label: "Fortinet Docs"}
+          - {id: palo-alto-networks-techdocs, label: "Palo Alto TechDocs"}
+          - {id: rfc-editor, label: "RFC Editor"}
+          - {id: iana-port-numbers, label: "IANA Port Numbers"}
+          - {id: netbox, label: "NetBox"}
+      - title: "Email, DNS & Collaboration"
+        links:
+          - {id: dmarc-org, label: "DMARC.org"}
+          - {id: google-email-sender-guidelines, label: "Gmail Sender Guidelines"}
+          - {id: learndmarc, label: "Learn and Test DMARC"}
+          - {id: google-admin-toolbox, label: "Google Admin Toolbox"}
+          - {id: postfix-documentation, label: "Postfix Docs"}
+          - {id: bind-9-documentation, label: "BIND 9 Manual"}
+      - title: "Databases"
+        links:
+          - {id: postgresql-documentation, label: "PostgreSQL Docs"}
+          - {id: sql-server-documentation, label: "SQL Server Docs"}
+          - {id: mariadb-documentation, label: "MariaDB Docs"}
+          - {id: mongodb-documentation, label: "MongoDB Docs"}
+          - {id: dbatools, label: "dbatools"}
+          - {id: use-the-index-luke, label: "Use The Index, Luke"}
+      - title: "Automation & Scripting"
+        links:
+          - {id: powershell-documentation, label: "PowerShell Docs"}
+          - {id: ss64, label: "SS64 Command Reference"}
+          - {id: shellcheck, label: "ShellCheck"}
+          - {id: regex101, label: "regex101"}
+          - {id: crontab-guru, label: "crontab guru"}
+          - {id: ansible-documentation, label: "Ansible Docs"}
+      - title: "Monitoring & Logging"
+        links:
+          - {id: prometheus-documentation, label: "Prometheus Docs"}
+          - {id: grafana-documentation, label: "Grafana Docs"}
+          - {id: zabbix-documentation, label: "Zabbix Manual"}
+          - {id: elastic-documentation, label: "Elastic Docs"}
+          - {id: opentelemetry-documentation, label: "OpenTelemetry Docs"}
+          - {id: google-sre-book, label: "Google SRE Book"}
+      - title: "Backup & Recovery"
+        links:
+          - {id: nist-sp-800-34, label: "NIST SP 800-34 (Contingency Planning)"}
+          - {id: ncsc-offline-backups, label: "NCSC Offline Backups"}
+          - {id: restic, label: "restic"}
+          - {id: borgbackup, label: "BorgBackup"}
+          - {id: rclone, label: "Rclone"}
+          - {id: veeam-help-center, label: "Veeam Help Center"}
+      - title: "ITSM & Operations"
+        links:
+          - {id: fitsm, label: "FitSM"}
+          - {id: glpi, label: "GLPI"}
+          - {id: snipe-it, label: "Snipe-IT"}
+          - {id: bookstack, label: "BookStack"}
+          - {id: atlassian-incident-management-handbook, label: "Atlassian Incident Handbook"}
+          - {id: server-fault, label: "Server Fault"}
+  - title: "🔧 Troubleshooting & Lifecycle"
+    sections:
+      - title: "Network Reachability & Speed"
+        links:
+          - {id: globalping, label: "Globalping"}
+          - {id: ping-pe, label: "ping.pe"}
+          - {id: he-looking-glass, label: "Hurricane Electric Looking Glass"}
+          - {id: cloudflare-speed-test, label: "Cloudflare Speed Test"}
+          - {id: m-lab-speed-test, label: "M-Lab Speed Test"}
+          - {id: cidr-xyz, label: "CIDR.xyz"}
+      - title: "DNS, IP & Registration Lookups"
+        links:
+          - {id: mxtoolbox-supertool, label: "MxToolbox SuperTool"}
+          - {id: dnschecker, label: "DNS Checker"}
+          - {id: nslookup-io, label: "NsLookup.io"}
+          - {id: rdap-org, label: "RDAP.org"}
+          - {id: dig-web-interface, label: "Dig Web Interface"}
+          - {id: google-public-dns-lookup, label: "Google Public DNS"}
+      - title: "Web & TLS Testers"
+        links:
+          - {id: ssl-labs-server-test, label: "SSL Labs Server Test"}
+          - {id: testssl-sh, label: "testssl.sh"}
+          - {id: badssl, label: "badssl.com"}
+          - {id: security-headers, label: "Security Headers"}
+          - {id: mozilla-http-observatory, label: "HTTP Observatory"}
+          - {id: lets-debug, label: "Let's Debug"}
+      - title: "Decoders & Converters"
+        links:
+          - {id: it-tools, label: "IT Tools"}
+          - {id: base64decode, label: "Base64 Decode and Encode"}
+          - {id: epoch-converter, label: "Epoch Converter"}
+          - {id: jsonlint, label: "JSONLint"}
+          - {id: jq-playground, label: "jq playground"}
+          - {id: curlconverter, label: "curlconverter"}
+      - title: "Packet Capture & HTTP Debugging"
+        links:
+          - {id: wireshark-users-guide, label: "Wireshark User's Guide"}
+          - {id: wireshark-display-filter-reference, label: "Wireshark Display Filters"}
+          - {id: mitmproxy, label: "mitmproxy"}
+          - {id: httpbin, label: "httpbin"}
+          - {id: webhook-site, label: "Webhook.site"}
+          - {id: hoppscotch, label: "Hoppscotch"}
+      - title: "Rescue & Diagnostics"
+        links:
+          - {id: systemrescue, label: "SystemRescue"}
+          - {id: gparted, label: "GParted"}
+          - {id: testdisk, label: "TestDisk"}
+          - {id: memtest86-plus, label: "Memtest86+"}
+          - {id: gnu-ddrescue, label: "GNU ddrescue"}
+          - {id: strace, label: "strace"}
+      - title: "Quick References"
+        links:
+          - {id: devdocs, label: "DevDocs"}
+          - {id: cheat-sh, label: "cheat.sh"}
+          - {id: mdn-http-status-codes, label: "MDN HTTP Status Codes"}
+          - {id: sadservers, label: "SadServers"}
+          - {id: mess-with-dns, label: "Mess with DNS"}
+      - title: "OS & Platform Lifecycles"
+        links:
+          - {id: microsoft-lifecycle-product-search, label: "Microsoft Lifecycle Search"}
+          - {id: rhel-life-cycle, label: "RHEL Life Cycle"}
+          - {id: ubuntu-release-cycle, label: "Ubuntu Release Cycle"}
+          - {id: debian-releases, label: "Debian Releases"}
+          - {id: kubernetes-releases, label: "Kubernetes Releases"}
+          - {id: chrome-release-schedule, label: "Chrome Release Schedule"}
+      - title: "Runtime & Database Lifecycles"
+        links:
+          - {id: dotnet-support-policy, label: ".NET Support Policy"}
+          - {id: python-version-status, label: "Python Version Status"}
+          - {id: nodejs-release-schedule, label: "Node.js Releases"}
+          - {id: php-supported-versions, label: "PHP Supported Versions"}
+          - {id: java-se-support-roadmap, label: "Java SE Support Roadmap"}
+          - {id: postgresql-versioning-policy, label: "PostgreSQL Versioning Policy"}
+      - title: "Hardware & Network Vendor Lifecycles"
+        links:
+          - {id: palo-alto-end-of-life-summary, label: "Palo Alto End-of-Life Summary"}
+          - {id: juniper-end-of-life, label: "Juniper End of Life"}
+          - {id: f5-software-support-policy, label: "F5 BIG-IP Support Policy"}
+          - {id: sonicwall-product-lifecycle-tables, label: "SonicWall Life Cycle Tables"}
+          - {id: synology-product-support-status, label: "Synology Support Status"}
+          - {id: apple-vintage-and-obsolete-products, label: "Apple Vintage & Obsolete Products"}
+      - title: "Licensing & Support"
+        links:
+          - {id: microsoft-product-terms, label: "Microsoft Product Terms"}
+          - {id: microsoft-365-service-descriptions, label: "Microsoft 365 Service Descriptions"}
+          - {id: choose-a-license, label: "Choose a License"}
+          - {id: spdx-license-list, label: "SPDX License List"}
+          - {id: azure-support-plans, label: "Azure Support Plans"}
+          - {id: aws-support-plans, label: "AWS Support Plans"}
