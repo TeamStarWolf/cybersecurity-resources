@@ -38,6 +38,7 @@
   url: "https://github.com/aquasecurity/kube-bench"
   publisher: "Aqua Security"
   section: assessment-tools
+  also_in: [platform-hardening/linux-and-container-hardening]
   kind: tool
   cost: free
   description: "Checks a Kubernetes cluster against the CIS Kubernetes Benchmark, with tests defined in YAML and job files for EKS, AKS, GKE, and other managed services."

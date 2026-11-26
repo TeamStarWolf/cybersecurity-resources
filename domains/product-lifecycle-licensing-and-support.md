@@ -4,15 +4,15 @@
 
 > Vendor lifecycle and end-of-support pages, licensing references, and support portals.
 
-Part of the [domain list](README.md). 54 resources in 5 sections. End-of-life data used to judge vulnerability exposure is cross-listed from Vulnerability management.
+Part of the [domain list](README.md). 60 resources in 5 sections. End-of-life data used to judge vulnerability exposure is cross-listed from Vulnerability management.
 
 | Section | The question it answers | Resources |
 |---|---|---|
-| [Operating systems and platforms](#operating-systems-and-platforms) | When does this operating system or platform version stop getting fixes? | 15 |
+| [Operating systems and platforms](#operating-systems-and-platforms) | When does this operating system or platform version stop getting fixes? | 17 |
 | [Languages, databases, and runtimes](#languages-databases-and-runtimes) | Is this runtime or database version still supported? | 16 |
-| [Hardware and network vendors](#hardware-and-network-vendors) | When does this vendor end sale and support for a product? | 5 |
-| [Licensing references](#licensing-references) | What does this license allow, and what must we own? | 12 |
-| [Support plans and portals](#support-plans-and-portals) | Where do I get help, and what does a support plan include? | 6 |
+| [Hardware and network vendors](#hardware-and-network-vendors) | When does this vendor end sale and support for a product? | 7 |
+| [Licensing references](#licensing-references) | What does this license allow, and what must we own? | 13 |
+| [Support plans and portals](#support-plans-and-portals) | Where do I get help, and what does a support plan include? | 7 |
 
 ## Operating systems and platforms
 
@@ -35,6 +35,8 @@ When does this operating system or platform version stop getting fixes?
 | [Supported Kubernetes versions in AKS](https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions) | Microsoft | Microsoft's page on Kubernetes version support in AKS, including the support policy, a release calendar with upcoming versions, LTS versions, and breaking changes by version. | Vendor documentation | Free |
 | [GKE release schedule](https://docs.cloud.google.com/kubernetes-engine/docs/release-schedule) | Google Cloud | Google Cloud's table of estimated dates when GKE minor versions become available and auto-upgrade in Rapid, Regular, Stable, and Extended channels, and when support ends. | Vendor documentation | Free |
 | [Amazon Linux 2023 release cadence](https://docs.aws.amazon.com/linux/al2023/ug/release-cadence.html) | Amazon Web Services | AWS's page on Amazon Linux 2023 releases: support phases, what major and minor versions contain, how AMIs and repositories deliver updates, and core package support. | Vendor documentation | Free |
+| [Red Hat Product Life Cycles](https://access.redhat.com/product-life-cycles) | Red Hat | Product timelines for the Red Hat products you select, linking life cycle details and support policies, with the data downloadable as CSV or JSON. | Reference | Free |
+| [Chromium Dash: Schedule](https://chromiumdash.appspot.com/schedule) | Google | Per-milestone dates for Chrome and ChromeOS, including branch point, beta promotion, early stable and stable cuts and releases, and ChromeOS feature freeze, all marked approximate. | Reference | Free |
 | [Windows 11 release information](https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information) | Microsoft | Release information for each Windows 11 version. | Reference | Free |
 | [Windows Server release information](https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info) | Microsoft | Release information for Windows Server versions. | Reference | Free |
 | [Update history for Microsoft 365 Apps (listed by date)](https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date) | Microsoft | Table of every Microsoft 365 Apps build by release date and update channel, each linked to its release notes. | Reference | Free |
@@ -77,6 +79,8 @@ When does this vendor end sale and support for a product?
 | [Synology Product Support Status](https://www.synology.com/en-global/products/status) | Synology | Synology's filterable support tables, with hardware and software tabs; hardware rows give a product's availability, warranty, and the status of DSM updates and technical support. | Reference | Free |
 | [Check Point Support Life Cycle Policy](https://www.checkpoint.com/support-services/support-life-cycle-policy/) | Check Point Software Technologies | Check Point's support lifecycle page: the latest announcements, then policy guidelines and support timelines by product, in one part for software and one for appliances. | Reference | Free |
 | [SonicWall Product Life Cycle Tables](https://www.sonicwall.com/support/product-lifecycle-tables) | SonicWall | SonicWall's tables for current products, by series, then hardware or firmware; columns per model include Last Order Day, the retirement modes, and End of Support. | Reference | Free |
+| [End of Life Products & Milestones](https://support.juniper.net/support/eol/) | Juniper Networks | Juniper's end-of-life dates and milestones by product series, in one view for products and SKUs and another for software releases; only announced dates appear. | Reference | Free |
+| [K5903: BIG-IP software support policy](https://my.f5.com/manage/s/article/K5903) | F5 | Explains how long BIG-IP major and long-term stability releases are supported, with tables of ship, end-of-software-development, and end-of-technical-support dates by version. | Reference | Free |
 
 ## Licensing references
 
@@ -96,6 +100,7 @@ What does this license allow, and what must we own?
 | [REUSE](https://reuse.software/) | Free Software Foundation Europe | FSFE's REUSE recommendations for stating license and copyright of every file, in three steps, with sections including one for developers and one on license compliance. | Standard | Free |
 | [ISO/IEC 19770-1:2017](https://www.iso.org/standard/68531.html) | ISO | ISO's page for ISO/IEC 19770-1:2017, the standard for IT asset management systems, with its abstract, an amendment, a preview, and the document for sale. | Standard | Paid |
 | [Blue Oak Council License List](https://blueoakcouncil.org/list) | Blue Oak Council, Inc. | Blue Oak Council's list rating permissive licenses gold, silver, bronze, or lead, with its model license at the top and a section about the ratings. | Reference | Free |
+| [ClearlyDefined](https://clearlydefined.io/) | Open Source Initiative | Search open source components by name to list their versions with declared license, a score, and release date. | Dataset or feed | Free |
 | [M365 Maps](https://m365maps.com/) | Aaron Dinnage | Diagrams showing which features each Microsoft 365, Entra, Intune, Defender, and Purview license plan includes. | Reference | Free |
 
 Listed here from another domain: M365 Maps ([Microsoft 365 and Windows administration](microsoft-365-and-windows-administration.md#admin-tools-and-references)).
@@ -112,5 +117,6 @@ Where do I get help, and what does a support plan include?
 | [Azure support plans](https://azure.microsoft.com/en-us/support/plans) | Microsoft | Microsoft's comparison of Azure support plans: Basic is included for every Azure customer, and the paid plans are Unified Enterprise, Professional Direct, Standard, and Developer. | Vendor documentation | Freemium |
 | [AWS Support plans](https://aws.amazon.com/premiumsupport/plans/) | Amazon Web Services | AWS's comparison of its Support plans: Basic Support comes with every account, and the paid plans are Unified Operations, Enterprise Support, and Business Support+. | Vendor documentation | Freemium |
 | [Google Cloud Customer Care](https://cloud.google.com/support) | Google Cloud | Google Cloud's support portfolio: Basic Support for every customer, paid Standard, Enhanced, and Premium Support, and value-add services. | Vendor documentation | Freemium |
+| [Official HP Warranty Check](https://support.hp.com/us-en/check-warranty) | HP | Form that reports the warranty or service status of one HP product or several from serial number and country or region of purchase. | Online service | Free |
 
 Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

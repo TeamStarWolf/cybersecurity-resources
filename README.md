@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 1088 resources in 28 domains. 1082 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 6 records that are not shown, because the address is retired, could not be read at the last check, or is held out for safety.
+The catalog holds 1203 resources in 30 domains. 1197 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 6 records that are not shown, because the address is retired, could not be read at the last check, or is held out for safety.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -47,7 +47,9 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 | [Offensive security](domains/offensive-security.md) | Tools and references for authorized penetration testing and red teaming: reconnaissance, web testing, Active Directory, command and control, and payload references. | 39 |
 | [Network security](domains/network-security.md) | Capturing, inspecting, and monitoring network traffic, and the references for securing networks and their protocols. | 2 |
 | [Cloud and infrastructure](domains/cloud-and-infrastructure.md) | Assessing and attacking cloud accounts, containers, and Kubernetes, and the providers' own security pages. | 13 |
+| [Platform hardening](domains/platform-hardening.md) | Security baselines and hardening guidance for Windows, Linux, macOS, and mobile devices. | 44 |
 | [Application and supply chain security](domains/application-and-supply-chain.md) | Standards, testing guides, and tools for building and verifying secure software and its supply chain. | 7 |
+| [Identity and data protection](domains/identity-and-data-protection.md) | Identity and access security, Active Directory defense, passwords, zero trust, cryptography, and protecting data. | 55 |
 | [GRC and security program](domains/grc-and-security-program.md) | Frameworks, control catalogs, benchmarks, and the publications a security program is measured against. | 7 |
 
 **Vulnerability, advisory, and practice domains.** The areas this collection started from.
@@ -77,10 +79,10 @@ Each entry gives the resource's own name, who runs it, one sentence on what it i
 | [IT service management and operations](domains/it-service-management-and-operations.md) | Service desks, change and incident management, asset management, and the frameworks that describe them. | 29 |
 | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md) | Mail flow and authentication (SPF, DKIM, DMARC), DNS operations and lookup tools, and collaboration platforms. | 48 |
 | [Databases and data platforms](domains/databases-and-data-platforms.md) | Relational and non-relational database engines and data platforms: documentation, tuning references, and administration tools. | 43 |
-| [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md) | Vendor lifecycle and end-of-support pages, licensing references, and support portals. | 54 |
-| [The troubleshooting toolbox](domains/troubleshooting-toolbox.md) | The small utilities and lookups an administrator reaches for during an incident or an outage: converters, testers, decoders, and diagnostics. | 59 |
+| [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md) | Vendor lifecycle and end-of-support pages, licensing references, and support portals. | 60 |
+| [The troubleshooting toolbox](domains/troubleshooting-toolbox.md) | The small utilities and lookups an administrator reaches for during an incident or an outage: converters, testers, decoders, and diagnostics. | 69 |
 
-The [domain list](domains/README.md) also defines 4 domains that hold no resources yet: Platform hardening; Identity and data protection; AI and emerging tech; ICS, OT, and hardware.
+The [domain list](domains/README.md) also defines 2 domains that hold no resources yet: AI and emerging tech; ICS, OT, and hardware.
 <!-- domains:end -->
 
 ## How to read an entry
@@ -188,7 +190,7 @@ An address that cannot be read is not described from memory. When a site refuses
 The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
 
 <!-- link-check:start (written by scripts/build.py; do not edit) -->
-The ignore list holds 42 entries, 14 of which apply to the CI check alone. Together they cover 45 of the 1121 addresses the catalog publishes (4.0%). The validator fails if that share passes 10%.
+The ignore list holds 42 entries, 14 of which apply to the CI check alone. Together they cover 45 of the 1236 addresses the catalog publishes (3.6%). The validator fails if that share passes 10%.
 <!-- link-check:end -->
 
 Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.

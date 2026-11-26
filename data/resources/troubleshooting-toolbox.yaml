@@ -892,3 +892,153 @@
     final: "https://messwithdns.net/"
     how: script
   notes: "Publisher from the header of the site's pages, which reads a wizard zines project and links https://wizardzines.com. https://messwithdns.net/about.html, read on 2026-11-25, credits Julia Evans and Marie Claire LeBlanc Flanagan as the two people who built it."
+
+- id: ping-pe
+  name: "ping.pe"
+  url: "https://ping.pe/"
+  publisher: "ping.pe"
+  section: network-reachability-and-speed
+  kind: service
+  cost: free
+  description: "Runs commands including ping, mtr, tcp port check, dig, and a bgp looking glass against a host from vantage points in many countries, live."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://ping.pe/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. The site's own name stands as publisher: the About page is written in the first person and gives a contact address but no name, and the home page footer holds only links to About, Geolocation update and Geofeed and that address."
+
+- id: google-public-dns-lookup
+  name: "Google Public DNS"
+  url: "https://dns.google/"
+  publisher: "Google"
+  section: dns-ip-and-registration-lookups
+  kind: service
+  cost: free
+  description: "Web form that resolves a domain name or IP address through Google's public resolver, with links to help, a cache flush form, and setup instructions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://dns.google/"
+    how: script
+  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page's text. The form was read, not submitted."
+
+- id: pagespeed-insights
+  name: "PageSpeed Insights"
+  url: "https://pagespeed.web.dev/"
+  publisher: "Google"
+  section: web-and-tls-testers
+  kind: service
+  cost: free
+  description: "Enter a page address for a performance report on mobile and desktop that pairs field data from real users with Lighthouse lab diagnostics and suggestions."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://pagespeed.web.dev/"
+    how: script
+  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page: the address box and a footer that points to the Google Developers Site Policies. The page itself is a single address box; what the report holds is from the About PageSpeed Insights documentation it links, read by script. No analysis was run for this check."
+
+- id: httpstatus-io
+  name: "httpstatus.io"
+  url: "https://httpstatus.io/"
+  publisher: "Crafted Code (Sander Heilbron)"
+  section: web-and-tls-testers
+  kind: service
+  cost: freemium
+  description: "Bulk URL tester that follows redirects hop by hop, with features including user agent choice, filters, and export; the API has free and paid plans."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://httpstatus.io/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the terms of service, which name the operator as Crafted Code, a registered trade name of one person; the footer line reads Crafted by Sander Heilbron. The checker on the page is free to use; the API page's FAQ describes a free plan with a small request quota, which needs an account, beside monthly and one-off paid plans."
+
+- id: jq-playground
+  name: "jq playground"
+  url: "https://play.jqlang.org/"
+  publisher: "jqlang"
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: free
+  description: "Runs a jq query in the browser against JSON you paste or fetch over HTTP, including command-line options, a cheat sheet, and shareable snippets."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://play.jqlang.org/"
+    how: script
+  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page's text. Publisher is the GitHub organization that owns the linked source repository, jqlang/playground. The page says queries run locally in the browser and that it is MIT licensed. As of 2026-11-25 the last commit on the default branch was dated 2026-10-25 (GitHub API)."
+
+- id: yamllint-web
+  name: "YAMLlint"
+  url: "https://www.yamllint.com/"
+  publisher: "YAMLlint"
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: free
+  description: "Browser YAML validator: a text box and a Go button, with options to reformat the document, which strips comments, and to resolve aliases."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://www.yamllint.com/"
+    how: script
+  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page's text. The site's own name stands as publisher: the page carries no footer, link, author tag or credit in either read."
+
+- id: it-tools
+  name: "IT Tools"
+  url: "https://it-tools.tech/"
+  publisher: "Corentin Thomasset (CorentinTh)"
+  section: decoders-encoders-and-converters
+  kind: service
+  cost: free
+  description: "Browser utilities grouped by category, including a subnet calculator, JWT parser, hash and UUID generators, base64 and YAML converters, a crontab generator, and regex tester."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://it-tools.tech/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the footer, which names Corentin Thomasset and links the repository under his GitHub account. GPL-3.0. As of 2026-11-25 the last commit on the default branch was dated 2026-02-12 (GitHub API)."
+
+- id: hoppscotch
+  name: "Hoppscotch"
+  url: "https://hoppscotch.io/"
+  publisher: "Hoppscotch Limited"
+  section: packet-capture-and-http-debugging
+  kind: service
+  cost: freemium
+  description: "Browser client for sending REST, GraphQL, and realtime API requests, with features including collections, environments, history, and request scripts; team workspaces need a paid plan."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://hoppscotch.io/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the copyright line on hoppscotch.com and the terms page, both read by script. Pricing page: a free plan with a personal workspace beside paid Business and Enterprise plans."
+
+- id: cheat-sh
+  name: "cheat.sh"
+  url: "https://cheat.sh/"
+  publisher: "Igor Chubin (chubin)"
+  section: quick-references-and-practice
+  kind: reference
+  cost: free
+  description: "Cheat sheets for commands and programming languages fetched with curl or the cht.sh client, including tab completion, an interactive shell, editor queries, and question lookups."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://cheat.sh/"
+    how: script
+  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page's text. The page ends with a pointer to github.com/chubin/cheat.sh; publisher is that GitHub account. MIT license. As of 2026-11-25 the last commit on the default branch was dated 2026-09-22 (GitHub API)."
+
+- id: devdocs
+  name: "DevDocs"
+  url: "https://devdocs.io/"
+  publisher: "freeCodeCamp"
+  section: quick-references-and-practice
+  kind: reference
+  cost: free
+  description: "Reader for the documentation of languages and tools such as CSS, HTTP, Bash, and Docker, enabled in preferences, with fuzzy search and offline storage."
+  checked:
+    date: "2026-11-25"
+    status: 200
+    final: "https://devdocs.io/"
+    how: browser
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned only menu labels. The About page says DevDocs was created by Thibaut Courouble and is operated by freeCodeCamp, under the Mozilla Public License v2.0. As of 2026-11-25 the last commit on the default branch of freeCodeCamp/devdocs was dated 2026-11-23 (GitHub API)."

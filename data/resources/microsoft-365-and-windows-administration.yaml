@@ -104,6 +104,7 @@
   url: "https://learn.microsoft.com/en-us/purview/"
   publisher: "Microsoft"
   section: documentation-hubs
+  also_in: [identity-and-data-protection/data-protection-and-privacy]
   kind: documentation
   cost: free
   description: "Microsoft's documentation hub for Purview, split into its governance, security, and compliance solutions, with setup guides for each."

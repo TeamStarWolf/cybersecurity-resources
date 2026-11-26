@@ -4,7 +4,7 @@
 
 > The catalog, grouped by domain. Each domain page lists its resources by the question a practitioner asks, with one sentence on what each resource is, who runs it, what kind of thing it is, and what it costs.
 
-1088 resources in 28 domains. A domain is listed without a link until it holds its first resource.
+1203 resources in 30 domains. A domain is listed without a link until it holds its first resource.
 
 ## Security domains
 
@@ -18,9 +18,9 @@ These follow the domain pages of the TeamStarWolf library, in the same order.
 | [Offensive security](offensive-security.md) | Tools and references for authorized penetration testing and red teaming: reconnaissance, web testing, Active Directory, command and control, and payload references. | Cloud attack tooling sits in Cloud and infrastructure; exploit databases sit in Vulnerability management; practice ranges sit in Labs and training. | 39 |
 | [Network security](network-security.md) | Capturing, inspecting, and monitoring network traffic, and the references for securing networks and their protocols. | Running and troubleshooting a network day to day sits in Networking and connectivity; port scanners sit in Offensive security. | 2 |
 | [Cloud and infrastructure](cloud-and-infrastructure.md) | Assessing and attacking cloud accounts, containers, and Kubernetes, and the providers' own security pages. | Operating a cloud platform (documentation hubs, calculators, status pages) sits in Cloud platform administration; provider security bulletins sit in Vendor advisories and PSIRTs. | 13 |
-| Platform hardening | Security baselines and hardening guidance for Windows, Linux, macOS, and mobile devices. | Managing fleets of devices sits in Endpoint and device management; framework-level control catalogs sit in GRC and security program. | 0 |
+| [Platform hardening](platform-hardening.md) | Security baselines and hardening guidance for Windows, Linux, macOS, and mobile devices. | Managing fleets of devices sits in Endpoint and device management; framework-level control catalogs sit in GRC and security program. | 44 |
 | [Application and supply chain security](application-and-supply-chain.md) | Standards, testing guides, and tools for building and verifying secure software and its supply chain. | Web testing tools used in penetration tests sit in Offensive security; dependency vulnerability databases sit in Vulnerability management. | 7 |
-| Identity and data protection | Identity and access security, Active Directory defense, passwords, zero trust, cryptography, and protecting data. | Administering a directory or identity provider sits in Identity and directory services administration; Active Directory attack tools sit in Offensive security. | 0 |
+| [Identity and data protection](identity-and-data-protection.md) | Identity and access security, Active Directory defense, passwords, zero trust, cryptography, and protecting data. | Administering a directory or identity provider sits in Identity and directory services administration; Active Directory attack tools sit in Offensive security. | 55 |
 | AI and emerging tech | Securing AI and machine learning systems, and attacks on and with AI. | General application security standards sit in Application and supply chain security. | 0 |
 | ICS, OT, and hardware | Industrial control systems, operational technology, embedded and IoT devices, and hardware security. | ICS vendor advisories sit in Vendor advisories and PSIRTs; government ICS advisories sit in Government and CERT alerts. | 0 |
 | [GRC and security program](grc-and-security-program.md) | Frameworks, control catalogs, benchmarks, and the publications a security program is measured against. | Application security standards sit in Application and supply chain security; vulnerability scoring systems sit in Vulnerability management. | 7 |
@@ -56,7 +56,7 @@ The systems an IT department runs and the references needed to run them.
 | [IT service management and operations](it-service-management-and-operations.md) | Service desks, change and incident management, asset management, and the frameworks that describe them. | Security governance frameworks sit in GRC and security program. | 29 |
 | [Email, DNS, and collaboration](email-dns-and-collaboration.md) | Mail flow and authentication (SPF, DKIM, DMARC), DNS operations and lookup tools, and collaboration platforms. | Microsoft 365 tenant administration sits in Microsoft 365 and Windows administration. | 48 |
 | [Databases and data platforms](databases-and-data-platforms.md) | Relational and non-relational database engines and data platforms: documentation, tuning references, and administration tools. | Database vendors' security advisories sit in Vendor advisories and PSIRTs. | 43 |
-| [Product lifecycle, licensing, and support](product-lifecycle-licensing-and-support.md) | Vendor lifecycle and end-of-support pages, licensing references, and support portals. | End-of-life data used to judge vulnerability exposure is cross-listed from Vulnerability management. | 54 |
-| [The troubleshooting toolbox](troubleshooting-toolbox.md) | The small utilities and lookups an administrator reaches for during an incident or an outage: converters, testers, decoders, and diagnostics. | A tool that belongs to one platform sits with that platform. | 59 |
+| [Product lifecycle, licensing, and support](product-lifecycle-licensing-and-support.md) | Vendor lifecycle and end-of-support pages, licensing references, and support portals. | End-of-life data used to judge vulnerability exposure is cross-listed from Vulnerability management. | 60 |
+| [The troubleshooting toolbox](troubleshooting-toolbox.md) | The small utilities and lookups an administrator reaches for during an incident or an outage: converters, testers, decoders, and diagnostics. | A tool that belongs to one platform sits with that platform. | 69 |
 
 Every resource A to Z: the [index](../INDEX.md).

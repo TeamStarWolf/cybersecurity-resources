@@ -179,6 +179,7 @@
   url: "https://github.com/SpecterOps/BloodHound"
   publisher: "SpecterOps"
   section: active-directory-and-windows
+  also_in: [identity-and-data-protection/active-directory-and-entra-defense]
   kind: tool
   cost: free
   description: "Graphs the privilege relationships in Active Directory, Azure, and other identity platforms so that attack paths stand out; this is the open source Community Edition."
@@ -298,6 +299,7 @@
   url: "https://www.pingcastle.com/"
   publisher: "Netwrix"
   section: active-directory-and-windows
+  also_in: [identity-and-data-protection/active-directory-and-entra-defense]
   kind: tool
   cost: freemium
   description: "Scores an Active Directory or Entra ID environment against a maturity model and reports risk indicators; free to download, with paid editions."

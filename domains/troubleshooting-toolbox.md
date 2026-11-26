@@ -4,17 +4,17 @@
 
 > The small utilities and lookups an administrator reaches for during an incident or an outage: converters, testers, decoders, and diagnostics.
 
-Part of the [domain list](README.md). 59 resources in 7 sections. A tool that belongs to one platform sits with that platform.
+Part of the [domain list](README.md). 69 resources in 7 sections. A tool that belongs to one platform sits with that platform.
 
 | Section | The question it answers | Resources |
 |---|---|---|
-| [Network reachability and speed](#network-reachability-and-speed) | Can the rest of the world reach it, and how good is the path? | 8 |
-| [DNS, IP, and registration lookups](#dns-ip-and-registration-lookups) | What does DNS answer, and who holds this name or address? | 6 |
-| [Web and TLS testers](#web-and-tls-testers) | Is this server's TLS, SSH, or header setup right? | 13 |
-| [Decoders, encoders, and converters](#decoders-encoders-and-converters) | What does this token, timestamp, or blob say? | 7 |
-| [Packet capture and HTTP debugging](#packet-capture-and-http-debugging) | What is actually going over the wire? | 12 |
+| [Network reachability and speed](#network-reachability-and-speed) | Can the rest of the world reach it, and how good is the path? | 9 |
+| [DNS, IP, and registration lookups](#dns-ip-and-registration-lookups) | What does DNS answer, and who holds this name or address? | 7 |
+| [Web and TLS testers](#web-and-tls-testers) | Is this server's TLS, SSH, or header setup right? | 15 |
+| [Decoders, encoders, and converters](#decoders-encoders-and-converters) | What does this token, timestamp, or blob say? | 10 |
+| [Packet capture and HTTP debugging](#packet-capture-and-http-debugging) | What is actually going over the wire? | 13 |
 | [Rescue and system diagnostics](#rescue-and-system-diagnostics) | How do I boot, test, or inspect a machine that is misbehaving? | 9 |
-| [Quick references and practice](#quick-references-and-practice) | Where is the short answer, and where can I practice? | 4 |
+| [Quick references and practice](#quick-references-and-practice) | Where is the short answer, and where can I practice? | 6 |
 
 ## Network reachability and speed
 
@@ -30,6 +30,7 @@ Can the rest of the world reach it, and how good is the path?
 | [ipcalc (IP Calculator)](https://jodies.de/ipcalc) | Krischan Jodies | IP calculator: give an address and one or two netmasks, in CIDR or dotted form, for results including network, broadcast, and host range, bits shown. *Last updated on December 21, 2022.* | Online service | Free |
 | [NTP Pool Project](https://www.ntppool.org/en/) | NTP Pool Project (Develooper LLC) | pool.ntp.org, a cluster of public NTP time servers, with sections including how to use the pool, how to join it, and information for vendors. | Online service | Free |
 | [Ncat](https://nmap.org/ncat/) | Nmap Project | Netcat reimplementation shipped with Nmap, with features including port redirection, SSL, and SOCKS4 or HTTP proxying; links its Users' Guide and man page. | Tool | Free |
+| [ping.pe](https://ping.pe/) | ping.pe | Runs commands including ping, mtr, tcp port check, dig, and a bgp looking glass against a host from vantage points in many countries, live. | Online service | Free |
 | [iperf3](https://github.com/esnet/iperf) | ESnet (Energy Sciences Network) | Measures the maximum bandwidth achievable on an IP network over TCP, UDP, or SCTP; maintained by ESnet. | Tool | Free |
 | [mtr](https://github.com/traviscross/mtr) | Travis Cross (traviscross) | Network diagnostic tool that does the work of traceroute and ping in one program. | Tool | Free |
 | [Test your IPv6](https://test-ipv6.com/) | APNIC Labs | Tests whether your browser and connection can reach sites over IPv6, and displays the IPv4 and IPv6 addresses you are using. | Online service | Free |
@@ -48,6 +49,7 @@ What does DNS answer, and who holds this name or address?
 | [RDAP.org lookup](https://client.rdap.org/) | Gavin Brown | RDAP lookup form with query types including domain, TLD, IP or CIDR, AS number, and entity; queries go from your browser straight to the registry. | Online service | Free |
 | [Dig web interface](https://www.digwebinterface.com/) | Martin Holk Rasmussen | Web front end to dig: query record types for one or more hostnames against name servers you pick, with options such as showing the command. | Online service | Free |
 | [1.1.1.1 DNS resolver help](https://one.one.one.one/help/) | Cloudflare | Cloudflare's diagnostic page for its 1.1.1.1 resolver, with checks including whether you use it over HTTPS, TLS, or WARP and which data center answers. | Online service | Free |
+| [Google Public DNS](https://dns.google/) | Google | Web form that resolves a domain name or IP address through Google's public resolver, with links to help, a cache flush form, and setup instructions. | Online service | Free |
 | [Google Admin Toolbox](https://toolbox.googleapps.com/apps/main/) | Google | Google's web tools for troubleshooting Workspace: Check MX and Dig for DNS, Messageheader for mail delivery, HAR and log analyzers, and browser debugging pages. | Online service | Free |
 | [whatsmydns.net DNS Propagation Checker](https://www.whatsmydns.net/) | whatsmydns.net | Looks up a DNS record on name servers in many countries at once and maps the answers, to show how far a change has propagated. | Online service | Free |
 | [ICANN Lookup](https://lookup.icann.org/en) | ICANN | ICANN's tool for current registration data: type in a domain name, IP network, or AS number, and it fetches the record over RDAP. | Online service | Free |
@@ -74,6 +76,8 @@ Is this server's TLS, SSH, or header setup right?
 | [openssl-s_client manual page](https://docs.openssl.org/master/man1/openssl-s_client/) | OpenSSL | OpenSSL's manual page for s_client, its command-line SSL/TLS client, with sections including synopsis, options, basic and advanced connected commands, notes, and bugs. | Vendor documentation | Free |
 | [OpenSSL Cookbook](https://www.feistyduck.com/library/openssl-cookbook/) | Feisty Duck Limited | Ivan Ristić's book on the OpenSSL command line and on testing TLS with it, free to read online without registration. | Reference | Free |
 | [Let's Debug](https://letsdebug.net/) | Let's Debug | Form that takes a domain name and a validation method (HTTP-01, DNS-01, or TLS-ALPN-01) and tests for problems that stop Let's Encrypt issuing a certificate. | Online service | Free |
+| [PageSpeed Insights](https://pagespeed.web.dev/) | Google | Enter a page address for a performance report on mobile and desktop that pairs field data from real users with Lighthouse lab diagnostics and suggestions. | Online service | Free |
+| [httpstatus.io](https://httpstatus.io/) | Crafted Code (Sander Heilbron) | Bulk URL tester that follows redirects hop by hop, with features including user agent choice, filters, and export; the API has free and paid plans. | Online service | Freemium |
 
 ## Decoders, encoders, and converters
 
@@ -88,6 +92,9 @@ What does this token, timestamp, or blob say?
 | [OAuth 2.0 Debugger](https://oauthdebugger.com/) | Nate Barbettini | Builds an OAuth 2.0 authorization request from fields including the URIs, client ID, scope, and response type, sends it, and shows what comes back. | Online service | Free |
 | [curlconverter](https://curlconverter.com/) | Nick Carneiro | Converts a curl command into code for Python, JavaScript, Go, and other languages, and shows how to copy a request as curl from a browser. | Online service | Free |
 | [DevToys](https://devtoys.app/) | Etienne Baudoux and Benjamin Titeux | Open source desktop toolbox for Windows, macOS, and Linux whose offline tools include JWT decoding, hash generation, and text comparison; also runs from a terminal. | Tool | Free |
+| [jq playground](https://play.jqlang.org/) | jqlang | Runs a jq query in the browser against JSON you paste or fetch over HTTP, including command-line options, a cheat sheet, and shareable snippets. | Online service | Free |
+| [YAMLlint](https://www.yamllint.com/) | YAMLlint | Browser YAML validator: a text box and a Go button, with options to reformat the document, which strips comments, and to resolve aliases. | Online service | Free |
+| [IT Tools](https://it-tools.tech/) | Corentin Thomasset (CorentinTh) | Browser utilities grouped by category, including a subnet calculator, JWT parser, hash and UUID generators, base64 and YAML converters, a crontab generator, and regex tester. | Online service | Free |
 | [regex101](https://regex101.com/) | Firas Dib (firasdib) | Online regular expression tester: write a pattern, run it against text, and inspect matches and capture groups; a paid Pro plan adds further tools. | Online service | Freemium |
 | [crontab guru](https://crontab.guru/) | Cronitor | Type a cron schedule expression and read it back in words, with its next run time; by Cronitor, which advertises its monitoring service there. | Online service | Free |
 | [jwt.io](https://www.jwt.io/) | Okta | Debugger for decoding, verifying, and generating JSON Web Tokens. | Online service | Free |
@@ -114,6 +121,7 @@ What is actually going over the wire?
 | [Firefox Network Monitor](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/) | Mozilla | Firefox documentation for the Network Monitor: opening it, a tour of its interface, and pages including the request list, request details, and throttling. | Vendor documentation | Free |
 | [lnav (The Logfile Navigator)](https://lnav.org/) | Tim Stack (tstack) | Terminal log viewer that needs no server: point it at a directory of logs; has an SQLite interface and a demo reachable over SSH. | Tool | Free |
 | [GoAccess](https://goaccess.io/) | Gerardo O. (allinurl) | Web log analyzer written in C that reads formats including Apache, Nginx, and CloudFront and reports in a terminal or a web dashboard; MIT licensed. | Tool | Free |
+| [Hoppscotch](https://hoppscotch.io/) | Hoppscotch Limited | Browser client for sending REST, GraphQL, and realtime API requests, with features including collections, environments, history, and request scripts; team workspaces need a paid plan. | Online service | Freemium |
 | [Wireshark](https://www.wireshark.org/) | Wireshark Foundation | Captures packets and decodes them protocol by protocol for close inspection; installers for Windows and macOS, with source for other systems. | Tool | Free |
 | [tcpdump and libpcap](https://www.tcpdump.org/) | The Tcpdump Group | Project site for the tcpdump packet analyzer, a command-line tool, and for libpcap, a library for capturing network traffic, with releases, man pages, and documentation. | Tool | Free |
 
@@ -148,6 +156,8 @@ Where is the short answer, and where can I practice?
 | [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) | Joshua Levy (jlevy) | One-page guide to command-line fluency, in sections including one-liners, system debugging, everyday use, and processing files and data, with translations. *Last updated on July 12, 2023.* | Reference | Free |
 | [SadServers](https://sadservers.com/) | SadServers Inc. | Linux and DevOps troubleshooting challenges on live servers, for practice and for assessing hires; some open without signing up, and paid plans add more. | Training or lab | Freemium |
 | [Mess with DNS](https://messwithdns.net/) | Wizard Zines | A sandbox that gives you a subdomain to add DNS records to and shows each request that arrives for it, for learning by experiment. | Training or lab | Free |
+| [cheat.sh](https://cheat.sh/) | Igor Chubin (chubin) | Cheat sheets for commands and programming languages fetched with curl or the cht.sh client, including tab completion, an interactive shell, editor queries, and question lookups. | Reference | Free |
+| [DevDocs](https://devdocs.io/) | freeCodeCamp | Reader for the documentation of languages and tools such as CSS, HTTP, Bash, and Docker, enabled in preferences, with fuzzy search and offline storage. | Reference | Free |
 | [explainshell](https://explainshell.com/) | Idan Kamara (idank) | Type a command line and see each argument explained from its help text, with a choice of which distribution's manpages to use. | Online service | Free |
 | [Linux man pages online](https://man7.org/linux/man-pages/) | Michael Kerrisk | HTML versions of the Linux man-pages project's manual pages, plus a selection from other free software projects, listed by section, alphabetically, or by project. | Reference | Free |
 

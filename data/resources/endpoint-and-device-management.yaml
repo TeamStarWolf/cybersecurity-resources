@@ -471,6 +471,7 @@
     status: 200
     final: "https://clonezilla.org/"
     how: script
+  notes: "On 2026-11-25 the address answered 403 with a bot-verification page for part of the day, to a script, to the CI link check and to a browser; it answered 200 again later that day, when this entry was read again. The page names three editions: live, lite server and SE (server edition)."
 
 - id: fog-project
   name: "FOG Project"

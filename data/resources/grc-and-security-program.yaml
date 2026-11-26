@@ -49,6 +49,7 @@
   url: "https://www.cisecurity.org/cis-benchmarks"
   publisher: "Center for Internet Security"
   section: frameworks-and-controls
+  also_in: [platform-hardening/baselines-and-benchmarks]
   kind: standard
   cost: free-with-account
   description: "Consensus configuration recommendations for many vendor product families, used as hardening baselines."
