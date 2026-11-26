@@ -465,13 +465,13 @@
   section: packaging-imaging-and-software-deployment
   kind: tool
   cost: free
-  description: "Program for imaging and cloning disks and partitions, in a live edition for one machine and a server edition for deploying to many at once."
+  description: "Program for imaging and cloning disks and partitions, in a live edition for one machine and server editions for deploying many at once."
   checked:
     date: "2026-11-25"
-    status: 403
+    status: 200
     final: "https://clonezilla.org/"
-    how: blocked
-  notes: "The address answered a script with 200 earlier on 2026-11-25. Later that day it began answering 403 with a bot-verification page to a script, to the CI link check and to a browser; the check was not worked around. The entry is written from the README of the project's repository, https://github.com/stevenshiau/clonezilla, read the same day, which names clonezilla.org as its homepage and describes the live and server editions."
+    how: script
+  notes: "On 2026-11-25 the address answered 403 with a bot-verification page for part of the day, to a script, to the CI link check and to a browser; it answered 200 again later that day, when this entry was read again. The page names three editions: live, lite server and SE (server edition)."
 
 - id: fog-project
   name: "FOG Project"

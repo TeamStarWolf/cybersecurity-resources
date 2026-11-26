@@ -915,7 +915,7 @@
   section: dns-ip-and-registration-lookups
   kind: service
   cost: free
-  description: "Web form that resolves a domain name or IP address through Google's public resolver, with links to a cache flush form and setup instructions."
+  description: "Web form that resolves a domain name or IP address through Google's public resolver, with links to help, a cache flush form, and setup instructions."
   checked:
     date: "2026-11-25"
     status: 200
@@ -935,23 +935,23 @@
     date: "2026-11-25"
     status: 200
     final: "https://pagespeed.web.dev/"
-    how: browser
-  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned the address box's text without the footer. The page itself is a single address box; what the report holds is from the About PageSpeed Insights documentation it links, read by script. No analysis was run for this check. The footer points to the Google Developers Site Policies."
+    how: script
+  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page: the address box and a footer that points to the Google Developers Site Policies. The page itself is a single address box; what the report holds is from the About PageSpeed Insights documentation it links, read by script. No analysis was run for this check."
 
 - id: httpstatus-io
   name: "httpstatus.io"
   url: "https://httpstatus.io/"
-  publisher: "Sander Heilbron"
+  publisher: "Crafted Code (Sander Heilbron)"
   section: web-and-tls-testers
   kind: service
   cost: freemium
-  description: "Checks a list of URLs for redirect chains, status codes, and response headers, with selectable user agent, filters, and export; the API has paid plans."
+  description: "Checks URLs in bulk for redirect chains, status codes, and response headers, with features including user agent choice, filters, and export; API plans are paid."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://httpstatus.io/"
     how: browser
-  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the footer line Crafted by Sander Heilbron. The checker on the page is free to use; the API page lists monthly and one-off paid plans."
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the terms of service, which name the operator as Crafted Code, a registered trade name of one person; the footer line reads Crafted by Sander Heilbron. The checker on the page is free to use; the API page lists monthly and one-off paid plans."
 
 - id: jq-playground
   name: "jq playground"
@@ -960,13 +960,13 @@
   section: decoders-encoders-and-converters
   kind: service
   cost: free
-  description: "Runs a jq query against JSON you paste or fetch over HTTP, in the browser, with command-line options, a cheat sheet, and shareable snippets."
+  description: "Runs a jq query in the browser against JSON you paste or fetch over HTTP, including command-line options, a cheat sheet, and shareable snippets."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://play.jqlang.org/"
     how: script
-  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page's text. Publisher is the GitHub organization that owns the linked source repository, jqlang/playground. The page says queries run locally in the browser and that it is MIT licensed. Last commit on the default branch: 2026-10-25 (GitHub API)."
+  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page's text. Publisher is the GitHub organization that owns the linked source repository, jqlang/playground. The page says queries run locally in the browser and that it is MIT licensed. As of 2026-11-25 the last commit on the default branch was dated 2026-10-25 (GitHub API)."
 
 - id: yamllint-web
   name: "YAMLlint"
@@ -975,7 +975,7 @@
   section: decoders-encoders-and-converters
   kind: service
   cost: free
-  description: "Paste YAML to learn whether it is valid and get a cleaned copy back, with options to reformat, which strips comments, and to resolve aliases."
+  description: "Browser YAML validator: a text box and a Go button, with options to reformat the document, which strips comments, and to resolve aliases."
   checked:
     date: "2026-11-25"
     status: 200
@@ -996,7 +996,7 @@
     status: 200
     final: "https://it-tools.tech/"
     how: browser
-  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the footer, which names Corentin Thomasset and links the repository under his GitHub account. GPL-3.0. Last commit on the default branch: 2026-02-12 (GitHub API)."
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned no text. Publisher from the footer, which names Corentin Thomasset and links the repository under his GitHub account. GPL-3.0. As of 2026-11-25 the last commit on the default branch was dated 2026-02-12 (GitHub API)."
 
 - id: hoppscotch
   name: "Hoppscotch"
@@ -1005,7 +1005,7 @@
   section: packet-capture-and-http-debugging
   kind: service
   cost: freemium
-  description: "Browser client for sending REST, GraphQL, and realtime API requests, with collections, environments, history, and pre- and post-request scripts; team workspaces need a paid plan."
+  description: "Browser client for sending REST, GraphQL, and realtime API requests, with features including collections, environments, history, and request scripts; team workspaces need a paid plan."
   checked:
     date: "2026-11-25"
     status: 200
@@ -1020,13 +1020,13 @@
   section: quick-references-and-practice
   kind: reference
   cost: free
-  description: "Cheat sheets for commands and programming languages fetched with curl or the cht.sh client, with tab completion, an interactive shell, editor queries, and question lookups."
+  description: "Cheat sheets for commands and programming languages fetched with curl or the cht.sh client, including tab completion, an interactive shell, editor queries, and question lookups."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://cheat.sh/"
     how: script
-  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page's text. The page ends with a pointer to github.com/chubin/cheat.sh; publisher is that GitHub account. MIT license. Last commit on the default branch: 2026-09-22 (GitHub API)."
+  notes: "Read by script and in the built-in browser on 2026-11-25; set aside in the previous batch, but a script request now returns the page's text. The page ends with a pointer to github.com/chubin/cheat.sh; publisher is that GitHub account. MIT license. As of 2026-11-25 the last commit on the default branch was dated 2026-09-22 (GitHub API)."
 
 - id: devdocs
   name: "DevDocs"
@@ -1041,4 +1041,4 @@
     status: 200
     final: "https://devdocs.io/"
     how: browser
-  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned only menu labels. The About page says DevDocs was created by Thibaut Courouble and is operated by freeCodeCamp, under the Mozilla Public License v2.0. Last commit on the default branch of freeCodeCamp/devdocs: 2026-11-23 (GitHub API)."
+  notes: "Read in the built-in browser on 2026-11-25; set aside in the previous batch as unreadable by script. A script request the same day returned only menu labels. The About page says DevDocs was created by Thibaut Courouble and is operated by freeCodeCamp, under the Mozilla Public License v2.0. As of 2026-11-25 the last commit on the default branch of freeCodeCamp/devdocs was dated 2026-11-23 (GitHub API)."

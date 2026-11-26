@@ -38,7 +38,7 @@
   section: authentication-standards-and-guidance
   kind: reference
   cost: free
-  description: "Developer site for passkeys with documentation, a device support page, and tools including a WebAuthn response decoder."
+  description: "Developer site for passkeys with sections including documentation, device support, and tools such as a WebAuthn response decoder."
   checked:
     date: "2026-11-25"
     status: 200
@@ -64,17 +64,17 @@
 - id: webauthn-guide
   name: "Guide to Web Authentication"
   url: "https://webauthn.guide/"
-  publisher: "Duo Security"
+  publisher: "Duo Security (Cisco)"
   section: authentication-standards-and-guidance
   kind: reference
   cost: free
-  description: "Illustrated walk through Web Authentication: why passwords fail, how public key credentials work, and the browser API calls for registering and authenticating, with annotated code."
+  description: "Illustrated walk through Web Authentication, including why passwords fail, how public key credentials work, and the API calls for registering and authenticating, with annotated code."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://webauthn.guide/"
     how: script
-  notes: "Publisher from the foot of the page, which reads Sponsored by over the Duo Security and Cisco logos; the text says Duo Labs provides example projects in Python and Go."
+  notes: "The page names no operator: its only credit is a Sponsored by line at the foot, over the Duo Security and Cisco logos, which is what the publisher field records. The text says Duo Labs provides example projects in Python and Go, the page links no repository of its own, and its metadata credits one personal account as creator."
 
 - id: rfc-9700
   name: "RFC 9700: Best Current Practice for OAuth 2.0 Security"
@@ -119,6 +119,7 @@
     status: 200
     final: "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
     how: script
+  notes: "The page's footer names the Cheat Sheets Series Team as copyright holder; the publisher is from the project page, https://owasp.org/www-project-cheat-sheets/, read on 2026-11-25, whose title ends OWASP Foundation."
 
 - id: adsecurity
   name: "Active Directory & Azure AD/Entra ID Security"
@@ -145,7 +146,7 @@
   section: active-directory-and-entra-defense
   kind: tool
   cost: free-with-account
-  description: "Semperis's assessment tool for Active Directory, Okta, and Entra ID, with pages on its security indicators, an FAQ, and videos; download needs a request form."
+  description: "Free download behind a request form, with pages on the security indicators it checks in Okta, Entra ID, and Active Directory, an FAQ, and videos."
   checked:
     date: "2026-11-25"
     status: 200
@@ -160,7 +161,7 @@
   section: active-directory-and-entra-defense
   kind: documentation
   cost: free
-  description: "Covers how Active Directory gets compromised, then reducing its attack surface, limiting privileges, secure administrative hosts, domain controller protection, monitoring, and planning for compromise."
+  description: "Guidance including how Active Directory gets compromised, reducing its attack surface, limiting privileges, secure administrative hosts, domain controller protection, monitoring, and planning for compromise."
   checked:
     date: "2026-11-25"
     status: 200
@@ -194,7 +195,7 @@
     status: 200
     final: "https://github.com/jakehildreth/Locksmith"
     how: script
-  notes: "Publisher is the GitHub account that owns the repository. Last commit on the default branch: 2026-11-14 (GitHub API)."
+  notes: "Publisher is the GitHub account that owns the repository. As of 2026-11-25 the last commit on the default branch was dated 2026-11-14 (GitHub API)."
 
 - id: azuread-attack-defense
   name: "Attack and Defense Playbook for Microsoft Entra"
@@ -209,7 +210,7 @@
     status: 200
     final: "https://github.com/Cloud-Architekt/AzureAD-Attack-Defense"
     how: script
-  notes: "Name from the README's heading; the repository is still named AzureAD-Attack-Defense. Publisher is the account that owns the repository; the README has its own Authors section. MIT license. Last commit on the default branch: 2026-10-26 (GitHub API)."
+  notes: "Name from the README's heading; the repository is still named AzureAD-Attack-Defense. Publisher is the account that owns the repository; the README has its own Authors section. MIT license. As of 2026-11-25 the last commit on the default branch was dated 2026-10-26 (GitHub API)."
 
 - id: maester
   name: "Maester"
@@ -224,7 +225,7 @@
     status: 200
     final: "https://maester.dev/"
     how: script
-  notes: "Publisher from the footer's copyright line. The module is MIT licensed and the page calls it free forever; Maester Cloud, in the menu, is the paid edition (its price is on the site's pricing page). Last commit on the default branch: 2026-11-17 (GitHub API)."
+  notes: "Publisher from the footer's copyright line. The module is MIT licensed and the page calls it free forever; Maester Cloud, in the menu, is the paid edition (its price is on the site's pricing page). As of 2026-11-25 the last commit on the default branch was dated 2026-11-17 (GitHub API)."
 
 - id: adalanche
   name: "Adalanche"
@@ -239,7 +240,7 @@
     status: 200
     final: "https://github.com/lkarlslund/Adalanche"
     how: script
-  notes: "The README marks some features as paid and points to the NetSection website for that version. The open source edition is AGPL-3.0. Last commit on the default branch: 2026-10-29 (GitHub API)."
+  notes: "The README marks some features as paid and points to the NetSection website for that version. The open source edition is AGPL-3.0. As of 2026-11-25 the last commit on the default branch was dated 2026-10-29 (GitHub API)."
 
 - id: ncsc-zero-trust-architecture
   name: "Zero trust architecture design principles"
@@ -248,7 +249,7 @@
   section: zero-trust-and-privileged-access
   kind: reference
   cost: free
-  description: "Principles for building a zero trust network, from knowing your architecture and identities through policy-based authorization and monitoring to trusting no network, your own included."
+  description: "One page of the NCSC's zero trust collection, listing its design principles, including knowing your architecture and identities, policy-based authorization, monitoring, and trusting no network."
   checked:
     date: "2026-11-25"
     status: 200
@@ -277,7 +278,7 @@
   section: zero-trust-and-privileged-access
   kind: documentation
   cost: free
-  description: "Overview of Microsoft's privileged access strategy, with a rapid modernization plan for quick wins, best practices, and industry references including NCSC, ACSC, and MITRE ATT&CK."
+  description: "Overview of Microsoft's privileged access strategy, with material including a rapid modernization plan, best practices, and industry references from NCSC, ACSC, and MITRE ATT&CK."
   checked:
     date: "2026-11-25"
     status: 200
@@ -291,7 +292,7 @@
   section: passwords-and-secrets
   kind: service
   cost: free
-  description: "Checks whether a password appears in known breaches, by web form, by an API built on k-anonymity, or offline with the open source downloader."
+  description: "Lookup of passwords seen in breaches, offered as a web form, an API that uses k-anonymity, and an open source downloader for offline use."
   checked:
     date: "2026-11-25"
     status: 200
@@ -321,7 +322,7 @@
   section: passwords-and-secrets
   kind: reference
   cost: free
-  description: "Directions for rolling dice against EFF's long wordlist to build a passphrase, with notes on when to use one and on the different wordlists."
+  description: "Directions for rolling dice against EFF's long wordlist to build a passphrase, with notes including when to use one and how the wordlists differ."
   checked:
     date: "2026-11-25"
     status: 200
@@ -335,13 +336,13 @@
   section: passwords-and-secrets
   kind: tool
   cost: free
-  description: "Password manager for Windows, macOS, and Linux that keeps entries in an encrypted file you store yourself and auto-fills them into other applications."
+  description: "Password manager for Windows, macOS, and Linux that keeps entries in an encrypted file you store yourself, with no cloud service; open source under GPLv3."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://keepassxc.org/"
     how: script
-  notes: "Publisher from the footer's copyright line and the author tag. The footer says KeePassXC is released under the GPLv3."
+  notes: "Publisher from the footer's copyright line and the author tag. The footer says KeePassXC is released under the GPLv3. The imprint on the team page names one maintainer as the legal contact."
 
 - id: bitwarden
   name: "Bitwarden"
@@ -350,7 +351,7 @@
   section: passwords-and-secrets
   kind: service
   cost: freemium
-  description: "Password manager with a free personal account; paid plans add sharing and event logs for teams, and single sign-on, policies, and self-hosting for enterprises."
+  description: "Password manager with free personal accounts; paid plans add features including sharing and event logs for teams and single sign-on, policies, and self-hosting for enterprises."
   checked:
     date: "2026-11-25"
     status: 200
@@ -371,6 +372,7 @@
     status: 200
     final: "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html"
     how: script
+  notes: "The page's footer names the Cheat Sheets Series Team as copyright holder; the publisher is from the project page, https://owasp.org/www-project-cheat-sheets/, read on 2026-11-25, whose title ends OWASP Foundation."
 
 - id: owasp-secrets-management-cheat-sheet
   name: "Secrets Management Cheat Sheet"
@@ -385,6 +387,7 @@
     status: 200
     final: "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html"
     how: script
+  notes: "The page's footer names the Cheat Sheets Series Team as copyright holder; the publisher is from the project page, https://owasp.org/www-project-cheat-sheets/, read on 2026-11-25, whose title ends OWASP Foundation."
 
 - id: gitleaks
   name: "Gitleaks"
@@ -395,18 +398,18 @@
   cost: free
   maintenance:
     state: maintenance-mode
-  description: "Command-line scanner for hard-coded secrets in git repositories, directories and files, or standard input, with a pre-commit hook, baselines for known findings, and configurable rules."
+  description: "Command-line scanner for secrets in git repositories, directories and files, or standard input, with features including a pre-commit hook, baselines, and configurable rules."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/gitleaks/gitleaks"
     how: script
-  notes: "Publisher is the GitHub organization that owns the repository. MIT license. The README says the project is feature complete and that future releases will carry security patches only; its author adds that he is moving to a new project, Betterleaks. Last commit on the default branch: 2026-10-23 (GitHub API)."
+  notes: "Publisher is the GitHub organization that owns the repository. MIT license. The README says the project is feature complete and that future releases will carry security patches only; its author adds that he is moving to a new project, Betterleaks. As of 2026-11-25 the last commit on the default branch was dated 2026-10-23 (GitHub API)."
 
 - id: trufflehog
   name: "TruffleHog"
   url: "https://github.com/trufflesecurity/trufflehog"
-  publisher: "Truffle Security"
+  publisher: "Truffle Security Co."
   section: passwords-and-secrets
   kind: tool
   cost: freemium
@@ -416,7 +419,7 @@
     status: 200
     final: "https://github.com/trufflesecurity/trufflehog"
     how: script
-  notes: "Publisher is the GitHub organization that owns the repository. AGPL-3.0. The README has a section for TruffleHog Enterprise; the company's pricing page calls TruffleHog free and open source and prices Enterprise on request. Last commit on the default branch: 2026-11-24 (GitHub API)."
+  notes: "Publisher from the copyright line on the company's pricing page; the GitHub organization that owns the repository is shown as Truffle Security. AGPL-3.0. The README has a section for TruffleHog Enterprise; the pricing page calls TruffleHog free and open source and prices Enterprise on request. As of 2026-11-25 the last commit on the default branch was dated 2026-11-24 (GitHub API)."
 
 - id: sops
   name: "SOPS: Secrets OPerationS"
@@ -425,13 +428,13 @@
   section: passwords-and-secrets
   kind: tool
   cost: free
-  description: "Encrypts values in YAML, JSON, INI, and dotenv files while leaving keys readable, with identities including age, PGP, cloud key management services, and HashiCorp Vault."
+  description: "Tool for encrypting configuration files in YAML, JSON, INI, and dotenv formats, with identities including age, PGP, cloud key management services, and HashiCorp Vault."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://getsops.io/"
     how: script
-  notes: "Footer: copyright SOPS Authors, and a line that SOPS is a Cloud Native Computing Foundation sandbox project. Last commit on the default branch of getsops/sops: 2026-11-23 (GitHub API)."
+  notes: "Footer: copyright SOPS Authors, and a line that SOPS is a Cloud Native Computing Foundation sandbox project. As of 2026-11-25 the last commit on the default branch of getsops/sops was dated 2026-11-23 (GitHub API)."
 
 - id: nist-cryptographic-standards-and-guidelines
   name: "Cryptographic Standards and Guidelines"
@@ -497,7 +500,7 @@
   section: cryptography-and-pki
   kind: reference
   cost: free
-  description: "Explains why certificate authorities need watching and how append-only logs expose what they issue, with pages on logs, monitors, and user agents."
+  description: "Explains why certificate authorities need watching and how append-only logs expose what they issue, with pages including logs, monitors, and user agents."
   checked:
     date: "2026-11-25"
     status: 200
@@ -542,13 +545,13 @@
   section: cryptography-and-pki
   kind: tool
   cost: free
-  description: "Command-line file encryption and a Go library: encrypt to several recipients, a passphrase, or SSH keys, with post-quantum keys and inspection of encrypted files."
+  description: "File encryption for the command line and for Go programs, with usage including several recipients, passphrases, SSH keys, post-quantum keys, and inspecting encrypted files."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/FiloSottile/age"
     how: script
-  notes: "Publisher is the GitHub account that owns the repository. BSD-3-Clause. Last commit on the default branch: 2026-08-29 (GitHub API)."
+  notes: "Publisher is the GitHub account that owns the repository. BSD-3-Clause. As of 2026-11-25 the last commit on the default branch was dated 2026-08-29 (GitHub API)."
 
 - id: gnupg
   name: "The GNU Privacy Guard"
@@ -557,13 +560,13 @@
   section: cryptography-and-pki
   kind: tool
   cost: free
-  description: "Home of the OpenPGP implementation GnuPG: release announcements and security advisories for it, Libgcrypt, and Gpg4win, plus downloads, manuals, and guides."
+  description: "Home of GnuPG, the OpenPGP implementation: releases and security advisories for it and related software, including Libgcrypt, Gpg4win, and GPGME, plus downloads and documentation."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://gnupg.org/"
     how: script
-  notes: "Publisher from the page's dc.publisher tag and its copyright line. The page says GnuPG is free software under the GNU General Public License."
+  notes: "Publisher from the page's dc.publisher tag and its copyright line. The Imprint, linked from the footer, says GnuPG is a community project and not a legal entity, and names g10 Code GmbH as the legal entity behind it. The page says GnuPG is free software under the GNU General Public License."
 
 - id: libsodium-documentation
   name: "The Sodium crypto library (libsodium)"
@@ -610,7 +613,7 @@
     status: 200
     final: "https://docs.tlsref.org/"
     how: script
-  notes: "The MozillaWiki page Security/Server Side TLS now says its public guidelines have moved to this project, which a community working group manages outside Mozilla. Publisher is the name in the footer and of the GitHub organization. Last commit on the default branch of tlsref/docs: 2026-06-11 (GitHub API)."
+  notes: "The MozillaWiki page Security/Server Side TLS now says its public guidelines have moved to this project, which a community working group manages outside Mozilla. Publisher is the name in the footer and of the GitHub organization. As of 2026-11-25 the last commit on the default branch of tlsref/docs was dated 2026-06-11 (GitHub API)."
 
 - id: tlsref-configurator
   name: "TLS Configurator"
@@ -621,7 +624,7 @@
   section: cryptography-and-pki
   kind: service
   cost: free
-  description: "Pick server software such as Apache, nginx, HAProxy, or Postfix, a profile, and the server and OpenSSL versions, and it writes a matching TLS configuration."
+  description: "TLS configuration form: a server software list including Apache, nginx, HAProxy, and Postfix, the Modern, Intermediate, and Old profiles, and server and OpenSSL version fields."
   checked:
     date: "2026-11-25"
     status: 200
@@ -650,7 +653,7 @@
   section: data-protection-and-privacy
   kind: reference
   cost: free
-  description: "Official Journal text of the EU's data protection regulation in the Union's languages as HTML and PDF, with links to consolidated versions and a summary."
+  description: "Official Journal text of the EU's data protection regulation in the Union's languages as HTML and PDF, with links including consolidated versions and a summary."
   checked:
     date: "2026-11-25"
     status: 200
@@ -680,7 +683,7 @@
   section: data-protection-and-privacy
   kind: tool
   cost: free
-  description: "Disk encryption for Windows, macOS, and Linux, including file containers mounted as drives, partitions or devices, Windows system drive with pre-boot authentication, and hidden volumes."
+  description: "Encrypts file containers mounted as drives, partitions or devices, and Windows system drives with pre-boot authentication, among other features; runs on Windows, macOS, and Linux."
   checked:
     date: "2026-11-25"
     status: 200
@@ -695,13 +698,13 @@
   section: data-protection-and-privacy
   kind: tool
   cost: freemium
-  description: "Encrypts files on your device before they reach cloud storage, in vaults unlocked by password; desktop is free, mobile and team editions are paid."
+  description: "Encrypts files before they reach cloud storage, in vaults unlocked by password; desktop is free, while mobile write access and hosted team plans are paid."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://cryptomator.org/"
     how: script
-  notes: "Publisher from the site's Impressum. The page says the desktop version is free and that the mobile apps carry a fee; Cryptomator Hub, for teams, is offered with a free trial."
+  notes: "Cost from the pricing page, read 2026-11-25: the desktop app is free with full access; the free Android and iOS versions are read-only and full access is a one-time purchase on each; Cryptomator Hub has a free self-hosted Community tier with 5 seats, a hosted Standard plan priced per seat with a 30-day trial, and an Enterprise plan. Publisher from the site's Impressum."
 
 - id: nwipe
   name: "nwipe"
@@ -710,13 +713,13 @@
   section: data-protection-and-privacy
   kind: tool
   cost: free
-  description: "Linux disk eraser with a choice of overwrite methods and random number generators, ATA and NVMe secure erase, and instructions for a bootable USB version."
+  description: "Linux disk eraser whose README covers topics including erasure methods, random number generators, ATA and NVMe secure erase, compiling, and ShredOS for a bootable image."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/martijnvanbrummelen/nwipe"
     how: script
-  notes: "Publisher is the GitHub account that owns the repository. GPL-2.0. Last commit on the default branch: 2026-11-15 (GitHub API)."
+  notes: "Publisher is the GitHub account that owns the repository. GPL-2.0. The README points to the separate ShredOS project for a bootable image and leaves the instructions to it. As of 2026-11-25 the last commit on the default branch was dated 2026-11-25 (GitHub API)."
 
 - id: privacy-guides
   name: "Privacy Guides"
@@ -725,13 +728,13 @@
   section: data-protection-and-privacy
   kind: reference
   cost: free
-  description: "Volunteer-run site with a knowledge base that includes threat modeling, tool and service recommendations by category, news, and a forum."
+  description: "Volunteer-run site with sections including a knowledge base, tool and service recommendations by category, news, and a forum."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.privacyguides.org/en/"
     how: script
-  notes: "The footer's copyright line names Jonah Aragon, Daniel Gray, and the Privacy Guides contributors, and calls the site non-profit."
+  notes: "The footer's copyright line names Jonah Aragon, Daniel Gray, and the Privacy Guides contributors, and calls the site non-profit. The About page says a volunteer executive committee manages the MAGIC Privacy Guides Fund."
 
 - id: nist-sp-800-207
   name: "NIST SP 800-207"
@@ -755,7 +758,7 @@
   section: cryptography-and-pki
   kind: standard
   cost: free
-  description: "Key management guidance including key types and usage, cryptoperiods, algorithm and key-size selection, protection requirements, key states and transitions, and phases from pre-operational to destroyed."
+  description: "Sections include key types and usage, cryptoperiods, algorithm and key-size selection, protection requirements, key states and transitions, and management phases from pre-operational to destroyed."
   checked:
     date: "2026-11-25"
     status: 200
@@ -785,7 +788,7 @@
   section: active-directory-and-entra-defense
   kind: reference
   cost: free
-  description: "Graded list of Active Directory weaknesses for scoring a forest, with descriptions, recommended measures, and a changelog; French, with an English toggle."
+  description: "Graded list of Active Directory weaknesses for scoring a forest, including descriptions, recommended measures, an FAQ, and a changelog; French, with an English toggle."
   checked:
     date: "2026-11-25"
     status: 200
@@ -800,7 +803,7 @@
   section: data-protection-and-privacy
   kind: tool
   cost: free
-  description: "Source repository for the Linux disk encryption utility and LUKS format, linking LUKS1 and LUKS2 specifications, release notes, an FAQ, and build requirements by distribution."
+  description: "Source repository for the Linux disk encryption utility and LUKS format, with links including LUKS1 and LUKS2 specifications, release notes, an FAQ, and build requirements."
   checked:
     date: "2026-11-25"
     status: 200

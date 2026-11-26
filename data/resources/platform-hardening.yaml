@@ -8,7 +8,7 @@
   section: baselines-and-benchmarks
   kind: reference
   cost: free
-  description: "NCSC collection for organizations securing phones, tablets, laptops, and desktops, with guides for general readers and for IT administrators, pages by platform, and case studies."
+  description: "NCSC device guides in one collection: a general audience set, a set for IT administrators or managers, pages by device and platform, and case studies."
   checked:
     date: "2026-11-25"
     status: 200
@@ -51,7 +51,7 @@
   section: windows-hardening
   kind: documentation
   cost: free
-  description: "Microsoft's hub for Windows security documentation, with entry points for hardware security, operating system security, identity protection, application security, cloud services, security foundation, and privacy."
+  description: "Microsoft's Windows security hub, with entry points for hardware security, operating system security, application and agent security, identity protection, cloud services, security foundation, and privacy."
   checked:
     date: "2026-11-25"
     status: 200
@@ -80,7 +80,7 @@
   section: windows-hardening
   kind: documentation
   cost: free
-  description: "Entry point to Microsoft's App Control for Business and AppLocker documentation, including policy design, policy configuration, deployment, and troubleshooting of App Control events."
+  description: "Microsoft's App Control for Business and AppLocker documentation, grouped into overview, policy design, policy configuration, deployment, and troubleshooting."
   checked:
     date: "2026-11-25"
     status: 200
@@ -122,7 +122,7 @@
   section: windows-hardening
   kind: documentation
   cost: free
-  description: "Microsoft's overview of Credential Guard, which isolates credentials with virtualization-based security: where it is on by default, and hardware, licensing, and application requirements."
+  description: "Microsoft's overview of Credential Guard: where it is on by default on Windows and Windows Server, and its hardware and software, licensing, and application requirements."
   checked:
     date: "2026-11-25"
     status: 200
@@ -150,7 +150,7 @@
   section: windows-hardening
   kind: documentation
   cost: free
-  description: "Microsoft's audit policy recommendations for Windows workstations and servers, including recommended settings by operating system, events to monitor, and what to watch in Active Directory."
+  description: "Microsoft's audit policy page, including recommendations by operating system, setting the policy, events to monitor, and which Active Directory objects to watch."
   checked:
     date: "2026-11-25"
     status: 200
@@ -164,13 +164,13 @@
   section: windows-hardening
   kind: tool
   cost: free
-  description: "PowerShell tool that checks a Windows configuration against finding lists and can harden it, with modes including Audit, Config, Backup, and HailMary."
+  description: "Runs finding lists against Windows in modes: Audit scores the system, Config reads its settings, HailMary applies a list, and GPO builds a Group Policy."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://github.com/scipag/HardeningKitty"
     how: script
-  notes: "Publisher: the repository is under the organization scipag, and its README says the stable version is signed with the code signing certificate of scip AG and comes from the Windows Hardening Project by Michael Schneider. MIT license. The last commit on the default branch is dated 2026-07-21, from GitHub's API on 2026-11-25."
+  notes: "Publisher: the repository is under the organization scipag, and its README says the stable version is signed with the code signing certificate of scip AG and comes from the Windows Hardening Project by Michael Schneider. MIT license. The last commit on the default branch is dated 2026-07-21, from GitHub's API on 2026-11-25. The README treats Backup as a switch used with Config mode, not as a mode, and marks the GPO mode experimental."
 
 - id: harden-windows-security
   name: "Harden Windows Security"
@@ -179,7 +179,7 @@
   section: windows-hardening
   kind: tool
   cost: free
-  description: "Home of the Harden System Security and AppControl Manager apps for Windows, which apply hardening through Microsoft's supported methods and manage App Control policies."
+  description: "Repository for two Windows apps, Harden System Security and AppControl Manager, with README sections including Microsoft Store installation, rationale, security recommendations, and a roadmap."
   checked:
     date: "2026-11-25"
     status: 200
@@ -194,7 +194,7 @@
   section: linux-and-container-hardening
   kind: documentation
   cost: freemium
-  description: "Canonical's documentation for USG, which audits and hardens Ubuntu against CIS Benchmark and DISA STIG profiles; it installs through the Ubuntu Pro client."
+  description: "Canonical's documentation for the USG tool: available profiles, installation through the Ubuntu Pro client, and separate guides for CIS and DISA STIG compliance."
   checked:
     date: "2026-11-25"
     status: 200
@@ -224,7 +224,7 @@
   section: linux-and-container-hardening
   kind: reference
   cost: free
-  description: "ArchWiki's recommendations for hardening Arch Linux, in sections including passwords, storage, user setup, mandatory access control, kernel hardening, sandboxing applications, and network and firewalls."
+  description: "ArchWiki's Security article, with sections including passwords, storage, user setup, mandatory access control, kernel hardening, sandboxing applications, and network and firewalls."
   checked:
     date: "2026-11-25"
     status: 200
@@ -255,7 +255,7 @@
   section: linux-and-container-hardening
   kind: tool
   cost: free
-  description: "Tool that checks a Linux kernel's Kconfig options, command line arguments, and sysctl parameters against hardening recommendations; it can also generate a Kconfig fragment."
+  description: "Compares a kernel's Kconfig file, command line, and sysctl settings with hardening recommendations; README sections include output modes, Kconfig fragment generation, and questions and answers."
   checked:
     date: "2026-11-25"
     status: 200
@@ -270,7 +270,7 @@
   section: linux-and-container-hardening
   kind: reference
   cost: free
-  description: "Book about SELinux, open source and kept as Markdown in a repository: read it on GitHub, or build EPUB, PDF, or HTML copies from source."
+  description: "SELinux reference kept as Markdown in a repository: read it on GitHub, download a pre-built release, or build your own EPUB, PDF, or HTML copy."
   checked:
     date: "2026-11-25"
     status: 200
@@ -281,7 +281,7 @@
 - id: apparmor
   name: "AppArmor Documentation"
   url: "https://apparmor.net/"
-  publisher: "AppArmor"
+  publisher: "AppArmor project (Canonical)"
   section: linux-and-container-hardening
   kind: documentation
   cost: free
@@ -291,7 +291,7 @@
     status: 200
     final: "https://apparmor.net/"
     how: script
-  notes: "Publisher is the project's own name. The page and its About page, both requested on 2026-11-25, carry no credit, copyright line, or owner tag; the footer reads Made with Zensical, and the source link goes to apparmor/apparmor on GitLab."
+  notes: "Publisher: the home page says AppArmor's development has been supported by Canonical since 2009, and the site's History page says Canonical picked up its maintenance and development in May 2009; no page says who runs apparmor.net itself. The footer reads Made with Zensical and carries no copyright line, and the source link goes to apparmor/apparmor on GitLab."
 
 - id: mozilla-openssh-guidelines
   name: "OpenSSH guidelines"
@@ -300,7 +300,7 @@
   section: linux-and-container-hardening
   kind: reference
   cost: free
-  description: "Mozilla's configuration guidelines for OpenSSH servers and clients, including modern and intermediate settings, multi-factor authentication, cipher and algorithm choices, key generation, and key protection."
+  description: "Mozilla's OpenSSH settings by profile, including modern and intermediate server and client configurations, multi-factor authentication, cipher and algorithm choices, key generation, and key protection."
   checked:
     date: "2026-11-25"
     status: 200
@@ -315,13 +315,13 @@
   section: linux-and-container-hardening
   kind: reference
   cost: free
-  description: "Step-by-step SSH hardening commands for named operating system releases, in server, client, community-developed, and legacy groups, from the makers of ssh-audit."
+  description: "Step-by-step SSH hardening commands for named systems and releases, in server, client, community-developed, and legacy groups."
   checked:
     date: "2026-11-25"
     status: 200
     final: "https://www.ssh-audit.com/hardening_guides.html"
     how: script
-  notes: "Publisher in the form the catalog's ssh-audit entry uses, from the footer copyright of the site's home page; this page has no footer text of its own."
+  notes: "Publisher in the form the catalog's ssh-audit entry uses, from the footer copyright of the site's home page; this page has no footer text of its own. The home page says its scanning is done with the ssh-audit tool and links that tool's repository, which is under another account; the community-developed guides cover products such as Dropbear as well as operating system releases."
 
 - id: fail2ban
   name: "Fail2Ban"
@@ -330,7 +330,7 @@
   section: linux-and-container-hardening
   kind: tool
   cost: free
-  description: "Log-watching daemon that blocks addresses with too many failed logins; the repository gives installation and configuration steps, contact channels, and the license."
+  description: "Bans addresses through firewall rules when its log scans find repeated login failures; the README includes installation, configuration, documentation links, contact channels, and the license."
   checked:
     date: "2026-11-25"
     status: 200
@@ -345,7 +345,7 @@
   section: linux-and-container-hardening
   kind: tool
   cost: free
-  description: "Host integrity checker that records file attributes and message digests in a database and reports later changes; the site lists features, packages, and help channels."
+  description: "File integrity checker that compares files with a stored database of attributes and digests; the site includes features, packages, signed source downloads, and help channels."
   checked:
     date: "2026-11-25"
     status: 200
@@ -366,7 +366,7 @@
     status: 200
     final: "https://usbguard.github.io/"
     how: script
-  notes: "Publisher is the project's own name. The page carries no credit, copyright line, or owner tag. Its source links point to github.com/dkopecek/usbguard, which GitHub redirects to the organization USBGuard. GPL-2.0 per the repository's license field. The last commit on the default branch is dated 2026-09-07, from GitHub's API on 2026-11-25."
+  notes: "Publisher is the project's own name. The page carries no credit, copyright line, or owner tag. Its source links point to github.com/dkopecek/usbguard, which GitHub redirects to the organization USBGuard. GPL-2.0 per the repository's license field. The last commit on the default branch is dated 2026-09-07, from GitHub's API on 2026-11-25. The site lags the project: it lists 1.0.0 as the latest release, while the repository's latest release is usbguard-1.1.4 of 2025-07-15, and the site's own repository was last committed to on 2023-04-12 (GitHub API, read 2026-11-25). The USBGuard organization has no display name on GitHub."
 
 - id: docker-engine-security
   name: "Docker Engine security"
@@ -405,7 +405,7 @@
   section: linux-and-container-hardening
   kind: documentation
   cost: free
-  description: "Kubernetes' baseline security checklist, covering network security, authentication and authorization, secrets, images, pod security and placement, admission controllers, and logs and auditing."
+  description: "Checklist from Kubernetes documentation with items grouped under network security, authentication and authorization, secrets, images, pod security and placement, admission controllers, and logs and auditing."
   checked:
     date: "2026-11-25"
     status: 200
@@ -420,7 +420,7 @@
   section: macos-and-mobile-hardening
   kind: dataset
   cost: free
-  description: "Home of mSCP, open source security guidance for Apple operating systems: how-to guides for generating configuration profiles, compliance scripts, baselines, and guidance documents."
+  description: "Documentation for mSCP on visionOS, iPadOS, iOS, and macOS: how-to guides for generating baselines, guidance, configuration profiles, and compliance scripts, a repository reference, and FAQ."
   checked:
     date: "2026-11-25"
     status: 200
@@ -449,7 +449,7 @@
   section: macos-and-mobile-hardening
   kind: reference
   cost: free
-  description: "Community guide to hardening Apple silicon Macs running macOS, in sections including threat model, FileVault, Lockdown Mode, firewall, DNS, browsers, and malware."
+  description: "Single-page guide in a repository, with sections including threat model, FileVault, Lockdown Mode, firewall, DNS, browsers, and malware, for Apple silicon Macs."
   checked:
     date: "2026-11-25"
     status: 200
@@ -464,7 +464,7 @@
   section: macos-and-mobile-hardening
   kind: tool
   cost: free
-  description: "Free, open source macOS security tools, including the LuLu firewall, BlockBlock and KnockKnock for persistence, ReiKey for keyboard event taps, and Netiquette for network connections."
+  description: "Download page for Mac tools, including the LuLu firewall, BlockBlock and KnockKnock for persistence, ReiKey for keyboard event taps, and Netiquette for network connections."
   checked:
     date: "2026-11-25"
     status: 200
@@ -479,7 +479,7 @@
   section: macos-and-mobile-hardening
   kind: documentation
   cost: free
-  description: "Apple's article on Lockdown Mode, including who it is for, what it restricts, enabling it on iPhone, iPad, or Mac, and excluding apps or websites."
+  description: "Apple's article on Lockdown Mode, including what it restricts, how to enable it on iPhone, iPad, or Mac, and excluding websites, apps, or contacts."
   checked:
     date: "2026-11-25"
     status: 200
@@ -505,7 +505,7 @@
 - id: grapheneos
   name: "GrapheneOS features overview"
   url: "https://grapheneos.org/features"
-  publisher: "GrapheneOS"
+  publisher: "GrapheneOS Foundation"
   section: macos-and-mobile-hardening
   kind: documentation
   cost: free
@@ -515,7 +515,7 @@
     status: 200
     final: "https://grapheneos.org/features"
     how: script
-  notes: "Publisher is the project's own name: the footer reads GrapheneOS, the page calls it a non-profit project, and https://grapheneos.org/faq, read on 2026-11-25, says the name and logo are trademarks of the GrapheneOS project."
+  notes: "Publisher from https://grapheneos.org/donate, read on 2026-11-25, which directs donations to the non-profit GrapheneOS Foundation. The footer of the features page reads GrapheneOS, and https://grapheneos.org/faq says the name and logo are trademarks of the GrapheneOS project."
 
 - id: lynis
   name: "Lynis"
@@ -524,7 +524,7 @@
   section: audit-and-assessment-tools
   kind: tool
   cost: freemium
-  description: "Tool that audits a Linux, macOS, or Unix host and suggests hardening steps, with sections including tests, plugins, and supported standards; Lynis Enterprise is paid."
+  description: "Introduction to the Lynis audit tool, with sections including supported operating systems, audit steps, tests, plugins, supported standards, and installation; Lynis Enterprise is paid."
   checked:
     date: "2026-11-25"
     status: 200
@@ -539,7 +539,7 @@
   section: audit-and-assessment-tools
   kind: dataset
   cost: free
-  description: "Builds security policy content as SCAP, Ansible, and Bash; README sections include scan targets, installing from packages, release ZIPs, or source, and scanning with oscap."
+  description: "Repository of security policy content, with README sections including installation from packages, release ZIPs, or source, and usage with oscap, SCAP Workbench, Ansible, and Bash."
   checked:
     date: "2026-11-25"
     status: 200
@@ -554,7 +554,7 @@
   section: audit-and-assessment-tools
   kind: dataset
   cost: free
-  description: "Open source hardening baselines for servers and services, including Linux, SSH, Docker, MySQL, PostgreSQL, Apache, and Nginx, published for Ansible, Chef, and Puppet."
+  description: "Hardening baselines for servers and services, including Linux, SSH, Docker, MySQL, and Nginx, as InSpec test profiles with remediation code for Ansible, Chef, or Puppet."
   checked:
     date: "2026-11-25"
     status: 200
@@ -569,7 +569,7 @@
   section: audit-and-assessment-tools
   kind: tool
   cost: free
-  description: "YAML-based validator for a server's configuration that can generate tests from current system state and serve results as a health endpoint, with dgoss for containers."
+  description: "Server validation tool whose README includes installation, a quick start that writes an sshd test, supported resources and output formats, a container image, and limitations."
   checked:
     date: "2026-11-25"
     status: 200
@@ -584,7 +584,7 @@
   section: audit-and-assessment-tools
   kind: dataset
   cost: free
-  description: "A commented auditd rule set meant as a baseline for major Linux distributions, with notes on its coverage, validation, sources, and related projects."
+  description: "An audit.rules file for the Linux audit daemon, with README sections including coverage, related projects, validation, the UID_MIN setting, and sources."
   checked:
     date: "2026-11-25"
     status: 200
@@ -614,7 +614,7 @@
   section: baselines-and-benchmarks
   kind: standard
   cost: free
-  description: "Covers threats to enterprise mobile devices and their management systems, device-side and enterprise security technologies, mitigations, and a deployment life cycle from requirements to disposal."
+  description: "Covers mobile device characteristics, threats to devices and their management systems, device-side and enterprise security technologies, mitigations, and the deployment life cycle through disposal."
   checked:
     date: "2026-11-25"
     status: 200
@@ -644,7 +644,7 @@
   section: baselines-and-benchmarks
   kind: dataset
   cost: free
-  description: "Searchable repository of security configuration checklists, filtered by type, issuing authority, target product, content type, and tool compatibility, with download links."
+  description: "Searchable repository of security configuration checklists, filtered by keyword, type, issuing authority, target product, content type, and tool compatibility, with download links."
   checked:
     date: "2026-11-25"
     status: 200

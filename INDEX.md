@@ -69,7 +69,7 @@
 | [Apache Tomcat security](https://tomcat.apache.org/security.html) | Apache Tomcat | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#open-source-infrastructure-software) | Advisory source | Free |
 | [APNIC](https://www.apnic.net/) | APNIC | [Networking and connectivity](domains/networking-and-connectivity.md#registries-and-numbering) | Organization | Freemium |
 | [APNIC Blog](https://blog.apnic.net/) | APNIC | [Networking and connectivity](domains/networking-and-connectivity.md#learning-and-community) | News | Free |
-| [AppArmor Documentation](https://apparmor.net/) | AppArmor | [Platform hardening](domains/platform-hardening.md#linux-and-container-hardening) | Vendor documentation | Free |
+| [AppArmor Documentation](https://apparmor.net/) | AppArmor project (Canonical) | [Platform hardening](domains/platform-hardening.md#linux-and-container-hardening) | Vendor documentation | Free |
 | [Apple Developer Releases](https://developer.apple.com/news/releases/) | Apple | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Reference | Free |
 | [Apple Device Management documentation](https://developer.apple.com/documentation/devicemanagement) | Apple | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Vendor documentation | Free |
 | [Apple Platform Deployment](https://support.apple.com/guide/deployment/welcome/web) | Apple | [Endpoint and device management](domains/endpoint-and-device-management.md#apple-device-management) | Vendor documentation | Free |
@@ -241,7 +241,7 @@
 | [Citrix Support (security bulletins)](https://support.citrix.com/support-home/home) | Citrix | [Vendor advisories and PSIRTs](domains/vendor-advisories.md#network-security-and-edge-device-vendors) | Advisory source | Free |
 | [Clair](https://github.com/quay/clair) | Quay | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [ClearlyDefined](https://clearlydefined.io/) | Open Source Initiative | [Product lifecycle, licensing, and support](domains/product-lifecycle-licensing-and-support.md#licensing-references) | Dataset or feed | Free |
-| [Clonezilla](https://clonezilla.org/) \* | Clonezilla | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
+| [Clonezilla](https://clonezilla.org/) | Clonezilla | [Endpoint and device management](domains/endpoint-and-device-management.md#packaging-imaging-and-software-deployment) | Tool | Free |
 | [Cloud Adoption Framework for Microsoft](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/) | Microsoft | [Cloud platform administration](domains/cloud-platform-administration.md#microsoft-azure) | Standard | Free |
 | [Cloud Architecture Center](https://docs.cloud.google.com/architecture) | Google | [Cloud platform administration](domains/cloud-platform-administration.md#google-cloud) | Reference | Free |
 | [Cloud DNS documentation](https://docs.cloud.google.com/dns/docs) | Google Cloud | [Email, DNS, and collaboration](domains/email-dns-and-collaboration.md#dns-servers-and-services) | Vendor documentation | Free |
@@ -481,7 +481,7 @@
 | [Grafana Tempo documentation](https://grafana.com/docs/tempo/latest/) | Grafana Labs | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#tracing-and-open-standards) | Vendor documentation | Free |
 | [Graham Cluley: Writing](https://grahamcluley.com/writing/) | Graham Cluley (Cluley Associates Limited) | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) | Microsoft | [Microsoft 365 and Windows administration](domains/microsoft-365-and-windows-administration.md#admin-tools-and-references) | Online service | Free with account |
-| [GrapheneOS features overview](https://grapheneos.org/features) | GrapheneOS | [Platform hardening](domains/platform-hardening.md#macos-and-mobile-hardening) | Vendor documentation | Free |
+| [GrapheneOS features overview](https://grapheneos.org/features) | GrapheneOS Foundation | [Platform hardening](domains/platform-hardening.md#macos-and-mobile-hardening) | Vendor documentation | Free |
 | [Graylog Documentation](https://go2docs.graylog.org/current/home.htm) | Graylog | [Monitoring, logging, and observability](domains/monitoring-logging-and-observability.md#logs-and-log-pipelines) | Vendor documentation | Free |
 | [Greenbone Community Edition (OpenVAS)](https://greenbone.github.io/docs/latest/) | Greenbone | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [GreyNoise Blog](https://www.greynoise.io/blog) | GreyNoise | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
@@ -491,7 +491,7 @@
 | [Group-IB Blog](https://www.group-ib.com/blog/) | Group-IB | [Threat intelligence and adversaries](domains/threat-intelligence.md#research-blogs) | Research blog | Free |
 | [Grype](https://github.com/anchore/grype) | Anchore | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [GTFOBins](https://gtfobins.org/) | GTFOBins | [Offensive security](domains/offensive-security.md#cheat-sheets-payloads-and-utilities) | Reference | Free |
-| [Guide to Web Authentication](https://webauthn.guide/) | Duo Security | [Identity and data protection](domains/identity-and-data-protection.md#authentication-standards-and-guidance) | Reference | Free |
+| [Guide to Web Authentication](https://webauthn.guide/) | Duo Security (Cisco) | [Identity and data protection](domains/identity-and-data-protection.md#authentication-standards-and-guidance) | Reference | Free |
 
 ## H
 
@@ -527,7 +527,7 @@
 | [HTTP Observatory](https://developer.mozilla.org/en-US/observatory) | Mozilla | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Free |
 | [httpbin.org](https://httpbin.org/) | Postman | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Online service | Free |
 | [HTTPie](https://httpie.io/) | HTTPie, Inc. | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#packet-capture-and-http-debugging) | Tool | Free |
-| [httpstatus.io](https://httpstatus.io/) | Sander Heilbron | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Freemium |
+| [httpstatus.io](https://httpstatus.io/) | Crafted Code (Sander Heilbron) | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#web-and-tls-testers) | Online service | Freemium |
 | [Hurricane Electric BGP Toolkit](https://bgp.he.net/) | Hurricane Electric | [Threat intelligence and adversaries](domains/threat-intelligence.md#internet-scan-and-exposure-data) | Online service | Free |
 | [Hurricane Electric Looking Glass](https://lg.he.net/) | Hurricane Electric | [The troubleshooting toolbox](domains/troubleshooting-toolbox.md#network-reachability-and-speed) | Online service | Free |
 | [Hybrid Analysis](https://hybrid-analysis.com/) | CrowdStrike | [DFIR and malware analysis](domains/dfir-and-malware-analysis.md#sandboxes-and-sample-analysis) | Online service | Free |
@@ -1200,7 +1200,7 @@
 | [Trivy](https://github.com/aquasecurity/trivy) | Aqua Security | [Vulnerability management](domains/vulnerability-management.md#scanners) | Tool | Free |
 | [Troy Hunt](https://www.troyhunt.com/) | Troy Hunt | [News and research](domains/news-and-research.md#analysis-newsletters-and-podcasts) | News | Free |
 | [TrueNAS Documentation Hub](https://www.truenas.com/docs/) | iXsystems (TrueNAS) | [Servers, virtualization, and storage](domains/servers-virtualization-and-storage.md#storage-and-hardware) | Vendor documentation | Free |
-| [TruffleHog](https://github.com/trufflesecurity/trufflehog) | Truffle Security | [Identity and data protection](domains/identity-and-data-protection.md#passwords-and-secrets) | Tool | Freemium |
+| [TruffleHog](https://github.com/trufflesecurity/trufflehog) | Truffle Security Co. | [Identity and data protection](domains/identity-and-data-protection.md#passwords-and-secrets) | Tool | Freemium |
 | [TryHackMe](https://tryhackme.com/) | TryHackMe | [Labs and training](domains/labs-and-training.md#offensive-practice-labs) | Training or lab | Freemium |
 
 ## U

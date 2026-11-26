@@ -73,7 +73,7 @@ How do I get software and images onto devices?
 | [Scoop](https://scoop.sh/) | Scoop | Installs Windows programs from a PowerShell prompt without elevation prompts or installer wizards, and resolves their dependencies. | Tool | Free |
 | [Homebrew](https://brew.sh/) | Homebrew | Package manager that installs software from the command line. | Tool | Free |
 | [PSAppDeployToolkit](https://psappdeploytoolkit.com/) | PSAppDeployToolkit | Toolkit for enterprise application deployment, with its own branded user dialogs. | Tool | Free |
-| [Clonezilla](https://clonezilla.org/) \* | Clonezilla | Program for imaging and cloning disks and partitions, in a live edition for one machine and a server edition for deploying to many at once. | Tool | Free |
+| [Clonezilla](https://clonezilla.org/) | Clonezilla | Program for imaging and cloning disks and partitions, in a live edition for one machine and server editions for deploying many at once. | Tool | Free |
 | [FOG Project](https://fogproject.org/) | FOG Project | Open source project for capturing and deploying Windows, Mac, and Linux images to computers over a network, and managing them remotely. | Tool | Free |
 | [Rufus](https://rufus.ie/) | Pete Batard (Akeo Consulting) | Utility that writes an operating system image to a USB drive so that a computer can boot from it. | Tool | Free |
 | [Ventoy](https://www.ventoy.net/) | longpanda | Prepares a USB drive once, after which you copy disk images onto it and choose one from a boot menu; open source. | Tool | Free |
@@ -88,4 +88,4 @@ Who explains it well?
 | [MSEndpointMgr](https://msendpointmgr.com/) | MSEndpointMgr | Group blog on Intune, Configuration Manager, Windows, and identity, with the site's own tools such as Modern Driver Management and Intune App Factory. | News | Free |
 | [HTMD Community](https://www.anoopcnair.com/) | Anoop C Nair | Blog on Configuration Manager, Intune, and Windows device management. | News | Free |
 
-Of the 39 addresses on this page, 38 were opened and read on 2026-11-25. The one marked \* refused every client used for checking, a script and a browser, so that entry was written from another page of the same publisher: its feed, its documentation, its vendor site, or its repository. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).
+Every address on this page was opened and read on 2026-11-25. Kind and Cost are defined in the [README](../README.md#how-to-read-an-entry).

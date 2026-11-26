@@ -827,7 +827,7 @@
   section: operating-systems-and-platforms
   kind: reference
   cost: free
-  description: "Per-milestone dates for Chrome and ChromeOS: branch point, beta promotion, early stable and stable cuts and releases, and ChromeOS feature freeze, all marked approximate."
+  description: "Per-milestone dates for Chrome and ChromeOS, including branch point, beta promotion, early stable and stable cuts and releases, and ChromeOS feature freeze, all marked approximate."
   checked:
     date: "2026-11-25"
     status: 200
