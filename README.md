@@ -3,7 +3,7 @@
 A checked catalog of cybersecurity and enterprise IT resources, organized by domain, with a compact bookmark set that you can import into a browser.
 
 <!-- counts:start (written by scripts/build.py; do not edit) -->
-The catalog holds 1203 resources in 30 domains. 1197 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 292 bookmarks in 12 folders. The data also keeps 6 records that are not shown, because the address is retired, could not be read at the last check, or is held out for safety.
+The catalog holds 1203 resources in 30 domains. 1197 were opened and read before they were described. The other 6 refused every client used for checking, so each was described from another page of the same publisher and is marked \* on its domain page. The compact bookmark set holds 493 bookmarks in 15 folders. The data also keeps 6 records that are not shown, because the address is retired, could not be read at the last check, or is held out for safety.
 <!-- counts:end -->
 
 Each entry gives the resource's own name, who runs it, one sentence on what it is and when you reach for it, what kind of thing it is, and what it costs. For references, how-to guides, and learning paths on the same subjects, see the [TeamStarWolf library](https://github.com/TeamStarWolf/TeamStarWolf).
@@ -190,7 +190,7 @@ An address that cannot be read is not described from memory. When a site refuses
 The link checks cannot read every site. An address that refuses automated clients is named in `data/link-check-ignore.yaml` with the reason and the date it was last opened by hand, and the link checks skip it. Passing the link check therefore says nothing about those addresses.
 
 <!-- link-check:start (written by scripts/build.py; do not edit) -->
-The ignore list holds 42 entries, 14 of which apply to the CI check alone. Together they cover 45 of the 1236 addresses the catalog publishes (3.6%). The validator fails if that share passes 10%.
+The ignore list holds 40 entries, 13 of which apply to the CI check alone. Together they cover 42 of the 1207 addresses the catalog publishes (3.5%). The validator fails if that share passes 10%.
 <!-- link-check:end -->
 
 Corrections are welcome through [issues](https://github.com/TeamStarWolf/cybersecurity-resources/issues) and pull requests.
